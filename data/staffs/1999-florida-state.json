@@ -1,0 +1,628 @@
+{
+  "team": "Florida State",
+  "season": 1999,
+  "coverage_notes": "SOURCES USED. (1) Wikipedia 1999 Florida State Seminoles football team page (has a 13-row coaching-staff table). (2) The school's own athletics site archived in-season on the Wayback Machine: the \"Florida State Staff Roster\" page captured 1999-11-18 (11 names) plus each coach's individual 1999 bio page captured Oct 1999 - Mar 2000. (3) The official 1999 Florida State Football Media Guide, scanned in full on the Internet Archive (item florida-state-football-1999-media-guide, 278 scanned pages) - this is what unlocked the support tiers: printed p. 44 (strength staff), p. 46 \"FOOTBALL STAFF\" (equipment + graduate assistants), p. 47 \"TRAINING STAFF\", p. 48 \"SUPPORT STAFF\" photo grid. (4) Contemporary/retrospective bios for corroboration (ESU Warriors for Demarest, FSU Athletics Hall of Fame for Oravetz, Wikipedia for Gabbard).\n\nWHAT IS FULLY RECOVERED. Head coach; all 9 on-field assistants (Amato, Andrews, J. Bowden, Gladden, Haggins, Heggins, Lilly, Richt, Sexton); the strength and conditioning coach; both football graduate assistants; the five strength and conditioning graduate assistants; both equipment managers; the sports medicine director and the two assistant trainers assigned to football; and the entire 20-person \"SUPPORT STAFF\" grid (physicians, dentist, optometrist, chiropractor, security, video, chaplain, dietician, dorm supervisor, and the recruiting/secretarial/football-operations staff). Total 43 people.\n\nWHAT I COULD NOT RECOVER, PLAINLY. (a) ANALYST and QUALITY CONTROL tiers: none exist. Those job categories did not exist at FSU in 1999 under then-current NCAA staff limits, and the media guide lists no such positions. Zero rows in those categories is a real finding, not a gap. (b) Randy Oravetz's bio states he \"leads a staff of six full-time assistant trainers and a large group of student trainers\" - only the two with football-specific duties (Duane Brooks, David Walls) are named individually anywhere I could find. The other four full-time assistant trainers are undocumented by name. (c) Student managers are referenced in aggregate (\"A large staff of student managers, supervised by Callaway\") but never named. Same for student athletic trainers. (d) Football-specific academic support staff are not listed in the football media guide and I found no archived athletics-department staff directory from 1999-2000 (the seminoles.com/genrel captures contain no staff directory).\n\nQUOTE CAVEATS. The 1999 media guide exists only as an image scan. For people whose auto-OCR transcription is faithful I cite the Internet Archive's plain-text OCR file (_djvu.txt) with the exact OCR string, and flag in the note that the string is OCR (some words are misrendered, e.g. \"Asistont\", \"ffh\"). For the printed p. 48 SUPPORT STAFF photo grid the OCR interleaves the grid's five columns and corrupts several names (it renders \"MARK RODIN\" as \"MARK Croom\" and merges \"DR. DOUG HENDERSON\"/\"DR. KRIS STOWERS\" into \"DR. KRIS HENDERSON\"), and it drops \"DEBRA CREWS\" and \"RANDY ORAVETZ\" entirely - so for those rows I set quote to \"\" per instruction and read the name and title directly off the page image. Every such row was visually verified at high resolution against the original scan; none are inferred.\n\nRING-RULE EDGE CASE. Chuck Amato was named NC State's head coach on January 6, 2000 - two days AFTER the January 4, 2000 Sugar Bowl. He coached the championship game as FSU's assistant head coach, so he is a full-season, championship-game member of the staff. No other arrivals or departures during the 1999 season were documented, so no row carries a midseason_note.\n\nROLE-WORDING NOTE. Where sources word a role differently I used the school's own in-season staff roster wording and recorded the variant in the source note (e.g. Odell Haggins is \"Defensive Line\" on the staff roster and in the media guide header but \"Defensive Tackles\" in the Position field of his own bio page; John Lilly is \"Tight Ends/Recruiting Coordinator\" on the roster and \"Tight Ends/ Recruiting Coordinator\" on his bio).",
+  "staff": [
+    {
+      "name": "Bobby Bowden",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19991118055402/http://seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-staff.html",
+          "quote": ", Head Coach",
+          "note": "Florida State's own \"Florida State Staff Roster\" page for football, captured in-season on 1999-11-18. The page markup is <A HREF=\"fsu-m-footbl-s-bowden.html\">Bobby Bowden</A>, Head Coach, so the quoted text node follows his linked name."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1999_Florida_State_Seminoles_football_team",
+          "quote": "Led by 24th-year head coach Bobby Bowden",
+          "note": "Article lead paragraph. The page's Personnel > Coaching staff table also lists him as Head coach, 24 seasons at Florida State, Howard College (1953)."
+        }
+      ]
+    },
+    {
+      "name": "Chuck Amato",
+      "role": "Assistant Head Coach/Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19991126043844/http://www.seminoles.com/sports/m-footbl/mtt/amato_chuck00.html",
+          "quote": "Assistant Head Coach/Linebackers",
+          "note": "Value of the \"Position:\" field on Amato's official 1999 FSU bio page (Wayback capture 1999-11-26). Same page lists \"Seasons at FSU: 18\"."
+        },
+        {
+          "url": "https://web.archive.org/web/19991126043844/http://www.seminoles.com/sports/m-footbl/mtt/amato_chuck00.html",
+          "quote": "Chuck Amato enters his 18th season as an assistant coach at Florida State and his 14th as assistant head coach to Bobby Bowden.",
+          "note": "Opening sentence of the bio body, confirming the 1999 season and the assistant head coach title."
+        },
+        {
+          "url": "https://web.archive.org/web/19991118055402/http://seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-staff.html",
+          "quote": "Assistant Head Coach Linebackers",
+          "note": "In-season staff roster wording (no slash), following his linked name."
+        }
+      ]
+    },
+    {
+      "name": "Mickey Andrews",
+      "role": "Defensive Coordinator/Defensive Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19991126061158/http://www.seminoles.com/sports/m-footbl/mtt/andrews_mickey00.html",
+          "quote": "Defensive Coordinator/Defensive Backs",
+          "note": "Value of the \"Position:\" field on Andrews' official 1999 FSU bio page (Wayback capture 1999-11-26)."
+        },
+        {
+          "url": "https://web.archive.org/web/19991126061158/http://www.seminoles.com/sports/m-footbl/mtt/andrews_mickey00.html",
+          "quote": "16th Season at FSU",
+          "note": "\"Experience:\" field on the same 1999 bio page, matching the media guide header ALABAMA '64 - 16TH SEASON AT FLORIDA STATE."
+        },
+        {
+          "url": "https://web.archive.org/web/19991118055402/http://seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-staff.html",
+          "quote": "Defensive Coordinator",
+          "note": "In-season staff roster wording, following his linked name."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Bowden",
+      "role": "Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19991126103550/http://www.seminoles.com/sports/m-footbl/mtt/bowden_jeff00.html",
+          "quote": "Wide Receivers",
+          "note": "Value of the \"Position:\" field on Jeff Bowden's official 1999 FSU bio page (Wayback capture 1999-11-26); \"Experience:\" reads 6th Season at FSU."
+        },
+        {
+          "url": "https://web.archive.org/web/19991126103550/http://www.seminoles.com/sports/m-footbl/mtt/bowden_jeff00.html",
+          "quote": "Jeff Bowden begins his sixth year on the staff with a receiving",
+          "note": "Bio body sentence (quote stops at the source's line break) establishing the 1999 season."
+        }
+      ]
+    },
+    {
+      "name": "Jim Gladden",
+      "role": "Defensive Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20000120185224/http://seminoles.com/sports/m-footbl/mtt/gladden_jim00.html",
+          "quote": "Defensive Ends",
+          "note": "Value of the \"Position:\" field on Gladden's 1999-season FSU bio page (Wayback capture 2000-01-20, i.e. between the regular season and the Sugar Bowl); \"Experience:\" reads 25th Season at FSU."
+        },
+        {
+          "url": "https://web.archive.org/web/20000120185224/http://seminoles.com/sports/m-footbl/mtt/gladden_jim00.html",
+          "quote": "It is a silver anniversary season for Jim Gladden on the Florida",
+          "note": "Bio body opening (quote stops at the source's line break); continues \"State coaching staff as the 1999 season will mark his 25th with the Seminoles.\""
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1999_Florida_State_Seminoles_football_team",
+          "quote": "Assistant Head Coach, Defensive Ends",
+          "note": "Wikipedia's coaching-staff table gives him the additional assistant head coach title; the school's own 1999 roster and media guide list him only as Defensive Ends."
+        }
+      ]
+    },
+    {
+      "name": "Odell Haggins",
+      "role": "Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19991118055402/http://seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-staff.html",
+          "quote": "Defensive Line",
+          "note": "In-season staff roster wording (captured 1999-11-18), following his linked name. Matches the media guide header ODELL HAGGINS / DEFENSIVE LINE on printed p. 38."
+        },
+        {
+          "url": "https://web.archive.org/web/20000305203229/http://www.seminoles.com/sports/m-footbl/mtt/haggins_odell00.html",
+          "quote": "Defensive Tackles",
+          "note": "Variant wording: the \"Position:\" field of Haggins' own 1999-season bio page reads Defensive Tackles; \"Experience:\" reads 6th Season at FSU."
+        }
+      ]
+    },
+    {
+      "name": "Jimmy Heggins",
+      "role": "Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19991125003813/http://www.seminoles.com/sports/m-footbl/mtt/heggins_jimmy00.html",
+          "quote": "Offensive Line",
+          "note": "Value of the \"Position:\" field on Heggins' official 1999 FSU bio page (Wayback capture 1999-11-25); \"Experience:\" reads 14th Season at FSU."
+        },
+        {
+          "url": "https://web.archive.org/web/19991125003813/http://www.seminoles.com/sports/m-footbl/mtt/heggins_jimmy00.html",
+          "quote": "Jimmy Heggins begins his sixth season as offensive line coach at",
+          "note": "Bio body opening (quote stops at the source's line break); continues \"Florida State and his 14th overall on the FSU staff.\""
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1999_Florida_State_Seminoles_football_team",
+          "quote": "Assistant Head Coach, Offensive Line",
+          "note": "Wikipedia's coaching-staff table gives him an assistant head coach title; the school's own 1999 roster and media guide list him only as Offensive Line."
+        }
+      ]
+    },
+    {
+      "name": "John Lilly",
+      "role": "Tight Ends/Recruiting Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19991118055402/http://seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-staff.html",
+          "quote": "Tight Ends/Recruiting Coordinator",
+          "note": "In-season staff roster wording (captured 1999-11-18), following his linked name."
+        },
+        {
+          "url": "https://web.archive.org/web/19991125151413/http://www.seminoles.com/sports/m-footbl/mtt/lilly_john00.html",
+          "quote": "John Lilly begins his fifth season with the Florida State football",
+          "note": "Bio body opening (quote stops at the source's line break); continues \"program and his second as tight ends coach and recruiting coordinator.\" The bio's Position field words it \"Tight Ends/ Recruiting Coordinator\" with a space."
+        }
+      ]
+    },
+    {
+      "name": "Mark Richt",
+      "role": "Offensive Coordinator/Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19991126061316/http://www.seminoles.com/sports/m-footbl/mtt/richt_mark00.html",
+          "quote": "Offensive Coordinator/Quarterbacks",
+          "note": "Value of the \"Position:\" field on Richt's official 1999 FSU bio page (Wayback capture 1999-11-26); \"Experience:\" reads 14th Season at FSU."
+        },
+        {
+          "url": "https://web.archive.org/web/19991126061316/http://www.seminoles.com/sports/m-footbl/mtt/richt_mark00.html",
+          "quote": "Florida State offensive coordinator Mark Richt begins his sixth",
+          "note": "Bio body opening (quote stops at the source's line break); continues \"season as the man in charge of the Seminole offense and his 13th overall as the quarterbacks coach at FSU.\""
+        }
+      ]
+    },
+    {
+      "name": "Billy Sexton",
+      "role": "Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19991126074221/http://www.seminoles.com/sports/m-footbl/mtt/sexton_billy00.html",
+          "quote": "Running Backs",
+          "note": "Value of the \"Position:\" field on Sexton's official 1999 FSU bio page (Wayback capture 1999-11-26); \"Experience:\" reads 24th Season at FSU."
+        },
+        {
+          "url": "https://web.archive.org/web/19991126074221/http://www.seminoles.com/sports/m-footbl/mtt/sexton_billy00.html",
+          "quote": "The 1999 season will be Sexton's 17th as the Seminoles running backs",
+          "note": "Bio body sentence (quote stops at the source's line break) explicitly tying the running backs role to the 1999 season."
+        }
+      ]
+    },
+    {
+      "name": "Dave Van Halanger",
+      "role": "Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19991122175641/http://www.seminoles.com/sports/m-footbl/mtt/vanhalanger_dave00.html",
+          "quote": "Strength and Conditioning",
+          "note": "Value of the \"Position:\" field on Van Halanger's official 1999 FSU bio page (Wayback capture 1999-11-22); \"Experience:\" reads 17th Season at FSU."
+        },
+        {
+          "url": "https://web.archive.org/web/19991122175641/http://www.seminoles.com/sports/m-footbl/mtt/vanhalanger_dave00.html",
+          "quote": "conditioning coach Dave Van Halanger.",
+          "note": "Bio body: \"...a year-round strength program run by strength and conditioning coach Dave Van Halanger. The 17-year veteran of the Seminole coaching staff...\""
+        },
+        {
+          "url": "https://web.archive.org/web/19991118055402/http://seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-staff.html",
+          "quote": "Strength & Conditioning",
+          "note": "In-season staff roster wording (ampersand form), following his linked name."
+        }
+      ]
+    },
+    {
+      "name": "Mark Morrison",
+      "role": "Strength and conditioning graduate assistant",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1999-media-guide/Florida%20State%20football%2C%201999%20Media%20Guide_djvu.txt",
+          "quote": "assisted by Mark Morrison, Steve Tamborra, Eric",
+          "note": "OCR text of the official 1999 FSU Football Media Guide, printed p. 44 \"SEMINOLE STRENGTH & CONDITIONING\". Full passage on the scan reads: \"He is assisted by five graduate assistants who help maintain the weight room, work with basketball and olympic-sport program athletes, and also assist with the football team. Van Halanger will be assisted by Mark Morrison, Steve Tamborra, Eric Johnson, Russ Barbarino and Don Acosta in 1999.\" Verified against the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Steve Tamborra",
+      "role": "Strength and conditioning graduate assistant",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1999-media-guide/Florida%20State%20football%2C%201999%20Media%20Guide_djvu.txt",
+          "quote": "assisted by Mark Morrison, Steve Tamborra, Eric",
+          "note": "OCR text of the official 1999 FSU Football Media Guide, printed p. 44 \"SEMINOLE STRENGTH & CONDITIONING\", from the sentence naming Van Halanger's five 1999 strength and conditioning graduate assistants. Verified against the page image."
+        }
+      ]
+    },
+    {
+      "name": "Eric Johnson",
+      "role": "Strength and conditioning graduate assistant",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1999-media-guide/Florida%20State%20football%2C%201999%20Media%20Guide_djvu.txt",
+          "quote": "Johnson, Russ Barbarino and Don Acosta in 1999,",
+          "note": "OCR text of the official 1999 FSU Football Media Guide, printed p. 44. His first name \"Eric\" ends the preceding OCR line (\"...Steve Tamborra, Eric\"); the sentence names Van Halanger's five 1999 strength and conditioning graduate assistants. Verified against the page image."
+        }
+      ]
+    },
+    {
+      "name": "Russ Barbarino",
+      "role": "Strength and conditioning graduate assistant",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1999-media-guide/Florida%20State%20football%2C%201999%20Media%20Guide_djvu.txt",
+          "quote": "Johnson, Russ Barbarino and Don Acosta in 1999,",
+          "note": "OCR text of the official 1999 FSU Football Media Guide, printed p. 44, from the sentence naming Van Halanger's five 1999 strength and conditioning graduate assistants. Verified against the page image."
+        }
+      ]
+    },
+    {
+      "name": "Don Acosta",
+      "role": "Strength and conditioning graduate assistant",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1999-media-guide/Florida%20State%20football%2C%201999%20Media%20Guide_djvu.txt",
+          "quote": "Johnson, Russ Barbarino and Don Acosta in 1999,",
+          "note": "OCR text of the official 1999 FSU Football Media Guide, printed p. 44, from the sentence naming Van Halanger's five 1999 strength and conditioning graduate assistants. Verified against the page image."
+        }
+      ]
+    },
+    {
+      "name": "Chris Demarest",
+      "role": "Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1999-media-guide/Florida%20State%20football%2C%201999%20Media%20Guide_djvu.txt",
+          "quote": "CHRIS DEMAREST",
+          "note": "OCR text of the official 1999 FSU Football Media Guide, printed p. 46 \"FOOTBALL STAFF\". On the scan the heading block reads CHRIS DEMAREST / Graduate Assistant / (Northeastern '88), and the body begins \"Chris Demarest begins his second season at Florida State and assists Defensive Coordinator Mickey Andrews with the defensive backs.\" The OCR renders \"Graduate Assistant\" two lines below the name with blank lines between, so it cannot be quoted contiguously."
+        },
+        {
+          "url": "https://esuwarriors.com/staff-directory/chris-demarest/89",
+          "quote": "12-0 national championship team in 1999",
+          "note": "East Stroudsburg University staff bio: \"Demarest was part of Florida State's 12-0 national championship team in 1999 and was the Seminoles' cornerbacks coach for two seasons.\" Confirms he was on staff for the championship season."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1999_Florida_State_Seminoles_football_team",
+          "quote": "Graduate assistant, Defensive backs",
+          "note": "Coaching-staff table row for Chris Demarest, 1 season at Florida State, Northeastern (1988)."
+        }
+      ]
+    },
+    {
+      "name": "Steve Gabbard",
+      "role": "Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1999-media-guide/Florida%20State%20football%2C%201999%20Media%20Guide_djvu.txt",
+          "quote": "STEVE GABBARD \nGraduate Assistant",
+          "note": "OCR text of the official 1999 FSU Football Media Guide, printed p. 46 \"FOOTBALL STAFF\". Heading block on the scan reads STEVE GABBARD / Graduate Assistant / (Florida State '88). Quote spans the source file's line break exactly as stored."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Steve_Gabbard",
+          "quote": "Gabbard also served as a graduate assistant offensive line coach for three years at Florida State for",
+          "note": "Continues \"Bobby Bowden, during which time FSU won the NCAA National Championship (1999) in an undefeated season where they were the #1 ranked team nationally wire-to-wire.\""
+        }
+      ]
+    },
+    {
+      "name": "Jimmie Callaway",
+      "role": "Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1999-media-guide/Florida%20State%20football%2C%201999%20Media%20Guide_djvu.txt",
+          "quote": "JIMMIE CALLAWAY \nEquipment Manager",
+          "note": "OCR text of the official 1999 FSU Football Media Guide, printed p. 46 \"FOOTBALL STAFF\". Heading block on the scan reads JIMMIE CALLAWAY / Equipment Manager / 23rd Season at FSU (OCR garbles \"23rd\" to \"Season at FSU\" on the following line). Quote spans the source file's line break exactly as stored."
+        }
+      ]
+    },
+    {
+      "name": "Dave Delegal",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1999-media-guide/Florida%20State%20football%2C%201999%20Media%20Guide_djvu.txt",
+          "quote": "Seminoles’ assistant equipment manager",
+          "note": "OCR text of the official 1999 FSU Football Media Guide, printed p. 46 \"FOOTBALL STAFF\". Body reads \"Dave Delegal begins his fifth year as the Seminoles' assistant equipment manager and his third consecutive after returning to FSU...\". The heading block on the scan reads DAVE DELEGAL / Assistant Equipment Manager (Florida State '93) - Fifth Season at FSU; the OCR misrenders \"Assistant\" as \"Asistont\", so the heading is not quoted."
+        }
+      ]
+    },
+    {
+      "name": "Randy Oravetz",
+      "role": "Director of Sports Medicine",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 47 \"TRAINING STAFF\" (p. 51 of the Internet Archive scan). Heading block reads RANDY ORAVETZ / Director of Sports Medicine / (Florida State '79) / 21st Season at FSU, and the body states he \"begins his 14th season in his post as the director of sports medicine at FSU in 1999\" and is \"directly responsible for the everyday care and treatment of the FSU football players.\" Image-only scan and the auto-OCR drops his name entirely, so no faithful text quote can be copied; read directly from the page image at high resolution."
+        },
+        {
+          "url": "https://seminoles.com/honors/florida-state-athletics-hall-of-fame/randy-oravatz/240",
+          "quote": "taking over as Director of Sports Medicine in 1986 and served in that capacity until 2010",
+          "note": "FSU Athletics Hall of Fame bio, confirming he held the Director of Sports Medicine post continuously across the 1999 season."
+        }
+      ]
+    },
+    {
+      "name": "Duane Brooks",
+      "role": "Assistant Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1999-media-guide/Florida%20State%20football%2C%201999%20Media%20Guide_djvu.txt",
+          "quote": "DUANE BROOKS \nAssistant Trainer",
+          "note": "OCR text of the official 1999 FSU Football Media Guide, printed p. 47 \"TRAINING STAFF\". Heading block reads DUANE BROOKS / Assistant Trainer / (Florida A&M '94) / Sixth Season at FSU; body notes \"he also works closely with the FSU football squad.\" Quote spans the source file's line break exactly as stored."
+        }
+      ]
+    },
+    {
+      "name": "David Walls",
+      "role": "Assistant Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1999-media-guide/Florida%20State%20football%2C%201999%20Media%20Guide_djvu.txt",
+          "quote": "DAVID WALLS \nAssistant Trainer",
+          "note": "OCR text of the official 1999 FSU Football Media Guide, printed p. 47 \"TRAINING STAFF\". Heading block reads DAVID WALLS / Assistant Trainer / (West Virginia '87) / Fourth Season at FSU; body states \"Walls works directly with the Seminole football team.\" Quote spans the source file's line break exactly as stored."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Tom Haney",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 1 column 1: DR. TOM HANEY / Team Physician. Image-only scan whose auto-OCR interleaves the grid's five columns and corrupts adjacent names, so no faithful text quote can be copied; read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Doug Henderson",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 1 column 2: DR. DOUG HENDERSON / Team Physician. The auto-OCR wrongly merges this entry with the next one as \"DR. KRIS HENDERSON\"; the correct reading was taken directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Kris Stowers",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 1 column 3: DR. KRIS STOWERS / Team Physician. Image-only scan; the auto-OCR splits this name across columns, so it was read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Emory Cain",
+      "role": "Team Dentist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 1 column 4: DR. EMORY CAIN / Team Dentist. Image-only scan; auto-OCR corrupts the title to \"reaver\", so name and title were read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Bob Orsillo",
+      "role": "Team Optometrist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 1 column 5: DR. BOB ORSILLO / Team Optometrist. Image-only scan with column-interleaved OCR; read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Dr. John Van Tassel",
+      "role": "Team Chiropractor",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 2 column 1: DR. JOHN VAN TASSEL / Team Chiropractor. Image-only scan; read directly from the page image at high resolution (name and title both clearly legible)."
+        }
+      ]
+    },
+    {
+      "name": "Major Billy Smith",
+      "role": "Team Security",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 2 column 2: MAJOR BILLY SMITH / Team Security. Image-only scan with column-interleaved OCR; read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Mark Rodin",
+      "role": "Seminole Productions General Manager",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 2 column 3: MARK RODIN / Seminole Productions General Manager. The auto-OCR misreads the surname as \"Croom\", so it was read directly from the page image at high resolution."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-1999-media-guide/Florida%20State%20football%2C%201999%20Media%20Guide_djvu.txt",
+          "quote": "working relationship with SPI andits general manager, Mark Rodin,",
+          "note": "OCR text of the same media guide, media-services section: \"...providing video services through Seminole Productions, Inc. (SPI). The FSU athletic department has [a] working relationship with SPI and its general manager, Mark Rodin\". Independently corroborates the name and title within the 1999 guide."
+        }
+      ]
+    },
+    {
+      "name": "Billy Vizzini",
+      "role": "Video Coordinator",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 2 column 4: BILLY VIZZINI / Video Coordinator. Image-only scan with column-interleaved OCR; read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Manny Diaz",
+      "role": "Videographer",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 2 column 5: MANNY DIAZ / Videographer. Image-only scan; the auto-OCR truncates the title to \"rpher\", so it was read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Kyle Wilson",
+      "role": "Videographer",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 3 column 1: KYLE WILSON / Videographer. Image-only scan; read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Nick Menacof",
+      "role": "Dorm Supervisor/P.A. Announcer",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 3 column 2: NICK MENACOF / Dorm Supervisor/ P.A. Announcer. Image-only scan whose auto-OCR renders the title as \"Dorin Supervisor\" and splits the second line; read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Clint Purvis",
+      "role": "Team Chaplain",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 3 column 3: CLINT PURVIS / Team Chaplain. Image-only scan whose auto-OCR truncates the title to \"Team Cha\"; read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Bettye Gibson",
+      "role": "Dietician",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 3 column 4: BETTYE GIBSON / Dietician (spelled that way in the source). Image-only scan with column-interleaved OCR; read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Sue Hall",
+      "role": "Administrative Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 3 column 5: SUE HALL / Administrative Assistant. Image-only scan with column-interleaved OCR; read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Debra Crews",
+      "role": "Offense Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 4 column 1: DEBRA CREWS / Offense Secretary. Image-only scan; the auto-OCR drops this entry entirely, so name and title were read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Barry Every",
+      "role": "Recruiting Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 4 column 2: BARRY EVERY / Recruiting Assistant. Image-only scan with column-interleaved OCR; read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Carol Moore",
+      "role": "Recruiting Program Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 4 column 3: CAROL MOORE / Recruiting Program Assistant. Image-only scan with column-interleaved OCR; read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Caroline Scott",
+      "role": "Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 4 column 4: CAROLINE SCOTT / Football Operations. Image-only scan whose auto-OCR separates the name from the title by several lines; read directly from the page image at high resolution."
+        }
+      ]
+    },
+    {
+      "name": "Staci Wilkshire-Martin",
+      "role": "Defense Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "",
+          "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 4 column 5: STACI WILKSHIRE-MARTIN / Defense Secretary. Image-only scan with column-interleaved OCR; read directly from the page image at high resolution."
+        }
+      ]
+    }
+  ]
+}

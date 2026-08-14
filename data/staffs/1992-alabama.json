@@ -1,0 +1,421 @@
+{
+  "team": "Alabama",
+  "season": 1992,
+  "coverage_notes": "PRIMARY SOURCE: the official 1992 University of Alabama Football Media Guide, scanned on the Internet Archive (https://archive.org/details/alabama-football-1992-media-guide-c). All quotes are copied byte-exact from the item's OCR text file at https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt and were each programmatically verified as literal substrings of that file. Multi-line quotes preserve the file's actual newlines; the OCR reproduces the guide's section headers with a leading \"@\" or \"H\"/\"I\" glyph (the printed square bullet), which I left intact rather than normalizing.\n\nWHAT I RECOVERED IN FULL: the head coach and all nine full-time on-field assistants (the NCAA limit at the time), from the guide's \"THE COACHES\" / \"ON-THE-FIELD COACHES\" section (guide pages 63-70). Both strength-and-conditioning coaches, both graduate assistants, three operations staffers, the equipment director, the head athletic trainer, five team physicians, and three football secretaries all come from the guide's \"SUPPORT STAFF\" section (guide pages 70-73).\n\nTITLE CAVEAT (important): the 1992 media guide does not use the words \"offensive coordinator\" or \"defensive coordinator\" for anyone. Mal Moore is titled \"Assistant Head Coach/Quarterbacks\" and Bill Oliver is titled \"Secondary\". I kept those as the source-worded roles and attached secondary sources (Wikipedia's infobox for Moore as offensive coordinator; a CBS Sports obituary for Oliver as defensive coordinator) so the coordinator function is documented without me overwriting the primary source's wording.\n\nOCR GAPS I WORKED AROUND: the archive's OCR dropped four on-field coaches' name headers (Jim Fuller, Ellis Johnson, Larry Kirksey, Danny Pearman) because they are set in a display typeface. For those four I cite the guide's all-time coaching roster (page 265, which lists tenure years and confirms each was on staff in 1992) plus the guide's own index entry pointing to their bio page, and I read the role off the rendered page scan. Their roles, read directly from the scanned pages: Fuller = Offensive Guards and Centers (p. 67), Johnson = Outside Linebackers (p. 67), Kirksey = Offensive Backs (p. 68), Pearman = Offensive Tackles (p. 69). Secretary Debbie Gibson's name is dropped entirely by the OCR (the caption is column-interleaved), so her row carries quote:\"\" per instructions; she is plainly legible in the page-73 scan. Mary Spybey's and Linda Knowles's caption text is likewise split across interleaved columns, so their quotes are short fragments of that caption.\n\nTIERS I COULD NOT RECOVER:\n- ANALYSTS and QUALITY CONTROL: none exist. These staff tiers did not exist in 1992 college football under then-current NCAA staff limits, and the media guide documents no such positions. Zero rows is the correct answer here, not a coverage failure.\n- ADDITIONAL GRADUATE ASSISTANTS: only two are documented (Chip Davis, Mark Graham), pictured as headshots under a \"Graduate Assistants\" heading with no bios, no position assignments, and no other names. Programs of this era typically carried more student/volunteer assistants than they printed; any others are unrecoverable from published sources.\n- ASSISTANT ATHLETIC TRAINERS and STUDENT TRAINERS: not named anywhere in the guide. Only head trainer Bill McDonald is listed.\n- ASSISTANT EQUIPMENT STAFF and STUDENT MANAGERS: not named. Only director Tank Conerly is listed.\n- ADDITIONAL S&C ASSISTANTS/INTERNS: not named beyond Caruthers and Terry Jones.\n\nDELIBERATE EXCLUSIONS (documented, but not football team staff — listing them so the omission is auditable, not hidden): the same media-guide page 73 photo montage also names the Bryant Hall Grounds Crew (Willie Thompson, James Walker, Becky Logan), the Bryant Hall Dining Hall Directors (Loretta Clements, Dorothy Woods, Joanna Jackson), the Bryant Hall Dining Hall Staff (Marie Harris, Phillis Wills, Bertha Mathews, Celeste Hill, Leola Tinker, Ethel Mae Holloway, Ronnie Harris, Elizabeth Ryan, Lucinda Stewart, Charlotte Furr, Sharon Davis), the Bryant-Denny Stadium Grounds Crew (John Smalley, William Hendrix, Terry Cook, Lynn Laycock, Wayne Gilliland, Leslie Kelly), and the Alabama State Troopers assigned to Stallings (Captain Mike Sullivan, Cary Sutton). These are athletic-department facility, dining, and security personnel serving all sports and the stadium, not football team staff, so I left them out of the rows rather than inflating a ring count. Donald Rawson (Video Director) appears only in the guide's department-wide athletic directory, not the football staff section, so he is also excluded.\n\nMIDSEASON CHANGES: none found. I searched contemporary coverage for any 1992 in-season arrival or departure and found nothing; every person listed was on staff from preseason through the January 1, 1993 Sugar Bowl. The one timing note worth flagging is Danny Pearman, who was promoted from graduate assistant to full-time on-field coach on April 15, 1992 — that is preseason, not midseason, so it does not affect the ring rule, but I recorded it on his row for transparency.\n\nSOURCE-CHAIN NOTE: the requested Wayback Machine path was attempted and largely failed. rolltide.com's archived 1992 roster PDF (rolltide.com/documents/2010/4/21/92-m-footbl-roster.pdf) returns a single-page-app HTML shell in every Wayback capture, not a PDF. The archived official season PDF (s3.amazonaws.com/rolltide.com/documents/2016/8/18/1992_season.pdf, captured 2021-12-03) does download as a real 18 MB PDF but is a pure page-image scan with no text layer and no staff listing. A school athletics staff directory did not exist on the web in 1992. Wikipedia's team-season page is thin: its infobox names only Stallings and Moore, its roster footer names only Ellis Johnson, and its bottom navbox omits Woody McCorvey and Jeff Rouzie entirely — so the media guide is doing nearly all the work here.",
+  "staff": [
+    {
+      "name": "Gene Stallings",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Gene Stallings Head Coach",
+          "note": "1992 official Alabama football media guide, 'THE COACHES' section (guide p. 64). Bio states he 'is celebrating his third year with the Crimson Tide' after taking over Jan. 11, 1990."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1992_Alabama_Crimson_Tide_football_team",
+          "quote": "Gene Stallings",
+          "note": "Wikipedia infobox lists Gene Stallings as head coach, 3rd season."
+        }
+      ]
+    },
+    {
+      "name": "Mal Moore",
+      "role": "Assistant Head Coach/Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mal Moore \n\n\n@ Assistant Head Coach/Quarterbacks",
+          "note": "1992 Alabama media guide, ON-THE-FIELD COACHES (guide p. 68). Bio: '21st. Rejoined the staff January 15, 1990 from the Phoenix Cardinals.' The '@' is the OCR rendering of the printed square bullet before the job title."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1992_Alabama_Crimson_Tide_football_team",
+          "quote": "Mal Moore",
+          "note": "Wikipedia infobox for the 1992 season lists Mal Moore as Offensive coordinator, 11th season. The media guide itself does not use the phrase 'offensive coordinator' for him; his printed 1992 title is Assistant Head Coach/Quarterbacks."
+        }
+      ]
+    },
+    {
+      "name": "Bill Oliver",
+      "role": "Secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Bill Oliver \n\n\n@ Secondary",
+          "note": "1992 Alabama media guide, ON-THE-FIELD COACHES (guide p. 69). Bio: '12th. Rejoined the Tide staff January 21, 1990 from Clemson.' Known as 'Brother' Oliver."
+        },
+        {
+          "url": "https://www.cbssports.com/college-football/news/bill-oliver-dies-at-85-alabama-legend-was-part-of-five-national-titles-coached-on-both-sides-of-iron-bowl/",
+          "quote": "Oliver was best known as the defensive coordinator on Alabama's 1992 national championship team",
+          "note": "CBS Sports obituary establishing that Oliver functioned as the 1992 defensive coordinator, a title the media guide does not print."
+        }
+      ]
+    },
+    {
+      "name": "Mike Dubose",
+      "role": "Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mike Dubose \n\n\n@ Defensive Line",
+          "note": "1992 Alabama media guide, ON-THE-FIELD COACHES (guide p. 67). Bio: '7th. Rejoined the staff January 20, 1990 from Tampa Bay.' Name is spelled 'Dubose' in the guide; Wikipedia spells it 'DuBose'."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Dubose, Mike, 67",
+          "note": "Media guide index entry pointing to his coach bio on guide page 67."
+        }
+      ]
+    },
+    {
+      "name": "Ellis Johnson",
+      "role": "Outside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Ellis Johnson (Citadel) 1990-",
+          "note": "1992 Alabama media guide, All-Time Alabama Coaching Roster (guide p. 265), showing him on staff from 1990 through the current (1992) season. His name header on the bio page was dropped by the archive's OCR because it is set in a display typeface; the scanned page 67 reads 'Ellis Johnson' above the bullet 'Outside Linebackers', with bio '3rd. Joined the staff February 19, 1990 from Southern Mississippi.'"
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Johnson, Ellis, 67",
+          "note": "Media guide index entry pointing to his coach bio on guide page 67."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1992_Alabama_Crimson_Tide_football_team",
+          "quote": "Ellis Johnson",
+          "note": "Wikipedia roster footer for the 1992 team lists Ellis Johnson with the parenthetical '(outside linebackers)' as the sole named assistant coach."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Rouzie",
+      "role": "Inside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Jeff Rouzie \n\n\n@ Inside Linebackers",
+          "note": "1992 Alabama media guide, ON-THE-FIELD COACHES (guide p. 70). Bio: '8th. Rejoined the staff March 2, 1991 from private business.'"
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Rouzie, Jeff, 70",
+          "note": "Media guide index entry pointing to his coach bio on guide page 70."
+        }
+      ]
+    },
+    {
+      "name": "Jim Fuller",
+      "role": "Offensive Guards and Centers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Fuller, Jim, 67",
+          "note": "Media guide index entry pointing to his coach bio on guide page 67. His name header on that page was dropped by the archive's OCR (display typeface); the scanned page reads 'Jim Fuller' above the bullet 'Offensive Guards and Centers', with bio '9th. Joined the staff December 15, 1983 from Jacksonville State.'"
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Jimmy Fuller |Alabama}) 1984-",
+          "note": "1992 Alabama media guide, All-Time Alabama Coaching Roster (guide p. 265), showing him on staff from 1984 through the current (1992) season. The stray pipe and brace characters are OCR noise for the printed parentheses; his name is set as 'Jimmy Fuller' in that all-time list and 'Jim Fuller' on his bio page and in the index."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1992_Alabama_Crimson_Tide_football_team",
+          "quote": "Jim Fuller",
+          "note": "Wikipedia's bottom navbox for the 1992 team lists Jim Fuller among the assistant coaches."
+        }
+      ]
+    },
+    {
+      "name": "Danny Pearman",
+      "role": "Offensive Tackles",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Danny Pearman (Clemson) 1992-",
+          "note": "1992 Alabama media guide, All-Time Alabama Coaching Roster (guide p. 265), showing 1992 as his first year as a full-time Alabama assistant. His name header on the bio page was dropped by the archive's OCR (display typeface); the scanned page 69 reads 'Danny Pearman' above the bullet 'Offensive Tackles'."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Joined the staff fulltime on \nApril 15, 1992 after serving two \nyears at Alabama as a graduate \nassistant.",
+          "note": "Opening of his bio on guide p. 69, documenting the promotion date from graduate assistant to full-time on-field coach."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Pearman, Danny, 69",
+          "note": "Media guide index entry pointing to his coach bio on guide page 69."
+        }
+      ]
+    },
+    {
+      "name": "Woody McCorvey",
+      "role": "Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Woody McCorvey \n\n\n@ Receivers",
+          "note": "1992 Alabama media guide, ON-THE-FIELD COACHES (guide p. 68). Bio: '3rd. Joined the staff January 24, 1990 from Clemson.'"
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "LeBaron Caruthers (North Carolina State) 1990- Woody McCorvey (Alabama State) 1990-",
+          "note": "All-Time Alabama Coaching Roster (guide p. 265), two printed columns merged onto one line by the OCR, showing McCorvey on staff from 1990 through the current (1992) season. Note: Wikipedia's 1992 navbox omits McCorvey entirely."
+        }
+      ]
+    },
+    {
+      "name": "Larry Kirksey",
+      "role": "Offensive Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Larry Kirksey (Eastern Kentucky) 1990-",
+          "note": "1992 Alabama media guide, All-Time Alabama Coaching Roster (guide p. 265), showing him on staff from 1990 through the current (1992) season. His name header on the bio page was dropped by the archive's OCR (display typeface); the scanned page 68 reads 'Larry Kirksey' above the bullet 'Offensive Backs', with bio '3rd. Joined the staff January 29, 1990 from Pittsburgh' and 'RESPONSIBILITIES: Coaches the running backs.'"
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Kirksey, Larry, 68",
+          "note": "Media guide index entry pointing to his coach bio on guide page 68."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1992_Alabama_Crimson_Tide_football_team",
+          "quote": "Larry Kirksey",
+          "note": "Wikipedia's bottom navbox for the 1992 team lists Larry Kirksey among the assistant coaches."
+        }
+      ]
+    },
+    {
+      "name": "LeBaron Caruthers",
+      "role": "Strength and Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "LeBaron Caruthers \n\n\n@ Strength and Conditioning Coach",
+          "note": "1992 Alabama media guide, ON-THE-FIELD-COACHES/SUPPORT STAFF (guide p. 70). Listed as 'On Staff: 3rd Year (January 20, 1990)'; bio says he 'directs the strength and conditioning program', having joined from the Phoenix Cardinals."
+        }
+      ]
+    },
+    {
+      "name": "Terry Jones",
+      "role": "Assistant Strength Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "standout, Terry Jones is in his \nfifth year assisting the strength \nand conditioning program.",
+          "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 71), under the printed heading 'Assistant Strength Coach'; listed as 'On Staff: 5th Year (May 1, 1988)'. Former Alabama center/defensive tackle and eight-year Green Bay Packer."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Jones, Terry, 71",
+          "note": "Media guide index entry pointing to his support-staff bio on guide page 71."
+        }
+      ]
+    },
+    {
+      "name": "Chip Davis",
+      "role": "Graduate Assistants",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Graduate Assistants \n\n\nChip Davis Mark Graham",
+          "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 72). Two headshots under a 'Graduate Assistants' heading, captioned with these two names only. No bios and no position assignments are printed; these are the only graduate assistants the guide documents."
+        }
+      ]
+    },
+    {
+      "name": "Mark Graham",
+      "role": "Graduate Assistants",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Graduate Assistants \n\n\nChip Davis Mark Graham",
+          "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 72). Two headshots under a 'Graduate Assistants' heading, captioned with these two names only. No bios and no position assignments are printed."
+        }
+      ]
+    },
+    {
+      "name": "Randy Ross",
+      "role": "Departmental Recruiting Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Randy Ross is director of the \nTide’s overall recruiting efforts.",
+          "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 72), printed under the heading 'Departmental Recruiting Coordinator'; listed as 'On Staff: 3rd Year at Alabama (March 19, 1990)'. Note the curly apostrophe in 'Tide’s' is what the source contains."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Randy Ross, Recruiting Coordinator",
+          "note": "Athletic Directory at the front of the same 1992 media guide (guide p. 3), single-line listing with his football-office phone number."
+        }
+      ]
+    },
+    {
+      "name": "Jack Rutledge",
+      "role": "Dorm Director",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Jack Rutledge, Dorm Director",
+          "note": "Athletic Directory at the front of the 1992 Alabama media guide (guide p. 3). His SUPPORT STAFF bio on guide p. 72 lists 'On Staff: 27th Year (March 7, 1990)' and describes him managing Bryant Hall, the athletic dorm."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Rutledge, Jack, 72",
+          "note": "Media guide index entry pointing to his support-staff bio on guide page 72."
+        }
+      ]
+    },
+    {
+      "name": "Gerald Jack",
+      "role": "Administrative Assistant to Athletic Director",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Gerald Jack, Administrative Assistant",
+          "note": "Athletic Directory at the front of the 1992 Alabama media guide (guide p. 3). His SUPPORT STAFF bio on guide p. 71 carries the fuller title 'Administrative Assistant to Athletic Director' and describes him as 'a valuable aide to both athletic director Hootie Ingram and football coach Gene Stallings', 'On Staff: 3rd Year (January 22, 1990)'. Included as football staff because the football media guide profiles him within its own support-staff section."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Jack, Gerald, 71",
+          "note": "Media guide index entry pointing to his support-staff bio on guide page 71."
+        }
+      ]
+    },
+    {
+      "name": "Tank Conerly",
+      "role": "Athletic Equipment Director",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Tank Conerly, Equipment Manager",
+          "note": "Athletic Directory at the front of the 1992 Alabama media guide (guide p. 3). His SUPPORT STAFF bio on guide p. 71 uses the title 'Athletic Equipment Director' and lists 'On Staff: 6th Year (July 1, 1987)', having joined from Duke."
+        }
+      ]
+    },
+    {
+      "name": "Bill McDonald",
+      "role": "Head Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Bill McDonald, Head Athletic Trainer",
+          "note": "Athletic Directory at the front of the 1992 Alabama media guide (guide p. 3). His SUPPORT STAFF bio on guide p. 71 carries the same title and lists 'On Staff: 5th Year (January 25, 1987)' after 15 years as head trainer at Georgia Tech. A page-72 photo caption in the same guide reads 'Head athletic trainer Bill McDonald works on tight end Steve Busky during a game last year.'"
+        }
+      ]
+    },
+    {
+      "name": "Dr. J. D. Askew",
+      "role": "Team physician (pictured in Support Staff section)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Dr. J. D. Askew Dr. Phillip Bobo Dr. Gabe Fernandez Dr. Les Fowler Dr. Rush Smith",
+          "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 73). Row of five physician headshots captioned with these names. The guide prints no explicit job title beneath them beyond their placement in the football support-staff section, so the role wording here is descriptive rather than a verbatim printed title."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Phillip Bobo",
+      "role": "Team physician (pictured in Support Staff section)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Dr. J. D. Askew Dr. Phillip Bobo Dr. Gabe Fernandez Dr. Les Fowler Dr. Rush Smith",
+          "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 73). Row of five physician headshots captioned with these names; no printed job title accompanies the row."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Gabe Fernandez",
+      "role": "Team physician (pictured in Support Staff section)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Dr. J. D. Askew Dr. Phillip Bobo Dr. Gabe Fernandez Dr. Les Fowler Dr. Rush Smith",
+          "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 73). Row of five physician headshots captioned with these names; no printed job title accompanies the row."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Les Fowler",
+      "role": "Team physician (pictured in Support Staff section)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Dr. J. D. Askew Dr. Phillip Bobo Dr. Gabe Fernandez Dr. Les Fowler Dr. Rush Smith",
+          "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 73). Row of five physician headshots captioned with these names; no printed job title accompanies the row."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Rush Smith",
+      "role": "Team physician (pictured in Support Staff section)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Dr. J. D. Askew Dr. Phillip Bobo Dr. Gabe Fernandez Dr. Les Fowler Dr. Rush Smith",
+          "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 73). Row of five physician headshots captioned with these names; no printed job title accompanies the row."
+        }
+      ]
+    },
+    {
+      "name": "Mary Spybey",
+      "role": "Football Secretaries",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Football Secretaries: (L-R) Mary Spybey,",
+          "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 73), photo caption. The OCR interleaves this caption with the adjacent State Troopers caption, so the quote is the leading fragment; the full printed caption on the page scan reads 'Football Secretaries: (L-R) Mary Spybey, Debbie Gibson, Linda Knowles.'"
+        }
+      ]
+    },
+    {
+      "name": "Debbie Gibson",
+      "role": "Football Secretaries",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-1992-media-guide-c",
+          "quote": "",
+          "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 73), photo caption reading 'Football Secretaries: (L-R) Mary Spybey, Debbie Gibson, Linda Knowles.' Quote deliberately left empty: the Internet Archive OCR drops her name entirely because the caption spans two interleaved photo columns, so no faithful text substring exists. Her name is clearly legible in the page scan (PDF page 75 of the archived item), which I rendered and read directly to confirm."
+        }
+      ]
+    },
+    {
+      "name": "Linda Knowles",
+      "role": "Football Secretaries",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-1992-media-guide-c/Alabama%20Football%2C%201992%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Linda Knowles.",
+          "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 73). The OCR splits the Football Secretaries caption across interleaved photo columns, stranding her name on its own line; the full printed caption on the page scan reads 'Football Secretaries: (L-R) Mary Spybey, Debbie Gibson, Linda Knowles.'"
+        }
+      ]
+    }
+  ]
+}

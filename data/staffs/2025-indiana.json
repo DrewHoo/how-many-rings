@@ -1,0 +1,868 @@
+{
+  "team": "Indiana",
+  "season": 2025,
+  "coverage_notes": "CHAMPIONSHIP VERIFIED: Indiana finished 16-0 (9-0 Big Ten) and beat Miami (FL) 27-21 in the CFP National Championship Game on January 19, 2026 — the first national title in program history. Confirmed on the Wikipedia team-season page.\n\nPRIMARY SOURCE: The best source by far was Indiana's own official page at iuhoosiers.com/sports/football/coaches, headed \"2025 Football Staff\", captured by the Wayback Machine on 2026-01-13 (timestamp 20260113182706) — six days before the championship game. That capture is essentially a championship-eve snapshot and lists 47 people in two tables: \"Coaching Staff\" (12) and \"Support Staff\" (35). All 47 rows are reported here. The Wikipedia team-season page corroborates the 12 coaching-staff members but lists no support staff, so it is attached as a second source only for those 12.\n\nQUOTE METHODOLOGY (important for mechanical matching): on the IU page, each person's name and title live in SEPARATE <td> cells with no whitespace text node between them, so a combined \"Name Title\" string does not exist anywhere in the page source and would fail a substring match. Every quote I supply is therefore a single contiguous cell value. Each person gets two source entries from the same URL: one quoting the Name cell, one quoting the Title cell, with notes tying them to the same table row. I verified programmatically that all 94 IU quotes appear as exact substrings under four different HTML-to-text conventions (tags stripped to empty, tags stripped to space, and both with whitespace collapsed). The 12 Wikipedia quotes are contiguous in the source (\"Bryant Haines (Defensive coordinator/linebackers)\") and match under three of those four conventions; they fail only under the unusual tags-to-space-without-collapsing convention.\n\nTWO NAME QUIRKS: the IU page renders \"Michael  Turner, MS, LAT, ATC\" and \"Nick  Pappas\" with a DOUBLE internal space. Rather than risk a whitespace-normalization mismatch, I quoted the unambiguous sub-strings \"Turner, MS, LAT, ATC\" and \"Pappas\" (each occurs exactly once on the page). Names in the name field are cleaned of credential suffixes (e.g. \"Kyle Blackman\" rather than \"Kyle Blackman, MS, LAT, ATC\"); the full credentialed string is what appears in the quote.\n\nMID-SEASON CHANGES (ring rule = on staff at the championship game): I diffed the Jan 13, 2026 capture against the Aug 28, 2025 capture (two days before the season opener) and the Jul 9, 2025 capture. Two people arrived after the season started and are flagged with midseason_note: Michael Conway and Sales Pinckney. THREE PEOPLE ARE DELIBERATELY EXCLUDED because they were gone by the championship-eve capture: Gage Proctor (Assistant Director of Player Personnel — present Aug 28, 2025, absent Jan 13, 2026, so he departed during the season); Tee McCann (Assistant Director of Graphic Design) and Whitney Dean (Equipment Manager, Football), both present Jul 9, 2025 but already gone by Aug 28, 2025, i.e. preseason departures. One title changed during the year: Darrell Grant went from \"Director of Creative Video\" to \"Director of Football Creative Video\"; the championship-eve wording is used.\n\nWHAT I COULD NOT DOCUMENT: (1) No graduate assistants appear anywhere in the official directory — the gradasst category is empty, and I did not pad it. Indiana's public staff page may simply not list GAs, so I cannot say whether the team had any. (2) The directory almost certainly omits student assistants, interns, and recruiting/creative student workers. (3) I could not locate a 2025 media guide on the school site, archive.org, or issuu to cross-check for additional names. (4) A Wayback capture from 2025-12-12 exists but archive.org rate-limiting (repeated 429/503) defeated six retry attempts; it would have narrowed the arrival windows for Conway and Pinckney, though it would not change the championship-eve roster. (5) This session's WebSearch budget was exhausted before I started, so I could not consult contemporary news hire announcements or championship coverage — every row here rests on the official athletics directory plus Wikipedia, with no news corroboration. (6) Role categories are my mapping of IU's wording; two are judgment calls worth noting: Josh Huff (\"Sports Science Coordinator\") is filed under sc alongside the athletic-performance staff, and Isaac Hicks III (\"Director of Sports Performance Nutrition\") is filed under medical. Jared Coulter (\"Team Analyst/Football Video Coordinator\") is filed under analyst though the role is partly video operations.",
+  "staff": [
+    {
+      "name": "Curt Cignetti",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Curt Cignetti",
+          "note": "Name cell in the 'Coaching Staff' table of Indiana's official '2025 Football Staff' page, Wayback capture Jan 13, 2026 (six days before the CFP title game). The Title cell of this same row reads 'Head Coach'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Head Coach",
+          "note": "Title cell of the same row as 'Curt Cignetti'; quoted separately because name and title are separate table cells with no text between them."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Indiana_Hoosiers_football_team",
+          "quote": "led by second-year head coach Curt Cignetti",
+          "note": "Wikipedia 2025 Indiana Hoosiers football team article, lead section. Corroborates head coach for the 2025 season."
+        }
+      ]
+    },
+    {
+      "name": "Bryant Haines",
+      "role": "Defensive Coordinator/Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Bryant Haines",
+          "note": "Name cell in the 'Coaching Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Defensive Coordinator/Linebackers'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Defensive Coordinator/Linebackers",
+          "note": "Title cell of the same row as 'Bryant Haines'; quoted separately because name and title are separate table cells."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Indiana_Hoosiers_football_team",
+          "quote": "Bryant Haines (Defensive coordinator/linebackers)",
+          "note": "Wikipedia 2025 Indiana Hoosiers football team article, roster coaches listing. Corroborates the on-field role for 2025."
+        }
+      ]
+    },
+    {
+      "name": "Mike Shanahan",
+      "role": "Offensive Coordinator/Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Mike Shanahan",
+          "note": "Name cell in the 'Coaching Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Offensive Coordinator/Wide Receivers'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Offensive Coordinator/Wide Receivers",
+          "note": "Title cell of the same row as 'Mike Shanahan'; quoted separately because name and title are separate table cells."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Indiana_Hoosiers_football_team",
+          "quote": "Mike Shanahan (Offensive coordinator/wide receivers)",
+          "note": "Wikipedia 2025 Indiana Hoosiers football team article, roster coaches listing."
+        }
+      ]
+    },
+    {
+      "name": "Grant Cain",
+      "role": "Special Teams Coordinator/Tight Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Grant Cain",
+          "note": "Name cell in the 'Coaching Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Special Teams Coordinator/Tight Ends'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Special Teams Coordinator/Tight Ends",
+          "note": "Title cell of the same row as 'Grant Cain'; quoted separately because name and title are separate table cells."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Indiana_Hoosiers_football_team",
+          "quote": "Grant Cain (Special teams coordinator/tight ends)",
+          "note": "Wikipedia 2025 Indiana Hoosiers football team article, roster coaches listing."
+        }
+      ]
+    },
+    {
+      "name": "Ola Adams",
+      "role": "Safeties/Defensive Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Ola Adams",
+          "note": "Name cell in the 'Coaching Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Safeties/Defensive Backs'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Safeties/Defensive Backs",
+          "note": "Title cell of the same row as 'Ola Adams'; quoted separately because name and title are separate table cells."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Indiana_Hoosiers_football_team",
+          "quote": "Ola Adams (Defensive backs/safeties)",
+          "note": "Wikipedia 2025 Indiana Hoosiers football team article, roster coaches listing. Wikipedia words the role in the reverse order from the school site."
+        }
+      ]
+    },
+    {
+      "name": "Bob Bostad",
+      "role": "Offensive Line/Run Game Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Bob Bostad",
+          "note": "Name cell in the 'Coaching Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Offensive Line/Run Game Coordinator'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Offensive Line/Run Game Coordinator",
+          "note": "Title cell of the same row as 'Bob Bostad'; quoted separately because name and title are separate table cells."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Indiana_Hoosiers_football_team",
+          "quote": "Bob Bostad (Run game coordinator/offensive line)",
+          "note": "Wikipedia 2025 Indiana Hoosiers football team article, roster coaches listing."
+        }
+      ]
+    },
+    {
+      "name": "Pat Kuntz",
+      "role": "Defensive Tackles",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Pat Kuntz",
+          "note": "Name cell in the 'Coaching Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Defensive Tackles'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Defensive Tackles",
+          "note": "Title cell of the same row as 'Pat Kuntz'; quoted separately because name and title are separate table cells."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Indiana_Hoosiers_football_team",
+          "quote": "Pat Kuntz (Defensive tackles)",
+          "note": "Wikipedia 2025 Indiana Hoosiers football team article, roster coaches listing."
+        }
+      ]
+    },
+    {
+      "name": "John Miller",
+      "role": "Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "John Miller",
+          "note": "Name cell in the 'Coaching Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Running Backs'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Running Backs",
+          "note": "Title cell of the same row as 'John Miller'; quoted separately because name and title are separate table cells."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Indiana_Hoosiers_football_team",
+          "quote": "John Miller (Running backs)",
+          "note": "Wikipedia 2025 Indiana Hoosiers football team article, roster coaches listing."
+        }
+      ]
+    },
+    {
+      "name": "Rod Ojong",
+      "role": "Cornerbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Rod Ojong",
+          "note": "Name cell in the 'Coaching Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Cornerbacks'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Cornerbacks",
+          "note": "Title cell of the same row as 'Rod Ojong'; quoted separately because name and title are separate table cells."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Indiana_Hoosiers_football_team",
+          "quote": "Rod Ojong (Cornerbacks)",
+          "note": "Wikipedia 2025 Indiana Hoosiers football team article, roster coaches listing."
+        }
+      ]
+    },
+    {
+      "name": "Chandler Whitmer",
+      "role": "Quarterbacks/Co-Offensive Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Chandler Whitmer",
+          "note": "Name cell in the 'Coaching Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Quarterbacks/Co-Offensive Coordinator'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Quarterbacks/Co-Offensive Coordinator",
+          "note": "Title cell of the same row as 'Chandler Whitmer'; quoted separately because name and title are separate table cells."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Indiana_Hoosiers_football_team",
+          "quote": "Chandler Whitmer (Co-offensive coordinator/quarterbacks)",
+          "note": "Wikipedia 2025 Indiana Hoosiers football team article, roster coaches listing. Wikipedia infobox notes this was his 1st season at Indiana."
+        }
+      ]
+    },
+    {
+      "name": "Buddha Williams",
+      "role": "Defensive Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Buddha Williams",
+          "note": "Name cell in the 'Coaching Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Defensive Ends'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Defensive Ends",
+          "note": "Title cell of the same row as 'Buddha Williams'; quoted separately because name and title are separate table cells."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Indiana_Hoosiers_football_team",
+          "quote": "Buddha Williams (Defensive ends)",
+          "note": "Wikipedia 2025 Indiana Hoosiers football team article, roster coaches listing."
+        }
+      ]
+    },
+    {
+      "name": "Derek Owings",
+      "role": "Director of Athletic Performance, Football",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Derek Owings",
+          "note": "Name cell in the 'Coaching Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Director of Athletic Performance, Football'. Listed among coaching staff rather than support staff by the school."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Director of Athletic Performance, Football",
+          "note": "Title cell of the same row as 'Derek Owings'; quoted separately because name and title are separate table cells."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Indiana_Hoosiers_football_team",
+          "quote": "Derek Owings (Director of football performance)",
+          "note": "Wikipedia 2025 Indiana Hoosiers football team article, roster coaches listing. Wikipedia words the title as 'Director of football performance'."
+        }
+      ]
+    },
+    {
+      "name": "Matt Wilson",
+      "role": "Assistant Athletic Director for Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Matt Wilson",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Assistant Athletic Director for Player Personnel'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Assistant Athletic Director for Player Personnel",
+          "note": "Title cell of the same row as 'Matt Wilson'; quoted separately because name and title are separate table cells. This title appears once on the page."
+        }
+      ]
+    },
+    {
+      "name": "Mike Pechac",
+      "role": "Director of Player Development/NFL Liaison & Player Academic Enhancement",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Mike Pechac",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Director of Player Development/NFL Liaison & Player Academic Enhancement'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Director of Player Development/NFL Liaison & Player Academic Enhancement",
+          "note": "Title cell of the same row as 'Mike Pechac'. The ampersand is encoded as &amp; in the raw HTML and renders as & in page text."
+        }
+      ]
+    },
+    {
+      "name": "Blake Jackson",
+      "role": "Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Blake Jackson",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Director of Football Operations'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Director of Football Operations",
+          "note": "Title cell of the same row as 'Blake Jackson'; quoted separately because name and title are separate table cells."
+        }
+      ]
+    },
+    {
+      "name": "Kendel Bennett",
+      "role": "Director of On-Campus Recruiting",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Kendel Bennett",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Director of On-Campus Recruiting'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Director of On-Campus Recruiting",
+          "note": "Title cell of the same row as 'Kendel Bennett'; appears once on the page."
+        }
+      ]
+    },
+    {
+      "name": "John Srofe",
+      "role": "Director of Scouting",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "John Srofe",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Director of Scouting'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Director of Scouting",
+          "note": "Title cell of the same row as 'John Srofe'; quoted separately because name and title are separate table cells."
+        }
+      ]
+    },
+    {
+      "name": "Mike Ferrara",
+      "role": "Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Mike Ferrara",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Director of Player Personnel'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Director of Player Personnel",
+          "note": "Title cell of the same row as 'Mike Ferrara'; distinct from the two 'Assistant Director of Player Personnel' rows."
+        }
+      ]
+    },
+    {
+      "name": "Ben Harakel",
+      "role": "Senior Defensive Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Ben Harakel",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Senior Defensive Analyst'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Senior Defensive Analyst",
+          "note": "Title cell of the same row as 'Ben Harakel'; appears once on the page."
+        }
+      ]
+    },
+    {
+      "name": "Alex Higgins",
+      "role": "Senior Offensive Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Alex Higgins",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Senior Offensive Analyst'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Senior Offensive Analyst",
+          "note": "Title cell of the same row as 'Alex Higgins'; appears once on the page."
+        }
+      ]
+    },
+    {
+      "name": "Ryan McInerney",
+      "role": "Senior Special Teams Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Ryan McInerney",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Senior Special Teams Analyst'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Senior Special Teams Analyst",
+          "note": "Title cell of the same row as 'Ryan McInerney'; appears once on the page."
+        }
+      ]
+    },
+    {
+      "name": "Eddie Burk Jr.",
+      "role": "Offensive Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Eddie Burk Jr.",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Offensive Quality Control'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Offensive Quality Control",
+          "note": "Title cell of the same row as 'Eddie Burk Jr.'. Four people share this exact title on the page, so this quote confirms the role but not the individual; the name quote above is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Justice Ellison",
+      "role": "Offensive Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Justice Ellison",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Offensive Quality Control'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Offensive Quality Control",
+          "note": "Title cell of the same row as 'Justice Ellison'. Shared by four staffers on the page; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Cam Haney",
+      "role": "Defensive Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Cam Haney",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Defensive Quality Control'. Also present on the Aug 28, 2025 capture, so he was on staff for the whole season."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Defensive Quality Control",
+          "note": "Title cell of the same row as 'Cam Haney'. Three people share this exact title; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Zack Leeds",
+      "role": "Offensive Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Zack Leeds",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Offensive Quality Control'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Offensive Quality Control",
+          "note": "Title cell of the same row as 'Zack Leeds'. Shared by four staffers; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Francis Meehan",
+      "role": "Defensive Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Francis Meehan",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Defensive Quality Control'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Defensive Quality Control",
+          "note": "Title cell of the same row as 'Francis Meehan'. Shared by three staffers; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Aiden Moyers",
+      "role": "Defensive Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Aiden Moyers",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Defensive Quality Control'. Also present on the Aug 28, 2025 capture, so he was on staff for the whole season."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Defensive Quality Control",
+          "note": "Title cell of the same row as 'Aiden Moyers'. Shared by three staffers; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Reed Relosky",
+      "role": "Offensive Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Reed Relosky",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Offensive Quality Control'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Offensive Quality Control",
+          "note": "Title cell of the same row as 'Reed Relosky'. Shared by four staffers; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Jake McDonald",
+      "role": "Assistant Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Jake McDonald",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Assistant Director of Football Operations'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Assistant Director of Football Operations",
+          "note": "Title cell of the same row as 'Jake McDonald'; appears once on the page."
+        }
+      ]
+    },
+    {
+      "name": "Brooks Halsey",
+      "role": "Assistant Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Brooks Halsey",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Assistant Director of Player Personnel'. Also present on the Aug 28, 2025 capture, so he was on staff for the whole season."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Assistant Director of Player Personnel",
+          "note": "Title cell of the same row as 'Brooks Halsey'. Two people share this title; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Sales Pinckney",
+      "role": "Assistant Director of Player Personnel",
+      "role_category": "ops",
+      "midseason_note": "Arrived mid-season. Not listed on the Aug 28, 2025 archived staff page (two days before the season opener) but present on the Jan 13, 2026 capture, six days before the CFP National Championship Game. On staff at the title game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Sales Pinckney",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Assistant Director of Player Personnel'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Assistant Director of Player Personnel",
+          "note": "Title cell of the same row as 'Sales Pinckney'. Two people share this title; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Jamie Stento",
+      "role": "Recruiting Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Jamie Stento",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Recruiting Assistant'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Recruiting Assistant",
+          "note": "Title cell of the same row as 'Jamie Stento'; appears once on the page."
+        }
+      ]
+    },
+    {
+      "name": "Nate Adams",
+      "role": "Assistant Athletic Performance Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Nate Adams",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Assistant Athletic Performance Coach'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Assistant Athletic Performance Coach",
+          "note": "Title cell of the same row as 'Nate Adams'. Four people share this exact title; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Daniel Johnson",
+      "role": "Assistant Athletic Performance Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Daniel Johnson",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Assistant Athletic Performance Coach'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Assistant Athletic Performance Coach",
+          "note": "Title cell of the same row as 'Daniel Johnson'. Shared by four staffers; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Carl Miller",
+      "role": "Assistant Athletic Performance Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Carl Miller",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Assistant Athletic Performance Coach'. Distinct from John Miller, the running backs coach."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Assistant Athletic Performance Coach",
+          "note": "Title cell of the same row as 'Carl Miller'. Shared by four staffers; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Jared Myatt",
+      "role": "Assistant Athletic Performance Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Jared Myatt",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Assistant Athletic Performance Coach'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Assistant Athletic Performance Coach",
+          "note": "Title cell of the same row as 'Jared Myatt'. Shared by four staffers; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Kyle Blackman",
+      "role": "Head Athletic Trainer, Football",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Kyle Blackman, MS, LAT, ATC",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). The page lists him with credential suffixes; the name field here is cleaned to 'Kyle Blackman'. Title cell of this row reads 'Head Athletic Trainer, Football'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Head Athletic Trainer, Football",
+          "note": "Title cell of the same row as 'Kyle Blackman, MS, LAT, ATC'; appears once on the page."
+        }
+      ]
+    },
+    {
+      "name": "Jon Wicks",
+      "role": "Athletic Trainer, Football",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Jon Wicks, MS, LAT, ATC",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Listed with credential suffixes; name field cleaned to 'Jon Wicks'. Title cell of this row reads 'Athletic Trainer, Football'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Athletic Trainer, Football",
+          "note": "Title cell of the same row as 'Jon Wicks, MS, LAT, ATC'. Shared with Michael Turner; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Jacob Laverman",
+      "role": "Director of Football Rehabilitation",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Jacob Laverman, PT, DPT, ATC, LAT",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Listed with credential suffixes; name field cleaned to 'Jacob Laverman'. Title cell of this row reads 'Director of Football Rehabilitation'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Director of Football Rehabilitation",
+          "note": "Title cell of the same row as 'Jacob Laverman, PT, DPT, ATC, LAT'; appears once on the page."
+        }
+      ]
+    },
+    {
+      "name": "Michael Turner",
+      "role": "Athletic Trainer, Football",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Turner, MS, LAT, ATC",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). The full cell reads 'Michael  Turner, MS, LAT, ATC' with a DOUBLE space between first and last name, which would break a whitespace-normalized match, so only the unambiguous tail is quoted. This substring occurs exactly once on the page. Title cell of this row reads 'Athletic Trainer, Football'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Athletic Trainer, Football",
+          "note": "Title cell of the same row as 'Turner, MS, LAT, ATC'. Shared with Jon Wicks; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Isaac Hicks III",
+      "role": "Director of Sports Performance Nutrition",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Isaac Hicks III RDN, CSSD, LDN, CSCS, ISAK-1",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Listed with credential suffixes; name field cleaned to 'Isaac Hicks III'. Title cell of this row reads 'Director of Sports Performance Nutrition'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Director of Sports Performance Nutrition",
+          "note": "Title cell of the same row; appears once on the page. Categorized as medical, though nutrition could arguably be filed under sc or other."
+        }
+      ]
+    },
+    {
+      "name": "Josh Huff",
+      "role": "Sports Science Coordinator",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Josh Huff",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Sports Science Coordinator'. His listed email uses the football@indiana.edu domain rather than football@iu.edu."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Sports Science Coordinator",
+          "note": "Title cell of the same row as 'Josh Huff'; appears once on the page. Categorized as sc because sports science sits with the athletic-performance group; this is a judgment call."
+        }
+      ]
+    },
+    {
+      "name": "Jared Coulter",
+      "role": "Team Analyst/Football Video Coordinator",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Jared Coulter",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Team Analyst/Football Video Coordinator'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Team Analyst/Football Video Coordinator",
+          "note": "Title cell of the same row as 'Jared Coulter'; appears once on the page. Filed under analyst on the strength of 'Team Analyst', though the role is partly video operations."
+        }
+      ]
+    },
+    {
+      "name": "Mitch Gudmundson",
+      "role": "Director of Football Equipment Operations",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Mitch Gudmundson",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Director of Football Equipment Operations'. He is the only equipment staffer on the championship-eve capture; Whitney Dean, listed as 'Equipment Manager, Football' in July 2025, was gone by the Aug 28, 2025 capture."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Director of Football Equipment Operations",
+          "note": "Title cell of the same row as 'Mitch Gudmundson'; appears once on the page."
+        }
+      ]
+    },
+    {
+      "name": "Darrell Grant",
+      "role": "Director of Football Creative Video",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Darrell Grant",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Director of Football Creative Video'. His title on the July 9, 2025 capture was the shorter 'Director of Creative Video'; the championship-eve wording is used here."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Director of Football Creative Video",
+          "note": "Title cell of the same row as 'Darrell Grant'; appears once on the Jan 13, 2026 capture."
+        }
+      ]
+    },
+    {
+      "name": "Michael Conway",
+      "role": "Assistant Director of Graphic Design",
+      "role_category": "other",
+      "midseason_note": "Arrived mid-season. Not listed on the Aug 28, 2025 archived staff page (two days before the season opener) but present on the Jan 13, 2026 capture, six days before the CFP National Championship Game. On staff at the title game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Michael Conway",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). Title cell of this row reads 'Assistant Director of Graphic Design'."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Assistant Director of Graphic Design",
+          "note": "Title cell of the same row as 'Michael Conway'. Shared with Nick Pappas; the name quote is the identifying one."
+        }
+      ]
+    },
+    {
+      "name": "Nick Pappas",
+      "role": "Assistant Director of Graphic Design",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Pappas",
+          "note": "Name cell in the 'Support Staff' table of the archived '2025 Football Staff' page (Jan 13, 2026 capture). The full cell reads 'Nick  Pappas' with a DOUBLE space between first and last name, which would break a whitespace-normalized match, so only the surname is quoted; 'Pappas' occurs exactly once on the page. Title cell of this row reads 'Assistant Director of Graphic Design'. He is the last row of the table and the only staffer with no email listed. Also present on the Aug 28, 2025 capture, so he was on staff for the whole season."
+        },
+        {
+          "url": "https://web.archive.org/web/20260113182706/https://iuhoosiers.com/sports/football/coaches",
+          "quote": "Assistant Director of Graphic Design",
+          "note": "Title cell of the same row as 'Pappas'. Shared with Michael Conway; the name quote is the identifying one."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,574 @@
+{
+  "team": "Michigan",
+  "season": 2023,
+  "coverage_notes": "SOURCES USED. (1) Wikipedia 2023 Michigan Wolverines football team page — its roster-footer \"Coaching staff\"/\"Support staff\" block lists 24 people (head coach, 12 assistants, 11 support staff). This block is NOT in the article prose; it renders inside the roster template near the bottom of the page. (2) Touch the Banner, \"2023 Michigan Football Staff\" (Feb 17, 2023), the source Wikipedia itself cites — 36 people organized as ON FIELD / OFF FIELD / STRENGTH AND CONDITIONING / RECRUITING. This is the only source found that enumerates the graduate assistants, the assistant strength staff, and the recruiting/operations staff. (3) MGoBlue.com official release of Aug 24, 2023 (\"Harbaugh Announces Coaching Duties for First Three Games of 2023\"), used for Jim Harbaugh's full endowed title, Jack Harbaugh's assistant head coach title, and Ben Herbert's added associate head coach title. (4) Individual Wikipedia biographies used as corroboration for Fred Jackson, Bradford Banta, Mike Mallory, Rick Minter, and Connor Stalions.\n\nQUOTE VERIFICATION. All 64 primary quotes plus 6 corroborating quotes were mechanically confirmed as exact substrings of the tag-stripped text of the live pages. Touch the Banner quotes take the visible-text form \"Role: Name\" because the page marks the role label with <strong> and the name follows in the same paragraph; a markdown-converting fetcher will render these as \"**Role:** Name\" instead, so match against plain text extraction. Trailing \"*\" (former Michigan player) and \"#\" (hired after the 2022 season) are part of the page text and are preserved inside the quotes.\n\nTOTAL: 38 people. Union of Wikipedia (24) and Touch the Banner (36); Fred Jackson appears only in Wikipedia, and the 14 graduate assistants / assistant strength coaches / recruiting-operations staff appear only in Touch the Banner.\n\nRING-RULE EXCLUSIONS (documented for the season but NOT on staff at the Jan 8, 2024 championship game). Chris Partridge, linebackers coach, separated from the program in mid-November 2023 — Wikipedia's parenthetical reads \"fired Nov. 7\", while contemporaneous reporting placed the separation on Nov. 17, 2023; I have flagged him but did not resolve the date discrepancy from a primary source. Connor Stalions, player personnel/defensive analyst, resigned in early November 2023 during the sign-stealing investigation. Both rows carry midseason_note. Rick Minter's row reflects that he took over as interim linebackers coach after Partridge's departure, so he was in that role at the championship game.\n\nCONFLICT I COULD NOT FULLY RESOLVE. The Wayback capture of MGoBlue's official coaches directory (web.archive.org/web/20231118183709/https://mgoblue.com/sports/football/coaches, 12 names) lists Ron Bellamy as \"Safeties Coach\", Jay Harbaugh as \"Tight Ends/Special Teams Coordinator\", and Grant Newsome as \"Tight Ends\" — assignments that appear stale/garbled, since the school's own Aug. 24, 2023 release calls Jay Harbaugh \"Special Teams Coordinator/Safeties Coach\". I therefore used the Wikipedia/Touch the Banner assignments (Bellamy = wide receivers, Jay Harbaugh = special teams/safeties, Newsome = tight ends), which agree with each other and with the school's press release. I did not cite that archived directory as a source row because its name and title cells are split across separate table columns, so no contiguous verbatim \"name + role\" string exists on the page to quote.\n\nGAPS — NOT DOCUMENTED, DELIBERATELY NOT PADDED. No medical (athletic trainers, team physicians), equipment, video, nutrition, academic-support, or football-operations-director personnel are included: Michigan did not publish a football support-staff directory, its athletics staff directory is a client-side JavaScript application whose data is absent from the archived HTML, and the Wayback CDX index surfaced no 2023 Michigan football media guide or information guide PDF. The weekly game-notes PDFs were located but MGoBlue served HTML rather than the PDF bytes and the Wayback copies did not resolve, so they could not be mined. Real staff in these categories certainly existed; I found no citable source for them, so the count of 38 should be read as a floor, not a complete roster.",
+  "staff": [
+    {
+      "name": "Jim Harbaugh",
+      "role": "J. Ira and Nicki Harris Family Head Football Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://mgoblue.com/news/2023/8/24/football-harbaugh-announces-coaching-duties-for-first-three-games-of-2023",
+          "quote": "University of Michigan J. Ira and Nicki Harris Family Head Football Coach Jim Harbaugh announced Thursday (Aug. 24) the head coaching duties for the three non-conference games of the 2023 season."
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Head coach: Jim Harbaugh*",
+          "note": "Trailing asterisk is the page's marker for 'Former Michigan football player'."
+        }
+      ],
+      "midseason_note": "Suspended from game-day coaching for games 1-3 (self-imposed) and again for the final three regular-season games (Big Ten), but remained head coach throughout and coached the championship game."
+    },
+    {
+      "name": "Jack Harbaugh",
+      "role": "Assistant Head Coach",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://mgoblue.com/news/2023/8/24/football-harbaugh-announces-coaching-duties-for-first-three-games-of-2023",
+          "quote": "Jack Harbaugh will continue to serve as the program's Assistant Head Coach."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Jack Harbaugh (assistant head coach)",
+          "note": "Appears in the roster-footer coaching staff list near the bottom of the page."
+        }
+      ]
+    },
+    {
+      "name": "Sherrone Moore",
+      "role": "Donald C. Graham Offensive Line Coach/Offensive Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://mgoblue.com/news/2023/8/24/football-harbaugh-announces-coaching-duties-for-first-three-games-of-2023",
+          "quote": "Harbaugh has appointed Defensive Coordinator Jesse Minter as the game day coach against East Carolina (Sept. 2) and Offensive Coordinator/Offensive Line Coach Sherrone Moore with the head coaching duties against Bowling Green (Sept. 16)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Sherrone Moore (offensive coordinator / offensive line)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Offensive coordinator/OL coach: Sherrone Moore"
+        }
+      ]
+    },
+    {
+      "name": "Jesse Minter",
+      "role": "Matthew and Nicole Lester Family Football Defensive Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://mgoblue.com/news/2023/8/24/football-harbaugh-announces-coaching-duties-for-first-three-games-of-2023",
+          "quote": "Harbaugh has appointed Defensive Coordinator Jesse Minter as the game day coach against East Carolina (Sept. 2) and Offensive Coordinator/Offensive Line Coach Sherrone Moore with the head coaching duties against Bowling Green (Sept. 16)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Jesse Minter (defensive coordinator)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Defensive coordinator: Jesse Minter"
+        }
+      ]
+    },
+    {
+      "name": "Steve Clinkscale",
+      "role": "co-defensive coordinator / defensive backs / defensive pass game coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Steve Clinkscale (co-defensive coordinator / defensive backs / defensive pass game coordinator)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Co-defensive coordinator/CB coach: Steve Clinkscale"
+        }
+      ]
+    },
+    {
+      "name": "Jay Harbaugh",
+      "role": "Special Teams Coordinator/Safeties Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://mgoblue.com/news/2023/8/24/football-harbaugh-announces-coaching-duties-for-first-three-games-of-2023",
+          "quote": "He will split the coaching responsibilities against UNLV on Sept. 9, with Special Teams Coordinator/Safeties Coach Jay Harbaugh handling the first half and Run Game Coordinator/Running Backs Coach Mike Hart leading the team in the second half."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Jay Harbaugh (special teams coordinator / safeties)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "S coach: Jay Harbaugh"
+        }
+      ]
+    },
+    {
+      "name": "Mike Hart",
+      "role": "Run Game Coordinator/Running Backs Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://mgoblue.com/news/2023/8/24/football-harbaugh-announces-coaching-duties-for-first-three-games-of-2023",
+          "quote": "He will split the coaching responsibilities against UNLV on Sept. 9, with Special Teams Coordinator/Safeties Coach Jay Harbaugh handling the first half and Run Game Coordinator/Running Backs Coach Mike Hart leading the team in the second half."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Mike Hart (running backs / run game coordinator)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "RB coach: Mike Hart*"
+        }
+      ]
+    },
+    {
+      "name": "Kirk Campbell",
+      "role": "Robert McCollum Family Quarterbacks Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Kirk Campbell (quarterbacks)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "QB coach: Kirk Campbell#",
+          "note": "Trailing '#' is the page's marker for 'Hired following 2022 football season'; Campbell was promoted from offensive analyst in January 2023."
+        }
+      ]
+    },
+    {
+      "name": "Ron Bellamy",
+      "role": "wide receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Ron Bellamy (wide receivers)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "WR coach: Ron Bellamy*",
+          "note": "The archived MGoBlue coaches directory of Nov 18, 2023 instead labels Bellamy 'Safeties Coach', which conflicts with the school's own Aug 24, 2023 release naming Jay Harbaugh the safeties coach; the two independent staff lists agreeing on wide receivers were preferred."
+        }
+      ]
+    },
+    {
+      "name": "Grant Newsome",
+      "role": "tight ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Grant Newsome (tight ends)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "TE coach: Grant Newsome*"
+        }
+      ]
+    },
+    {
+      "name": "Mike Elston",
+      "role": "defensive line / recruiting coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Mike Elston (defensive line / recruiting coordinator)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "DL coach: Mike Elston*"
+        }
+      ]
+    },
+    {
+      "name": "Chris Partridge",
+      "role": "linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Chris Partridge (linebackers; fired Nov. 7)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "LB coach: Chris Partridge#"
+        }
+      ],
+      "midseason_note": "DEPARTED BEFORE THE TITLE GAME. Separated from the program in mid-November 2023 during the sign-stealing investigation. Wikipedia's parenthetical says 'fired Nov. 7'; contemporaneous reporting placed the separation on Nov. 17, 2023. Either way he was not on staff for the Jan 8, 2024 CFP National Championship, so under the ring rule he should not count."
+    },
+    {
+      "name": "Ben Herbert",
+      "role": "Associate Head Coach / Director of Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://mgoblue.com/news/2023/8/24/football-harbaugh-announces-coaching-duties-for-first-three-games-of-2023",
+          "quote": "In addition, Harbaugh has added the title of Associate Head Coach to Ben Herbert's position as Director of Strength and Conditioning."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Ben Herbert (associate head coach / strength and conditioning coach)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Director of Strength and Conditioning: Ben Herbert"
+        }
+      ],
+      "midseason_note": "Held the title Director of Strength and Conditioning from the start of the season; the Associate Head Coach title was added on Aug. 24, 2023, before the season opener."
+    },
+    {
+      "name": "Sean Lockwood",
+      "role": "Assistant Strength and Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Assistant Strength and Conditioning Coach: Sean Lockwood"
+        }
+      ]
+    },
+    {
+      "name": "Ben Rabe",
+      "role": "Assistant Strength and Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Assistant Strength and Conditioning Coach: Ben Rabe"
+        }
+      ]
+    },
+    {
+      "name": "Justin Tress",
+      "role": "Assistant Strength and Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Assistant Strength and Conditioning Coach: Justin Tress"
+        }
+      ]
+    },
+    {
+      "name": "Devin Woodhouse",
+      "role": "Assistant Strength and Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Assistant Strength and Conditioning Coach: Devin Woodhouse"
+        }
+      ]
+    },
+    {
+      "name": "Bret Ingalls",
+      "role": "senior offensive analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Bret Ingalls (senior offensive analyst)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Offensive analyst: Bret Ingalls"
+        }
+      ]
+    },
+    {
+      "name": "Fred Jackson",
+      "role": "senior offensive analyst / running backs",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Fred Jackson (senior offensive analyst / running backs)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Fred_Jackson_(American_football_coach)",
+          "quote": "Jackson was on Michigan's staff when the team won national championships in 1997 and 2023.",
+          "note": "Corroborates 2023 membership. Jackson is absent from the Touch the Banner list, so Wikipedia is the only enumeration that includes him."
+        }
+      ]
+    },
+    {
+      "name": "Jack Clark",
+      "role": "offensive analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Jack Clark (offensive analyst)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Offensive analyst: Jack Clark"
+        }
+      ]
+    },
+    {
+      "name": "Nick Gilbert",
+      "role": "offensive analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Nick Gilbert (offensive analyst)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Offensive analyst: Nick Gilbert"
+        }
+      ]
+    },
+    {
+      "name": "Josh Sinagoga",
+      "role": "offensive analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Josh Sinagoga (offensive analyst)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Offensive analyst: Josh Sinagoga#",
+          "note": "Trailing '#' is the page's marker for 'Hired following 2022 football season'."
+        }
+      ]
+    },
+    {
+      "name": "Doug Mallory",
+      "role": "defensive analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Doug Mallory (defensive analyst)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Defensive analyst: Doug Mallory*"
+        }
+      ]
+    },
+    {
+      "name": "Rick Minter",
+      "role": "defensive analyst / interim linebackers",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Rick Minter (defensive analyst / interim linebackers)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Defensive analyst: Rick Minter"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Rick_Minter",
+          "quote": "Interim linebackers coach",
+          "note": "Appears in the coaching-history list of his infobox directly under the 'Michigan (2023)' entry."
+        }
+      ],
+      "midseason_note": "Began the season as a defensive analyst and took over as interim linebackers coach after Chris Partridge's mid-November departure; held that role through the championship game."
+    },
+    {
+      "name": "Bradford Banta",
+      "role": "special teams analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Bradford Banta (special teams analyst)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Special teams analyst: Bradford Banta"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bradford_Banta",
+          "quote": "He was an assistant coach for the Michigan Wolverines from 2019 to 2023, winning a national championship in his final season."
+        }
+      ]
+    },
+    {
+      "name": "J.B. Brown",
+      "role": "special teams analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "J.B. Brown (special teams analyst)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Special teams analyst: J.B. Brown"
+        }
+      ]
+    },
+    {
+      "name": "Mike Mallory",
+      "role": "special teams analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Mike Mallory (special teams analyst)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Special teams analyst: Mike Mallory"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mike_Mallory",
+          "quote": "He was previously a special teams analyst at the University of Michigan in 2023, winning a national championship with the program."
+        }
+      ]
+    },
+    {
+      "name": "Connor Stalions",
+      "role": "Player personnel analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Player personnel analyst: Connor Stalions"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Connor_Stalions",
+          "quote": "Stalions was employed by the Michigan football program as a Defensive Analyst from May 2022 to October 2023.",
+          "note": "His own biography words the role as 'Defensive Analyst'; Touch the Banner words it 'Player personnel analyst'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Connor_Stalions",
+          "quote": "After the allegations came to surface, Stalions resigned as a staff member for Michigan, as the team went on to win the 2023 national championship."
+        }
+      ],
+      "midseason_note": "DEPARTED BEFORE THE TITLE GAME. Suspended in late October 2023 and resigned in early November 2023 amid the sign-stealing investigation; not on staff for the Jan 8, 2024 CFP National Championship, so under the ring rule he should not count."
+    },
+    {
+      "name": "Mimi Bolden-Morris",
+      "role": "Graduate assistant (QBs)",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Graduate assistant (QBs): Mimi Bolden-Morris"
+        }
+      ]
+    },
+    {
+      "name": "Andrew Goodrich",
+      "role": "Graduate assistant (WRs)",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Graduate assistant (WRs): Andrew Goodrich"
+        }
+      ]
+    },
+    {
+      "name": "LaTroy Lewis",
+      "role": "Graduate assistant (LBs)",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Graduate assistant (LBs): LaTroy Lewis"
+        }
+      ]
+    },
+    {
+      "name": "Dylan Roney",
+      "role": "Graduate assistant (OLBs)",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Graduate assistant (OLBs): Dylan Roney"
+        }
+      ]
+    },
+    {
+      "name": "Tom Gamble",
+      "role": "Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Director of Player Personnel: Tom Gamble"
+        }
+      ]
+    },
+    {
+      "name": "Denard Robinson",
+      "role": "Assistant Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2023_Michigan_Wolverines_football_team",
+          "quote": "Denard Robinson (assistant director of player personnel)"
+        },
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Assistant Director of Player Personnel: Denard Robinson*"
+        }
+      ]
+    },
+    {
+      "name": "Albert Karschnia",
+      "role": "Director of Recruiting Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Director of Recruiting Operations: Albert Karschnia"
+        }
+      ]
+    },
+    {
+      "name": "Christina DeRuyter",
+      "role": "Director of On Campus Recruiting and Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Director of On Campus Recruiting and Operations: Christina DeRuyter"
+        }
+      ]
+    },
+    {
+      "name": "Paige Shiver",
+      "role": "Assistant Recruiting and Operations Director",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Assistant Recruiting and Operations Director: Paige Shiver"
+        }
+      ]
+    },
+    {
+      "name": "Chris Bryant",
+      "role": "Director of Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://touch-the-banner.com/2023-michigan-football-staff/",
+          "quote": "Director of Player Development: Chris Bryant*"
+        }
+      ]
+    }
+  ]
+}

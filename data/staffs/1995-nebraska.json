@@ -1,0 +1,926 @@
+{
+  "team": "Nebraska",
+  "season": 1995,
+  "coverage_notes": "SOURCES USED. (1) Wikipedia \"1995 Nebraska Cornhuskers football team\" — infobox plus the \"Roster and coaching staff\" navbox, which lists Osborne + 9 on-field assistants + Boyd Epley only. (2) PRIMARY SOURCE, and by far the richest: the official \"Nebraska Football 1995 Media Guide\" (preseason-1995 guide for the championship season), full OCR text on archive.org at https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt — its \"1995 Quick Facts\" directory names the coaching staff, athletic medicine staff and support staff by exact title, and its bio pages cover the two graduate assistants, the whole Athletic Performance (S&C) unit, football operations, equipment, video and football-office staff. (3) The Oct. 21, 1995 Nebraska vs. Kansas State game program, full OCR text at https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt — contains an in-season \"Husker Football Coaching Staff\" photo page (confirming both GAs were still on staff in-season), a full \"University of Nebraska Athletic Staff\" photo directory, and dedicated photo pages for the undergraduate assistant coaches, equipment managers and video crew. I did not need the Wayback Machine; huskers.com did not exist in 1995.\n\nWHAT IS FULLY RECOVERED. Head coach; all 9 on-field assistants (Solich, McBride, Bohl, Brown, Darlington, Gill, Samuel, Tenopir, Young) — this is the complete on-field staff, NCAA rules of the era capped it at 9 assistants; both graduate assistant football coaches (Carlin, Grant); the complete 7-person Athletic Performance/S&C staff; football operations and the three football-office secretaries; the athletic medicine staff and team physicians; equipment; video; the six undergraduate assistant coaches; academic services.\n\nWHAT I COULD NOT RECOVER / CAVEATS. (a) There is no \"analyst\" or \"quality control\" tier in 1995 — those job categories did not exist in college football then. The closest analogues are the two GAs and the six undergraduate assistant coaches, which I have listed. No row is categorized qc or analyst because no source uses those words. (b) UNIT SCOPE: Nebraska in 1995 ran Athletic Performance, Athletic Medicine, Video, Equipment and Academic Services as DEPARTMENT-WIDE units serving all 22 sports rather than as football-only staffs. I included the members documented in the football media guide, and I have flagged in each person's source note where the guide explicitly assigns that person to a non-football sport (Paul Koch = basketball/Olympic sports; Cindy Barker = women's basketball; Sara Weinberg = track and field). A consumer wanting a strictly football-only roster should drop those three. I deliberately EXCLUDED athletics-department administrators with no documented football role (AD Bill Byrne, Bob Devaney, Al Papik, Don Bryant, Barbara Hibner, Gary Fouraker, Joe Selig, ticket/grounds/marketing/compliance/development, and the sports information staff). (c) NOT ENUMERATED AS ROWS, though documented in the sources and available if wanted: the five graduate assistant TRAINERS for 1995-96 (Doug Edwards, Tara Kramer, Ben Vance, Carol Young, Chris Froiland) and ~19 student trainers, both named in the Jerry Weber bio in the media guide; and the 13 student football managers named in the game program (\"1995 Husker Student Managers, Back Row (from left): Jon Meier, Adam Kucera, Ryan Ricenbae, Mike Schukei, John McNeely, Jason Joseph, Jason\"). These are student/GA labor rather than staff, so I left them out of the rows rather than pad the count — but they are real and sourced. (d) TITLE CONFLICTS between the two 1995 sources, left as-is rather than silently resolved: Randy Gobel is \"Assistant Director of Athletic Performance\" in the media guide but \"Coordinator of Strength & Conditioning\" in the program's photo directory; George Sullivan is \"Head Trainer Emeritus\" in the media guide but the program's photo directory still captions him \"Asst. Chief of Staff, Head Football Trainer\" (the program directory appears partly stale — the media guide states he retired as full-time football trainer after 1994 and stayed on as a consultant, and the program elsewhere notes a Sept. 22, 1995 retirement reception for him). (e) OCR CAVEAT: both archive.org sources are OCR'd scans. Every quote below is copied byte-exact from the OCR text, so a few contain OCR artifacts (e.g. \"Fat Logsdon\" for Pat Logsdon, \"Bryan Balley\" for Bryan Bailey, \"Faul Koch\" for Paul Koch, \"isin\"/\"yearas\" run-together words, curly apostrophes). I chose quote lines that are clean where possible and used the `note` field to carry role context that falls on an adjacent OCR line. Photo-caption directories in the program place names on one line and titles on the following lines in column order; where I relied on that, the note explains the column mapping. (f) No mid-season arrivals or departures are documented for any staff member; the entire staff listed was in place for the Jan. 2, 1996 Fiesta Bowl. Craig Bohl was in his first season as LB coach (replacing Kevin Steele, who left for the NFL after 1994) but was hired before the season, not mid-season.",
+  "staff": [
+    {
+      "name": "Tom Osborne",
+      "role": "Assistant A.D./Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Assistant A.D./Head Coach: Tom Osborne (Hastings, 1959)",
+          "note": "1995 Quick Facts directory, under the heading 'Husker Football Coaches'."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Tom Osborne Frank Solich Charlie McBride Craig Bohl",
+          "note": "In-season 'Husker Football Coaching Staff' photo page; the title row directly beneath reads 'Head Coach Assistant Head Coach, Defensive Coordinator, Linebackers' in the same column order."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1995_Nebraska_Cornhuskers_football_team",
+          "quote": "32nd year at Nebraska",
+          "note": "Coaching staff navbox entry for Tom Osborne, listed as head coach, 23rd season."
+        }
+      ]
+    },
+    {
+      "name": "Frank Solich",
+      "role": "Assistant Head Coach/Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Assistant Head Coach/Running Backs: Frank Solich",
+          "note": "1995 Quick Facts directory."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1995_Nebraska_Cornhuskers_football_team",
+          "quote": "13th season as RB coach",
+          "note": "Coaching staff navbox entry for Frank Solich."
+        }
+      ]
+    },
+    {
+      "name": "Charlie McBride",
+      "role": "Defensive Coordinator/Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Defensive Coordinator/Defensive Line: Charlie McBride",
+          "note": "1995 Quick Facts directory."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1995_Nebraska_Cornhuskers_football_team",
+          "quote": "15th season as DC/DL coach",
+          "note": "Coaching staff navbox entry; McBride is also the defensive coordinator named in the article infobox."
+        }
+      ]
+    },
+    {
+      "name": "Craig Bohl",
+      "role": "Assistant Coach/Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Assistant Coach/Linebackers: Craig Bohl",
+          "note": "1995 Quick Facts directory."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1995_Nebraska_Cornhuskers_football_team",
+          "quote": "1st season as LB coach",
+          "note": "Coaching staff navbox entry for Craig Bohl; first season in the LB role but his 4th year at Nebraska, hired before the season began, not mid-season."
+        }
+      ]
+    },
+    {
+      "name": "Ron Brown",
+      "role": "Assistant Coach/Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Assistant Coach/Receivers: Ron Brown",
+          "note": "1995 Quick Facts directory."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1995_Nebraska_Cornhuskers_football_team",
+          "quote": "9th season as WR/TE coach",
+          "note": "Coaching staff navbox entry for Ron Brown."
+        }
+      ]
+    },
+    {
+      "name": "George Darlington",
+      "role": "Assistant Coach/Secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Assistant Coach/Secondary: George Darlington",
+          "note": "1995 Quick Facts directory."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1995_Nebraska_Cornhuskers_football_team",
+          "quote": "23rd year at Nebraska",
+          "note": "Coaching staff navbox entry for George Darlington, listed as 'DB coach'."
+        }
+      ]
+    },
+    {
+      "name": "Turner Gill",
+      "role": "Assistant Coach/Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Assistant Coach/Quarterbacks: Turner Gill",
+          "note": "1995 Quick Facts directory."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1995_Nebraska_Cornhuskers_football_team",
+          "quote": "4th season as QB coach",
+          "note": "Coaching staff navbox entry for Turner Gill."
+        }
+      ]
+    },
+    {
+      "name": "Tony Samuel",
+      "role": "Assistant Coach/Outside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Assistant Coach/Outside Linebackers: Tony Samuel",
+          "note": "1995 Quick Facts directory."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Steve Pederson Tony Samuel",
+          "note": "In-season 'Husker Football Coaching Staff' photo page; title row beneath reads 'Associate A.D., Football Outside Linebackers' / 'Operations', i.e. Samuel = Outside Linebackers."
+        }
+      ]
+    },
+    {
+      "name": "Milt Tenopir",
+      "role": "Assistant Coach/Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Assistant Coach/Offensive Line: Milt Tenopir",
+          "note": "1995 Quick Facts directory."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1995_Nebraska_Cornhuskers_football_team",
+          "quote": "22nd season as OL coach",
+          "note": "Coaching staff navbox entry for Milt Tenopir."
+        }
+      ]
+    },
+    {
+      "name": "Dan Young",
+      "role": "Assistant Coach/Offensive Line/Kickers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Assistant Coach/Offensive Line/Kickers: Dan Young",
+          "note": "1995 Quick Facts directory."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1995_Nebraska_Cornhuskers_football_team",
+          "quote": "13th season as OL/K coach",
+          "note": "Coaching staff navbox entry for Dan Young."
+        }
+      ]
+    },
+    {
+      "name": "Clayton Carlin",
+      "role": "Graduate Assistant Football Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "season as a graduate assistant on",
+          "note": "From Carlin's bio page, whose photo caption reads 'Clayton Carlin / Graduate / Assistant / Football Coach'. Surrounding bio lines read 'Clayton Carlin is in his second' / 'season as a graduate assistant on' / 'the Husker football staff' and state he 'willagain work with the defensive backs. assisting Coach George Darlington.'"
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Ron Brown Clayton Carlin George Darlington Boyd Epley",
+          "note": "In-season 'Husker Football Coaching Staff' photo page; the title row beneath reads 'Receivers Graduate Assistant Defensive Backs Assistant A.D.,' in the same column order, confirming Carlin was on staff during the 1995 season."
+        }
+      ]
+    },
+    {
+      "name": "Mike Grant",
+      "role": "Graduate Assistant Football Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Grant is in his second year as a",
+          "note": "From Grant's bio page, captioned 'Mike Grant / Graduate / Ass/stant [Assistant] / Football Coach'. The bio continues 'graduate assistant onthe Nebraska staff. Grant will again assistCoach Ron Brown withthe NU receiving corps.'"
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Mike Grant Turner Gill",
+          "note": "In-season 'Husker Football Coaching Staff' photo page; the title row beneath reads 'Graduate Assistant Quarterbacks', i.e. Grant = Graduate Assistant, Gill = Quarterbacks."
+        }
+      ]
+    },
+    {
+      "name": "Boyd Epley",
+      "role": "Asst. A.D./Dir. of Athletic Performance",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Asst. A.D./Dir. of Athletic Performance: Boyd Epley",
+          "note": "1995 Quick Facts directory. His bio page adds that he 'was named NU's Assistant Athletic Director and Director of Athletic Performance, July 1, 1994' and 'heads a staff of seven full-time strength coaches'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1995_Nebraska_Cornhuskers_football_team",
+          "quote": "27th season as S&C coach",
+          "note": "Coaching staff navbox entry for Boyd Epley — the only strength/support staffer Wikipedia lists."
+        }
+      ]
+    },
+    {
+      "name": "Mike Arthur",
+      "role": "Assistant Director of Athletic Performance",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Arthur is the Huskers’ Assistant Di-",
+          "note": "Bio page captioned 'Mike Arthur / Assistant Director of / Athletic Performance'. Quote uses a curly apostrophe and ends mid-word at an OCR line break; the sentence continues 'rector of Athletic Performance and coordinates the workout programs for student-athletes in all 22 NU sports.' He is described as 'The dean of Boyd Epley's staff'."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Bill Byrne Glen Abbott Dr. Lonnie Albers Chris Anderson Mike Arthur Bryan Bailey",
+          "note": "'University of Nebraska Athletic Staff' photo directory; the two title rows beneath read 'Athletic Director Equipment Manager Director of Sports Information Agyistant Director of Coordinator of' / 'Athletic Medicine Director Athletic Performance Reconditioning', mapping Arthur = Assistant Director of Athletic Performance and Bailey = Coordinator of Reconditioning."
+        }
+      ]
+    },
+    {
+      "name": "Bryan Bailey",
+      "role": "Coordinator of Reconditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Bryan Bailey is entering his eighth",
+          "note": "Bio page captioned 'Bryan Balley [Bailey] / Coordinator of / Reconadltioning [Reconditioning]'. Bio continues 'year with the Nebraska strength and conditioning program. He works closely with the team physicians and trainers, modifying the strength and conditioning programs for injured athletes.'"
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Athletic Medicine Director Athletic Performance Reconditioning",
+          "note": "Second title row of the athletic staff photo directory; last column corresponds to Bryan Bailey in the name row above."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Coleman",
+      "role": "West Stadium Strength Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "and field standout Kevin Coleman re-",
+          "note": "Bio page captioned 'Kevin Coleman / West Stadlum [Stadium] / Strength Coach'. Sentence continues 'placed Jon Jost as the West Stadium strength coach in August, 1994'. West Stadium houses the football strength complex."
+        }
+      ]
+    },
+    {
+      "name": "Randy Gobel",
+      "role": "Assistant Director of Athletic Performance",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Gobel was promoted to Assistant Director of Athletic performance last",
+          "note": "Bio page captioned 'Assistant Director of / Athletic Performance'; sentence continues 'summer, and directs the program's facities [facilities] and events.' NOTE: the game program's photo directory instead titles him 'Coordinator of Strength & Conditioning' — the two 1995 sources conflict."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Dave Finn Gary Fouraker Dr. Samuel Fuenning Sam Gdowski Randy Gobel Mike Gooding",
+          "note": "Athletic staff photo directory; title rows beneath read 'Director of Assistant A.D., Director Emeritus, Marketing Assistant Coordinator of Assistant Athletic Trainer' / 'Video Operations Business & Finance Athletic Medicine Strength & Conditioning', mapping Gobel = Coordinator of Strength & Conditioning."
+        }
+      ]
+    },
+    {
+      "name": "Paul Koch",
+      "role": "Bob Devaney Sports Center Strength Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "strength coach, Paul Koch earned a",
+          "note": "Bio page captioned 'Faul Koch [OCR of Paul Koch] / Bob Devaney Sports / Center Strength Coach'; sentence begins 'Entering his fifth season as a full-time'. CAVEAT: the same bio states Koch 'plans and implements programs for the men's and women's basketball teams, as well as several of the Husker Olympic sport teams' — he is on Epley's Athletic Performance staff as listed in the football media guide but his documented duties are NOT football. Drop this row for a strictly football-only roster."
+        }
+      ]
+    },
+    {
+      "name": "Curt Thompson",
+      "role": "Coordinator of Performance Education Services",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Thompson, a native of Blair, Neb., coordinates and manages the student",
+          "note": "Bio page captioned 'Curt Thompson / Coordinator of / Performance / Education Services'. Sentence continues 'supervisors as they monitor the various programs in the West Stadium strength complex' — i.e. the football strength facility. Bio opens 'Curt Thompson isin his eighth yearas amember of BoydEpley's staff.'"
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Bill Shepard Dr. Jack Stark George Sullivan Curt Thompson Vince Ullman Sonya Varnell",
+          "note": "Athletic staff photo directory; title rows beneath read 'Grounds Manager Performance Psychologist Asst. Chief of Staff. Coordinator of Video Electronic Coordinator of' / 'Head Football Trainer Performance Ed. Services Technician Multicultural Programs', mapping Thompson = Coordinator of Performance Ed. Services."
+        }
+      ]
+    },
+    {
+      "name": "Dave Ellis",
+      "role": "Performance Nutritionist",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Nebraska athletic department, Dave Ellis",
+          "note": "Bio page captioned 'Dave Ellis / Performance / Nutritionist'; sentence reads 'Beginning his second year with the Nebraska athletic department, Dave Ellis is one of the only full-time performance nutritionists in the country.' The guide's facilities section notes 'a full-time performance nutritionist' on the strength staff. Ellis had previously served as a Husker assistant strength coach for eight years."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Heidi Cuca Bob Devaney Joni Duff Dr. Robert Dugas Dave Ellis Boyd Epley",
+          "note": "Athletic staff photo directory; title rows beneath read 'Marketing Director Athletic Director Football Secretary Team Orthopedist Director of Assistant A.D., Director of' / 'Emeritus Performance Nutrition Athletic Performance', mapping Ellis = Director of Performance Nutrition."
+        }
+      ]
+    },
+    {
+      "name": "Steve Pederson",
+      "role": "Assoc, A.D./Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Assoc, A.D./Football Operations: Steve Pederson",
+          "note": "1995 Quick Facts directory (comma after 'Assoc' is an OCR artifact of a period). His bio notes he 'returned to Coach Osborne's staff' from Tennessee, having previously been Nebraska's recruiting coordinator and administrative assistant."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Associate A.D., Football Outside Linebackers",
+          "note": "Title row on the in-season 'Husker Football Coaching Staff' photo page under the names 'Steve Pederson Tony Samuel'; the wrapped word 'Operations' is on the next line, giving Pederson = Associate A.D., Football Operations."
+        }
+      ]
+    },
+    {
+      "name": "Pat Logsdon",
+      "role": "Assistant to the Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "football staff, Pat Logsdon is in her sec-",
+          "note": "Bio page captioned 'Fat Logsdon [OCR of Pat Logsdon] / Assistant to the / Director of / Football Operations'. Full sentence: 'In her 16th year with the Nebraska football staff, Pat Logsdon is in her second year as assistant to the director of football operations.' Bio adds 'she facilitates the football recruiting process for the coaching staff.'"
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Pat Logsdon Keith Mann Mike Mason George Mauzy Paul Meyers Brian Mohnsen",
+          "note": "Athletic staff photo directory; title rows beneath read 'Assistant to the Director of Aysistant Sports Assistant Assistant Sports Development Computer' / 'Football Operations Information Director Equipment Manager Information Director Officer Video Technician'."
+        }
+      ]
+    },
+    {
+      "name": "Mary Lyn Wininger",
+      "role": "Coach Osborne's Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Office phone: 402-472-3116 Secretary: Mary Lyn Wininger",
+          "note": "Line from Tom Osborne's head-coach bio page listing his office contact and secretary. Her own bio page reads 'Mary Lyn Wininger isin her | 3th year as secretary to Husker head couch [coach] Tom Osborne.'"
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Jerry Weber Sara Weinberg Mary Lyn Wininger Kathi Woody Mel Worster Keith Zimmer",
+          "note": "Athletic staff photo directory; the title row beneath reads 'Head Athletic Trainer Assistant Athletic Trainer Coach Osborne's Football Recruiting Asst. Equipment Manager, Assistant Director of' with 'Secretary Secretary' wrapping to the next line, mapping Wininger = Coach Osborne's Secretary and Woody = Football Recruiting Secretary."
+        }
+      ]
+    },
+    {
+      "name": "Kathi Woody",
+      "role": "Recruiting Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "with the Husker football office. Woody",
+          "note": "Bio page captioned 'Recralting [Recruiting] / Secretary'; full sentence reads 'Kathi Woody is in her seventh season with the Husker football office.'"
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Head Athletic Trainer Assistant Athletic Trainer Coach Osborne's Football Recruiting Asst. Equipment Manager, Assistant Director of",
+          "note": "Title row of the athletic staff photo directory under the names 'Jerry Weber Sara Weinberg Mary Lyn Wininger Kathi Woody Mel Worster Keith Zimmer'; Woody's column reads 'Football Recruiting' + 'Secretary' from the wrapped next line."
+        }
+      ]
+    },
+    {
+      "name": "Joni Duff",
+      "role": "Football Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Joni Duff is in her 15th year as a",
+          "note": "Bio page captioned 'Jon! Duff [OCR of Joni Duff] / Football / Secretary'; sentence continues 'football office staff secretary'."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Marketing Director Athletic Director Football Secretary Team Orthopedist Director of Assistant A.D., Director of",
+          "note": "Title row of the athletic staff photo directory under the names 'Heidi Cuca Bob Devaney Joni Duff Dr. Robert Dugas Dave Ellis Boyd Epley'; third column = Joni Duff, Football Secretary."
+        }
+      ]
+    },
+    {
+      "name": "Dennis LeBlanc",
+      "role": "Assistant A.D., Academic Programs/Services",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Norma Knobel Paul Koch Trina Kudlacek Roland \"Duke\" LaRue Dennis LeBlanc Doug Lillie",
+          "note": "Athletic staff photo directory; the title rows beneath read 'Administrative Devaney Center Academic Counselor Assistant Athletic Trainer Assistant A.D., Devaney Center' / 'Services Manager Strength Coach Academic Programs/Services Superintendent', mapping LeBlanc = Assistant A.D., Academic Programs/Services and LaRue = Assistant Athletic Trainer."
+        },
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Dennis Leblanc is entering his third year",
+          "note": "Bio page captioned 'Assistant Athletic / Director, Academic & / Student Services'; continues 'as assistantathletic director for academic and student services' and notes he is 'A former Husker track and field coach and recruiting coordinator'. Department-wide academic unit, not football-exclusive."
+        }
+      ]
+    },
+    {
+      "name": "Keith Zimmer",
+      "role": "Assistant Director: Keith Zimmer (Academic Programs and Student Services)",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Assistant Director: Keith Zimmer, Counselor: Trina Kudlacek",
+          "note": "1995 Quick Facts 'Support Staff' block, under the heading 'Academic Programs and Student Services'. Department-wide academic unit, not football-exclusive."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Jerry Weber Sara Weinberg Mary Lyn Wininger Kathi Woody Mel Worster Keith Zimmer",
+          "note": "Athletic staff photo directory; Zimmer's column title reads 'Assistant Director of' + 'Academic & Student' + 'Services' across the wrapped title rows."
+        }
+      ]
+    },
+    {
+      "name": "Jack Nickolite",
+      "role": "Head Football Trainer/Physician's Assistant",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Head Football Trainer/Physician's Assistant: Jack Nickolite",
+          "note": "1995 Quick Facts 'Athletic Medicine' block. His bio page is captioned 'Associate Director of Athletic Medicine, Head Football Trainer, PA-C, ATC' and states he 'was recently appointed Head Football Trainer'."
+        }
+      ]
+    },
+    {
+      "name": "Jerry Weber",
+      "role": "Head Athletic Trainer/Physical Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Head Athletic Trainer/Physical Therapist: Jerry Weber, RPT",
+          "note": "1995 Quick Facts 'Athletic Medicine' block. His bio adds that he 'supervises the Husker staff of athletic trainers, graduate assistants and student assistants' and names the 1995-96 graduate assistant trainers (Doug Edwards, Tara Kramer, Ben Vance, Carol Young, Chris Froiland)."
+        }
+      ]
+    },
+    {
+      "name": "Doak Ostergard",
+      "role": "Assoc. Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Assoc. Trainer: Doak Ostergard",
+          "note": "1995 Quick Facts 'Athletic Medicine' block. His bio page is captioned 'Assoclate [Associate] tlead [Head] Athletic Tralner [Trainer], ATC' and states 'Ostergard's primary responsibilities include working with the football team and reconditioning injured athletes.'"
+        }
+      ]
+    },
+    {
+      "name": "Duke LaRue",
+      "role": "Asst. Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Asst. Trainers: Duke LaRue, Cindy Barker, Sara Weinberg",
+          "note": "1995 Quick Facts 'Athletic Medicine' block. His bio page is captioned 'Duke LaRue / Asslstant [Assistant] Athletic Tralner [Trainer], RP7 [RPT], ATC' and notes he is 'Now in his 18th year as assistant trainerand physical therapist' and 'serves as the director of the athletic department's student training education.'"
+        }
+      ]
+    },
+    {
+      "name": "Cindy Barker",
+      "role": "Asst. Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Asst. Trainers: Duke LaRue, Cindy Barker, Sara Weinberg",
+          "note": "1995 Quick Facts 'Athletic Medicine' block. CAVEAT: her bio page states 'Her primary responsibility is the care of the Husker women's basketball team, but she also works with other NU Olympic sport squads' — listed in the football media guide's medical staff but not documented as football-assigned. Drop for a strictly football-only roster."
+        }
+      ]
+    },
+    {
+      "name": "Sara Weinberg",
+      "role": "Asst. Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Asst. Trainers: Duke LaRue, Cindy Barker, Sara Weinberg",
+          "note": "1995 Quick Facts 'Athletic Medicine' block. CAVEAT: her bio page states 'Her primary responsibilities are the Husker track and field teams, as well as providing support for the other Olympic sports' — listed in the football media guide's medical staff but not documented as football-assigned. Drop for a strictly football-only roster."
+        }
+      ]
+    },
+    {
+      "name": "Mike Gooding",
+      "role": "Assistant Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Director of Assistant A.D., Director Emeritus, Marketing Assistant Coordinator of Assistant Athletic Trainer",
+          "note": "Title row of the 'University of Nebraska Athletic Staff' photo directory under the names 'Dave Finn Gary Fouraker Dr. Samuel Fuenning Sam Gdowski Randy Gobel Mike Gooding'; sixth column = Mike Gooding, Assistant Athletic Trainer. Gooding does not appear in the media guide's Quick Facts block or bio pages, so the game program is the only source for him."
+        }
+      ]
+    },
+    {
+      "name": "George Sullivan",
+      "role": "Head Trainer Emeritus",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Head Trainer Emeritus: George Sullivan",
+          "note": "1995 Quick Facts 'Athletic Medicine' block. His bio page is captioned 'George Sullivan / Head Tralner Emeritus, Medtcal Consultant, P7, ATC' and states 'Sully.' is in his 43rd year on the Husker medical staff and that 'Last season, he officially retired as Nebraska's full-time football trainer, but remains as a consultant.' The game program's photo directory still captions him 'Asst. Chief of Staff. / Head Football Trainer' (apparently stale), and the program's N Club notice announces a retirement reception for him on Sept. 22, 1995."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Lonnie Albers",
+      "role": "Director of Athletic Medicine",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Director of Athletic Medicine: Dr. Lonnie Albers",
+          "note": "1995 Quick Facts 'Athletic Medicine' block. His bio page adds 'Dr. Lonnie Albers is entering his fifth year as director of athletic medicine and his ninth overall at the University of Nebraska.'"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Pat Clare",
+      "role": "Chief of Staff/Orthopedic Surgeon",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Chief of Staff/Orthopedic Surgeon: Dr. Pat Clare",
+          "note": "1995 Quick Facts 'Athletic Medicine' block."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Samuel Fuenning",
+      "role": "Director Emeritus/Athletic Medicine",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Director Emeritus/Athletic Medicine: Dr. Samuel Fuenning",
+          "note": "1995 Quick Facts 'Athletic Medicine' block."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Robert Dugas",
+      "role": "Orthopedist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Orthopedists: Dr. Robert Dugas, Dr. Matt Reckmeyer, Dr. Tom Heiser",
+          "note": "1995 Quick Facts 'Athletic Medicine' block. The game program's photo directory captions Dugas 'Team Orthopedist'."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Matt Reckmeyer",
+      "role": "Orthopedist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Orthopedists: Dr. Robert Dugas, Dr. Matt Reckmeyer, Dr. Tom Heiser",
+          "note": "1995 Quick Facts 'Athletic Medicine' block. His bio page is captioned 'Dr. Matt Reckmeyer / Team Physician, Orthopedist, M.D.' and states he 'is in his sixth year as a Nebraska team physician.'"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Tom Heiser",
+      "role": "Orthopedist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Orthopedists: Dr. Robert Dugas, Dr. Matt Reckmeyer, Dr. Tom Heiser",
+          "note": "1995 Quick Facts 'Athletic Medicine' block. The game program's photo directory captions Heiser 'Team Physician, Orthopedist'."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Jack Stark",
+      "role": "Performance Psychologist",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Jack Stark is in his eighth year as the",
+          "note": "Bio page captioned 'Jack Stark / Performance / Psychologist'; continues 'Huskers' performance psychologist and his 22nd year in the sports psychology field.' Stark is the psychologist associated with Nebraska's football Unity Council."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Grounds Manager Performance Psychologist Asst. Chief of Staff. Coordinator of Video Electronic Coordinator of",
+          "note": "Title row of the athletic staff photo directory under 'Bill Shepard Dr. Jack Stark George Sullivan Curt Thompson Vince Ullman Sonya Varnell'; second column = Dr. Jack Stark, Performance Psychologist."
+        }
+      ]
+    },
+    {
+      "name": "Glen Abbott",
+      "role": "Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Equipment Manager: Glen Abbott",
+          "note": "1995 Quick Facts 'Support Staff' block. His bio page adds he 'is in his 19th year as Nebraska's equipment manager' and is 'in charge of maintaining the Huskers' lockerrooms in the South Stadium Office Building and Schulte Fieldhouse, in addition to caring for the football team's equipment.'"
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Manager Glen Abbott, Matt Geiser and Shawn Davis.",
+          "note": "Continuation line of the '1995 Nebraska Football Equipment Managers' photo caption; preceding line ends '...Head Equipment', giving 'Head Equipment Manager Glen Abbott'."
+        }
+      ]
+    },
+    {
+      "name": "Mike Mason",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "1995 Nebraska Football Equipment Managers (from left): Troy Williams, Mark Lewin, Assistant Equipment Manager Mike Mason, Head Equipment",
+          "note": "Photo caption on the 'Nebraska Equipment Managers' page of the in-season game program."
+        },
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Mike Mason enters his second year",
+          "note": "Bio page captioned 'Mike Mason / Assistant / Eqalpment [Equipment] Manager'; continues 'as assistant equipment manager and seventh with the Nebraska athletic department.'"
+        }
+      ]
+    },
+    {
+      "name": "Troy Williams",
+      "role": "1995 Nebraska Football Equipment Managers (no individual title given)",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "1995 Nebraska Football Equipment Managers (from left): Troy Williams, Mark Lewin, Assistant Equipment Manager Mike Mason, Head Equipment",
+          "note": "Photo caption on the game program's 'Nebraska Equipment Managers' page. The caption gives individual titles only for Mason and Abbott; Williams is pictured among the 1995 football equipment managers with no separate title, almost certainly a student equipment manager."
+        }
+      ]
+    },
+    {
+      "name": "Mark Lewin",
+      "role": "1995 Nebraska Football Equipment Managers (no individual title given)",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "1995 Nebraska Football Equipment Managers (from left): Troy Williams, Mark Lewin, Assistant Equipment Manager Mike Mason, Head Equipment",
+          "note": "Photo caption on the game program's 'Nebraska Equipment Managers' page; no individual title given, likely a student equipment manager."
+        }
+      ]
+    },
+    {
+      "name": "Matt Geiser",
+      "role": "1995 Nebraska Football Equipment Managers (no individual title given)",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Manager Glen Abbott, Matt Geiser and Shawn Davis.",
+          "note": "Continuation line of the '1995 Nebraska Football Equipment Managers' photo caption; no individual title given, likely a student equipment manager."
+        }
+      ]
+    },
+    {
+      "name": "Shawn Davis",
+      "role": "1995 Nebraska Football Equipment Managers (no individual title given)",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Manager Glen Abbott, Matt Geiser and Shawn Davis.",
+          "note": "Continuation line of the '1995 Nebraska Football Equipment Managers' photo caption; no individual title given, likely a student equipment manager."
+        }
+      ]
+    },
+    {
+      "name": "Dave Finn",
+      "role": "Video Operations Director",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Video Operations Director: Dave Finn",
+          "note": "1995 Quick Facts 'Support Staff' block; the listed phone (472-3116) is the football office number. His bio page is captioned 'Dave Finn / Director of / Video Operations'."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Husker Video Crew (from left): Jeff Schmahl, Brian Mohnsen, Rick Schwieger, Dave Finn, Bryan Carpenter, John Bousek.",
+          "note": "Photo caption on the game program's 'Husker Video Crew' page, confirming the 1995 in-season football video staff."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Schmahl",
+      "role": "Video Production Specialist",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Video Production Specialist: Jeff Schmahl",
+          "note": "1995 Quick Facts 'Support Staff' block."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Husker Video Crew (from left): Jeff Schmahl, Brian Mohnsen, Rick Schwieger, Dave Finn, Bryan Carpenter, John Bousek.",
+          "note": "Photo caption on the game program's 'Husker Video Crew' page."
+        }
+      ]
+    },
+    {
+      "name": "Rick Schwieger",
+      "role": "Production Specialist",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Production Specialist: Rick Schwieger",
+          "note": "1995 Quick Facts 'Support Staff' block, listed directly beneath the video operations entries."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Husker Video Crew (from left): Jeff Schmahl, Brian Mohnsen, Rick Schwieger, Dave Finn, Bryan Carpenter, John Bousek.",
+          "note": "Photo caption on the game program's 'Husker Video Crew' page."
+        }
+      ]
+    },
+    {
+      "name": "Bryan Carpenter",
+      "role": "Computer Video Technician",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Bryan Carpenter is in his fifth year",
+          "note": "Bio page captioned 'Bryan Carpenter / Computer / Video Techuiclan [Technician]'; continues 'with the Nebraska Athletic Department and his second as a computer video technician.' A former three-year Husker football letterman."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Husker Video Crew (from left): Jeff Schmahl, Brian Mohnsen, Rick Schwieger, Dave Finn, Bryan Carpenter, John Bousek.",
+          "note": "Photo caption on the game program's 'Husker Video Crew' page."
+        }
+      ]
+    },
+    {
+      "name": "Brian Mohnsen",
+      "role": "Computer Video Technician",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Husker Video Crew (from left): Jeff Schmahl, Brian Mohnsen, Rick Schwieger, Dave Finn, Bryan Carpenter, John Bousek.",
+          "note": "Photo caption on the game program's 'Husker Video Crew' page."
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Assistant to the Director of Aysistant Sports Assistant Assistant Sports Development Computer",
+          "note": "Title row of the athletic staff photo directory under 'Pat Logsdon Keith Mann Mike Mason George Mauzy Paul Meyers Brian Mohnsen'; the sixth column reads 'Computer' + 'Video Technician' from the wrapped next line."
+        }
+      ]
+    },
+    {
+      "name": "John Bousek",
+      "role": "Husker Video Crew (no individual title given)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Husker Video Crew (from left): Jeff Schmahl, Brian Mohnsen, Rick Schwieger, Dave Finn, Bryan Carpenter, John Bousek.",
+          "note": "Photo caption on the game program's 'Husker Video Crew' page. Bousek does not appear in the media guide's staff directory or bio pages, so no individual title is documented."
+        }
+      ]
+    },
+    {
+      "name": "Vince Ullman",
+      "role": "Video Electronic Technician",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Vince Ullman has been with the ath-",
+          "note": "Bio page captioned 'Vince Ullman / Video / Electronic Techutclan [Technician]'; continues 'letic department for 29 years, the last sevenas an electronic technician on Dave Finn's video staff.'"
+        },
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Bill Shepard Dr. Jack Stark George Sullivan Curt Thompson Vince Ullman Sonya Varnell",
+          "note": "Athletic staff photo directory; the title rows beneath map Ullman = 'Video Electronic' + 'Technician'."
+        }
+      ]
+    },
+    {
+      "name": "Floyd Sorley",
+      "role": "Video Assistant",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1995-media-guide-b/Nebraska%20Football%2C%201995%20Media%20Guide%20%28B%29_djvu.txt",
+          "quote": "Floyd Sorley is in his 17th year as a",
+          "note": "Bio page captioned 'Video / Ass/lstant [Assistant]'; continues 'video assistant with the athletic department. The father of former Husker standout quarterback Tom Sorley'."
+        }
+      ]
+    },
+    {
+      "name": "Ed Morrow",
+      "role": "Undergraduate Assistant Coach",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "1995 Husker Undergraduate Assistant Coaches, Back Row (left to right): Ed Morrow, Merritt Nelson, Chad Young. Front Row: Abdul Muhammad, Damon",
+          "note": "Photo caption on the game program's '1995 Husker Undergraduate Assistants' page. This tier is the 1995 analogue of today's quality-control/analyst staff; the source words it only as 'Undergraduate Assistant Coaches'."
+        }
+      ]
+    },
+    {
+      "name": "Merritt Nelson",
+      "role": "Undergraduate Assistant Coach",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "1995 Husker Undergraduate Assistant Coaches, Back Row (left to right): Ed Morrow, Merritt Nelson, Chad Young. Front Row: Abdul Muhammad, Damon",
+          "note": "Photo caption on the game program's '1995 Husker Undergraduate Assistants' page."
+        }
+      ]
+    },
+    {
+      "name": "Chad Young",
+      "role": "Undergraduate Assistant Coach",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "1995 Husker Undergraduate Assistant Coaches, Back Row (left to right): Ed Morrow, Merritt Nelson, Chad Young. Front Row: Abdul Muhammad, Damon",
+          "note": "Photo caption on the game program's '1995 Husker Undergraduate Assistants' page. Note: a 'Chad Young' also appears on the Wikipedia player roster as an FS, so this may be a former player serving as an undergraduate assistant."
+        }
+      ]
+    },
+    {
+      "name": "Abdul Muhammad",
+      "role": "Undergraduate Assistant Coach",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "1995 Husker Undergraduate Assistant Coaches, Back Row (left to right): Ed Morrow, Merritt Nelson, Chad Young. Front Row: Abdul Muhammad, Damon",
+          "note": "Photo caption on the game program's '1995 Husker Undergraduate Assistants' page. Muhammad was a Nebraska wingback through the 1994 championship season who moved into an undergraduate assistant role for 1995."
+        }
+      ]
+    },
+    {
+      "name": "Damon Schmadeke",
+      "role": "Undergraduate Assistant Coach",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Schmadeke, Chad Stanley.",
+          "note": "Continuation line of the '1995 Husker Undergraduate Assistant Coaches' photo caption; the preceding line ends 'Front Row: Abdul Muhammad, Damon', giving 'Damon Schmadeke'."
+        }
+      ]
+    },
+    {
+      "name": "Chad Stanley",
+      "role": "Undergraduate Assistant Coach",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/1995-10-21-kansas-state-at-nebraska-football-game-program-c/1995-10-21%2C%20Kansas%20State%20at%20Nebraska%20Football%20Game%20Program%20%28C%29_djvu.txt",
+          "quote": "Schmadeke, Chad Stanley.",
+          "note": "Continuation line of the '1995 Husker Undergraduate Assistant Coaches' photo caption on the game program's '1995 Husker Undergraduate Assistants' page."
+        }
+      ]
+    }
+  ]
+}

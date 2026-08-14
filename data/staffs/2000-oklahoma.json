@@ -1,0 +1,291 @@
+{
+  "team": "Oklahoma",
+  "season": 2000,
+  "staff": [
+    {
+      "name": "Bob Stoops",
+      "role": "Head Football Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Head Football Coach",
+          "note": "Official OU athletics site page headed '2000 Football Staff', archived Feb 12, 2001 (five weeks after the Jan 3, 2001 Orange Bowl title game). The staff list is a two-column HTML table: the role label is in the left cell and the name ('Bob Stoops') is a separate link in the right cell of the same row, so no contiguous name+role string exists in the page text. Quote is the exact role-label cell text; the adjacent name cell reads 'Bob Stoops'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2000_Oklahoma_Sooners_football_team",
+          "quote": "The team was led by Bob Stoops in his second season as head coach.",
+          "note": "Wikipedia team-season article body. Infobox also reads 'Head coach: Bob Stoops (2nd season)'."
+        }
+      ]
+    },
+    {
+      "name": "Mark Mangino",
+      "role": "Offensive Coordinator/Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Offensive Coordinator/Offensive Line",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Mark Mangino'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mark_Mangino",
+          "quote": "While there, he served as the offensive coordinator for the Oklahoma team that beat the defending national champion Florida State Seminoles in the 2000 national championship.",
+          "note": "Corroborates the 2000 OC title. Mangino also won the 2000 Broyles Award as national assistant coach of the year, listed on the team-season page's awards table."
+        }
+      ]
+    },
+    {
+      "name": "Mike Stoops",
+      "role": "Co-Defensive Coordinator/Secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Co-Defensive Coordinator/Secondary",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Mike Stoops'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mike_Stoops",
+          "quote": "Associate head coach, co-defensive coordinator & defensive backs coach",
+          "note": "Wikipedia infobox coaching-history entry, immediately preceded by the line 'Oklahoma (1999-2003)' (rendered with an en dash), which spans the 2000 season. Quoted without the year line because the en dash risks a byte-level mismatch."
+        }
+      ]
+    },
+    {
+      "name": "Brent Venables",
+      "role": "Co-Defensive Coordinator/Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Co-Defensive Coordinator/Linebackers",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Brent Venables'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Brent_Venables",
+          "quote": "In 1999, Venables began coaching at the University of Oklahoma, where he served as co-defensive coordinator and linebackers coach for the Sooners winning a national championship in 2000 under head coach Bob Stoops",
+          "note": "Sentence continues past the quoted portion; quote ends at a word boundary."
+        }
+      ]
+    },
+    {
+      "name": "Bobby Jack Wright",
+      "role": "Defensive Ends/Recruiting Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Defensive Ends/Recruiting Coordinator",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Bobby Jack Wright'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010216134530/http://soonersports.fansonly.com/sports/m-footbl/mtt/99staff/okla-m-footbl-wright.html",
+          "quote": "Defensive Ends Coach",
+          "note": "Wright's OU staff bio page, archived Feb 16, 2001 and linked from the 2000 Football Staff page. Page is a label/value table: the 'Name:' cell reads 'Bobby Jack Wright' and the 'Position:' cell reads 'Defensive Ends Coach'; the two are not contiguous in page text."
+        }
+      ]
+    },
+    {
+      "name": "Jonathan Hayes",
+      "role": "Tight Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Tight Ends",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Jonathan Hayes'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jonathan_Hayes",
+          "quote": "Hayes's coaching career began at Oklahoma under Bob Stoops.",
+          "note": "Wikipedia infobox lists 'Oklahoma (1999-2002)' / 'Tight ends & special teams coach' (en dash in the year range), and the honors section lists 'National champion (2000)'."
+        }
+      ]
+    },
+    {
+      "name": "Steve Spurrier, Jr.",
+      "role": "Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Wide Receivers",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Steve Spurrier, Jr.'"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Steve_Spurrier_Jr.",
+          "quote": "Prior to the 1999 season, Spurrier was hired as wide receivers coach by University of Oklahoma Head Coach, Bob Stoops.",
+          "note": "Same article states he held the same position through the 2001 season and lists 'two national championships (Oklahoma, 2000; Florida, 1996)'."
+        }
+      ]
+    },
+    {
+      "name": "Cale Gundy",
+      "role": "Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Running Backs",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Cale Gundy'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cale_Gundy",
+          "quote": "From 1999 until his resignation in 2022, he was an assistant at his alma mater, first as running backs coach, and later serving as the team's offensive coordinator, recruiting coordinator, and inside receivers coach.",
+          "note": "Confirms he was OU's running backs coach starting in 1999, spanning the 2000 season."
+        }
+      ]
+    },
+    {
+      "name": "Chuck Long",
+      "role": "Quarterbacks/Passing Game Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Quarterbacks/Passing Game Coordinator",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Chuck Long'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chuck_Long",
+          "quote": "Long was an assistant on the Oklahoma team that claimed the 2000 Bowl Championship Series national title.",
+          "note": "Same article: 'After five seasons coaching at Iowa, Long left the Hawkeyes to become the quarterbacks coach at Oklahoma.' Infobox lists 'Oklahoma (2000-2001) Quarterbacks coach & passing game coordinator'. First season on staff in 2000."
+        }
+      ]
+    },
+    {
+      "name": "Jackie Shipp",
+      "role": "Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Defensive Line",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Jackie Shipp'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jackie_Shipp",
+          "quote": "He had been on the Sooners' coaching staff since the arrival of Bob Stoops in 1999.",
+          "note": "Same article identifies him as the defensive line coach at Oklahoma; infobox lists 'Oklahoma (1999-2012) - DL'."
+        }
+      ]
+    },
+    {
+      "name": "Jerry Schmidt",
+      "role": "Director of Player Enhancement",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Director of Player Enhancement",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Jerry Schmidt'. His own OU bio page from the same site titles him 'Director of Sports Enhancement' - the site used both wordings; this was OU's title for the head strength and conditioning job."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jerry_Schmidt",
+          "quote": "He has also trained teams that played in six national championship games and has been a part of national championship squads at Oklahoma (2000), Florida (1996) and Notre Dame (1988).",
+          "note": "Infobox lists Oklahoma 1999-2017. Confirms he was OU's strength and conditioning head for the 2000 title team."
+        }
+      ]
+    },
+    {
+      "name": "Brandon Blaney",
+      "role": "Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Graduate Assistant",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Brandon Blaney'. He is the only graduate assistant listed on the page."
+        },
+        {
+          "url": "https://cmuchippewas.com/sports/football/roster/coaches/brandon-blaney/1187",
+          "quote": "Blaney was then hired by Oklahoma Head Coach Bob Stoops and served the 1999 and 2000 season as an offensive graduate assistant. In his second season with the Sooners, OU went undefeated and claimed the 2000 BCS National Championship.",
+          "note": "Central Michigan staff bio. Its career-history list also reads 'Offensive Graduate Assistant, University of Oklahoma, 1999-00'."
+        }
+      ]
+    },
+    {
+      "name": "Brandon Hall",
+      "role": "Student assistant",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Brandon_Hall_(American_football)",
+          "quote": "Oklahoma (SA)",
+          "note": "Wikipedia infobox coaching-history entry. The immediately preceding year line reads '1998-2000' (rendered with an en dash), covering the 2000 championship season; 'SA' = student assistant. Quoted without the year line to avoid an en-dash byte mismatch."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2000_Oklahoma_Sooners_football_team",
+          "quote": "Brandon Hall",
+          "note": "Listed under 'Assistant coaches' in the 2000 Oklahoma Sooners football team navbox at the foot of the team-season article. The navbox is a link list, so no contiguous name+role string exists; his role for that season (student assistant, 1998-2000) comes from his own biography page."
+        }
+      ]
+    },
+    {
+      "name": "Merv Johnson",
+      "role": "Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Director of Football Operations",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Merv Johnson'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010303170808/http://soonersports.fansonly.com/sports/m-footbl/mtt/99staff/okla-m-footbl-johnson.html",
+          "quote": "Instead, he will use his 38 years of coaching\nexperience as the Sooners' director of football operations.",
+          "note": "Johnson's OU staff bio page, archived March 3, 2001 and linked from the 2000 Football Staff page; the 'Name:' cell reads 'Merv Johnson'. The quoted sentence contains a hard line break in the source HTML, reproduced here as a newline."
+        }
+      ]
+    },
+    {
+      "name": "Matt McMillen",
+      "role": "Administrative Asst. to Coach Stoops",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html",
+          "quote": "Administrative Asst. to Coach Stoops",
+          "note": "Official OU '2000 Football Staff' page. Role label cell; adjacent name cell reads 'Matt McMillen'."
+        },
+        {
+          "url": "https://soonersports.com/documents/download/2007/3/21/68952.pdf",
+          "quote": "",
+          "note": "PDF (2007 Oklahoma Spring Football Guide, support-staff page 31). Text is set in a multi-column layout with tab/leader characters, so a faithful verbatim copy is not possible. It titles him 'Administrative Coordinator' and its Professional Experience table reads '1999-present ... Oklahoma / Administrative Coordinator', confirming he held the football-operations administrative role through the 2000 season."
+        }
+      ]
+    },
+    {
+      "name": "Scott Anderson",
+      "role": "Head Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://soonersports.com/news/2015/7/27/210236590.aspx",
+          "quote": "An OU alumnus, Anderson has diligently served his alma mater in the head role for the past 20 years.",
+          "note": "Official OU athletics article (2015), placing his tenure as head athletic trainer across the 2000 season. The same article notes his athletic training staff won Big 12 Athletic Training Staff of the Year for the 2000-2001 competitive season."
+        },
+        {
+          "url": "https://soonersports.com/documents/download/2007/3/21/68952.pdf",
+          "quote": "",
+          "note": "PDF (2007 Oklahoma Spring Football Guide, support-staff page 34). Multi-column layout with tab leaders prevents a faithful verbatim copy. Titles him 'Head Athletics Trainer | 11th Season' with Professional Experience '1997-Present ... Oklahoma / Head Athletic Trainer', which spans the 2000 championship season. Note: he was not listed on OU's online 2000 football staff page, which covered coaches and football ops only."
+        }
+      ]
+    },
+    {
+      "name": "Greg Tipton",
+      "role": "Director of Athletics Equipment",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://soonersports.com/staff-directory/greg-tipton/352",
+          "quote": "Tipton was promoted again in 2000 to Director of Athletics Equipment overseeing department purchasing and execution of footwear, apparel and equipment agreements.",
+          "note": "Official OU staff directory bio. Same paragraph: he was OU's football equipment manager from 1996 until the 2000 promotion, so he handled football equipment across the 2000 season. The 2007 OU spring guide's professional-experience table gives '1996-2000 Football Equipment Coordinator' and '2000-Present Director of Athletics Equipment'; which of the two titles he held on Jan 3, 2001 is not pinned down more precisely than 'promoted in 2000'."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "STRONGEST SOURCE. The decisive find is Oklahoma's own athletics-site staff page, headed \"2000 Football Staff,\" recovered from the Wayback Machine at https://web.archive.org/web/20010212052906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mttcoaches.html (archived Feb 12, 2001, five weeks after the Jan 3, 2001 Orange Bowl). An identical listing exists in a pre-season snapshot (Aug 23, 2000) at https://web.archive.org/web/20000823190906/http://soonersports.fansonly.com/sports/m-footbl/mtt/okla-m-footbl-mtt.html and in a June 19, 2001 snapshot, so the same 14 names appear before, during, and after the title season with no changes. Note that soonersports.com redirected to soonersports.fansonly.com in this era; the plain soonersports.com archive URLs return only a redirect stub.\n\nQUOTE MECHANICS - PLEASE READ. On that OU staff page the roster is a two-column HTML table: the role label sits in the left cell and the person's name is a separate link in the right cell of the same row. There is therefore NO contiguous \"role + name\" string anywhere in the page text, in either the raw HTML or any text/markdown conversion. Rather than fabricate a joined string that would fail a string match, I quoted the exact role-label cell text for each person and recorded the adjacent name cell in the note. The same structure (\"Name:\" / \"Position:\" label-value tables) applies to the individual OU coach bio pages under /mtt/99staff/. Where I could find prose that names a person and role in one sentence, I added it as a second source.\n\nTIERS FULLY RECOVERED. All 10 on-field coaches (head coach + the NCAA-maximum 9 assistants): Bob Stoops, Mark Mangino, Mike Stoops, Brent Venables, Bobby Jack Wright, Jonathan Hayes, Steve Spurrier Jr., Cale Gundy, Chuck Long, Jackie Shipp. Strength and conditioning: Jerry Schmidt. Football operations/administration: Merv Johnson and Matt McMillen.\n\nTIERS PARTIALLY RECOVERED. Graduate assistants: OU's own page lists exactly one, Brandon Blaney, and his later staff bios independently confirm 1999-2000 as an offensive GA at Oklahoma. NCAA rules of the era permitted two GAs, so a second GA very likely existed but I could not document a name; I did not guess one. Student/undergraduate assistants: only Brandon Hall is documented, via his Wikipedia biography (\"Oklahoma (SA)\", 1998-2000) and his inclusion in the 2000 team navbox on the Wikipedia team-season article; there were certainly other undergraduate assistants whose names are unrecoverable.\n\nTIERS NOT RECOVERABLE FROM 2000-ERA SOURCES. Medical and equipment staff were not listed on OU's 2000 online football staff page at all. I documented Scott Anderson (head athletic trainer, at OU in that role from 1997) and Greg Tipton (equipment, promoted to Director of Athletics Equipment in 2000) from later official OU sources whose career tables span the 2000 season - but the full football sports-medicine staff (assistant trainers, team physicians, physical therapists) and the assistant equipment managers are undocumented. Also undocumented for 2000: the football video staff, any recruiting/personnel staffers below Bobby Jack Wright (who held the recruiting coordinator title concurrently with coaching defensive ends), academic support staff, and football secretarial staff. The 2007 OU spring guide notes that McMillen's job was to work \"directly with OU's strength, sports medicine, football video, equipment, field maintenance and secretarial staffs,\" which confirms those units existed in the program but names none of their members for 2000.\n\nANALYSTS AND QUALITY CONTROL. No analyst or quality-control staff existed as a documented tier at Oklahoma in 2000; those categories are a later-2000s development. Zero rows in those categories is a real finding, not a gap.\n\nSOURCES THAT DID NOT PAN OUT. The 2000 and 2001 OU football media guides are not online: soonersports.com's own media-guide archive begins with 2004 (issuu), and archive.org holds only three cover scans of the 2001 guide (item 2001-Oklahoma-Sooners-Football-Media-Guide-CS-7-bubs1085), no interior pages. No athletics-wide OU staff directory from 2000-2001 is in the Wayback Machine - the only /genrel/staff.html capture is the athletic development office, not sports medicine or equipment. The National Football Foundation's 2000 Oklahoma page names only Bob Stoops. Wayback coverage of the 2000-era OU football site is thin generally; several archived press-release URLs from fall 2000 return empty bodies.\n\nNO MID-SEASON CHANGES. I found no evidence of anyone arriving or departing during the 2000 season, so no midseason_note is set on any row. Chuck Long and Mark Mangino's OC promotion both date to the 1999-2000 offseason (Mike Leach left for Texas Tech after 1999 and is NOT on the 2000 staff, despite his bio page persisting in the site's /99staff/ directory - a trap worth flagging for anyone re-running this)."
+}

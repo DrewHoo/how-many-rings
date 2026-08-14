@@ -1,0 +1,346 @@
+{
+  "team": "USC",
+  "season": 2004,
+  "staff": [
+    {
+      "name": "Pete Carroll",
+      "role": "Head Coach (also served as USC's defensive coordinator)",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20041011195604/http://usctrojans.collegesports.com/sports/m-footbl/mtt/carroll_pete00.html",
+          "quote": "It took energetic and charismatic USC head football coach Pete Carroll only 3 years to restore the glory of the Trojan football program and return Troy to national prominence.",
+          "note": "Official USC athletics site bio, archived Oct. 11, 2004 (in-season). Listed as 'Head Coach' on the 2004 staff directory."
+        },
+        {
+          "url": "https://web.archive.org/web/20041011195604/http://usctrojans.collegesports.com/sports/m-footbl/mtt/carroll_pete00.html",
+          "quote": "He also serves as USC's defensive coordinator.",
+          "note": "Confirms Carroll held the defensive coordinator title himself; USC listed no separate DC in 2004."
+        }
+      ]
+    },
+    {
+      "name": "Norm Chow",
+      "role": "Offensive Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040706181910/http://usctrojans.collegesports.com/sports/m-footbl/mtt/chow_norm00.html",
+          "quote": "Norm Chow, regarded as one of the premier offensive coordinators in college football, is in his fourth year at USC.",
+          "note": "Official USC athletics bio archived July 2004. Fourth year at USC = 2004 season. Listed as 'Offensive Coordinator' on the 2004 online staff directory."
+        },
+        {
+          "url": "https://web.archive.org/web/20040701052424/http://usctrojans.collegesports.com/sports/m-footbl/mtt/usc-m-footbl-mtt.html",
+          "quote": "- Offensive Coordinator",
+          "note": "2004 USC football staff directory ('Coaches' block). Role string appears directly after the linked name 'Norm Chow'; quoted as the role fragment alone because the name sits inside a separate anchor element."
+        }
+      ]
+    },
+    {
+      "name": "Ed Orgeron",
+      "role": "Ass. Head Coach/DL/Recruiting Coord.",
+      "role_category": "onfield",
+      "midseason_note": "Named Ole Miss head coach on Dec. 16, 2004, but remained on USC's staff and coached through the Jan. 4, 2005 Orange Bowl national championship game. The Ole Miss release lists his 2004 season as USC Defensive Line/Recruiting Coordinator with the Orange Bowl.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040727113952/http://usctrojans.collegesports.com/sports/m-footbl/mtt/orgeron_ed00.html",
+          "quote": "Ed Orgeron, regarded as one of college football's premier defensive line coaches, has been USC's defensive line coach the past 6 seasons (1998-2003).  He took on the added responsibility of recruiting coordinator in 2001.  He was named assistant head coach in 2003.",
+          "note": "Official USC bio, archived July 2004. Position field on the same page reads 'Ass. Head Coach/DL/Recruiting Coord.'"
+        },
+        {
+          "url": "https://olemisssports.com/news/2004/12/16/Ed_Orgeron_Named_Head_Football_Coach",
+          "quote": "Orgeron is currently in his seventh season as the defensive line coach at the University of Southern California.",
+          "note": "Ole Miss hire announcement, Dec. 16, 2004 — confirms he was still USC's DL coach at the time of the hire."
+        },
+        {
+          "url": "https://olemisssports.com/news/2004/12/16/Ed_Orgeron_Named_Head_Football_Coach",
+          "quote": "In 2001, he took on the added responsibility of recruiting coordinator for the Trojans, who play for the national championship against Oklahoma in the FedEx Orange Bowl on January 4, 2005.",
+          "note": "Written in the present tense about the upcoming title game, confirming Orgeron was still with USC heading into the championship."
+        }
+      ]
+    },
+    {
+      "name": "Tim Davis",
+      "role": "Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040813212039/http://usctrojans.collegesports.com/sports/m-footbl/mtt/davis_tim00.html",
+          "quote": "Tim Davis, now in his third year at USC working with the offensive line, joined the Trojan staff in March of 2002.",
+          "note": "Official USC bio archived Aug. 13, 2004. Third year (2002, 2003, 2004) = the 2004 season. Position field reads 'Offensive Line'."
+        }
+      ]
+    },
+    {
+      "name": "Greg Burns",
+      "role": "Secondary Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040817123946/http://usctrojans.collegesports.com/sports/m-footbl/mtt/burns_greg00.html",
+          "quote": "Greg Burns, who was a defensive back in the Pac-10, is in his third year as USC's secondary coach.",
+          "note": "Official USC bio archived Aug. 17, 2004. Joined Feb. 2002, so third year = 2004."
+        },
+        {
+          "url": "https://web.archive.org/web/20040701052424/http://usctrojans.collegesports.com/sports/m-footbl/mtt/usc-m-footbl-mtt.html",
+          "quote": "- Secondary Coach",
+          "note": "2004 USC staff directory; role fragment follows the linked name 'Greg Burns'."
+        }
+      ]
+    },
+    {
+      "name": "Lane Kiffin",
+      "role": "Wide Receivers/Passing Game Coord.",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040813204554/http://usctrojans.collegesports.com/sports/m-footbl/mtt/kiffin_lane00.html",
+          "quote": "Lane Kiffin, the son of longtime pro and collegiate coach Monte Kiffin, is in his fourth year at USC.",
+          "note": "Official USC bio archived Aug. 13, 2004. Position field reads 'Wide Receivers/Passing Game Coord.'"
+        },
+        {
+          "url": "https://web.archive.org/web/20040813204554/http://usctrojans.collegesports.com/sports/m-footbl/mtt/kiffin_lane00.html",
+          "quote": "In 2004, he took on the additional duty of passing game coordinator.",
+          "note": "Explicitly ties the passing game coordinator title to the 2004 season."
+        }
+      ]
+    },
+    {
+      "name": "Brennan Carroll",
+      "role": "Tight Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040813205605/http://usctrojans.collegesports.com/sports/m-footbl/mtt/carroll_brennan00.html",
+          "quote": "Brennan Carroll, the oldest son of USC head coach Pete Carroll, is in his third year on the USC staff, but his first as a full-time assistant.  He is in charge of the tight ends.",
+          "note": "Official USC bio archived Aug. 13, 2004. 2004 was his first year as a full-time (non-GA) assistant."
+        }
+      ]
+    },
+    {
+      "name": "Rocky Seto",
+      "role": "Linebackers Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040813202129/http://usctrojans.collegesports.com/sports/m-footbl/mtt/seto_rocky00.html",
+          "quote": "Former USC linebacker Rocky Seto is in his sixth year on the USC staff, but his second as a full-time assistant.  He is in charge of the linebackers in 2004 after handling the safeties in 2003.",
+          "note": "Official USC bio archived Aug. 13, 2004; names the 2004 season directly. Position field reads 'Linebackers Coach'; the staff directory lists him as 'Linebackers'."
+        }
+      ]
+    },
+    {
+      "name": "Todd McNair",
+      "role": "Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040813212016/http://usctrojans.collegesports.com/sports/m-footbl/mtt/mcnair_todd00.html",
+          "quote": "Former NFL player Todd McNair, a one-time NFL running back and assistant coach, is in his first year at USC.  He joined the Trojan staff in February of 2004.",
+          "note": "Official USC bio archived Aug. 13, 2004. Hired in the 2004 offseason (February), not mid-season."
+        }
+      ]
+    },
+    {
+      "name": "Carl Smith",
+      "role": "Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040813203642/http://usctrojans.collegesports.com/sports/m-footbl/mtt/smith_carl00.html",
+          "quote": "Carl Smith, who has 32 years of collegiate and professional coaching experience, is in his first year at USC.  He joined the Trojan staff in February of 2004 and works with the quarterbacks.",
+          "note": "Official USC bio archived Aug. 13, 2004. Replaced Steve Sarkisian, who left for the Oakland Raiders for the 2004 season."
+        }
+      ]
+    },
+    {
+      "name": "Ken Norton Jr.",
+      "role": "Defensive Assistant, Linebackers",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040701052424/http://usctrojans.collegesports.com/sports/m-footbl/mtt/usc-m-footbl-mtt.html",
+          "quote": "- Defensive Assistant, Linebackers",
+          "note": "2004 USC football staff directory ('Coaches' block); this role string immediately follows the linked name 'Ken Norton Jr.' Quoted as the role fragment alone because the name is inside a separate anchor element and would be broken by markdown link syntax. No individual bio page for Norton was archived from 2004."
+        },
+        {
+          "url": "https://web.archive.org/web/20100705121524/http://grfx.cstv.com/photos/schools/usc/sports/m-footbl/auto_pdf/04-mg-16-32.pdf",
+          "quote": "",
+          "note": "2004 USC Football Media Guide, p. 30 (PDF; text is column-wrapped and hyphenated so it cannot be copied faithfully for string matching). The page heading reads 'KEN NORTON JR. / Defensive Assistant / Linebackers' and the bio states he 'is in his first year at USC as a graduate assistant working with the linebackers. He joined the Trojan staff in February of 2004.' That graduate-assistant designation is why role_category is gradasst rather than onfield, even though USC's public directory listed him among the coaches."
+        }
+      ]
+    },
+    {
+      "name": "Dennis Slutak",
+      "role": "Special Teams Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040817123838/http://usctrojans.collegesports.com/sports/m-footbl/mtt/slutak_dennis00.html",
+          "quote": "Dennis Slutak is in his second year at USC as a graduate assistant working with the special teams.  He joined the Trojan staff in July of 2003.",
+          "note": "Official USC bio archived Aug. 17, 2004. Explicitly a graduate assistant, hence gradasst rather than onfield; Wikipedia's 'Special teams coordinator' label overstates the title USC actually used."
+        },
+        {
+          "url": "https://web.archive.org/web/20040701052424/http://usctrojans.collegesports.com/sports/m-footbl/mtt/usc-m-footbl-mtt.html",
+          "quote": "- Special Teams Assistant",
+          "note": "2004 USC staff directory; role fragment follows the linked name 'Dennis Slutak'."
+        }
+      ]
+    },
+    {
+      "name": "Chris Carlisle",
+      "role": "Strength and Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040813205233/http://usctrojans.collegesports.com/sports/m-footbl/mtt/carlisle_chris00.html",
+          "quote": "Chris Carlisle is in his fourth year as USC's head strength and conditioning coach.  He joined the Trojan program in February of 2001.",
+          "note": "Official USC bio archived Aug. 13, 2004. Fourth year = 2004 season. Also carried in the 2004 media guide's 'FOOTBALL STAFF' page."
+        },
+        {
+          "url": "https://web.archive.org/web/20040701052424/http://usctrojans.collegesports.com/sports/m-footbl/mtt/usc-m-footbl-mtt.html",
+          "quote": "- Strength and Conditioning Coach",
+          "note": "2004 USC staff directory; role fragment follows the linked name 'Chris Carlisle'."
+        }
+      ]
+    },
+    {
+      "name": "Jamie Yanchar",
+      "role": "Assists head strength and conditioning coach Chris Carlisle",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040813205233/http://usctrojans.collegesports.com/sports/m-footbl/mtt/carlisle_chris00.html",
+          "quote": "He is assisted by Jamie Yanchar, Charr Gahagan, Gary Uribe and Leslie Cordova.",
+          "note": "From Chris Carlisle's 2004 USC bio. USC published no individual titles for the assistant strength staff, so the role wording here paraphrases the only sourced description; the quote is verbatim."
+        }
+      ]
+    },
+    {
+      "name": "Charr Gahagan",
+      "role": "Assists head strength and conditioning coach Chris Carlisle",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040813205233/http://usctrojans.collegesports.com/sports/m-footbl/mtt/carlisle_chris00.html",
+          "quote": "He is assisted by Jamie Yanchar, Charr Gahagan, Gary Uribe and Leslie Cordova.",
+          "note": "From Chris Carlisle's 2004 USC bio. No individual title was published for this assistant."
+        }
+      ]
+    },
+    {
+      "name": "Gary Uribe",
+      "role": "Assists head strength and conditioning coach Chris Carlisle",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040813205233/http://usctrojans.collegesports.com/sports/m-footbl/mtt/carlisle_chris00.html",
+          "quote": "He is assisted by Jamie Yanchar, Charr Gahagan, Gary Uribe and Leslie Cordova.",
+          "note": "From Chris Carlisle's 2004 USC bio. No individual title was published for this assistant."
+        }
+      ]
+    },
+    {
+      "name": "Leslie Cordova",
+      "role": "Assists head strength and conditioning coach Chris Carlisle",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20040813205233/http://usctrojans.collegesports.com/sports/m-footbl/mtt/carlisle_chris00.html",
+          "quote": "He is assisted by Jamie Yanchar, Charr Gahagan, Gary Uribe and Leslie Cordova.",
+          "note": "From Chris Carlisle's 2004 USC bio. No individual title was published for this assistant."
+        }
+      ]
+    },
+    {
+      "name": "Jim Jacobson",
+      "role": "Assists head strength and conditioning coach Chris Carlisle",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100705121524/http://grfx.cstv.com/photos/schools/usc/sports/m-footbl/auto_pdf/04-mg-16-32.pdf",
+          "quote": "",
+          "note": "2004 USC Football Media Guide, p. 31 'FOOTBALL STAFF' page (PDF; column-wrapped text cannot be copied faithfully for string matching). The printed sentence reads 'He is assisted by Jamie Yanchar, Charr Gahagan, Gary Uribe, Leslie Cordova and Jim Jacobson.' Jacobson is the one strength-staff name that appears only in the printed guide — the online version of Carlisle's bio lists just the other four, so Jacobson appears to have been added between the web bio and print publication."
+        }
+      ]
+    },
+    {
+      "name": "Mark Jackson",
+      "role": "Assistant Athletic Director / Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20050311044515/http://usctrojans.collegesports.com/sports/m-footbl/mtt/jackson_mark00.html",
+          "quote": "Mark Jackson is in his fourth year as USC's director of football administration.  He was named an assistant athletic director in December of 2003.",
+          "note": "Official USC bio. Snapshot is dated March 2005 but the text is the 2004-season version (it cites the 2004 Rose Bowl as USC's most recent bowl and 'fourth year' from a January 2001 start). The 2004 media guide heads his page 'MARK JACKSON / Assistant Athletic Director / Director of Football Operations'."
+        },
+        {
+          "url": "https://web.archive.org/web/20040701052424/http://usctrojans.collegesports.com/sports/m-footbl/mtt/usc-m-footbl-mtt.html",
+          "quote": "- Director of Football Operations",
+          "note": "2004 USC staff directory; role fragment follows the linked name 'Mark Jackson'. Independently confirms he held the role during the 2004 season."
+        }
+      ]
+    },
+    {
+      "name": "Greg Bukowski",
+      "role": "Recruiting and Operations Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100705121524/http://grfx.cstv.com/photos/schools/usc/sports/m-footbl/auto_pdf/04-mg-16-32.pdf",
+          "quote": "",
+          "note": "2004 USC Football Media Guide, p. 31 'FOOTBALL STAFF' page (PDF; the staff names appear as photo captions where the name and title sit on separate typeset lines, so no faithfully copyable running-text quote exists). The caption reads 'Greg Bukowski / Recruiting and Operations Assistant'. This person does not appear on USC's online staff directory."
+        }
+      ]
+    },
+    {
+      "name": "Christie Valine",
+      "role": "Recruiting Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100705121524/http://grfx.cstv.com/photos/schools/usc/sports/m-footbl/auto_pdf/04-mg-16-32.pdf",
+          "quote": "",
+          "note": "2004 USC Football Media Guide, p. 31 'FOOTBALL STAFF' page (PDF photo caption; name and title on separate typeset lines). The caption reads 'Christie Valine / Recruiting Assistant'. Not listed on USC's online staff directory."
+        }
+      ]
+    },
+    {
+      "name": "Lindsay Gillman",
+      "role": "Assistant to the Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100705121524/http://grfx.cstv.com/photos/schools/usc/sports/m-footbl/auto_pdf/04-mg-16-32.pdf",
+          "quote": "",
+          "note": "2004 USC Football Media Guide, p. 31 'FOOTBALL STAFF' page (PDF photo caption; name and title on separate typeset lines). The caption reads 'Lindsay Gillman / Assistant to the Head Coach'. Not listed on USC's online staff directory."
+        }
+      ]
+    },
+    {
+      "name": "Joyce Hirayama",
+      "role": "Administrative Assistant to Football Coaches",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100705121524/http://grfx.cstv.com/photos/schools/usc/sports/m-footbl/auto_pdf/04-mg-16-32.pdf",
+          "quote": "",
+          "note": "2004 USC Football Media Guide, p. 31 'FOOTBALL STAFF' page (PDF photo caption; name and title on separate typeset lines). The caption reads 'Joyce Hirayama / Administrative Assistant to Football Coaches'. Not listed on USC's online staff directory."
+        }
+      ]
+    },
+    {
+      "name": "Irene Puentes",
+      "role": "Football Receptionist",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100705121524/http://grfx.cstv.com/photos/schools/usc/sports/m-footbl/auto_pdf/04-mg-16-32.pdf",
+          "quote": "",
+          "note": "2004 USC Football Media Guide, p. 31 'FOOTBALL STAFF' page (PDF photo caption; name and title on separate typeset lines). The caption reads 'Irene Puentes / Football Receptionist'. Not listed on USC's online staff directory."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "SOURCES USED. Three independent tiers were recovered: (1) the 2004 USC Football Media Guide, coaches/staff section, pp. 16-32, archived as a PDF on the Wayback Machine (https://web.archive.org/web/20100705121524/http://grfx.cstv.com/photos/schools/usc/sports/m-footbl/auto_pdf/04-mg-16-32.pdf); (2) USC's own athletics-site staff directory for the 2004 season, archived July 1, 2004 (https://web.archive.org/web/20040701052424/http://usctrojans.collegesports.com/sports/m-footbl/mtt/usc-m-footbl-mtt.html), whose \"Coaches\" block lists exactly 14 people; (3) the individual USC staff bio pages, most archived in July-October 2004 (in-season), which carry the same prose as the media guide but in clean HTML — these supplied nearly all the verbatim quotes. Wikipedia's 2004 season page was checked and its 12-name coaching table agrees with the primary sources but adds no one and is itself uncited, so it was not used as a citation.\n\nWHAT IS COMPLETE. The on-field tier is complete and matches the NCAA limit of the era exactly: Pete Carroll plus nine full-time assistants (Chow, Orgeron, Davis, Burns, Kiffin, Brennan Carroll, Seto, McNair, Smith), plus the two graduate assistants (Ken Norton Jr. and Dennis Slutak). Both USC's own directory and the media guide list the same twelve, with no discrepancies. Strength and conditioning is complete as published: Chris Carlisle plus five assistants. Football operations/administrative support is complete as published: Mark Jackson plus five staffers from the media guide's \"FOOTBALL STAFF\" page.\n\nWHAT I COULD NOT RECOVER. (a) MEDICAL — no athletic trainers, team physicians, or sports-medicine staff are documented for the 2004 football team in any source I could reach. USC's athletics site had no archived staff directory covering sports medicine for this period, and the media guide sections that would carry it were not archived. I found a present-day USC page for longtime head athletic trainer Russ Romano, but nothing tying him or anyone else to the 2004 football staff specifically, so no medical row is included. (b) EQUIPMENT — same situation; nothing documented. Todd Hewitt, USC's later equipment director, did not arrive until 2012 and is correctly excluded. (c) VIDEO — no video coordinator documented. (d) ANALYST / QUALITY CONTROL — USC published no analyst or QC titles for 2004; those roles as we now know them barely existed in college football in this era, and the two support coaches USC did carry (Norton, Slutak) were formally graduate assistants. So the analyst and qc categories are genuinely empty rather than merely unrecovered. The gap in (a)-(c) is an archival gap: only three sections of the 2004 media guide survive on the Wayback Machine (pp. 16-32, 33-109, 137-211); the sections that would list trainers, equipment, and video staff are not archived, and I confirmed by scanning pp. 137-211 and the 2005 guide's archived section that they do not appear there.\n\nDELIBERATE EXCLUSIONS. Kennedy Pola has an archived USC bio page, but its text is the stale 2003-season version (it describes him as running backs coach \"in his fourth year\" dating from a December 1999 arrival, and predates McNair). He appears on neither the 2004 media guide nor the 2004 staff directory, and Todd McNair took over the running backs in February 2004 — so Pola was not on the 2004 staff and is excluded. Page 32 of the 2004 media guide names roughly 40 \"USC Recruiting Guides\" (Anna Karefa-Johnson, Leah Stephenson, and others); these are student volunteer campus hosts for recruits, not employed staff, and are excluded.\n\nROLE-CATEGORY JUDGMENT CALLS. Ken Norton Jr. is listed by USC's public directory as \"Defensive Assistant, Linebackers,\" which reads as an on-field title, but his media guide bio states plainly that he was \"in his first year at USC as a graduate assistant working with the linebackers\" — so he is categorized gradasst. Dennis Slutak is likewise categorized gradasst on his own bio's wording (\"in his second year at USC as a graduate assistant working with the special teams\"), not the \"Special teams coordinator\" label Wikipedia gives him. Pete Carroll is headcoach but also held the defensive coordinator title himself; USC listed no separate DC in 2004.\n\nQUOTE FIDELITY. Every HTML-sourced quote in this dataset was mechanically verified as an exact substring of the tag-stripped, entity-decoded page text before submission (22 of 22 passed, including internal double spaces and ASCII apostrophes). Six rows are PDF-sourced only and carry quote:\"\" per instructions — the media guide's staff page renders names and titles as separate typeset lines in photo captions, and the body text is column-wrapped with hyphenation, so no faithful copyable quote exists; the exact printed wording is given in each note instead. Two quotes drawn from the USC staff directory index page are role fragments only (\"- Defensive Assistant, Linebackers\", etc.) because the person's name sits inside a separate anchor element and any combined quote would break under markdown link conversion; each such row is also backed by a full-sentence source where one exists.\n\nMID-SEASON MOVEMENT. Only one row carries a midseason_note. Ed Orgeron was named Ole Miss head coach on December 16, 2004, but stayed with USC and coached the January 4, 2005 Orange Bowl; the Ole Miss release itself describes him in the present tense as USC's defensive line coach and refers to the Trojans as a team \"who play for the national championship,\" and its year-by-year table lists his 2004 season as USC / Defensive Line-Recruiting Coordinator / Orange. He therefore satisfies the ring rule. McNair, Smith, and Norton all joined in February 2004 (offseason, not mid-season), so no notes were added for them.\n\nVACATED TITLE. Per the task framing, this staff is documented as constituted for the 2004 season. USC vacated its final two 2004 wins in June 2010 and was stripped of the BCS title in June 2011 following the Reggie Bush investigation; the AP still recognizes USC as its 2004 national champion. Rings were awarded at the time, so all rows above should count with the vacated flag set."
+}

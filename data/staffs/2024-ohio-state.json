@@ -1,0 +1,906 @@
+{
+  "team": "Ohio State",
+  "season": 2024,
+  "coverage_notes": "SOURCES USED. (1) Wikipedia \"2024 Ohio State Buckeyes football team\", fetched as SECTION-SCOPED RAW WIKITEXT: https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34 (the \"Roster\" section, which carries the roster-footer coaching staff list) and &section=4 (the \"Additions\" table). IMPORTANT FOR THE VERIFIER: fetching the ordinary article URL (https://en.wikipedia.org/wiki/2024_Ohio_State_Buckeyes_football_team) does NOT work for these quotes — I tested it and the fetcher truncates the page well before the roster footer, so none of the 27 staff-list lines appear. The section-scoped raw URLs above were tested and return the quoted lines verbatim. (2) The school's own staff directory archived on the Wayback Machine at https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster — a snapshot from January 10, 2025, ten days before the January 20, 2025 CFP National Championship win over Notre Dame. This is the best possible \"at the championship game\" evidence and it yielded 62 directory entries (61 unique people; Parker Wereb is listed twice under two duplicate records).\n\nMAJOR CAVEAT ON THE WAYBACK QUOTES — PLEASE READ. ohiostatebuckeyes.com is a client-side-rendered Sidearm/Next.js app. The staff directory is NOT in the page's visible HTML text; it lives in an embedded JSON payload inside a <script> block. I confirmed the archived page renders only ~6,500 characters of visible text and contains none of the staff names as prose. Therefore every Wayback quote I supply is the exact byte-level JSON substring (e.g. \"title\":\"General Manager, Player Personnel\",\"firstName\":\"Mark \",\"lastName\":\"Pantoni\"), copied verbatim from the raw HTML, including the site's / escaping for slashes and its stray trailing spaces in some name fields. These will string-match ONLY if the verifier fetches raw HTML. If the verifier converts to markdown or strips scripts, EVERY Wayback quote will fail. Additionally, WebFetch in my environment could not reach web.archive.org at all (it errored outright); I retrieved these snapshots via direct curl. If the verifier's fetcher shares that limitation, all Wayback citations will be unretrievable regardless of quoting. For the 27 people who appear in both sources I listed Wikipedia first precisely so they survive that scenario; the 34 support-staff-only rows have no fallback and would all drop.\n\nROLE WORDING. For people in both sources I set `role` to the school's own wording from the January 2025 directory (the more authoritative and more granular phrasing), with the Wikipedia line as the second source using its own slightly different wording (e.g. school says \"Quality Control (Offense)\" where Wikipedia says \"Quality control - offense\"). Both quotes are verbatim to their respective sources.\n\nWHAT I COULD NOT DOCUMENT / KNOWN GAPS. (a) I could not obtain the 2024 media guide. No media-guide PDF surfaced on ohiostatebuckeyes.com, archive.org or issuu within my reach, so there is no third independent staff list here. (b) My WebSearch budget was exhausted at the very start of this task (200/200 calls already consumed before I began), so I could NOT run contemporary news searches for hire announcements, mid-season staff changes, or support-staff coverage. Everything here comes from the two sources above plus citations already embedded in the Wikipedia article. This is the single biggest limitation on completeness — there may be additional analysts, interns, or student assistants documented only in news coverage that I had no ability to search for. (c) I verified staff continuity only at two points (an August 23, 2024 snapshot and the January 10, 2025 snapshot). Comparing them, the directory was stable across the season with three changes: Josh Miller (\"Program Assistant\") appears in August but NOT in January and is therefore excluded from this list; Nairan Normand and Morgan Phillips appear in January but not August. I could not pin down exact arrival/departure dates for those three, so I have flagged Normand and Phillips with midseason_note rather than guessing. (d) I did NOT verify anyone's presence at the championship game itself beyond the January 10 directory; a departure in the final ten days would be invisible to me. (e) The athletics site's football directory mixes football-specific staff with shared athletic-department personnel (compliance, creative media, athletic training). I included them because the task asks for everyone documented on the team's staff, but a ring-counting rule may want to treat, say, the Associate AD for Compliance differently from a position coach. I have categorized them honestly rather than inflating the on-field count.\n\nEXCLUSIONS (deliberate, not oversights). Brandon Jordan was hired February 2024 as \"Program assistant - defense\" but Wikipedia footnotes that he \"left the program after three months\" — he was gone before the season and appears in neither directory snapshot, so I excluded him. I also excluded the seven documented offseason DEPARTURES who were not on staff during 2024 (Tony Alford, Mike Dawson, Corey Dennis, Perry Eliano, Todd Fitch, Parker Fleming, Joe Philbin). Parker Wereb is listed once despite two duplicate directory records. Nothing in this list is inferred, reconstructed from memory, or padded — every one of the 61 rows comes from a directory entry or wikitext line I actually retrieved.",
+  "staff": [
+    {
+      "name": "Ryan Day",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Ryan Day]]",
+          "note": "Wikipedia roster-footer head_coach field for the 2024 season. Section-scoped raw wikitext; the plain article URL truncates before this point."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Head Coach\",\"firstName\":\"Ryan\",\"lastName\":\"Day\"",
+          "note": "Official staff directory, Jan 10 2025 snapshot (10 days pre-title game). Quote is the verbatim embedded-JSON substring; only matches against raw HTML, not markdown-converted text."
+        }
+      ]
+    },
+    {
+      "name": "Chip Kelly",
+      "role": "Offensive Coordinator / Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Chip Kelly]] – ''Offensive coordinator/quarterbacks''",
+          "note": "Dash is an en dash (U+2013). Wikipedia's wording differs slightly from the school's."
+        },
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=4",
+          "quote": "| [[Chip Kelly]]\n| Offensive coordinator/quarterbacks coach",
+          "note": "2024 Additions table; hire announced Feb 9 2024 per cited AP report."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Offensive Coordinator / Quarterbacks\",\"firstName\":\"Chip\",\"lastName\":\"Kelly\"",
+          "note": "Embedded JSON; the site escapes the slash as /, reproduced verbatim."
+        }
+      ]
+    },
+    {
+      "name": "Jim Knowles",
+      "role": "Defensive Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Jim Knowles (American football)|Jim Knowles]] – ''Defensive coordinator''",
+          "note": "Third season as OSU DC in 2024 per the article infobox."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Defensive Coordinator\",\"firstName\":\"Jim \",\"lastName\":\"Knowles\"",
+          "note": "Note the trailing space in the site's firstName field (\"Jim \"), reproduced verbatim."
+        }
+      ]
+    },
+    {
+      "name": "Keenan Bailey",
+      "role": "Tight Ends Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Keenan Bailey]] – ''Tight ends''",
+          "note": ""
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Tight Ends Coach\",\"firstName\":\"Keenan\",\"lastName\":\"Bailey\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Justin Frye",
+      "role": "Run Game Coordinator / Offensive Line Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Justin Frye]] – ''Run game coordinator/offensive line''",
+          "note": ""
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Run Game Coordinator / Offensive Line Coach\",\"firstName\":\"Justin\",\"lastName\":\"Frye\"",
+          "note": "Embedded JSON; slash escaped as /."
+        }
+      ]
+    },
+    {
+      "name": "Matt Guerrieri",
+      "role": "Safeties Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Matt Guerrieri]] – ''Safeties''",
+          "note": ""
+        },
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=4",
+          "quote": "| [[Matt Guerrieri]]\n| Safeties coach<ref name=\"auto\" />",
+          "note": "2024 Additions table; hired Jan 2024 from Indiana, replacing Perry Eliano."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Safeties Coach\",\"firstName\":\"Matt\",\"lastName\":\"Guerrieri\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Brian Hartline",
+      "role": "Co-Offensive Coordinator / Wide Receivers Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Brian Hartline]] – ''Co-offensive coordinator/wide receivers''",
+          "note": "Listed as co-offensive coordinator, 2nd season, in the article infobox."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Co-Offensive Coordinator / Wide Receivers Coach\",\"firstName\":\"Brian\",\"lastName\":\"Hartline\"",
+          "note": "Embedded JSON; slash escaped as /."
+        }
+      ]
+    },
+    {
+      "name": "Larry Johnson",
+      "role": "Associate Head Coach / Defensive Line Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Larry Johnson (American football coach)|Larry Johnson]] – ''Associate head coach/defensive line''",
+          "note": ""
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Associate Head Coach / Defensive Line Coach\",\"firstName\":\"Larry \",\"lastName\":\"Johnson\"",
+          "note": "Trailing space in firstName (\"Larry \") reproduced verbatim. Father of staffer Tony Johnson, listed separately."
+        }
+      ]
+    },
+    {
+      "name": "James Laurinaitis",
+      "role": "Linebackers Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[James Laurinaitis]] – ''Linebackers''",
+          "note": ""
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Linebackers Coach\",\"firstName\":\"James\",\"lastName\":\"Laurinaitis\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Carlos Locklyn",
+      "role": "Running Backs Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Carlos Locklyn]] – ''Running backs''",
+          "note": ""
+        },
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=4",
+          "quote": "| [[Carlos Locklyn]]\n| Running backs coach",
+          "note": "2024 Additions table; hired April 2024 from Oregon, replacing Tony Alford."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Running Backs Coach\",\"firstName\":\"Carlos\",\"lastName\":\"Locklyn\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Tim Walton",
+      "role": "Assistant Head Coach / Secondary/Cornerbacks Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Tim Walton (American football)|Tim Walton]] – ''Assistant head coach/secondary/cornerbacks''",
+          "note": ""
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Assistant Head Coach / Secondary/Cornerbacks Coach\",\"firstName\":\"Tim\",\"lastName\":\"Walton\"",
+          "note": "Embedded JSON; two escaped slashes (/) reproduced verbatim."
+        }
+      ]
+    },
+    {
+      "name": "Mickey Marotti",
+      "role": "Associate AD, Director of Football Sport Performance",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Mickey Marotti]] – ''Associate AD/director of football sport performance''",
+          "note": "Head of strength and conditioning; categorized sc."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Associate AD, Director of Football Sport Performance\",\"firstName\":\"Mickey\",\"lastName\":\"Marotti\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Brent Zdebski",
+      "role": "Quality Control - Defense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* Brent Zdebski – ''Quality control - defense''",
+          "note": "No Wikipedia article; unlinked plain-text entry in the roster footer."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Quality Control - Defense\",\"firstName\":\"Brent\",\"lastName\":\"Zdebski\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Rob Keys",
+      "role": "Quality Control - Kicking",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Rob Keys]] – ''Quality control - kicking''",
+          "note": "OSU had no titled special teams coordinator in 2024 after Parker Fleming's dismissal; Keys handled kicking QC."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Quality Control - Kicking\",\"firstName\":\"Rob\",\"lastName\":\"Keys\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Sam McGrath",
+      "role": "Quality Control - Defense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* Sam McGrath – ''Quality control - defense''",
+          "note": "Unlinked plain-text entry."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Quality Control - Defense\",\"firstName\":\"Sam\",\"lastName\":\"McGrath\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Joe Lyberger",
+      "role": "Quality Control - Defense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* Joe Lyberger – ''Quality control - defense''",
+          "note": "Unlinked plain-text entry."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Quality Control - Defense\",\"firstName\":\"Joe\",\"lastName\":\"Lyberger\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Tim Drevno",
+      "role": "Quality Control (Offense)",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Tim Drevno]] – ''Quality control - offense''",
+          "note": "Wikipedia words it with a dash; the school words it with parentheses."
+        },
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=4",
+          "quote": "| [[Tim Drevno]]\n| Quality control - offense",
+          "note": "2024 Additions table; hired April 2024 from UCLA per cited Columbus Dispatch report."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Quality Control (Offense)\",\"firstName\":\"Tim\",\"lastName\":\"Drevno\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "LaAllan Clark",
+      "role": "Graduate Assistant - Defense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* LaAllan Clark – ''Graduate assistant - defense''",
+          "note": "Unlinked plain-text entry."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Graduate Assistant - Defense\",\"firstName\":\"LaAllan\",\"lastName\":\"Clark\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Mike Sollenne",
+      "role": "Graduate Assistant, Offense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* Mike Sollenne – ''Graduate assistant - offense''",
+          "note": "Unlinked plain-text entry. School uses a comma, Wikipedia a dash."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Graduate Assistant, Offense\",\"firstName\":\"Mike\",\"lastName\":\"Sollenne\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Sean Binckes",
+      "role": "Graduate Assistant - Offense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* Sean Binckes – ''Graduate assistant - offense''",
+          "note": "Unlinked plain-text entry."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Graduate Assistant - Offense\",\"firstName\":\"Sean \",\"lastName\":\"Binckes\"",
+          "note": "Trailing space in firstName (\"Sean \") reproduced verbatim."
+        }
+      ]
+    },
+    {
+      "name": "Michael Hunter Jr.",
+      "role": "Graduate Assistant - Defense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Michael Hunter (American football)|Michael Hunter]] – ''Graduate assistant - defense''",
+          "note": "Wikipedia renders the name without the \"Jr.\" suffix that the school's directory uses."
+        },
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=4",
+          "quote": "| [[Michael Hunter (American football)|Michael Hunter]]\n| Graduate assistant - defense",
+          "note": "2024 Additions table; hired March 2024 from Tulsa per cited Eleven Warriors report."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Graduate Assistant - Defense\",\"firstName\":\"Michael\",\"lastName\":\"Hunter Jr.\"",
+          "note": "Embedded JSON; the school's lastName field carries the Jr. suffix."
+        }
+      ]
+    },
+    {
+      "name": "Riley Larkin",
+      "role": "Program Assistant - Offense",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* Riley Larkin – ''Program assistant - offense''",
+          "note": "\"Program assistant\" is Ohio State's term for an off-field analyst-tier staffer; categorized analyst."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Program Assistant - Offense\",\"firstName\":\"Riley\",\"lastName\":\"Larkin\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Gunner Daniel",
+      "role": "Program Assistant - Special Teams",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* Gunner Daniel – ''Program assistant - special teams''",
+          "note": "Unlinked plain-text entry."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Program Assistant - Special Teams\",\"firstName\":\"Gunner \",\"lastName\":\"Daniel\"",
+          "note": "Trailing space in firstName (\"Gunner \") reproduced verbatim."
+        }
+      ]
+    },
+    {
+      "name": "Devin Jordan",
+      "role": "Program Assistant - Offense",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* Devin Jordan – ''Program assistant - offense''",
+          "note": "Distinct person from Brandon Jordan, the program assistant who left before the season and is excluded."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Program Assistant - Offense\",\"firstName\":\"Devin\",\"lastName\":\"Jordan\"",
+          "note": "Embedded JSON; raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Gerren DuHart",
+      "role": "Program Assistant - Defense",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* Gerren DuHart – ''Program assistant - defense''",
+          "note": "Unlinked plain-text entry."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Program Assistant - Defense\",\"firstName\":\"Gerren \",\"lastName\":\"DuHart\"",
+          "note": "Trailing space in firstName reproduced verbatim."
+        }
+      ]
+    },
+    {
+      "name": "Joshua Chorba",
+      "role": "Program Assistant - Defense",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* Joshua Chorba – ''Program assistant - defense''",
+          "note": "Unlinked plain-text entry."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Program Assistant - Defense\",\"firstName\":\"Joshua \",\"lastName\":\"Chorba\"",
+          "note": "Trailing space in firstName reproduced verbatim."
+        }
+      ]
+    },
+    {
+      "name": "Tony Johnson",
+      "role": "Senior Advisor / Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=34",
+          "quote": "* [[Tony Johnson (wide receiver)|Tony Johnson]] – ''Senior advisor/analyst''",
+          "note": "Son of DL coach Larry Johnson."
+        },
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=2024_Ohio_State_Buckeyes_football_team&action=raw&section=4",
+          "quote": "| [[Tony Johnson (wide receiver)|Tony Johnson]]\n| Senior advisor/analyst",
+          "note": "2024 Additions table; joined Feb 2024 per cited Eleven Warriors report."
+        },
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Senior Advisor / Analyst\",\"firstName\":\"Tony\",\"lastName\":\"Johnson\"",
+          "note": "Embedded JSON; slash escaped as /."
+        }
+      ]
+    },
+    {
+      "name": "Quinn Tempel",
+      "role": "Chief of Staff & Assistant to the Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Chief of Staff & Assistant to the Head Coach\",\"firstName\":\"Quinn \",\"lastName\":\"Tempel\"",
+          "note": "SUPPORT-STAFF-ONLY ROW: not in Wikipedia's list, so this Wayback citation is the sole source. Quote is the verbatim embedded-JSON substring from the Jan 10 2025 official directory; matches raw HTML only. Trailing space in firstName reproduced verbatim."
+        }
+      ]
+    },
+    {
+      "name": "C.J. Barnett",
+      "role": "Assistant Athletic Director for Player Development and External Affairs",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Assistant Athletic Director for Player Development and External Affairs\",\"firstName\":\"C.J. \",\"lastName\":\"Barnett\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only. Trailing space in firstName reproduced verbatim."
+        }
+      ]
+    },
+    {
+      "name": "Doug Calland",
+      "role": "Associate AD, Sports Performance",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Associate AD, Sports Performance\",\"firstName\":\"Doug \",\"lastName\":\"Calland\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Categorized sc as a sports-performance role. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Solomon Campbell",
+      "role": "Associate Director, Athletic Training",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Associate Director, Athletic Training\",\"firstName\":\"Solomon\",\"lastName\":\"Campbell\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Austin Edwards",
+      "role": "Assistant Director, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Assistant Director, Football Operations\",\"firstName\":\"Austin \",\"lastName\":\"Edwards\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Peter Fortunato",
+      "role": "Assistant Director, Creative Media",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Assistant Director, Creative Media\",\"firstName\":\"Peter \",\"lastName\":\"Fortunato\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Creative/media role, categorized other. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Michael Good",
+      "role": "Associate Director, Creative Media",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Associate Director, Creative Media\",\"firstName\":\"Michael \",\"lastName\":\"Good\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Kayla Hackenberg",
+      "role": "Coordinator, Football Administration/Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Coordinator, Football Administration/Operations\",\"firstName\":\"Kayla \",\"lastName\":\"Hackenberg\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Slash escaped as / in the JSON, reproduced verbatim."
+        }
+      ]
+    },
+    {
+      "name": "Zachary Higgins",
+      "role": "Asst. Director, Football Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Asst. Director, Football Strength & Conditioning\",\"firstName\":\"Zachary \",\"lastName\":\"Higgins\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Tim Hinton",
+      "role": "Executive Director for Football Relations / Special Assistant to the Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Executive Director for Football Relations / Special Assistant to the Head Coach\",\"firstName\":\"Tim \",\"lastName\":\"Hinton\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Former OSU on-field assistant now in a relations/admin role. Slash escaped as /."
+        }
+      ]
+    },
+    {
+      "name": "Billy Homer",
+      "role": "College Scouting Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"College Scouting Coordinator\",\"firstName\":\"Billy \",\"lastName\":\"Homer\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Personnel/scouting role. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Zachery Kelly",
+      "role": "Assistant Director, Creative Design",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Assistant Director, Creative Design\",\"firstName\":\"Zachery \",\"lastName\":\"Kelly\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Unrelated to OC Chip Kelly. Note the school spells the first name \"Zachery\"."
+        }
+      ]
+    },
+    {
+      "name": "Madison Lowe",
+      "role": "Football Front Office Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Football Front Office Assistant\",\"firstName\":\"Madison \",\"lastName\":\"Lowe\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Ethan Miller",
+      "role": "Director, Creative & Branding",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Director, Creative & Branding\",\"firstName\":\"Ethan \",\"lastName\":\"Miller\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Distinct from Josh Miller, a program assistant present in the Aug 2024 snapshot but absent by January and therefore excluded."
+        }
+      ]
+    },
+    {
+      "name": "George Momirovic",
+      "role": "Director, Football Video & Technology",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Director, Football Video & Technology\",\"firstName\":\"George \",\"lastName\":\"Momirovic\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Nairan Normand",
+      "role": "Assistant Video Coordinator",
+      "role_category": "other",
+      "midseason_note": "Appears in the January 10, 2025 official directory but NOT in the August 23, 2024 snapshot of the same page, so this staffer joined at some point during the 2024 season. I could not establish the exact arrival date — my WebSearch budget was exhausted before this task began, so no hire announcement could be searched for. Present on the directory 10 days before the championship game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Assistant Video Coordinator\",\"firstName\":\"Nairan\",\"lastName\":\"Normand\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Nerl",
+      "role": "Assistant Director, Football Equipment Services",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Assistant Director, Football Equipment Services\",\"firstName\":\"Kevin\",\"lastName\":\"Nerl\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Kaila Olson",
+      "role": "Performance Dietitian",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Performance Dietitian\",\"firstName\":\"Kaila \",\"lastName\":\"Olson MS, RD, LD\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. The school stuffs credentials into the lastName field (\"Olson MS, RD, LD\"); I list the plain name and preserve the raw field in the quote. The Aug 2024 snapshot rendered the credentials differently (\"MS, RD, CSSD, LD\")."
+        }
+      ]
+    },
+    {
+      "name": "Mark Pantoni",
+      "role": "General Manager, Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"General Manager, Player Personnel\",\"firstName\":\"Mark \",\"lastName\":\"Pantoni\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Long-tenured OSU personnel chief. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Ries",
+      "role": "Director, Football Equipment Services",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Director, Football Equipment Services\",\"firstName\":\"Kevin \",\"lastName\":\"Ries\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Luke Rose",
+      "role": "Associate Director, Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Associate Director, Strength and Conditioning\",\"firstName\":\"Luke \",\"lastName\":\"Rose\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Shares an identical title string with Antonio Turner, so match on the name fields too."
+        }
+      ]
+    },
+    {
+      "name": "Adam Stewart",
+      "role": "Physical Therapist, Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Physical Therapist, Athletic Trainer\",\"firstName\":\"Adam\",\"lastName\":\"Stewart\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Ed Terwilliger",
+      "role": "Director of High School Relations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Director of High School Relations\",\"firstName\":\"Ed \",\"lastName\":\"Terwilliger\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Recruiting-adjacent role, categorized ops. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Tony Tucker",
+      "role": "Director, Student Well-Being",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Director, Student Well-Being\",\"firstName\":\"Tony \",\"lastName\":\"Tucker\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Categorized other rather than medical — the title suggests player welfare/support rather than clinical care, but I could not confirm the scope."
+        }
+      ]
+    },
+    {
+      "name": "Antonio Turner",
+      "role": "Associate Director, Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Associate Director, Strength and Conditioning\",\"firstName\":\"Antonio \",\"lastName\":\"Turner\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Shares an identical title string with Luke Rose, so match on the name fields too."
+        }
+      ]
+    },
+    {
+      "name": "Brian Voltolini",
+      "role": "Associate Athletic Director, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Associate Athletic Director, Football Operations\",\"firstName\":\"Brian \",\"lastName\":\"Voltolini\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Parker Wereb",
+      "role": "Assistant Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Assistant Director of Player Personnel\",\"firstName\":\"Parker \",\"lastName\":\"Wereb\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. NOTE: this person is DUPLICATED in the school's directory under two records (ids 82 and 93); one carries a trailing space in the title (\"Assistant Director of Player Personnel \"). I have listed him ONCE and quoted the record without the trailing space. The duplication is a school data-entry artifact, not two people."
+        }
+      ]
+    },
+    {
+      "name": "Shaun Barnhouse",
+      "role": "Assistant Athletic Director for Athletic Training",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Assistant Athletic Director for Athletic Training\",\"firstName\":\"Shaun\",\"lastName\":\"Barnhouse\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Nick Murphy",
+      "role": "Assistant Director, Recruiting Strategy",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Assistant Director, Recruiting Strategy\",\"firstName\":\"Nick\",\"lastName\":\"Murphy\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Justin Kume",
+      "role": "Associate Athletic Director for Compliance",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Associate Athletic Director for Compliance\",\"firstName\":\"Justin\",\"lastName\":\"Kume\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. A shared athletic-department compliance role listed on the football directory; a ring-counting rule may want to treat this differently from football-specific staff."
+        }
+      ]
+    },
+    {
+      "name": "Ryan Mayhew",
+      "role": "Program Assistant (Recruiting)",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Program Assistant (Recruiting)\",\"firstName\":\"Ryan\",\"lastName\":\"Mayhew\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Categorized ops rather than analyst because the school scopes this program-assistant post to recruiting. Not in Wikipedia's program-assistant list."
+        }
+      ]
+    },
+    {
+      "name": "Morgan Phillips",
+      "role": "Director, Football Recruiting and Events",
+      "role_category": "ops",
+      "midseason_note": "Appears in the January 10, 2025 official directory but NOT in the August 23, 2024 snapshot of the same page, so this staffer joined at some point during the 2024 season. Exact arrival date not established — my WebSearch budget was exhausted before this task began, so no hire announcement could be searched for. Present on the directory 10 days before the championship game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Director, Football Recruiting and Events\",\"firstName\":\"Morgan\",\"lastName\":\"Phillips\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Embedded JSON, raw-HTML match only."
+        }
+      ]
+    },
+    {
+      "name": "Sam Petitto",
+      "role": "Assistant AD, Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Assistant AD, Player Personnel\",\"firstName\":\"Sam\",\"lastName\":\"Petitto\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. NOTE: the August 2024 snapshot spelled this name \"Pettito\"; the January 2025 snapshot spells it \"Petitto\". I have used the January spelling since that is the snapshot nearest the championship game, but the school's own data is inconsistent."
+        }
+      ]
+    },
+    {
+      "name": "Madison Marotti",
+      "role": "Coordinator, FB Admin/Events",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250110082527/https://ohiostatebuckeyes.com/sports/football/roster",
+          "quote": "\"title\":\"Coordinator, FB Admin/Events\",\"firstName\":\"Madison\",\"lastName\":\"Marotti\"",
+          "note": "SUPPORT-STAFF-ONLY ROW; sole source. Distinct person from Mickey Marotti (Director of Football Sport Performance); shares a surname. Slash escaped as / in the JSON, reproduced verbatim."
+        }
+      ]
+    }
+  ]
+}

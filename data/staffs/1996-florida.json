@@ -1,0 +1,701 @@
+{
+  "team": "Florida",
+  "season": 1996,
+  "staff": [
+    {
+      "name": "Steve Spurrier",
+      "role": "Head coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team",
+          "quote": "Steve Spurrier (Florida '67)– Head coach",
+          "note": "Wikipedia 'Coaching staff' section for the 1996 season."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Head Coach Steve Spurrier",
+          "note": "Congressional Record, 3/20/1997 (S. Res. 66). Line appears under the 'Coaching Staff' heading of the official roster printed as 'University of Florida 1996 National Football Champions'. Post-championship list, so it reflects the staff at the Jan. 2, 1997 Sugar Bowl title game."
+        }
+      ]
+    },
+    {
+      "name": "Bob Stoops",
+      "role": "Assistant head coach, Defensive Coordinator, Secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team",
+          "quote": "Bob Stoops (Iowa '83) – Assistant head coach, Defensive Coordinator, Secondary",
+          "note": "Infobox also lists him as defensive coordinator, 1st season. The 1996 media guide bio page titles him 'Assistant Head Coach / Defensive Coordinator / Secondary Coach'."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Bob Stoops",
+          "note": "Listed under the 'Coaching Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        }
+      ]
+    },
+    {
+      "name": "Carl Franks",
+      "role": "Assistant offensive coordinator, Running backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team",
+          "quote": "Carl Franks (Duke '82) – Assistant offensive coordinator, Running backs",
+          "note": "The Wikipedia infobox lists Franks as offensive coordinator (2nd season); Spurrier called his own offensive plays. The 1996 media guide bio header reads 'CARL FRANKS / Assistant Offensive Coordinator / Running Backs Coach'."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Carl Franks",
+          "note": "Listed under the 'Coaching Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        }
+      ]
+    },
+    {
+      "name": "Rod Broadway",
+      "role": "Defensive tackles",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team",
+          "quote": "Rod Broadway (North Carolina '77) – Defensive tackles",
+          "note": "1996 media guide bio header (PDF p.48) reads 'ROD BROADWAY / Defensive Tackles Coach'."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Rod Broadway",
+          "note": "Listed under the 'Coaching Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        }
+      ]
+    },
+    {
+      "name": "Jim Collins",
+      "role": "Recruiting coordinator, Will and Mike Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team",
+          "quote": "Jim Collins (Elon College '74) – Recruiting coordinator, Will and Mike Linebackers",
+          "note": "Dual role: inside linebackers coach plus recruiting coordinator. Categorized 'onfield' because the position-coach duty is primary."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Jim Collins",
+          "note": "Listed under the 'Coaching Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        }
+      ]
+    },
+    {
+      "name": "Dwayne Dixon",
+      "role": "Assistant head coach, Wide receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team",
+          "quote": "Dwayne Dixon (Florida '85) – Assistant head coach, Wide receivers",
+          "note": "1996 media guide devotes guide p.54 (PDF p.56) to Dixon's wide receivers bio."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Dwayne Dixon",
+          "note": "Listed under the 'Coaching Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        }
+      ]
+    },
+    {
+      "name": "Lawson Holland",
+      "role": "Tight ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team",
+          "quote": "Lawson Holland (Clemson '76) – Tight ends",
+          "note": "1996 media guide bio header (PDF p.58) reads 'LAWSON HOLLAND / Tight Ends Coach'."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Lawson Holland",
+          "note": "Listed under the 'Coaching Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        }
+      ]
+    },
+    {
+      "name": "Bob Sanders",
+      "role": "Assistant defensive coordinator, Defensive Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team",
+          "quote": "Bob Sanders (Davidson '76) – Assistant defensive coordinator, Defensive Ends",
+          "note": "Bio occupies guide p.48 (PDF p.50) of the 1996 media guide."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Bob Sanders",
+          "note": "Listed under the 'Coaching Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        }
+      ]
+    },
+    {
+      "name": "Jimmy Ray Stephens",
+      "role": "Offensive line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team",
+          "quote": "Jimmy Ray Stephens (Florida '77) – Offensive line",
+          "note": "1996 media guide bio header (PDF p.59) reads 'JIMMY RAY STEPHENS / Offensive Line Coach'."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Jimmy Ray Stephens",
+          "note": "Listed under the 'Coaching Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        }
+      ]
+    },
+    {
+      "name": "Barry Wilson",
+      "role": "Special teams Coordinator, Sam Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team",
+          "quote": "Barry Wilson (Georgia '65) – Special teams Coordinator, Sam Linebackers",
+          "note": "1996 media guide bio header (PDF p.51) reads 'BARRY WILSON / Special Teams Coordinator / Strongside (Sam) Linebackers Coach'."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Barry Wilson",
+          "note": "Listed under the 'Coaching Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        }
+      ]
+    },
+    {
+      "name": "Steve Spurrier Jr.",
+      "role": "Graduate assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team",
+          "quote": "Steve Spurrier Jr. (Duke '93) – Graduate assistant",
+          "note": "1996 media guide (PDF p.61) titles him 'STEVE SPURRIER, JR. / Graduate Assistant Coach' and says he 'will work with the Gator offense while also coordinating the scout team and film analysis' in his third season as a GA."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Steve Spurrier, Jr.",
+          "note": "Listed under the 'Coaching Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        }
+      ]
+    },
+    {
+      "name": "Aubrey Hill",
+      "role": "Graduate Assistant Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Aubrey_Hill",
+          "quote": "Hill began his coaching career at his alma mater, serving as a graduate assistant at Florida from 1996 to 1998.",
+          "note": "Same page also states: 'During his first season as a graduate assistant, the Gators won the 1997 Sugar Bowl to capture their first national championship.'"
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Aubrey Hill",
+          "note": "Listed under the 'Coaching Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff section (PDF p.61), caption 'AUBREY HILL / Graduate Assistant Coach'; bio says he 'enters his first season as a graduate assistant coach' and 'will work with the Gator defense this season.' Quote left empty because the posted PDF is a page-image scan with no text layer (verified: 285 pages, ~0 extractable characters); text above was read via OCR/visual inspection. Direct file: https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2022/11/29/1996_fb_media_guide.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Jerry Schmidt",
+      "role": "Director of Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team",
+          "quote": "Jerry Schmidt (Nebraska '86) – Strength and conditioning coordinator",
+          "note": "Wikipedia wording; the 1996 media guide (PDF p.60) titles him 'JERRY SCHMIDT / Director of Strength and Conditioning' and notes he 'was named Director of Strength and Conditioning on March 15, 1995'."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Jerry Schmidt",
+          "note": "First name listed under the 'Strength & Conditioning' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        }
+      ]
+    },
+    {
+      "name": "Rob Glass",
+      "role": "Strength & Conditioning Asst. Coordinator",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Rob Glass",
+          "note": "Listed under the 'Strength & Conditioning' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'ROB GLASS / Strength & Conditioning Asst. Coordinator'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed by rendering the page and reading it visually."
+        }
+      ]
+    },
+    {
+      "name": "Pat Moorer",
+      "role": "Strength & Conditioning Asst. Coordinator",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Patt Moorer",
+          "note": "Listed under the 'Strength & Conditioning' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997. The Record misspells the first name as 'Patt'; the 1996 media guide spells it 'PAT MOORER'."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'PAT MOORER / Strength & Conditioning Asst. Coordinator'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually."
+        }
+      ]
+    },
+    {
+      "name": "Randy Popple",
+      "role": "Strength & Conditioning Asst. Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Randy Popple",
+          "note": "Listed under the 'Strength & Conditioning' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'RANDY POPPLE / Strength & Conditioning Asst. Coach'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually."
+        }
+      ]
+    },
+    {
+      "name": "Jamie Speronis",
+      "role": "Director of Football Administration",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Jamie Speronis",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff section (PDF p.61), caption 'JAMIE SPERONIS / Director of Football Administration'; bio states he 'was named Director of Football Administration in February of 1996 after serving five years as Senior Administrative Assistant' and that he assists Spurrier 'with the day-to-day administration of the Gator football program.' Quote left empty because the posted PDF is a page-image scan with no text layer. ESPN's 1996-title retrospective calls him 'Spurrier's longtime director of football operations', but that page is JS-rendered and could not be verified in raw HTML, so it is not cited as a matchable quote."
+        }
+      ]
+    },
+    {
+      "name": "Betty Ling",
+      "role": "Senior Administrative Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Betty Ling",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff section (PDF p.61), caption 'BETTY LING / Senior Administrative Assistant'; bio says she 'enters her fifth year as Senior Administrative Assistant' and handles recruit visits, high school relations and the Gator Getter support squad. Quote left empty because the posted PDF is a page-image scan with no text layer."
+        }
+      ]
+    },
+    {
+      "name": "Nancy Sain",
+      "role": "Coach Spurrier's Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Nancy Sain",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'NANCY SAIN / Coach Spurrier's Secretary'. The guide's football-office phone listing (PDF p.6) also reads 'Coach Spurrier's Secretary - Nancy Sain (ext.4128)'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually."
+        }
+      ]
+    },
+    {
+      "name": "Cariess Babb",
+      "role": "Office Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'CARIESS BABB / Office Assistant'. The guide's football-office phone listing (PDF p.6) lists her among 'Assistant Coaches Secretaries'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed by rendering the page and reading it visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Nancy Stevens",
+      "role": "Office Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'NANCY STEVENS / Office Assistant'. The guide's football-office phone listing (PDF p.6) names her as one of the 'Assistant Coaches Secretaries'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Dave Houts",
+      "role": "Director of Video Services",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Dave Houts",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'DAVE HOUTS / Director of Video Services'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually."
+        }
+      ]
+    },
+    {
+      "name": "Bud Fernandez",
+      "role": "Director of Athletic Equipment/Assistant to the Athletic Director",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Bud Fernandez",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff section (PDF p.60), caption 'BUD FERNANDEZ / Director of Athletic Equipment/Assistant to the Athletic Director'; bio notes he is 'heading into his 25th season at the University of Florida.' Quote left empty because the posted PDF is a page-image scan with no text layer."
+        }
+      ]
+    },
+    {
+      "name": "Tim Sain",
+      "role": "Football Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Tim Sain",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff section (PDF p.60), caption 'TIM SAIN / Football Equipment Manager'; bio says he is 'entering his 10th year at the University of Florida' and directs 'game-day equipment efforts for the team.' Quote left empty because the posted PDF is a page-image scan with no text layer."
+        }
+      ]
+    },
+    {
+      "name": "Mike Wasik",
+      "role": "Athletic Trainer for Football",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Mike Wasik",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff section (PDF p.60), caption 'MIKE WASIK / Athletic Trainer for Football'; bio says he 'was named Athletic Trainer for Football in May of 1994.' Quote left empty because the posted PDF is a page-image scan with no text layer."
+        }
+      ]
+    },
+    {
+      "name": "Peter A. Indelicato, M.D.",
+      "role": "Head Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Dr. Pete Indelicato",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff section (PDF p.61), caption 'PETER A. INDELICATO, MD / Head Team Physician'; bio describes him as 'UF's head team physician since 1977.' Quote left empty because the posted PDF is a page-image scan with no text layer."
+        }
+      ]
+    },
+    {
+      "name": "Richard \"Dick\" Shaara",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Dr. Dick Shaara",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997. The 1996 media guide spells the caption 'DR. RICHARD SHAARA'."
+        },
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'DR. RICHARD SHAARA / Team Physician'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually."
+        }
+      ]
+    },
+    {
+      "name": "Art Day",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'DR. ART DAY / Team Physician'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed by rendering the page and reading it visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Guy Nicolette",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'DR. GUY NICOLETTE / Team Physician'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Chris Koenig",
+      "role": "Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'CHRIS KOENIG / Athletic Trainer'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Dave Werner",
+      "role": "Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'DAVE WERNER / Athletic Trainer'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Marty Huegel",
+      "role": "Physical Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'MARTY HUEGEL / Physical Therapist'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Burke Collins",
+      "role": "Massage Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'BURKE COLLINS / Massage Therapist'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Tim Aydt",
+      "role": "Academic Counselor",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'TIM AYDT / Academic Counselor'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Eric Sanders",
+      "role": "Student Services, Office of Student Life",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'ERIC SANDERS / Student Services, Office of Student Life'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Jack Kearney",
+      "role": "Telecommunications Assistant",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'JACK KEARNEY / Telecommunications Assistant'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Otto Spangler",
+      "role": "Team Chaplain",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'REV. OTTO SPANGLER / Team Chaplain'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Malcolm Jowers",
+      "role": "Team Security",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2022/11/29/1996_fb_media_guide.pdf",
+          "quote": "",
+          "note": "1996 Florida football media guide, Support Staff photo grid (PDF p.62), caption 'MALCOLM JOWERS / Team Security'. Quote left empty because the posted PDF is a page-image scan with no text layer; caption confirmed visually. Not present on the Congressional Record roster."
+        }
+      ]
+    },
+    {
+      "name": "Norm Carlson",
+      "role": "Support Staff",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Norm Carlson",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997. The Record gives no individual title. The archived 1996 Gatorzone fast-facts page lists him as 'ASSISTANT AD-COMMUNICATIONS' and the 1996 media guide's key-football-staff page (PDF p.6) as 'Assistant Athletic Director - Communications'; he was Florida's longtime football sports information man."
+        }
+      ]
+    },
+    {
+      "name": "John Humenik",
+      "role": "Support Staff",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "John Humenik",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997. The Record gives no individual title. The archived 1996 Gatorzone fast-facts page lists him as 'ASSISTANT AD-SPORTS INFORMATION'."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Kamis",
+      "role": "Support Staff",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Jeff Kamis",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997. The Record gives no individual title. The archived 1996 Gatorzone fast-facts page lists him as 'ASSISTANT MEN'S SPORTS INFORMATION DIRECTOR' — he was the football contact."
+        }
+      ]
+    },
+    {
+      "name": "Keith Carodine",
+      "role": "Support Staff",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Dr. Keith Carodine",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997. The Record gives no individual title; Carodine ran Florida's Office of Student Life / academic support for athletes. He does not appear in the preseason 1996 media guide's football support-staff pages."
+        }
+      ]
+    },
+    {
+      "name": "Greg McGarity",
+      "role": "Support Staff",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Greg McGarity",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997. The Record gives no individual title; McGarity was a Florida associate athletic director in this era. He does not appear in the preseason 1996 media guide's football support-staff pages."
+        }
+      ]
+    },
+    {
+      "name": "Chris Partick",
+      "role": "Support Staff",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Chris Partick",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997. Name is given exactly as printed; it is very likely a typesetting error for 'Chris Patrick', but no corroborating source was found, so the printed spelling is retained and no role is asserted. Does not appear in the 1996 media guide's football support-staff pages."
+        }
+      ]
+    },
+    {
+      "name": "Danny Sheldon",
+      "role": "Support Staff",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Danny Sheldon",
+          "note": "Listed under the 'Support Staff' heading of the 1996 national champions roster printed in the Congressional Record, 3/20/1997. The Record gives no individual title and no corroborating source for a specific role was found; does not appear in the 1996 media guide's football support-staff pages."
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Foley",
+      "role": "Director of Athletics",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "Director of Athletics: Jeremy Foley",
+          "note": "Printed as part of the official 'University of Florida 1996 National Football Champions' roster in the Congressional Record, 3/20/1997, immediately above the 'Coaching Staff' heading. Institution-level rather than football-team staff — flagged so the consumer can filter."
+        }
+      ]
+    },
+    {
+      "name": "John Lombardi",
+      "role": "President",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CREC-1997-03-20/html/CREC-1997-03-20-pt1-PgS2733-2.htm",
+          "quote": "President: Dr. John Lombardi",
+          "note": "Printed as part of the official 'University of Florida 1996 National Football Champions' roster in the Congressional Record, 3/20/1997. Institution-level rather than football-team staff — flagged so the consumer can filter."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "SOURCE QUALITY: Unusually good for this era, because two authoritative full-staff lists exist.\n\n(1) Congressional Record, 3/20/1997 (S. Res. 66, Sens. Mack and Graham), which printed the complete official \"University of Florida 1996 National Football Champions\" roster — players, then \"President\", \"Director of Athletics\", then headed blocks for \"Coaching Staff\" (12 names), \"Strength & Conditioning\" (4 names), and \"Support Staff\" (16 names). This is a plain-text .htm page on govinfo.gov and is fully machine-matchable. Critically, it was submitted AFTER the Jan. 2, 1997 Sugar Bowl, so it is the best available evidence of who was on staff at the championship game. It gives NO individual titles below the block headings, so for people documented only there I set role to the block heading wording (\"Support Staff\") rather than inventing a title.\n\n(2) The 1996 Florida football media guide (preseason, Aug. 1996), posted by the school at floridagators.com. Its \"Coaching & Support Staff\" section (guide pp. 58-60 = PDF pp. 60-62) supplies exact titles for the strength staff, both graduate assistants, football administration, equipment, medical and office staff, including a 19-person Support Staff photo grid.\n\nQUOTE LIMITATION — READ THIS: the posted media guide PDF is a page-image scan with NO text layer (285 pages, ~0 extractable characters; I verified with pypdf). Every quote sourced to that PDF is therefore set to \"\" per instructions, with the exact printed caption reproduced in the source note. I obtained those captions by rendering the pages with PDFKit and running Apple Vision OCR, then visually re-reading the rendered page images to confirm every name and title character-by-character. Names most at risk of OCR error (Cariess Babb, Marty Huegel, Randy Popple, Malcolm Jowers, Otto Spangler) were all confirmed by eye on the rendered image, not by OCR alone. Direct file if needed: https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2022/11/29/1996_fb_media_guide.pdf (the floridagators.com URL returns an HTML viewer wrapper, not the PDF, to non-browser clients).\n\nTIERS RECOVERED COMPLETELY: head coach (1); on-field assistants (9 — Broadway, Collins, Dixon, Franks, Holland, Sanders, Stephens, Stoops, Wilson; this is the full complement, confirmed independently by Wikipedia, the archived Gatorzone 1996 fast-facts page, the media guide table of contents, and the Congressional Record, all four agreeing); strength and conditioning (4 — Schmidt, Glass, Moorer, Popple); graduate assistants (2 — Spurrier Jr., Hill); equipment (2); football administration/office (Speronis, Ling, N. Sain, Babb, Stevens); video (Houts); medical (9).\n\nTIERS I COULD NOT RECOVER: There is no \"analyst\" or \"quality control\" tier to recover — those job titles did not exist in 1996 college football staffs, and neither source shows any such role. NCAA rules of the era capped on-field coaches at 9 plus the head coach and graduate assistants at 2, and the sources match those caps exactly, so I am confident nothing is missing from the coaching tiers. I could NOT recover: student managers, student athletic trainers, and student video assistants (never named in either source); recruiting-office clerical staff below Betty Ling; and any additional part-time or volunteer helpers.\n\nUNRESOLVED / HONEST GAPS:\n- \"Chris Partick\" and \"Danny Sheldon\" appear ONLY in the Congressional Record with no title, and I found no corroborating source for either. \"Chris Partick\" is almost certainly a typesetting error for \"Chris Patrick\" but I could not confirm, so I kept the printed spelling and asserted no role. Do not treat their role_category (\"other\") as meaningful.\n- \"Patt Moorer\" is a Congressional Record misspelling; the media guide spells it \"Pat Moorer\" and I used that.\n- Dr. Keith Carodine and Greg McGarity appear in the Record's Support Staff block but not in the media guide's football staff pages; they were athletic-department administrators. Included because the school's own championship roster includes them, but they are department-level, not football-only.\n- Thirteen support-staff members appear ONLY in the preseason media guide and NOT on the post-championship Congressional Record list: Tim Aydt, Cariess Babb, Burke Collins, Dr. Art Day, Marty Huegel, Chris Koenig, Dr. Guy Nicolette, Eric Sanders, Nancy Stevens, Dave Werner, Jack Kearney, Rev. Otto Spangler, Malcolm Jowers. I have NOT verified they were still on staff in January 1997; the Record's list is shorter and appears to be a selective honoree list rather than a full staff census, but I cannot rule out departures. These rows carry the weakest evidence in the set.\n- No midseason arrivals or departures are documented. The Aug. 1996 media guide and the Mar. 1997 Congressional Record list identical coaching, strength, and graduate-assistant personnel, which is strong evidence of no in-season turnover in those tiers, so no midseason_note is set on anyone.\n\nSOURCES TRIED THAT DID NOT ADD ROWS: The Wayback-archived Gatorzone 1996 fast-facts page (https://web.archive.org/web/20150905131920/http://www.gatorzone.com/football/history.php?his=1996%2Ffastfacts1996.html) confirms all 9 assistants with titles, but I deliberately did NOT cite it as a quote source because web.archive.org is not reliably fetchable by the tooling here and a mechanical quote match would likely fail; its content is instead reflected in source notes. ESPN's 1996-title retrospective corroborates Speronis as director of football operations and Carlson's role, but the page is JS-rendered and returned no matchable raw text, so it is noted rather than cited. No Wayback capture of a 1996-era Florida athletics staff directory was needed given the media guide."
+}

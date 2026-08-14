@@ -1,0 +1,209 @@
+{
+  "candidates": [
+    {
+      "name": "Nick Goeser",
+      "estimated_rings": 10,
+      "breakdown": "North Dakota State (FCS), assistant coach 2010-2024: FCS national titles 2011, 2012, 2013, 2014, 2015, 2017, 2018, 2019, 2021, 2024. InForum reported he 'coached 15 straight NCAA playoff teams, winning 10 FCS national championships and 11 Missouri Valley titles' on his 2025 departure; an earlier feature (mid-run) described him as the longest-tenured Bison assistant with eight title rings, which is consistent with 10 by 2024.",
+      "roles": "Defensive tackles coach, defensive line/defensive ends coach, recruiting coordinator, special teams coordinator, co-defensive coordinator, pro scout liaison. Never a head coach.",
+      "why_main_method_misses": "non-FBS division — every one of his rings is an FCS (Division I-AA) championship at NDSU; an FBS-champion-staff enumeration for 1990-2025 never touches the NDSU staff list.",
+      "confidence": "high",
+      "sources": [
+        "https://www.inforum.com/sports/bison-media-zone/mens-sports/longtime-bison-football-assistant-coach-nick-goeser-leaving",
+        "https://www.inforum.com/sports/college/small-town-big-world-longest-tenured-bison-assistant-embraces-country-upbringing",
+        "https://www.ncaa.com/news/football/article/2026-04-25/north-dakota-state-football-championships-complete-history"
+      ]
+    },
+    {
+      "name": "Jim Kramer",
+      "estimated_rings": 10,
+      "breakdown": "North Dakota State, director of athletic performance / assistant AD for athletic performance, 2004-2025 (22 years): FCS titles 2011, 2012, 2013, 2014, 2015, 2017, 2018, 2019, 2021, 2024. NDSU's release on his retirement: 'the Bison won 13 conference championships and 10 national championships in his 22 years'; InForum: 'retired with 10 FCS national championships.'",
+      "roles": "Head strength and conditioning coach / director of athletic performance for football (strength, conditioning, agility, nutrition). Pure support staff, never a position coach.",
+      "why_main_method_misses": "non-FBS division — the direct FCS analogue of the Scott Cochran benchmark, and he beats Cochran 10-8, but he sits entirely outside an FBS-only frame.",
+      "confidence": "high",
+      "sources": [
+        "https://gobison.com/news/2026/1/20/ndsu-football-strength-coach-jim-kramer-retires.aspx",
+        "https://www.inforum.com/sports/bison-media-zone/mens-sports/legendary-strength-coach-jim-kramer-retires-from-bison-athletics",
+        "https://gobison.com/sports/football/roster/staff/jim-kramer/373"
+      ]
+    },
+    {
+      "name": "Vince Kehres",
+      "estimated_rings": 12,
+      "breakdown": "Mount Union (Division III) — his official school bio states he was part of 12 of Mount Union's 13 national championships: 2 as a player (1996, 1997, four-year letterman 1994-97) and 10 as a coach. The coaching 10 breaks down as 8 as an assistant (1998 as a young staffer, then 2000, 2001, 2002, 2005, 2006, 2008, 2012 as DL coach 2000-03, OL coach 2004, defensive coordinator 2005-12) plus 2 as head coach (2015, 2017). Only 1993 is missing. He later became DC at Toledo (2020-25) and Syracuse (2025-).",
+      "roles": "Player (DE), defensive line coach, offensive line coach, defensive coordinator, head coach.",
+      "why_main_method_misses": "non-FBS division — all 12 are D-III titles. Secondarily player+staff combined: 2 of the 12 are player rings, and 2 more are head-coaching rings, so the strict 'non-head-coach staff ring' count is 8, exactly tying Cochran.",
+      "confidence": "high",
+      "sources": [
+        "https://athletics.mountunion.edu/staff-directory/vince-kehres/46",
+        "https://en.wikipedia.org/wiki/Vince_Kehres",
+        "https://en.wikipedia.org/wiki/Mount_Union_Purple_Raiders_football"
+      ]
+    },
+    {
+      "name": "Larry Kehres",
+      "estimated_rings": 11,
+      "breakdown": "Mount Union head coach 1986-2012: D-III titles 1993, 1996, 1997, 1998, 2000, 2001, 2002, 2005, 2006, 2008, 2012. Now back on the Mount Union staff as assistant coach/quarterbacks (no additional titles — Mount Union's most recent is 2017).",
+      "roles": "Head coach, later athletic director, currently assistant coach/quarterbacks.",
+      "why_main_method_misses": "non-FBS division — he is a head coach (so outside the 'non-head-coach' hunt) but he is also the single largest ring count in college football and is invisible to an FBS-only enumeration. Included as the scope-modifier proof: 'head coaches only' plus 'FBS only' loses an 11-ring man.",
+      "confidence": "high",
+      "sources": [
+        "https://www.espn.com/college-football/story/_/id/9254376/mount-union-purple-raiders-coach-larry-kehres-retires-332-wins-11-titles",
+        "https://athletics.mountunion.edu/sports/football/roster/coaches/larry-kehres/406",
+        "https://footballfoundation.org/hof_search.aspx?hof=2406"
+      ]
+    },
+    {
+      "name": "Don Montgomery",
+      "estimated_rings": 7,
+      "breakdown": "Mount Union assistant football coach since 1978 (also head wrestling coach). School bio: defensive coordinator for the program's first six national championships (1993, 1996, 1997, 1998, 2000, 2001) and 'part of seven NCAA Division III national titles at Mount Union' — the seventh presumably 2002. He is still listed on the football staff in 2024 and 2025 (outside linebackers / defensive line), so if his football service was continuous he would have all 13 (through 2005, 2006, 2008, 2012, 2015, 2017). The bio's '7' looks like a stale figure; this is the biggest open verification item in this sweep.",
+      "roles": "Assistant football coach 1978-present, defensive coordinator through the early title run, later DL/OLB coach; simultaneously head wrestling coach.",
+      "why_main_method_misses": "non-FBS division — D-III only. Also an example of a stale/undocumented count: the ring number depends on whether his football staff service was continuous 1978-2025 (7 vs. up to 13).",
+      "confidence": "medium",
+      "sources": [
+        "https://athletics.mountunion.edu/sports/football/roster/coaches/don-montgomery/657",
+        "https://athletics.mountunion.edu/sports/football/roster/coaches/don-montgomery/514",
+        "https://en.wikipedia.org/wiki/Mount_Union_Purple_Raiders_football"
+      ]
+    },
+    {
+      "name": "Jim Goostree",
+      "estimated_rings": 6,
+      "breakdown": "Alabama head athletic trainer 1957-1984 (later assistant AD): national titles 1961, 1964, 1965, 1973, 1978, 1979 — the entire Bryant six-title run happened inside his tenure. Alabama Sports HOF: 'trainer for 27 years... integral part of the Bryant dynasty — a dynasty that saw Alabama win six national championships from 1961 to 1979.'",
+      "roles": "Head athletic trainer, assistant athletic director. Originator of the Alabama-Tennessee victory-cigar tradition.",
+      "why_main_method_misses": "pre-1990 titles — all six fall before the 1990 window, and he is a medical/support staffer who would not appear on any coaching-staff roster even if the window were widened.",
+      "confidence": "medium",
+      "sources": [
+        "https://ashof.org/inductees/jim-goostree/",
+        "https://www.espn.com/college-football/story/_/id/30162436/bama-bear-bryant-trainer-bet-why-alabama-tennessee-cigar-tradition-means-much",
+        "https://alabamanewscenter.com/2017/05/13/meet-2017-class-alabama-sports-hall-of-fame/"
+      ]
+    },
+    {
+      "name": "Jeff Allen",
+      "estimated_rings": 6,
+      "breakdown": "Alabama head football athletic trainer / associate AD for sports medicine, hired 2007 as one of Saban's original hires and the only staffer present start-to-finish for all 17 Saban seasons: 2009, 2011, 2012, 2015, 2017, 2020. Retained under Kalen DeBoer.",
+      "roles": "Head athletic trainer (football), associate/senior associate athletics director for sports medicine and health & performance.",
+      "why_main_method_misses": "undocumented support role — his six rings are all FBS and inside the window, so the school and seasons are in scope, but he is medical staff: he appears in a 'Football Support Staff' directory, not the coaching-staff lists most enumerations scrape. He is the cleanest test case for whether the pipeline's staff roster goes deep enough.",
+      "confidence": "high",
+      "sources": [
+        "https://www.espn.com/college-football/story/_/id/33019887/how-jeff-allen-became-invaluable-nick-saban-alabama-football",
+        "https://247sports.com/college/alabama/article/alabama-trainer-jeff-allen-was-part-of-nick-saban-football-for-all-17-years-230501317/",
+        "https://rolltide.com/sports/football/roster/staff/jeff-allen/1497"
+      ]
+    },
+    {
+      "name": "Art Kehoe",
+      "estimated_rings": 5,
+      "breakdown": "Miami — described as the only UM coach with all five Hurricanes national championship rings: 1983, 1987, 1989, 1991, 2001. He was a Miami player (offensive guard, 1979-81 letterman, senior offensive captain), began coaching there in 1981 as a student assistant, so 1983 came as a young staff member; 1987/1989/1991/2001 as offensive line coach over 25 years on staff.",
+      "roles": "Student assistant, graduate assistant, offensive line coach, assistant head coach. Later OL coach at Ole Miss and elsewhere. Never a head coach.",
+      "why_main_method_misses": "pre-1990 titles — three of his five (1983, 1987, 1989) predate 1990. The method would capture only 1991 and 2001 and score him a 2, missing 60% of his count.",
+      "confidence": "high",
+      "sources": [
+        "https://miamihurricanes.com/coach/art-kehoe/",
+        "https://www.stateoftheu.com/2020/2/21/21147379/miami-hurricanes-football-five-time-hurricanes-national-champion-coach-art-kehoe-has-stroke",
+        "https://247sports.com/article/miami-hurricanes-football-art-kehoe-coach-suffers-stroke-five-time-national-champion-144089525/"
+      ]
+    },
+    {
+      "name": "Boyd Epley",
+      "estimated_rings": 5,
+      "breakdown": "Nebraska strength and conditioning coach 1969-2003 (college football's first full-time strength coach): 'From 1969 to 2004, teams under Epley's tutelage won five national championships' — 1970, 1971, 1994, 1995, 1997.",
+      "roles": "Head strength and conditioning coach, later assistant AD for athletic performance; founder of the NSCA.",
+      "why_main_method_misses": "pre-1990 titles — 1970 and 1971 fall outside the window entirely; the remaining three (1994, 1995, 1997) are also support-staff rings that require the enumeration to include strength staff, not just coaches. He is the historical prototype of the Cochran archetype.",
+      "confidence": "high",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Boyd_Epley",
+        "https://huskers.com/staff/boyd-epley",
+        "https://usastrengthcoacheshf.com/member/boyd-epley"
+      ]
+    },
+    {
+      "name": "Ed Orgeron",
+      "estimated_rings": 5,
+      "breakdown": "Miami DL coach 1988-92 (1989, 1991 titles); USC 1998-2004, recruiting coordinator 2001 and assistant head coach 2003 (2003 AP title, 2004 BCS title); LSU head coach 2019. Four of the five came as an assistant.",
+      "roles": "Defensive line coach, recruiting coordinator, assistant head coach, defensive coordinator; head coach at Ole Miss and LSU.",
+      "why_main_method_misses": "would actually be found — but only partly, and his number is the most counting-rule-sensitive in this set. 1989 is pre-1990 and drops out of the window. 2003 was a split title (AP USC / BCS-coaches LSU), so a BCS-only rule drops it. 2004 USC was vacated by the NCAA/BCS (AP title retained), so a 'vacated doesn't count' rule drops it too. His total swings between 2 and 5 depending on window, split-poll rule, and vacation rule.",
+      "confidence": "high",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ed_Orgeron",
+        "https://www.theadvocate.com/baton_rouge/sports/lsu/article_f89a1fce-de36-11ea-9235-f77dd416955e.html"
+      ]
+    },
+    {
+      "name": "Kevin Bullis",
+      "estimated_rings": 5,
+      "breakdown": "UW-Whitewater (Division III) assistant coach for seven years under Lance Leipold — six Stagg Bowl appearances, five national championships won as an assistant (from the 2007, 2009, 2010, 2011, 2013, 2014 title set), most recently as defensive run game coordinator / DL coach in 2014. Became head coach in 2015; national runner-up 2019, no titles as HC.",
+      "roles": "Defensive coordinator / defensive line / defensive run game coordinator (assistant), then head coach.",
+      "why_main_method_misses": "non-FBS division — D-III only. Also a demonstration that a second D-III dynasty (Whitewater, 6 titles 2007-2014) produces a whole cohort of 4-6-ring assistants that FBS enumeration never sees.",
+      "confidence": "medium",
+      "sources": [
+        "https://uwwsports.com/sports/football/roster/coaches/kevin-bullis/849",
+        "https://uwwsports.com/honors/athletics-hall-of-fame/lance-leipold/353",
+        "https://en.wikipedia.org/wiki/Lance_Leipold"
+      ]
+    },
+    {
+      "name": "Bobby Revilla",
+      "estimated_rings": 5,
+      "breakdown": "Miami head equipment manager — began as a student manager in 1982 and worked up to head equipment manager over a roughly 30-year career, which spans all five Miami national championships (1983, 1987, 1989, 1991, 2001). He is listed as head equipment manager in Miami's 1999 athletic department staff directory. The '30 years / all five titles' framing came from a secondary summary and I could not pin it to a single primary feature story, so treat the 5 as plausible-but-unverified.",
+      "roles": "Student manager, assistant equipment manager, head football/athletics equipment manager.",
+      "why_main_method_misses": "undocumented support role — equipment managers are essentially never in the staff lists that ring-counting methods enumerate, and three of the five titles are also pre-1990. If confirmed, he is a 5-ring man with zero coaching-directory footprint.",
+      "confidence": "low",
+      "sources": [
+        "https://miamihurricanes.com/news/1999/08/02/205551962-2/",
+        "https://en.wikipedia.org/wiki/Miami_Hurricanes_football",
+        "https://x.com/theueqroom"
+      ]
+    },
+    {
+      "name": "Matt Entz",
+      "estimated_rings": 6,
+      "breakdown": "North Dakota State: defensive coordinator 2014-2018 (FCS titles 2014, 2015, 2017, 2018), head coach 2019-2023 (titles 2019, 2021). Four as a coordinator, two as head coach. Later USC assistant, now Fresno State head coach.",
+      "roles": "Defensive coordinator, head coach.",
+      "why_main_method_misses": "non-FBS division — all six are FCS. Included to show the depth of the NDSU cohort: the program produced at least three people (Goeser 10, Kramer 10, Entz 6) who are invisible to an FBS-only sweep, plus Craig Bohl (3 as HC) and Chris Klieman (assistant for 2011-2013, HC 2014, 2015, 2017, 2018).",
+      "confidence": "medium",
+      "sources": [
+        "https://gobison.com/sports/football/roster/coaches/matt-entz/2182",
+        "https://www.cbssports.com/college-football/news/fresno-state-hires-matt-entz-usc-assistant-won-two-national-championships-as-north-dakota-state-coach/"
+      ]
+    },
+    {
+      "name": "Jim Tressel",
+      "estimated_rings": 5,
+      "breakdown": "Youngstown State head coach: I-AA/FCS national titles 1991, 1993, 1994, 1997. Ohio State head coach: BCS title 2002. Five total across two divisions.",
+      "roles": "Head coach (all five).",
+      "why_main_method_misses": "non-FBS division — an FBS-only 1990-2025 sweep records him as a one-ring coach and misses four-fifths of his count. He is the clearest illustration that the division filter, not the date filter, is the dominant source of undercount.",
+      "confidence": "high",
+      "sources": [
+        "https://footballfoundation.org/hof_search.aspx?hof=2373",
+        "https://ysusports.com/honors/hall-of-fame/jim-tressel/294",
+        "https://www.cfbhall.com/inductees/jim-tressel-2015/"
+      ]
+    },
+    {
+      "name": "Greg Stringfellow",
+      "estimated_rings": 3,
+      "breakdown": "LSU assistant AD / director of equipment operations, 30-plus years in the LSU equipment room: designed LSU's championship rings for 2003 and 2007 and was involved in the 2019 ring design. Three LSU national titles fall inside his tenure (2003, 2007, 2019).",
+      "roles": "Equipment manager, director of equipment operations, assistant athletics director. Also the person who literally designs the rings.",
+      "why_main_method_misses": "undocumented support role — a low count but a high-value probe: he is the documented, name-in-print version of the equipment-manager archetype, which tells you the archetype is real and that the same role at Mount Union, NDSU, Miami, and Alabama is worth chasing by name.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.si.com/college/2018/08/06/lsu-tigers-equipment-managers"
+      ]
+    },
+    {
+      "name": "Troy Walters (and the 2017 UCF staff)",
+      "estimated_rings": 0,
+      "breakdown": "UCF went 13-0 in 2017, self-declared a national championship, and produced national championship rings and a banner for the team and staff. Every member of Scott Frost's 2017 staff therefore physically holds a 'national championship ring' for a title no selector awarded (Alabama won the 2017 CFP). Walters, UCF's offensive coordinator who left for Nebraska, pointedly described his ring as an AAC/Peach Bowl ring rather than a national championship ring.",
+      "roles": "Offensive coordinator / wide receivers coach (and, by extension, the whole 2017 UCF coaching and support staff).",
+      "why_main_method_misses": "claim inflated (explain) — this is the false-positive direction rather than the false-negative one. Any pipeline that counts 'rings received' rather than 'recognized titles' will silently add a ring to ~40 people from one season. The same failure mode applies to schools that retroactively claim titles (Alabama, Ole Miss, Minnesota et al. claim seasons no contemporaneous major selector gave them). Rule that flips it: 'ring issued by the school' vs. 'title recognized by a major selector.'",
+      "confidence": "high",
+      "sources": [
+        "https://www.cbssports.com/college-football/news/ucf-fans-angry-with-ex-oc-for-not-buying-into-knights-national-champion-claim",
+        "https://www.cbssports.com/college-football/news/alabama-coach-nick-saban-addresses-ucfs-self-proclaimed-national-championship",
+        "https://www.espn.com/college-football/story/_/id/29324272/the-most-absurd-controversial-national-title-claims-college-football-history"
+      ]
+    }
+  ],
+  "matrix_report": "METHOD: ~30 web searches sampled from the A (role) x B (count phrasing) x C (scope) matrix, plus snowballing from every hit. Benchmark re-confirmed: Scott Cochran = 8 (LSU 2003; Alabama 2009/11/12/15/17; Georgia 2021/22).\n\nHEADLINE RESULT: the benchmark is beaten, and it is beaten entirely outside FBS. Nick Goeser (NDSU assistant, 10 FCS rings) and Jim Kramer (NDSU strength coach, 10 FCS rings) both clear 8 in pure support/assistant roles. Vince Kehres (Mount Union) has 12 total, 8 of them as a non-head-coach. Larry Kehres has 11. An FBS-only 1990-2025 enumeration returns zero of these people.\n\n=== PRODUCTIVE CELLS (reuse these) ===\n\n1. AXIS C dynasty name x AXIS A support role, WITHOUT any count phrasing. Highest yield by far. Pattern: \"<dynasty program> football <role> longtime national championships\". Hits: NDSU x strength coach -> Jim Kramer (10); NDSU x athletic trainer/ops -> surfaced Nick Goeser (10) as a side result; Miami x equipment manager -> Bobby Revilla; Alabama x athletic trainer -> Jeff Allen (6) and Jim Goostree (6); LSU x equipment manager -> Greg Stringfellow; Nebraska x strength coach -> Boyd Epley (5).\n\n2. AXIS C lower-division dynasty x \"longtime assistant / part of all N championships\". Pattern: \"<program> football longtime assistant coach part of all <N> national championships <year list>\". Hits: Mount Union -> Don Montgomery and Vince Kehres; UW-Whitewater -> Kevin Bullis (5 as an assistant). Including the explicit year list in the query materially improves recall — the search engine matches season-page text.\n\n3. Fetching the school's own staff-directory bio page. Highest-precision step in the whole pipeline. The Mount Union staff-directory page states outright that Vince Kehres was part of 12 of 13 titles, 10 as a coach — a fact no news search surfaced. Recommended: for any dynasty program, fetch /staff-directory/<name> and /sports/football/roster/coaches/<name> and /sports/football/roster/staff/<name>; the /staff/ path is where trainers, equipment, and performance staff live and is the one an ordinary coaching-staff scrape skips.\n\n4. Retirement / departure / obituary coverage of support staff. Local outlets publish exact ring counts at exit and almost nowhere else. \"NDSU strength coach Jim Kramer retires\" and \"Longtime Bison assistant Nick Goeser leaving\" (InForum) each produced a hard, quotable count. Reusable pattern: \"<program> <role> retires OR leaving OR dies longtime national championships\".\n\n5. AXIS B \"N-time national champion\" as an ADJECTIVE inside news headlines about a person (not as a standalone phrase search). E.g. \"five-time national champion\" attached to Art Kehoe in stroke-coverage headlines. This works because outlets use the epithet in obit/health/hire stories.\n\n6. Cross-division career tracing for counting-rule cases. Ed Orgeron (Miami 1989/1991 + USC 2003/2004 + LSU 2019) and Jim Tressel (4 FCS + 1 FBS) both came out of plain Wikipedia career-timeline fetches, which are the cheapest way to expose window/split-poll/vacated-title sensitivity.\n\n=== NOISE CELLS (do not reuse) ===\n\n1. AXIS B spelled-out count x \"national championship rings\" as a bare phrase (\"seven national championship rings\", \"nine national championship rings\"). Near-total noise: every result collapses to Nick Saban, generic Jostens/CFP ring-vendor pages, or \"who receives championship rings\" explainers. 0 candidate hits across multiple attempts.\n\n2. \"most national championship rings\" / \"more rings than fingers\" / \"national titles as an assistant\". Same failure: returns head-coach leaderboards and ring-retailer SEO pages. The phrase \"national titles as an assistant\" in particular returns only Saban/Kirby Smart listicles.\n\n3. Generic role x count with no program anchor (\"strength coach 'more rings than' college football\"). Returns ring-manufacturer marketing. The count phrasing must never carry the query alone — it needs a program or a person anchoring it.\n\n4. \"won national championships at three different schools\" (assistant framing). Returned head-coach content plus one weak, low-value hit (Kevin Garver, 3 rings as Alabama support staff). The multi-school assistant is real but is better found by tracing a named coach's career than by phrase search.\n\n5. AXIS C decade modifiers alone (\"1970s\", \"1980s\") without a program. Untested-to-useless; the pre-1990 finds (Goostree, Epley, Kehoe, Revilla) all came from program+role queries instead.\n\n=== RECOMMENDED PIPELINE CHANGES ===\n- Replace the FBS filter with a division loop: FBS, FCS, D-II, D-III, NAIA. D-III (Mount Union 13, Whitewater 6) and FCS (NDSU 10, Georgia Southern 6, Youngstown State 4, App State 3) are where double-digit counts actually live.\n- Extend the window to at least 1960. Miami 1983/87/89, Nebraska 1970/71, and the entire Bryant run are on the wrong side of a 1990 cutoff and account for most of the pre-modern support-staff counts.\n- Enumerate four staff strata, not one: (a) coaching staff, (b) strength/performance staff, (c) sports medicine (trainers, team physicians), (d) operations (equipment, video, football ops, chief of staff, long-tenured administrative assistants). Strata (b)-(d) produced Kramer, Allen, Goostree, Epley, Stringfellow and Revilla — six of this report's candidates.\n- Store counting-rule flags per ring, not per person: pre-window, division, split poll (1990, 1991, 1997, 2003), vacated (USC 2004), player-vs-staff, head-coach-vs-assistant, and school-issued-but-unrecognized (UCF 2017). Every disputed number in this report flips on exactly one of those flags.\n\n=== OPEN LEADS NOT CLOSED (cheap next steps) ===\n- Don Montgomery's true count: 7 (school bio) vs. up to 13 if his Mount Union football service was continuous 1978-2025. Needs a phone-call-grade source or a run of season media guides.\n- Joe Garn, Mount Union football equipment — no tenure data found; a 13-ring equipment manager is plausible there.\n- Eric Issendorf, NDSU director of equipment operations — bio fetch returned title only; if he predates 2011 he is a 10-ring candidate.\n- Bobby Revilla's five Miami rings — confirmed as head equipment manager by 1999, but the \"all five titles\" claim needs a primary feature story.\n- Carroll College (NAIA, 6 titles 2002-2010) and Northwest Missouri State (D-II, 6 titles) staff continuity: both dynasties should contain 4-6-ring assistants; neither yielded a named assistant in this sweep.\n- Long-tenured administrative assistants (e.g. Linda Leoni, Saban's assistant since the Cleveland Browns) — potentially 7+ rings across LSU and Alabama, but no source states a count."
+}

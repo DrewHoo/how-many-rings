@@ -1,0 +1,250 @@
+{
+  "team": "Colorado",
+  "season": 1990,
+  "staff": [
+    {
+      "name": "Bill McCartney",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://cubuffs.com/sports/football/coaches/1990",
+          "quote": "1990 Football Coaching Staff",
+          "note": "Official University of Colorado athletics season staff page for 1990. The staff table row reads 'Bill McCartney' / 'Head Coach' in adjacent name and title cells; the page heading quoted here establishes the season. The literal title cell text is 'Head Coach'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Colorado_Buffaloes_football_team",
+          "quote": "Led by head coach Bill McCartney",
+          "note": "Wikipedia team-season article lead."
+        }
+      ]
+    },
+    {
+      "name": "Gary Barnett",
+      "role": "Assistant Coach/Quarterbacks/Fullbacks",
+      "role_category": "onfield",
+      "midseason_note": "Held the QB/fullbacks job through the regular season; promoted to offensive coordinator on December 3, 1990 after Gerry DiNardo left for Vanderbilt, and served as offensive coordinator in the 1991 Orange Bowl (the championship game). On staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://cubuffs.com/sports/football/coaches/1990",
+          "quote": "Assistant Coach/Quarterbacks/Fullbacks",
+          "note": "Title cell in the 1990 staff table, paired with the name cell 'Gary Barnett'."
+        },
+        {
+          "url": "https://cubuffs.com/sports/football/roster/coaches/gary-barnett/151",
+          "quote": "On December 3, 1990, he was promoted to offensive coordinator after Gerry DiNardo resigned to become head coach at Vanderbilt.",
+          "note": "CU official bio; the following sentence reads 'His first game as OC was in the 1991 Orange Bowl against Notre Dame, a 10-9 Colorado victory that enabled CU to win its first national championship in football.'"
+        },
+        {
+          "url": "https://archive.org/download/colorado-football-1993-media-guide-c/Colorado%20Football%2C%201993%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Barnett, Gary 1984-91",
+          "note": "OCR text of the 1993 Colorado football media guide, all-time full-time assistant coaches list; tenure spans the 1990 season."
+        }
+      ]
+    },
+    {
+      "name": "Mike Barry",
+      "role": "Assistant Coach/Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://cubuffs.com/sports/football/coaches/1990",
+          "quote": "Assistant Coach/Offensive Line",
+          "note": "Title cell in the 1990 staff table, paired with the name cell 'Mike Barry'."
+        },
+        {
+          "url": "https://archive.org/download/colorado-football-1993-media-guide-c/Colorado%20Football%2C%201993%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Barry, Mike 1987-92",
+          "note": "OCR text of the 1993 Colorado football media guide, all-time full-time assistant coaches list; tenure spans the 1990 season."
+        }
+      ]
+    },
+    {
+      "name": "Brian Cabral",
+      "role": "Assistant Coach/Inside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://cubuffs.com/sports/football/coaches/1990",
+          "quote": "Assistant Coach/Inside Linebackers",
+          "note": "Title cell in the 1990 staff table, paired with the name cell 'Brian Cabral'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Brian_Cabral",
+          "quote": "Cabral assumed full-time duties in the same capacity in 1990",
+          "note": "Preceding sentence establishes the capacity: he 'tutored the inside linebackers his first year as a graduate assistant' in 1989."
+        },
+        {
+          "url": "https://archive.org/download/colorado-football-1993-media-guide-c/Colorado%20Football%2C%201993%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Cabral, Brian 1989-92",
+          "note": "OCR text of the 1993 Colorado football media guide, all-time full-time assistant coaches list."
+        }
+      ]
+    },
+    {
+      "name": "Gerry DiNardo",
+      "role": "Assistant Coach/Offensive Coordinator/Tight Ends",
+      "role_category": "onfield",
+      "midseason_note": "Offensive coordinator for the regular season only. He resigned on/about December 3, 1990 to become head coach at Vanderbilt and did not coach the 1991 Orange Bowl; Gary Barnett ran the offense in the championship game. Ring rule: NOT on staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://cubuffs.com/sports/football/coaches/1990",
+          "quote": "Assistant Coach/Offensive Coordinator/Tight Ends",
+          "note": "Title cell in the 1990 staff table, paired with the name cell 'Gerry DiNardo'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gerry_DiNardo",
+          "quote": "DiNardo was the offensive coordinator when Colorado won the national championship in 1990.",
+          "note": "Same article: 'In December 1990, DiNardo took the head coach job at Vanderbilt University, starting in the 1991 season.'"
+        },
+        {
+          "url": "https://archive.org/download/colorado-football-1993-media-guide-c/Colorado%20Football%2C%201993%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "DiNardo, Gerry 1982-90",
+          "note": "OCR text of the 1993 Colorado football media guide, all-time full-time assistant coaches list; tenure ends with 1990."
+        }
+      ]
+    },
+    {
+      "name": "Don Frease",
+      "role": "Assistant Coach/Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://cubuffs.com/sports/football/coaches/1990",
+          "quote": "Assistant Coach/Wide Receivers",
+          "note": "Title cell in the 1990 staff table, paired with the name cell 'Don Frease'."
+        },
+        {
+          "url": "https://archive.org/download/colorado-football-1993-media-guide-c/Colorado%20Football%2C%201993%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Frease, Don 1987-90",
+          "note": "OCR text of the 1993 Colorado football media guide, all-time full-time assistant coaches list; tenure ends with 1990."
+        }
+      ]
+    },
+    {
+      "name": "Mike Hankwitz",
+      "role": "Assistant Coach/Defensive Coordinator/Defensive Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://cubuffs.com/sports/football/coaches/1990",
+          "quote": "Assistant Coach/Defensive Coordinator/Defensive Backs",
+          "note": "Title cell in the 1990 staff table, paired with the name cell 'Mike Hankwitz'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mike_Hankwitz",
+          "quote": "After coaching outside linebackers and punters his first three years with the Buffaloes, he was named the program's defensive coordinator in 1988.",
+          "note": "Same section notes Colorado 'won a share of the national title in 1990' during his 1985-1994 first stint."
+        },
+        {
+          "url": "https://archive.org/download/colorado-football-1993-media-guide-c/Colorado%20Football%2C%201993%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Hankwitz, Mike 1985-92",
+          "note": "OCR text of the 1993 Colorado football media guide, all-time full-time assistant coaches list."
+        }
+      ]
+    },
+    {
+      "name": "Oliver Lucas",
+      "role": "Assistant Coach/Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://cubuffs.com/sports/football/coaches/1990",
+          "quote": "Assistant Coach/Running Backs",
+          "note": "Title cell in the 1990 staff table, paired with the name cell 'Oliver Lucas'. Lucas appears twice in CU's 1990 table (once with a generic 'Assistant Coach' title and once with the position title quoted here)."
+        },
+        {
+          "url": "https://archive.org/download/colorado-football-1993-media-guide-c/Colorado%20Football%2C%201993%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Lucas, Oliver 1985-90",
+          "note": "OCR text of the 1993 Colorado football media guide, all-time full-time assistant coaches list; tenure ends with 1990."
+        }
+      ]
+    },
+    {
+      "name": "Bob Simmons",
+      "role": "Assistant Coach/Outside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://cubuffs.com/sports/football/coaches/1990",
+          "quote": "Assistant Coach/Outside Linebackers",
+          "note": "Title cell in the 1990 staff table, paired with the name cell 'Bob Simmons'. Simmons appears twice in CU's 1990 table (once with a generic 'Assistant Coach' title and once with the position title quoted here)."
+        },
+        {
+          "url": "https://archive.org/download/colorado-football-1993-media-guide-c/Colorado%20Football%2C%201993%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Simmons, Bod 1988-92",
+          "note": "OCR text of the 1993 Colorado football media guide, all-time full-time assistant coaches list. 'Bod' is an OCR error for 'Bob' in the scanned guide; quoted exactly as the OCR text reads."
+        }
+      ]
+    },
+    {
+      "name": "Ron Vanderlinden",
+      "role": "Assistant Coach/Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://cubuffs.com/sports/football/coaches/1990",
+          "quote": "Assistant Coach/Defensive Line",
+          "note": "Title cell in the 1990 staff table, paired with the name cell 'Ron Vanderlinden'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ron_Vanderlinden",
+          "quote": "From 1983 to 1991, Vanderlinden was a defensive line coach at Colorado under head coach Bill McCartney",
+          "note": "Same passage: 'During their time in Boulder, Colorado won the 1990 National Championship.'"
+        },
+        {
+          "url": "https://archive.org/download/colorado-football-1993-media-guide-c/Colorado%20Football%2C%201993%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Vanderlinden, Ron 1983-91",
+          "note": "OCR text of the 1993 Colorado football media guide, all-time full-time assistant coaches list."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Madden",
+      "role": "assistant athletics director of strength and conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archives.starkcenter.org/omeka/exhibits/show/longhornpower/jeff-madden--bio",
+          "quote": "Madden became the assistant athletics director of strength and conditioning for the University of Colorado, where he coached and trained two back-to-back national championship contending teams, with one national championship team in 1990",
+          "note": "H.J. Lutcher Stark Center (University of Texas) digital-library biography."
+        },
+        {
+          "url": "https://usastrengthcoacheshf.com/member/jeff-madden",
+          "quote": "moved on to the University of Colorado (1989-92) where he coordinated all fifteen Buffaloes' intercollegiate sports",
+          "note": "USA Strength and Conditioning Coaches Hall of Fame bio; the same sentence continues '...and helped the football team win three Big Eight championships and the 1990 national championship.'"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Colorado_Buffaloes_football_team",
+          "quote": "Jeff Madden",
+          "note": "Wikipedia team-season article lists Madden among the 1990 team's assistant coaches in the roster footer (names only, no titles)."
+        }
+      ]
+    },
+    {
+      "name": "Rick George",
+      "role": "assistant athletic director for football operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://cubuffs.com/staff-directory/rick-george/298",
+          "quote": "Two-and-a-half years later (Dec. 21, 1989), George was promoted to assistant athletic director for football operations, not coincidentally after the Buffaloes finished the regular season with an 11-0 record and the school",
+          "note": "Official CU athletics staff bio. He was hired by Bill McCartney as football recruiting coordinator on March 2, 1987, promoted to this football-operations role on Dec. 21, 1989, and left for Vanderbilt after the 1990 championship season, so he held the role throughout 1990."
+        }
+      ]
+    },
+    {
+      "name": "John Wristen",
+      "role": "graduate assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://gothunderwolves.com/sports/football/roster/coaches/john-wristen/20",
+          "quote": "career in Division I football started in 1990 as a graduate assistant at CU (1990 National Champions), working with the quarterbacks and running backs.",
+          "note": "Colorado State University Pueblo official coach bio. Full sentence begins 'Wristen's career in Division I football started in 1990...' (the possessive uses a curly apostrophe on the page, so the quote begins after it)."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "WHAT IS SOLIDLY DOCUMENTED (on-field tier, complete): The University of Colorado athletics site maintains a per-season coaching-staff database, and the 1990 page (https://cubuffs.com/sports/football/coaches/1990) is unusually complete for this era: it lists head coach Bill McCartney plus exactly nine full-time assistants, each with a position title. That count matches the NCAA's 1990 limit of nine full-time assistants, and it is independently corroborated by the all-time full-time assistant-coach list in the 1993 CU media guide (OCR text on archive.org), whose year ranges include 1990 for precisely those nine names (Barnett, Barry, Cabral, DiNardo, Frease, Hankwitz, Lucas, Simmons, Vanderlinden) and exclude everyone else. I am confident the on-field tier is 100% complete.\n\nRING-RULE FLAG: Gerry DiNardo is the one name that needs a decision. He was offensive coordinator for the entire regular season but resigned in early December 1990 to become Vanderbilt's head coach; Gary Barnett was promoted to offensive coordinator on Dec. 3, 1990 and ran the offense in the Jan. 1, 1991 Orange Bowl. Under a strict \"on staff at the championship game\" rule, DiNardo does not qualify. He is included as a row with a midseason_note so the ring rule can be applied downstream.\n\nWHAT I RECOVERED IN THE SUPPORT TIERS (partial, name-by-name, not from any staff list): Strength and conditioning — Jeff Madden, documented by two independent biographies (Stark Center at Texas; USA Strength and Conditioning Coaches Hall of Fame) and listed among the assistants on the Wikipedia team page. Operations — Rick George, documented by his own CU staff bio, which dates his promotion to assistant AD for football operations to Dec. 21, 1989 and his departure to Vanderbilt to after the 1990 title. Graduate assistants — John Wristen only, documented by his CSU Pueblo coach bio, which explicitly dates his GA year at CU to 1990.\n\nWHAT I COULD NOT RECOVER:\n1. Additional graduate assistants. Programs in 1990 typically carried two GAs; I found only Wristen. CU's own season-by-season coaching database contains no GA entries for ANY year in the McCartney era (I checked 1989, 1991 and 1993 for comparison — 1993's page also omits the two GAs its printed media guide names, David Gidts and Mark Henry). So a second 1990 GA very likely existed but is not documented anywhere I could reach. I did NOT guess.\n2. Analysts / quality control. These job categories effectively did not exist in 1990 college football staffing, and I found no evidence of any such position at CU. Treat as zero, not as missing data.\n3. Recruiting/personnel staff below the AD level, football secretaries, and administrative assistants. The 1993 media guide names people in these roles but with 1992-93 hire dates; nothing ties a named person to the 1990 football staff.\n4. Medical (athletic training) and equipment staff assigned to football. This is the biggest documented gap. The 1993 media guide shows CU's sports medicine and equipment operations were athletic-department-wide, not football-specific, and I can only establish that Dave Burton (director of sports medicine, joined July 22, 1985) and Jim Webb (assistant equipment manager, joined July 1, 1989) were on the CU athletic-department payroll in 1990 — no source assigns either to the football team for the 1990 season. Rather than pad the roster with department-wide employees whose football affiliation is undocumented, I excluded them. Same reasoning for Dave Plettl, whose 1993 bio says he had worked on CU's conditioning staff \"since 1987\" as a student assistant, but which does not tie him to the football team or pin the specific year.\n\nSOURCES THAT FAILED:\n- Step 2 of the requested source order (school athletics-site directory on the Wayback Machine near the title date) is impossible for this team: the championship is January 1991, several years before cubuffs.com or any athletics website existed. There is nothing to archive.\n- Step 3 (season media guide): the 1990 Colorado football media guide is NOT digitized. Archive.org's CU football media-guide collection jumps from 1986 to 1993 (I enumerated all 34 items). Copies exist only as eBay listings. I used the 1993 guide's all-time assistant list as the nearest primary substitute.\n- The Wikipedia 1990 team-season page lists ten assistant names in its roster footer with NO titles at all, so it establishes membership but not roles; all role wording comes from CU's official 1990 staff page.\n- The National Football Foundation's 1990 Colorado page names only McCartney.\n- denversports.com (Bob Simmons obituary) returned HTTP 403 and could not be quoted.\n\nQUOTE-MATCHING CAVEAT (important for the downstream verifier): the cubuffs.com 1990 page renders its staff as an HTML table with the name and the title in adjacent cells, so no single contiguous run of page text contains both. For those rows I quoted the exact title-cell string, which is unique per person on that page, and recorded the paired name in the source note. For Oliver Lucas and Bob Simmons, CU's table lists each man twice — once with a bare \"Assistant Coach\" title and once with the position title — and I quoted the position-bearing string in both cases. The 1993 media guide quotes come from archive.org's OCR text file, which is directly fetchable at the URL given; \"Simmons, Bod 1988-92\" preserves an OCR misread of \"Bob\" exactly as the file has it."
+}

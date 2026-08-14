@@ -1,0 +1,902 @@
+{
+  "team": "Nebraska",
+  "season": 1997,
+  "staff": [
+    {
+      "name": "Tom Osborne",
+      "role": "Assistant A.D./Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Assistant A.D./Head Coach: Tom Osborne (Hastings, 1959)",
+          "note": "1997 Nebraska Football Media/Recruiting Guide, 'Administration and Staff' / 'Husker Football Coaches' directory (guide p. 3). Quote copied from the PDF's OCR text layer."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Nebraska_Cornhuskers_football_team",
+          "quote": "25th season",
+          "note": "Roster footer 'Head coach' block: 'Tom Osborne / 25th season / 34th year at Nebraska'. Osborne announced his retirement Dec. 10, 1997 but coached the Jan. 2, 1998 Orange Bowl title game."
+        }
+      ]
+    },
+    {
+      "name": "Frank Solich",
+      "role": "Assistant Head Coach/Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Assistant Head Coach/Running Backs: Frank Solich",
+          "note": "1997 media guide staff directory (guide p. 3), OCR text layer."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Nebraska_Cornhuskers_football_team",
+          "quote": "15th season as RB coach",
+          "note": "Roster footer coaches list entry for Frank Solich. Solich was named Osborne's successor as head coach on Dec. 10, 1997 but worked the Orange Bowl on Osborne's staff."
+        }
+      ]
+    },
+    {
+      "name": "Charlie McBride",
+      "role": "Defensive Coordinator/Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Defensive Coordinator/Defensive Line: Charlie McBride",
+          "note": "1997 media guide staff directory (guide p. 3), OCR text layer."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Nebraska_Cornhuskers_football_team",
+          "quote": "17th season as DC/DL coach",
+          "note": "Roster footer coaches list entry for Charlie McBride."
+        },
+        {
+          "url": "https://www.huskermax.com/rosters/1997-roster/",
+          "quote": "Charlie McBride: Asst. coach",
+          "note": "HuskerMax 1997 roster page, 'Coaching Staff' block."
+        }
+      ]
+    },
+    {
+      "name": "Craig Bohl",
+      "role": "Assistant Coach/Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Assistant Coach/Linebackers: Craig Bohl",
+          "note": "1997 media guide staff directory (guide p. 3), OCR text layer."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Nebraska_Cornhuskers_football_team",
+          "quote": "3rd season as LB coach",
+          "note": "Roster footer coaches list entry for Craig Bohl."
+        },
+        {
+          "url": "https://www.huskermax.com/rosters/1997-roster/",
+          "quote": "Craig Bohl: Asst. coach",
+          "note": "HuskerMax 1997 roster page, 'Coaching Staff' block."
+        }
+      ]
+    },
+    {
+      "name": "Ron Brown",
+      "role": "Assistant Coach/Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Assistant Coach/Receivers: Ron Brown",
+          "note": "1997 media guide staff directory (guide p. 3), OCR text layer."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Nebraska_Cornhuskers_football_team",
+          "quote": "11th season as WR/TE coach",
+          "note": "Roster footer coaches list entry for Ron Brown."
+        }
+      ]
+    },
+    {
+      "name": "George Darlington",
+      "role": "Assistant Coach/Secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Assistant Coach/Secondary: George Darlington",
+          "note": "1997 media guide staff directory (guide p. 3), OCR text layer."
+        },
+        {
+          "url": "https://www.huskermax.com/rosters/1997-roster/",
+          "quote": "George Darlington: Asst. coach",
+          "note": "HuskerMax 1997 roster page, 'Coaching Staff' block."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Nebraska_Cornhuskers_football_team",
+          "quote": "DB coach",
+          "note": "Roster footer coaches list entry for George Darlington ('DB coach / 25th year at Nebraska'). Short quote because Wikipedia gives no season ordinal for Darlington."
+        }
+      ]
+    },
+    {
+      "name": "Turner Gill",
+      "role": "Assistant Coach/Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Assistant Coach/Quarterbacks: Turner Gill",
+          "note": "1997 media guide staff directory (guide p. 3), OCR text layer."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Nebraska_Cornhuskers_football_team",
+          "quote": "6th season as QB coach",
+          "note": "Roster footer coaches list entry for Turner Gill."
+        }
+      ]
+    },
+    {
+      "name": "Nelson Barnes",
+      "role": "Assistant Coach/Rush Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Assistant Coach/Rush Ends: Nelson Barnes",
+          "note": "1997 media guide staff directory (guide p. 3), OCR text layer. His bio page also reads: 'Nelson Barnes joins the Nebraska coaching staff for the 1997 season.'"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Nebraska_Cornhuskers_football_team",
+          "quote": "1st season as RE coach",
+          "note": "Roster footer coaches list entry for Nelson Barnes. Hired before the 1997 season, so no mid-season note applies."
+        },
+        {
+          "url": "https://www.huskermax.com/rosters/1997-roster/",
+          "quote": "Nelson Barnes: Asst. coach",
+          "note": "HuskerMax 1997 roster page, 'Coaching Staff' block."
+        }
+      ]
+    },
+    {
+      "name": "Milt Tenopir",
+      "role": "Assistant Coach/Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Assistant Coacli/Offensive Line: MiltTenopir",
+          "note": "1997 media guide staff directory (guide p. 3). The quote reproduces the PDF OCR text layer exactly, including its errors ('Coacli' for 'Coach' and the missing space in 'MiltTenopir'); the printed page reads 'Assistant Coach/Offensive Line: Milt Tenopir'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Nebraska_Cornhuskers_football_team",
+          "quote": "24th season as OL coach",
+          "note": "Roster footer coaches list entry for Milt Tenopir."
+        },
+        {
+          "url": "https://www.huskermax.com/rosters/1997-roster/",
+          "quote": "Milt Tenopir: Asst. coach",
+          "note": "HuskerMax 1997 roster page, 'Coaching Staff' block."
+        }
+      ]
+    },
+    {
+      "name": "Dan Young",
+      "role": "Assistant Coach/Offensive Line/Kickers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Assistant Coach/Offensive Line/Kickers: Dan Young",
+          "note": "1997 media guide staff directory (guide p. 3), OCR text layer."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Nebraska_Cornhuskers_football_team",
+          "quote": "15th season as OL/K coach",
+          "note": "Roster footer coaches list entry for Dan Young."
+        },
+        {
+          "url": "https://www.huskermax.com/rosters/1997-roster/",
+          "quote": "Dan Young: Asst. coach",
+          "note": "HuskerMax 1997 roster page, 'Coaching Staff' block."
+        }
+      ]
+    },
+    {
+      "name": "Chad Stanley",
+      "role": "Graduate Assistant Football Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Chad Stanley begins his first season as a",
+          "note": "1997 media guide, 'Chad Stanley / Graduate Assistant Football Coach' bio (guide p. 65). Continues on the next line: 'graduate assistant coach with the Huskers. Stanley, who will work with the Husker offense...'. Two-part quote given because the OCR text layer breaks the sentence across lines."
+        },
+        {
+          "url": "https://archive.org/download/nebraska-football-1998-media-guide-c/Nebraska%20Football%2C%201998%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Graduate Assistant Coaches: Jon Bostick, Chad Stanley",
+          "note": "1998 Nebraska media guide (Internet Archive OCR text). Its Stanley bio confirms 1997 was his first year: 'Chad Stanley begins his second season as a graduate assistant coach with the Huskers.'"
+        }
+      ]
+    },
+    {
+      "name": "Jon Bostick",
+      "role": "Graduate Assistant Football Coach",
+      "role_category": "gradasst",
+      "midseason_note": "Joined the football staff as a graduate assistant coach during the 1997 season, moving over from the athletic development office; the preseason (August 1997) media guide still lists him as a development officer. The 1998 guide documents him working the secondary through the Jan. 2, 1998 Orange Bowl title game, so he was on staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1998-media-guide-c/Nebraska%20Football%2C%201998%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "In Bostick's first season on staff, Nebraska finished fourth in the Big 12",
+          "note": "1998 Nebraska media guide, Jon Bostick bio. The bio opens 'Jon Bostick is in his second season as a graduate assistant coach on the Nebraska football staff' (line-broken in the OCR text) and the same paragraph continues: 'the NU secondary helped limit Heisman runner-up Peyton Manning to 134 yards passing in the 1998 Orange Bowl.' This is the source that places him on the 1997 championship staff."
+        }
+      ]
+    },
+    {
+      "name": "Boyd Epley",
+      "role": "Assistant Athletic Director and Director of Athletic Performance",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Asst. A.D./Dir. of Athletic Performance: Boyd Epley",
+          "note": "1997 media guide 'Administration and Staff' directory (guide p. 3), OCR text layer."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Nebraska_Cornhuskers_football_team",
+          "quote": "29th season as S&C coach",
+          "note": "Roster footer coaches list entry for Boyd Epley."
+        }
+      ]
+    },
+    {
+      "name": "Mike Arthur",
+      "role": "Assistant Director of Athletic Performance",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "includes: Mike Arthur, Assistant Director of Athletic Peformance;",
+          "note": "1997 media guide 'Did You Know...' facilities/performance sidebar listing Epley's nine full-time performance team members. OCR renders 'Performance' as 'Peformance'; quote reproduces the text layer exactly."
+        }
+      ]
+    },
+    {
+      "name": "Randy Gobel",
+      "role": "Assistant Director of Athletic Performance",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Randy Gobel, Assistant Director of Athletic Performance; Bryan",
+          "note": "1997 media guide 'Did You Know...' sidebar listing Epley's nine full-time performance team members (line continues to 'Bailey, Coordinator of Reconditioning')."
+        }
+      ]
+    },
+    {
+      "name": "Bryan Bailey",
+      "role": "Coordinator of Reconditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Bailey, Coordinator of Reconditioning; Kevin Coleman, West",
+          "note": "1997 media guide 'Did You Know...' sidebar; the name is split across an OCR line break ('...Bryan / Bailey, Coordinator of Reconditioning'). His bio page reads 'Bryan Bailey is entering his 10th year with the Husker Performance Team.'"
+        }
+      ]
+    },
+    {
+      "name": "Kevin Coleman",
+      "role": "West Stadium Strength Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Stadium Strength Coach; Dave Ellis, Coordinator of Peformance",
+          "note": "1997 media guide 'Did You Know...' sidebar; the entry runs across an OCR line break as 'Kevin Coleman, West / Stadium Strength Coach'. His bio adds: 'Kevin Coleman is entering his fourth season as the West Stadium strength coach'."
+        }
+      ]
+    },
+    {
+      "name": "Courtney Carter",
+      "role": "Assistant West Stadium Strength Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Stark, Performance Psychologist; Courtney Carter, Assistant West",
+          "note": "1997 media guide 'Did You Know...' sidebar; entry continues on the next OCR line as 'Stadium Strength Coach'. Her bio notes she 'was hired in March as the assistant West Stadium strength coach and nutrition supervisor' — i.e., before the 1997 season."
+        }
+      ]
+    },
+    {
+      "name": "John Archer",
+      "role": "Devaney Center Strength Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Nutrition; John Archer, Devaney Center Strength Coach; Dr. Jack",
+          "note": "1997 media guide 'Did You Know...' sidebar. His bio states 'In addition to his duties for football. Archer will design and implement programs for the men's and women's Olympic sports'."
+        }
+      ]
+    },
+    {
+      "name": "Danny Noonan",
+      "role": "Coordinator of Performance Education Services",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Stadium Strength Coach and Danny Noonan, Coordinator of",
+          "note": "1997 media guide 'Did You Know...' sidebar; the title finishes on the next OCR line as 'Peformance Education Services.' (OCR error for 'Performance')."
+        }
+      ]
+    },
+    {
+      "name": "Dave Ellis",
+      "role": "Coordinator of Performance Nutrition",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Stadium Strength Coach; Dave Ellis, Coordinator of Peformance",
+          "note": "1997 media guide 'Did You Know...' sidebar; title continues on the next OCR line as 'Nutrition'. OCR renders 'Performance' as 'Peformance'. The Performance Team org chart on guide p. 66 lists him as 'David Ellis, C.S.C.S.'"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Jack Stark",
+      "role": "Performance Psychologist",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Stark, Performance Psychologist; Courtney Carter, Assistant West",
+          "note": "1997 media guide 'Did You Know...' sidebar; name splits across an OCR line break ('Dr. Jack / Stark, Performance Psychologist'). His bio adds 'Dr. Jack Stark is in his 10th year as the Huskers' performance psychologist'."
+        }
+      ]
+    },
+    {
+      "name": "Aaron Bosket",
+      "role": "Graduate assistant member of the Husker Performance Team",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "98 include Aaron Bosket, Mark Davis, Rodger DeGarmo, Amy",
+          "note": "1997 media guide, Boyd Epley page: 'Graduate assistant members of the Husker Performance Team for 1997-98 include Aaron Bosket, Mark Davis, Rodger DeGarmo, Amy Hammitt, Chad Krumbaugh, Dale Lloyd, Rye Roberts and Chad Wade.' (sentence is line-broken and OCR-garbled in the text layer). The Performance Team served all NU varsity sports, not football alone."
+        }
+      ]
+    },
+    {
+      "name": "Mark Davis",
+      "role": "Graduate assistant member of the Husker Performance Team",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "98 include Aaron Bosket, Mark Davis, Rodger DeGarmo, Amy",
+          "note": "1997 media guide, Boyd Epley page, list of 1997-98 Husker Performance Team graduate assistants. Also appears on the Performance Team org chart (guide p. 66). Served all NU varsity sports, not football alone."
+        }
+      ]
+    },
+    {
+      "name": "Rodger DeGarmo",
+      "role": "Graduate assistant member of the Husker Performance Team",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "98 include Aaron Bosket, Mark Davis, Rodger DeGarmo, Amy",
+          "note": "1997 media guide, Boyd Epley page, list of 1997-98 Husker Performance Team graduate assistants. The org chart on guide p. 66 spells it 'Rodger Degarmo'. Served all NU varsity sports, not football alone."
+        }
+      ]
+    },
+    {
+      "name": "Amy Hammitt",
+      "role": "Graduate assistant member of the Husker Performance Team",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Hammitt, Chad Krumbaugh, Dale Lloyd, Rye Roberts and Chad",
+          "note": "1997 media guide, Boyd Epley page; the given name 'Amy' ends the previous OCR line. List of 1997-98 Husker Performance Team graduate assistants. Served all NU varsity sports, not football alone."
+        }
+      ]
+    },
+    {
+      "name": "Chad Krumbaugh",
+      "role": "Graduate assistant member of the Husker Performance Team",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Hammitt, Chad Krumbaugh, Dale Lloyd, Rye Roberts and Chad",
+          "note": "1997 media guide, Boyd Epley page, list of 1997-98 Husker Performance Team graduate assistants. Served all NU varsity sports, not football alone."
+        }
+      ]
+    },
+    {
+      "name": "Dale Lloyd",
+      "role": "Graduate assistant member of the Husker Performance Team",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Hammitt, Chad Krumbaugh, Dale Lloyd, Rye Roberts and Chad",
+          "note": "1997 media guide, Boyd Epley page, list of 1997-98 Husker Performance Team graduate assistants; also on the org chart (guide p. 66). Served all NU varsity sports, not football alone."
+        }
+      ]
+    },
+    {
+      "name": "Rye Roberts",
+      "role": "Graduate assistant member of the Husker Performance Team",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Hammitt, Chad Krumbaugh, Dale Lloyd, Rye Roberts and Chad",
+          "note": "1997 media guide, Boyd Epley page, list of 1997-98 Husker Performance Team graduate assistants. Served all NU varsity sports, not football alone."
+        }
+      ]
+    },
+    {
+      "name": "Chad Wade",
+      "role": "Graduate assistant member of the Husker Performance Team",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Hammitt, Chad Krumbaugh, Dale Lloyd, Rye Roberts and Chad",
+          "note": "1997 media guide, Boyd Epley page; 'Wade.' begins the following OCR line. Also on the Performance Team org chart (guide p. 66). Served all NU varsity sports, not football alone."
+        }
+      ]
+    },
+    {
+      "name": "Pat Logsdon",
+      "role": "Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Director of Football Operations: Pat Logsdon",
+          "note": "1997 media guide 'Administration and Staff' directory (guide p. 3). Her bio (guide p. 65) adds that she 'is in her first season as the director of football operations. Logsdon replaces Steve Pederson who left Nebraska last December'."
+        }
+      ]
+    },
+    {
+      "name": "Curt Thompson",
+      "role": "Interim Assistant to the Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "and his first year as an assistant to Pat Logsdon, the director of football",
+          "note": "1997 media guide bio headed 'Curt Thompson / Interim Assistant to the Director of Football Operations' (guide p. 65). The bio opens 'Curt Thompson is in his 11th year as a member of the Nebraska athletic department' — quoted line is the role-bearing clause, since the OCR text layer breaks the sentence."
+        }
+      ]
+    },
+    {
+      "name": "Al Papik",
+      "role": "Senior Associate Athletic Director, Compliance Coordinator, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Senior Associate A.D./Compliance/Eootball: A1 Papik",
+          "note": "1997 media guide 'Administration and Staff' directory (guide p. 3). OCR renders 'Football' as 'Eootball' and 'Al' as 'A1'; quote reproduces the text layer exactly. His bio (guide p. 72) states: 'In December of 1996, Papik was asked to assume additional responsibilities in football operations. Specific areas of responsibility in football include budget, schedule, equipment, postseason competition, compliance and special events and projects in football.'"
+        }
+      ]
+    },
+    {
+      "name": "Mary Lyn Wininger",
+      "role": "Coach Osborne's Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "secretary to Nebraska coach Tom Osborne.",
+          "note": "1997 media guide bio headed \"Mary Lyn Wininger / Coach Osborne's Secretary\" (guide p. 83). Full sentence, line-broken in the OCR: 'Mary Lyn Wininger is in her 15th year as secretary to Nebraska coach Tom Osborne.'"
+        }
+      ]
+    },
+    {
+      "name": "Joni Duff",
+      "role": "Football Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Joni Duff is in her 17th year as a football",
+          "note": "1997 media guide bio headed 'Joni Duff / Football Secretary' (guide p. 77). Sentence continues on the next OCR line: 'office staff secretary. She serves as a receptionist for the football office and secretary to the assistant coaches.'"
+        }
+      ]
+    },
+    {
+      "name": "Jean Morrow",
+      "role": "Recruiting Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "the Nebraska football office.",
+          "note": "1997 media guide bio headed 'Jean Morrow / Recruiting Secretary' (guide p. 80). Full sentence, line-broken in the OCR: 'Jean Morrow is in her second year with the Nebraska football office.'"
+        }
+      ]
+    },
+    {
+      "name": "Glen Abbott",
+      "role": "Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Equipment Manager: Glen Abbott (Asst. Mike Mason).. 472-2274",
+          "note": "1997 media guide 'Support Staff' directory (guide p. 4). His bio adds 'He is in charge of the football team's equipment needs and coordinating the transportation of all football and support equipment to road games as well as bowl trips.'"
+        }
+      ]
+    },
+    {
+      "name": "Mike Mason",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Equipment Manager: Glen Abbott (Asst. Mike Mason).. 472-2274",
+          "note": "1997 media guide 'Support Staff' directory (guide p. 4). His own bio (guide p. 80) is headed 'Mike Mason / Assistant Equipment Manager' and reads 'Mason is responsible for the care of football and baseball equipment and maintenance of the locker rooms in Schulte Fieldhouse.'"
+        }
+      ]
+    },
+    {
+      "name": "Shawn Davis",
+      "role": "student assistant (equipment)",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Abbott is assisted by Mike Mason as well as student assistants Shawn",
+          "note": "1997 media guide, Glen Abbott bio (guide p. 79); the sentence continues on the next OCR line: \"Davis of O'Neil, Matt Geiser ofOrd, Mark Lewin ofOrd and newcomer Nathan Wells of North Loup.\" Student assistants, not full-time staff."
+        }
+      ]
+    },
+    {
+      "name": "Matt Geiser",
+      "role": "student assistant (equipment)",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Davis of O'Neil, Matt Geiser ofOrd, Mark Lewin ofOrd and newcomer",
+          "note": "1997 media guide, Glen Abbott bio (guide p. 79), list of football equipment student assistants. OCR drops spaces in 'ofOrd'. Student assistant, not full-time staff."
+        }
+      ]
+    },
+    {
+      "name": "Mark Lewin",
+      "role": "student assistant (equipment)",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Davis of O'Neil, Matt Geiser ofOrd, Mark Lewin ofOrd and newcomer",
+          "note": "1997 media guide, Glen Abbott bio (guide p. 79), list of football equipment student assistants. Student assistant, not full-time staff."
+        }
+      ]
+    },
+    {
+      "name": "Nathan Wells",
+      "role": "student assistant (equipment)",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Nathan Wells of North Loup.",
+          "note": "1997 media guide, Glen Abbott bio (guide p. 79); the preceding OCR line reads '...Mark Lewin ofOrd and newcomer'. Student assistant, not full-time staff."
+        }
+      ]
+    },
+    {
+      "name": "Dave Finn",
+      "role": "Football Video Specialist, Equipment Purchase Coordinator",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Football Film Staff: Dave Finn, Brian Mohnsen,",
+          "note": "1997 media guide 'Support Staff' directory (guide p. 4); the entry continues on the next OCR line with 'Bryan Carpenter'. His bio (guide p. 82) is headed 'Dave Finn / Football Video Specialist, Equipment Purchase Coordinator' and reads 'Beginning his 10th year, Dave Finn facilitates the Husker football team's video operations.'"
+        }
+      ]
+    },
+    {
+      "name": "Brian Mohnsen",
+      "role": "Computer Video Technician",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Brian Mohnsen is in his sixth season as a",
+          "note": "1997 media guide bio headed 'Brian Mohnsen / Computer Video Technician' (guide p. 80); continues on the next OCR line: 'computer video technician for the Nebraska football staff'. Also listed in the 'Football Film Staff' directory entry on guide p. 4."
+        }
+      ]
+    },
+    {
+      "name": "Bryan Carpenter",
+      "role": "Computer Video Technician",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "computer video technician. He served two years as an assistant in the NU",
+          "note": "1997 media guide bio headed 'Bryan Carpenter / Computer Video Technician' (guide p. 81): 'Bryan Carpenter is in his seventh year with the athletic department and third as a computer video technician.' Also named in the 'Football Film Staff' directory entry on guide p. 4."
+        }
+      ]
+    },
+    {
+      "name": "John Bousek",
+      "role": "Video Assistant",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "John Bousek is in his 10th football season",
+          "note": "1997 media guide bio headed 'John Bousek / Video Assistant' (guide p. 81); continues on the next OCR line: 'as a member of the Husker video crew.'"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Lonnie Albers",
+      "role": "Director of Athletic Medicine, M.D.",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Director of Athletic Medicine: Dr. Lonnie A1 bers",
+          "note": "1997 media guide 'Athletic Medicine' directory (guide p. 3). OCR splits the surname as 'A1 bers'; the printed page reads 'Dr. Lonnie Albers'. Department-wide role covering football."
+        }
+      ]
+    },
+    {
+      "name": "Jerry Weber",
+      "role": "Head Athletic Trainer/Physical Therapist/Associate Director of Athletic Medicine",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "of Athletic Medicine: Jerry Weber, RPT",
+          "note": "1997 media guide 'Athletic Medicine' directory (guide p. 3); the title begins on the previous OCR line as 'Head Athletic Trainer/Physical Therapist/Associate Director'."
+        }
+      ]
+    },
+    {
+      "name": "Doak Ostergard",
+      "role": "Associate Head Athletic Trainer, ATC",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Associate Head Athletic Trainer: Doak Ostergard",
+          "note": "1997 media guide 'Athletic Medicine' directory (guide p. 3). His bio (guide p. 80) states: \"Ostergard's primary responsibilities include working with the football team and reconditioning injured athletes.\" He is the football team's primary trainer."
+        }
+      ]
+    },
+    {
+      "name": "Mike Gooding",
+      "role": "Assistant Athletic Trainer, ATC",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Asst. Trainers: Cindy Barker. Brad Brown, Mike Gooding",
+          "note": "1997 media guide 'Athletic Medicine' directory (guide p. 3). His bio (guide p. 83) reads: 'In addition to his duties with the Nebraska football team, Gooding's primary responsibility is with the men's basketball team.' (OCR renders 'football' as 'footbal I')."
+        }
+      ]
+    },
+    {
+      "name": "Cindy Barker",
+      "role": "Assistant Athletic Trainer, ATC",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Asst. Trainers: Cindy Barker. Brad Brown, Mike Gooding",
+          "note": "1997 media guide 'Athletic Medicine' directory (guide p. 3) — listed among the football guide's athletic training staff, but her bio says her primary responsibility is women's basketball. Include/exclude at the consumer's discretion."
+        }
+      ]
+    },
+    {
+      "name": "Brad Brown",
+      "role": "Assistant Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Asst. Trainers: Cindy Barker. Brad Brown, Mike Gooding",
+          "note": "1997 media guide 'Athletic Medicine' directory (guide p. 3) — listed among the football guide's athletic training staff, but his bio says he 'serves as an assistant trainer for track and field'. Include/exclude at the consumer's discretion."
+        }
+      ]
+    },
+    {
+      "name": "George Sullivan",
+      "role": "Head Trainer Emeritus, Medical Consultant, PT/ATC",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Head Trainer Emeritus; George Sullivan",
+          "note": "1997 media guide 'Athletic Medicine' directory (guide p. 3). His bio (guide p. 82) says he 'has officially retired as Nebraska's full-time football trainer but remains a consultant' and is 'in his 45th year as a member of the Husker medical staff'."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Pat Clare",
+      "role": "Chief of Staff/Orthopedic Surgeon",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Chief of Staff/Orthopedic Surgeon: Dr. Pat Clare",
+          "note": "1997 media guide 'Athletic Medicine' directory (guide p. 3). Bio: 'Pat Clare begins his 24th year as a team orthopedist and his fourth as chief of staff'."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Robert Dugas",
+      "role": "Team Orthopedist, M.D.",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Orthopedists: Dr. Robert Dugas, Dr. Tom Heiser, Dr. Scott Strasburger",
+          "note": "1997 media guide 'Athletic Medicine' directory (guide p. 3). Bio (guide p. 77): 'Dr. Robert Dugas begins his eighth year as a team orthopedist.'"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Tom Heiser",
+      "role": "Team Physician, Orthopedist, M.D.",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Orthopedists: Dr. Robert Dugas, Dr. Tom Heiser, Dr. Scott Strasburger",
+          "note": "1997 media guide 'Athletic Medicine' directory (guide p. 3); bio headed 'Dr. Tom Heiser / Team Physician, Orthopedist, M.D.' (guide p. 78)."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Scott Strasburger",
+      "role": "Team Physician, Orthopedist, M.D.",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Orthopedists: Dr. Robert Dugas, Dr. Tom Heiser, Dr. Scott Strasburger",
+          "note": "1997 media guide 'Athletic Medicine' directory (guide p. 3). Bio (guide p. 82): 'Dr. Scott Strasburger begins his second year on the Husker medical staff as a team orthopedist.'"
+        }
+      ]
+    },
+    {
+      "name": "Katie Bryant",
+      "role": "graduate assistant certified athletic trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Graduate assistants for the 1997-98 year are Katie Bryant, Jason",
+          "note": "1997 media guide, Jerry Weber page (guide p. 83). Full list continues: 'Cartwright, Jennie Hartgrave, Tara Kramer, Brian LaPlante and Brent Unruh.' These GAs served the whole athletic department, not football exclusively."
+        }
+      ]
+    },
+    {
+      "name": "Jason Cartwright",
+      "role": "graduate assistant certified athletic trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Cartwright, Jennie Hartgrave, Tara Kramer, Brian LaPlante and",
+          "note": "1997 media guide, Jerry Weber page (guide p. 83); given name 'Jason' ends the previous OCR line. Department-wide athletic-medicine GAs, not football-exclusive."
+        }
+      ]
+    },
+    {
+      "name": "Jennie Hartgrave",
+      "role": "graduate assistant certified athletic trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Cartwright, Jennie Hartgrave, Tara Kramer, Brian LaPlante and",
+          "note": "1997 media guide, Jerry Weber page (guide p. 83). Department-wide athletic-medicine GAs, not football-exclusive."
+        }
+      ]
+    },
+    {
+      "name": "Tara Kramer",
+      "role": "graduate assistant certified athletic trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Cartwright, Jennie Hartgrave, Tara Kramer, Brian LaPlante and",
+          "note": "1997 media guide, Jerry Weber page (guide p. 83). Department-wide athletic-medicine GAs, not football-exclusive."
+        }
+      ]
+    },
+    {
+      "name": "Brian LaPlante",
+      "role": "graduate assistant certified athletic trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Cartwright, Jennie Hartgrave, Tara Kramer, Brian LaPlante and",
+          "note": "1997 media guide, Jerry Weber page (guide p. 83). Department-wide athletic-medicine GAs, not football-exclusive."
+        }
+      ]
+    },
+    {
+      "name": "Brent Unruh",
+      "role": "graduate assistant certified athletic trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Cartwright, Jennie Hartgrave, Tara Kramer, Brian LaPlante and",
+          "note": "1997 media guide, Jerry Weber page (guide p. 83); 'Brent Unruh.' closes the sentence on the following OCR line. Department-wide athletic-medicine GAs, not football-exclusive."
+        }
+      ]
+    },
+    {
+      "name": "Chris Anderson",
+      "role": "Assistant Athletic Director Communications, Sports Information Director",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "assistants and is in charge of all publicity and promotional activities for",
+          "note": "1997 media guide, Chris Anderson bio (guide p. 73): 'Anderson heads a staff of three full-time assistants and two graduate assistants and is in charge of all publicity and promotional activities for the Husker football team.' Sentence is line-broken in the OCR text layer."
+        }
+      ]
+    },
+    {
+      "name": "Keith Mann",
+      "role": "Assistant Sports Information Director",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "The No. 2 contact for football media relations, Mann is in charge of",
+          "note": "1997 media guide, Keith Mann bio (guide p. 80): 'Keith Mann enters his eighth year as a member of the Nebraska athletic department and third as an assistant sports information director. The No. 2 contact for football media relations...'. Also listed on guide p. 73: 'The Husker sports information staff includes assistants Keith Mann, Dave Ebb and Hank Largin'."
+        }
+      ]
+    },
+    {
+      "name": "Hank Largin",
+      "role": "Assistant Sports Information Director",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "media relations for the baseball and women's basketball teams and editing",
+          "note": "1997 media guide, Hank Largin bio (guide p. 79): \"Along with assisting in football media relations, Largin's primary responsibilities include promotion and media relations for the baseball and women's basketball teams and editing the Husker football game program.\" Sentence is line-broken in the OCR."
+        }
+      ]
+    },
+    {
+      "name": "Dave Ebb",
+      "role": "Assistant Sports Information Director",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf",
+          "quote": "Along with helping with media relations for Husker football. Ebb will",
+          "note": "1997 media guide, Dave Ebb bio (guide p. 77): 'Dave Ebb is entering his second year as assistant sports information director... Along with helping with media relations for Husker football, Ebb will be responsible for publicity and promotion of volleyball and men's and women's track and field.' OCR renders the comma after 'football' as a period."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "WHAT IS FULLY RECOVERED\n- Head coach and all nine full-time on-field assistants (the NCAA maximum in 1997). Two independent sources agree exactly: the 1997 Nebraska Football Media/Recruiting Guide staff directory (guide p. 3) and the Wikipedia team-season roster footer, with HuskerMax's 1997 roster page as a third confirmation for the six unlinked names. There were no additional on-field coaches.\n- Both graduate assistant football coaches: Chad Stanley (offense/receivers, documented in the 1997 guide) and Jon Bostick (secondary). Bostick is the one genuinely tricky row: the August 1997 preseason guide still lists him as a development officer, so his 1997 service is documented only retrospectively, via the 1998 media guide (\"Jon Bostick is in his second season as a graduate assistant coach on the Nebraska football staff\" + \"In Bostick's first season on staff... the NU secondary helped limit Heisman runner-up Peyton Manning to 134 yards passing in the 1998 Orange Bowl\"). That sentence places him on the sideline at the championship game, so he satisfies the ring rule.\n- The full-time strength staff: Boyd Epley plus the nine full-time Nebraska Performance Team members the guide enumerates by name and title, plus the eight named 1997-98 Performance Team graduate assistants.\n- Football operations, secretarial, equipment, video/film, athletic medicine, and football media-relations tiers.\n\nWHAT I COULD NOT RECOVER\n- No \"analyst\" or \"quality control\" staff exist for this row. Those job categories did not exist in 1997 Division I-A; NCAA limits were 9 full-time assistants + 2 GAs, and no such titles appear anywhere in either media guide. Zero analysts/QCs is a real finding, not a gap.\n- The Wayback Machine athletics-site directory could not be used: the CDX API for huskers.com 1996-1999 returned a 504 gateway timeout, and the modern huskers.com 1997 roster page lists only three coaches (Osborne, Ron Brown, Turner Gill), so it added nothing. Source tier 2 is effectively a miss; tiers 1, 3, and 4 carried the work.\n- Football student managers are referenced (\"student managers\" under Logsdon's duties) but never named in the guide. Not recovered.\n- Undergraduate football assistants for 1997 are not named. The guide names one only retrospectively (Stanley served as an undergraduate assistant in 1996).\n- The Performance Team org chart (guide p. 66) also names Art McWilliams (Food Service Manager), Linda Ybarra (Office Manager) and Karen Cook (Secretary). I excluded them as rows because the OCR renders that chart as scrambled fragments with no faithfully copyable name+title string, and their roles are athletic-department administration rather than football staff.\n- Twenty student athletic trainers are named on guide p. 83 (seniors Aaron Bott, Stephanie Cummins, Karen Hilts, John Myers, Josh Nichter, head student trainers Jim Ohrt, Shawn Pohlman, Brent Todd, and juniors/sophomores). I excluded them as student labor serving all 700 NU student-athletes rather than football staff. Likewise the SID office's graduate assistants (Jeff Griesch, Shamus McKnight) and six named student assistants.\n- Athletic-department-wide administrators who are in the football guide but are not football staff were excluded: AD Bill Byrne, associate ADs Fouraker/Hibner/Selig, academics (Leblanc, Zimmer, Hicks, Kuchta, Schellpeper), development (Pierce, Bostick's old office, Blanck, Meyers), marketing, ticketing, licensing, facilities/grounds (Bill Shepard maintains the football practice fields), and HuskerVision (Jeff Schmahl, Shot Kleen, Rick Schwieger, who work with the football film crew). Flagging these by name so the exclusion is auditable rather than silent.\n- No mid-season arrivals or departures are documented for any 1997 on-field coach. Osborne announced his retirement on Dec. 10, 1997 and Solich was named his successor the same week, but both worked the Jan. 2, 1998 Orange Bowl, so neither gets a mid-season note.\n\nQUOTE-MATCHING CAVEAT — PLEASE READ BEFORE VALIDATING\nMost quotes come from two scanned PDFs whose text is an OCR layer, not born-digital text. Every quote was string-matched programmatically against my own extraction (PyMuPDF for the 1997 guide, Internet Archive's djvu.txt for the 1998 guide) and all passed, but a different extractor may tokenize the same page differently. Two consequences:\n1. Quotes reproduce OCR errors verbatim, on purpose. \"Assistant Coacli/Offensive Line: MiltTenopir\", \"Senior Associate A.D./Compliance/Eootball: A1 Papik\", \"Dr. Lonnie A1 bers\", \"Assistant Director of Athletic Peformance\" — these are what the text layer actually says. I did not clean them, per the verbatim requirement. The role field carries the corrected wording and each source note flags the discrepancy.\n2. Many quotes stop at an awkward point because the OCR layer hard-wraps mid-sentence and I would not span a line break. Where a quote alone looks thin, the source note gives the full printed sentence.\nWikipedia quotes (the season/role lines such as \"17th season as DC/DL coach\") are single-line and should match cleanly. George Darlington's Wikipedia quote is only \"DB coach\" because Wikipedia gives him no season ordinal; his media-guide and HuskerMax quotes carry the person+role claim.\n\nSCOPE CAVEAT\nNebraska's strength staff and athletic-medicine staff were department-wide units serving all 22-23 varsity sports, not football-only employees. I included them because the football media guide presents them as the football team's support staff and because Epley's unit is conventionally counted, but a stricter football-only definition would drop the Performance Team GAs, Cindy Barker (women's basketball), Brad Brown (track and field), and the six athletic-training GAs. Each of those rows carries a source note saying so, so they can be filtered without re-research."
+}

@@ -1,0 +1,476 @@
+{
+  "team": "Michigan",
+  "season": 1997,
+  "coverage_notes": "WHAT I RECOVERED: The full on-field tier is complete and well-sourced — head coach Lloyd Carr plus all 9 full-time assistants (NCAA's limit at the time), each with a specific position title from the Wikipedia team-season page's \"Coaching staff\" table, cross-checked against U-M's own official year-by-year assistant-staff list (mgoblue.com) and the 1997 team photograph caption archived by the Bentley Historical Library. Beyond that I recovered strength & conditioning (Gittleson), the head trainer (Schmidt), equipment (Falk), video (Bromley), two graduate assistants (Goodwin, Draper), one student assistant (Elston), six student managers, and four additional back-row staff whose titles I could not determine.\n\nSOURCE CONFLICT I RESOLVED: The Bentley Historical Library's 1997 page lists \"Greg Mattison\" among the assistant coaches. That is an error carried over from its 1996 page. Mattison left Michigan for Notre Dame in 1997 (he coached there 1997-2004); he does NOT appear in the 1997 team photograph on that same Bentley page, while Terry Malone does. U-M's official assistant-coaching-staffs list also shows Malone, not Mattison, for 1997. I have therefore excluded Mattison and included Malone. Anyone re-deriving this from Bentley's prose list alone will get a false positive.\n\nTIERS I COULD NOT RECOVER:\n- ANALYST and QUALITY CONTROL: zero rows. These were not staff categories that existed as formal titles in 1997 college football; Michigan had no such positions. Nothing omitted, nothing invented.\n- OPERATIONS/PERSONNEL/RECRUITING: no dedicated director of football operations or recruiting-ops staffer is documented for 1997. Recruiting-coordinator duties were held by Bobby Morrison as part of his on-field job (Wikipedia infobox renders his 1997-2002 Michigan role as \"ST/RC\"), so he is categorized onfield, not ops. Michigan's first separately-titled Director of Football Operations appears in the record well after 1997.\n- ADDITIONAL S&C STAFF: only Gittleson is documented. Any assistant strength coaches are unrecoverable.\n- COMPLETE GA LIST: Michigan carried two graduate-assistant slots. Goodwin and Draper are each independently documented as GAs covering 1997, and Elston as a student assistant that season, but I cannot certify this is the exhaustive GA/student-assistant roster.\n- ADDITIONAL MEDICAL/TRAINING STAFF: only Paul Schmidt is documented by title (\"Trainer\"). Michigan certainly carried more athletic trainers; Todd Jager, Kevin Lynch and Rick Clark (below) are plausible candidates but I found no source stating their roles, so I did not guess.\n\nFOUR NAMED-BUT-UNTITLED STAFF: Todd Jager, Kevin Lynch, Rick Clark and Chris Kurpeikis appear in the back row of the official 1997 team photograph — the row reserved for coaches and support staff, and the same row containing Schmidt, Gittleson, Falk, Bromley, Draper, Goodwin and Elston. They are real, sourced staff members, but no source I found states their titles, so their role field says exactly that and they are categorized \"other\" rather than assigned a plausible-sounding job.\n\nDELIBERATELY EXCLUDED: The team photo's 8th row (Eddie Davis, Eric Dean, Ethan Perkins, Bob Bland, Rick Brandt, Steve Connelly, Scott Loeffler, and others) mixes student managers with actual players — Scott Loeffler was the roster's #15 quarterback — so I could not safely treat that row as a staff list and did not enumerate it. Notably Bob Bland and Rick Brandt were Michigan's assistant equipment managers by 2008 and are plausibly the same in 1997, but no 1997-era source states this, so I left them out rather than pad.\n\nSOURCE-AVAILABILITY LIMITS: Step 2 of the requested method failed — the Wayback Machine has NO archived staff directory or coaches page for Michigan's 1997-98 athletics site (umich.edu/~mgoblue/Football/97-98/); only game recaps, releases and player pages were captured. Step 3 also failed: the 1997 Michigan media guide is not available on the school site, archive.org, or issuu. Support-staff titles therefore come from later official U-M bios and news sources whose stated tenure spans demonstrably cover 1997 (e.g. Gittleson \"26th season\" in 2004, Bromley \"33rd season\" in 2022, Falk \"since 1974\"), anchored to 1997 presence by the team photograph. Note also that bentley.umich.edu returns HTTP 403 to automated fetches; I cite the Wayback capture, which serves identical text.\n\nMID-SEASON CHANGES: none found. No arrivals or departures during the 1997 season are documented, so no midseason_note is set on any row; every person listed was on staff through the Jan. 1, 1998 Rose Bowl.",
+  "staff": [
+    {
+      "name": "Lloyd Carr",
+      "role": "Head coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Michigan_Wolverines_football_team",
+          "quote": "Lloyd Carr Head coach",
+          "note": "Row for Carr in the page's \"Coaching staff\" table (Coach | Title). Rendered table text joins the two cells with a space."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Michigan_Wolverines_football_team",
+          "quote": "Head coach Lloyd Carr won the Walter Camp Coach of the Year Award",
+          "note": "Prose confirmation in the season-awards section."
+        },
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Trainer: Paul Schmidt",
+          "note": "Same Bentley 1997 page states 'Coach: Lloyd Carr' one row above; the Trainer line is quoted here as the verifiable adjacent string from that staff block."
+        }
+      ]
+    },
+    {
+      "name": "Mike DeBord",
+      "role": "Offensive coordinator, offensive tackle coach, and tight ends coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Michigan_Wolverines_football_team",
+          "quote": "Mike DeBord Offensive coordinator, offensive tackle coach, and tight ends coach",
+          "note": "Row in the page's \"Coaching staff\" table."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mike_DeBord",
+          "quote": "In 1997, he was promoted to offensive coordinator.",
+          "note": "Confirms 1997 as his first year as OC after coaching the offensive line 1992-1996."
+        },
+        {
+          "url": "https://mgoblue.com/news/2005/3/14/University_of_Michigan_Football_Assistant_Coaching_Staffs",
+          "quote": "Vance Bedford, Erik Campbell, Mike DeBord, Jim Herrmann, Brady Hoke, Fred Jackson, Terry Malone, Bobby Morrison, Stan Parrish",
+          "note": "U-M's official year-by-year list; this is the complete entry under the heading '1997:'."
+        }
+      ]
+    },
+    {
+      "name": "Jim Herrmann",
+      "role": "Defensive coordinator and linebacker coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Michigan_Wolverines_football_team",
+          "quote": "Jim Herrmann Defensive coordinator and linebacker coach",
+          "note": "Row in the page's \"Coaching staff\" table."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jim_Herrmann",
+          "quote": "served as an assistant football coach at Michigan from 1985 to 2005, including nine years as defensive coordinator from 1997 to 2005",
+          "note": "1997 was his first season as DC, taking over after Greg Mattison's departure. Won the Frank Broyles Award as national top assistant for the 1997 season."
+        },
+        {
+          "url": "https://mgoblue.com/news/2005/3/14/University_of_Michigan_Football_Assistant_Coaching_Staffs",
+          "quote": "Vance Bedford, Erik Campbell, Mike DeBord, Jim Herrmann, Brady Hoke, Fred Jackson, Terry Malone, Bobby Morrison, Stan Parrish",
+          "note": "U-M's official year-by-year list, entry under '1997:'."
+        }
+      ]
+    },
+    {
+      "name": "Terry Malone",
+      "role": "Offensive line coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Michigan_Wolverines_football_team",
+          "quote": "Terry Malone Offensive line coach",
+          "note": "Row in the page's \"Coaching staff\" table."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Michigan_Wolverines_football_team",
+          "quote": "In spring practice, offensive line coach Terry Malone made a plea for help during a staff meeting, searching for talent to fill in on the line.",
+          "note": "In-season prose placing Malone in the OL role in 1997."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Terry_Malone",
+          "quote": "Malone was the offensive line coach at Michigan from 1997 to 2005",
+          "note": "1997 was his first year at Michigan, arriving from Boston College. He replaced DeBord on the OL when DeBord moved up to coordinator."
+        }
+      ]
+    },
+    {
+      "name": "Stan Parrish",
+      "role": "Quarterbacks coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Michigan_Wolverines_football_team",
+          "quote": "Stan Parrish Quarterbacks coach",
+          "note": "Row in the page's \"Coaching staff\" table."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Stan_Parrish",
+          "quote": "As an assistant coach, Parrish was a member of the 1997 National Champion Michigan Wolverines",
+          "note": "Explicit membership on the 1997 title team; his infobox gives his Michigan role as QB coach 1996-1999. Coached Rose Bowl Player of the Game Brian Griese."
+        },
+        {
+          "url": "https://mgoblue.com/news/2005/3/14/University_of_Michigan_Football_Assistant_Coaching_Staffs",
+          "quote": "Vance Bedford, Erik Campbell, Mike DeBord, Jim Herrmann, Brady Hoke, Fred Jackson, Terry Malone, Bobby Morrison, Stan Parrish",
+          "note": "U-M's official year-by-year list, entry under '1997:'."
+        }
+      ]
+    },
+    {
+      "name": "Fred Jackson",
+      "role": "Assistant head coach and running backs coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Michigan_Wolverines_football_team",
+          "quote": "Fred Jackson Assistant head coach and running backs coach",
+          "note": "Row in the page's \"Coaching staff\" table."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Fred_Jackson_(American_football_coach)",
+          "quote": "Jackson was assistant head coach of Michigan's national championship teams in 1997",
+          "note": "Direct statement of his 1997 title. His infobox renders the period as '1997-2002 Michigan (asst. HC / RB)'."
+        },
+        {
+          "url": "https://mgoblue.com/news/2005/3/14/University_of_Michigan_Football_Assistant_Coaching_Staffs",
+          "quote": "Vance Bedford, Erik Campbell, Mike DeBord, Jim Herrmann, Brady Hoke, Fred Jackson, Terry Malone, Bobby Morrison, Stan Parrish",
+          "note": "U-M's official year-by-year list, entry under '1997:'."
+        }
+      ]
+    },
+    {
+      "name": "Erik Campbell",
+      "role": "Wide receivers coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Michigan_Wolverines_football_team",
+          "quote": "Erik Campbell Wide receivers coach",
+          "note": "Row in the page's \"Coaching staff\" table."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Erik_Campbell_(American_football)",
+          "quote": "At Michigan, Campbell coached wide receivers and punt returners.",
+          "note": "His infobox gives 1995-2002 Michigan (WR), spanning 1997. Coached 1997 receivers Tai Streets and Marcus Knight."
+        },
+        {
+          "url": "https://mgoblue.com/news/2005/3/14/University_of_Michigan_Football_Assistant_Coaching_Staffs",
+          "quote": "Vance Bedford, Erik Campbell, Mike DeBord, Jim Herrmann, Brady Hoke, Fred Jackson, Terry Malone, Bobby Morrison, Stan Parrish",
+          "note": "U-M's official year-by-year list, entry under '1997:'."
+        }
+      ]
+    },
+    {
+      "name": "Brady Hoke",
+      "role": "Defensive line coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Michigan_Wolverines_football_team",
+          "quote": "Brady Hoke Defensive line coach",
+          "note": "Row in the page's \"Coaching staff\" table."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Brady_Hoke",
+          "quote": "1997–2001 Michigan (DL)",
+          "note": "Coaching-career infobox line (en-dash as rendered). He coached defensive ends 1995-1996 and the full defensive line from 1997."
+        },
+        {
+          "url": "https://mgoblue.com/news/2005/3/14/University_of_Michigan_Football_Assistant_Coaching_Staffs",
+          "quote": "Vance Bedford, Erik Campbell, Mike DeBord, Jim Herrmann, Brady Hoke, Fred Jackson, Terry Malone, Bobby Morrison, Stan Parrish",
+          "note": "U-M's official year-by-year list, entry under '1997:'."
+        }
+      ]
+    },
+    {
+      "name": "Vance Bedford",
+      "role": "Secondary coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Michigan_Wolverines_football_team",
+          "quote": "Vance Bedford Secondary coach",
+          "note": "Row in the page's \"Coaching staff\" table."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Vance_Bedford",
+          "quote": "1995–1998 Michigan (DB)",
+          "note": "Coaching-career infobox line (en-dash as rendered), spanning 1997. Coached Heisman winner Charles Woodson."
+        },
+        {
+          "url": "https://mgoblue.com/news/2005/3/14/University_of_Michigan_Football_Assistant_Coaching_Staffs",
+          "quote": "Vance Bedford, Erik Campbell, Mike DeBord, Jim Herrmann, Brady Hoke, Fred Jackson, Terry Malone, Bobby Morrison, Stan Parrish",
+          "note": "U-M's official year-by-year list, entry under '1997:'."
+        }
+      ]
+    },
+    {
+      "name": "Bobby Morrison",
+      "role": "Special teams coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1997_Michigan_Wolverines_football_team",
+          "quote": "Bobby Morrison Special teams coach",
+          "note": "Row in the page's \"Coaching staff\" table."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bobby_Morrison_(American_football)",
+          "quote": "He was an assistant football coach at the University of Michigan from 1987 to 2002.",
+          "note": "His infobox renders 1997-2002 as Michigan (ST/RC) — special teams plus recruiting coordinator. Categorized onfield because recruiting coordination was an added duty of his on-field job, not a separate ops position."
+        },
+        {
+          "url": "https://mgoblue.com/news/2005/3/14/University_of_Michigan_Football_Assistant_Coaching_Staffs",
+          "quote": "Vance Bedford, Erik Campbell, Mike DeBord, Jim Herrmann, Brady Hoke, Fred Jackson, Terry Malone, Bobby Morrison, Stan Parrish",
+          "note": "U-M's official year-by-year list, entry under '1997:'."
+        }
+      ]
+    },
+    {
+      "name": "Mike Gittleson",
+      "role": "strength and conditioning coach for the Michigan football program",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://mgoblue.com/news/2004/2/9/Gittleson_Wins_National_Strength_and_Conditioning_Award",
+          "quote": "He is in his 26th season as the strength and conditioning coach for the Michigan football program.",
+          "note": "Written in Feb 2004; a 26th season dating from his 1978 appointment places him in the role during 1997."
+        },
+        {
+          "url": "https://mgoblue.com/news/2004/2/9/Gittleson_Wins_National_Strength_and_Conditioning_Award",
+          "quote": "Gittleson was appointed the athletic department's first strength and conditioning coach in 1978",
+          "note": "Establishes continuous tenure from 1978, covering the 1997 season."
+        },
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Todd Jager, Kevin Lynch, Paul Schmidt, Mike Gittleson, Rick Clark, Vance Bedford, Brady Hoke, Jim Herrmann, Mike DeBord, Fred Jackson, Bobby Morrison, Stan Parrish, Erik Campbell, Terry Malone, Harold Goodwin, Scott Draper, Jon Falk, Phil Bromley, Mike Elston, Chris Kurpeikis",
+          "note": "Back row (coaches/staff row) of the official 1997 team photograph caption on U-M's Bentley Historical Library page — anchors his physical presence on the 1997 staff. Live URL bentley.umich.edu/athdept/football/fbteam/1997fbt.htm returns 403 to automated fetches; this Wayback capture serves identical text."
+        }
+      ]
+    },
+    {
+      "name": "Paul Schmidt",
+      "role": "Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Trainer: Paul Schmidt",
+          "note": "Dedicated staff line on U-M's official Bentley Historical Library page for the 1997 team. Role wording is exactly as the source words it."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Michigan_Wolverines_football_trainers",
+          "quote": "Paul Schmidt (1991–2016)",
+          "note": "Head trainer tenure spanning 1997 (en-dash as rendered). He later held the title Assistant Athletic Director for Athletic Medicine."
+        },
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Todd Jager, Kevin Lynch, Paul Schmidt, Mike Gittleson, Rick Clark, Vance Bedford, Brady Hoke, Jim Herrmann, Mike DeBord, Fred Jackson, Bobby Morrison, Stan Parrish, Erik Campbell, Terry Malone, Harold Goodwin, Scott Draper, Jon Falk, Phil Bromley, Mike Elston, Chris Kurpeikis",
+          "note": "Also appears in the staff row of the 1997 team photograph."
+        }
+      ]
+    },
+    {
+      "name": "Jon Falk",
+      "role": "equipment manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://www.ncaa.com/news/football/article/2013-12-27/jon-falk-has-been-more-just-equipment-manager-michigan",
+          "quote": "Jon Falk has been more than just an equipment manager for Michigan's football program since 1974.",
+          "note": "Continuous tenure from 1974 covers 1997; the same article notes he worked under Carr."
+        },
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Todd Jager, Kevin Lynch, Paul Schmidt, Mike Gittleson, Rick Clark, Vance Bedford, Brady Hoke, Jim Herrmann, Mike DeBord, Fred Jackson, Bobby Morrison, Stan Parrish, Erik Campbell, Terry Malone, Harold Goodwin, Scott Draper, Jon Falk, Phil Bromley, Mike Elston, Chris Kurpeikis",
+          "note": "Staff row of the official 1997 team photograph, confirming presence in 1997."
+        }
+      ]
+    },
+    {
+      "name": "Phil Bromley",
+      "role": "video coordinator",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://mgoblue.com/staff-directory/phil-bromley/1508",
+          "quote": "Phil Bromley is in his 33rd season as the video coordinator for the Michigan football program in 2022.",
+          "note": "A 33rd season in 2022 dates the role to 1990, covering 1997. U-M's own staff bio adds that he 'took over the video coordinator's position prior to the start of the 1990 season.' Categorized 'other' because video is not one of the listed tiers."
+        },
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Todd Jager, Kevin Lynch, Paul Schmidt, Mike Gittleson, Rick Clark, Vance Bedford, Brady Hoke, Jim Herrmann, Mike DeBord, Fred Jackson, Bobby Morrison, Stan Parrish, Erik Campbell, Terry Malone, Harold Goodwin, Scott Draper, Jon Falk, Phil Bromley, Mike Elston, Chris Kurpeikis",
+          "note": "Staff row of the official 1997 team photograph, confirming presence in 1997."
+        }
+      ]
+    },
+    {
+      "name": "Harold Goodwin",
+      "role": "graduate assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Harold_Goodwin_(American_football)",
+          "quote": "Goodwin began his coaching career as a graduate assistant at the University of Michigan from 1995 to 1997",
+          "note": "GA tenure covering the 1997 championship season; he left for Eastern Michigan in 1998. A former Michigan offensive lineman (1992-1995)."
+        },
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Todd Jager, Kevin Lynch, Paul Schmidt, Mike Gittleson, Rick Clark, Vance Bedford, Brady Hoke, Jim Herrmann, Mike DeBord, Fred Jackson, Bobby Morrison, Stan Parrish, Erik Campbell, Terry Malone, Harold Goodwin, Scott Draper, Jon Falk, Phil Bromley, Mike Elston, Chris Kurpeikis",
+          "note": "Staff row of the official 1997 team photograph, confirming presence at season's end."
+        }
+      ]
+    },
+    {
+      "name": "Scott Draper",
+      "role": "Football Offensive Graduate Assistant (1995-97)",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20191106023812/http://theamerican.org:80/staff.aspx?staff=41",
+          "quote": "Previously, he was a Football Offensive Graduate Assistant (1995-97) and Assistant Video Coordinator (1992-95) at the University of Michigan.",
+          "note": "Official conference staff bio; role wording quoted exactly as the source words it. He later became Michigan's Assistant Athletic Director for Football Operations."
+        },
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Todd Jager, Kevin Lynch, Paul Schmidt, Mike Gittleson, Rick Clark, Vance Bedford, Brady Hoke, Jim Herrmann, Mike DeBord, Fred Jackson, Bobby Morrison, Stan Parrish, Erik Campbell, Terry Malone, Harold Goodwin, Scott Draper, Jon Falk, Phil Bromley, Mike Elston, Chris Kurpeikis",
+          "note": "Staff row of the official 1997 team photograph, independently confirming he was on the 1997 staff."
+        }
+      ]
+    },
+    {
+      "name": "Mike Elston",
+      "role": "student assistant coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mike_Elston_(American_football_coach)",
+          "quote": "Elston began his coaching career as a student assistant coach during the 1997 season.",
+          "note": "Explicitly the 1997 season. A former Michigan linebacker (1993-1996); he became a video intern in 1998 and a graduate assistant in 1999. Categorized gradasst as the nearest listed tier for a student coaching assistant."
+        },
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Todd Jager, Kevin Lynch, Paul Schmidt, Mike Gittleson, Rick Clark, Vance Bedford, Brady Hoke, Jim Herrmann, Mike DeBord, Fred Jackson, Bobby Morrison, Stan Parrish, Erik Campbell, Terry Malone, Harold Goodwin, Scott Draper, Jon Falk, Phil Bromley, Mike Elston, Chris Kurpeikis",
+          "note": "Staff row (not a player row) of the official 1997 team photograph, confirming his 1997 staff status."
+        }
+      ]
+    },
+    {
+      "name": "Todd Jager",
+      "role": "Staff member listed in the back row (coaches/support staff row) of the official 1997 team photograph; specific title not documented in any source found",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Todd Jager, Kevin Lynch, Paul Schmidt, Mike Gittleson, Rick Clark, Vance Bedford, Brady Hoke, Jim Herrmann, Mike DeBord, Fred Jackson, Bobby Morrison, Stan Parrish, Erik Campbell, Terry Malone, Harold Goodwin, Scott Draper, Jon Falk, Phil Bromley, Mike Elston, Chris Kurpeikis",
+          "note": "Back row of the 1997 team photo on U-M's Bentley Historical Library page — the row containing the head trainer, strength coach, all nine assistants, the equipment and video managers, and the GAs. Positioned adjacent to trainer Paul Schmidt, suggesting athletic training or another support role, but no source states his title, so none is asserted."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Lynch",
+      "role": "Staff member listed in the back row (coaches/support staff row) of the official 1997 team photograph; specific title not documented in any source found",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Todd Jager, Kevin Lynch, Paul Schmidt, Mike Gittleson, Rick Clark, Vance Bedford, Brady Hoke, Jim Herrmann, Mike DeBord, Fred Jackson, Bobby Morrison, Stan Parrish, Erik Campbell, Terry Malone, Harold Goodwin, Scott Draper, Jon Falk, Phil Bromley, Mike Elston, Chris Kurpeikis",
+          "note": "Back row (staff row) of the official 1997 team photograph. No source found states his role; not to be confused with the unrelated Kevin Lynch entries in Wikipedia (an ice hockey player and an American football player)."
+        }
+      ]
+    },
+    {
+      "name": "Rick Clark",
+      "role": "Staff member listed in the back row (coaches/support staff row) of the official 1997 team photograph; specific title not documented in any source found",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Todd Jager, Kevin Lynch, Paul Schmidt, Mike Gittleson, Rick Clark, Vance Bedford, Brady Hoke, Jim Herrmann, Mike DeBord, Fred Jackson, Bobby Morrison, Stan Parrish, Erik Campbell, Terry Malone, Harold Goodwin, Scott Draper, Jon Falk, Phil Bromley, Mike Elston, Chris Kurpeikis",
+          "note": "Back row (staff row) of the official 1997 team photograph, standing between strength coach Mike Gittleson and the on-field assistants. Searches for a title (video, training, S&C) returned nothing, so no role is asserted."
+        }
+      ]
+    },
+    {
+      "name": "Chris Kurpeikis",
+      "role": "Staff member listed in the back row (coaches/support staff row) of the official 1997 team photograph; specific title not documented in any source found",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Todd Jager, Kevin Lynch, Paul Schmidt, Mike Gittleson, Rick Clark, Vance Bedford, Brady Hoke, Jim Herrmann, Mike DeBord, Fred Jackson, Bobby Morrison, Stan Parrish, Erik Campbell, Terry Malone, Harold Goodwin, Scott Draper, Jon Falk, Phil Bromley, Mike Elston, Chris Kurpeikis",
+          "note": "Back row (staff row) of the official 1997 team photograph, last in the row alongside GA/student-assistant staff. He also appears on the equivalent 1996 Bentley page, indicating multi-year staff tenure, but no source states his title."
+        }
+      ]
+    },
+    {
+      "name": "Robert Avin",
+      "role": "Manager",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Robert Avin, Adam Clous, Jared Drinkwater, Ed Magnus, Mike Sadjak, Mike Youtan",
+          "note": "Complete list under the heading 'Managers:' on U-M's official Bentley Historical Library page for the 1997 team. Student managers; categorized 'other' as they are not one of the listed tiers."
+        }
+      ]
+    },
+    {
+      "name": "Adam Clous",
+      "role": "Manager",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Robert Avin, Adam Clous, Jared Drinkwater, Ed Magnus, Mike Sadjak, Mike Youtan",
+          "note": "Complete list under the heading 'Managers:' on U-M's official Bentley Historical Library page for the 1997 team."
+        }
+      ]
+    },
+    {
+      "name": "Jared Drinkwater",
+      "role": "Manager",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Robert Avin, Adam Clous, Jared Drinkwater, Ed Magnus, Mike Sadjak, Mike Youtan",
+          "note": "Complete list under the heading 'Managers:' on U-M's official Bentley Historical Library page for the 1997 team."
+        }
+      ]
+    },
+    {
+      "name": "Ed Magnus",
+      "role": "Manager",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Robert Avin, Adam Clous, Jared Drinkwater, Ed Magnus, Mike Sadjak, Mike Youtan",
+          "note": "Complete list under the heading 'Managers:' on U-M's official Bentley Historical Library page for the 1997 team. He also appears in the team photo's 8th row as 'Eddie Magnus'."
+        }
+      ]
+    },
+    {
+      "name": "Mike Sadjak",
+      "role": "Manager",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Robert Avin, Adam Clous, Jared Drinkwater, Ed Magnus, Mike Sadjak, Mike Youtan",
+          "note": "Complete list under the heading 'Managers:' on U-M's official Bentley Historical Library page for the 1997 team."
+        }
+      ]
+    },
+    {
+      "name": "Mike Youtan",
+      "role": "Manager",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20060913031647/http://bentley.umich.edu/athdept/football/fbteam/1997fbt.htm",
+          "quote": "Robert Avin, Adam Clous, Jared Drinkwater, Ed Magnus, Mike Sadjak, Mike Youtan",
+          "note": "Complete list under the heading 'Managers:' on U-M's official Bentley Historical Library page for the 1997 team."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "team": "Miami (FL)",
+  "season": 2001,
+  "staff": [
+    {
+      "name": "Larry Coker",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "Head Coach:",
+          "note": "University of Miami official 2001 football staff roster page (hurricanesports.com, archived Aug 6, 2001, preseason of the title season). The quoted label is immediately followed by a hyperlink reading 'Larry Coker'."
+        },
+        {
+          "url": "https://web.archive.org/web/20011024064056/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/coker_larry00.html",
+          "quote": "Head Coach",
+          "note": "Coker's own UM bio page (page title 'Player bio: Larry Coker :: Football'), archived Oct 24, 2001 - during the championship season. Quote is the value of the 'Position:' field."
+        },
+        {
+          "url": "https://web.archive.org/web/20011125100101/http://hurricanesports.fansonly.com/sports/m-footbl/spec-rel/020301aab.html",
+          "quote": "Larry Coker Named University Of Miami Head Football Coach",
+          "note": "UM news release headline, Feb. 3, 2001 hire announcement."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2001_Miami_Hurricanes_football_team",
+          "quote": "The Hurricanes were led by first-year head coach",
+          "note": "Quoted text runs immediately into the wikilink 'Larry Coker'."
+        }
+      ]
+    },
+    {
+      "name": "Randy Shannon",
+      "role": "Defensive Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "(Defensive Coordinator)",
+          "note": "2001 official staff roster, under the 'Assistant Coaches:' heading. The quoted role text directly follows a hyperlink reading 'Randy Shannon'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010622192850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/shannon_randy00.html",
+          "quote": "Came to UM: 2001",
+          "note": "Shannon's UM bio page ('Player Bio: Randy Shannon :: Football'); the same page's 'Position:' field reads 'Defensive Coordinator' (also verifiable as the verbatim string 'Defensive Coordinator'). He arrived from the Miami Dolphins for the 2001 season."
+        }
+      ]
+    },
+    {
+      "name": "Rob Chudzinski",
+      "role": "Offensive Coordinator/Tight Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "(Offensive Coordinator/Tight Ends)",
+          "note": "2001 official staff roster; quoted role text directly follows a hyperlink reading 'Rob Chudzinski'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010622200207/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/chudzinski_rob01.html",
+          "quote": "University of Miami (offensive coordinator, tight ends)",
+          "note": "Chudzinski's UM bio 'Coaching Experience' list; the full source line reads '2001- University of Miami (offensive coordinator, tight ends)'. Quote trimmed to avoid the year/whitespace run."
+        },
+        {
+          "url": "https://web.archive.org/web/20010907223726/http://hurricanesports.fansonly.com/sports/m-footbl/spec-rel/020901aaa.html",
+          "quote": "Rob Chudzinski Named Offensive Coordinator",
+          "note": "UM news release headline, Feb. 9, 2001 promotion announcement."
+        }
+      ]
+    },
+    {
+      "name": "Vernon Hargreaves",
+      "role": "Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "(Linebackers)",
+          "note": "2001 official staff roster; quoted role text directly follows a hyperlink reading 'Vernon Hargreaves'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010124041200/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/hargreaves_vernon00.html",
+          "quote": "1998- University of Miami (linebackers)",
+          "note": "Hargreaves' UM bio page; the open-ended '1998-' entry covers the 2001 season. Page's 'Position:' field reads 'Linebackers'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2001_Miami_Hurricanes_football_team",
+          "quote": "Vernon Hargreaves Jr. (LB)",
+          "note": "Wikipedia coaching-staff list renders his name with the 'Jr.' suffix; the UM source pages omit it."
+        }
+      ]
+    },
+    {
+      "name": "Curtis Johnson",
+      "role": "Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "(Wide Receivers)",
+          "note": "2001 official staff roster; quoted role text directly follows a hyperlink reading 'Curtis Johnson'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010717083609/http://www.fansonly.com/schools/mifl/sports/m-footbl/mtt/johnson_curtis00.html",
+          "quote": "1996- University of Miami (wide receivers)",
+          "note": "Johnson's UM bio page, archived July 17, 2001; open-ended '1996-' entry covers the 2001 season."
+        }
+      ]
+    },
+    {
+      "name": "Art Kehoe",
+      "role": "Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "(Offensive Line)",
+          "note": "2001 official staff roster; quoted role text directly follows a hyperlink reading 'Art Kehoe'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010428093156/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/kehoe_art01.html",
+          "quote": "The 2001 season will mark his 19th year as member of the Miami coaching staff",
+          "note": "Kehoe's UM bio page; explicitly ties him to the 2001 staff. Page's 'Position:' field reads 'Offensive Line'."
+        }
+      ]
+    },
+    {
+      "name": "Greg Mark",
+      "role": "Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "(Defensive Line)",
+          "note": "2001 official staff roster; quoted role text directly follows a hyperlink reading 'Greg Mark'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010717111128/http://www.fansonly.com/schools/mifl/sports/m-footbl/mtt/mark_greg00.html",
+          "quote": "University of Miami (defensive line)",
+          "note": "Mark's UM bio page, archived July 17, 2001; 'Coaching Experience' entry beginning 1996 and open-ended. Page's 'Position:' field reads 'Defensive Line'."
+        }
+      ]
+    },
+    {
+      "name": "Don Soldinger",
+      "role": "Running Backs/Special Teams",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "(Running Backs/Special Teams)",
+          "note": "2001 official staff roster; quoted role text directly follows a hyperlink reading 'Don Soldinger'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010306204451/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/soldinger_don00.html",
+          "quote": "University of Miami (running backs/special teams)",
+          "note": "Soldinger's UM bio 'Coaching Experience'; full source line reads '2001-    University of Miami (running backs/special teams)'. Quote trimmed to avoid the multi-space run after the year."
+        }
+      ]
+    },
+    {
+      "name": "Mark Stoops",
+      "role": "Defensive Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "(Defensive Backs)",
+          "note": "2001 official staff roster; quoted role text directly follows a hyperlink reading 'Mark Stoops'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010413044052/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/stoops_mark00.html",
+          "quote": "University of Miami (defensive backs)",
+          "note": "Stoops' UM bio 'Coaching Experience'; full source line reads '2001    University of Miami (defensive backs)'. Same page also carries the verbatim string 'Came to UM: 2001' - he arrived from Houston for the title season."
+        }
+      ]
+    },
+    {
+      "name": "Andreu Swasey",
+      "role": "Head Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "(Head Strength & Conditioning)",
+          "note": "2001 official staff roster; quoted role text directly follows a hyperlink reading 'Andrew Swasey'. UM spelled his first name 'Andrew' in 2001; the school now spells it 'Andreu'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010622201404/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/swasey_andrew00.html",
+          "quote": "University of Miami (head strength and conditioning coach)",
+          "note": "Swasey's 2001 UM bio 'Coaching Experience'; full source line reads '2001     University of Miami (head strength and conditioning coach)'. Quote trimmed to avoid the multi-space run. Page's 'Position:' field reads 'Strength & Conditioning Coach'."
+        },
+        {
+          "url": "https://miamihurricanes.com/coach/andreu-swasey/",
+          "quote": "The Miami native has coached in 10 bowl games with the Hurricanes, including the 2001 national championship at the Rose Bowl.",
+          "note": "Modern UM bio confirming he was on staff for the 2001 title game and was promoted to head of the department in 2001."
+        }
+      ]
+    },
+    {
+      "name": "Dan Werner",
+      "role": "Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "(Quarterbacks)",
+          "note": "2001 official staff roster; quoted role text directly follows a hyperlink reading 'Dan Werner'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010413052209/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/werner_dan00.html",
+          "quote": "University of Miami (quarterbacks)",
+          "note": "Werner's UM bio 'Coaching Experience' table; the row is dated 2001 (year in an adjacent table cell). Page's 'Position:' field reads 'Quarterbacks'. He arrived from Murray State for the 2001 season."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Merk",
+      "role": "Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "Director of Football Operations:",
+          "note": "2001 official staff roster; the quoted heading is immediately followed by a hyperlink reading 'Jeff Merk'."
+        },
+        {
+          "url": "https://web.archive.org/web/20010622192011/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/merk_jeff00.html",
+          "quote": "University of Miami (director of football operations)",
+          "note": "Merk's UM bio 'Coaching Experience'; full source line reads '2001     University of Miami (director of football operations)'. Page's 'Position:' field reads 'Director of Football Operations'."
+        }
+      ]
+    },
+    {
+      "name": "Frank Giufre",
+      "role": "Graduate Assistant Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "Graduate Assistant Coaches:",
+          "note": "2001 official staff roster; the quoted heading is immediately followed by hyperlinks reading 'Frank Giufre' and 'Rod Holder' - the only two GAs listed."
+        },
+        {
+          "url": "https://web.archive.org/web/20011102201823/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/giufre_frank00.html",
+          "quote": "University of Miami (Graduate Assistant)",
+          "note": "Giufre's UM bio, archived Nov 2, 2001 (mid-championship-season). Same page carries the verbatim strings 'Graduate Assistant Coach' (Position field) and 'Came to UM: 2001'."
+        }
+      ]
+    },
+    {
+      "name": "Rod Holder",
+      "role": "Graduate Assistant Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010806053850/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/mifl-m-footbl-mtt.html",
+          "quote": "Graduate Assistant Coaches:",
+          "note": "2001 official staff roster; the quoted heading is immediately followed by hyperlinks reading 'Frank Giufre' and 'Rod Holder'."
+        },
+        {
+          "url": "https://web.archive.org/web/20020109174738/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/holder_rod00.html",
+          "quote": "University of Miami (Graduate Assistant)",
+          "note": "Holder's UM bio archived Jan 9, 2002 - six days after the Rose Bowl title game, the closest capture to the championship date. Same page carries 'Graduate Assistant Coach' and 'Came to UM: 2001'. He arrived from the XFL's Chicago Enforcers."
+        }
+      ]
+    },
+    {
+      "name": "Mike Sullivan",
+      "role": "Graduate Assistant Coach",
+      "role_category": "gradasst",
+      "midseason_note": "UNCERTAIN AT TITLE GAME - include with caution. Sullivan's official UM bio page (archived June 22, 2001) lists him as a 2001-arrival Graduate Assistant Coach, but he does NOT appear on UM's own preseason staff roster of Aug 6, 2001, which names only Frank Giufre and Rod Holder as graduate assistants (NCAA rules capped GAs at two in this era). Best reading: he was on staff in spring/early 2001 and was gone before the season, so he likely was NOT on staff at the Jan 3, 2002 Rose Bowl. No source was found either confirming his departure or placing him on the staff during the season.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010622200826/http://hurricanesports.fansonly.com/sports/m-footbl/mtt/sullivan_mike00.html",
+          "quote": "Graduate Assistant Coach",
+          "note": "Value of the 'Position:' field on Sullivan's official UM bio page ('Player Bio: Mike Sullivan :: Football'), archived June 22, 2001. The same page carries the verbatim string 'Came to UM: 2001'. A former Miami offensive guard and Buccaneer, he arrived from head-coaching jobs in European football."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "WHAT IS SOLID (14 of 15 rows): The University of Miami's own football staff roster page, archived Aug 6, 2001 (preseason of the championship season), is the spine of this dataset. It enumerates, verbatim and in this order: Head Coach Larry Coker; ten \"Assistant Coaches\" (Randy Shannon, Rob Chudzinski, Vernon Hargreaves, Curtis Johnson, Art Kehoe, Greg Mark, Don Soldinger, Mark Stoops, Andrew Swasey, Dan Werner); Director of Football Operations Jeff Merk; and Graduate Assistant Coaches Frank Giufre and Rod Holder. Nine of the ten \"assistant coaches\" are on-field position coaches/coordinators (matching the NCAA nine-assistant limit); the tenth, Swasey, is strength and conditioning and is categorized as sc here. Every one of these people is independently corroborated by their own archived UM bio page carrying a 2001-dated role line, so no row rests on a single source.\n\nQUOTE MECHANICS: On the roster page each person's name is a hyperlink and the role sits in adjacent plain text, so the verbatim quotes there are the role parentheticals and section headings (\"(Defensive Coordinator)\", \"Graduate Assistant Coaches:\", etc.) rather than name+role strings; the per-person notes say which hyperlink each quote abuts. Where a bio's \"Coaching Experience\" line contained a multi-space run after the year (e.g. \"2001     University of Miami (director of football operations)\"), I trimmed the quote to the whitespace-clean remainder so it survives text normalization. All quotes in this dataset were mechanically re-verified against the exact cited URLs before submission.\n\nTIERS I COULD NOT RECOVER (real gaps, not omissions):\n1. MEDICAL - no athletic trainers or team physicians recovered. UM's archived athletics site for 2001-02 has no football training-staff page; the surviving school-bio directory pages cover only department-wide administration (business, compliance, marketing, ticket sales, sports information), not team medical staff.\n2. EQUIPMENT - no equipment manager or equipment staff recovered from any source.\n3. ASSISTANT STRENGTH COACHES - only the head S&C coach (Swasey) is documented. His modern UM bio says he directs a strength staff of five, but no 2001 assistant strength names were found.\n4. VIDEO / RECRUITING / ACADEMIC SUPPORT - Pete Garcia appears on UM's 2000 staff roster page as \"Football Operations/Academic Advisor,\" but he is absent from the 2001 roster page and his 2001-dated bio capture returns a redirect, so I did not carry him forward. Not padding a 2001 row for him.\n5. ANALYST and QC tiers are empty by design - those job categories did not exist in the 2001 NCAA staff structure; the equivalent bodies were the two graduate assistants, both of whom are captured above.\n\nSOURCES THAT FAILED: The 2001 media guide and spring prospectus are indexed in the Wayback CDX (mifl-footbl-prospectus.pdf and the whole auto_pdf directory) but every capture is a 400-600 byte redirect stub with no retrievable content, so the media-guide route - normally the best source for support-staff tiers - yielded nothing. No coaches-roster page capture exists between Sept 2001 and the Jan 3, 2002 title game; the nearest in-season captures are Aug 6 and Sept 20, 2001, plus Rod Holder's bio captured Jan 9, 2002 (six days after the Rose Bowl), which is the single best confirmation that the GA tier was unchanged through the championship.\n\nMID-SEASON CAVEAT: Mike Sullivan is the one shaky row and is flagged in his midseason_note. He has a genuine official UM bio page listing him as a 2001-arrival Graduate Assistant Coach, but UM's own preseason roster three weeks later names only Giufre and Holder as GAs. He is included because he is really sourced, but he probably should not be credited a ring; a consumer applying the \"on staff at the championship game\" rule strictly should drop him. The other 14 rows have no mid-season arrival/departure issues: Shannon, Stoops, Werner, Giufre and Holder all arrived for the 2001 season (before it began) and are documented on the preseason staff roster."
+}

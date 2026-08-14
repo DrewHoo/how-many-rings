@@ -1,0 +1,1043 @@
+{
+  "team": "Georgia",
+  "season": 2021,
+  "coverage_notes": "SOURCES USED. (1) Wikipedia team-season page https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team — infobox, \"Coaching staff\" table (which cites \"2021 Georgia Bulldogs Football Media Guide, p. 2\"), and the roster-footer staff list (~38 names). (2) Wayback snapshot of the official athletics site's 2021 football roster page, 2021-10-26 — https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021 — which embeds the complete \"Football Coaching Staff\" (11) and \"Football Support Staff\" (45) directories. (3) Wayback snapshot of the athletics-wide staff directory, 2021-08-07 — https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory — whose \"Football\" and \"Strength and Conditioning - Football\" sections add 16 deeper names (graduate assistants, student assistants, video staff, sports-science analyst, performance chef, assistant equipment director, nutrition intern) that the roster-page directory omits. Total: 72 documented people.\n\nQUOTE MECHANICS. Quotes from the two georgiadogs.com Wayback pages are the name and title as they appear in adjacent DOM nodes; in the page's extracted text they are contiguous once runs of whitespace are collapsed to single spaces (verified programmatically — every quote below was string-matched against the whitespace-normalized text of its own URL). Wikipedia quotes are taken from the rendered roster-footer list lines and likewise verified. Note the georgiadogs pages render Bryant Gross-Armiento's surname with spaces (\"Bryant Gross - Armiento\"), and several titles use an en dash (–) rather than a hyphen; both are reproduced exactly.\n\nWHAT I COULD NOT DOCUMENT. (a) Medical/athletic-training staff. UGA's staff directory lists \"Athletic Training/Sports Medicine\" as an athletics-wide unit (Ron Courson, Anna Randa, and ~17 associate/assistant athletic trainers) with no sport assignment shown, so I could not source any individual as 2021 football medical staff. No football-specific medical rows are included rather than guess. (b) The 2021 Georgia football media guide itself — Wikipedia cites it, but I could not retrieve the guide PDF via archive.org (only fragmentary history PDFs were archived), so no rows rest on it. (c) A December 2021/January 2022 snapshot of the staff directory. The support-staff tiers are documented from August and October 2021 snapshots, so a small number of the deepest support roles (student assistants, video interns) could in principle have turned over before the January 10, 2022 title game; I found no documentation of any such departure. (d) Web search was unavailable this session (budget exhausted), so contemporary news articles could not be searched for hire/departure announcements beyond the Dan Lanning case, which is sourced from his Wikipedia article.\n\nNAME/ROLE DISCREPANCIES. Wikipedia spells the assistant strength coach \"Rodney Price\"; the official UGA site spells him \"Rodney Prince\" — I used the official spelling. Wikipedia lists Matt Godwin twice under two different titles (\"Player personnel coordinator\" and \"Director, player personnel\"); he is one person and appears once here. Rashawn Scott is titled \"Intern - Offense\" on the October roster page and \"Offensive Assistant\" in the August staff directory; both sources are attached. Will Muschamp was an analyst in 2021 (he was promoted to an on-field role only in 2022) and is categorized as analyst accordingly.\n\nCATEGORY JUDGMENT CALLS. Titles worded \"Defensive Assistant\" / \"Offensive Assistant\" / \"Special Teams Assistant\" (Murphy, Russell, Ray) are off-field analyst-tier roles at Georgia and are mapped to analyst, as is the \"Sports Science Data Analyst\". Creative/video/technology and recruiting/personnel/administration roles are mapped to ops. Nutrition staff and the performance chef are mapped to other rather than medical, since they sit in performance nutrition, not sports medicine. \"Student Assistant\" and intern titles are mapped to other; only explicit \"Graduate Assistant\"/\"GA\" titles are mapped to gradasst.",
+  "staff": [
+    {
+      "name": "Kirby Smart",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Kirby Smart Head Coach"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Head coach Kirby Smart"
+        }
+      ]
+    },
+    {
+      "name": "Dan Lanning",
+      "role": "Fain and Billy Slaughter Defensive Coordinator - Outside Linebackers",
+      "role_category": "onfield",
+      "midseason_note": "Named head coach at Oregon on December 11, 2021, but remained Georgia's defensive coordinator through the January 10, 2022 CFP National Championship Game, so he was on staff at the title game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Dan Lanning Fain and Billy Slaughter Defensive Coordinator - Outside Linebackers"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Dan Lanning – Defensive coordinator/outside linebackers"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Dan_Lanning",
+          "quote": "On December 11, 2021, Lanning was named the 35th head coach at the University of Oregon",
+          "note": "Supports the midseason note; the same article states that in Lanning's final year Georgia went on to win the 2022 College Football Playoff National Championship."
+        }
+      ]
+    },
+    {
+      "name": "Todd Monken",
+      "role": "Offensive Coordinator - Quarterbacks Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Todd Monken Offensive Coordinator - Quarterbacks Coach"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Todd Monken – Offensive coordinator"
+        }
+      ]
+    },
+    {
+      "name": "Scott Cochran",
+      "role": "Special Teams Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Scott Cochran Special Teams Coordinator"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Scott Cochran – Special teams coordinator"
+        }
+      ]
+    },
+    {
+      "name": "Cortez Hankton",
+      "role": "Pass Game Coordinator - Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Cortez Hankton Pass Game Coordinator - Wide Receivers"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Cortez Hankton – Pass game coordinator/wide receivers"
+        }
+      ]
+    },
+    {
+      "name": "Jahmile Addae",
+      "role": "Assistant Coach – Defensive Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Jahmile Addae Assistant Coach – Defensive Backs",
+          "note": "Title uses an en dash before Defensive Backs, as on the page."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Jahmile Addae – Defensive backs/assistant head coach"
+        }
+      ]
+    },
+    {
+      "name": "Todd Hartley",
+      "role": "Assistant Coach - Tight Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Todd Hartley Assistant Coach - Tight Ends"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Todd Hartley – Tight ends"
+        }
+      ]
+    },
+    {
+      "name": "Matt Luke",
+      "role": "Associate Head Coach - Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Matt Luke Associate Head Coach - Offensive Line"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Matt Luke – Offensive line/associate head coach"
+        }
+      ]
+    },
+    {
+      "name": "Dell McGee",
+      "role": "Run Game Coordinator - Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Dell McGee Run Game Coordinator - Running Backs"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Dell McGee – Run game coordinator/running backs"
+        }
+      ]
+    },
+    {
+      "name": "Glenn Schumann",
+      "role": "Co-Defensive Coordinator - Inside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Glenn Schumann Co-Defensive Coordinator - Inside Linebackers"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Glenn Schumann – Co-defensive coordinator/inside linebackers"
+        }
+      ]
+    },
+    {
+      "name": "Tray Scott",
+      "role": "Assistant Coach - Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Tray Scott Assistant Coach - Defensive Line"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Tray Scott – Defensive line/assistant head coach"
+        }
+      ]
+    },
+    {
+      "name": "Scott Sinclair",
+      "role": "Director of Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Scott Sinclair Director of Strength & Conditioning"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Scott Sinclair – Director, strength and conditioning"
+        }
+      ]
+    },
+    {
+      "name": "Maurice Sims",
+      "role": "Associate Director of Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Maurice Sims Associate Director of Strength & Conditioning"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Maurice Sims – Assistant, strength and conditioning"
+        }
+      ]
+    },
+    {
+      "name": "Rodney Prince",
+      "role": "Assistant Strength and Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Rodney Prince Assistant Strength and Conditioning Coach"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Rodney Price – Assistant, strength and conditioning",
+          "note": "Wikipedia spells the surname 'Price'; the official UGA site spells it 'Prince'. Same person."
+        }
+      ]
+    },
+    {
+      "name": "Ben Sowders",
+      "role": "Assistant Strength & Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Ben Sowders Assistant Strength & Conditioning Coach"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Ben Sowders – Assistant, strength and conditioning"
+        }
+      ]
+    },
+    {
+      "name": "Tersoo Uhaa",
+      "role": "Assistant Strength & Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Tersoo Uhaa Assistant Strength & Conditioning Coach"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Tersoo Uhaa – Assistant, strength and conditioning"
+        }
+      ]
+    },
+    {
+      "name": "Will Muschamp",
+      "role": "Senior Analyst - Defense",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Will Muschamp Senior Analyst - Defense"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Will Muschamp – Defense analyst"
+        }
+      ]
+    },
+    {
+      "name": "Garrett Murphy",
+      "role": "Defensive Assistant",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Garrett Murphy Defensive Assistant"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Garrett Murphy Defensive Assistant"
+        }
+      ]
+    },
+    {
+      "name": "Jacob Russell",
+      "role": "Offensive Assistant",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Jacob Russell Offensive Assistant"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Jacob Russell Offensive Assistant"
+        }
+      ]
+    },
+    {
+      "name": "Adam Ray",
+      "role": "Special Teams Assistant",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Adam Ray Special Teams Assistant"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Adam Ray Special Teams Assistant"
+        }
+      ]
+    },
+    {
+      "name": "Ben Schmidt",
+      "role": "Sports Science Data Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Ben Schmidt Sports Science Data Analyst",
+          "note": "Listed in the Football section of the athletics staff directory; not carried on the football roster page's support-staff list."
+        }
+      ]
+    },
+    {
+      "name": "Buster Faulkner",
+      "role": "Quality Control - Offense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Buster Faulkner Quality Control - Offense"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Buster Faulkner – Quality control, offense"
+        }
+      ]
+    },
+    {
+      "name": "Montgomery VanGorder",
+      "role": "Quality Control - Offense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Montgomery VanGorder Quality Control - Offense"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Montgomery Vangorder – Quality control, offense"
+        }
+      ]
+    },
+    {
+      "name": "Bryant Gross-Armiento",
+      "role": "Quality Control - Defense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Bryant Gross - Armiento Quality Control - Defense",
+          "note": "The page renders the hyphenated surname with spaces around the hyphen; quote reproduces that rendering exactly."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Bryant Gross-Armiento – Quality control, defense"
+        }
+      ]
+    },
+    {
+      "name": "Davis Merritt",
+      "role": "Quality Control - Defense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Davis Merritt Quality Control - Defense"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Davis Merritt – Quality control, defense"
+        }
+      ]
+    },
+    {
+      "name": "Robert Muschamp",
+      "role": "Quality Control - Defense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Robert Muschamp Quality Control - Defense"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Robert Muschamp – Quality control, defense"
+        }
+      ]
+    },
+    {
+      "name": "Robby Discher",
+      "role": "Quality Control - Special Teams",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Robby Discher Quality Control - Special Teams"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Robby Discher Quality Control - Special Teams"
+        }
+      ]
+    },
+    {
+      "name": "John Jancek",
+      "role": "Quality Control Coordinator",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "John Jancek Quality Control Coordinator"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "John Jancek Quality Control Coordinator"
+        }
+      ]
+    },
+    {
+      "name": "Eddie Gordon",
+      "role": "Graduate Assistant - Offense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Eddie Gordon Graduate Assistant - Offense"
+        }
+      ]
+    },
+    {
+      "name": "Ryan Williams",
+      "role": "Offensive GA",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Ryan Williams Offensive GA"
+        }
+      ]
+    },
+    {
+      "name": "Carson Hall",
+      "role": "Graduate Assistant - Defense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Carson Hall Graduate Assistant - Defense"
+        }
+      ]
+    },
+    {
+      "name": "David Metcalf",
+      "role": "Graduate Assistant - Defense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "David Metcalf Graduate Assistant - Defense"
+        }
+      ]
+    },
+    {
+      "name": "Josh Lee",
+      "role": "Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Josh Lee Director of Football Operations"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Josh Lee – Director, football operations"
+        }
+      ]
+    },
+    {
+      "name": "Neyland Raper",
+      "role": "Assistant Director of Football Operations & Recruiting",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Neyland Raper Assistant Director of Football Operations & Recruiting"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Neyland Raper – Assistant director of football operations"
+        }
+      ]
+    },
+    {
+      "name": "Hailey Hughes",
+      "role": "Football Operations Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Hailey Hughes Football Operations Coordinator"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Hailey Hughes Football Operations Coordinator"
+        }
+      ]
+    },
+    {
+      "name": "Anna Courson",
+      "role": "Football Operations Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Anna Courson Football Operations Assistant"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Anna Courson – Assistant, football operations"
+        }
+      ]
+    },
+    {
+      "name": "Lewis Freeman",
+      "role": "Football Operations Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Lewis Freeman Football Operations Assistant"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Lewis Freeman – Assistant, football operations"
+        }
+      ]
+    },
+    {
+      "name": "Mike Cavan",
+      "role": "Director of Football Administration",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Mike Cavan Director of Football Administration"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Mike Cavan Director of Football Administration"
+        }
+      ]
+    },
+    {
+      "name": "Jay Chapman",
+      "role": "Director of Football Management",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Jay Chapman Director of Football Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Jay Chapman Director of Football Management"
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Klawsky",
+      "role": "Director of Football Technology",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Jeremy Klawsky Director of Football Technology"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Jeremy Klawsky Director of Football Technology"
+        }
+      ]
+    },
+    {
+      "name": "Ann Hunt",
+      "role": "Administrative Assistant to Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Ann Hunt Administrative Assistant to Head Coach"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Ann Hunt – Administrative associate to the head coach"
+        }
+      ]
+    },
+    {
+      "name": "Matt Godwin",
+      "role": "Player Personnel Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Matt Godwin Player Personnel Coordinator"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Matt Godwin – Player personnel coordinator",
+          "note": "Wikipedia lists him a second time as 'Matt Godwin – Director, player personnel'; one person, listed once here."
+        }
+      ]
+    },
+    {
+      "name": "Bryant Gantt",
+      "role": "Director of Player Support and Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Bryant Gantt Director of Player Support and Operations"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Bryant Gantt Director of Player Support and Operations"
+        }
+      ]
+    },
+    {
+      "name": "Jonas Jennings",
+      "role": "Director of Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Jonas Jennings Director of Player Development"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Jonas Jennings – Director, player development"
+        }
+      ]
+    },
+    {
+      "name": "Austin Chambers",
+      "role": "Assistant Director of Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Austin Chambers Assistant Director of Player Development"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Austin Chambers – Assistant, player development"
+        }
+      ]
+    },
+    {
+      "name": "Juwan Taylor",
+      "role": "Player Development Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Juwan Taylor Player Development Assistant"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Juwan Taylor – Assistant director, player development"
+        }
+      ]
+    },
+    {
+      "name": "Katie Turner",
+      "role": "Director of Recruiting Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Katie Turner Director of Recruiting Operations"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Katie Turner – Director, recruiting"
+        }
+      ]
+    },
+    {
+      "name": "Christina Harris",
+      "role": "Director of Recruiting Administration",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Christina Harris Director of Recruiting Administration"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Christina Harris – Director, recruiting administration"
+        }
+      ]
+    },
+    {
+      "name": "David Cooper",
+      "role": "Director of Recruiting Relations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "David Cooper Director of Recruiting Relations"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "David Cooper Director of Recruiting Relations"
+        }
+      ]
+    },
+    {
+      "name": "Angela Kirkpatrick",
+      "role": "On Campus Recruiting Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Angela Kirkpatrick On Campus Recruiting Coordinator"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Angela Kirkpatrick On Campus Recruiting Coordinator"
+        }
+      ]
+    },
+    {
+      "name": "Cameron Lemons",
+      "role": "Assistant Recruiting Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Cameron Lemons Assistant Recruiting Coordinator"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Cameron Lemons Assistant Recruiting Coordinator"
+        }
+      ]
+    },
+    {
+      "name": "Logen Reed",
+      "role": "Assistant Recruiting Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Logen Reed Assistant Recruiting Coordinator"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Logen Reed Assistant Recruiting Coordinator"
+        }
+      ]
+    },
+    {
+      "name": "Eric Black",
+      "role": "Director of Football Creative – Football",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Eric Black Director of Football Creative – Football",
+          "note": "Title uses an en dash, as on the page."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Eric Black – Director, of football creative design"
+        }
+      ]
+    },
+    {
+      "name": "Chandler Eldridge",
+      "role": "Co-Director of Football Creative - Design",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Chandler Eldridge Co-Director of Football Creative - Design"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Chandler Eldridge – Director, football creative design"
+        }
+      ]
+    },
+    {
+      "name": "Chad Morehead",
+      "role": "Co-Director of Football Creative Design",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Chad Morehead Co-Director of Football Creative Design"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Chad Morehead – Co-director, of football creative design"
+        }
+      ]
+    },
+    {
+      "name": "Trevor Terry",
+      "role": "Assistant Director of Football Creative - Video",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Trevor Terry Assistant Director of Football Creative - Video"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Trevor Terry Assistant Director of Football Creative - Video"
+        }
+      ]
+    },
+    {
+      "name": "Kyle Lane",
+      "role": "Video Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Kyle Lane Video Coordinator",
+          "note": "Listed in the Football section of the athletics staff directory."
+        }
+      ]
+    },
+    {
+      "name": "John Meshad",
+      "role": "Director of Equipment Operations",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "John Meshad Director of Equipment Operations"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "John Meshad Director of Equipment Operations"
+        }
+      ]
+    },
+    {
+      "name": "Gage Whitten",
+      "role": "Director of Football Equipment and Apparel",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Gage Whitten Director of Football Equipment and Apparel"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Gage Whitten Director of Football Equipment and Apparel"
+        }
+      ]
+    },
+    {
+      "name": "Wil Wells",
+      "role": "Assistant Director of Football Equipment",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Wil Wells Assistant Director of Football Equipment"
+        }
+      ]
+    },
+    {
+      "name": "Collier Madaleno",
+      "role": "Director of Football Performance Nutrition",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Collier Madaleno Director of Football Performance Nutrition"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Collier Madaleno – Director, football performance nutrition"
+        }
+      ]
+    },
+    {
+      "name": "Meaghan Turcotte",
+      "role": "Assistant Director of Football Performance Nutrition",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Meaghan Turcotte Assistant Director of Football Performance Nutrition"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Meaghan Turcotte – Football sports nutritionist",
+          "note": "The August 2021 athletics staff directory also titles her 'Football Sports Nutritionist'."
+        }
+      ]
+    },
+    {
+      "name": "Roderick Hall",
+      "role": "Nutrition Intern",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Roderick Hall Nutrition Intern",
+          "note": "Listed in the Football section of the athletics staff directory."
+        }
+      ]
+    },
+    {
+      "name": "Brent Williams",
+      "role": "Head Performance Chef for Football",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Brent Williams Head Performance Chef for Football"
+        }
+      ]
+    },
+    {
+      "name": "Rashawn Scott",
+      "role": "Intern - Offense",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20211026231938/https://georgiadogs.com/sports/football/roster/2021",
+          "quote": "Rashawn Scott Intern - Offense"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2021_Georgia_Bulldogs_football_team",
+          "quote": "Rashawn Scott – Intern, offense"
+        },
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Rashawn Scott Offensive Assistant",
+          "note": "The August 2021 directory titles him 'Offensive Assistant'; the October roster page titles him 'Intern - Offense'."
+        }
+      ]
+    },
+    {
+      "name": "Seth Auer",
+      "role": "Student Assistant - Offense",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Seth Auer Student Assistant - Offense"
+        }
+      ]
+    },
+    {
+      "name": "Brandon Bennett",
+      "role": "Student Assistant - Offense",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Brandon Bennett Student Assistant - Offense"
+        }
+      ]
+    },
+    {
+      "name": "Blake Bilz",
+      "role": "Student Assistant - Defense",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Blake Bilz Student Assistant - Defense"
+        }
+      ]
+    },
+    {
+      "name": "Jarvis Jones",
+      "role": "Student Assistant - Defense",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Jarvis Jones Student Assistant - Defense"
+        }
+      ]
+    },
+    {
+      "name": "Solomon Berkovitz",
+      "role": "Video Intern",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Solomon Berkovitz Video Intern"
+        }
+      ]
+    },
+    {
+      "name": "Davis Walker",
+      "role": "Video Intern",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Davis Walker Video Intern"
+        }
+      ]
+    },
+    {
+      "name": "Champ Willis",
+      "role": "Video Intern",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20210807071240/https://georgiadogs.com/staff-directory",
+          "quote": "Champ Willis Video Intern"
+        }
+      ]
+    }
+  ]
+}

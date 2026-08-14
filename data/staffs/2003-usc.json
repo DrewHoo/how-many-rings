@@ -1,0 +1,347 @@
+{
+  "team": "USC",
+  "season": 2003,
+  "staff": [
+    {
+      "name": "Pete Carroll",
+      "role": "HEAD COACH",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "HEAD COACH: Pete CARROLL (Pacific, 1973), Third Year",
+          "note": "2003 USC Football Media Guide, roster/staff page. Third season at USC (2001-)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2003_USC_Trojans_football_team",
+          "quote": "Pete Carroll",
+          "note": "Wikipedia infobox lists Pete Carroll as head coach, 3rd season."
+        }
+      ]
+    },
+    {
+      "name": "Norm Chow",
+      "role": "Offensive Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "Norm CHOW, Offensive Coordinator (Utah, 1968)",
+          "note": "From the 'ASSISTANT COACHES:' block on the 2003 media guide roster page."
+        }
+      ]
+    },
+    {
+      "name": "Ed Orgeron",
+      "role": "Assistant Head Coach/Defensive Line/Recruiting Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "Ed ORGERON, Assistant Head Coach/Defensive Line/Recruiting Coordinator (Northwestern State,",
+          "note": "Quote truncated at the OCR line break; the source continues '1984);' on the following line."
+        },
+        {
+          "url": "https://web.archive.org/web/20031213103032/http://usctrojans.ocsn.com/sports/m-footbl/mtt/orgeron_ed00.html",
+          "quote": "He was named assistant head coach in 2003.",
+          "note": "Official USC athletics site bio captured Dec 13, 2003, three weeks before the Rose Bowl. Page header field reads 'Position: Ass. Head Coach/DL/Recruiting Coord.' but name and position sit in separate HTML elements separated by <br>, so that pairing is not quotable as one contiguous string."
+        }
+      ]
+    },
+    {
+      "name": "Greg Burns",
+      "role": "Secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "Greg BURNS, Secondary (Washington State, 1995)",
+          "note": "From the 'ASSISTANT COACHES:' block on the 2003 media guide roster page."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2003_USC_Trojans_football_team",
+          "quote": "Greg Burns",
+          "note": "Wikipedia coaching staff list shows Greg Burns (DB)."
+        }
+      ]
+    },
+    {
+      "name": "Tim Davis",
+      "role": "Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "Tim DAVIS, Offensive Line (Utah, 1982)",
+          "note": "From the 'ASSISTANT COACHES:' block on the 2003 media guide roster page."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2003_USC_Trojans_football_team",
+          "quote": "Tim Davis",
+          "note": "Wikipedia coaching staff list shows Tim Davis (OL)."
+        }
+      ]
+    },
+    {
+      "name": "Nick Holt",
+      "role": "Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "Nick HOLT, Linebackers (Pacific, 1986)",
+          "note": "From the 'ASSISTANT COACHES:' block. Media guide bio adds 'Nick Holt, now in his third year at USC'. Omitted entirely from the Wikipedia staff list."
+        }
+      ]
+    },
+    {
+      "name": "Lane Kiffin",
+      "role": "Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "KIFFIN, Wide Receivers (Fresno State, 1998)",
+          "note": "The given name 'Lane' ends the preceding OCR line, so the quote begins mid-name to stay on a single line."
+        },
+        {
+          "url": "https://web.archive.org/web/20040218171626/http://usctrojans.ocsn.com/sports/m-footbl/mtt/kiffin_lane00.html",
+          "quote": "Lane Kiffin, the son of longtime pro and collegiate coach Monte Kiffin, is in his third year at USC.",
+          "note": "Official USC athletics site bio; 'Position: Wide Receivers' appears in the page header field."
+        }
+      ]
+    },
+    {
+      "name": "Kennedy Pola",
+      "role": "Running Backs/Special Teams Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "Kennedy POLA, Running Backs/Special Teams Coordinator (USC, 1987)",
+          "note": "From the 'ASSISTANT COACHES:' block. Omitted entirely from the Wikipedia staff list."
+        }
+      ]
+    },
+    {
+      "name": "Steve Sarkisian",
+      "role": "Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "Steve SARKISIAN, Quarterbacks (BYU, 1997)",
+          "note": "From the 'ASSISTANT COACHES:' block. Omitted entirely from the Wikipedia staff list."
+        }
+      ]
+    },
+    {
+      "name": "Rocky Seto",
+      "role": "Safeties",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030815090704/http://usctrojans.ocsn.com/sports/m-footbl/mtt/seto_rocky01.html",
+          "quote": "Former USC linebacker Rocky Seto is in his fifth year on the USC staff, but his first as a full-time assistant.",
+          "note": "Official USC athletics site bio. 2003 was his first season as a full-time on-field assistant after two years as a graduate assistant (2001-02)."
+        },
+        {
+          "url": "https://web.archive.org/web/20030815090704/http://usctrojans.ocsn.com/sports/m-footbl/mtt/seto_rocky01.html",
+          "quote": "He is in charge of the safeties.",
+          "note": "Same bio page, sentence immediately following, establishing the position group."
+        },
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "Safeties (USC, 1999); Dennis SLUTAK, Special Teams Assistant (Florida State, 1995)",
+          "note": "'Rocky SETO,' ends the preceding OCR line and 'Safeties (USC, 1999)' opens this one; the two cannot be quoted contiguously."
+        }
+      ]
+    },
+    {
+      "name": "Brennan Carroll",
+      "role": "Offensive Assistant, Tight Ends",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "ASSISTANT COACHES: Greg BURNS, Secondary (Washington State, 1995); Brennan CARROLL, Offensive Assistant, Tight Ends (Pittsburgh,",
+          "note": "Quote truncated at the OCR line break; '2001);' continues on the next line."
+        },
+        {
+          "url": "https://web.archive.org/web/20040218163344/http://usctrojans.ocsn.com/sports/m-footbl/mtt/carroll_brennan00.html",
+          "quote": "Brennan Carroll, the oldest son of USC head coach Pete Carroll, joined the USC staff in August of 2002 as a graduate assistant.",
+          "note": "Confirms graduate-assistant status. The same bio states 'In 2003, he handles the tight ends.' Categorized gradasst rather than onfield because he occupied one of USC's two NCAA graduate-assistant slots."
+        }
+      ]
+    },
+    {
+      "name": "Dennis Slutak",
+      "role": "Special Teams Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "Safeties (USC, 1999); Dennis SLUTAK, Special Teams Assistant (Florida State, 1995)",
+          "note": "His media guide bio reads 'Dennis Slutak is in his first year at USC as a graduate assistant working with the special teams. He joined the Trojan staff in July of 2003.' (OCR drops the leading D). July 2003 is a preseason hire, not a midseason arrival."
+        }
+      ]
+    },
+    {
+      "name": "Chris Carlisle",
+      "role": "STRENGTH AND CONDITIONING COACH",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "STRENGTH AND CONDITIONING COACH: Chris CARLISLE (Chadron State, 1985)",
+          "note": "2003 media guide roster page. Third year at USC; also listed in the athletics staff directory as 'Head Coach: Chris Carlisle x0068' under STRENGTH & CONDITIONING."
+        }
+      ]
+    },
+    {
+      "name": "Aaron Ausmus",
+      "role": "ASSISTANT STRENGTH AND CONDITIONING COACHES",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "ASSISTANT STRENGTH AND CONDITIONING COACHES: Aaron AUSMUS (Tennessee, 1998); Jamie YANCHAR (Louisville, 1987)",
+          "note": "One of only two assistant S&C coaches carried on the football roster page. Also 'Assistant Coach: Aaron Ausmus x0067' in the athletics staff directory."
+        }
+      ]
+    },
+    {
+      "name": "Jamie Yanchar",
+      "role": "ASSISTANT STRENGTH AND CONDITIONING COACHES",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "ASSISTANT STRENGTH AND CONDITIONING COACHES: Aaron AUSMUS (Tennessee, 1998); Jamie YANCHAR (Louisville, 1987)",
+          "note": "Same roster-page line. Also 'Assistant Coach : Jamie Yanchar x7867' in the athletics staff directory."
+        }
+      ]
+    },
+    {
+      "name": "Mark Jackson",
+      "role": "DIRECTOR OF FOOTBALL ADMINISTRATION",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "DIRECTOR OF FOOTBALL ADMINISTRATION: Mark JACKSON (Colby, 1995)",
+          "note": "The football staff directory in the same guide words the title as 'Director of Football Operations'; his bio page header reads 'DIR. OF FOOTBALL OPS.' Third year at USC."
+        }
+      ]
+    },
+    {
+      "name": "Greg Bukowski",
+      "role": "Recruiting and Operations Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://usctrojans.com/documents/download/2017/6/26/03coach.pdf",
+          "quote": "",
+          "note": "USC's own posting of the coaching-staff section of the 2003 media guide. This is a 32-page image-only scan with no text layer, so no text can be copied faithfully. The support-staff page shows 'GREG BUKOWSKI / RECRUITING AND OPERATIONS ASSISTANT'. The same pairing appears in the guide's football staff directory (FOOTBALL - x4204), where the OCR at archive.org splits titles and names into two separate column blocks: the title 'Recruiting and Operations Assistant' and the name 'Greg Bukowski' (with email bukowski@usc.edu) are positionally matched but not contiguous in the OCR text, so no single-line verbatim quote pairing name and role exists."
+        }
+      ]
+    },
+    {
+      "name": "Christy Valine",
+      "role": "Recruiting Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://usctrojans.com/documents/download/2017/6/26/03coach.pdf",
+          "quote": "",
+          "note": "Image-only scan of the 2003 media guide coaching section, no text layer. Support-staff page shows 'CHRISTIE VALINE / RECRUITING ASSISTANT' (guide spells the first name 'Christie' on the bio page and 'Christy' in the staff directory). In the archive.org OCR the football directory lists the title 'Recruiting Assistant' and the name 'Christy Valine' (valine@usc.edu) in separate column blocks, so they are not contiguously quotable."
+        }
+      ]
+    },
+    {
+      "name": "Lindsay Gillman",
+      "role": "Assistant to the Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://usctrojans.com/documents/download/2017/6/26/03coach.pdf",
+          "quote": "",
+          "note": "Image-only scan of the 2003 media guide coaching section, no text layer. Support-staff page shows 'LINDSAY GILLMAN / ASSISTANT TO THE HEAD COACH'. The football staff directory pairs the title 'Assistant to Head Coach' with 'Lindsay Gillman' (lagillma@usc.edu), but the archive.org OCR separates the title and name columns, so no contiguous quote exists."
+        }
+      ]
+    },
+    {
+      "name": "Joyce Hirayama",
+      "role": "Administrative Assistant to Football Coaches",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://usctrojans.com/documents/download/2017/6/26/03coach.pdf",
+          "quote": "",
+          "note": "Image-only scan of the 2003 media guide coaching section, no text layer. Support-staff page shows 'JOYCE HIRAYAMA / ADMINISTRATIVE ASSISTANT TO FOOTBALL COACHES'. The football staff directory pairs 'Admin. Asst. to Football Coaches' with 'Joyce Hirayama' (jhirayam@usc.edu) across split OCR column blocks."
+        }
+      ]
+    },
+    {
+      "name": "Irene Puentes",
+      "role": "Football Receptionist",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://usctrojans.com/documents/download/2017/6/26/03coach.pdf",
+          "quote": "",
+          "note": "Image-only scan of the 2003 media guide coaching section, no text layer. Support-staff page shows 'IRENE PUENTES / FOOTBALL RECEPTIONIST'. The football staff directory pairs the title 'Receptionist' with 'Irene Puentes' (igarza@usc.edu) across split OCR column blocks."
+        }
+      ]
+    },
+    {
+      "name": "John Soldate",
+      "role": "Associate Director (Football Counselor)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "Associate Director (Football Counselor) John Soldate 821-0755",
+          "note": "Student-Athlete Academic Services section of the 2003 media guide staff directory. Explicitly football-designated academic support."
+        }
+      ]
+    },
+    {
+      "name": "Allah-mi Basheer",
+      "role": "Assistant Director (Football Counselor)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "Assistant Director (Football Counselor) Allah-mi Basheer 821-2057",
+          "note": "Student-Athlete Academic Services section of the 2003 media guide staff directory. Explicitly football-designated academic support."
+        }
+      ]
+    },
+    {
+      "name": "Tino Dominguez",
+      "role": "football equipment coordinator",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "and Tino Dominguez (football equipment coordinator).",
+          "note": "From head equipment manager Dino Dennis's bio in the 2003 media guide support-staff section. One of only two USC equipment staffers carrying an explicit football designation."
+        }
+      ]
+    },
+    {
+      "name": "Greg Allen",
+      "role": "assistant football equipment coordinator",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt",
+          "quote": "operations, and is assisted by Greg Allen (assistant football equipment",
+          "note": "Quote truncated at the OCR line break; the role string continues on the next line as \"coordinator, men's basketball and track equipment coordinator), Jim Davis\". From Dino Dennis's bio in the 2003 media guide support-staff section."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "SOURCES USED. Primary: the 2003 USC Football Media Guide (preseason, July 2003), scanned at archive.org (item usc-football-2003-media-guide-c) with an OCR text derivative at https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt. Its roster page carries a clean, contiguous \"HEAD COACH:\" / \"ASSISTANT COACHES:\" / \"STRENGTH AND CONDITIONING COACH:\" / \"DIRECTOR OF FOOTBALL ADMINISTRATION:\" block, and a separate athletics staff directory (FOOTBALL - x4204 section) lists the full football office. Corroborated by individual coach bios on USC's 2003 athletics site (usctrojans.ocsn.com) captured on the Wayback Machine in Dec 2003 and Feb 2004, i.e. immediately before and after the Jan 1, 2004 Rose Bowl. USC also hosts the scanned coaching section itself at https://usctrojans.com/documents/download/2017/6/26/03coach.pdf (32 pages, image-only, no text layer).\n\nWHAT IS COMPLETE. The on-field tier is fully recovered and internally consistent with the era's NCAA limits: exactly 9 full-time assistants (Burns, Chow, Davis, Holt, Kiffin, Orgeron, Pola, Sarkisian, Seto) plus 2 graduate assistants (Brennan Carroll, Dennis Slutak) plus head coach Pete Carroll. USC had no defensive coordinator in 2003 — Pete Carroll ran the defense himself, and Wikipedia's infobox correctly leaves def_coach blank. Note that Wikipedia's coaching-staff list for this season is materially incomplete: it omits Nick Holt, Kennedy Pola, Steve Sarkisian and Dennis Slutak. Everything above beyond those seven names comes from the media guide and archived athletics site, not Wikipedia.\n\nANALYST AND QUALITY-CONTROL TIERS: ZERO, AND THIS IS AN ABSENCE, NOT A GAP. Neither the media guide's football staff directory nor the archived athletics site lists any analyst, quality-control, or off-field football-only staff position. That is consistent with 2003 NCAA staffing rules, which did not permit the large off-field analyst tier that modern programs carry. I found no evidence such roles existed at USC in 2003 and have not invented any.\n\nSTRENGTH AND CONDITIONING — PARTIAL AMBIGUITY. The football roster page names only Chris Carlisle plus assistants Aaron Ausmus and Jamie Yanchar, and those three are the rows above. Carlisle's bio, however, says he \"is assisted by Jamie Yanchar, Aaron Ausmus, Charr Gahagan, Andrea Ausmus and Gary Uribe,\" and the athletics staff directory lists all five as S&C assistant coaches. Charr Gahagan, Andrea Ausmus and Gary Uribe are documented USC strength staff in 2003 but are NOT football-designated in any source I found, so I did not create rows for them. If the dataset counts department S&C staff, those three names are real and sourced to the same directory (\"Assistant Coach: Charr Gahagan x7990\", \"Assistant Coach: Andrea Ausmus x4186\", \"Assistant Coach: Gary Uribe x7990\").\n\nMEDICAL — NOT RECOVERED AT FOOTBALL LEVEL. USC's 2003 media guide documents athletic training only department-wide, with no per-sport assignments. Documented but deliberately excluded as unattributable to football: Russ Romano (Director of Athletic Training / Head Athletic Trainer), head athletic trainer emeritus Jack Ward, and assistant trainers Sue Lerner, Mark Pocinich, Steve Grech, John Dean, Sandra Olsen and Emily McClellan. I could not determine which of them was the football team's trainer in 2003. Team physicians are listed in the guide by title only, with the OCR dropping the names.\n\nEQUIPMENT — ONLY THE FOOTBALL-DESIGNATED TWO. Included: Tino Dominguez and Greg Allen, both explicitly titled with \"football\" in the source. Documented but excluded as department-level rather than football staff: Sid Brooks (director of equipment operations), Dino Dennis (head equipment manager), and Jim Davis (assistant). All three appear in the same media guide.\n\nVIDEO AND OTHER SUPPORT — NOT RECOVERED AT FOOTBALL LEVEL. Video Operations is listed department-wide: Joe Schrimpl (Director), Chris Hanaford (Assistant), David Scott (Assistant). Football video duties in 2003 are undocumented, so no rows were created. The guide also lists a large unnamed-by-role student manager and student trainer corps (student trainers Jared Blank, David Chang, Erica Cossio, Kim Driftmier, Matt Feehan, Katrina Herra, Jack Kirck, Angeli Lee, Jill Manor, Jonathan Wu; plus roughly 45 student managers named only in a photo caption) — none of these are attributable specifically to football, and none were included.\n\nQUOTE-FIDELITY CAVEATS. The media guide is a scan, so the archive.org text is OCR. Every quote above was copied byte-for-byte from that OCR output, including its trailing artifacts, and all are plain ASCII. Where the guide's two-column layout puts a person's title and name in separate OCR blocks — which affects the five football-office staff (Bukowski, Valine, Gillman, Hirayama, Puentes) — no contiguous name-plus-role string exists, so those rows carry quote:\"\" against USC's own image-only PDF of the same pages, with the exact on-page wording recorded in each note, per the PDF/image instruction. Two on-field quotes (Orgeron, Brennan Carroll) and one equipment quote (Greg Allen) are truncated at an OCR line break rather than mid-word; the continuation text is given in the note. Rocky Seto's media guide entry is likewise split across an OCR line break, so his primary evidence is the archived USC athletics site bio instead.\n\nMIDSEASON CHANGES. None found. No staff member above carries a midseason_note. The primary source is the preseason (July 2003) media guide, which is a real limitation: I could not locate a staff directory dated to the Rose Bowl itself. However, archived usctrojans.ocsn.com bios for Pete Carroll, Ed Orgeron, Lane Kiffin, Brennan Carroll, Dennis Slutak and Chris Carlisle captured in Dec 2003 and Feb 2004 show the same people in the same roles on both sides of the championship game, so I have good confidence the staff was unchanged on Jan 1, 2004. Dennis Slutak joined in July 2003, before the season, so he is not a midseason arrival. I attempted but could not recover a consolidated coaching-staff index page from the Wayback Machine — only individual bio pages survive, and the CDX API repeatedly timed out on broad queries, so I cannot rule out that a lower tier of staff existed on a site page I never reached. Web search budget for this session was exhausted before I could run contemporary news checks for hire/departure announcements during the 2003 season."
+}

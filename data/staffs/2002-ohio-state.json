@@ -1,0 +1,449 @@
+{
+  "team": "Ohio State",
+  "season": 2002,
+  "staff": [
+    {
+      "name": "Jim Tressel",
+      "role": "Head coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2002_Ohio_State_Buckeyes_football_team",
+          "quote": "Jim Tressel – Head coach – 2nd year"
+        }
+      ]
+    },
+    {
+      "name": "Jim Bollman",
+      "role": "Offensive Coordinator/Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2002_Ohio_State_Buckeyes_football_team",
+          "quote": "Jim Bollman – Offensive line / offensive coordinator (2nd year)"
+        },
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Jim Bollman (Offensive Coordinator/Offensive Line),",
+          "note": "From the FOOTBALL STAFF QUICK REFERENCE page of the official 2002 Ohio State football media guide. URL is the archive.org OCR (DjVuTXT) plain-text rendering of the scanned guide; quote copied exactly from that text file."
+        }
+      ]
+    },
+    {
+      "name": "Bill Conley",
+      "role": "Recruiting Coordinator/Tight Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2002_Ohio_State_Buckeyes_football_team",
+          "quote": "Bill Conley – Tight ends / recruiting coordinator (16th year)"
+        },
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Bill Conley (Recruiting Coordinator/Tight Ends),",
+          "note": "2002 Ohio State football media guide, FOOTBALL STAFF QUICK REFERENCE. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Joe Daniels",
+      "role": "Quarterbacks and Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Joe Daniels (Quarterbacks and Receivers),",
+          "note": "2002 Ohio State football media guide, FOOTBALL STAFF QUICK REFERENCE. URL is the archive.org OCR text of the scanned guide."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2002_Ohio_State_Buckeyes_football_team",
+          "quote": "Joe Daniels – Quarterbacks (2nd year)"
+        }
+      ]
+    },
+    {
+      "name": "Mark Dantonio",
+      "role": "Defensive Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2002_Ohio_State_Buckeyes_football_team",
+          "quote": "Mark Dantonio – Defensive coordinator (2nd year)"
+        },
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mark Dantonio (Defensive Coordinator),",
+          "note": "2002 Ohio State football media guide, FOOTBALL STAFF QUICK REFERENCE. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Luke Fickell",
+      "role": "Special Teams Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Luke Fickell, 1st year at OSU, Ohio State ‘97",
+          "note": "2002 media guide lists him under the heading 'Special Teams Coordinator' in the FOOTBALL STAFF QUICK REFERENCE and counts 2002 as his 1st year at OSU; Wikipedia calls it his 2nd year. URL is the archive.org OCR text of the scanned guide."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2002_Ohio_State_Buckeyes_football_team",
+          "quote": "Luke Fickell – Special teams (2nd year)"
+        }
+      ]
+    },
+    {
+      "name": "Jim Heacock",
+      "role": "Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2002_Ohio_State_Buckeyes_football_team",
+          "quote": "Jim Heacock – Defensive line (7th year)"
+        },
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Jim Heacock (Defensive Line),",
+          "note": "2002 Ohio State football media guide, FOOTBALL STAFF QUICK REFERENCE. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Mark Snyder",
+      "role": "Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2002_Ohio_State_Buckeyes_football_team",
+          "quote": "Mark Snyder – Defensive linebackers (2nd year)"
+        },
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mark Snyder (Linebackers),",
+          "note": "2002 Ohio State football media guide, FOOTBALL STAFF QUICK REFERENCE. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Tim Spencer",
+      "role": "Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2002_Ohio_State_Buckeyes_football_team",
+          "quote": "Tim Spencer – Running backs (9th year)"
+        },
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Tim Spencer (Running Backs),",
+          "note": "2002 Ohio State football media guide, FOOTBALL STAFF QUICK REFERENCE. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Mel Tucker",
+      "role": "Defensive Secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2002_Ohio_State_Buckeyes_football_team",
+          "quote": "Mel Tucker – Defensive backs (2nd year)"
+        },
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mel Tucker (Defensive Secondary),",
+          "note": "2002 Ohio State football media guide, FOOTBALL STAFF QUICK REFERENCE. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Sorie Kanu",
+      "role": "Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Sorie Kanu, Graduate Assistant",
+          "note": "Coaching staff table of contents of the 2002 Ohio State football media guide. His bio (same document) reads that he is in his first year as a GA working with the defense, assisting Mark Snyder with the linebackers. URL is the archive.org OCR text of the scanned guide; OCR inserts stray spaces inside words in the bio prose, so the cleaner TOC line is quoted."
+        }
+      ]
+    },
+    {
+      "name": "Mark Staten",
+      "role": "Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mark Staten, Graduate Assistant",
+          "note": "Coaching staff table of contents of the 2002 Ohio State football media guide; his bio says his responsibilities include assisting offensive coordinator Jim Bollman with the offensive line. URL is the archive.org OCR text of the scanned guide."
+        },
+        {
+          "url": "https://archive.org/download/ohio-state-football-2003-media-guide-c/Ohio%20State%20Football%202003%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mark Staten is in his \nsecond year on the Ohio ",
+          "note": "Corroboration from the 2003 Ohio State media guide (archive.org OCR text): Staten is in his second year in 2003, confirming he was on staff for the 2002 championship season."
+        }
+      ]
+    },
+    {
+      "name": "John Hill",
+      "role": "Program Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "John Hill, Program Assistant",
+          "note": "Coaching staff table of contents of the 2002 Ohio State football media guide. His bio describes him as being in his fifth year as a graduate assistant coach, working directly with recruiting coordinator Bill Conley on recruiting, on-campus visits, the walk-on program and summer camps, and notes he 'returns to an administrative role this year' — hence categorized ops rather than gradasst. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Bob Tucker",
+      "role": "Football Operations, Director",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2002_Ohio_State_Buckeyes_football_team",
+          "quote": "Bob Tucker – Director of football operations (8th year)"
+        },
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Bob Tucker, Director, \n2nd year at OSU, Wooster ’65",
+          "note": "Listed under the 'Football Operations' heading of the FOOTBALL STAFF QUICK REFERENCE in the 2002 media guide. URL is the archive.org OCR text of the scanned guide; quote spans two lines exactly as OCR'd."
+        }
+      ]
+    },
+    {
+      "name": "Dick Tressel",
+      "role": "Football Operations, Associate Director",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2002_Ohio_State_Buckeyes_football_team",
+          "quote": "Dick Tressel – Associate director of football operations (2nd year)"
+        },
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Dr. Dick Tressel, Associate Director, \n2nd year at OSU, Baldwin Wallace ‘70",
+          "note": "Listed under the 'Football Operations' heading of the FOOTBALL STAFF QUICK REFERENCE in the 2002 media guide. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Allan Johnson",
+      "role": "Director of Football Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Allan Johnson, Director, \n2nd year at OSU, Glenville State ‘79",
+          "note": "Listed under the 'Strength and Conditioning' heading of the FOOTBALL STAFF QUICK REFERENCE in the 2002 Ohio State media guide; his bio page is headed 'Director of Football Strength and Conditioning' and reads that he is in his second year in that role, having joined in 2001. He replaced Dave Kennedy, who resigned in May 2001. URL is the archive.org OCR text of the scanned guide."
+        },
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Allan Johnson Supervisor Ath. Conditioning",
+          "note": "Second listing, in the athletics department staff directory of the same 2002 media guide, under 'Strength Training & Conditioning / Football WHAC'."
+        }
+      ]
+    },
+    {
+      "name": "Mike Cochran",
+      "role": "Strength and Conditioning Assistant / Athletic Cond. Specialist",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mike Cochran, Athletic Cond. Specialist, \n2nd year at OSU, Youngstown State ‘92",
+          "note": "Listed under the 'Strength and Conditioning' heading of the FOOTBALL STAFF QUICK REFERENCE in the 2002 Ohio State media guide; his bio page is headed 'STRENGTH AND CONDITIONING ASSISTANT' and states he is in his second year as an assistant strength and conditioning coach for football at Ohio State. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Bernardo Amerson",
+      "role": "Strength and Conditioning Assistant / Athletic Cond. Specialist",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Bernardo Amerson is in \nhis first season as an assis- \ntant strength and condition- \ning coach with the Ohio \nState football program.",
+          "note": "From his bio page (headed 'STRENGTH AND CONDITIONING ASSISTANT') in the 2002 Ohio State media guide. Note the OCR of the FOOTBALL STAFF QUICK REFERENCE and the department directory renders the surname as 'Averson' ('Bernardo Averson, Athletic Cond. Specialist,' and 'Bernardo Averson Athletic Cond. Specialist'); the bio page and the coaching-staff table of contents both read 'Amerson', which is the correct spelling. URL is the archive.org OCR text of the scanned guide; the quote spans five lines exactly as OCR'd, hyphenation included."
+        }
+      ]
+    },
+    {
+      "name": "John Lombardo",
+      "role": "Head Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Head Team Physician — Dr. John Lombardo",
+          "note": "Listed under the 'Support Staff' heading of the FOOTBALL STAFF QUICK REFERENCE in the 2002 Ohio State media guide. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Chris Kaeding",
+      "role": "Team Orthopedist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Team Orthopedist - Dr. Chris Kaeding",
+          "note": "Listed under the 'Support Staff' heading of the FOOTBALL STAFF QUICK REFERENCE in the 2002 Ohio State media guide; his bio notes he has primary responsibility for football. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Ray Pongonis",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Team Physician — Dr. Ray Pongonis",
+          "note": "Listed under the 'Support Staff' heading of the FOOTBALL STAFF QUICK REFERENCE in the 2002 Ohio State media guide; his bio says his primary responsibilities are football and baseball. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Bill Davis",
+      "role": "Head Trainer / Director of Athletic Training",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Head Trainer — Bill Davis",
+          "note": "Listed under the 'Support Staff' heading of the FOOTBALL STAFF QUICK REFERENCE in the 2002 Ohio State media guide; his bio page is headed 'Director of Athletic Training'. Department-wide role rather than football-only. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Doug Calland",
+      "role": "Head Football Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Head Football Trainer - Doug Calland",
+          "note": "Listed under the 'Support Staff' heading of the FOOTBALL STAFF QUICK REFERENCE in the 2002 Ohio State media guide. URL is the archive.org OCR text of the scanned guide."
+        },
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Doug Calland Football Trainer",
+          "note": "Second listing, in the athletics department staff directory of the same guide under 'Medical Services and Training'."
+        }
+      ]
+    },
+    {
+      "name": "Danny Swain",
+      "role": "Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Equipment Manager — Danny Swain",
+          "note": "Listed under the 'Support Staff' heading of the FOOTBALL STAFF QUICK REFERENCE in the 2002 Ohio State media guide; his bio notes he 'works primarily with football'. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Rob Lachey",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assistant Equipment Manager — Rob Lachey",
+          "note": "Listed under the 'Support Staff' heading of the FOOTBALL STAFF QUICK REFERENCE in the 2002 Ohio State media guide; also appears in the department directory as 'Rob Lachey Athletic Equipment Asst.' URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Mike Caldwell",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mike Caldwell \nAssistant Equipment Manager",
+          "note": "Name-and-title caption on the support-staff photo panel of the coaching staff section (p. 72) of the 2002 Ohio State football media guide. URL is the archive.org OCR text of the scanned guide; the name and title sit on consecutive lines, so the quote contains a newline."
+        }
+      ]
+    },
+    {
+      "name": "Eric Buchanan",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Eric Buchanan \nAssistant Equipment Manager",
+          "note": "Name-and-title caption on the support-staff photo panel of the coaching staff section (p. 72) of the 2002 Ohio State football media guide. URL is the archive.org OCR text of the scanned guide; the name and title sit on consecutive lines, so the quote contains a newline."
+        }
+      ]
+    },
+    {
+      "name": "Mark Quisenberry",
+      "role": "Video Coordinator",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mark Quisenberry \nVideo Coordinator",
+          "note": "Name-and-title caption on the support-staff photo panel of the coaching staff section (p. 72) of the 2002 Ohio State football media guide. He also appears in the 2003 media guide's team-photo caption alongside the coaching staff. URL is the archive.org OCR text of the scanned guide; the name and title sit on consecutive lines, so the quote contains a newline."
+        }
+      ]
+    },
+    {
+      "name": "Debbie Broeker",
+      "role": "Head Coach's Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Head Coach's Secretary - Debbie Broeker",
+          "note": "Listed at the foot of the FOOTBALL STAFF QUICK REFERENCE in the 2002 Ohio State media guide; also captioned on the support-staff photo panel (p. 72) as 'Debbie Broeker / Head Coach's Secretary'. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Betty Affeldt",
+      "role": "Football Secretary / Football Office Associate",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Football Secretary - Betty Affeldt",
+          "note": "Listed at the foot of the FOOTBALL STAFF QUICK REFERENCE in the 2002 Ohio State media guide; the support-staff photo panel (p. 72) captions her 'Betty Affeldt / Football Office Associate'. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "Sherrie Kauffman",
+      "role": "Recruiting Secretary / Football Office Associate",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Recruiting Secretary - Sherrie Kauffman",
+          "note": "Listed at the foot of the FOOTBALL STAFF QUICK REFERENCE in the 2002 Ohio State media guide (the OCR line begins with a stray backslash artifact, so the quote starts at 'Recruiting'); the support-staff photo panel (p. 72) captions her 'Sherrie Kauffman / Football Office Associate'. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    },
+    {
+      "name": "John Macko",
+      "role": "Football Academic Counselor",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "John Macko Academic Counselor",
+          "note": "The 2002 Ohio State football media guide carries a page headed 'FOOTBALL ACADEMIC COUNSELORS' on which John Macko is the named/pictured counselor; he also appears in the athletics department directory under Student Athlete Support Services as 'John Macko Academic Counselor'. The heading is plural but only Macko is identified with football, so the second directory counselor (Darrin Meeker) is not included. URL is the archive.org OCR text of the scanned guide."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "SOURCES USED. (1) Wikipedia 2002 Ohio State Buckeyes football team — its \"Coaching staff\" section lists 12 people (10 on-field + 2 football operations) and nothing below that tier. (2) The primary source for everything else is the OFFICIAL 2002 OHIO STATE FOOTBALL MEDIA GUIDE, scanned on archive.org as item \"ohio-state-football-2002-media-guide-c\". All media-guide quotes are cited to the archive.org DjVuTXT plain-text rendering (https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt, text/plain, ~1.39 MB) rather than the PDF, because that URL is machine-fetchable text. Every quote in this dataset was string-matched programmatically against the fetched bytes of its cited URL before submission. IMPORTANT CAVEAT ON QUOTE FIDELITY: that text is OCR of a 2002 print scan and contains characteristic artifacts — stray spaces inside words (\"O hio State\", \"M ark Staten\"), line-break hyphenation, and inconsistent dash characters (some entries use an em dash \"—\", others a hyphen \"-\"). The quotes reproduce the OCR EXACTLY, artifacts included, so they match the cited text file but will NOT match a clean human transcription of the printed page. Several quotes span consecutive OCR lines and therefore contain literal newlines. (3) The 2003 Ohio State media guide (archive.org item \"ohio-state-football-2003-media-guide-c\") was used as a cross-check on year-counts.\n\nWAYBACK MACHINE ATTEMPTED AND FAILED. I searched the Internet Archive CDX index for ohiostatebuckeyes.com captures between Aug 2002 and Apr 2003. A football staff page exists in the index (/sports/m-footbl/mtt/osu-m-footbl-staff.html) but has exactly one capture, dated 2002-01-17, and it — like essentially every ohiostatebuckeyes.com football capture from that window — archived as an HTTP 302 redirect with no body. The ohiostatebuckeyes.ocsn.com mirror has no football staff captures. So no contemporaneous athletics-site staff directory could be recovered; the media guide substitutes for it. Ohio State's own hosted copy (ohiostatebuckeyes.com/wp-content/uploads/2018/07/2002_Guide.pdf, cited by Wikipedia) now returns a 404 page.\n\nWHAT IS COVERED WELL. On-field: complete — head coach plus all 9 assistants (Bollman, Conley, Daniels, Dantonio, Fickell, Heacock, Snyder, Spencer, Tucker), corroborated by two independent sources each. Strength and conditioning: complete as documented — Allan Johnson (director) plus assistants Mike Cochran and Bernardo Amerson; note Johnson was the successor to Dave Kennedy, who resigned in May 2001, so any source naming Kennedy for 2002 is wrong. Graduate assistants: the two NCAA-countable GAs, Sorie Kanu (defense/linebackers) and Mark Staten (offensive line). Football operations: Bob Tucker, Dick Tressel, John Hill, plus the three office associates. Medical, equipment, and video: as printed in the guide's Support Staff block and photo panels.\n\nWHAT I COULD NOT RECOVER. (a) ANALYST and QUALITY CONTROL tiers: no such positions are documented, and I believe they did not exist as titled roles at Ohio State in 2002 — the modern analyst/QC layer postdates this era. I found zero sources naming anyone in those tiers, and I have not padded the list. (b) STUDENT ASSISTANT COACHES: the media guide references student assistant coaches as a category (in staff bios) but names none for 2002; unrecovered. (c) SUB-TIER TRAINING AND EQUIPMENT STAFF: Bill Davis's bio says the training program includes 11 full-time trainers and five graduate assistants, and Doug Calland's says he oversees a graduate assistant and 12 student trainers; Danny Swain's says he oversees six full-time and seven student assistants. None of those individuals are named except the four listed above (Lachey, Caldwell, Buchanan on equipment; no named assistant trainers at all). So the medical and equipment tiers are materially incomplete in headcount even though every person the guide names is captured here. (d) RECRUITING/PERSONNEL beyond Hill and Kauffman: no separate personnel department existed. (e) STRENGTH INTERNS: none named.\n\nTIMING AND ROSTER-ACCURACY CAVEATS. The 2002 media guide is a PRESEASON document (printed ~August 2002), so it establishes who was on staff entering the season, not at the January 3, 2003 Fiesta Bowl. I searched specifically for mid-season 2002 staff changes and found none reported; no midseason_note is set on any row, but absence of evidence is not proof there were none. One correction worth flagging: Wikipedia's Mike Tressel article states he was an Ohio State graduate assistant in \"2002–2003\" and its infobox reads \"2002–2003 Ohio State (GA)\". This is WRONG and he is deliberately EXCLUDED. The 2003 Ohio State media guide states \"Mike Tressel is in his first year as a graduate assistant coach at Ohio State\", and Jim Tressel's bio in the same 2003 guide says of Dick's son Mike that he \"will serve as a graduate assistant with the OSU defense this fall\" — i.e. 2003. He is also absent from every staff listing in the 2002 guide, whose GA slots are held by Kanu and Staten. Similarly, Josh Boyer (sometimes associated with Ohio State) was at Kent State in 2002 and is excluded. Jeff Ryan appears as a GA only in the 2003 guide and is excluded.\n\nROLE-CATEGORY JUDGMENT CALLS. John Hill is titled \"Program Assistant\" and his bio calls him a graduate assistant coach, but it also says he \"returns to an administrative role this year\" (recruiting coordination, walk-on program, summer camps), so he is categorized ops rather than gradasst. Mark Quisenberry (video) and John Macko (academics) are categorized other. Bill Davis is department-wide Director of Athletic Training, not football-only, but is listed in the guide's football Support Staff block and so is included. Bernardo Amerson's surname is OCR'd inconsistently as \"Averson\" in two of the guide's tabular listings and \"Amerson\" in his bio and the table of contents; \"Amerson\" is correct."
+}

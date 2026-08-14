@@ -1,0 +1,397 @@
+{
+  "team": "Texas",
+  "season": 2005,
+  "coverage_notes": "SOURCE BASIS. The strongest evidence is the school's own football site (mackbrown-texasfootball.com) captured on the Wayback Machine bracketing the title game: the coaching staff directory at https://web.archive.org/web/20060110101429/http://www.mackbrown-texasfootball.com/pages/coachingstf.html (archived Jan 10, 2006 — six days AFTER the Jan 4, 2006 Rose Bowl BCS title game) and the football office contact page at https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html (archived Dec 10, 2005, in-season). I diffed the staff directory against its Dec 10, 2005 capture (20051210183200) and the two are IDENTICAL in personnel and titles, so the 15 people on that grid were on staff continuously through the championship game. No arrivals or departures mid-season were found; no midseason_note applies to anyone.\n\nWHAT IS FULLY RECOVERED. Head coach, all 9 on-field assistants, strength & conditioning head, both graduate assistants, both football-operations administrators, and the 4 named administrative assistants — 19 people, every one from a 2005/Jan-2006-dated primary source. The Jan 2005 hire announcements for Chizik, Giles, Rucker and the Feb 2005 GA announcement (Koonz, Lewis) are cited as corroboration.\n\nWHAT IS PARTIALLY RECOVERED (IMPORTANT CAVEAT). No 2005 Texas media guide survives anywhere I could reach — archive.org's Texas football media guide collection jumps from 1960 to 2006, and the school site never posted one. The last 6 rows (Arias, Boyd, Hardin, Robertson, Jean Bryant, Brian Davis) therefore come from the 2006 media guide's \"Football Support Staff\" section, and their 2005 presence is established by explicit tenure statements whose arithmetic covers the 2005 season (e.g. Boyd \"begins his fourth season\" in 2006 = 2003-06; Arias \"19th year\" in 2006; Robertson \"14th season\"; Hardin \"10th season\"; Jean Bryant \"ninth year\"; Brian Davis \"ninth year at Texas\"). These are inference-by-tenure from a 2006 publication, NOT a 2005-dated roster — treat them as a lower confidence tier than rows 1-19. Note also that Robertson (equipment) and Hardin (sports medicine) are department-wide roles attached to football, not football-exclusive positions.\n\nTIERS I COULD NOT RECOVER AT ALL.\n1. ANALYSTS AND QUALITY CONTROL: zero rows. Texas in 2005 had no publicly documented analyst or QC tier; the NCAA off-field-analyst role had not yet proliferated, and neither the staff directory nor the 2006 guide lists any such position. I found no evidence such staff existed, as opposed to merely being undocumented.\n2. ASSISTANT STRENGTH COACHES: Jeff Madden's assistants are completely undocumented. The 2005 site lists only Madden; the 2006 guide's S&C spread is heavily OCR-garbled and names no assistant strength staff. Texas certainly had assistant strength coaches; I could not name any with a source, and I did not guess.\n3. STUDENT ASSISTANTS / INTERNS / VIDEO ASSISTANTS: none documented beyond Arias.\n4. ADDITIONAL SUPPORT NAMES SEEN BUT DELIBERATELY EXCLUDED: the 2006 guide also shows Charlie Craven (supervisor of physical rehabilitation) and team physicians Dr. Mark Chassay, Dr. Andrea Pana and Dr. Carey Windler. I excluded all four because their entries carry NO tenure statement, so nothing ties them to the 2005 season rather than 2006 alone. They are real people on a real page — they simply fail the season-attribution test, and I would rather under-report than assert an unsupported ring.\n\nEXCLUSION CHECKED AND CONFIRMED. Major Applewhite has a staff bio still live on the 2005 site (pages/staff/applewhite_bio.html), which could mislead: that page is a stale 2004 artifact reading \"Second season at Texas,\" and he is absent from both the Dec 2005 and Jan 2006 staff grids — he left for Syracuse with Greg Robinson after 2004. He is NOT 2005 staff and is excluded. Similarly excluded as departed-before-2005: Greg Robinson, Dick Tomey, Mike Haywood (each named as the person replaced in the Jan 2005 hire releases).\n\nWIKIPEDIA. The 2005 team-season article carries only an infobox (Brown, Davis, Chizik, Akina) and no coaching staff section, so it contributed nothing beyond the top four; its infobox role labels are split across HTML lines and are not quotable as contiguous strings, so Wikipedia quotes come from article prose instead.\n\nQUOTE RELIABILITY. Every quote in this dataset was mechanically verified as an exact substring of a fresh fetch of its exact cited URL — 36/36 passed, checked against both raw HTML and tag-stripped text. Where a staff-grid role is quoted without the name attached (Kennedy, Madden), it is because the source separates name and title with a <br> tag; the quoted role string is the verbatim contiguous text run sitting directly beneath that person's name and photo in the grid, and each of those two people carries a second corroborating source.",
+  "staff": [
+    {
+      "name": "Mack Brown",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Mack Brown, Head Coach",
+          "note": "Texas football office contact page archived Dec 10, 2005, in-season."
+        },
+        {
+          "url": "https://web.archive.org/web/20060110101429/http://www.mackbrown-texasfootball.com/pages/coachingstf.html",
+          "quote": "Head Coach",
+          "note": "Official staff directory archived Jan 10, 2006, six days after the BCS title game; 'Mack Brown' appears immediately above this title in the same grid cell."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2005_Texas_Longhorns_football_team",
+          "quote": "The team was coached by ",
+          "note": "Article lead; followed by the linked name Mack Brown."
+        }
+      ]
+    },
+    {
+      "name": "Greg Davis",
+      "role": "Offensive Coordinator/ Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20060110101429/http://www.mackbrown-texasfootball.com/pages/coachingstf.html",
+          "quote": "Offensive Coordinator/ Quarterbacks",
+          "note": "Staff directory archived six days after the title game; role text as worded on the page, including the space after the slash. Name 'Greg Davis' appears immediately above in the same cell."
+        },
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Greg Davis, Offensive Coordinator/QB",
+          "note": "Dec 10, 2005 contact page; ties name to role in one contiguous string."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2005_Texas_Longhorns_football_team",
+          "quote": "The championship season lifted the reputation of Mack Brown and the offensive coordinator, ",
+          "note": "Article prose immediately preceding the linked name Greg Davis."
+        }
+      ]
+    },
+    {
+      "name": "Duane Akina",
+      "role": "Co-Defensive Coordinator/Defensive Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Duane Akina, Co-Defensive Coordinator/DBs",
+          "note": "Dec 10, 2005 football office contact page."
+        },
+        {
+          "url": "https://web.archive.org/web/20051212014139/http://www.mackbrown-texasfootball.com/pages/releases/2004_05/007/011705_11.html",
+          "quote": "Chizik will join Duane Akina as co-defensive coordinator and coach UT's linebackers.",
+          "note": "Jan 17, 2005 hire release confirming Akina held co-DC for the 2005 season."
+        }
+      ]
+    },
+    {
+      "name": "Gene Chizik",
+      "role": "Co-Defensive Coordinator/Assistant Head Coach/Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Gene Chizik,  Co-Defensive Coordinator/Assistant Head Coach/LBs",
+          "note": "Dec 10, 2005 contact page. Note the two spaces after the comma, preserved verbatim."
+        },
+        {
+          "url": "https://web.archive.org/web/20051212014139/http://www.mackbrown-texasfootball.com/pages/releases/2004_05/007/011705_11.html",
+          "quote": "has been named co-defensive coordinator and assistant head coach at Texas, head coach Mack Brown announced on Monday.",
+          "note": "Jan 17, 2005 hire announcement; Chizik replaced Greg Robinson, who left for Syracuse."
+        }
+      ]
+    },
+    {
+      "name": "Bruce Chambers",
+      "role": "Assistant Head Coach/Recruiting Coordinator/Tight Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20060110101429/http://www.mackbrown-texasfootball.com/pages/coachingstf.html",
+          "quote": "Assistant Head Coach/Recruiting Coordinator/Tight Ends",
+          "note": "Staff directory archived Jan 10, 2006; 'Bruce Chambers' appears immediately above in the same cell."
+        },
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Bruce Chambers, Assistant Head Coach/TEs",
+          "note": "Dec 10, 2005 contact page, abbreviated title."
+        }
+      ]
+    },
+    {
+      "name": "Oscar Giles",
+      "role": "Defensive Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Oscar Giles, Assistant Coach/DEs",
+          "note": "Dec 10, 2005 contact page."
+        },
+        {
+          "url": "https://web.archive.org/web/20051212014115/http://www.mackbrown-texasfootball.com/pages/releases/2004_05/007/011705_10.html",
+          "quote": "has been named an assistant coach at Texas, head coach Mack Brown announced on Monday. Giles will coach UT's defensive ends",
+          "note": "Jan 17, 2005 hire release; Giles replaced Dick Tomey, who left for San Jose State."
+        }
+      ]
+    },
+    {
+      "name": "Bobby Kennedy",
+      "role": "Recruiting Coordinator/Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20060110101429/http://www.mackbrown-texasfootball.com/pages/coachingstf.html",
+          "quote": "Recruiting Coordinator/Wide Receivers",
+          "note": "Staff directory archived Jan 10, 2006, six days after the title game; 'Bobby Kennedy' appears immediately above this title in the same grid cell. Kennedy is the one coach absent from the Dec 2005 contact page, so this grid is the primary evidence."
+        },
+        {
+          "url": "https://archive.org/download/texas-football-2006-media-guide/Texas%20Football%202006%20Media%20Guide_djvu.txt",
+          "quote": "In 2005, Kennedy transformed a group of young receivers into one of the most",
+          "note": "2006 media guide OCR text, explicitly describing Kennedy coaching the Texas receivers in 2005; the same bio states he was named assistant recruiting coordinator in 2005."
+        }
+      ]
+    },
+    {
+      "name": "Mac McWhorter",
+      "role": "Associate Head Coach/Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20060110101429/http://www.mackbrown-texasfootball.com/pages/coachingstf.html",
+          "quote": "Associate Head Coach/Offensive Line",
+          "note": "Staff directory archived Jan 10, 2006; 'Mac McWhorter' appears immediately above in the same cell."
+        },
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Mac McWhorter, Assistant Head Coach/OL",
+          "note": "Dec 10, 2005 contact page; note this page words it 'Assistant' where the staff grid says 'Associate'."
+        }
+      ]
+    },
+    {
+      "name": "Ken Rucker",
+      "role": "Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Ken Rucker, Assistant Coach/RBs",
+          "note": "Dec 10, 2005 contact page."
+        },
+        {
+          "url": "https://web.archive.org/web/20051212013911/http://www.mackbrown-texasfootball.com/pages/releases/2004_05/007/011005_10.html",
+          "quote": "Ken Rucker has been named an assistant coach at The University of Texas, Mack Brown announced on Monday. Rucker will coach the Longhorn running backs",
+          "note": "Jan 10, 2005 hire release; Rucker replaced Mike Haywood, who left for Notre Dame."
+        }
+      ]
+    },
+    {
+      "name": "Mike Tolleson",
+      "role": "Defensive Tackles/Special Teams Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Mike Tolleson, Assistant Coach/DTs/STs",
+          "note": "Dec 10, 2005 contact page."
+        },
+        {
+          "url": "https://web.archive.org/web/20060110101429/http://www.mackbrown-texasfootball.com/pages/coachingstf.html",
+          "quote": "Special Teams Coordinator",
+          "note": "Staff directory archived Jan 10, 2006; grid cell reads 'Mike Tolleson / Defensive Tackles/ Special Teams Coordinator'."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Madden",
+      "role": "Assistant Athletics Director for Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20060110101429/http://www.mackbrown-texasfootball.com/pages/coachingstf.html",
+          "quote": "Assistant Athletics Director for Strength",
+          "note": "Staff directory archived Jan 10, 2006, six days after the title game; 'Jeff Madden' appears immediately above this title in the same grid cell. Quote stops before the ampersand because the source encodes it as &amp; in HTML; the full rendered title is 'Assistant Athletics Director for Strength & Conditioning'."
+        },
+        {
+          "url": "https://archive.org/download/texas-football-2006-media-guide/Texas%20Football%202006%20Media%20Guide_djvu.txt",
+          "quote": "1998- Assistant AD/ Strength & Conditioning Texas",
+          "note": "Madden's coaching-assignments table, documenting continuous tenure in this role from 1998 onward, which spans the 2005 season."
+        }
+      ]
+    },
+    {
+      "name": "Cleve Bryant",
+      "role": "Associate Athletics Director for Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Cleve Bryant, Associate AD, Operations",
+          "note": "Dec 10, 2005 contact page."
+        },
+        {
+          "url": "https://web.archive.org/web/20060110101429/http://www.mackbrown-texasfootball.com/pages/coachingstf.html",
+          "quote": "Associate Athletics Director for Football Operations",
+          "note": "Staff directory archived Jan 10, 2006; full title as worded, with 'Cleve Bryant' immediately above in the same cell."
+        }
+      ]
+    },
+    {
+      "name": "George Wynn",
+      "role": "Assistant Athletics Director for Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "George Wynn , Assistant AD, Operations",
+          "note": "Dec 10, 2005 contact page. Note the space before the comma, present in the source and preserved verbatim."
+        },
+        {
+          "url": "https://archive.org/download/texas-football-2006-media-guide/Texas%20Football%202006%20Media%20Guide_djvu.txt",
+          "quote": "George Wynn enters his second season as assistant athletics director for football operations at",
+          "note": "2006 media guide: second season in 2006 means his first season was 2005, the championship year."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Koonz",
+      "role": "Graduate Assistant, Defense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051212014918/http://www.mackbrown-texasfootball.com/pages/releases/2004_05/008/021605_31.html",
+          "quote": "Koonz's primary duties at Texas include assisting with the linebackers and special teams.",
+          "note": "Feb 16, 2005 announcement of his hire as a graduate assistant for the 2005 season."
+        },
+        {
+          "url": "https://web.archive.org/web/20051212014918/http://www.mackbrown-texasfootball.com/pages/releases/2004_05/008/021605_31.html",
+          "quote": "Lewis, Koonz named Graduate Assistants",
+          "note": "Headline of the Feb 16, 2005 release."
+        },
+        {
+          "url": "https://web.archive.org/web/20060110101429/http://www.mackbrown-texasfootball.com/pages/coachingstf.html",
+          "quote": "Graduate Assistant",
+          "note": "Staff directory archived six days after the title game; grid cell reads 'Jeff Koonz / Graduate Assistant / Defense'."
+        }
+      ]
+    },
+    {
+      "name": "Derek Lewis",
+      "role": "Graduate Assistant, Offense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051212014918/http://www.mackbrown-texasfootball.com/pages/releases/2004_05/008/021605_31.html",
+          "quote": "Derek Lewis and Jeff Koonz will join the Longhorn football coach staff as graduate assistants, head coach Mack Brown has announced.",
+          "note": "Feb 16, 2005 release; the same article states Lewis 'will assist primarily with the offense'."
+        },
+        {
+          "url": "https://web.archive.org/web/20060110101429/http://www.mackbrown-texasfootball.com/pages/coachingstf.html",
+          "quote": "Graduate Assistant",
+          "note": "Staff directory archived six days after the title game; grid cell reads 'Derek Lewis / Graduate Assistant / Offense'."
+        }
+      ]
+    },
+    {
+      "name": "Kasey Johnson",
+      "role": "Administrative Associate - Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Kasey Johnson, Administrative Associate - Head Coach",
+          "note": "Dec 10, 2005 football office contact page, in-season."
+        }
+      ]
+    },
+    {
+      "name": "Jan Allgood",
+      "role": "Administrative Assistant - Offense",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Jan Allgood, Administrative Assistant - Offense",
+          "note": "Dec 10, 2005 football office contact page, in-season."
+        }
+      ]
+    },
+    {
+      "name": "Amy S. Biegel",
+      "role": "Administrative Assistant - Defense",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Amy S. Biegel, Administrative Assistant - Defense",
+          "note": "Dec 10, 2005 football office contact page, in-season. The 2006 media guide lists her as 'Amy Biegel, Admin. Asst. (Def. Assistants)'."
+        }
+      ]
+    },
+    {
+      "name": "Brenda Preston-Robison",
+      "role": "Administrative Assistant - Recruiting",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20051210183546/http://www.mackbrown-texasfootball.com/pages/contactus.html",
+          "quote": "Brenda Preston-Robison, Administrative Assistant - Recruiting",
+          "note": "Dec 10, 2005 football office contact page, in-season."
+        }
+      ]
+    },
+    {
+      "name": "Mike Arias",
+      "role": "video coordinator for football",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/texas-football-2006-media-guide/Texas%20Football%202006%20Media%20Guide_djvu.txt",
+          "quote": "Mike Arias is in his 19th year of serving as the video coordinator",
+          "note": "LOWER CONFIDENCE TIER: from the 2006 media guide, not a 2005-dated document. His 19th year in 2006 places him in the role continuously since 1988, which covers the 2005 championship season. No 2005 Texas media guide survives to confirm directly."
+        }
+      ]
+    },
+    {
+      "name": "Kenny Boyd",
+      "role": "Head Football Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/texas-football-2006-media-guide/Texas%20Football%202006%20Media%20Guide_djvu.txt",
+          "quote": "Kenny Boyd begins his fourth season as head football trainer",
+          "note": "LOWER CONFIDENCE TIER: from the 2006 media guide. Fourth season in 2006 means seasons 2003, 2004, 2005 and 2006, so he held the role during the 2005 championship season. The guide separately prints his title as 'Head Football Trainer'."
+        }
+      ]
+    },
+    {
+      "name": "Allen Hardin",
+      "role": "Co-Director Sports Medicine/Athletic Training & Physical Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/texas-football-2006-media-guide/Texas%20Football%202006%20Media%20Guide_djvu.txt",
+          "quote": "Allen Hardin begins his 10th season as the Longhorns’ physical therapist",
+          "note": "LOWER CONFIDENCE TIER: from the 2006 media guide. 10th season as physical therapist and fifth as co-director of sports medicine/athletic training in 2006, both of which span 2005. Note the curly apostrophe in Longhorns’, preserved verbatim. This is a department-wide sports medicine role attached to football, not a football-exclusive position."
+        }
+      ]
+    },
+    {
+      "name": "Chip Robertson",
+      "role": "Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/texas-football-2006-media-guide/Texas%20Football%202006%20Media%20Guide_djvu.txt",
+          "quote": "Chip Robertson is in his 14th season as the equipment",
+          "note": "LOWER CONFIDENCE TIER: from the 2006 media guide. Quote ends where the source line breaks; the full sentence reads 'the equipment manager for The University of Texas'. 14th season in 2006 covers 2005. This is a department-wide equipment role listed under Football Support Staff."
+        }
+      ]
+    },
+    {
+      "name": "Jean Bryant",
+      "role": "Academic/Life Skills Counselor",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/texas-football-2006-media-guide/Texas%20Football%202006%20Media%20Guide_djvu.txt",
+          "quote": "Jean Bryant is in her ninth year as an academic/ life skills counselor",
+          "note": "LOWER CONFIDENCE TIER: from the 2006 media guide Football Support Staff section. Ninth year in 2006 means she started in 1998, covering 2005. She is the wife of football operations head Cleve Bryant."
+        }
+      ]
+    },
+    {
+      "name": "Brian Davis",
+      "role": "Assistant Athletics Director for Academic Services",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/texas-football-2006-media-guide/Texas%20Football%202006%20Media%20Guide_djvu.txt",
+          "quote": "Brian Davis is in his ninth year at Texas",
+          "note": "LOWER CONFIDENCE TIER: from the 2006 media guide Football Support Staff section. Ninth year at Texas in 2006 means he arrived in 1998, covering 2005; the same entry states he was promoted to assistant athletics director for academic services in spring 1999."
+        }
+      ]
+    }
+  ]
+}

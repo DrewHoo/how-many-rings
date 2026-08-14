@@ -1,0 +1,459 @@
+{
+  "team": "Auburn",
+  "season": 2010,
+  "coverage_notes": "SOURCES USED. The backbone of this list is Auburn's own in-season staff directory: the \"2010 Auburn Football Roster\" page on auburntigers.cstv.com, Wayback-captured Sept. 9, 2010 (mid-2010 season), whose \"Coaches\" block lists 21 people spanning on-field coaches, football operations, strength, chaplain and medical staff. That is supplemented by (a) the archived Auburn Football Strength and Conditioning Staff page, (b) individual archived AuburnTigers.com staff bio pages, (c) the archived BCS National Championship Game notes PDF (Jan. 10, 2011), and (d) Wikipedia.\n\nCONTINUITY / RING RULE. No mid-season arrivals or departures are documented. The BCS championship game notes explicitly state Auburn returned its entire coaching staff from the prior season and no in-season staff change surfaced in any source, so all 26 people below are treated as on staff at the Jan. 10, 2011 title game. The BCS game notes independently confirm all nine on-field assistants were with the team at the championship game itself (the \"ASSISTANTS IN BOWLS\" table), which is the strongest possible evidence for the ring rule for those nine plus Chizik.\n\nCAVEAT ON THE STRENGTH STAFF. Ryan Russell, T.J. Graham and Jesse Kelley are documented from a Mar. 12, 2011 capture of the strength-staff page (two months AFTER the title game) because no in-season 2010 capture of that page exists in the Wayback Machine — captures jump from Mar. 2009 to Mar. 2011. Their 2010-season presence is nonetheless well supported by their own archived bios, which give \"Joined Auburn Staff: January 2010\" (Russell), \"Joined AU Staff: June 2010\" (Graham) and \"Joined Auburn Staff: January 2009\" (Kelley) — all before the 2010 season. I have flagged the capture date in each source note rather than asserting an in-season snapshot I do not have.\n\nWHAT I COULD NOT DOCUMENT — this list is very likely INCOMPLETE. (1) The 2010 Auburn football media guide, which would have carried the full support-staff directory, was published only as an Issuu embed (issuu.com/mjefferis/docs/auburn_football_2010_media_guide.opt); that document now returns 404, Issuu blocks direct reader-API access, and no PDF copy exists in the Wayback Machine. (2) Auburn's own \"Football Support Staff\" page (aub-support-staff.html) has no Wayback capture between Apr. 17, 2009 and 2012, so the site's dedicated support-staff directory for 2010 is unrecoverable; I deliberately did not use the 2009 capture, since that predates the championship season. (3) The 2010-11 bowl guide PDF is referenced by an archived wrapper page but the PDF itself was never captured. As a result I have NO equipment staff, NO academic-services staff, NO recruiting/administrative assistants, and almost certainly an incomplete set of graduate assistants and quality-control coaches. Auburn in this era would typically have carried roughly four graduate assistants; I could document only one (Rhett Lashlee, offensive GA) plus one quality-control coach (Casey Woods). Auburn's own Sept. 2010 \"Coaches\" listing simply omitted GAs and QC staff, which is why those two had to be sourced separately.\n\nCASEY WOODS is the one row whose only sourcing is Wikipedia — the 2010 team-season page (\"Quality Control: Casey Woods\") corroborated by his own biography page, whose infobox shows \"2009–2011\" / \"Auburn (OQC)\" (offensive quality control). His AuburnTigers.com staff bio was never archived. I judged two independent Wikipedia pages sufficient to include him rather than drop a real, well-attested staffer, but it is weaker evidence than the rest of the list.\n\nRESEARCH LIMITATION. This session's web-search budget was already exhausted before I began, so I could not search contemporary news coverage (hire announcements, championship-coverage features) — step 4 of the requested source ladder went unexecuted. All findings come from Wikipedia, Wayback Machine CDX/archived pages, and the archived championship game-notes PDF. A run with search available would likely recover several more GAs, quality-control coaches and equipment/academic staff.\n\nNO NAMES WERE ADDED WITHOUT A SOURCE. Every row carries at least one verbatim quote checked programmatically against the whitespace-normalized text of the fetched page or extracted PDF.",
+  "staff": [
+    {
+      "name": "Gene Chizik",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Gene Chizik - Head Coach",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010. Page is headed '2010 Auburn Football Roster'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2010_Auburn_Tigers_football_team",
+          "quote": "Head coach – Gene Chizik",
+          "note": "From the '2010 Auburn Tigers coaching staff' table."
+        },
+        {
+          "url": "https://web.archive.org/web/20160824145106/http://grfx.cstv.com/photos/schools/aub/sports/m-footbl/auto_pdf/110110-aunotes.pdf",
+          "quote": "BCS NATIONAL CHAMPIONSHIP GAME AUBURN VS. OREGON JAN. 10, 2011",
+          "note": "Auburn's own game notes for the championship game; the COACHES box lists 'Gene Chizik (Florida, 1985)' as Auburn's head coach with a '21-5 (2nd year)' Auburn record. Quote taken from the running page header."
+        }
+      ]
+    },
+    {
+      "name": "Gus Malzahn",
+      "role": "Offensive Coordinator/Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Gus Malzahn - Offensive Coordinator/Quarterbacks",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        },
+        {
+          "url": "https://web.archive.org/web/20160824145106/http://grfx.cstv.com/photos/schools/aub/sports/m-footbl/auto_pdf/110110-aunotes.pdf",
+          "quote": "Gus Malzahn (Off. Coordinator/QBs) 7th",
+          "note": "From the 'ASSISTANTS IN BOWLS' table in Auburn's BCS National Championship Game notes — confirms he was on staff at the title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2010_Auburn_Tigers_football_team",
+          "quote": "Ass. HC for Offense/OC/QB – Gus Malzahn"
+        }
+      ]
+    },
+    {
+      "name": "Trooper Taylor",
+      "role": "Assistant Head Coach/Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Trooper Taylor - Assistant Head Coach/Wide Receivers",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        },
+        {
+          "url": "https://web.archive.org/web/20160824145106/http://grfx.cstv.com/photos/schools/aub/sports/m-footbl/auto_pdf/110110-aunotes.pdf",
+          "quote": "Trooper Taylor (Wide Receivers) 9th",
+          "note": "'ASSISTANTS IN BOWLS' table, BCS National Championship Game notes — on staff at the title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2010_Auburn_Tigers_football_team",
+          "quote": "Ass. HC/WR – Trooper Taylor"
+        }
+      ]
+    },
+    {
+      "name": "Ted Roof",
+      "role": "Defensive Coordinator/Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Ted Roof - Defensive Coordinator/Linebackers",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        },
+        {
+          "url": "https://web.archive.org/web/20160824145106/http://grfx.cstv.com/photos/schools/aub/sports/m-footbl/auto_pdf/110110-aunotes.pdf",
+          "quote": "Ted Roof (Def. Coordinator/Linebackers) 10th",
+          "note": "'ASSISTANTS IN BOWLS' table, BCS National Championship Game notes — on staff at the title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2010_Auburn_Tigers_football_team",
+          "quote": "Defensive coordinator/Linebackers: Ted Roof"
+        }
+      ]
+    },
+    {
+      "name": "Jay Boulware",
+      "role": "Assistant Coach/Special Teams Coordinator/Tight Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Jay Boulware - Assistant Coach/Special Teams Coordinator/Tight Ends",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        },
+        {
+          "url": "https://web.archive.org/web/20160824145106/http://grfx.cstv.com/photos/schools/aub/sports/m-footbl/auto_pdf/110110-aunotes.pdf",
+          "quote": "Jay Boulware (Tight Ends/Special Teams) 7th",
+          "note": "'ASSISTANTS IN BOWLS' table, BCS National Championship Game notes — on staff at the title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2010_Auburn_Tigers_football_team",
+          "quote": "Special teams coordinator/tight ends – Jay Boulware"
+        }
+      ]
+    },
+    {
+      "name": "Jeff Grimes",
+      "role": "Assistant Coach/Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Jeff Grimes - Assistant Coach/Offensive Line",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        },
+        {
+          "url": "https://web.archive.org/web/20160824145106/http://grfx.cstv.com/photos/schools/aub/sports/m-footbl/auto_pdf/110110-aunotes.pdf",
+          "quote": "Jeff Grimes (Offensive Line) 8th",
+          "note": "'ASSISTANTS IN BOWLS' table, BCS National Championship Game notes — on staff at the title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2010_Auburn_Tigers_football_team",
+          "quote": "Offensive line: Jeff Grimes"
+        }
+      ]
+    },
+    {
+      "name": "Curtis Luper",
+      "role": "Assistant Coach/Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Curtis Luper - Assistant Coach/Running Backs",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010. Wikipedia additionally credits him as recruiting coordinator."
+        },
+        {
+          "url": "https://web.archive.org/web/20160824145106/http://grfx.cstv.com/photos/schools/aub/sports/m-footbl/auto_pdf/110110-aunotes.pdf",
+          "quote": "Curtis Luper (Running Backs) 11th",
+          "note": "'ASSISTANTS IN BOWLS' table, BCS National Championship Game notes — on staff at the title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2010_Auburn_Tigers_football_team",
+          "quote": "Running backs/Recruiting Coordinator: Curtis Luper"
+        }
+      ]
+    },
+    {
+      "name": "Tracy Rocker",
+      "role": "Assistant Coach/Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Tracy Rocker - Assistant Coach/Defensive Line",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        },
+        {
+          "url": "https://web.archive.org/web/20160824145106/http://grfx.cstv.com/photos/schools/aub/sports/m-footbl/auto_pdf/110110-aunotes.pdf",
+          "quote": "Tracy Rocker (Defensive Line) 11th",
+          "note": "'ASSISTANTS IN BOWLS' table, BCS National Championship Game notes — on staff at the title game. (He left for the Tennessee Titans after the season, not during it.)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2010_Auburn_Tigers_football_team",
+          "quote": "Defensive Line: Tracy Rocker"
+        }
+      ]
+    },
+    {
+      "name": "Phillip Lolley",
+      "role": "Assistant Coach/Secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Phillip Lolley - Assistant Coach/Secondary",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010. Other sources specify cornerbacks."
+        },
+        {
+          "url": "https://web.archive.org/web/20160824145106/http://grfx.cstv.com/photos/schools/aub/sports/m-footbl/auto_pdf/110110-aunotes.pdf",
+          "quote": "Phillip Lolley (Cornerbacks) 10th",
+          "note": "'ASSISTANTS IN BOWLS' table, BCS National Championship Game notes — on staff at the title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2010_Auburn_Tigers_football_team",
+          "quote": "Cornerbacks: Phillip Lolley"
+        }
+      ]
+    },
+    {
+      "name": "Tommy Thigpen",
+      "role": "Assistant Coach/Secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Tommy Thigpen - Assistant Coach/Secondary",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010. Other sources specify safeties."
+        },
+        {
+          "url": "https://web.archive.org/web/20160824145106/http://grfx.cstv.com/photos/schools/aub/sports/m-footbl/auto_pdf/110110-aunotes.pdf",
+          "quote": "Tommy Thigpen (Safeties) 5th",
+          "note": "'ASSISTANTS IN BOWLS' table, BCS National Championship Game notes — on staff at the title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2010_Auburn_Tigers_football_team",
+          "quote": "Safeties: Tommy Thigpen"
+        }
+      ]
+    },
+    {
+      "name": "Rhett Lashlee",
+      "role": "Offensive Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20101213223828/http://auburntigers.cstv.com/sports/m-footbl/mtt/lashlee_rhett00.html",
+          "quote": "Position: Offensive Graduate Assistant",
+          "note": "Auburn's own staff bio page, Wayback-captured Dec. 13, 2010 — during the championship season. The page also states 'Joined AU Staff: January 2009' and 'Responsibility: Assists with all aspects of the offense.' Page title reads 'Player Bio: Rhett Lashlee'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Rhett_Lashlee",
+          "quote": "Auburn (GA)",
+          "note": "Coaching infobox row; the adjacent years cell reads '2009–2010', covering the 2010 championship season."
+        }
+      ]
+    },
+    {
+      "name": "Casey Woods",
+      "role": "Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2010_Auburn_Tigers_football_team",
+          "quote": "Quality Control: Casey Woods",
+          "note": "Listed under 'Offensive coaches' in the '2010 Auburn Tigers coaching staff' table. WEAKEST ROW IN THIS DATASET: Woods's AuburnTigers.com staff bio was never archived and Auburn's own Sept. 2010 staff listing omitted quality-control coaches, so Wikipedia is the only sourcing available."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Casey_Woods",
+          "quote": "Auburn (OQC)",
+          "note": "Coaching infobox row on his own biography page; the adjacent years cell reads '2009–2011', spanning the 2010 championship season. OQC = offensive quality control."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Yoxall",
+      "role": "Head Strength and Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Kevin Yoxall - Head Strength and Conditioning Coach",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        },
+        {
+          "url": "https://web.archive.org/web/20101208052213/http://auburntigers.cstv.com/sports/m-footbl/mtt/yoxall_kevin00.html",
+          "quote": "Position: Head Strength and Conditioning Coach",
+          "note": "Auburn staff bio page captured Dec. 8, 2010, during the championship season."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2010_Auburn_Tigers_football_team",
+          "quote": "S&C Support – Kevin Yoxall"
+        }
+      ]
+    },
+    {
+      "name": "Ryan Russell",
+      "role": "Assistant Strength and Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20110504142520/http://auburntigers.cstv.com/sports/m-footbl/mtt/russell_ryan01.html",
+          "quote": "Joined Auburn Staff: January 2010",
+          "note": "Auburn staff bio page. The same page reads 'Position: Assistant Strength and Conditioning Coach' and 'Responsibility: Assistant Strength and Conditioning Coach for football. Director of Sports Nutrition for football.' The January 2010 hire date places him on staff for the entire 2010 championship season. CAVEAT: this capture is May 4, 2011, after the title game; no in-season 2010 capture of his bio exists."
+        },
+        {
+          "url": "https://web.archive.org/web/20110312182614/http://auburntigers.cstv.com/sports/m-footbl/spec-rel/aub-strength-staff.html",
+          "quote": "Ryan Russell Assistant Strength and Conditioning Coach",
+          "note": "Auburn Football Strength and Conditioning Staff page. CAVEAT: captured Mar. 12, 2011, two months after the championship game; the Wayback Machine has no 2010 in-season capture of this page."
+        }
+      ]
+    },
+    {
+      "name": "T.J. Graham",
+      "role": "Graduate Assistant Strength and Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20110721123828/http://auburntigers.cstv.com/sports/m-footbl/mtt/graham_tj00.html",
+          "quote": "Joined AU Staff: June 2010",
+          "note": "Auburn staff bio page, which also reads 'Position: Graduate Assistant Strength and Conditioning Coach' and 'Responsibility: Assist head strength coach with football strength and conditioning program.' The June 2010 hire date places him on staff for the whole 2010 championship season. CAVEAT: capture is July 21, 2011, after the title game."
+        },
+        {
+          "url": "https://web.archive.org/web/20110312182614/http://auburntigers.cstv.com/sports/m-footbl/spec-rel/aub-strength-staff.html",
+          "quote": "T.J. Graham Graduate Assistant Strength and Conditioning Coach",
+          "note": "Auburn Football Strength and Conditioning Staff page. CAVEAT: captured Mar. 12, 2011, two months after the championship game."
+        }
+      ]
+    },
+    {
+      "name": "Jesse Kelley",
+      "role": "Graduate Assistant Strength & Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20110721124403/http://auburntigers.cstv.com/sports/m-footbl/mtt/kelley_jesse00.html",
+          "quote": "Position: Graduate Assistant Strength & Conditioning Coach",
+          "note": "Auburn staff bio page. The same page reads 'Joined Auburn Staff: January 2009', more than a year before the championship season. CAVEAT: capture is July 21, 2011, after the title game."
+        },
+        {
+          "url": "https://web.archive.org/web/20110312182614/http://auburntigers.cstv.com/sports/m-footbl/spec-rel/aub-strength-staff.html",
+          "quote": "Jesse Kelley Graduate Assistant Strength and Conditioning Coach",
+          "note": "Auburn Football Strength and Conditioning Staff page (this page renders the title with 'and' rather than the ampersand used on his bio). CAVEAT: captured Mar. 12, 2011, two months after the championship game."
+        }
+      ]
+    },
+    {
+      "name": "Wayne Bolt",
+      "role": "Director of Football Relations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Wayne Bolt - Director of Football Relations",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        },
+        {
+          "url": "https://web.archive.org/web/20110126091105/http://auburntigers.cstv.com/sports/m-footbl/mtt/bolt_wayne00.html",
+          "quote": "Position: Director of Football Relations",
+          "note": "Auburn staff bio page captured Jan. 26, 2011, sixteen days after the championship game; it also states 'Joined AU Staff: March 24, 2009' and 'Experience: Second Year', consistent with 2010 being his second season."
+        }
+      ]
+    },
+    {
+      "name": "Scott Fountain",
+      "role": "Football Operations Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Scott Fountain - Football Operations Coordinator",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010. His individual bio page has no Wayback capture from the 2010 season."
+        }
+      ]
+    },
+    {
+      "name": "Chad Lunsford",
+      "role": "Football Operations Dir. of Scouting",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Chad Lunsford - Football Operations Dir. of Scouting",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        },
+        {
+          "url": "https://web.archive.org/web/20101208052037/http://auburntigers.cstv.com/sports/m-footbl/mtt/lunsford_chad01.html",
+          "quote": "Position: Football Operations Dir. of Scouting",
+          "note": "Auburn staff bio page captured Dec. 8, 2010, during the championship season; also states 'Joined AU Staff: May 14, 2009' and 'Responsibility: Assists with day-to-day football operations, with emphasis on prospect videos.'"
+        }
+      ]
+    },
+    {
+      "name": "Ben Thomas",
+      "role": "Director, Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Ben Thomas - Director, Player Development",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        },
+        {
+          "url": "https://web.archive.org/web/20100908072743/http://auburntigers.cstv.com/sports/m-footbl/mtt/thomas_ben01.html",
+          "quote": "Position: Director, Player Development",
+          "note": "Auburn staff bio page captured Sept. 8, 2010, four days into the championship season; also states 'Joined AU Staff: April 1, 1997' and 'Experience: 13th Year'."
+        }
+      ]
+    },
+    {
+      "name": "Brent Thomas",
+      "role": "Football Video Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Brent Thomas - Football Video Coordinator",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010. His individual bio page has no Wayback capture from the 2010 season."
+        }
+      ]
+    },
+    {
+      "name": "Rev. Chette Williams",
+      "role": "Team Chaplain",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Rev. Chette Williams - Team Chaplain",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        }
+      ]
+    },
+    {
+      "name": "Dr. James R. Andrews",
+      "role": "Orthopaedic Surgeon",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Dr. James R. Andrews - Orthopaedic Surgeon",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Michael D. Goodlett",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Dr. Michael D. Goodlett - Team Physician",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        }
+      ]
+    },
+    {
+      "name": "Clark Pearson",
+      "role": "Head Football Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "Clark Pearson - Head Football Athletic Trainer",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        }
+      ]
+    },
+    {
+      "name": "David Walsh",
+      "role": "Director of Plainsman Park Physical Therapy",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100909043502/http://auburntigers.cstv.com/sports/m-footbl/mtt/aub-m-footbl-mtt.html?DB_OEM_ID=16800",
+          "quote": "David Walsh - Director of Plainsman Park Physical Therapy",
+          "note": "Auburn's official in-season staff listing, captured Sept. 9, 2010."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1187 @@
+{
+  "team": "Georgia",
+  "season": 2022,
+  "coverage_notes": "SOURCES USED. (1) Wikipedia, \"2022 Georgia Bulldogs football team\" — its \"Coaching staff\" table, the roster-footer coaching box, and the \"Football support staff\" / \"Graduate assistants\" / \"Analysts\" bullet lists. (2) The georgiadogs.com staff directory archived on the Wayback Machine at https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory, which contains a 69-person \"Football\" category plus a 4-person \"Strength and Conditioning - Football\" category. Together these yield 78 documented people.\n\nSNAPSHOT-DATE CAVEAT. I queried the Wayback CDX index for georgiadogs.com/staff-directory over 2022-2024 and the only captures are 20220205, 20220307, 20220405, 20220614, 20220707, 20220802/20220803, then nothing until 20240520 (a 308 redirect). There is NO archived athletics-site staff directory from December 2022 or January 2023. The directory rows therefore reflect the roster as of Aug 2-3, 2022 (preseason of the 2022 season), not the Jan 9, 2023 championship game date. Personnel who joined the program after August 2022 would not appear, and I have no way to detect them from this source.\n\nWIKIPEDIA/ARCHIVE DISCREPANCIES (lower confidence rows). Five people appear on Wikipedia's 2022 support-staff or graduate-assistant lists but are absent from the Aug 2022 archived directory: Eric Black, Maurice Sims, Meaghan Turcotte, Garrett Murphy, Rashawn Scott. They may be post-August-2022 hires, or Wikipedia's list may be partly drawn from a different season. In two cases the archived directory shows a different person in what looks like the same job (Mitch Bernardo as \"Director of Football Creative Video\" vs. Wikipedia's Eric Black; Cate Herrmans as \"Assistant Director of Football Nutrition\" vs. Wikipedia's Meaghan Turcotte). I kept all five because each has a real Wikipedia citation, but they should be treated as the weakest rows in this set.\n\nAlso note Wikipedia's \"Coaching staff\" table is footnoted to the *2021* Georgia Bulldogs Football Media Guide, not the 2022 guide. The roles in it are nonetheless 2022-correct (Will Muschamp, Stacy Searels, Fran Brown, Bryan McClendon and Chidera Uzo-Diribe all shown in their 1st season), and every on-field coach in it is independently confirmed by the Aug 2022 archived athletics-site directory, so I treated it as reliable for 2022.\n\nROLE-WORDING CONFLICTS. Wikipedia and the athletics site word several jobs differently. Examples: Matt Godwin is \"Player personnel coordinator\" on Wikipedia but \"Director of Player Personnel\" on the athletics site; Angela Kirkpatrick is \"On-campus recruiting coordinator\" vs. \"Associate Director of Recruiting Operations\"; Logen Reed is \"Assistant recruiting coordinator\" vs. \"Associate Director of Recruiting Operations\"; Neyland Raper is \"Assistant director of football operations & recruiting\" in Wikipedia's support-staff list but \"Director, Football Operations\" in Wikipedia's own roster-footer box and \"Director of Football Operations\" on the athletics site; Anna Courson is \"Assistant, Football Operations\" vs. \"Football Operations & Travel Coordinator\". Where they conflict I recorded one source's wording in the role field and cited both.\n\nANALYST vs. QUALITY CONTROL. The athletics site gives everyone in this tier a \"Quality Control - Offense/Defense/Special Teams\" title, while Wikipedia separately lists six of them under an \"Analysts\" heading. I used role_category \"analyst\" for those six (Bobo, Benedict, Faulkner, Merritt, Rob Muschamp, VanGorder) and \"qc\" for QC-titled staff not on that list, and \"gradasst\" for the four on Wikipedia's graduate-assistant list plus the two the athletics site titles \"Graduate Assistant - Defense\". This split is a judgment call — in this era the two labels describe the same non-countable staff tier.\n\nMID-SEASON DEPARTURE. Buster Faulkner was hired as Georgia Tech's offensive coordinator in December 2022, before the Jan 9, 2023 title game; his Wikipedia article nonetheless states he won two national championships in his three years at Georgia. Flagged with a midseason_note.\n\nWHAT I COULD NOT DOCUMENT. (a) Medical/athletic-training staff: the archived directory's \"Athletic Training/Sports Medicine\" category (Ron Courson, Anna Randa, and roughly 20 trainers) is department-wide and contains no sport assignments, so I could not establish which of them were the football staff. Rather than guess, I included NO athletic-training rows. This is a real gap — a football champion certainly had assigned trainers. (b) The 2022 Georgia football media guide: I could not retrieve it; Wikipedia's own citation is to the 2021 edition. (c) Scott Cochran is widely reported to have been on medical leave during the 2022 season while treated for cancer; I could not verify this with a citation and have listed him at his titled role with no midseason_note. (d) My web-search budget was exhausted at the start of this task (200/200 calls already used by the session), so I could not run contemporary-news searches for hire/departure announcements and had to work from direct URL fetches only. That means mid-season arrivals and departures other than Faulkner are likely undetected. (e) WebFetch is blocked from web.archive.org in this environment; I retrieved the archived directory via curl, so quotes attributed to the Wayback URL were verified against the raw archived HTML.\n\nQUOTE-MATCHING NOTES. Wikipedia quotes are taken from the article wikitext (https://en.wikipedia.org/w/index.php?title=2022_Georgia_Bulldogs_football_team&action=raw) and are given in their rendered plain-text form (link brackets and italic markers removed), which is how they appear to a reader. One quote, Eric Black's, contains a literal non-breaking space (U+00A0) immediately after the first en dash — that is genuinely what the page contains and is preserved verbatim. Wayback quotes are the exact staff-title cell text; on that page the person's name sits in an adjacent table cell of the same row, and each row's link carries an aria-label combining both, which I reproduce in the note field.",
+  "staff": [
+    {
+      "name": "Kirby Smart",
+      "role": "Head coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "They were led by seventh-year head coach Kirby Smart."
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Football Head Coach",
+          "note": "Row in the archived Georgia staff directory under the \"Football\" category; the adjacent name cell reads \"Kirby  Smart\" and the row link aria-label reads \"Football: Football Head Coach : Kirby  Smart\"."
+        }
+      ]
+    },
+    {
+      "name": "Todd Monken",
+      "role": "Offensive Coordinator/Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Todd Monken – Offensive Coordinator/Quarterbacks"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Offensive Coordinator - Quarterbacks Coach",
+          "note": "aria-label: \"Football: Offensive Coordinator - Quarterbacks Coach: Todd  Monken\""
+        }
+      ]
+    },
+    {
+      "name": "Will Muschamp",
+      "role": "Defensive Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Will Muschamp – Defensive Coordinator"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Co-Defensive Coordinator",
+          "note": "aria-label: \"Football: Co-Defensive Coordinator: Will  Muschamp\". Wikipedia's coaching-staff table words it \"Defensive coordinator/safeties coach\", 1st season."
+        }
+      ]
+    },
+    {
+      "name": "Glenn Schumann",
+      "role": "Defensive Coordinator/Inside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Glenn Schumann – Defensive Coordinator/Inside Linebackers"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Fain & Billy Slaughter Co-Defensive Coordinator - Inside Linebackers",
+          "note": "aria-label: \"Football: Fain & Billy Slaughter Co-Defensive Coordinator - Inside Linebackers : Glenn Schumann\". Ampersand is HTML-escaped in the raw archived source."
+        }
+      ]
+    },
+    {
+      "name": "Scott Cochran",
+      "role": "Special Teams Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Scott Cochran – Special Teams Coordinator"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Special Teams Coordinator",
+          "note": "aria-label: \"Football: Special Teams Coordinator : Scott Cochran\". Cochran is widely reported to have been on medical leave during the 2022 season; I could not verify that with a citation, so no midseason_note is asserted."
+        }
+      ]
+    },
+    {
+      "name": "Dell McGee",
+      "role": "Run Game Coordinator/Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Dell McGee – Run Game Coordinator/Running Backs"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Run Game Coordinator - Running Backs",
+          "note": "aria-label: \"Football: Run Game Coordinator - Running Backs: Dell  McGee\""
+        }
+      ]
+    },
+    {
+      "name": "Bryan McClendon",
+      "role": "Passing Game Coordinator/Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Bryan McClendon – Passing Game Coordinator/Wide Receivers"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Passing Game Coordinator - Wide Receivers",
+          "note": "aria-label: \"Football: Passing Game Coordinator - Wide Receivers: Bryan McClendon\""
+        }
+      ]
+    },
+    {
+      "name": "Tray Scott",
+      "role": "Defensive Line/Assistant Head Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Tray Scott – Defensive Line/Assistant Head Coach"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Assistant Coach - Defensive Line",
+          "note": "aria-label: \"Football: Assistant Coach - Defensive Line: Tray Scott\""
+        }
+      ]
+    },
+    {
+      "name": "Stacy Searels",
+      "role": "Offensive Linemen",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Stacy Searels – Offensive Linemen"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Offensive Line Coach",
+          "note": "aria-label: \"Football: Offensive Line Coach: Stacy Searels\". Wikipedia's coaching-staff table shows him in his 1st season at Georgia in this position."
+        }
+      ]
+    },
+    {
+      "name": "Todd Hartley",
+      "role": "Tight Ends/Assistant Head Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Todd Hartley – Tight Ends/Assistant Head Coach"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Assistant Coach - Tight Ends",
+          "note": "aria-label: \"Football: Assistant Coach - Tight Ends: Todd Hartley\""
+        }
+      ]
+    },
+    {
+      "name": "Fran Brown",
+      "role": "Defensive Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Fran Brown – Defensive Backs"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Defensive Backs Coach",
+          "note": "aria-label: \"Football: Defensive Backs Coach: Fran Brown\""
+        }
+      ]
+    },
+    {
+      "name": "Chidera Uzo-Diribe",
+      "role": "Outside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Chidera Uzo-Diribe – Outside Linebackers"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Assistant Coach - Outside Linebackers",
+          "note": "aria-label: \"Football: Assistant Coach - Outside Linebackers: Chidera Uzo-Diribe\""
+        }
+      ]
+    },
+    {
+      "name": "Scott Sinclair",
+      "role": "Director, Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Scott Sinclair – Director, Strength and Conditioning"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Strength & Conditioning",
+          "note": "Listed under the \"Strength and Conditioning - Football\" category; aria-label: \"Strength and Conditioning - Football  (706) 542-9204: Director of Strength & Conditioning: Scott Sinclair\". Ampersand is HTML-escaped in the raw archived source."
+        }
+      ]
+    },
+    {
+      "name": "Jordan Barber",
+      "role": "Assistant, Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Jordan Barber – Assistant, Strength and Conditioning"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Assistant Strength & Conditioning Coach",
+          "note": "Under \"Strength and Conditioning - Football\"; aria-label: \"Strength and Conditioning - Football  (706) 542-9204: Assistant Strength & Conditioning Coach: Jordan Barber\""
+        }
+      ]
+    },
+    {
+      "name": "Lonnie Brown",
+      "role": "Assistant, Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Lonnie Brown – Assistant, Strength and Conditioning"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Assistant Strength & Conditioning Coach",
+          "note": "Under \"Strength and Conditioning - Football\"; aria-label: \"Strength and Conditioning - Football  (706) 542-9204: Assistant Strength & Conditioning Coach: Lonnie Brown\""
+        }
+      ]
+    },
+    {
+      "name": "Tersoo Uhaa",
+      "role": "Assistant strength and sonditioning coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Tersoo Uhaa – Assistant strength and sonditioning coach",
+          "note": "\"sonditioning\" is a typo present in the Wikipedia source; quoted verbatim as instructed."
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Assistant Strength & Conditioning Coach",
+          "note": "Under \"Strength and Conditioning - Football\"; aria-label: \"Strength and Conditioning - Football  (706) 542-9204: Assistant Strength & Conditioning Coach: Tersoo  Uhaa\""
+        }
+      ]
+    },
+    {
+      "name": "Maurice Sims",
+      "role": "Associate director of strength and conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Maurice Sims – Associate director of strength and conditioning",
+          "note": "LOWER CONFIDENCE: does not appear anywhere in the Aug 2022 archived georgiadogs.com staff directory, whose football strength staff is only Sinclair, Barber, Lonnie Brown and Uhaa. May be a post-August-2022 hire or a Wikipedia list-year error."
+        }
+      ]
+    },
+    {
+      "name": "Mike Bobo",
+      "role": "Offensive analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Mike Bobo – Offensive analyst",
+          "note": "Listed under the article's \"Analysts\" heading."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Mike Bobo – Quality Control, Offense",
+          "note": "The same article's roster-footer coaching box words his job as quality control."
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Quality Control - Offense",
+          "note": "aria-label: \"Football: Quality Control - Offense: Mike Bobo\""
+        }
+      ]
+    },
+    {
+      "name": "Kirk Benedict",
+      "role": "Quality Control, Special Teams",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Kirk Benedict – Quality Control, Special Teams"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Quality Control - Special Teams",
+          "note": "aria-label: \"Football: Quality Control - Special Teams: Kirk Benedict\". Wikipedia also lists him by name under its \"Analysts\" heading."
+        }
+      ]
+    },
+    {
+      "name": "Buster Faulkner",
+      "role": "Quality Control - Offense",
+      "role_category": "analyst",
+      "midseason_note": "Hired as Georgia Tech's offensive coordinator in December 2022, before the January 9, 2023 CFP National Championship game. His Wikipedia biography nevertheless credits him with two national championships during his 2020-2022 Georgia tenure, so he appears to have received a 2022 ring; ring eligibility at the title-game date is uncertain.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Quality Control - Offense",
+          "note": "aria-label: \"Football: Quality Control - Offense: Buster Faulkner\""
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Buster Faulkner",
+          "note": "Listed by bare name under the article's \"Analysts\" heading for the 2022 team."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Buster_Faulkner",
+          "quote": "In his three years with Georgia he won two national championships.",
+          "note": "Supports that he was credited with the 2021 and 2022 titles; the same article dates the Georgia Tech hire to December 2022."
+        }
+      ]
+    },
+    {
+      "name": "Davis Merritt",
+      "role": "Quality Control - Defense",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Quality Control - Defense",
+          "note": "aria-label: \"Football: Quality Control - Defense: Davis Merritt\""
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Davis Merritt",
+          "note": "Listed by bare name under the article's \"Analysts\" heading for the 2022 team."
+        }
+      ]
+    },
+    {
+      "name": "Robert \"Rob\" Muschamp",
+      "role": "Quality Control - Defense",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Quality Control - Defense",
+          "note": "aria-label: \"Football: Quality Control - Defense: Robert Muschamp\""
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Rob Muschamp",
+          "note": "Listed by bare name under the article's \"Analysts\" heading; the athletics site renders the same person as \"Robert Muschamp\"."
+        }
+      ]
+    },
+    {
+      "name": "Montgomery VanGorder",
+      "role": "Quality Control, Offense",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Montgomery Vangorder – Quality Control, Offense",
+          "note": "The roster-footer box spells the surname \"Vangorder\"; the article's \"Analysts\" list spells it \"Montgomery VanGorder\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Quality Control - Offense",
+          "note": "aria-label: \"Football: Quality Control - Offense : Montgomery VanGorder\""
+        }
+      ]
+    },
+    {
+      "name": "Jes Sutherland",
+      "role": "Quality Control, Offense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Jes Sutherland – Quality Control, Offense"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Quality Control - Offense",
+          "note": "aria-label: \"Football: Quality Control - Offense: Jes Sutherland\""
+        }
+      ]
+    },
+    {
+      "name": "Eddie Gordon",
+      "role": "Quality Control - Offense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Quality Control - Offense",
+          "note": "aria-label: \"Football: Quality Control - Offense: Eddie Gordon\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Jacob Russell",
+      "role": "Quality Control, Offense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Jacob Russell – Quality Control, Offense"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Jacob Russell – Offensive assistant",
+          "note": "Listed under the article's \"Graduate assistants\" heading, which is why role_category is gradasst."
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Quality Control - Offense",
+          "note": "aria-label: \"Football: Quality Control - Offense: Jacob Russell\""
+        }
+      ]
+    },
+    {
+      "name": "Adam Ray",
+      "role": "Quality Control, Special Teams",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Adam Ray – Quality Control, Special Teams"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Adam Ray – Special teams assistant",
+          "note": "Listed under the article's \"Graduate assistants\" heading, which is why role_category is gradasst."
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Quality Control - Special Teams",
+          "note": "aria-label: \"Football: Quality Control - Special Teams: Adam  Ray\""
+        }
+      ]
+    },
+    {
+      "name": "Garrett Murphy",
+      "role": "Defensive assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Garrett Murphy – Defensive assistant",
+          "note": "LOWER CONFIDENCE: listed under the article's \"Graduate assistants\" heading but absent from the Aug 2022 archived georgiadogs.com directory, which shows Carson Hall and David Metcalf as the defensive graduate assistants."
+        }
+      ]
+    },
+    {
+      "name": "Rashawn Scott",
+      "role": "Offensive assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Rashawn Scott – Offensive assistant",
+          "note": "LOWER CONFIDENCE: listed under the article's \"Graduate assistants\" heading but absent from the Aug 2022 archived georgiadogs.com directory."
+        }
+      ]
+    },
+    {
+      "name": "Carson Hall",
+      "role": "Graduate Assistant - Defense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Graduate Assistant - Defense",
+          "note": "aria-label: \"Football: Graduate Assistant - Defense: Carson Hall\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "David Metcalf",
+      "role": "Graduate Assistant - Defense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Graduate Assistant - Defense",
+          "note": "aria-label: \"Football: Graduate Assistant - Defense: David Metcalf\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Neyland Raper",
+      "role": "Director, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Neyland Raper – Director, Football Operations"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Neyland Raper – Assistant director of football operations & recruiting",
+          "note": "The same article's support-staff list words his job differently; the athletics site agrees with the roster-footer wording."
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Football Operations",
+          "note": "aria-label: \"Football: Director of Football Operations: Neyland  Raper\""
+        }
+      ]
+    },
+    {
+      "name": "Tyson Street",
+      "role": "Assistant Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Assistant Director of Football Operations",
+          "note": "aria-label: \"Football: Assistant Director of Football Operations: Tyson Street\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Hunter Parker",
+      "role": "Assistant, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Hunter Parker – Assistant, Football Operations"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Hunter Parker – Football operations assistant"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Football Operations Assistant",
+          "note": "aria-label: \"Football: Football Operations Assistant: Hunter Parker\""
+        }
+      ]
+    },
+    {
+      "name": "Anna Courson",
+      "role": "Assistant, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Anna Courson – Assistant, Football Operations"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Anna Courson – Football operations assistant"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Football Operations & Travel Coordinator",
+          "note": "aria-label: \"Football: Football Operations & Travel Coordinator: Anna Courson\". Ampersand is HTML-escaped in the raw archived source."
+        }
+      ]
+    },
+    {
+      "name": "Michael Cogan",
+      "role": "Assistant, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Michael Cogan – Assistant, Football Operations"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Football Operations Assistant",
+          "note": "aria-label: \"Football: Football Operations Assistant: Michael Cogan\""
+        }
+      ]
+    },
+    {
+      "name": "Hailey Hughes",
+      "role": "Football operations coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Hailey Hughes – Football operations coordinator"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Football Operations Coordinator",
+          "note": "aria-label: \"Football: Football Operations Coordinator: Hailey Hughes\""
+        }
+      ]
+    },
+    {
+      "name": "Mike Cavan",
+      "role": "Director of football administration",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Mike Cavan – Director of football administration"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Football Administration",
+          "note": "aria-label: \"Football: Director of Football Administration : Mike Cavan\""
+        }
+      ]
+    },
+    {
+      "name": "Jay Chapman",
+      "role": "Director of football management",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Jay Chapman – Director of football management"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Football Management",
+          "note": "aria-label: \"Football: Director of Football Management: Jay  Chapman\""
+        }
+      ]
+    },
+    {
+      "name": "Ann Hunt",
+      "role": "Administrative assistant to head coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Ann Hunt – Administrative assistant to head coach"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Administrative Assistant to Head Coach",
+          "note": "aria-label: \"Football: Administrative Assistant to Head Coach: Ann Hunt\""
+        }
+      ]
+    },
+    {
+      "name": "Jonas Jennings",
+      "role": "Director, Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Jonas Jennings – Director, Player Development"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Jonas Jennings – Director of player development"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Player Development",
+          "note": "aria-label: \"Football: Director of Player Development : Jonas  Jennings\""
+        }
+      ]
+    },
+    {
+      "name": "Juwan Taylor",
+      "role": "Assistant, Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Juwan Taylor – Assistant, Player Development"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Juwan Taylor – Player development assistant"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Player Development Assistant",
+          "note": "aria-label: \"Football: Player Development Assistant: Juwan Taylor\""
+        }
+      ]
+    },
+    {
+      "name": "Austin Chambers",
+      "role": "Assistant, Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Austin Chambers – Assistant, Player Development"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Austin Chambers – Assistant director of player development"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Assistant Director of Player Development",
+          "note": "aria-label: \"Football: Assistant Director of Player Development: Austin Chambers\""
+        }
+      ]
+    },
+    {
+      "name": "LeJacque Martin",
+      "role": "Player Development Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Player Development Assistant",
+          "note": "aria-label: \"Football: Player Development Assistant: LeJacque Martin\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Bryant Gantt",
+      "role": "Director of player support and operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Bryant Gantt – Director of player support and operations"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Player Support and Operations",
+          "note": "aria-label: \"Football: Director of Player Support and Operations: Bryant Gantt\""
+        }
+      ]
+    },
+    {
+      "name": "Matt Godwin",
+      "role": "Player personnel coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Matt Godwin – Player personnel coordinator"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Player Personnel",
+          "note": "aria-label: \"Football: Director of Player Personnel: Matt Godwin\". The athletics site gives him a more senior title than Wikipedia does."
+        }
+      ]
+    },
+    {
+      "name": "James Ellis",
+      "role": "Player Personnel Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Player Personnel Coordinator",
+          "note": "aria-label: \"Football: Player Personnel Coordinator: James Ellis\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "David Cooper",
+      "role": "Director of recruiting relations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "David Cooper – Director of recruiting relations"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Recruiting Relations",
+          "note": "aria-label: \"Football: Director of Recruiting Relations: David Cooper\""
+        }
+      ]
+    },
+    {
+      "name": "Christina Harris",
+      "role": "Director of recruiting administration",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Christina Harris – Director of recruiting administration"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Recruiting Administration",
+          "note": "aria-label: \"Football: Director of Recruiting Administration: Christina  Harris\""
+        }
+      ]
+    },
+    {
+      "name": "Angela Kirkpatrick",
+      "role": "On-campus recruiting coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Angela Kirkpatrick – On-campus recruiting coordinator"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Associate Director of Recruiting Operations",
+          "note": "aria-label: \"Football: Associate Director of Recruiting Operations: Angela Kirkpatrick\". Title differs between the two sources."
+        }
+      ]
+    },
+    {
+      "name": "Logen Reed",
+      "role": "Assistant recruiting coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Logen Reed – Assistant recruiting coordinator"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Associate Director of Recruiting Operations",
+          "note": "aria-label: \"Football: Associate Director of Recruiting Operations: Logen Reed\". Title differs between the two sources."
+        }
+      ]
+    },
+    {
+      "name": "Kadeem Wise",
+      "role": "Associate Director of Recruiting Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Associate Director of Recruiting Operations",
+          "note": "aria-label: \"Football: Associate Director of Recruiting Operations: Kadeem Wise\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Sheldon Dawson",
+      "role": "Player Connection Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Player Connection Coordinator",
+          "note": "aria-label: \"Football: Player Connection Coordinator: Sheldon Dawson\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "David Hill",
+      "role": "Player Connections Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Player Connections Coordinator",
+          "note": "aria-label: \"Football: Player Connections Coordinator: David Hill\". Note the athletics site pluralizes \"Connections\" for this row but not for Dawson's or Williams's. Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Ryan Williams",
+      "role": "Player Connection Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Player Connection Coordinator",
+          "note": "aria-label: \"Football: Player Connection Coordinator: Ryan Williams\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "John Meshad",
+      "role": "Director of equipment operations",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "John Meshad – Director of equipment operations"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Equipment Operations",
+          "note": "aria-label: \"Football: Director of Equipment Operations : John Meshad\""
+        }
+      ]
+    },
+    {
+      "name": "Gage Whitten",
+      "role": "Director of football equipment and apparel",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Gage Whitten – Director of football equipment and apparel"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Football Equipment and Apparel",
+          "note": "aria-label: \"Football: Director of Football Equipment and Apparel : Gage Whitten\""
+        }
+      ]
+    },
+    {
+      "name": "Wil Wells",
+      "role": "Assistant Director of Football Equipment",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Assistant Director of Football Equipment",
+          "note": "aria-label: \"Football: Assistant Director of Football Equipment: Wil Wells\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Collier Madaleno",
+      "role": "Director of football performance nutrition",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Collier Madaleno – Director of football performance nutrition"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Football Performance Nutrition",
+          "note": "aria-label: \"Football: Director of Football Performance Nutrition: Collier Madaleno\". Categorized medical as a performance-health role; the athletics site also lists this position under its Sports Nutrition unit."
+        }
+      ]
+    },
+    {
+      "name": "Cate Herrmans",
+      "role": "Assistant Director of Football Nutrition",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Assistant Director of Football Nutrition",
+          "note": "aria-label: \"Football: Assistant Director of Football Nutrition: Cate Herrmans\". Not listed on the Wikipedia 2022 page, which instead names Meaghan Turcotte in an equivalent-sounding job."
+        }
+      ]
+    },
+    {
+      "name": "Meaghan Turcotte",
+      "role": "Assistant director of football performance nutrition",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Meaghan Turcotte – Assistant director of football performance nutrition",
+          "note": "LOWER CONFIDENCE: absent from the Aug 2022 archived georgiadogs.com directory, which shows Cate Herrmans as Assistant Director of Football Nutrition. May be a post-August-2022 hire or a Wikipedia list-year error."
+        }
+      ]
+    },
+    {
+      "name": "Tyler Huntley",
+      "role": "Head Performance Chef",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Head Performance Chef",
+          "note": "aria-label: \"Football: Head Performance Chef: Tyler Huntley\". Not listed on the Wikipedia 2022 page. Not the NFL quarterback of the same name."
+        }
+      ]
+    },
+    {
+      "name": "Ryan Cova",
+      "role": "Performance Chef",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Performance Chef",
+          "note": "aria-label: \"Football: Performance Chef: Ryan Cova\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Roderick Hall",
+      "role": "Performance Sous Chef for Georgia Football",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Performance Sous Chef for Georgia Football",
+          "note": "aria-label: \"Football: Performance Sous Chef for Georgia Football: Roderick Hall\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Courtney Crawford",
+      "role": "Culinary Service Manager",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Culinary Service Manager",
+          "note": "aria-label: \"Football: Culinary Service Manager: Courtney Crawford\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Ben Schmidt",
+      "role": "Sports Science Data Analyst",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Sports Science Data Analyst",
+          "note": "aria-label: \"Football: Sports Science Data Analyst: Ben Schmidt\". He is listed in both the Football and the Athletic Training/Sports Medicine categories. This is a sports-science role, not a football film analyst, hence \"other\" rather than \"analyst\"."
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Klawsky",
+      "role": "Director of football technology",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Jeremy Klawsky – Director of football technology"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Football Technology",
+          "note": "aria-label: \"Football: Director of Football Technology: Jeremy Klawsky\""
+        }
+      ]
+    },
+    {
+      "name": "Eric Black",
+      "role": "Director of football creative – football",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Eric Black – Director of football creative – football",
+          "note": "LOWER CONFIDENCE: absent from the Aug 2022 archived georgiadogs.com directory, which shows Mitch Bernardo as Director of Football Creative Video. Note the quote contains a literal non-breaking space (U+00A0) immediately after the first en dash, preserved verbatim from the source."
+        }
+      ]
+    },
+    {
+      "name": "Mitch Bernardo",
+      "role": "Director of Football Creative Video",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Director of Football Creative Video",
+          "note": "aria-label: \"Football: Director of Football Creative Video: Mitch  Bernardo\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Chandler Eldridge",
+      "role": "Co-director of football creative – design",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Chandler Eldridge – Co-director of football creative – design"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Co-Director of Football Creative - Design",
+          "note": "aria-label: \"Football: Co-Director of Football Creative - Design: Chandler Eldridge\""
+        }
+      ]
+    },
+    {
+      "name": "Chad Morehead",
+      "role": "Co-director of football creative design",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2022_Georgia_Bulldogs_football_team",
+          "quote": "Chad Morehead – Co-director of football creative design"
+        },
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Co-Director of Football Creative Design",
+          "note": "aria-label: \"Football: Co-Director of Football Creative Design: Chad Morehead\""
+        }
+      ]
+    },
+    {
+      "name": "Sam Schwartz",
+      "role": "Assistant Director of Football Creative",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Assistant Director of Football Creative",
+          "note": "aria-label: \"Football: Assistant Director of Football Creative: Sam Schwartz\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Kyle Lane",
+      "role": "Video Coordinator",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Video Coordinator",
+          "note": "aria-label: \"Football: Video Coordinator: Kyle Lane\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Davis Walker",
+      "role": "Video Intern",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Video Intern",
+          "note": "aria-label: \"Football: Video Intern: Davis Walker\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Champ Willis",
+      "role": "Video Intern",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Video Intern",
+          "note": "aria-label: \"Football: Video Intern: Champ Willis\". Not listed on the Wikipedia 2022 page."
+        }
+      ]
+    },
+    {
+      "name": "Seth Auer",
+      "role": "Student Assistant - Offense",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Student Assistant - Offense",
+          "note": "aria-label: \"Football: Student Assistant - Offense: Seth Auer\". Not listed on the Wikipedia 2022 page. Student assistants may not be ring-eligible."
+        }
+      ]
+    },
+    {
+      "name": "Brandon Bennett",
+      "role": "Student Assistant - Offense",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Student Assistant - Offense",
+          "note": "aria-label: \"Football: Student Assistant - Offense : Brandon Bennett\". Not listed on the Wikipedia 2022 page. Student assistants may not be ring-eligible."
+        }
+      ]
+    },
+    {
+      "name": "Blake Bilz",
+      "role": "Student Assistant - Defense",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20220803015505/https://georgiadogs.com/staff-directory",
+          "quote": "Student Assistant - Defense",
+          "note": "aria-label: \"Football: Student Assistant - Defense: Blake Bilz\". Not listed on the Wikipedia 2022 page. Student assistants may not be ring-eligible."
+        }
+      ]
+    }
+  ]
+}

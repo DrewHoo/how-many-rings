@@ -1,0 +1,255 @@
+{
+  "team": "Miami (FL)",
+  "season": 1991,
+  "staff": [
+    {
+      "name": "Dennis Erickson",
+      "role": "Head coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Miami_Hurricanes_football_team",
+          "quote": "The Hurricanes were led by third-year head coach Dennis Erickson",
+          "note": "Lead paragraph of the 1991 team article."
+        },
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "Dennis Erickson was no slouch at putting together a formidable coaching staff, either.",
+          "note": "SB Nation retrospective specifically on the 1991 Miami staff ('The 1991 Staff' section)."
+        }
+      ]
+    },
+    {
+      "name": "Bob Bratkowski",
+      "role": "Offensive coordinator / wide receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "Bratkowski served as Miami’s offensive coordinator and wide receivers coach.",
+          "note": "Appears in the article's '1991 Staff' section. Note the typographic apostrophe (U+2019) in 'Miami’s'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Miami_Hurricanes_football_team",
+          "quote": "Bob Bratkowski Offensive coordinator / wide receivers 3rd Washington State (1978)",
+          "note": "Row of the 'Coaching staff' wikitable; quote is the row's cell text with single spaces between cells (Name / Position / Seasons / Alma mater). Also listed in the infobox as offensive coordinator, 3rd year."
+        }
+      ]
+    },
+    {
+      "name": "Sonny Lubick",
+      "role": "Defensive coordinator / defensive backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "The ‘Canes lost four games in four seasons with Lubick as DC.",
+          "note": "Refers to 1989-1992, which includes 1991. Note the typographic left single quote (U+2018) in '‘Canes'."
+        },
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "Lubick worked with the ‘Canes defensive backs which feature future Bengal Darryl Williams",
+          "note": "Supports the defensive backs portion of the role."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Miami_Hurricanes_football_team",
+          "quote": "Sonny Lubick Defensive coordinator / defensive backs 3rd Western Montana (1960)",
+          "note": "Row of the 'Coaching staff' wikitable, cell text separated by single spaces."
+        }
+      ]
+    },
+    {
+      "name": "Gregg Smith",
+      "role": "Offensive line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "Offensive line coach Gregg Smith was another Erickson guy, following Coach E around from town to town over his four decade career.",
+          "note": "In the article's '1991 Staff' section."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Miami_Hurricanes_football_team",
+          "quote": "Gregg Smith Offensive line 3rd Idaho (1969)",
+          "note": "Row of the 'Coaching staff' wikitable, cell text separated by single spaces."
+        }
+      ]
+    },
+    {
+      "name": "Dave Arnold",
+      "role": "Special Teams / tight ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "Dave Arnold, Erickson’s Special Teams and TE’s coach, had an interesting run, too.",
+          "note": "Typographic apostrophes (U+2019) in 'Erickson’s' and 'TE’s'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Miami_Hurricanes_football_team",
+          "quote": "Dave Arnold Special Teams / tight ends 3rd",
+          "note": "Row of the 'Coaching staff' wikitable; the alma mater cell is empty for this row."
+        }
+      ]
+    },
+    {
+      "name": "Bob Karmelowicz",
+      "role": "Defensive line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.commanders.com/news/former-redskins-d-line-coach-karmelowicz-passes-away-3445843",
+          "quote": "Karmelowicz entered the pro ranks following a three-year (1989-91) coaching stint as the defensive line coach for the Miami Hurricanes.",
+          "note": "2010 obituary; the same paragraph continues 'He was a member of the Hurricanes' coaching staff that led the Hurricanes to a 33-3 record over those three seasons and claimed two National Championships.'"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Miami_Hurricanes_football_team",
+          "quote": "Bob Karmelowicz Defensive line 3rd Bridgeport (1972)",
+          "note": "Row of the 'Coaching staff' wikitable, cell text separated by single spaces."
+        }
+      ]
+    },
+    {
+      "name": "Art Kehoe",
+      "role": "Assistant offensive line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "While Soldinger went back to the high school ranks, Art Kehoe stayed on board at UM at assistant OL Coach.",
+          "note": "In the article's '1991 Staff' section."
+        },
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "Smith’s assistant was Art Kehoe, the former ‘Canes offensive lineman who is the only Hurricane to have all five National Championship rings.",
+          "note": "Confirms he worked under OL coach Gregg Smith. Note U+2019 in 'Smith’s' and U+2018 in '‘Canes'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Miami_Hurricanes_football_team",
+          "quote": "Art Kehoe Assistant offensive line 7th Miami (1982)",
+          "note": "Row of the 'Coaching staff' wikitable, cell text separated by single spaces."
+        }
+      ]
+    },
+    {
+      "name": "Ed Orgeron",
+      "role": "Defensive line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "The defensive line coach under Coach E was one Ed Orgeron.",
+          "note": "In the article's '1991 Staff' section. Two men are documented as DL coaches on this staff (Orgeron and Karmelowicz); the era's usage likely split DE/DT duties, but no source I found specifies the split."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Miami_Hurricanes_football_team",
+          "quote": "Ed Orgeron Defensive line 3rd Northwestern State (1984)",
+          "note": "Row of the 'Coaching staff' wikitable, cell text separated by single spaces. His own Wikipedia article notes his October 1992 leave of absence — i.e., after the 1991 championship season, so it does not affect 1991 ring eligibility."
+        }
+      ]
+    },
+    {
+      "name": "Tommy Tuberville",
+      "role": "Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "The Miami linebackers coach in ‘91 was Tommy Tuberville.",
+          "note": "Explicitly season-specific. Note U+2018 in '‘91'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Miami_Hurricanes_football_team",
+          "quote": "Tommy Tuberville Linebackers 3rd Southern Arkansas (1976)",
+          "note": "Row of the 'Coaching staff' wikitable, cell text separated by single spaces."
+        }
+      ]
+    },
+    {
+      "name": "Alex Wood",
+      "role": "Running backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "Erickson’s RB coach, Alex Wood, coached at Miami from ‘89-’92, before runs through the NFL and college football.",
+          "note": "Note mixed typographic quotes: U+2019 in 'Erickson’s' and '’92', U+2018 in '‘89'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Miami_Hurricanes_football_team",
+          "quote": "Alex Wood Running backs 3rd Iowa (1978)",
+          "note": "Row of the 'Coaching staff' wikitable, cell text separated by single spaces."
+        }
+      ]
+    },
+    {
+      "name": "Brad Roll",
+      "role": "Strength and Conditioning Coordinator",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "Erickson’s Strength and Conditioning Coordinator was Brad Roll.",
+          "note": "In the article's '1991 Staff' section; role wording taken verbatim from here. Note U+2019 in 'Erickson’s'."
+        },
+        {
+          "url": "https://usastrengthcoacheshf.com/member/brad-roll",
+          "quote": "at the University of Miami helped the Hurricanes football program capture national championships in both 1989 and 1991",
+          "note": "USA Strength and Conditioning Coaches Hall of Fame biography; independently places him at Miami for the 1991 title."
+        }
+      ]
+    },
+    {
+      "name": "Randy Shannon",
+      "role": "Graduate assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "Former Hurricane and Dallas Cowboy linebacker Randy Shannon served as a graduate assistant on Erickson’s 1991 staff.",
+          "note": "From the article's 'The GA’s' section. Note U+2019 in 'Erickson’s'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Randy_Shannon",
+          "quote": "Miami Hurricanes head coach Dennis Erickson hired Shannon in 1991 to be a graduate assistant at his alma mater.",
+          "note": "His Wikipedia infobox coaching-career list also reads 'Miami (FL) (1991) Graduate assistant', and his honors list '2× National champion (1991, 2001)'."
+        }
+      ]
+    },
+    {
+      "name": "Jim Michalczik",
+      "role": "GA (graduate assistant)",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "Another Erickson GA was Jim Michalczik.",
+          "note": "From the article's 'The GA’s' section, immediately following the Randy Shannon paragraph about the 1991 staff."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jim_Michalczik",
+          "quote": "1990–1991 Miami (FL) (DL)",
+          "note": "Wikipedia infobox coaching-career row (en dash U+2013 between years). Sources conflict on wording: his infobox labels the role 'DL' while State of The U calls him a GA; both agree he was on the 1991 Miami staff. He is also listed under 'Assistant coaches' in Wikipedia's 1991 Miami Hurricanes football navbox."
+        }
+      ]
+    },
+    {
+      "name": "Eddie Gran",
+      "role": "GA (graduate assistant)",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.stateoftheu.com/2022/2/27/22952012/miami-hurricanes-football-comparing-mario-cristobals-22-staff-to-dennis-ericksons-91-staff-acc",
+          "quote": "Eddie Gran was also an Erickson GA at Miami for the ‘91 season.",
+          "note": "From the article's 'The GA’s' section; explicitly season-specific. Note U+2018 in '‘91'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Eddie_Gran",
+          "quote": "1990–1991 Miami (FL) (GA)",
+          "note": "Wikipedia infobox coaching-career row (en dash U+2013 between years)."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "WHAT IS DOCUMENTED (14 people, all cited):\n- Head coach: 1 (Erickson).\n- On-field assistants: 9 (Bratkowski, Lubick, Smith, Arnold, Karmelowicz, Kehoe, Orgeron, Tuberville, Wood). This matches the full nine-assistant NCAA limit of the era and is corroborated by two independent sources (Wikipedia's season-page coaching-staff table and SB Nation/State of The U's 2022 retrospective written specifically about the 1991 staff).\n- Strength & conditioning: 1 (Brad Roll), with a second corroborating source (USA S&C Coaches Hall of Fame bio).\n- Graduate assistants: 3 (Randy Shannon, Jim Michalczik, Eddie Gran), each with two sources.\n\nTIERS I COULD NOT RECOVER — no rows padded:\n- Operations / personnel / recruiting (ops): ZERO documented. No \"director of football operations,\" recruiting coordinator, or administrative-assistant name for 1991 Miami surfaced in any source I could reach. This role tier barely existed in 1991 college football and was not covered by online sources.\n- Medical (athletic trainers, team physicians): ZERO documented. Miami's best-known head football athletic trainer of the period, Kevin O'Neill, left for the Dallas Cowboys with Jimmy Johnson after the 1988 season, so he was NOT on the 1991 staff; I found no name for his 1991 successor. Do not assume O'Neill.\n- Equipment: ZERO documented.\n- Analyst / quality control: ZERO documented — these job titles did not meaningfully exist in 1991 college football, so their absence is expected rather than a gap.\n- Video coordinator, academic support, student assistants: ZERO documented.\n- Assistant strength coaches under Brad Roll: ZERO documented.\n\nSEARCH PATHS EXHAUSTED (all failed, so you know not to re-try them):\n1. Wayback Machine / school athletics staff directory: STRUCTURALLY IMPOSSIBLE for this title. The championship was won January 1, 1992; the Wayback Machine's earliest captures date to 1996, and miamihurricanes.com did not exist in 1991-92. There is no archived contemporaneous staff directory to retrieve.\n2. Media guide: NOT AVAILABLE. archive.org holds Miami football media guides for 1976, 1984 (plus a 1984 Orange Bowl guide), 1988, then nothing until 2006 — no 1991 or 1992 guide. The University of Miami's own digital collections (digitalcollections.library.miami.edu) return no football media guides at all. No 1991/1992 Miami guide found on issuu.\n3. Official school site: miamihurricanes.com does publish a 1991-92 football roster page (https://miamihurricanes.com/sports/football/roster/season/1991-92/), but its \"Coaching Staff\" tab is EMPTY for that season — the page contains only players, and zero coach names appear anywhere in the page source. It is useless as a staff source.\n4. Contemporary news: searches for 1991 Miami trainer / equipment manager / football operations returned nothing. Full-text search of UM's digitized student newspaper (The Miami Hurricane) for football support-staff terms returned only pre-1984 hits.\n\nDATA CAVEATS TO CARRY FORWARD:\n- Two men are documented as \"defensive line\" coach on the same 1991 staff (Bob Karmelowicz and Ed Orgeron). Both citations are solid and independent; period practice was likely a DE/DT split, but no source I found states the division. Neither should be dropped as a duplicate.\n- Jim Michalczik's role wording conflicts between sources: Wikipedia's infobox lists him as \"1990–1991 Miami (FL) (DL)\" while State of The U calls him one of Erickson's GAs. I categorized him gradasst per the source that speaks directly about the 1991 staff, but the on-field/GA boundary for him is genuinely ambiguous.\n- No midseason_note applies to anyone: all 14 were on staff through the January 1, 1992 Orange Bowl. Ed Orgeron's well-known leave of absence from Miami came in October 1992, a season LATER, and does not affect his 1991 ring.\n- Wikipedia quotes drawn from the season page's \"Coaching staff\" wikitable are rendered here as the row's cell text joined by single spaces (Name Position Seasons \"Alma mater\"). If your matcher pipes table cells differently, fall back to the State of The U prose quote attached to the same person — every on-field coach except Bob Karmelowicz has one, and Karmelowicz has a full prose sentence from commanders.com."
+}

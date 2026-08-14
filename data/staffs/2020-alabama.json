@@ -1,0 +1,749 @@
+{
+  "team": "Alabama",
+  "season": 2020,
+  "coverage_notes": "SOURCES USED (3):\n(A) Wayback capture of Alabama's own football staff page, headed \"2020 Football Coaching Staff\" and \"2020 Football Support Staff\": https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches (captured Nov 9, 2020, in-season).\n(B) Wayback capture of the full rolltide.com athletics staff directory: https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory (captured Nov 6, 2020, in-season). This is the source for the football operations/personnel/recruiting staff, the 13 \"Football Analyst\" entries, and the football-tagged strength, sports-medicine and equipment staff (which live in athletics-wide departments, not the Football section).\n(C) Wikipedia 2020 team page: https://en.wikipedia.org/wiki/2020_Alabama_Crimson_Tide_football_team — sole source for the four graduate assistants and for analyst Rob Ezell, none of whom appear in the athletics staff directory.\n\nIMPORTANT — QUOTE FORMAT / WHY QUOTES ARE NAME-ONLY: Both rolltide.com pages and the Wikipedia coaching-staff section render the person and their title in SEPARATE ADJACENT TABLE CELLS, not as contiguous running text. Any quote spanning name+title would depend on how the fetching tool serializes an HTML table (a markdown converter yields \"Nick Saban |  Head Coach  | ...\", while tag-stripping yields \"Nick Saban\\n\\t\\t\\tHead Coach\"), so such a quote could not be reliably string-matched. I therefore set each quote to the person's name EXACTLY as spelled on the cited page — verified by grep to be present in that page's text — and put the verbatim title-cell text in the source `note`. The `role` field reproduces the title exactly as the source words it. This trades quote breadth for guaranteed matchability; the role attribution is documented in the note rather than inside the quote string.\n\nNAME-SPELLING NOTE: where the directory and Wikipedia disagree, the quote matches the cited page. Directory says \"AJ Milwee\" and \"Michael Stoops\"; Wikipedia says \"A. J. Milwee\" and \"Mike Stoops\".\n\nRING-RULE / MID-SEASON DEPARTURES (championship game was Jan 11, 2021):\n- Butch Jones (Special Assistant to Head Coach) was hired as Arkansas State head coach Dec 12, 2020, BEFORE the title game. He is present in the Nov 6 directory and absent from the Jan 22, 2021 capture. Flagged; his presence at the championship game is NOT established.\n- Major Applewhite (Football Analyst) was hired as South Alabama offensive coordinator Dec 21, 2020, BEFORE the title game. Same evidence pattern. Flagged; presence at the championship game NOT established.\n- Steve Sarkisian was named Texas head coach Jan 2, 2021 but remained Alabama's OC through the title game (Wikipedia lists his Alabama tenure as 2019–2020; he won the 2020 Broyles Award as Alabama's OC). Retained.\n- Charles Huff (Marshall, Jan 16, 2021), Jeff Banks and Kyle Flood (Texas), and analysts Gordon Steele, AJ Milwee, Charlie Strong and Shiloh Keo all disappear between the Nov 6, 2020 and Jan 22, 2021 directory captures, but their moves are dated after Jan 11, 2021, so they are treated as on staff at the championship game.\n- I did NOT include Bill O'Brien, who appears as \"Offensive Coordinator/Quarterbacks\" in the Jan 22, 2021 capture. He replaced Sarkisian AFTER the championship game and was not on the 2020 staff.\n\nWHAT I COULD NOT DOCUMENT:\n- The 2020 Alabama football media guide (cited by Wikipedia as its own source, p. 2) was not retrieved; I could not use it to cross-check analyst/GA titles or to recover roles the website omitted.\n- The athletics staff directory lists NO graduate assistants and NO quality-control staff for football. The four GAs come from Wikipedia only, and Wikipedia gives no individual titles beyond the \"Graduate assistants\" heading — so their exact 2020 job titles are undocumented here. No one is categorized \"qc\" because no source documented a quality-control title.\n- Student managers, video/recruiting interns, and player-personnel scouting assistants are not in any source I reached, so they are absent. Video Operations exists as a separate athletics department but no entry there is football-tagged, so I excluded it.\n- Josh Hampton (\"Associate Director, Sports Performance\") is INCLUDED WITH UNCERTAINTY: unlike every other strength coach, his directory entry carries no sport tag in parentheses. The other two untagged entries in that department (David Ballou, Matt Rhea) are independently confirmed as football via source (A)'s \"2020 Football Support Staff\" table, which is why I infer he is football-side too — but that assignment is an inference, not something a source states.\n- Athletics-wide staff (nutrition, academics, communications, equipment director, behavioral medicine, etc.) were excluded unless their title explicitly names Football, so a few people who genuinely supported the team are likely missing.\n- Wikipedia's analyst list and the directory's analyst list disagree slightly: Rob Ezell appears only on Wikipedia (included, cited to Wikipedia); the directory adds no analyst that Wikipedia lacks.\n\nTOTAL: 61 people, every one carrying a quote verified present in the cited page. No names were added from memory or inference about who \"must\" have been there.",
+  "staff": [
+    {
+      "name": "Nick Saban",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Nick Saban",
+          "note": "Listed under the heading \"2020 Football Coaching Staff\" on Alabama's own football staff page (Wayback capture Nov 9, 2020). The adjacent Title cell reads exactly: Head Coach"
+        }
+      ]
+    },
+    {
+      "name": "Steve Sarkisian",
+      "role": "Offensive Coordinator/Quarterbacks",
+      "role_category": "onfield",
+      "midseason_note": "Named Texas head coach Jan 2, 2021, but remained Alabama's offensive coordinator through the Jan 11, 2021 championship game; Wikipedia lists his Alabama tenure as 2019-2020 and he won the 2020 Broyles Award as Alabama's OC. On staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Steve Sarkisian",
+          "note": "Under \"2020 Football Coaching Staff\". Adjacent Title cell reads exactly: Offensive Coordinator/Quarterbacks"
+        }
+      ]
+    },
+    {
+      "name": "Pete Golding",
+      "role": "Defensive Coordinator/Inside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Pete Golding",
+          "note": "Under \"2020 Football Coaching Staff\". Adjacent Title cell reads exactly: Defensive Coordinator/Inside Linebackers"
+        }
+      ]
+    },
+    {
+      "name": "Charles Huff",
+      "role": "Associate Head Coach/Running Backs",
+      "role_category": "onfield",
+      "midseason_note": "Hired as Marshall head coach Jan 16, 2021, five days AFTER the championship game. On staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Charles Huff",
+          "note": "Under \"2020 Football Coaching Staff\". Adjacent Title cell reads exactly: Associate Head Coach/Running Backs"
+        }
+      ]
+    },
+    {
+      "name": "Charles Kelly",
+      "role": "Associate Defensive Coordinator/Safeties",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Charles Kelly",
+          "note": "Under \"2020 Football Coaching Staff\". Adjacent Title cell reads exactly: Associate Defensive Coordinator/Safeties"
+        }
+      ]
+    },
+    {
+      "name": "Jeff Banks",
+      "role": "Special Teams Coordinator/Tight Ends",
+      "role_category": "onfield",
+      "midseason_note": "Left for Texas with Sarkisian after the season; present in the Nov 6, 2020 directory and gone by the Jan 22, 2021 capture. On staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Jeff Banks",
+          "note": "Under \"2020 Football Coaching Staff\". Adjacent Title cell reads exactly: Special Teams Coordinator/Tight Ends"
+        }
+      ]
+    },
+    {
+      "name": "Kyle Flood",
+      "role": "Offensive Line",
+      "role_category": "onfield",
+      "midseason_note": "Left for Texas with Sarkisian after the season; present in the Nov 6, 2020 directory and gone by the Jan 22, 2021 capture. On staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Kyle Flood",
+          "note": "Under \"2020 Football Coaching Staff\". Adjacent Title cell reads exactly: Offensive Line"
+        }
+      ]
+    },
+    {
+      "name": "Holmon Wiggins",
+      "role": "Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Holmon Wiggins",
+          "note": "Under \"2020 Football Coaching Staff\". Adjacent Title cell reads exactly: Wide Receivers"
+        }
+      ]
+    },
+    {
+      "name": "Karl Scott",
+      "role": "Cornerbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Karl Scott",
+          "note": "Under \"2020 Football Coaching Staff\". Adjacent Title cell reads exactly: Cornerbacks"
+        }
+      ]
+    },
+    {
+      "name": "Sal Sunseri",
+      "role": "Outside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Sal Sunseri",
+          "note": "Under \"2020 Football Coaching Staff\". Adjacent Title cell reads exactly: Outside Linebackers"
+        }
+      ]
+    },
+    {
+      "name": "Freddie Roach",
+      "role": "Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Freddie Roach",
+          "note": "Under \"2020 Football Coaching Staff\". Adjacent Title cell reads exactly: Defensive Line"
+        }
+      ]
+    },
+    {
+      "name": "Joe Pendry",
+      "role": "Special Assistant to Head Coach",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Joe Pendry",
+          "note": "In the \"Football - Box 870323, Tuscaloosa, AL 35487\" section of the Nov 6, 2020 staff directory. Adjacent Title cell reads exactly: Special Assistant to Head Coach"
+        }
+      ]
+    },
+    {
+      "name": "Butch Jones",
+      "role": "Special Assistant to Head Coach",
+      "role_category": "other",
+      "midseason_note": "DEPARTED BEFORE THE CHAMPIONSHIP GAME: hired as Arkansas State head coach Dec 12, 2020, roughly a month before the Jan 11, 2021 title game. Present in the Nov 6, 2020 directory, absent from the Jan 22, 2021 capture. Presence on staff at the championship game is not established.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Butch Jones",
+          "note": "In the Football section of the Nov 6, 2020 staff directory. Adjacent Title cell reads exactly: Special Assistant to Head Coach. Wikipedia also lists him among 2020 Analysts."
+        }
+      ]
+    },
+    {
+      "name": "Ellis Ponder",
+      "role": "Associate Athletics Director, Football Chief Operating Officer",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Ellis Ponder",
+          "note": "Listed under the heading \"2020 Football Support Staff\". Adjacent Title cell reads exactly: Associate Athletics Director, Football Chief Operating Officer"
+        }
+      ]
+    },
+    {
+      "name": "JT Summerford",
+      "role": "Director, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "JT Summerford",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Director, Football Operations"
+        }
+      ]
+    },
+    {
+      "name": "Brandy Lyerly",
+      "role": "Associate Director, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Brandy Lyerly",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Associate Director, Football Operations"
+        }
+      ]
+    },
+    {
+      "name": "Ashleigh Kimble",
+      "role": "Associate Director, Recruiting Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Ashleigh Kimble",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Associate Director, Recruiting Operations"
+        }
+      ]
+    },
+    {
+      "name": "Sam Petitto",
+      "role": "Director, Personnel Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Sam Petitto",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Director, Personnel Operations"
+        }
+      ]
+    },
+    {
+      "name": "Bob Welton",
+      "role": "Director, Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Bob Welton",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Director, Player Personnel"
+        }
+      ]
+    },
+    {
+      "name": "Roger Bedford",
+      "role": "Assistant Director, Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Roger Bedford",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Assistant Director, Player Personnel"
+        }
+      ]
+    },
+    {
+      "name": "Marc Votteler",
+      "role": "Assistant Director, Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Marc Votteler",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Assistant Director, Player Personnel"
+        }
+      ]
+    },
+    {
+      "name": "Denzel Devall",
+      "role": "Director, Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Denzel Devall",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Director, Player Development"
+        }
+      ]
+    },
+    {
+      "name": "Josh Chapman",
+      "role": "Director, Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Josh Chapman",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Director, Player Development"
+        }
+      ]
+    },
+    {
+      "name": "Evan Van Nostrand",
+      "role": "Assistant Director, Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Evan Van Nostrand",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Assistant Director, Player Development"
+        }
+      ]
+    },
+    {
+      "name": "Daniel Bush",
+      "role": "Director, Football Recruitment",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Daniel Bush",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Director, Football Recruitment"
+        }
+      ]
+    },
+    {
+      "name": "Makenzie Votteler",
+      "role": "Associate Director, Football Recruitment",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Makenzie Votteler",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Associate Director, Football Recruitment"
+        }
+      ]
+    },
+    {
+      "name": "Kelli Kuharich",
+      "role": "Coordinator, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Kelli Kuharich",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Coordinator, Football Operations"
+        }
+      ]
+    },
+    {
+      "name": "Carrigan Johnson",
+      "role": "Coordinator, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Carrigan Johnson",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Coordinator, Football Operations"
+        }
+      ]
+    },
+    {
+      "name": "Cedric Burns",
+      "role": "Athletics Relations Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Cedric Burns",
+          "note": "Listed within the Football section of the Nov 6, 2020 directory. Adjacent Title cell reads exactly: Athletics Relations Coordinator"
+        }
+      ]
+    },
+    {
+      "name": "Savannah French",
+      "role": "Coordinator, Football Marketing",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Savannah French",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Coordinator, Football Marketing"
+        }
+      ]
+    },
+    {
+      "name": "Linda Leoni",
+      "role": "Administrative Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Linda Leoni",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Administrative Assistant"
+        }
+      ]
+    },
+    {
+      "name": "Glenda Edwards",
+      "role": "Administrative Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Glenda Edwards",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Administrative Secretary"
+        }
+      ]
+    },
+    {
+      "name": "Dean Altobelli",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Dean Altobelli",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Also listed under \"Analysts\" on the Wikipedia 2020 team page."
+        }
+      ]
+    },
+    {
+      "name": "Gordon Steele",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "midseason_note": "Present in the Nov 6, 2020 directory but absent from the Jan 22, 2021 capture; no source found dating his departure before the Jan 11, 2021 title game, so treated as on staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Gordon Steele",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Also listed under \"Analysts\" on Wikipedia."
+        }
+      ]
+    },
+    {
+      "name": "Nick Perry",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Nick Perry",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Also listed under \"Analysts\" on Wikipedia."
+        }
+      ]
+    },
+    {
+      "name": "Javier Arenas",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Javier Arenas",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Also listed under \"Analysts\" on Wikipedia."
+        }
+      ]
+    },
+    {
+      "name": "Michael Stoops",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Michael Stoops",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Wikipedia lists the same person as \"Mike Stoops\"; the quote matches the directory spelling."
+        }
+      ]
+    },
+    {
+      "name": "Major Applewhite",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "midseason_note": "DEPARTED BEFORE THE CHAMPIONSHIP GAME: hired as South Alabama offensive coordinator Dec 21, 2020 (after an initial Arkansas State OC hire Dec 13, 2020), roughly three weeks before the Jan 11, 2021 title game. Present in the Nov 6, 2020 directory, absent from the Jan 22, 2021 capture. Presence on staff at the championship game is not established.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Major Applewhite",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Also listed under \"Analysts\" on Wikipedia."
+        }
+      ]
+    },
+    {
+      "name": "AJ Milwee",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "midseason_note": "Followed Sarkisian to Texas after the season; present in the Nov 6, 2020 directory and gone by the Jan 22, 2021 capture. Treated as on staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "AJ Milwee",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Wikipedia spells him \"A. J. Milwee\"; the quote matches the directory spelling."
+        }
+      ]
+    },
+    {
+      "name": "Johnathan Galante",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Johnathan Galante",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Also listed under \"Analysts\" on Wikipedia."
+        }
+      ]
+    },
+    {
+      "name": "Alex Mortensen",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Alex Mortensen",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Also listed under \"Analysts\" on Wikipedia."
+        }
+      ]
+    },
+    {
+      "name": "Patrick Reilly",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Patrick Reilly",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Also listed under \"Analysts\" on Wikipedia."
+        }
+      ]
+    },
+    {
+      "name": "Charlie Strong",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "midseason_note": "Present in the Nov 6, 2020 directory and absent from the Jan 22, 2021 capture; his next job (Jacksonville Jaguars) came after the Jan 11, 2021 title game, so treated as on staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Charlie Strong",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Also listed under \"Analysts\" on Wikipedia."
+        }
+      ]
+    },
+    {
+      "name": "Bert Biffani",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Bert Biffani",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Also listed under \"Analysts\" on Wikipedia."
+        }
+      ]
+    },
+    {
+      "name": "Shiloh Keo",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "midseason_note": "Present in the Nov 6, 2020 directory but absent from the Jan 22, 2021 capture; no source found dating his departure before the Jan 11, 2021 title game, so treated as on staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Shiloh Keo",
+          "note": "Football section, Nov 6, 2020 directory. Adjacent Title cell reads exactly: Football Analyst. Also listed under \"Analysts\" on Wikipedia."
+        }
+      ]
+    },
+    {
+      "name": "Rob Ezell",
+      "role": "Analysts",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2020_Alabama_Crimson_Tide_football_team",
+          "quote": "Rob Ezell",
+          "note": "Listed as a bullet item under the \"Analysts\" subheading of the Personnel > Coaching staff section of the 2020 team page. NOTE: Ezell does NOT appear in the rolltide.com staff directory captures I checked; Wikipedia is the only source for him. His `role` is given as the heading text since Wikipedia supplies no individual title."
+        }
+      ]
+    },
+    {
+      "name": "Tino Sunseri",
+      "role": "Graduate assistants",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2020_Alabama_Crimson_Tide_football_team",
+          "quote": "Tino Sunseri",
+          "note": "Bullet item under the \"Graduate assistants\" subheading of the Personnel > Coaching staff section. Wikipedia supplies no individual title, so `role` reproduces the heading. The athletics staff directory lists no graduate assistants at all."
+        }
+      ]
+    },
+    {
+      "name": "Andy Kwon",
+      "role": "Graduate assistants",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2020_Alabama_Crimson_Tide_football_team",
+          "quote": "Andy Kwon",
+          "note": "Bullet item under the \"Graduate assistants\" subheading of the Personnel > Coaching staff section. No individual title given by the source."
+        }
+      ]
+    },
+    {
+      "name": "Max Bullough",
+      "role": "Graduate assistants",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2020_Alabama_Crimson_Tide_football_team",
+          "quote": "Max Bullough",
+          "note": "Bullet item under the \"Graduate assistants\" subheading of the Personnel > Coaching staff section. No individual title given by the source."
+        }
+      ]
+    },
+    {
+      "name": "Jake Long",
+      "role": "Graduate assistants",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2020_Alabama_Crimson_Tide_football_team",
+          "quote": "Jake Long",
+          "note": "Bullet item under the \"Graduate assistants\" subheading of the Personnel > Coaching staff section. No individual title given by the source."
+        }
+      ]
+    },
+    {
+      "name": "David Ballou",
+      "role": "Director of Sports Performance",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "David Ballou",
+          "note": "Listed under the heading \"2020 Football Support Staff\" on Alabama's football staff page. Adjacent Title cell reads exactly: Director of Sports Performance. Wikipedia's coaching-staff table lists him as \"Strength and conditioning\"."
+        }
+      ]
+    },
+    {
+      "name": "Matt Rhea",
+      "role": "Director of Sports Science",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201109025253/https://rolltide.com/sports/football/coaches",
+          "quote": "Matt Rhea",
+          "note": "Listed under the heading \"2020 Football Support Staff\". Adjacent Title cell reads exactly: Director of Sports Science"
+        }
+      ]
+    },
+    {
+      "name": "Josh Hampton",
+      "role": "Associate Director, Sports Performance",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Josh Hampton",
+          "note": "Strength and Conditioning section of the Nov 6, 2020 directory. Adjacent Title cell reads exactly: Associate Director, Sports Performance. FOOTBALL ASSIGNMENT IS INFERRED, NOT STATED: his entry carries no sport tag in parentheses, unlike most strength staff; the only other untagged entries (Ballou, Rhea) are confirmed football via the \"2020 Football Support Staff\" page. Treat as lower confidence."
+        }
+      ]
+    },
+    {
+      "name": "Tyler Owens",
+      "role": "Assistant Strength and Conditioning Coach (Football)",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Tyler Owens",
+          "note": "Strength and Conditioning section of the Nov 6, 2020 directory. Adjacent Title cell reads exactly: Assistant Strength and Conditioning Coach (Football). Present in the in-season capture; absent from the Jan 22, 2021 capture."
+        }
+      ]
+    },
+    {
+      "name": "Matthew Clapp",
+      "role": "Assistant Strength and Conditioning Coach (Football)",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Matthew Clapp",
+          "note": "Strength and Conditioning section of the Nov 6, 2020 directory. Adjacent Title cell reads exactly: Assistant Strength and Conditioning Coach (Football)"
+        }
+      ]
+    },
+    {
+      "name": "Paul Constantine",
+      "role": "Assistant Strength and Conditioning Coach (Football)",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Paul Constantine",
+          "note": "Strength and Conditioning section of the Nov 6, 2020 directory. Adjacent Title cell reads exactly: Assistant Strength and Conditioning Coach (Football)"
+        }
+      ]
+    },
+    {
+      "name": "Jeff Allen",
+      "role": "Associate Athletics Director, Sports Medicine (Football)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Jeff Allen",
+          "note": "Athletic Training section of the Nov 6, 2020 directory. Adjacent Title cell reads exactly: Associate Athletics Director, Sports Medicine (Football)"
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Gsell",
+      "role": "Director, Football Rehabilitation Services",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Jeremy Gsell",
+          "note": "Athletic Training section of the Nov 6, 2020 directory. Adjacent Title cell reads exactly: Director, Football Rehabilitation Services"
+        }
+      ]
+    },
+    {
+      "name": "Ryan Vicknair",
+      "role": "Athletic Trainer (Football)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Ryan Vicknair",
+          "note": "Athletic Training section of the Nov 6, 2020 directory. Adjacent Title cell reads exactly: Athletic Trainer (Football)"
+        }
+      ]
+    },
+    {
+      "name": "Bobby Feeback",
+      "role": "Athletic Trainer (Football)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Bobby Feeback",
+          "note": "Athletic Training section of the Nov 6, 2020 directory. Adjacent Title cell reads exactly: Athletic Trainer (Football)"
+        }
+      ]
+    },
+    {
+      "name": "Kyle Smith",
+      "role": "Assistant Athletic Equipment Manager, Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Kyle Smith",
+          "note": "Equipment section of the Nov 6, 2020 directory. Adjacent Title cell reads exactly: Assistant Athletic Equipment Manager, Football"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "team": "Florida State",
+  "season": 1993,
+  "staff": [
+    {
+      "name": "Bobby Bowden",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Bobby Bowden, Head Coach",
+          "note": "nolefan.org \"1993 Football - Year In Review\" page, \"Coaching Staff\" block."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1993_Florida_State_Seminoles_football_team",
+          "quote": "Led by 18th-year head coach Bobby Bowden, the Seminoles compiled an overall record of 12–1",
+          "note": "Lead paragraph of the team-season article. Note the en dash in 12–1."
+        }
+      ]
+    },
+    {
+      "name": "Chuck Amato",
+      "role": "Assistant Head Coach, Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Chuck Amato, Assistant Head Coach, Defensive Line"
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Chuck Amato",
+          "note": "1993 FSU Football Media Guide, assistant coaches section. The OCR of this scan is heavily degraded; on the same page the position header lines read 'ASSISTANTHEADCOACH' and 'DEFENSIVE LINE' but they are split onto separate lines from the name, so only the name is quoted here."
+        },
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Chuck Amato",
+          "note": "Listed under the article's 'Coaches and Staff:' heading of 1993 national championship team members honored at the 30th anniversary celebration."
+        }
+      ]
+    },
+    {
+      "name": "Mickey Andrews",
+      "role": "Defensive Coordinator, Defensive Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Mickey Andrews, Defensive Coordinator, Defensive Backs"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1993_Florida_State_Seminoles_football_team",
+          "quote": "Mickey Andrews",
+          "note": "Infobox 'Defensive coordinator' field, listed as 10th season."
+        },
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Mickey Andrews",
+          "note": "Under the 'Coaches and Staff:' heading of 1993 championship team honorees."
+        }
+      ]
+    },
+    {
+      "name": "Brad Scott",
+      "role": "Offensive Coordinator, Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Brad Scott, Offensive Coordinator, Offensive Line"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1993_Florida_State_Seminoles_football_team",
+          "quote": "Brad Scott",
+          "note": "Infobox 'Offensive coordinator' field, listed as 4th season."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Brad_Scott_(American_football)",
+          "quote": "the last four as [[offensive coordinator]]",
+          "note": "Quote is from the article wikitext (action=raw). Article gives his FSU coaching years as 1990–1993 and South Carolina head coach from 1994, i.e. he finished the 1993 season including the Orange Bowl."
+        }
+      ]
+    },
+    {
+      "name": "Mark Richt",
+      "role": "Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Mark Richt, Quarterbacks"
+        },
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Mark Richt",
+          "note": "Under the 'Coaches and Staff:' heading of 1993 championship team honorees."
+        }
+      ]
+    },
+    {
+      "name": "Billy Sexton",
+      "role": "Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Billy Sexton, Running Backs"
+        },
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Billy Sexton",
+          "note": "Under the 'Coaches and Staff:' heading of 1993 championship team honorees."
+        }
+      ]
+    },
+    {
+      "name": "John Eason",
+      "role": "Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "John Eason, Receivers"
+        },
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "John Eason",
+          "note": "Under the 'Coaches and Staff:' heading of 1993 championship team honorees."
+        }
+      ]
+    },
+    {
+      "name": "Jimmy Heggins",
+      "role": "Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Jimmy Heggins, Offensive Line"
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Jimmy Heggins",
+          "note": "1993 FSU Football Media Guide assistant-coach bio. The two lines immediately following his name in the OCR read 'OFFENSIVELINE' and 'EIGHTH SEASON AT FSU', confirming offensive line and his eighth FSU season, but they are on separate lines from the name."
+        }
+      ]
+    },
+    {
+      "name": "Wally Burnham",
+      "role": "Inside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Wally Burnham, Inside Linebackers"
+        },
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Wally Burnham",
+          "note": "Under the 'Coaches and Staff:' heading of 1993 championship team honorees."
+        }
+      ]
+    },
+    {
+      "name": "Jim Gladden",
+      "role": "Outside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Jim Gladden, Outside Linebackers"
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Jim Gladden",
+          "note": "1993 FSU Football Media Guide assistant-coach bio; the following OCR line reads '‘OUTSIDE LINEBACKERS:' and the next 'ISTH SEASON AT' (18th season at FSU)."
+        },
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Jim Gladden",
+          "note": "Under the 'Coaches and Staff:' heading of 1993 championship team honorees."
+        }
+      ]
+    },
+    {
+      "name": "Dave Van Halanger",
+      "role": "STRENGTH & CONDITIONING",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Van Halanger",
+          "note": "1993 FSU Football Media Guide staff bio. In the OCR the name appears as 'Dave' / 'Van Halanger' on consecutive lines, followed by 'STRENGTH & ', 'CONDITIONING ', '(WEST. VIRGINIA 76) ' and 'HTH SEASON AT FSU ' (11th season at FSU). Only the surname is quoted because the scan splits name and title across lines."
+        },
+        {
+          "url": "https://usastrengthcoacheshf.com/member/dave-van-halanger",
+          "quote": "In 1983 he joined Bowden at Florida State University where he helped the Seminoles claim nine consecutive Atlantic Coast Conference championships (1992-2000), two national titles (1993 and 1999)",
+          "note": "USA Strength and Conditioning Coaches Hall of Fame bio; confirms he was FSU's strength coach through the 1993 title. Note: nolefan.org's 1993 coaching-staff list omits him even though it lists two graduate assistants as 'Assistant Strength Coach'."
+        }
+      ]
+    },
+    {
+      "name": "Mark Salva",
+      "role": "Graduate Assistant, Offensive Line",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Mark Salva, Graduate Assistant, Offensive Line"
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Mark Salva",
+          "note": "1993 FSU Football Media Guide 'GRADUATE ASSISTANTS' page (OCR renders the page header as 'GRADUATE' / 'SSISTANTS')."
+        }
+      ]
+    },
+    {
+      "name": "Bill Ragans",
+      "role": "Graduate Assistant, Defensive Backs",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Bill Ragans, Graduate Assistant, Defensive Backs"
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Bill Ragans",
+          "note": "1993 FSU Football Media Guide graduate assistants page; surrounding OCR text reads 'Bill Ragans retums to' / 'praduate asuatarc coach forthe Romina Dolerse' and references 'assisting. iickey Kndtese win coughing. the Gelensive backs in 1983' (garbled: assisting Mickey Andrews in coaching the defensive backs in 1993)."
+        }
+      ]
+    },
+    {
+      "name": "Bill Morris",
+      "role": "Graduate Assistant, Assistant Strength Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Bill Morris, Graduate Assistant, Assistant Strength Coach"
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "18a Moris",
+          "note": "OCR of the photo caption for Bill Morris on the 1993 media guide 'GRADUATE ASSISTANTS' page. Name is garbled in the scan; corrected spelling comes from the nolefan.org 1993 staff list."
+        }
+      ]
+    },
+    {
+      "name": "David Stallworth",
+      "role": "Graduate Assistant, Assistant Strength Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "David Stallworth, Graduate Assistant, Assistant Strength Coach",
+          "note": "Only source found for this person; he does not appear in the legible portions of the 1993 media guide OCR."
+        }
+      ]
+    },
+    {
+      "name": "Ronnie Cottrell",
+      "role": "Recruiting Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://www.nolefan.org/summary/f1993.html",
+          "quote": "Ronnie Cottrell, Recruiting Coordinator"
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "FOURTH SEASON AT FSU",
+          "note": "1993 FSU Football Media Guide bio page for Cottrell (headed '(TROY STATE 'S3)' / 'FOURTH SEASON AT FSU'). OCR of his name is garbled to 'Cotvel'/'Conrea'; body text reads 'ii his fourth soe son Se recrutng coordinator at Fionoa Stale' (garbled: his fourth season as recruiting coordinator at Florida State)."
+        },
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Ronnie Cottrell",
+          "note": "Under the 'Coaches and Staff:' heading of 1993 championship team honorees."
+        }
+      ]
+    },
+    {
+      "name": "Sue Hall",
+      "role": "Administrative Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Swe Hall Carol Moore MaryJo.O'Donnell Marla Dreiling",
+          "note": "1993 FSU Football Media Guide 'FOOTBALL SUPPORT STAFF' page, 'Football Secretaries' photo row. Name OCR'd as 'Swe Hall'. The caption line directly beneath reads 'Aamnisvatve Assstare  Ohenea Secretary Detenia Secrtary——Recruting Secretary' (Administrative Assistant / Offensive Secretary / Defensive Secretary / Recruiting Secretary), aligning Hall with Administrative Assistant. The media-information pages also identify her as Bobby Bowden's assistant for interview scheduling."
+        },
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Sue Hall",
+          "note": "Under the 'Coaches and Staff:' heading of 1993 championship team honorees."
+        }
+      ]
+    },
+    {
+      "name": "Carol Moore",
+      "role": "Offensive Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Swe Hall Carol Moore MaryJo.O'Donnell Marla Dreiling",
+          "note": "1993 media guide 'Football Secretaries' photo row; the role caption line beneath reads 'Aamnisvatve Assstare  Ohenea Secretary Detenia Secrtary——Recruting Secretary', placing Moore at 'Ohenea Secretary' (Offensive Secretary)."
+        },
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Carol Moore",
+          "note": "Under the 'Coaches and Staff:' heading of 1993 championship team honorees."
+        }
+      ]
+    },
+    {
+      "name": "Mary Jo O'Donnell",
+      "role": "Defensive Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Swe Hall Carol Moore MaryJo.O'Donnell Marla Dreiling",
+          "note": "1993 media guide 'Football Secretaries' photo row (name OCR'd without the space, as 'MaryJo.O'Donnell'); role caption beneath reads 'Detenia Secrtary' (Defensive Secretary) in her position."
+        }
+      ]
+    },
+    {
+      "name": "Marla Dreiling",
+      "role": "Recruiting Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Swe Hall Carol Moore MaryJo.O'Donnell Marla Dreiling",
+          "note": "1993 media guide 'Football Secretaries' photo row; role caption beneath ends 'Recruting Secretary' in her position."
+        }
+      ]
+    },
+    {
+      "name": "Randy Oravetz",
+      "role": "Head Trainer / Director of Sports Medicine",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Randy Oravetz",
+          "note": "Under the 'Coaches and Staff:' heading of 1993 national championship team members honored at the 30th anniversary celebration."
+        },
+        {
+          "url": "https://seminoles.com/honors/florida-state-athletics-hall-of-fame/randy-oravatz/240",
+          "quote": "Randy Oravetz graduated from FSU in 1979 and worked under legendary athletic trainer Don Fauls as a graduate assistant and assistant before taking over as Director of Sports Medicine in 1986 and served in that capacity until 2010.",
+          "note": "FSU Athletics Hall of Fame bio; the same page adds 'he was directly responsible for the daily care and treatment of the football team.' His 1986-2010 tenure covers the 1993 season. In the 1993 media guide his bio page header is OCR'd unreadably ('Gavel leads astatoftes' = 'Oravetz leads a staff of ...'); the 1994 FSU media guide states it cleanly as 'RANDY ORAVETZ' / 'HEAD TRAINER'."
+        }
+      ]
+    },
+    {
+      "name": "Jack Marucci",
+      "role": "ASSISTANT TRAINER",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Jack Marucei",
+          "note": "1993 FSU Football Media Guide trainers page; his surname is OCR'd as 'Marucei'. The three lines directly beneath read 'ASSISTANT TRAINER ', '(VEST VIRGINIA '$6) ' and 'SIXTH SEASON AT FSU '."
+        },
+        {
+          "url": "https://lsusports.net/staff/jack-marucci",
+          "quote": "Marucci served as an assistant athletic trainer at Florida State from 1988-96, a stint that included eight bowl trips with the Seminoles.",
+          "note": "LSU staff bio; confirms he was an FSU assistant athletic trainer across the 1993 season."
+        }
+      ]
+    },
+    {
+      "name": "Andy Barker",
+      "role": "ASSISTANT TRAINER",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Andy Barker",
+          "note": "1993 FSU Football Media Guide trainers page; the following lines read '‘ASSISTANT TRAINER ', '{CLEMSON '38) ' and 'SIXTH SEASON AT FSU '. Body text begins '11003, Anay Barer' (OCR of 'In 1993, Andy Barker ...')."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Tom Haney",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Dr. Tom Haney Doug Henderson Dr. Kris Stowers Dr. Emory Cain.",
+          "note": "1993 FSU Football Media Guide 'FOOTBALL SUPPORT STAFF' page photo row. The caption line immediately beneath reads 'Team Physician Team Pryscian Team Physician Team Dentist Peon Come', mapping Haney to Team Physician."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Doug Henderson",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Dr. Tom Haney Doug Henderson Dr. Kris Stowers Dr. Emory Cain.",
+          "note": "1993 media guide support-staff photo row (OCR drops his 'Dr.'; the 1994 FSU media guide renders the same row as 'DR TOM HANEY DR DOUG HENDERSON DRERISSTOWERS DREMORYCAIN'). Role line beneath reads 'Team Physician Team Pryscian Team Physician Team Dentist Peon Come' — 'Team Pryscian' is Team Physician in his position."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Kris Stowers",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Dr. Tom Haney Doug Henderson Dr. Kris Stowers Dr. Emory Cain.",
+          "note": "1993 media guide support-staff photo row; role caption line beneath aligns him with 'Team Physician'."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Emory Cain",
+      "role": "Team Dentist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Dr. Tom Haney Doug Henderson Dr. Kris Stowers Dr. Emory Cain.",
+          "note": "1993 media guide support-staff photo row; role caption line beneath ends 'Team Dentist' in his position."
+        }
+      ]
+    },
+    {
+      "name": "Jimmie Callaway",
+      "role": "EQUIPMENT MANAGER",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "FQUIPMENT MANAGER",
+          "note": "1993 FSU Football Media Guide equipment page. OCR renders the header as 'Jimmie ' / 'FQUIPMENT MANAGER ' / 'ITH SEASON AT FSU ' (surname lost); the body reads 'A17-yoarveteranolmoFSU aniote sail Jrnia Calaway ‘Sere hs lout season as the Read equimant manager if 1983' — a 17-year veteran of the FSU athletic staff, Jimmie Callaway serving his fourth season as head equipment manager in 1993."
+        }
+      ]
+    },
+    {
+      "name": "Dave Delegal",
+      "role": "Coaches and Staff (specific 1993 title not stated; later described as FSU's 'longtime equipment manager')",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Dave Delegal",
+          "note": "Listed under the article's 'Coaches and Staff:' heading of 1993 national championship team members honored at the 30th anniversary celebration. No title is given for him there, and he is not identifiable in the legible OCR of the 1993 media guide."
+        },
+        {
+          "url": "https://seminoles.com/news/2008/6/16/darin-kerns-takes-over-equipment-operations-for-fsu-football",
+          "quote": "Kerns replaces longtime equipment manager Dave Delegal who accepted a job outside of college athletics.",
+          "note": "Establishes his equipment role at FSU but does not itself date his tenure back to 1993; the 1993 linkage rests on the anniversary honoree list."
+        }
+      ]
+    },
+    {
+      "name": "Mark Rodin",
+      "role": "Videographer",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Mark Rodin Keith Creel Clint Ledbetter",
+          "note": "1993 FSU Football Media Guide 'FOOTBALL SUPPORT STAFF' page video row. The role caption line two lines below reads 'Vieograpner vetogracret Vioeo Anas Academe Advsor' (Videographer / Videographer / Video Analyst / Academic Advisor), mapping Rodin to Videographer."
+        }
+      ]
+    },
+    {
+      "name": "Keith Creel",
+      "role": "Videographer",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Mark Rodin Keith Creel Clint Ledbetter",
+          "note": "1993 media guide support-staff video row; role caption 'Vieograpner vetogracret Vioeo Anas Academe Advsor' places Creel at the second 'Videographer' slot."
+        }
+      ]
+    },
+    {
+      "name": "Clint Ledbetter",
+      "role": "Video Analyst",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Mark Rodin Keith Creel Clint Ledbetter",
+          "note": "1993 media guide support-staff video row; role caption 'Vieograpner vetogracret Vioeo Anas Academe Advsor' places Ledbetter at 'Vioeo Anas' = Video Analyst. Categorized 'other' rather than 'analyst' because this is a film/video room role, not a modern football analyst position."
+        }
+      ]
+    },
+    {
+      "name": "Mark Meleney",
+      "role": "Academic Advisor",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Mark Meleney",
+          "note": "1993 FSU Football Media Guide 'FOOTBALL SUPPORT STAFF' page; the role caption line immediately beneath reads 'Vieograpner vetogracret Vioeo Anas Academe Advsor', with 'Academe Advsor' (Academic Advisor) in his position."
+        }
+      ]
+    },
+    {
+      "name": "Clint Purvis",
+      "role": "Team Chaplain",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Majo Billy Sith Pamela Eaves Cline Puri Nick Menae",
+          "note": "1993 FSU Football Media Guide 'FOOTBALL SUPPORT STAFF' page photo row; his name is OCR'd as 'Cline Puri'. The role caption line beneath ('Taoey Deets, ‘om apa RetMeteane Beata ') is too degraded to read. The 1994 FSU media guide renders the same photo row cleanly as 'CLINT PURVIS NICK MENACOP BETTY GIBSON'."
+        },
+        {
+          "url": "https://www.baptistpress.com/resource-library/news/bowden-saw-his-players-as-more-than-a-jersey-says-longtime-fsu-chaplain/",
+          "quote": "Clint Purvis",
+          "note": "Baptist Press profile identifying Purvis as the longtime FSU football team chaplain who walked the sidelines with Bobby Bowden for 21 years, a span that covers 1993. Role wording 'Team Chaplain' is inferred from this source, not from a 1993 document."
+        }
+      ]
+    },
+    {
+      "name": "Major Billy Smith",
+      "role": "Listed on the 1993 media guide Football Support Staff page (title illegible in the scan's OCR)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Majo Billy Sith Pamela Eaves Cline Puri Nick Menae",
+          "note": "1993 FSU Football Media Guide 'FOOTBALL SUPPORT STAFF' page photo row; name OCR'd as 'Majo Billy Sith'. The 1994 FSU media guide renders the same row as 'MARK RODIN KEITH CREEL ‘MAJOR BILLY SMITH PAMELA EAVES:'. The role caption line under the 1993 row ('Taoey Deets, ‘om apa RetMeteane Beata ') is unreadable, so no title is asserted."
+        }
+      ]
+    },
+    {
+      "name": "Pamela Eaves",
+      "role": "Listed on the 1993 media guide Football Support Staff page (title illegible in the scan's OCR)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Majo Billy Sith Pamela Eaves Cline Puri Nick Menae",
+          "note": "1993 FSU Football Media Guide 'FOOTBALL SUPPORT STAFF' page photo row; her name is the one legible entry in the row. Role caption line beneath is unreadable OCR."
+        }
+      ]
+    },
+    {
+      "name": "Nick Menacop",
+      "role": "Listed on the 1993 media guide Football Support Staff page (title illegible in the scan's OCR)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Majo Billy Sith Pamela Eaves Cline Puri Nick Menae",
+          "note": "1993 FSU Football Media Guide 'FOOTBALL SUPPORT STAFF' page photo row; name OCR'd as 'Nick Menae y'. Spelling corrected from the 1994 FSU media guide's cleaner rendering of the same row, 'CLINT PURVIS NICK MENACOP BETTY GIBSON'. Role caption line unreadable."
+        }
+      ]
+    },
+    {
+      "name": "Wayne Hogan",
+      "role": "Assistant Athletic Director for Communications / Sports Information Director",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Wayne Hogan",
+          "note": "Under the 'Coaches and Staff:' heading of 1993 championship team honorees."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "Wayne Hogan",
+          "note": "1993 FSU Football Media Guide staff directory; adjacent OCR lines read 'ATHLETIC DIRECTOR)' / '‘COMMUNICATIONS'. His bio page reads 'Wayre Hogar his 12h year one athe stat begins hs Second year ss ASaiiant A fate Director tor Communi Gators 1993.' (12th year on the staff, second year as Assistant Athletic Director for Communications in 1993). This is an athletics-department role, not a football-only position."
+        }
+      ]
+    },
+    {
+      "name": "Rob Wilson",
+      "role": "ASSOCIATE SPORTS INFORMATION DIRECTOR",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://www.si.com/college/fsu/football/florida-state-to-honor-70-former-coaches-players-during-1993-national-championship-celebration",
+          "quote": "Rob Wilson",
+          "note": "Under the 'Coaches and Staff:' heading of 1993 championship team honorees."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-1993-media-guide/Florida%20State%20Football%2C%201993%20Media%20Guide_djvu.txt",
+          "quote": "ASSOCIATE SPORTS",
+          "note": "1993 FSU Football Media Guide bio page; the OCR reads 'Rob Wilson ' / 'ASSOCIATE SPORTS ' / 'INFORMATION ' / 'DIRECTOR ' on consecutive lines. Caveat: the guide's media directory tags him '(BB)' for basketball and lists Donna Turner '(FB)' as the football contact, so his inclusion on the 1993 football staff rests on the anniversary honoree list rather than a football title."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "TIERS RECOVERED IN FULL: head coach (1) and all nine on-field assistants permitted under the era's NCAA limit (Amato, Andrews, Burnham, Eason, Gladden, Heggins, Richt, Scott, Sexton); strength and conditioning (Van Halanger); four graduate assistants (Salva, Ragans, Morris, Stallworth); recruiting coordinator (Cottrell); the four football secretaries/administrative staff; seven medical staff; head equipment manager; and the video/academic support row.\n\nSOURCE PATH AND WHAT EACH STEP YIELDED. (1) Wikipedia's 1993 team-season page has no coaching-staff section at all — its infobox documents only Bowden, Scott and Andrews, and the footer navbox adds only Amato and Richt with no roles. It was insufficient on its own. (2) NO archived FSU athletics staff directory exists near the title date. Florida State had no athletics website in fall 1993 / January 1994 (seminoles.com postdates this by years), so the Wayback Machine step of the plan is a genuine dead end for this season, not merely unsearched. (3) The 1993 Florida State Football Media Guide (200 pages) IS available on archive.org (item florida-state-football-1993-media-guide) and is the primary document behind most rows here. Its OCR is severely degraded: name and job-title lines are almost always split across separate lines, and many names are mangled ('Jack Marucei' for Marucci, 'Swe Hall' for Sue Hall, 'Cline Puri' for Clint Purvis, '18a Moris' for Bill Morris, 'Majo Billy Sith' for Major Billy Smith). Every quote I supply from that file was byte-verified against a fresh download of the _djvu.txt, but many are name-only fragments with the role explained in the accompanying note rather than contained in the quote itself. (4) nolefan.org's '1993 Football - Year In Review' page carries a clean, single-line 'Coaching Staff' roster that matches the media guide item-for-item; it is the best-formed source for the on-field staff and graduate assistants and is the only source I found for David Stallworth. It is a fan-run site, so I have paired it with the media guide or contemporary/official sources wherever possible. (5) Sports Illustrated's and 247Sports' 2023 30th-anniversary articles list 15 people under a 'Coaches and Staff' heading, which corroborates nine of the coaches and supplies Oravetz, Hall, Moore, Hogan, Wilson and Delegal.\n\nWHAT I COULD NOT RECOVER. No analyst or quality-control tier is documented, and I believe none existed — those job categories postdate this era, and I found no such titles anywhere in the 1993 guide. No director of football operations existed either; Sue Hall as Bowden's administrative assistant is the closest analogue. Student managers, student trainers and student video crew are referenced generically in the guide but never named. The head athletic trainer's own bio page in the 1993 guide has its name header destroyed by OCR (it renders as 'Gavel leads astatoftes'), so Randy Oravetz's 1993 role is sourced from the FSU Athletics Hall of Fame bio (Director of Sports Medicine 1986-2010, 'directly responsible for the daily care and treatment of the football team') plus the anniversary honoree list, and cross-checked against the 1994 media guide which prints 'RANDY ORAVETZ / HEAD TRAINER' plainly. Three names on the 1993 support-staff photo page — Major Billy Smith, Pamela Eaves and Nick Menacop — appear with their caption line ('Taoey Deets, ‘om apa RetMeteane Beata') too degraded to read in either the 1993 or 1994 scan, so I have listed them with their titles explicitly marked unrecoverable rather than guessing. Clint Purvis appears in that same unreadable row; his 'Team Chaplain' title comes from a later Baptist Press profile, not from a 1993 document.\n\nCAVEATS ON THREE ROWS. Dave Delegal, Wayne Hogan and Rob Wilson are included because the anniversary articles group them under 'Coaches and Staff' of the 1993 team, but their evidentiary footing is weaker than the rest: Delegal has no title in any 1993 source I could find (the equipment description comes from a 2008 seminoles.com article), and Hogan and Wilson held athletics-department communications jobs rather than football-team jobs — the 1993 guide's own media directory in fact assigns Wilson to basketball and lists Donna Turner as the football contact. A consumer building a strict on-staff-at-the-championship-game ring list may want to filter these three. Brad Scott took the South Carolina head coaching job for 1994 but coached Florida State through the Orange Bowl, so no mid-season departure applies; I found no documented mid-season arrivals or departures anywhere on this staff.\n\nONE PROCESS WARNING WORTH PASSING ALONG: partway through this research my local copy of the archive.org OCR file was silently replaced with the text of an unrelated 1993 University of Washington media guide, which briefly made it look as though the FSU archive item was contaminated. A clean re-download confirmed the archive.org URL serves 272,731 bytes of FSU-only content with zero Washington text, and all quotes above were re-verified against that clean copy. Nothing sourced from the corrupted intermediate state survived into this output, but if a later verification pass sees Washington content at that URL, it is a local artifact and not the source."
+}

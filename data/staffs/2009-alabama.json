@@ -1,0 +1,650 @@
+{
+  "team": "Alabama",
+  "season": 2009,
+  "coverage_notes": "SOURCES USED. (1) Wikipedia 2009 team-season page (infobox + \"Personnel > Coaching staff\" table, 11 names). (2) Wayback capture of rolltide.com's official football \"Coaches\" listing from Jan 4, 2010 — three days before the BCS title game — which is the single best contemporaneous source and yields clean \"Name - Title\" text for 12 people. (3) The 2009 Alabama Football Media Guide PDF (archived on Wayback), pp. 99-104, which is the ONLY enumeration of the broader support staff. (4) Wayback captures of rolltide.com's Sports Medicine staff page from Aug 15, 2009 (preseason) and Feb 12, 2010 (post-championship) — identical rosters, confirming those people were on staff all season.\n\nWHAT IS COMPLETE. The on-field tier is fully recovered: head coach + 9 on-field assistants (Burns, Cignetti, Bo Davis, McElwain, Pendry, Smart, Sunseri, Bobby Williams, Willis), confirmed by three independent sources that agree exactly. Strength & conditioning, graduate assistants, operations/personnel, equipment, and medical tiers are recovered from media guide p. 104 (\"FOOTBALL SUPPORT\", a 30-person photo grid) plus the dedicated bio pages on pp. 99-103. 48 people total.\n\nMAJOR CAVEAT ON QUOTES FOR 30 OF THE 48. Media guide p. 104 carries no extractable text — verified with two independent PDF text extractors (pypdf and PyMuPDF), both of which return only \"FOOTBALL SUPPORT\" and the page number. The name/title nameplates are baked into a low-resolution raster (the underlying bitmap is roughly 95x136 px per card), so the title line is about 5 px tall at source resolution. I rendered the page at 600 dpi with PyMuPDF and recovered the titles by autocontrast + 4x Lanczos upscaling. The NAMES are unambiguous and I am confident in all 30 spellings; five of them (Rodney Brown, Ginger Gilmore, Jeremy Gsell, Bill McDonald, Jeff Purinton) independently cross-check against HTML sources with the same titles, which validates the reading method. But the titles are a best-effort image transcription, NOT text that can be copied faithfully, so per instructions those rows carry quote:\"\" with an explanatory note. Treat the p.104-only titles as high-confidence-but-not-verbatim.\n\nTWO TITLES I COULD NOT READ. Gary Cramer's title renders as \"DIRECTOR OF\" plus a short illegible token (possibly a 3-letter acronym), and Troy Finney's second title line is illegible (\"SENIOR DIRECTOR\" is legible; the qualifier is not — context suggests video operations, since the two video graduate assistants report into that area, but I did not read it and am not asserting it). Both are marked in their notes.\n\nTIERS I COULD NOT RECOVER. (a) ANALYST and QUALITY CONTROL: no person on the 2009 staff carries an \"analyst\" or \"quality control\" title in any source I found. This appears to be genuinely accurate for the era rather than a gap — Alabama's off-field coaching support in 2009 was titled as graduate assistants (Agee, Groh, Judge, Norrid, O'Brien, Pope), and the large analyst staffs came later. I found no evidence of an analyst tier to miss. (b) Student managers, student trainers, and video/equipment student staff beyond the one pictured student assistant (Sedrick Irvin) are not enumerated anywhere I could find. (c) Team physicians are named in prose on the Sports Medicine page (Robinson, Buettner, Laubenthal, Fowler, Andrews, Cain) but as department-wide/volunteer/consulting physicians, not football staff, so I excluded them rather than pad the list. (d) The seven department-wide athletic trainers assigned to other sports were excluded for the same reason; only the five sports-medicine people documented as football (Allen, McDonald, Brown, Gilmore, Gsell — all five also pictured on football support p. 104) plus the two football athletic-training graduate assistants (Jacobi, Williams) are included.\n\nDELIBERATE EXCLUSIONS. Kevin Steele (defensive coordinator) and Lance Thompson (linebackers) both left in January 2009, BEFORE the season, and are excluded — Wikipedia documents their departures and the Sunseri/Willis hires that replaced them. No one on this list is documented as arriving or departing mid-season, so no midseason_note fields are set; all 48 are documented as on staff through the championship game.\n\nTOOL LIMITATION. This session's WebSearch quota was exhausted on the first call, so I could not run a contemporary news sweep for additional hire announcements or for corroboration of the harder-to-read titles. Everything here comes from direct URL fetches of primary/archival sources. A news sweep is the obvious next step for anyone wanting to confirm Cramer's and Finney's titles.",
+  "staff": [
+    {
+      "name": "Nick Saban",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100104084059/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Nick Saban - Head Coach",
+          "note": "Official rolltide.com football Coaches listing captured Jan 4, 2010, three days before the BCS National Championship Game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2009_Alabama_Crimson_Tide_football_team",
+          "quote": "Led by third-year head coach Nick Saban"
+        }
+      ]
+    },
+    {
+      "name": "Burton Burns",
+      "role": "Associate Head Coach/Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100104084059/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Burton Burns - Associate Head Coach/Running Backs"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2009_Alabama_Crimson_Tide_football_team",
+          "quote": "Associate head coach, Running Backs",
+          "note": "Role cell in the Personnel > Coaching staff table; the adjacent name cell reads Burton Burns. Quoted as the role cell alone because table cells are not contiguous in extracted page text."
+        }
+      ]
+    },
+    {
+      "name": "Curt Cignetti",
+      "role": "Receivers/Recruiting Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100104084059/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Curt Cignetti - Receivers/Recruiting Coordinator"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2009_Alabama_Crimson_Tide_football_team",
+          "quote": "Receivers, Recruiting Coordinator",
+          "note": "Role cell in the coaching staff table; adjacent name cell reads Curt Cignetti."
+        }
+      ]
+    },
+    {
+      "name": "Bo Davis",
+      "role": "Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100104084059/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Bo Davis - Defensive Line"
+        }
+      ]
+    },
+    {
+      "name": "Jim McElwain",
+      "role": "Offensive Coordinator/Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100104084059/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Jim McElwain - Offensive Coordinator/Quarterbacks"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2009_Alabama_Crimson_Tide_football_team",
+          "quote": "Offensive coordinator, Quarterbacks",
+          "note": "Role cell in the coaching staff table; adjacent name cell reads Jim McElwain. Also listed as offensive coordinator in the article infobox."
+        }
+      ]
+    },
+    {
+      "name": "Joe Pendry",
+      "role": "Assistant Head Coach/Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100104084059/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Joe Pendry - Assistant Head Coach/Offensive Line"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2009_Alabama_Crimson_Tide_football_team",
+          "quote": "Assistant head coach, Offensive Line",
+          "note": "Role cell in the coaching staff table; adjacent name cell reads Joe Pendry."
+        }
+      ]
+    },
+    {
+      "name": "Kirby Smart",
+      "role": "Defensive Coordinator/Secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100104084059/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Kirby Smart - Defensive Coordinator/Secondary"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2009_Alabama_Crimson_Tide_football_team",
+          "quote": "defensive coordinator Kirby Smart, who won the Broyles Award as the nation's top assistant coach"
+        }
+      ]
+    },
+    {
+      "name": "Bobby Williams",
+      "role": "Tight Ends/Special Teams",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100104084059/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Bobby Williams - Tight Ends/Special Teams"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2009_Alabama_Crimson_Tide_football_team",
+          "quote": "Tight Ends, Special Teams",
+          "note": "Role cell in the coaching staff table; adjacent name cell reads Bobby Williams."
+        }
+      ]
+    },
+    {
+      "name": "James Willis",
+      "role": "Associate Head Coach/Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100104084059/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "James Willis - Associate Head Coach/Linebackers"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2009_Alabama_Crimson_Tide_football_team",
+          "quote": "Saban named Sal Sunseri from the NFL's Carolina Panthers as his team's new assistant head and linebacker coach, and James Willis from Auburn as the new associate head and linebacker coach",
+          "note": "Hired January 2009, before the season began, replacing departed staff. On staff for the full 2009 season."
+        }
+      ]
+    },
+    {
+      "name": "Sal Sunseri",
+      "role": "Assistant Head Coach/Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100104084059/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Sal Sunseri - Assistant Head Coach/Linebackers"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2009_Alabama_Crimson_Tide_football_team",
+          "quote": "Saban named Sal Sunseri from the NFL's Carolina Panthers as his team's new assistant head and linebacker coach, and James Willis from Auburn as the new associate head and linebacker coach",
+          "note": "Hired January 2009, before the season began. On staff for the full 2009 season."
+        }
+      ]
+    },
+    {
+      "name": "Scott Cochran",
+      "role": "Head Football Strength and Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100104084059/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Scott Cochran - Head Football Strength and Conditioning Coach"
+        },
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "is that of Head Football Strength and Conditioning Coach Scott Cochran",
+          "note": "2009 Alabama Football Media Guide, p. 99 (dedicated bio page). Quote verified identical under two independent PDF text extractors (pypdf and PyMuPDF)."
+        }
+      ]
+    },
+    {
+      "name": "Mike Vollmar",
+      "role": "Associate Athletics Director for Football",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20100104084059/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Mike Vollmar - Associate Athletics Director for Football"
+        },
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "Mike Vollmar was hired as associate athletics director for football on May 22, 2008",
+          "note": "Media guide p. 100 (FOOTBALL SUPPORT bio). Verified under two PDF text extractors."
+        }
+      ]
+    },
+    {
+      "name": "Ed Marynowitz",
+      "role": "Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "Ed Marynowitz joined the Alabama staff in December of 2008 as the Director of Player",
+          "note": "2009 media guide p. 101. Quote stops at the PDF line break; the sentence continues 'Personnel.' on the next line. Verified under two PDF text extractors."
+        }
+      ]
+    },
+    {
+      "name": "Tank Conerly",
+      "role": "Athletic Equipment Director",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "The all-important role of Athletic Equipment Director falls under the capable direction of Tank Conerly",
+          "note": "2009 media guide p. 102 (FOOTBALL SUPPORT bio). Verified under two PDF text extractors."
+        },
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "Tank Conerly, Athletic Equipment Manager",
+          "note": "Same PDF, p. 2 Athletic Department Directory, where he is titled Athletic Equipment Manager."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Allen",
+      "role": "Head Football Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20090815033639/http://www.rolltide.com/sports-med/medicine-staff.html",
+          "quote": "Head Football Athletic Trainer",
+          "note": "rolltide.com Sports Medicine staff page captured Aug 15, 2009 (preseason). The title appears immediately after 'Jeff Allen' inside the same linked table cell, separated only by a line break, so it is quoted alone to stay verbatim. The identical entry appears in the Feb 12, 2010 capture (post-championship)."
+        },
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "Jeff Allen is in his third year as head football athletic trainer at The University of Alabama",
+          "note": "2009 media guide p. 102. Verified under two PDF text extractors."
+        }
+      ]
+    },
+    {
+      "name": "Willie Carl Martin",
+      "role": "Director of Player Development (Academics/Strength & Conditioning)",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "Willie Carl Martin joined the Alabama football staff as Director of Player Development",
+          "note": "2009 media guide p. 103. Quote stops at the PDF line break; the full title continues '(Academics/Strength & Conditioning)'. Verified under two PDF text extractors."
+        }
+      ]
+    },
+    {
+      "name": "Bill McDonald",
+      "role": "Director of Sports Medicine",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "Bill McDonald, Director of Sports Medicine",
+          "note": "2009 media guide p. 2 Athletic Department Directory. He is also pictured on the football FOOTBALL SUPPORT grid, p. 104. Verified under two PDF text extractors."
+        },
+        {
+          "url": "https://web.archive.org/web/20090815033639/http://www.rolltide.com/sports-med/medicine-staff.html",
+          "quote": "Director of Sports Medicine",
+          "note": "Title follows 'Bill McDonald' in the same linked cell on the Aug 15, 2009 Sports Medicine staff capture."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Purinton",
+      "role": "Associate Athletics Director, Football Communications",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "Jeff Purinton, Associate Athletics Director, Football Communications",
+          "note": "2009 media guide p. 2 Athletic Department Directory. Also pictured on the FOOTBALL SUPPORT grid, p. 104, where the nameplate reads ASSOCIATE ATHLETICS DIRECTOR / FOOTBALL COMMUNICATIONS. Verified under two PDF text extractors."
+        }
+      ]
+    },
+    {
+      "name": "Rodney Brown",
+      "role": "Director of Rehabilitation Services",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20090815033639/http://www.rolltide.com/sports-med/medicine-staff.html",
+          "quote": "Director of Rehabilitation Services",
+          "note": "Title follows 'Rodney Brown' in the same linked table cell, separated only by a line break, so it is quoted alone to stay verbatim. Identical in the Feb 12, 2010 capture. He is also pictured on football media guide p. 104 with the nameplate DIRECTOR OF REHAB SERVICES."
+        }
+      ]
+    },
+    {
+      "name": "Ginger Gilmore",
+      "role": "Assistant Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20090815033639/http://www.rolltide.com/sports-med/medicine-staff.html",
+          "quote": "Assistant Athletic Trainer",
+          "note": "Title follows 'Ginger Gilmore' in the same linked table cell, separated only by a line break. Note this exact title string is shared by several trainers on that page; her football assignment is established by her appearance on the football FOOTBALL SUPPORT grid, media guide p. 104, where the nameplate reads ATHLETIC TRAINER."
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Gsell",
+      "role": "Assistant Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20090815033639/http://www.rolltide.com/sports-med/medicine-staff.html",
+          "quote": "Assistant Athletic Trainer",
+          "note": "Title follows 'Jeremy Gsell' in the same linked table cell, separated only by a line break. This exact title string is shared by several trainers on the page; his football assignment is established by his appearance on the football FOOTBALL SUPPORT grid, media guide p. 104, where the nameplate reads ATHLETIC TRAINER."
+        }
+      ]
+    },
+    {
+      "name": "Dan Jacobi",
+      "role": "Graduate Assistant, Football (Sports Medicine)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20090815033639/http://www.rolltide.com/sports-med/medicine-staff.html",
+          "quote": "Dan Jacobi, Football",
+          "note": "Listed under the 'Graduate Assistants' heading on rolltide.com's Sports Medicine staff page, with 'Football' denoting his sport assignment. Present identically in both the Aug 15, 2009 preseason capture and the Feb 12, 2010 post-championship capture."
+        },
+        {
+          "url": "https://web.archive.org/web/20100212103151/http://www.rolltide.com/sports-med/medicine-staff.html",
+          "quote": "Dan Jacobi, Football",
+          "note": "Post-championship capture confirming he was still on staff after the title game."
+        }
+      ]
+    },
+    {
+      "name": "Nick Williams",
+      "role": "Graduate Assistant, Football (Sports Medicine)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20090815033639/http://www.rolltide.com/sports-med/medicine-staff.html",
+          "quote": "Nick Williams, Football",
+          "note": "Listed under the 'Graduate Assistants' heading on the Sports Medicine staff page, 'Football' denoting sport assignment. Not to be confused with on-field assistant Bobby Williams."
+        },
+        {
+          "url": "https://web.archive.org/web/20100212103151/http://www.rolltide.com/sports-med/medicine-staff.html",
+          "quote": "Nick Williams, Football",
+          "note": "Post-championship capture confirming he was still on staff after the title game."
+        }
+      ]
+    },
+    {
+      "name": "Dedrick Agee",
+      "role": "Graduate Assistant, Strength & Conditioning",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 Alabama Football Media Guide p. 104, 'FOOTBALL SUPPORT' 30-person photo grid. This page carries NO extractable text (verified with both pypdf and PyMuPDF, which return only the page header). The name and title are baked into a low-resolution raster, so quote must be empty. Name read as DEDRICK AGEE and title read as GRADUATE ASSISTANT / STRENGTH & CONDITIONING after rendering the page at 600 dpi and applying autocontrast plus 4x Lanczos upscaling. Name reading is high confidence; title is a best-effort image transcription."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Aul",
+      "role": "Academic Program Advisor",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; page has no extractable text (confirmed with two PDF extractors). Name read as JEFF AUL, title as ACADEMIC PROGRAM ADVISOR via 600 dpi render with contrast enhancement. Academic support role, categorized as other."
+        }
+      ]
+    },
+    {
+      "name": "Cedric Burns",
+      "role": "Coordinator of Athletic Relations",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text on the page. Name read as CEDRIC BURNS, title as COORDINATOR OF ATHLETIC RELATIONS via enhanced 600 dpi render. Distinct person from on-field running backs coach Burton Burns."
+        }
+      ]
+    },
+    {
+      "name": "Gary Cramer",
+      "role": "Director (title not fully legible)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text on the page. Name GARY CRAMER is clearly legible. His title line renders as 'DIRECTOR OF' followed by a short token I could not resolve at source resolution (possibly a three-letter acronym). I am deliberately NOT guessing the full title. Role recorded as director-level support staff pending a better source."
+        }
+      ]
+    },
+    {
+      "name": "Glenda Edwards",
+      "role": "Administrative Assistant for Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as GLENDA EDWARDS, two-line title as ADMINISTRATIVE ASSISTANT / FOR HEAD COACH via enhanced 600 dpi render."
+        }
+      ]
+    },
+    {
+      "name": "Troy Finney",
+      "role": "Senior Director (second title line not legible)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name TROY FINNEY and first title line SENIOR DIRECTOR are legible; the second line qualifying the department is not legible at source resolution. Context on the same page (two VIDEO GRADUATE ASSISTANTs, Judge and Norrid) suggests a video operations area, but I did not read it and am not asserting it."
+        }
+      ]
+    },
+    {
+      "name": "Todd Fulmer",
+      "role": "State Trooper",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as TODD FULMER, title as STATE TROOPER via enhanced 600 dpi render. Pictured in state trooper uniform, consistent with the reading. Team security detail."
+        }
+      ]
+    },
+    {
+      "name": "Mike Groh",
+      "role": "Offensive Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text on the page. Name read as MIKE GROH, title as OFFENSIVE GRADUATE ASSISTANT via enhanced 600 dpi render. A rolltide.com bio page (mtt/groh_mike00.html) exists in the Wayback URL index, but I could not retrieve a capture within the 2009-10 window."
+        }
+      ]
+    },
+    {
+      "name": "Sedrick Irvin",
+      "role": "Strength & Conditioning Student Assistant",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as SEDRICK IRVIN, two-line title as STRENGTH & CONDITIONING / STUDENT ASSISTANT via enhanced 600 dpi render. The only student-assistant-titled person pictured."
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Jordan",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as JEREMY JORDAN, title as ASSISTANT EQUIPMENT MANAGER via enhanced 600 dpi render. Works under equipment director Tank Conerly."
+        }
+      ]
+    },
+    {
+      "name": "Terry Jones",
+      "role": "Assistant Head Strength Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as TERRY JONES, title as ASSISTANT HEAD STRENGTH COACH via enhanced 600 dpi render. A rolltide.com bio page (mtt/jones,jr._terry00.html) exists but only with 2015-16 captures, too late to cite for 2009."
+        }
+      ]
+    },
+    {
+      "name": "Joe Judge",
+      "role": "Video Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text on the page. Name read as JOE JUDGE, title as VIDEO GRADUATE ASSISTANT via enhanced 600 dpi render."
+        }
+      ]
+    },
+    {
+      "name": "Ashleigh Kimble",
+      "role": "Assistant Director, Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as ASHLEIGH KIMBLE, two-line title as ASSISTANT DIRECTOR / PLAYER PERSONNEL via enhanced 600 dpi render. Works under player personnel director Ed Marynowitz."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Norrid",
+      "role": "Video Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as JEFF NORRID, title as VIDEO GRADUATE ASSISTANT via enhanced 600 dpi render."
+        }
+      ]
+    },
+    {
+      "name": "Dan O'Brien",
+      "role": "Defensive Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as DAN O'BRIEN, title as DEFENSIVE GRADUATE ASSISTANT via enhanced 600 dpi render."
+        }
+      ]
+    },
+    {
+      "name": "Buddy Overstreet",
+      "role": "Director of Creative Media",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text on that page. Name read as BUDDY OVERSTREET, title as DIRECTOR OF CREATIVE MEDIA via enhanced 600 dpi render. Corroborating detail: the media guide's own credits block on p. 2 thanks 'Buddy Overstreet for the cover and page designs', which is extractable text but states a credit rather than a title."
+        }
+      ]
+    },
+    {
+      "name": "Jesse Peoples",
+      "role": "State Trooper",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as JESSE PEOPLES, title as STATE TROOPER via enhanced 600 dpi render. Pictured in uniform. Team security detail, second of two troopers on the page."
+        }
+      ]
+    },
+    {
+      "name": "Will Pope",
+      "role": "Football Operations Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as WILL POPE, two-line title as FOOTBALL OPERATIONS / GRADUATE ASSISTANT via enhanced 600 dpi render."
+        }
+      ]
+    },
+    {
+      "name": "Freddie Roach",
+      "role": "Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as FREDDIE ROACH, title as STRENGTH & CONDITIONING via enhanced 600 dpi render."
+        }
+      ]
+    },
+    {
+      "name": "Rob Sale",
+      "role": "Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as ROB SALE, title as STRENGTH & CONDITIONING via enhanced 600 dpi render."
+        }
+      ]
+    },
+    {
+      "name": "Rachael Smallwood",
+      "role": "Recruiting Operations Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as RACHAEL SMALLWOOD, title as RECRUITING OPERATIONS COORDINATOR via enhanced 600 dpi render."
+        }
+      ]
+    },
+    {
+      "name": "Patrick Suddes",
+      "role": "Associate Director, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as PATRICK SUDDES, two-line title as ASSOCIATE DIRECTOR / FOOTBALL OPERATIONS via enhanced 600 dpi render."
+        }
+      ]
+    },
+    {
+      "name": "C.C. Thompson",
+      "role": "Special Assistant to Head Coach / Football Operations Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as C.C. THOMPSON, two-line title as SPECIAL ASSISTANT TO HEAD COACH / FOOTBALL OPERATIONS COORDINATOR via enhanced 600 dpi render."
+        }
+      ]
+    },
+    {
+      "name": "Lester Towns",
+      "role": "Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as LESTER TOWNS, title as STRENGTH & CONDITIONING via enhanced 600 dpi render."
+        }
+      ]
+    },
+    {
+      "name": "Lance Walker",
+      "role": "Academic Program Advisor",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20121112093719/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/MediaGuide_09FB.pdf",
+          "quote": "",
+          "note": "2009 media guide p. 104 FOOTBALL SUPPORT grid; no extractable text. Name read as LANCE WALKER, title as ACADEMIC PROGRAM ADVISOR via enhanced 600 dpi render. Academic support role, categorized as other. Second of two academic advisors on the page."
+        }
+      ]
+    }
+  ]
+}

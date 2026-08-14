@@ -1,0 +1,578 @@
+{
+  "team": "Nebraska",
+  "season": 1994,
+  "coverage_notes": "SOURCES USED. The single best source is the official \"Nebraska Football, 1994 Media Guide,\" scanned on the Internet Archive. All quotes below are taken from its OCR plain-text derivative at https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt and were mechanically verified as exact substrings of that file before submission. IMPORTANT FOR THE MATCHER: quotes must be checked against that _djvu.txt URL, not the archive.org /details/ landing page. The text is OCR of a printed guide, so it contains genuine OCR artifacts that I preserved verbatim rather than correcting — e.g. \"Grantis in his first yearas a gradu-\", \"Mary Lyn Winingeris inher 12th year\", \"andGlenda Quarles\", hyphenated line-break splits, and curly apostrophes in some lines but straight ones in others. Do not normalize these. I deliberately used single-line quotes because the OCR wraps mid-sentence; several quotes therefore end mid-sentence or mid-word. Wikipedia (https://en.wikipedia.org/wiki/1994_Nebraska_Cornhuskers_football_team) is used as a corroborating second source for the head coach, the nine on-field assistants, and Boyd Epley; its infobox separates each name from its role with HTML markup, so the Wikipedia quotes are the role phrases alone (\"14th season as DC/DL coach\", etc.), which are contiguous and unique in the rendered page.\n\nWHAT IS COMPLETE. The on-field tier is complete and unambiguous: head coach plus exactly nine full-time assistants, matching the NCAA limit of the era, and Wikipedia and the media guide agree on all ten names. The graduate-assistant tier is also believed complete: NCAA rules in 1994 capped teams at two football graduate assistants, and the guide profiles exactly two (Clayton Carlin, Mike Grant). The strength and conditioning tier is complete as the guide presents it; note the guide describes Epley heading \"a staff of five full-time strength coaches,\" and I list five full-timers (Epley, Arthur, Bailey, Gobel, Thompson) plus one strength GA (Coleman) and Paul Koch.\n\nWHAT I COULD NOT RECOVER, STATED PLAINLY.\n1. Analyst and quality-control tiers: I found ZERO. These job titles did not meaningfully exist in 1994 college football; the roles were not on the staff, rather than being undocumented. No rows are included and none should be expected.\n2. Archived school athletics staff directory: NOT RECOVERABLE. Source #2 in the task brief cannot be satisfied for this season. huskers.com did not exist in 1994, and the Wayback Machine's earliest crawls begin in late 1996, so there is no archived fall-1994 or January-1995 Nebraska staff directory to consult. The media guide substitutes for it.\n3. Mid-season changes: I searched for 1994 in-season Nebraska staff arrivals/departures and found none documented. No midseason_note is set on any row. Caveat: the media guide is a PRESEASON publication (printed August 1994), so it cannot by itself confirm that every listed person was still on staff at the January 1, 1995 Orange Bowl. I found no contemporary report of any change, but treat this as \"no evidence of change\" rather than positively verified continuity. Kevin Steele's departure to the Carolina Panthers occurred AFTER the championship game, so he was on staff at the title game.\n4. Student-tier personnel: the guide names 17 student athletic trainers (Reid Brakke, Zane Harvey, Josh Heller, Yuko Ishida, Jason Jenkins, Jennifer Linden, David Maloley, Robin Marshall, Jason Masek, Dannika Nelson, Jen Ogle, Matt Olberding, Peggy Pope, Jason Riley, Matt Svoboda, Stacia Weaver, Jennifer Wunder). I deliberately EXCLUDED these as students rather than staff; they are recoverable from the same page if the dataset wants them. Student equipment managers and football student managers are NOT documented anywhere I could find.\n5. Recruiting staff below Pederson: only the recruiting secretary (Kathi Woody) is documented. Nebraska had no separate recruiting-coordinator title on the 1994 football staff.\n\nSCOPE CAVEAT ON DEPARTMENT-WIDE ROWS, PLEASE READ BEFORE COUNTING RINGS. Nebraska in 1994 ran medical, video, academic, and part of strength as ATHLETIC-DEPARTMENT-WIDE units serving all 22 sports, not as football-only staffs. I included them because they are named in the football media guide and the brief asked for support staff where documented, but they are not equivalent to football-only employees. Specifically: George Sullivan is the only medical person explicitly football-designated (\"Head FB Trainer,\" and his bio says he will focus entirely on football that fall). Jerry Weber, Doak Ostergard, Jack Nickolite, Dr. Lonnie Albers, Duke LaRue, Cindy Barker, Sara Weinberg, and the five athletic-training graduate assistants (Cook, Edwards, Froiland, Gardner, Quarles) serve the whole department. Paul Koch's own bio says he works with basketball and Olympic sports, NOT football — he is included only because the guide prints him among the football-section strength staff, and he is the most likely row to want to drop. Dennis Leblanc and Keith Zimmer are academic-support staff for all sports, though Zimmer's bio explicitly mentions assisting with football. Of the video staff I included only Dave Finn (whose directory phone number, 472-3116, is the football office line) and John Bousek (whose bio explicitly counts his tenure in FOOTBALL seasons); I excluded department video staff Floyd Sorley, Vince Ullman, Bryan Carpenter, and Jeff Schmahl, who are documented in the same guide but described in department-wide terms — they can be added from the same source if desired.\n\nNOTHING IS PADDED. Every row has a verbatim quote verified present in the cited source. No name was inferred, recalled from memory, or included on plausibility.",
+  "staff": [
+    {
+      "name": "Tom Osborne",
+      "role": "Assistant A.D./Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assistant A.D./Head Coach: Tom Osborne (Hastings, 1959)",
+          "note": "From the 'Cornhusker Football Coaches' directory block in the official 1994 Nebraska football media guide (preseason, August 1994). Osborne won his first national title this season."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1994_Nebraska_Cornhuskers_football_team",
+          "quote": "The team was coached by Tom Osborne and played their home games in",
+          "note": "Article lead sentence. The infobox separately lists him as head coach in his '22nd season'."
+        }
+      ]
+    },
+    {
+      "name": "Frank Solich",
+      "role": "Assistant Head Coach/Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assistant Head Coach/Running Backs: Frank Solich",
+          "note": "'Cornhusker Football Coaches' directory block, 1994 media guide."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1994_Nebraska_Cornhuskers_football_team",
+          "quote": "12th season as RB coach",
+          "note": "Infobox entry for Frank Solich. Name and role phrase are separated by HTML markup, so only the role phrase is quoted."
+        }
+      ]
+    },
+    {
+      "name": "Charlie McBride",
+      "role": "Defensive Coordinator/Def. Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Defensive Coordinator/Def. Line: Charlie McBride",
+          "note": "'Cornhusker Football Coaches' directory block, 1994 media guide."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1994_Nebraska_Cornhuskers_football_team",
+          "quote": "14th season as DC/DL coach",
+          "note": "Infobox entry for Charlie McBride. Name and role phrase are separated by HTML markup, so only the role phrase is quoted."
+        }
+      ]
+    },
+    {
+      "name": "Ron Brown",
+      "role": "Assistant Coach/Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assistant Coach/Receivers: Ron Brown",
+          "note": "'Cornhusker Football Coaches' directory block, 1994 media guide."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1994_Nebraska_Cornhuskers_football_team",
+          "quote": "8th season as WR/TE coach",
+          "note": "Infobox entry for Ron Brown. Name and role phrase are separated by HTML markup, so only the role phrase is quoted."
+        }
+      ]
+    },
+    {
+      "name": "George Darlington",
+      "role": "Assistant Coach/Secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assistant Coach/Secondary: George Darlington",
+          "note": "'Cornhusker Football Coaches' directory block, 1994 media guide."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1994_Nebraska_Cornhuskers_football_team",
+          "quote": "DB coach",
+          "note": "Infobox entry for George Darlington, listed with '22nd year at Nebraska'. Name and role phrase are separated by HTML markup, so only the role phrase is quoted."
+        }
+      ]
+    },
+    {
+      "name": "Turner Gill",
+      "role": "Assistant Coach/Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assistant Coach/Quarterbacks: Turner Gill",
+          "note": "'Cornhusker Football Coaches' directory block, 1994 media guide."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1994_Nebraska_Cornhuskers_football_team",
+          "quote": "3rd season as QB coach",
+          "note": "Infobox entry for Turner Gill. Name and role phrase are separated by HTML markup, so only the role phrase is quoted."
+        }
+      ]
+    },
+    {
+      "name": "Tony Samuel",
+      "role": "Assistant Coach/Outside Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assistant Coach/Outside Linebackers: Tony Samuel",
+          "note": "'Cornhusker Football Coaches' directory block, 1994 media guide."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1994_Nebraska_Cornhuskers_football_team",
+          "quote": "9th season as OLB coach",
+          "note": "Infobox entry for Tony Samuel. Name and role phrase are separated by HTML markup, so only the role phrase is quoted."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Steele",
+      "role": "Assistant Coach/Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assistant Coach/Linebackers: Kevin Steele",
+          "note": "'Cornhusker Football Coaches' directory block, 1994 media guide. Steele left Nebraska for the Carolina Panthers AFTER this season, so he was on staff for the Jan. 1, 1995 Orange Bowl title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1994_Nebraska_Cornhuskers_football_team",
+          "quote": "6th season as LB coach",
+          "note": "Infobox entry for Kevin Steele. Name and role phrase are separated by HTML markup, so only the role phrase is quoted."
+        }
+      ]
+    },
+    {
+      "name": "Milt Tenopir",
+      "role": "Assistant Coach/Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assistant Coach/Offensive Line: Milt Tenopir",
+          "note": "'Cornhusker Football Coaches' directory block, 1994 media guide."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1994_Nebraska_Cornhuskers_football_team",
+          "quote": "21st season as OL coach",
+          "note": "Infobox entry for Milt Tenopir. Name and role phrase are separated by HTML markup, so only the role phrase is quoted."
+        }
+      ]
+    },
+    {
+      "name": "Dan Young",
+      "role": "Assistant Coach/Offensive Line/Kickers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assistant Coach/Offensive Line/Kickers: Dan Young",
+          "note": "'Cornhusker Football Coaches' directory block, 1994 media guide."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1994_Nebraska_Cornhuskers_football_team",
+          "quote": "12th season as OL/K coach",
+          "note": "Infobox entry for Dan Young. Name and role phrase are separated by HTML markup, so only the role phrase is quoted."
+        }
+      ]
+    },
+    {
+      "name": "Clayton Carlin",
+      "role": "Graduate Assistant Football Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Clayton Carlin is in his first",
+          "note": "His media-guide bio is headed 'CLAYTON CARLIN / Graduate Assistant Football Coach'. The quoted line is the opening of the bio; the full sentence continues 'season as a graduate assistant on the Husker football staff.' A following line reads 'with the defensive backs, assisting' Coach George Darlington. Quote is a single OCR line because the OCR wraps mid-sentence."
+        }
+      ]
+    },
+    {
+      "name": "Mike Grant",
+      "role": "Graduate Assistant Football Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Grantis in his first yearas a gradu-",
+          "note": "His media-guide bio is headed 'MIKE GRANT / Graduate Assistant Football Coach'. NOTE: the missing spaces in 'Grantis' and 'yearas' are genuine OCR artifacts of the scanned guide and are preserved verbatim. The sentence continues on the next line, 'ate assistant on the Nebraska staff.' A separate line reads 'Grant will assist Coach Ron Brown' with the receivers. Grant was a three-year Nebraska letterman 1989-92."
+        }
+      ]
+    },
+    {
+      "name": "Boyd Epley",
+      "role": "Assistant Athletic Director, Director of Athletic Performance, C.S.C.S",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Epley, the first strength coach in the Big Eight Conference, was named",
+          "note": "From his media-guide bio; the sentence continues that he was named NU's Assistant Athletic Director and Director of Athletic Performance effective July 1, 1994 — i.e. immediately before the championship season. The staff directory separately lists 'Asst. A.D./Dir. of Athletic Performance: Boyd Epley'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1994_Nebraska_Cornhuskers_football_team",
+          "quote": "26th season as S&C coach",
+          "note": "Infobox entry for Boyd Epley, the only strength coach Wikipedia lists. Name and role phrase are separated by HTML markup, so only the role phrase is quoted."
+        }
+      ]
+    },
+    {
+      "name": "Mike Arthur",
+      "role": "Assistant Director of Athletic Performance, C.S.C.S.",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "The dean of Boyd Epley's staff, Mike",
+          "note": "Opening line of his media-guide bio, headed 'MIKE ARTHUR / Assistant Director of Athletic Performance, C.S.C.S.'; the sentence continues 'Arthur is regarded as one of the nation's most knowledgeable strength coaches.' Bio notes his 19 years of research at Nebraska."
+        }
+      ]
+    },
+    {
+      "name": "Bryan Bailey",
+      "role": "Coordinator of Reconditioning, C.S.C.S.",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Bryan Bailey is entering his seventh",
+          "note": "Opening line of his media-guide bio, headed 'BRYAN BAILEY / Coordinator of Reconditioning, C.S.C.S.'; the sentence continues 'year with the Nebraska strength and conditioning program.' He worked with team physicians and trainers on programs for injured athletes."
+        }
+      ]
+    },
+    {
+      "name": "Randy Gobel",
+      "role": "Coordinator of Strength and Conditioning, C.S.C.S.",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Gobel serves as the coordinator of NU's strength and conditioning",
+          "note": "From his media-guide bio, headed 'RANDY GOBEL / Coordinator of Strength and Conditioning, C.S.C.S.' Bio states he had been with the Nebraska Athletic Department for 13 years."
+        }
+      ]
+    },
+    {
+      "name": "Curt Thompson",
+      "role": "Coordinator of Performance Education Services, C.S.C.S",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Curt Thompson is in his seventh year",
+          "note": "Opening line of his media-guide bio, headed 'CURT THOMPSON / Coordinator of Performance Education Services, C.S.C.S'; continues 'as a member of Boyd Epley's staff.' He coordinated the student supervisors in the West Stadium strength complex."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Coleman",
+      "role": "Graduate Assistant (Coach Boyd Epley's staff)",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "and field standout Kevin Coleman is in",
+          "note": "From his media-guide bio in the football staff pages, headed 'KEVIN COLEMAN / Graduate Assistant'; the sentence continues 'his second year as a graduate assistant on Coach Boyd Epley's staff.' Coleman was a former Nebraska track and field shot put standout. Strength-staff GA, not a football-only employee."
+        }
+      ]
+    },
+    {
+      "name": "Paul Koch",
+      "role": "Bob Devaney Sports Center Strength Coach, C.S.C.S.",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "time strength coach, Paul Koch earned",
+          "note": "CAUTION — LIKELY NOT FOOTBALL. Printed among the football media guide's strength staff pages, but his own bio states he 'plans and implements programs for the men's and women's basketball teams, as well as several of the Husker Olympic sport teams.' Included only for completeness of the guide's staff section; this is the row most likely to warrant exclusion from a football rings count. Quoted line is mid-sentence: the full phrase is 'Entering his fourth season as a full-time strength coach, Paul Koch earned a bachelor's degree...'"
+        }
+      ]
+    },
+    {
+      "name": "Steve Pederson",
+      "role": "Associate Athletic Director, Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Steve Pederson returned to the",
+          "note": "Opening of his media-guide bio, headed 'Associate Athletic Director, Football Operations'; the sentence continues 'University of Nebraska as the Huskers' Associate Athletic Director for Football Operations in April, 1994.' The staff directory separately lists 'Assoc. A.D./Football Operations: Steve Pederson'. Hired April 1994, i.e. before the season, so no midseason_note applies."
+        }
+      ]
+    },
+    {
+      "name": "Mary Lyn Wininger",
+      "role": "Coach Osborne's Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mary Lyn Winingeris inher 12th year",
+          "note": "Bio headed 'MARY LYN WININGER / Coach Osborne's Secretary'. NOTE: 'Winingeris' and 'inher' are genuine OCR artifacts (missing spaces) preserved verbatim. The sentence continues 'as secretary to Husker head coach Tom Osborne.' She is also named as Osborne's secretary in his own bio's contact block."
+        }
+      ]
+    },
+    {
+      "name": "Joni Duff",
+      "role": "Football Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Joni Duff is in her 14th year as a",
+          "note": "Bio headed 'JONI DUFF / Football Secretary'; the sentence continues 'football office staff secretary.'"
+        }
+      ]
+    },
+    {
+      "name": "Kathi Woody",
+      "role": "Recruiting Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Kathi Woody is in her sixth season",
+          "note": "Bio headed 'Recruiting Secretary'; the sentence continues 'with the Husker football office.' This is the only recruiting-support role documented on the 1994 football staff."
+        }
+      ]
+    },
+    {
+      "name": "Dennis Leblanc",
+      "role": "Interim Assistant Athletic Director, Academic Programs and Student Services",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Dennis Leblanc is entering his second",
+          "note": "Bio headed 'DENNIS LEBLANC / Interim Assistant Athletic Director, Academic Programs and Student Services'; continues 'year as interim assistant athletic director for academic student services.' Department-wide academic support role, not football-only; Keith Zimmer's bio identifies Leblanc as 'the Director' who handles football."
+        }
+      ]
+    },
+    {
+      "name": "Keith Zimmer",
+      "role": "Assistant Director of Academic Programs and Student Services",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Zimmer serves as the sport counselor for women's basket-",
+          "note": "Bio headed 'Assistant Director of Academic Programs and Student Services'. The same sentence continues that he assists 'the Director with football' — the football link is explicit but he is a department-wide academic staffer. The staff directory also lists 'Assistant Director: Keith Zimmer'."
+        }
+      ]
+    },
+    {
+      "name": "George Sullivan",
+      "role": "Head FB Trainer/Asst. Chief of Staff",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Head FB Trainer/Asst. Chief of Staff: George Sullivan",
+          "note": "From the 'Administration and Staff' directory. The ONLY explicitly football-designated medical staffer. His bio is headed 'GEORGE SULLIVAN / Assistant to Chief of Staff, Head Football Trainer, PT, ATC' and states he 'will focus all his attention this fall on the Husker football team.' 42nd year on the Nebraska medical staff; received the inaugural Tim Kerin Award in 1994."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Pat Clare",
+      "role": "Chief of Staff/Orthopedic Surgeon",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Chief of Staff/Orthopedic Surgeon: Dr. Pat Clare",
+          "note": "From the 'Athletic Medicine' directory block. His bio notes 1994 was his 21st year as a team orthopedist and his first as chief of staff. A former Nebraska football team captain and academic All-American."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Lonnie Albers",
+      "role": "Director of Athletic Medicine",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Director of Athletic Medicine: Dr. Lonnie Albers",
+          "note": "From the 'Athletic Medicine' directory block. Department-wide role serving all Nebraska sports."
+        }
+      ]
+    },
+    {
+      "name": "Jerry Weber",
+      "role": "Head Athletic Trainer/Physical Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Head Athletic Trainer/Physical Therapist: Jerry Weber, RPT",
+          "note": "From the 'Athletic Medicine' directory block. Department-wide head trainer; football-specific trainer duties in 1994 fell to George Sullivan."
+        }
+      ]
+    },
+    {
+      "name": "Doak Ostergard",
+      "role": "Assoc. Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assoc. Trainer: Doak Ostergard",
+          "note": "From the 'Athletic Medicine' directory block. Department-wide role; Ostergard later became Nebraska's football trainer."
+        }
+      ]
+    },
+    {
+      "name": "Jack Nickolite",
+      "role": "Assoc. Dir. of Ath. Med./Physician's Assistant",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assoc. Dir. of Ath. Med./Physician's Assistant: Jack Nickolite",
+          "note": "From the 'Athletic Medicine' directory block. Department-wide role."
+        }
+      ]
+    },
+    {
+      "name": "Duke LaRue",
+      "role": "Asst. Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Asst. Trainers: Duke LaRue, Cindy Barker, Sara Weinberg",
+          "note": "From the 'Athletic Medicine' directory block, which names three assistant trainers on one line. Department-wide roles, not football-designated."
+        }
+      ]
+    },
+    {
+      "name": "Cindy Barker",
+      "role": "Asst. Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Asst. Trainers: Duke LaRue, Cindy Barker, Sara Weinberg",
+          "note": "From the 'Athletic Medicine' directory block, which names three assistant trainers on one line. Department-wide roles, not football-designated."
+        }
+      ]
+    },
+    {
+      "name": "Sara Weinberg",
+      "role": "Asst. Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Asst. Trainers: Duke LaRue, Cindy Barker, Sara Weinberg",
+          "note": "From the 'Athletic Medicine' directory block, which names three assistant trainers on one line. Department-wide roles, not football-designated."
+        }
+      ]
+    },
+    {
+      "name": "Ruth Cook",
+      "role": "Graduate assistant (athletic training)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Graduate assistants for the 1994-95 year are Ruth Cook, Doug",
+          "note": "From the athletic-training staff listing inside George Sullivan's (Head Football Trainer) media-guide section. Explicitly dated to the 1994-95 year. Department-wide athletic-training GA serving all Nebraska sports, not football-only. The OCR line breaks after 'Doug' (Doug Edwards)."
+        }
+      ]
+    },
+    {
+      "name": "Doug Edwards",
+      "role": "Graduate assistant (athletic training)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Edwards, Chris Froiland, Scott Gardner andGlenda Quarles. Student",
+          "note": "Continuation line of the '1994-95' athletic-training graduate assistants list inside George Sullivan's section; his first name 'Doug' ends the previous OCR line. NOTE: 'andGlenda' is a genuine OCR artifact preserved verbatim. Department-wide role, not football-only."
+        }
+      ]
+    },
+    {
+      "name": "Chris Froiland",
+      "role": "Graduate assistant (athletic training)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Edwards, Chris Froiland, Scott Gardner andGlenda Quarles. Student",
+          "note": "From the '1994-95' athletic-training graduate assistants list inside George Sullivan's (Head Football Trainer) section. NOTE: 'andGlenda' is a genuine OCR artifact preserved verbatim. Department-wide role, not football-only."
+        }
+      ]
+    },
+    {
+      "name": "Scott Gardner",
+      "role": "Graduate assistant (athletic training)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Edwards, Chris Froiland, Scott Gardner andGlenda Quarles. Student",
+          "note": "From the '1994-95' athletic-training graduate assistants list inside George Sullivan's (Head Football Trainer) section. NOTE: 'andGlenda' is a genuine OCR artifact preserved verbatim. Department-wide role, not football-only."
+        }
+      ]
+    },
+    {
+      "name": "Glenda Quarles",
+      "role": "Graduate assistant (athletic training)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Edwards, Chris Froiland, Scott Gardner andGlenda Quarles. Student",
+          "note": "From the '1994-95' athletic-training graduate assistants list inside George Sullivan's (Head Football Trainer) section. NOTE: 'andGlenda' (missing space before her name) is a genuine OCR artifact preserved verbatim. Department-wide role, not football-only."
+        }
+      ]
+    },
+    {
+      "name": "Glen Abbott",
+      "role": "Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Equipment Manager: Glen Abbott",
+          "note": "From the 'Support Staff' directory block. His bio adds he was in his 18th year as Nebraska's equipment manager and was 'in charge of maintaining the Cornhuskers' locker rooms ... in addition to caring for the football team's equipment.'"
+        }
+      ]
+    },
+    {
+      "name": "Jack Stark",
+      "role": "Performance Psychologist",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Jack Stark is in his seventh year as the",
+          "note": "Bio headed 'Performance Psychologist'; the sentence continues 'Huskers' performance psychologist and his 21st year in the sports psychology field.' The guide's facilities section notes a 'performance nutritionist and performance psychologist are on staff to assist the strength and conditioning staff.' Stark is well known for running Nebraska football's player Unity Council."
+        }
+      ]
+    },
+    {
+      "name": "Dave Finn",
+      "role": "Video Operations Director",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Video Operations Director: Dave Finn",
+          "note": "From the 'Support Staff' directory block; his listed phone number 472-3116 is the same number the guide gives for 'Cornhusker Football Coaches', indicating he sat in the football office. His bio, headed 'DAVE FINN / Director of Video Operations', notes he installed the system making Nebraska one of the first five Division I-A football programs to go fully computer/video."
+        }
+      ]
+    },
+    {
+      "name": "John Bousek",
+      "role": "Video Assistant",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/nebraska-football-1994-media-guide-c/Nebraska%20Football%2C%201994%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "John Bousek is in his seventh foot-",
+          "note": "Bio headed 'Video Assistant'; the sentence continues 'ball season as a member of the Husker video crew' — his tenure is counted in FOOTBALL seasons, which is why he is included while other department video staff (Floyd Sorley, Vince Ullman, Bryan Carpenter, Jeff Schmahl) are noted in coverage_notes but excluded. The 'foot-' / 'ball' split across lines is a genuine OCR hyphenation."
+        }
+      ]
+    }
+  ]
+}

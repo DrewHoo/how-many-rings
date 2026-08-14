@@ -1,0 +1,517 @@
+{
+  "team": "Georgia Tech",
+  "season": 1990,
+  "staff": [
+    {
+      "name": "Bobby Ross",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Head Coach: Bobby Ross (VMI, 1959)",
+          "note": "Nebraska's own 1991 Florida Citrus Bowl media guide, published for the Jan. 1, 1991 championship game, in its Georgia Tech opponent section. OCR text file of the scanned guide; line-wrapped, so quote is a single exact line."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Georgia_Tech_Yellow_Jackets_football_team",
+          "quote": "Head coach Bobby Ross and the Yellow Jackets were awarded a share of the national championship",
+          "note": "Wikipedia team-season article lead; infobox also lists head_coach = Bobby Ross, 4th season."
+        }
+      ]
+    },
+    {
+      "name": "Ralph Friedgen",
+      "role": "Offensive coordinator/quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Georgia_Tech_Yellow_Jackets_football_team",
+          "quote": "Ralph Friedgen – Offensive coordinator/quarterbacks",
+          "note": "From the article's 'Coordinators/assistant coaches' list."
+        },
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "linebackers; Ralph Friedgen, off.",
+          "note": "Single exact line from the wrapped OCR of the Georgia Tech 'Assistant coaches:' block in Nebraska's 1991 Citrus Bowl guide; the full block reads '...Chuck Bresnahan, inside linebackers; Ralph Friedgen, off. coordinator/quarterbacks; Mark Hendrickson, tight ends;...'"
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Ralph Friedgen: 1987-91",
+          "note": "Georgia Tech 1991 media guide, all-time 'Assistant Coaches' by year list; the next OCR line reads 'Offensive Coordinator,' then 'Quarterbacks'. 1987-91 span covers the 1990 title season."
+        }
+      ]
+    },
+    {
+      "name": "George O'Leary",
+      "role": "Defensive coordinator/defensive line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Georgia_Tech_Yellow_Jackets_football_team",
+          "quote": "George O'Leary – Defensive coordinator/defensive line",
+          "note": "From the article's 'Coordinators/assistant coaches' list."
+        },
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Hendrickson, tight ends; George O'Leary,",
+          "note": "Single exact OCR line; the following line reads 'def, coordinator/def. line; Chuck Priefer, def,'."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "George O'Leary: 1987-91",
+          "note": "1991 GT media guide all-time assistant coaches list; following lines read 'Defensive Coordinator,' / 'Defensive Line'."
+        }
+      ]
+    },
+    {
+      "name": "Danny Smith",
+      "role": "Running backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Georgia_Tech_Yellow_Jackets_football_team",
+          "quote": "Danny Smith – Running backs",
+          "note": "From the article's 'Coordinators/assistant coaches' list."
+        },
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "backs; Danny Smith, running backs; Terry",
+          "note": "Single exact OCR line from the Georgia Tech assistant-coach block in Nebraska's Citrus Bowl guide."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Danny Smith: 1987-91 Running",
+          "note": "1991 GT media guide all-time assistant coaches list; next line reads 'Backs'."
+        }
+      ]
+    },
+    {
+      "name": "Terry Strock",
+      "role": "Wide receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Georgia_Tech_Yellow_Jackets_football_team",
+          "quote": "Terry Strock – Wide receivers",
+          "note": "From the article's 'Coordinators/assistant coaches' list."
+        },
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Strock, wide receivers; Pat Watson, off. line",
+          "note": "Closing line of the Georgia Tech assistant-coach block in Nebraska's 1991 Citrus Bowl guide."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Terry Strock: 1990-91 Wide",
+          "note": "1991 GT media guide all-time assistant coaches list; next line reads 'Receivers'. 1990 was Strock's first season at Georgia Tech (he replaced Jimmy Robinson, listed as 1987-89 Wide Receivers), but he was hired before the season, not mid-season."
+        }
+      ]
+    },
+    {
+      "name": "Mark Hendrickson",
+      "role": "Tight ends/special teams",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Georgia_Tech_Yellow_Jackets_football_team",
+          "quote": "Mark Hendrickson – Tight ends/special teams",
+          "note": "From the article's 'Coordinators/assistant coaches' list."
+        },
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Hendrickson, tight ends; George O'Leary,",
+          "note": "Single exact OCR line; the preceding line ends 'coordinator/quarterbacks; Mark'. In the 1991 GT media guide's all-time list his entry reads 'Mark Hendrickson: 1985-86 / Receivers, Jayvee Coach; 1987- / 91 Tight Ends, Special Teams'."
+        }
+      ]
+    },
+    {
+      "name": "Pat Watson",
+      "role": "Offensive line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Georgia_Tech_Yellow_Jackets_football_team",
+          "quote": "Pat Watson – Offensive line",
+          "note": "From the article's 'Coordinators/assistant coaches' list."
+        },
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Strock, wide receivers; Pat Watson, off. line",
+          "note": "Closing line of the Georgia Tech assistant-coach block in Nebraska's 1991 Citrus Bowl guide."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Pat Watson: 1987-91 Offensive",
+          "note": "1991 GT media guide all-time assistant coaches list; next line reads 'Line'."
+        }
+      ]
+    },
+    {
+      "name": "Chuck Bresnahan",
+      "role": "Inside linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Georgia_Tech_Yellow_Jackets_football_team",
+          "quote": "Chuck Bresnahan – Inside linebackers",
+          "note": "From the article's 'Coordinators/assistant coaches' list."
+        },
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "linebackers; Chuck Bresnahan, inside",
+          "note": "Single exact OCR line from the Georgia Tech assistant-coach block."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Chuck Bresnahan: 1989-91 Inside",
+          "note": "1991 GT media guide all-time assistant coaches list; next line reads 'Linebackers'."
+        }
+      ]
+    },
+    {
+      "name": "Brian Baker",
+      "role": "Outside linebacker",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Georgia_Tech_Yellow_Jackets_football_team",
+          "quote": "Brian Baker – Outside linebacker",
+          "note": "From the article's 'Coordinators/assistant coaches' list."
+        },
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Assistant coaches: Brian Baker, outside",
+          "note": "Opening line of the Georgia Tech assistant-coach block in Nebraska's 1991 Citrus Bowl guide; next line begins 'linebackers;'."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Brian Baker: 1987-91 Outside",
+          "note": "1991 GT media guide all-time assistant coaches list; next line reads 'Linebackers'."
+        }
+      ]
+    },
+    {
+      "name": "Chuck Priefer",
+      "role": "Defensive backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Georgia_Tech_Yellow_Jackets_football_team",
+          "quote": "Chuck Priefer – Defensive backs",
+          "note": "From the article's 'Coordinators/assistant coaches' list."
+        },
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "def, coordinator/def. line; Chuck Priefer, def,",
+          "note": "Single exact OCR line; the following line begins 'backs; Danny Smith, running backs;'."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Chuck Priefer: 1987-91 Defensive",
+          "note": "1991 GT media guide all-time assistant coaches list; next line reads 'Backs'."
+        }
+      ]
+    },
+    {
+      "name": "Lance Thompson",
+      "role": "Volunteer Coach (strong-side outside linebackers; computer scouting/statistical breakdown of opponents)",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "years, Lance Thompson begins his",
+          "note": "1991 GT media guide, Support Staff section. Full wrapped passage: 'After serving as a graduate assis- / tant on coach Bobby Ross' staff for two / years, Lance Thompson begins his / second season as a volunteer coach, / working the strong-side outside line- / backers.' Second season in 1991 = 1990 was his first year as volunteer coach."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Last year, Thompson coached the",
+          "note": "Same bio; continues 'duo ofall-America Marco Colemanand / senior Chris Simmons, who combined / for 20 sacks on the season' - explicitly describing his 1990 coaching duties."
+        }
+      ]
+    },
+    {
+      "name": "John Misciagna",
+      "role": "Director of Recruiting (also a volunteer assistant coach on Bobby Ross's staff)",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "assistant coach on Bobby Ross’ staff.",
+          "note": "1991 GT media guide, Support Staff. Full wrapped passage: 'John Misciagna ... was named Georgia Tech's / Director of Football Operations in July / of 1991 after previously serving as Di- / rector of Recruiting and as a volunteer / assistant coach on Bobby Ross' staff.' So during 1990 he was Director of Recruiting / volunteer assistant."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Director of Football Operations in July",
+          "note": "Same passage; the July 1991 promotion date establishes that his 1990 title was the earlier one, not Director of Football Operations. The guide's all-time assistant list separately shows 'John Misciagna: 1989 Tight Ends'."
+        }
+      ]
+    },
+    {
+      "name": "Bob Frame",
+      "role": "Graduate Assistant Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Bob Frame, a former all-conference",
+          "note": "1991 GT media guide, Support Staff. Section heading above the bio reads 'Graduate / Assistant Coach'."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "second season on the Georgia Tech asa",
+          "note": "Same bio, wrapped: 'player at Harvard College, begins his / second season on the Georgia Tech asa / graduate assistant, working primarily / with the assistant coach Chuck Priefer / and the Rambling Wreck defensive / backs.' Second season in 1991 = on staff in 1990 (he graduated Harvard in 1990)."
+        }
+      ]
+    },
+    {
+      "name": "Gary Miller",
+      "role": "Graduate Assistant Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Gary Miller enters his second sea-",
+          "note": "1991 GT media guide, Support Staff; section heading above reads 'Graduate / Assistant Coach'. Wrapped continuation: 'son as a graduate assistant at Georgia / Tech'. Second season in 1991 = on staff in 1990. He assisted George O'Leary with the defensive line and scout team."
+        }
+      ]
+    },
+    {
+      "name": "Toby Pearson",
+      "role": "Graduate Assistant Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "player, Toby Pearson enters his second",
+          "note": "1991 GT media guide, Support Staff; section heading above reads 'Graduate / Assistant Coach'."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "season as a graduate assistant on the",
+          "note": "Same bio, continuing 'Rambling Wreck staff.' Second season in 1991 = on staff in 1990. Worked with the wide receivers under Terry Strock."
+        }
+      ]
+    },
+    {
+      "name": "Chris Rorke",
+      "role": "Graduate assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Georgia_Tech_Yellow_Jackets_football_team",
+          "quote": "Chris Rorke – Graduate assistant",
+          "note": "From the article's 'Coordinators/assistant coaches' list."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chris_Rorke",
+          "quote": "Georgia Tech",
+          "note": "Rorke's own Wikipedia biography infobox lists coach_years1 = 1989-1990, coach_team1 = Georgia Tech (GA), independently corroborating that he was a Georgia Tech graduate assistant through the 1990 championship season."
+        }
+      ]
+    },
+    {
+      "name": "Joe Reich",
+      "role": "Graduate assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1990_Georgia_Tech_Yellow_Jackets_football_team",
+          "quote": "Joe Reich – Graduate assistant",
+          "note": "CONFLICT FLAG - this is the only source placing Reich on the 1990 staff, and it is contradicted by Reich's own Wikipedia biography, whose infobox lists coach_years1 = 1988 / coach_team1 = Georgia Tech (GA) and coach_years2 = 1989-1992 at Gettysburg. Treat this row as unverified; it is likely an error on the 1990 team-season page. No contemporaneous 1990 source found for him."
+        }
+      ]
+    },
+    {
+      "name": "Jim Lathrop",
+      "role": "Director of Player Development (oversees the strength and conditioning program)",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "is Jim Lathrop, entering his second year in",
+          "note": "1991 GT media guide, Strength & Conditioning feature. Wrapped passage: 'Tech's Director of Player Development / is Jim Lathrop, entering his second year in / that capacity and his fourth year on the / Rambling Wreck staft.' Second year in that capacity as of 1991 = he ran the program during the 1990 championship season. His bio adds that he 'joined the Georgia Tech athletic staff in January of 1988, serving two years as assistant strength coach under the late Dave Pasanella.'"
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Tech’s Director of Player Development",
+          "note": "Preceding line of the same passage, giving the exact title wording."
+        }
+      ]
+    },
+    {
+      "name": "Jim Schulze",
+      "role": "Assistant Director of Player Development",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Jim Schulze enters his fifth season",
+          "note": "1991 GT media guide, Support Staff. Wrapped continuation: 'on the Rambling Wreck strength staff, / serving as the Assistant Director of / Player Development.' Fifth season in 1991 means seasons 1987-1991, so he was on the strength staff for the 1990 title season."
+        }
+      ]
+    },
+    {
+      "name": "Jay Shoop",
+      "role": "Assistant Athletic Director in charge of Sports Medicine",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Shoop, 43, came to Techin 1987",
+          "note": "1991 GT media guide bio (OCR runs 'Tech in' together). The bio's opening reads that he 'enters his fifth year at Georgia Tech and his first as Associate Athletic Director for Sports Science. He has served the last three years as Assistant Athletic Director in charge of Sports Medicine' - i.e., in 1990 his title was Assistant Athletic Director in charge of Sports Medicine. Athletic-department-wide role covering all 16 sports; he supervised football sports medicine, safety equipment and the Player Development program."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "years as Assistant Athletic Director",
+          "note": "Single exact line of the wrapped sentence establishing the 1988-1990 title."
+        }
+      ]
+    },
+    {
+      "name": "Mark Albert",
+      "role": "Assistant Trainer, Physical Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Entering his 15th year as an assis-",
+          "note": "1991 GT media guide, Support Staff. Wrapped passage: 'Entering his 15th year as an assis- / tant trainer and physical therapist at / Georgia Tech, Mark Albert came to / Atlanta in August, 1977'. Continuous service from 1977 covers the 1990 season. Title as worded in the guide's staff directory is 'Assistant Trainer, Physical Therapist'."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Georgia Tech, Mark Albert came to",
+          "note": "Single exact line naming him within the same passage."
+        }
+      ]
+    },
+    {
+      "name": "Arnold Gamber",
+      "role": "Assistant Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "and is in his third football season with",
+          "note": "1991 GT media guide, Support Staff. Wrapped passage: 'Arnold Gamber, who has worked / with the Atlanta Falcons as well as at / the collegiate level, joined the Tech / sports medicine staffon January 1, 1989, / and is in his third football season with / the Rambling Wreck.' Third football season in 1991 = 1989, 1990, 1991, so he worked the 1990 championship season."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Arnold Gamber, who has worked",
+          "note": "Opening line of the same bio; the section heading above it reads 'Assistant / Trainer'."
+        }
+      ]
+    },
+    {
+      "name": "Crandall Woodson",
+      "role": "Assistant Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Crandall Woodson is beginning his",
+          "note": "1991 GT media guide, Support Staff; section heading above reads 'Assistant / Trainer'."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "seventh year as a full-time assistant",
+          "note": "Same bio, wrapped: 'seventh year as a full-time assistant / trainer at Georgia Tech.' Seventh year in 1991 means continuous service from 1985, covering the 1990 season. The guide's Sports Medicine feature names Woodson as one of three full-time assistant trainers under Jay Shoop."
+        }
+      ]
+    },
+    {
+      "name": "A.C. Mayo",
+      "role": "Administrative Assistant to the Head Football Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "A.C. Mayo begins her eighth year",
+          "note": "1991 GT media guide, Support Staff. Wrapped passage: 'A.C. Mayo begins her eighth year / on the Georgia Tech staff and her / second as the administrative assistant / to head football coach Bobby Ross after / previously serving as the administra- / tive assistant for recruiting.' Second year in that role as of 1991 = she held it during the 1990 season; she joined the Tech staff in March 1984."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "second as the administrative assistant",
+          "note": "Single exact line of the same sentence; the staff directory words her title 'Administrative Assistant to the Head Football Coach'."
+        }
+      ]
+    },
+    {
+      "name": "Diane Metcalf",
+      "role": "Administrative Assistant for Football",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "Diane Metcalf joined the football",
+          "note": "1991 GT media guide, Support Staff; section heading above reads 'Administrative Assistant / for Football'."
+        },
+        {
+          "url": "https://ia802808.us.archive.org/33/items/georgia-tech-football-1991-media-guide/Georgia%20Tech%20Football%2C%201991%20Media%20Guide_djvu.txt",
+          "quote": "staffasa full-time secretary to the assis-",
+          "note": "Same bio, wrapped (OCR runs 'staff as a' together): '...joined the football / staffasa full-time secretary to the assis- / tant coaches in January, 1987'. Continuous service from January 1987 covers the 1990 season. She compiled the offensive playbook and served as film secretary."
+        }
+      ]
+    },
+    {
+      "name": "Mike Finn",
+      "role": "Asst. AD/Communications",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mike Finn, Asst. AD/Communications",
+          "note": "Georgia Tech 'SPORTS INFORMATION OFFICE' block in Nebraska's 1991 Florida Citrus Bowl media guide, published for the championship game. Athletic-department communications role rather than strictly football staff. Corroborated by the 1991 GT media guide directory, where he is listed as 'Associate Athletic Director for Communications' after a promotion."
+        }
+      ]
+    },
+    {
+      "name": "Mike Stamus",
+      "role": "Assistant SID",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Mike Stamus, Assistant SID",
+          "note": "Georgia Tech sports information office block in Nebraska's 1991 Citrus Bowl guide (championship game). Corroborated by the 1991 GT media guide, which lists 'Mike Stamus (Virginia Tech '82)' as 'Assistant Sports Information Director'."
+        }
+      ]
+    },
+    {
+      "name": "Frank Zang",
+      "role": "Assistant SID",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Frank Zang, Assistant SID",
+          "note": "Georgia Tech sports information office block in Nebraska's 1991 Citrus Bowl guide. He is not listed in the 1991 Georgia Tech media guide directory, consistent with a departure after the 1990 season."
+        }
+      ]
+    },
+    {
+      "name": "Allison George",
+      "role": "Assistant SID",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Allison George, Assistant SID",
+          "note": "Georgia Tech sports information office block in Nebraska's 1991 Citrus Bowl guide. Corroborated by the 1991 GT media guide, which lists 'Allison George (Georgia Tech '88)' as 'Assistant Sports Information Director'."
+        }
+      ]
+    },
+    {
+      "name": "Homer C. Rice",
+      "role": "Athletic Director",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://ia802804.us.archive.org/8/items/nebraska-football-1991-citrus-bowl-media-guide-c/Nebraska%20Football%201991%20Citrus%20Bowl%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Athletic Director: Dr. Homer C, Rice",
+          "note": "Georgia Tech team facts block in Nebraska's 1991 Florida Citrus Bowl media guide (OCR renders the middle initial period as a comma). Department-level rather than football-staff role; included because ADs are routinely ring recipients, flag/filter as needed."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "WHAT IS SOLID. The full 1990 on-field staff is confirmed twice over: Wikipedia's team-season page and, independently and contemporaneously, the Georgia Tech opponent page of Nebraska's own 1991 Florida Citrus Bowl media guide (published for the Jan. 1, 1991 championship game). Both give the identical nine full-time assistants plus Bobby Ross. The Georgia Tech 1991 media guide's all-time \"Assistant Coaches\" year-by-year list corroborates every one of them with explicit year spans (Baker 1987-91, Bresnahan 1989-91, Friedgen 1987-91, Hendrickson 1987-91, O'Leary 1987-91, Priefer 1987-91, D. Smith 1987-91, Strock 1990-91, Watson 1987-91). That is exactly 9 on-field assistants + head coach, matching the NCAA limit of the era.\n\nSOURCE 2 (SCHOOL SITE ON WAYBACK) WAS IMPOSSIBLE. There was no ramblinwreck.com or any Georgia Tech athletics website in 1990-91; the Web did not yet exist as a public medium. The Wayback Machine has nothing near the title date. Georgia Tech's modern football archive page (https://ramblinwreck.com/football-archive/) offers only two 1990 items - a final-stats PDF and https://ramblinwreck.com/wp-content/uploads/2018/07/1990-football-roster.pdf. I downloaded the roster PDF; it is a single scanned JPEG of the alphabetical PLAYER roster page (page 9 of the 1990 media guide) with no staff listing at all, so it produced no rows.\n\nSOURCE 3 (1990 MEDIA GUIDE) COULD NOT BE OBTAINED. The 1990 Georgia Tech media guide is not on archive.org, issuu, or the school site (only a 1990 media-guide copy for sale on eBay). Georgia Tech Archives holds it in the physical \"Georgia Tech Football Programs and Guides\" collection (UP001), undigitized. The best available substitute is the 1991 Georgia Tech media guide on archive.org, which does have a full Support Staff section with tenure statements (\"enters his second season\", \"fifth season\", \"15th year\", \"joined ... January 1, 1989\"), letting me date people back into 1990 with reasonable rigor. Every support-staff row here rests on such a tenure statement, not on mere 1991 presence.\n\nQUOTE MECHANICS - PLEASE READ BEFORE MATCHING. The two media-guide sources are archive.org OCR text files with hard line wraps and a trailing space on every line. To keep quotes exactly matchable I used single-line exact substrings (no leading/trailing whitespace, no cross-line joins), which means several quotes read as sentence fragments; the full wrapped passage is spelled out in each source's note. I used direct archive.org node URLs (ia802808 / ia802804) because they return HTTP 200 with no redirect; the canonical https://archive.org/download/... equivalents 302 to a rotating node. All 60 quotes in this submission were programmatically verified as exact substrings of the fetched text. OCR typos inside quotes (\"staffon\", \"asa\", \"Techin\", \"Homer C, Rice\", \"staft\") are reproduced faithfully and are in the source, not introduced by me.\n\nONE FLAGGED ROW. Joe Reich is listed as a 1990 graduate assistant on the Wikipedia team-season page, but his own Wikipedia biography gives 1988 as his only Georgia Tech year (1989-1992 at Gettysburg). I kept the row so you can see it, but it is very likely a Wikipedia error and should probably be dropped. Chris Rorke, by contrast, is confirmed by both pages (his infobox reads 1989-1990, Georgia Tech GA).\n\nTIERS I COULD NOT RECOVER.\n- EQUIPMENT: no 1990 equipment manager identified. The 1991 guide's equipment manager, Ottie Steien, explicitly \"begins his first season ... joining the Tech staff in July of 1991\", so he was NOT there for the title. Joe McDonald appears as \"Assistant Equipment Manager\" in the 1991 staff-photo pages with no tenure information. The 1990 head equipment manager remains unknown.\n- TEAM DOCTORS: the 1991 guide names team physician Robert Lambert, M.D., orthopedic consultant Blane Woodfin, M.D., and team dentist Aaron King, D.D.S., and says these specialists \"attend all Tech football practices and games\" - but gives no start dates, and I found no 1990-dated source. I deliberately left them out rather than assume continuity. Same for part-time assistant trainer Walter Smith and women's-sports assistant trainer Vicky Gamber (Vicky Gamber is documented as handling women's sports, so likely not football anyway).\n- STRENGTH STAFF BELOW THE TOP TWO: Lynne Stoessel (Assistant Strength Coach) and graduate assistant Mike Armstrong appear on the 1991 strength staff with no tenure statement; excluded.\n- ANALYSTS / QUALITY CONTROL: these job categories did not exist in 1990 college football. Zero rows, correctly. The closest analogue is Lance Thompson, the volunteer coach who also ran \"Tech's computer scouting system and statistical breakdown of opponents\"; I categorized him as onfield since he coached the strong-side outside linebackers.\n- STUDENT MANAGERS: the 1991 guide's all-time lettermen list marks eight people as 1990 student managers, but the OCR of that list is badly degraded (e.g. \"Beltiower, Bradley\", \"Geerigens, Paul\", \"Bahin, Jim\", \"Windham, Wilham 1890(mgr)\"). Because the names cannot be transcribed reliably I created no rows for them; a page-image read of the 1991 guide's lettermen section would recover roughly eight more names in the equipment/ops tier.\n- RECRUITING ADMIN: Karen Palm was Administrative Assistant for Recruiting in 1991 but her bio says she \"begins her first season ... after joining Georgia Tech staff last spring\", i.e. spring 1991 - not 1990. Excluded.\n\nONE DELIBERATE EXCLUSION WORTH NAMING. Dave Pasanella, Georgia Tech's Director of Player Development (strength), is closely associated with this team, but the 1991 guide states he \"died tragically in an automobile / accident in June of 1990\" - before the season began. He was not on staff for the 1990 season and gets no row under the on-staff-at-the-championship-game rule. Jim Lathrop succeeded him and ran the program in 1990.\n\nSCOPE CAUTION. Four sports-information staffers (Finn, Stamus, Zang, George) and athletic director Homer Rice are athletic-department rather than football-team employees; I included them because Nebraska's bowl guide lists them inside its Georgia Tech section for the championship game itself, but filter them if your ring rule is football-staff-only. Jay Shoop's Sports Science role likewise spanned all 16 varsity sports."
+}

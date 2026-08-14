@@ -1,0 +1,220 @@
+{
+  "team": "Washington",
+  "season": 1991,
+  "staff": [
+    {
+      "name": "Don James",
+      "role": "head coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19920103/1468313/washington-rose-bowl-roster",
+          "quote": "COACHES: Don James (head coach); Jim Lambright (defensive coordinator); Keith Gilbertson (offensive coordinator); Myles Corrigan (tight ends); Randy Hart (defensive line)l; Matt Simon (running backs); Larry Slade (secondary); Chris Tormey (outside linebackers); Bill Wentworth (wide receivers); Jeff Woodruff (quarterbacks).",
+          "note": "Seattle Times published Washington Rose Bowl Roster, Jan 3, 1992 (two days after the Rose Bowl that clinched the coaches-poll title). This single line is the complete staff list as of the championship game; it is the primary source for all ten on-field coaches below. The stray 'l' after '(defensive line)' is a typo in the original and is reproduced verbatim here."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Washington_Huskies_football_team",
+          "quote": "in his 17th season at Washington, was assisted by coordinators",
+          "note": "Wikipedia team-season article lead; confirms James in his 17th season in 1991. Quote fragment chosen to avoid wikilink markup."
+        }
+      ]
+    },
+    {
+      "name": "Jim Lambright",
+      "role": "defensive coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19920103/1468313/washington-rose-bowl-roster",
+          "quote": "Jim Lambright (defensive coordinator)",
+          "note": "From the 'COACHES:' line of the Seattle Times Rose Bowl roster, Jan 3, 1992."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Washington_Huskies_football_team",
+          "quote": "Keith Gilbertson (offense) and Jim Lambright (defense)",
+          "note": "Wikipedia team-season lead confirms the 1991 coordinators."
+        }
+      ]
+    },
+    {
+      "name": "Keith Gilbertson",
+      "role": "offensive coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19920103/1468313/washington-rose-bowl-roster",
+          "quote": "Keith Gilbertson (offensive coordinator)",
+          "note": "From the 'COACHES:' line of the Seattle Times Rose Bowl roster, Jan 3, 1992. Gilbertson coached the Rose Bowl and then left to become California's head coach for 1992, so he was on staff at the championship game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1991_Washington_Huskies_football_team",
+          "quote": "Keith Gilbertson (offense) and Jim Lambright (defense)",
+          "note": "Wikipedia team-season lead; Gilbertson's own Wikipedia infobox lists him as Washington OC/OL in 1991 after two years (1989-1990) as offensive line coach."
+        }
+      ]
+    },
+    {
+      "name": "Myles Corrigan",
+      "role": "tight ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19920103/1468313/washington-rose-bowl-roster",
+          "quote": "Myles Corrigan (tight ends)",
+          "note": "From the 'COACHES:' line of the Seattle Times Rose Bowl roster, Jan 3, 1992."
+        },
+        {
+          "url": "https://www.seattletimes.com/sports/uw-huskies/former-uw-football-assistant-myles-corrigan-dies-at-age-64/",
+          "quote": "tight ends coach from 1987 to 1993, a stint that included the 1991 national-championship season",
+          "note": "Seattle Times obituary; also notes Corrigan later became the program's director of football operations (after his coaching career ended in 1993), i.e. that ops title did not apply to him in 1991."
+        }
+      ]
+    },
+    {
+      "name": "Randy Hart",
+      "role": "defensive line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19920103/1468313/washington-rose-bowl-roster",
+          "quote": "Randy Hart (defensive line)",
+          "note": "From the 'COACHES:' line of the Seattle Times Rose Bowl roster, Jan 3, 1992. In the original the parenthetical is immediately followed by a stray 'l' typo ('(defensive line)l'); the quote above is an exact substring of that text."
+        }
+      ]
+    },
+    {
+      "name": "Matt Simon",
+      "role": "running backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19920103/1468313/washington-rose-bowl-roster",
+          "quote": "Matt Simon (running backs)",
+          "note": "From the 'COACHES:' line of the Seattle Times Rose Bowl roster, Jan 3, 1992."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Matt_Simon_(American_football,_born_1953)",
+          "quote": "Simon left Washington in 1992 for the offensive coordinator position at",
+          "note": "Wikipedia biography; infobox lists Washington (RB/K) 1982-1991, confirming he - not Al Lavan - was the 1991 running backs coach."
+        }
+      ]
+    },
+    {
+      "name": "Larry Slade",
+      "role": "secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19920103/1468313/washington-rose-bowl-roster",
+          "quote": "Larry Slade (secondary)",
+          "note": "From the 'COACHES:' line of the Seattle Times Rose Bowl roster, Jan 3, 1992."
+        },
+        {
+          "url": "https://www.cneagles.com/sports/m-footbl/2015-16/releases/20160104jzezdb",
+          "quote": "His six-year tenure as secondary coach at Washington was highlighted by a national championship season in 1991",
+          "note": "Carson-Newman University news release (2016) recapping Slade's career; his Washington stint is given elsewhere in the same release as 1986-91."
+        }
+      ]
+    },
+    {
+      "name": "Chris Tormey",
+      "role": "outside linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19920103/1468313/washington-rose-bowl-roster",
+          "quote": "Chris Tormey (outside linebackers)",
+          "note": "From the 'COACHES:' line of the Seattle Times Rose Bowl roster, Jan 3, 1992."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chris_Tormey",
+          "quote": "Tormey",
+          "note": "Wikipedia infobox lists Washington 1984-1992 (TE/OLB/secondary), covering 1991. Only the surname is quoted because the tenure data lives in infobox table cells whose rendered text is unreliable for exact string matching."
+        }
+      ]
+    },
+    {
+      "name": "Bill Wentworth",
+      "role": "wide receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19920103/1468313/washington-rose-bowl-roster",
+          "quote": "Bill Wentworth (wide receivers)",
+          "note": "From the 'COACHES:' line of the Seattle Times Rose Bowl roster, Jan 3, 1992."
+        },
+        {
+          "url": "https://www.latimes.com/archives/la-xpm-1992-01-02-sp-7777-story.html",
+          "quote": "took the job as receivers coach for the University of Washington football team",
+          "note": "Los Angeles Times, Jan 2, 1992, the day after the Rose Bowl; the article says Wentworth left Cal State Fullerton in March 1991 for the Washington job, so he was on staff for the entire 1991 season."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Woodruff",
+      "role": "quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19920103/1468313/washington-rose-bowl-roster",
+          "quote": "Jeff Woodruff (quarterbacks)",
+          "note": "From the 'COACHES:' line of the Seattle Times Rose Bowl roster, Jan 3, 1992. Woodruff's Wikipedia infobox likewise lists Washington (QB) 1984-1991 before he became offensive coordinator in 1992."
+        }
+      ]
+    },
+    {
+      "name": "Dick Baird",
+      "role": "recruiting coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://www.si.com/college/washington/legends/baird-said-uw-was-kicking-itself-before-1992-rose-bowl",
+          "quote": "said Dick Baird, the then-UW recruiting coordinator",
+          "note": "Sports Illustrated (Dan Raley) vignette in the 'Road to 1991 Perfection' series, describing Rose Bowl week after the 1991 season; Baird is identified with his role as of that season. He is not on the Seattle Times ten-man coaching line, consistent with his holding the non-full-time-assistant recruiting-coordinator post rather than one of the nine on-field slots."
+        },
+        {
+          "url": "https://kitsapsportshalloffame.wordpress.com/2009/01/05/dick-baird/",
+          "quote": "The former Washington Huskies assistant (1984-1999)",
+          "note": "Kitsap Sports Hall of Fame bio; also states Don James named him Washington's recruiting coordinator in 1985, covering the 1991 season."
+        }
+      ]
+    },
+    {
+      "name": "Rick Huegli",
+      "role": "UW strength and conditioning coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://www.si.com/college/washington/legends/weight-coach-rick-huegli-says-jaime-fields-was-weight-lifting-freak",
+          "quote": "said Rick Huegli, the UW strength and conditioning coach in 1981-99",
+          "note": "Sports Illustrated (Dan Raley) 'Road to 1991 Perfection' article about the 1991 team's weight room; Huegli's 1981-99 tenure covers 1991. The 1993 Washington football media guide (archive.org) independently lists him as 'Strength Coach' in his 13th year, i.e. beginning in 1981."
+        }
+      ]
+    },
+    {
+      "name": "Bill Gillespie",
+      "role": "assistant coach strength and conditioning coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://libertyflames.com/sports/football/roster/coaches/bill-gillespie/2100",
+          "quote": "Gillespie joined the staff as assistant coach strength and conditioning coach in 1991",
+          "note": "Liberty University staff bio (role wording is verbatim from the source, including its garbled 'assistant coach strength and conditioning coach'). The same bio notes he was named Pac-10 Strength and Conditioning Coach of the Year in 1991; the 1993 UW media guide lists him as 'Assistant Strength Coach' in his 3rd year, consistent with a 1991 start."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Mills",
+      "role": "graduate assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://gosycamores.com/sports/football/roster/coaches/jeff-mills/282",
+          "quote": "Mills was a graduate assistant at Washington in 1990 and 1991.",
+          "note": "Indiana State University staff bio. His Houston Christian and Iowa State bios and his Wikipedia infobox ('1990-1991 Washington (GA)') say the same; the Iowa State bio's year-by-year table reads '1990-91 - Washington - Graduate Assistant'."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "WHAT IS SOLID: The on-field tier is complete and comes from a single contemporaneous source - the Seattle Times' published \"Washington Rose Bowl Roster\" (Jan 3, 1992, two days after the Rose Bowl that clinched the coaches-poll title), whose \"COACHES:\" line names exactly ten men: Don James plus nine assistants (Lambright, Gilbertson, Corrigan, Hart, Simon, Slade, Tormey, Wentworth, Woodruff). Nine full-time assistants was the NCAA maximum in that era, so this list is almost certainly the entire on-field staff as of the championship game. Every one of those ten is cited to that line, and eight of them have at least one corroborating source. No one on the list arrived or departed mid-season (Wentworth was hired in March 1991; Gilbertson coached the Rose Bowl and only then left to become Cal's head coach for 1992), so no midseason_note applies to anyone.\n\nCORRECTION TO A COMMON ERROR: Wikipedia's \"1991 Washington Huskies football navbox\" lists Al Lavan among the 1991 assistant coaches, and Lavan's own Wikipedia article says \"Washington (1991-1995)\". That is wrong by a year. Lavan does not appear on the January 1992 Seattle Times staff line; Matt Simon was the 1991 running backs coach (Simon's Wikipedia infobox: Washington RB/K 1982-1991), and the 1993 Washington media guide lists \"Al Lavan (2nd year)\" as cornerbacks coach, i.e. he started in 1992. Lavan is therefore excluded.\n\nTIERS I COULD NOT RECOVER:\n1. No 1991 or 1992 media guide exists anywhere I could reach. archive.org holds Washington football media guides for 1989 and 1993-1998 only (identifiers washington-football-YYYY-media-guide-c); there is no 1990, 1991 or 1992 volume. The Wayback Machine's earliest captures postdate 1996, so no contemporaneous athletics-site staff directory exists for fall 1991 / January 1992 - the \"school site archived near the title date\" step is simply unavailable for a 1991 team. gohuskies.com/sports/football/coaches/1991 returns HTTP 200 but renders the current staff, not 1991.\n2. Graduate assistants: only Jeff Mills is documented. NCAA rules then allowed two GAs, so there is very likely a second 1991 GA I could not name. The 1993 media guide's two GAs (Wayne Dickens, Rick Mallory) are each listed in their second year, meaning both started in 1992, so neither fills the 1991 slot.\n3. Strength staff: Huegli (head) and Gillespie (assistant, joined 1991) are documented. A third name in the 1993 guide, Stephanie Armitage-Johnson, is listed in her second year (started 1992) and is therefore excluded.\n4. Operations/personnel/recruiting: only Dick Baird is documented. The football office staff listed in the 1993 media guide (secretary Peggy Watson, \"9th year\"; program assistant Connie Bone, \"5th year\") would by those tenures have been present in 1991, but I found no 1991-dated source for either, and the media-guide text is only available as noisy OCR, so I did not create rows for them. There was no \"director of football operations\" position on this staff in 1991 - Myles Corrigan became the program's first, in 1994, after his coaching career ended.\n5. Medical, equipment, video: not recoverable at the team level. Washington's trainers (head trainer Dennis Sealey and seven assistant trainers), equipment managers (Tony Piro plus five assistants) and film/video staff appear in the 1993 media guide as athletic-department-wide personnel, not as football-team staff, and I found no source assigning any of them to the 1991 football team specifically. No team physician is documented in any accessible source.\n6. Analyst and quality-control tiers did not exist in 1991 college football; there are no rows for them, and their absence is real rather than a gap in coverage.\n\nQUOTE MECHANICS: Every quote above was verified as an exact byte-for-byte substring of the raw HTML served at the given URL (verified programmatically). Wikipedia quotes were deliberately kept to link-free fragments because wikilinks become markup in converted page text; for Chris Tormey the only Wikipedia evidence lives in infobox table cells, so his quote is minimal and the Seattle Times line is his real support. The Seattle Times line contains an original typo, \"Randy Hart (defensive line)l\" - Hart's quote is an exact substring of it. archive.seattletimes.com/archive/?date=19920103&slug=1468313 redirects to the canonical URL cited."
+}

@@ -1,0 +1,307 @@
+{
+  "team": "Tennessee",
+  "season": 1998,
+  "staff": [
+    {
+      "name": "Phillip Fulmer",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19991128220353/http://utsports.com:80/News+Release/Football/1998/07/06/fbc_coach_fulmer.html",
+          "quote": "Phillip Fulmer - Head Coach",
+          "note": "Archived University of Tennessee athletics staff bio filed under the 1998/07/06 football release directory. Body text: \"His 1998 Volunteers didn't just get to the next level-they created another level of achievement unsurpassed in modern day college football history: consensus national champions.\""
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1998_Tennessee_Volunteers_football_team",
+          "quote": "Led by sixth-year head coach",
+          "note": "Article lead; the words immediately following are the linked name Phillip Fulmer, so the quote stops at the link boundary to stay contiguous plain text."
+        }
+      ]
+    },
+    {
+      "name": "David Cutcliffe",
+      "role": "Offensive coordinator/assistant head coach/quarterbacks",
+      "role_category": "onfield",
+      "midseason_note": "Departed BEFORE the championship game. Cutcliffe accepted the Ole Miss head coaching job in December 1998 and left Tennessee immediately rather than staying through the Fiesta Bowl; Randy Sanders ran the offense and called plays in the Jan. 4, 1999 BCS title game. Under a strict 'on staff at the championship game' ring rule, Cutcliffe does not qualify.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1998_Tennessee_Volunteers_football_team",
+          "quote": "David Cutcliffe – Offensive coordinator/assistant head coach/quarterbacks",
+          "note": "Coaching staff list in the roster footer of the team-season article. Separator is an en dash (U+2013)."
+        },
+        {
+          "url": "https://www.saturdaydownsouth.com/news/college-football/tennessee-vols-1998-national-champions-how-they-won/",
+          "quote": "he decided to leave UT and take on the Ole Miss challenge",
+          "note": "Contemporaneous-reporting retrospective by Dave Hooker, who covered the 1998 Vols. The same section is headed by the pull quote attributed to 'David Cutcliffe, on leaving before the title game' and adds: 'Cutcliffe said there were two reasons he agreed to leave immediately for Ole Miss.'"
+        },
+        {
+          "url": "https://web.archive.org/web/20000605013110/http://www.utsports.com:80/News+Release/Football/1998/07/06/fbc_coach_sanders.html",
+          "quote": "Randy was named offensive coordinator after the 1998 season when David Cutcliffe resigned to accept the head coaching job at Ole Miss.",
+          "note": "Official UT athletics bio for Randy Sanders confirming Cutcliffe was the 1998 offensive coordinator and resigned."
+        }
+      ]
+    },
+    {
+      "name": "Randy Sanders",
+      "role": "Running backs/recruiting coordinator",
+      "role_category": "onfield",
+      "midseason_note": "Role changed within the season. Sanders opened 1998 as running backs coach/recruiting coordinator, then took over as offensive coordinator and play-caller for the Fiesta Bowl after David Cutcliffe left for Ole Miss. He was on staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1998_Tennessee_Volunteers_football_team",
+          "quote": "Randy Sanders – Running backs/recruiting coordinator",
+          "note": "Coaching staff list in the roster footer. Separator is an en dash (U+2013)."
+        },
+        {
+          "url": "https://web.archive.org/web/20000605013110/http://www.utsports.com:80/News+Release/Football/1998/07/06/fbc_coach_sanders.html",
+          "quote": "Randy Sanders, who debuted as Tennessee's offensive coordinator with the 1998 national championship victory over Florida State",
+          "note": "Official UT athletics bio establishing that Sanders was the offensive coordinator for the BCS title game itself."
+        },
+        {
+          "url": "https://www.saturdaydownsouth.com/news/college-football/tennessee-vols-1998-national-champions-how-they-won/",
+          "quote": "said Randy Sanders, who coached running backs to begin the season",
+          "note": "Confirms his starting-of-season assignment; the same article quotes Sanders recalling the '69 Go' play call for the Fiesta Bowl touchdown."
+        }
+      ]
+    },
+    {
+      "name": "Pat Washington",
+      "role": "Wide receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1998_Tennessee_Volunteers_football_team",
+          "quote": "Pat Washington – Wide receivers",
+          "note": "Coaching staff list in the roster footer. Separator is an en dash (U+2013)."
+        },
+        {
+          "url": "https://web.archive.org/web/20000118143338/http://utsports.com:80/News+Release/Football/1998/07/06/fbc_coach_washington.html",
+          "quote": "In 1998, Washington received recognition as the outstanding receivers coach",
+          "note": "Archived official UT athletics bio, headlined 'Pat Washington - Assistant Football Coach/Receivers'. Sentence continues 'in the Southeastern Conference.' on the next wrapped line."
+        }
+      ]
+    },
+    {
+      "name": "Mark Bradley",
+      "role": "Tight ends/assistant offensive line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1998_Tennessee_Volunteers_football_team",
+          "quote": "Mark Bradley – Tight ends/assistant offensive line",
+          "note": "Coaching staff list in the roster footer. Separator is an en dash (U+2013)."
+        },
+        {
+          "url": "https://archive.org/download/tennessee-football-1999-media-guide/Tennessee%20Football%201999%20Media%20Guide_djvu.txt",
+          "quote": "work of tight ends for the Tennessee football staff,",
+          "note": "OCR full text of the 1999 Tennessee football media guide (the guide published after the 1998 title season). Bradley's bio is headed 'Assistant Football Coach / Offensive Line' and also reads 'Mike Barry with the other positions in the offensive line,' — matching the same dual tight ends / assistant offensive line duty listed for 1998. OCR of this scan is degraded; the quote is copied byte-for-byte from the djvu text including its artifacts. No 1998-dated bio page for Bradley survives on the Wayback Machine (all 1998/07/06 captures of his URL are archived 404s)."
+        }
+      ]
+    },
+    {
+      "name": "Mike Barry",
+      "role": "Offensive line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1998_Tennessee_Volunteers_football_team",
+          "quote": "Mike Barry – Offensive line",
+          "note": "Coaching staff list in the roster footer. Separator is an en dash (U+2013)."
+        },
+        {
+          "url": "https://web.archive.org/web/20000301155836/http://www.utsports.com:80/News+Release/Football/1998/07/06/fbc_coach_barry.html",
+          "quote": "For his work with Tennessee's national championship team in 1998, Barry received an award as the Southeastern Conference's outstanding offensive line coach.",
+          "note": "Archived official UT athletics bio, headlined 'Mike Barry - Assistant Football Coach/Offensive Line'; career line reads 'Tennessee 1998-present.'"
+        }
+      ]
+    },
+    {
+      "name": "John Chavis",
+      "role": "Defensive coordinator/linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1998_Tennessee_Volunteers_football_team",
+          "quote": "John Chavis – Defensive coordinator/linebackers",
+          "note": "Coaching staff list in the roster footer. Separator is an en dash (U+2013)."
+        },
+        {
+          "url": "https://web.archive.org/web/20000612093558/http://www.utsports.com:80/News+Release/Football/1998/07/06/fbc_coach_chavis.html",
+          "quote": "After the national championship season of 1998, Chavis was named the SEC",
+          "note": "Archived official UT athletics bio, headlined 'John Chavis - Assistant Football Coach, Defensive Coordinator/Linebackers'. Sentence continues \"'s outstanding linebacker coach.\" on the next wrapped line. Same bio notes he was not given the assistant head coach title until 1999."
+        }
+      ]
+    },
+    {
+      "name": "Dan Brooks",
+      "role": "Defensive line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1998_Tennessee_Volunteers_football_team",
+          "quote": "Dan Brooks – Defensive line",
+          "note": "Coaching staff list in the roster footer. Separator is an en dash (U+2013)."
+        },
+        {
+          "url": "https://web.archive.org/web/20000611231157/http://www.utsports.com:80/News+Release/Football/1998/07/06/fbc_coach_brooks.html",
+          "quote": "Brooks, after the 1998 national championship season at UT, was awarded recognition as the Southeastern Conference",
+          "note": "Archived official UT athletics bio. The same bio confirms he did NOT hold the recruiting coordinator title in 1998: 'A measure of Fulmer's confidence in Brooks came after the 1998 season when he designated Dan to take on additional duties as the Vols' recruiting coordinator as successor to Randy Sanders'."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Ramsey",
+      "role": "Defensive backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1998_Tennessee_Volunteers_football_team",
+          "quote": "Kevin Ramsey – Defensive backs",
+          "note": "Coaching staff list in the roster footer. Separator is an en dash (U+2013)."
+        },
+        {
+          "url": "https://www.saturdaydownsouth.com/news/college-football/tennessee-vols-1998-national-champions-how-they-won/",
+          "quote": "He made it clear to defensive backs coach Kevin Ramsey.",
+          "note": "Fiesta Bowl passage: Dwayne Goodrich on covering Peter Warrick — 'I told coach Ramsey I wanted Peter Warrick wherever he went the whole game'. Places Ramsey on the sideline as DB coach at the BCS championship game itself."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kevin_Ramsey",
+          "quote": "Tennessee (DB)",
+          "note": "Coaching-history infobox row paired with the years 1995–1998, confirming he served through the 1998 season before leaving for Georgia in 1999."
+        }
+      ]
+    },
+    {
+      "name": "Steve Caldwell",
+      "role": "Special teams/defensive ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1998_Tennessee_Volunteers_football_team",
+          "quote": "Steve Caldwell – Special teams/defensive ends",
+          "note": "Coaching staff list in the roster footer. Separator is an en dash (U+2013)."
+        },
+        {
+          "url": "https://web.archive.org/web/20000301185920/http://www.utsports.com:80/News+Release/Football/1998/07/06/fbc_coach_caldwell.html",
+          "quote": "But entering his sixth season on Phillip Fulmer",
+          "quote_note_placeholder": "",
+          "note": "Archived official UT athletics bio, headlined 'Steve Caldwell - Assistant Football Coach/Defensive Ends'. Written for 2000 as his sixth season, i.e. 1995-2000, covering 1998; career line reads 'Tennessee-1995-present.' The UT bio titles him only for defensive ends; Wikipedia adds the special teams duty."
+        }
+      ]
+    },
+    {
+      "name": "Kurt Roper",
+      "role": "Graduate assistant",
+      "role_category": "gradasst",
+      "midseason_note": "Likely departed before the championship game. Wikipedia's Roper article states that while Tennessee was preparing for the national championship he chose to follow David Cutcliffe to Ole Miss; his infobox nonetheless credits him with Tennessee 1996–1998. Ring eligibility under an 'on staff at the championship game' rule is therefore uncertain.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1998_Tennessee_Volunteers_football_team",
+          "quote": "Kurt Roper – Graduate assistant",
+          "note": "Coaching staff list in the roster footer. Separator is an en dash (U+2013). Roper is the only graduate assistant documented for the 1998 staff."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kurt_Roper",
+          "quote": "Roper decided to follow Tennessee offensive coordinator",
+          "note": "Full sentence on the page reads 'While the Volunteers prepared for a national championship, Roper decided to follow Tennessee offensive coordinator David Cutcliffe to Mississippi, where Roper would spend six years as an offensive assistant under Cutcliffe at head coach.' The quote is trimmed to stop at the wikilink boundary so it remains contiguous plain text. Infobox row: coach_years 1996–1998, Tennessee (GA)."
+        }
+      ]
+    },
+    {
+      "name": "John Stucky",
+      "role": "Assistant Athletic Director for Physical Development",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20001011115821/http://www.utsports.com:80/News+Release/Football/1999/07/21/fbc_coach_stucky.html",
+          "quote": "John came to UT in 1994 from a six-year stint at Arkansas.",
+          "note": "Archived official UT athletics staff bio, headlined 'John Stucky - Assistant Athletic Director for Physical Development'. Bio also reads 'is in his sixth year as head of Tennessee's' fitness and conditioning program and career line 'Tennessee 1994-present', placing him in charge of strength and conditioning during the 1998 season. He is the only strength and conditioning staffer documentable to 1998."
+        },
+        {
+          "url": "https://archive.org/download/tennessee-football-1999-media-guide/Tennessee%20Football%201999%20Media%20Guide_djvu.txt",
+          "quote": "profession, is in his sixth year as head of Tennessee",
+          "note": "OCR full text of the 1999 Tennessee football media guide, Strength and Conditioning Staff section. Quote stops at the line wrap; the text continues \"'s fitness and conditioning program.\""
+        }
+      ]
+    },
+    {
+      "name": "Condredge Holloway",
+      "role": "UT Assistant Athletic Director for Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19980529210623/http://www.utsports.com:80/News+Release/Football/1998/04/21/fbc_holloway+aad.html",
+          "quote": "was named April 17 as UT Assistant Athletic Director for Football",
+          "note": "Contemporaneous UT athletics release dated 4/21/98 (Wayback capture from May 1998, i.e. genuinely from within the 1998 calendar year and before the season). Full sentence: 'Condredge Holloway, a dazzling quarterback who became one of the most popular players in Tennessee football history, was named April 17 as UT Assistant Athletic Director for Football Operations.' Quote stops at the line wrap before 'Operations.'"
+        },
+        {
+          "url": "https://web.archive.org/web/20000302081252/http://www.utsports.com:80/News+Release/Football/1999/07/21/fbc_coach_holloway.html",
+          "quote": "Holloway's appointment in 1998 rekindled blissful moments",
+          "note": "Archived official UT athletics bio headlined 'Condredge Holloway - Assistant Athletic Director/Football Operations'; describes him as 'the chief administrative aide to head coach Phillip Fulmer' and 'into his second season' as of 1999, confirming 1998 as his first season."
+        }
+      ]
+    },
+    {
+      "name": "David Blackburn",
+      "role": "Assistant Athletic Director/Football Administrator/Compliance",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20000302063348/http://www.utsports.com:80/News+Release/Football/1999/07/21/fbc_coach_blackburn.html",
+          "quote": "David Blackburn, an earnest and dependable stalwart on Head Coach Phillip Fulmer's staff, was promoted last winter to assistant",
+          "note": "IMPORTANT CAVEAT: the title given in the role field is the one he was PROMOTED to in the winter following the 1998 title season ('last winter' relative to this July 1999 bio). The source establishes he was already a member of Fulmer's football staff handling football administration during 1998 (he ran the Fulmer football camp and the Spring Football Coaching Clinic and kept coaches on top of NCAA/SEC compliance), but no surviving source states his exact 1998 job title. Sentence continues 'athletic director football administrator/compliance.' on the next wrapped line."
+        }
+      ]
+    },
+    {
+      "name": "Scott Altizer",
+      "role": "Senior Services Administrative Assistant, High School Relations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/tennessee-football-1999-media-guide/Tennessee%20Football%201999%20Media%20Guide_djvu.txt",
+          "quote": "member of the UT staff since 1994. While attending Furman, he played",
+          "note": "OCR full text of the 1999 Tennessee football media guide, Football Staff section. His entry also reads \"Fulmer's Tennessee football staff in the position of Senior Services\" (continuing '[Admin]istrative Assistant for High School Relations' across an OCR-mangled line break). 1998 presence is inferred from the 'since 1994' tenure statement, not from a 1998-dated staff list. OCR of this scan is degraded; quote copied byte-for-byte including artifacts."
+        }
+      ]
+    },
+    {
+      "name": "Mike Rollo",
+      "role": "Head Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/tennessee-football-1999-media-guide/Tennessee%20Football%201999%20Media%20Guide_djvu.txt",
+          "quote": "Rollo, 43, was named to his current position of head trainer shortly after",
+          "note": "OCR full text of the 1999 Tennessee football media guide, Athletic Training Staff section, headed 'Mike Rollo / Head Trainer'. The following lines date the appointment to 1992 (after the death of Tim Kerin) and the career summary line reads 'Tennessee 1980-86; Associate Trainer, Tennessee 1986-92; Head' / 'Trainer 1992-present', establishing he was head trainer during the 1998 season. The bio also says 'trainer, Rollo gives the bulk of his attention to football'. 1998 presence is inferred from these tenure statements, not from a 1998-dated staff list."
+        }
+      ]
+    },
+    {
+      "name": "Roger Frazier",
+      "role": "Head Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/tennessee-football-1999-media-guide/Tennessee%20Football%201999%20Media%20Guide_djvu.txt",
+          "quote": "Head Equipment Manager Roger Frazier is responsible for all football",
+          "note": "OCR full text of the 1999 Tennessee football media guide, Equipment Manager entry. Adjoining lines read 'Now in his 15th year with the Volunteer football program' and 'his career at UT in 1978 as student manager, before being named head' / 'equipment manager in s 983.' (OCR mangling of 1983), establishing he ran the football equipment room during the 1998 season. 1998 presence is inferred from these tenure statements, not from a 1998-dated staff list."
+        }
+      ]
+    },
+    {
+      "name": "Max Parrott",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/tennessee-football-1999-media-guide/Tennessee%20Football%201999%20Media%20Guide_djvu.txt",
+          "quote": "Parrott began his association with the Volunteer football program as a",
+          "note": "OCR full text of the 1999 Tennessee football media guide, entry headed 'Max Parrott / Assistant Equipment Manager'. Adjoining lines read 'Max Parrott begins his 15th season as' [assistant equipment manager] 'under the helm of Roger Frazier,' and 'student [assist]ant in 1980, before coming back in 1985 to take on the' 'equipment room duty on a full time basis.' — placing him on the football equipment staff through the 1998 season. 1998 presence is inferred from these tenure statements, not from a 1998-dated staff list."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "WHAT IS SOLID. The head coach and the complete nine-man on-field assistant tier (the NCAA maximum in 1998) are fully recovered and independently corroborated: Wikipedia's roster-footer staff list for the team-season, cross-checked against archived utsports.com official staff bios captured by the Wayback Machine from the URL path /News+Release/Football/1998/07/06/, which is the exact \"Staff\" link target used by Tennessee's own football site during the 1998 season (verified from the Dec. 1, 1998 capture of utsports.com/teams/fbc/index.html, whose INFO CENTER dropdown points \"Staff\" at /News+Release/Football/1998/07/06/fbc_coaching_staff.html). Seven of those bios (Fulmer, Washington, Barry, Brooks, Caldwell, Chavis, Sanders) survive and explicitly reference the 1998 national championship season.\n\nTWO RING-RULE EXCEPTIONS, BOTH FLAGGED. David Cutcliffe (OC/AHC/QB) left for the Ole Miss head job in December 1998 and did NOT coach the Jan. 4, 1999 Fiesta Bowl; Randy Sanders moved from running backs to offensive coordinator and called the plays in the title game. Kurt Roper, the lone documented graduate assistant, reportedly followed Cutcliffe to Ole Miss while Tennessee was preparing for the championship game, though his own infobox still credits him with Tennessee through 1998. Both are included with midseason_note; neither is clean under a strict \"on staff at the championship game\" rule.\n\nWHAT I COULD NOT RECOVER — BE AWARE THIS LIST IS INCOMPLETE BELOW THE ON-FIELD TIER.\n1. No 1998 Tennessee football media guide exists on archive.org (their holdings jump from 1954 to 1999), and no 1998-season Wayback capture of Tennessee's staff-directory page survives — every surviving capture of that URL was taken in 2000-2001 and shows the 1999/2000 staff. The SEC's 1998 conference handbook has a Tennessee preview but no staff roster. So there is NO contemporaneous 1998 staff directory for the support tiers.\n2. All support-tier rows (Stucky, Altizer, Rollo, Frazier, Parrott) except Holloway rest on tenure statements in the 1999 media guide or in 1999-dated archived bios (\"in his sixth year\", \"since 1994\", \"1992-present\", \"15th year/season\") rather than on a 1998-dated roster. That is real documented evidence, not a guess, but it is one inferential step removed. Holloway is the exception: his hire is documented by a UT release dated 4/21/98 archived in May 1998.\n3. GRADUATE ASSISTANTS: only Kurt Roper is documented. Tennessee would have carried at least two GAs; the second (and any volunteer/student assistants) is unrecoverable. The 1999 guide's GAs, Ryan Held and Shawn Quinn, are explicitly NOT 1998 staff or unprovable — Quinn \"joined the Tennessee staff last spring\" (spring 1999), and Held's bio only establishes he coached at Nebraska in 1996-97 and graduated in 1998.\n4. STRENGTH AND CONDITIONING: only John Stucky is defensible. The 1999 guide's other S&C staff are excluded for lack of 1998 evidence — Brian Brown explicitly arrived \"to Tennessee this spring\" (1999); Chris Carlisle's bio gives no Tennessee start date; Johnny Long's bio gives no start date; Dan Eason's bio says he directed the strength program at Chowan College \"from 1996 to 1998\", which does not establish when he reached Knoxville. Including any of them would be padding.\n5. ANALYST and QUALITY CONTROL: no rows. These were not staff categories in 1998 college football, and nothing in any source describes such a position at Tennessee.\n6. MEDICAL: only head trainer Mike Rollo. Team physician Dr. Val Gene Iven, team orthopedist Dr. Bill Youmans, and assistant trainers John Christofferson and Chad Newman appear only in the 1999 guide with no statement placing them on the 1998 football staff (and Newman's entry says he \"devotes most of his time working with the b[asketball] team\"), so they are excluded.\n7. NOT INCLUDED AT ALL, though named in the 1999 guide with zero 1998 tenure evidence: football video staff (Barry Rice, Joe Harrington, Link Eldson), data integrity clerk Glen Grimes, community relations administrative assistant Kevin Avery, and the football secretarial staff (Stacey Boyd, Pat Pryor, Kim Milligan, and a recruiting secretary whose first name OCRs as \"Angela Sc-\"). These are real 1999 names; asserting them for 1998 would be padding.\n8. David Blackburn's listed title is the one he was promoted to in the winter AFTER the 1998 season. The source proves he was on Fulmer's staff doing football administration during 1998 but does not give his 1998 title.\n\nSOURCE-QUALITY WARNING FOR MECHANICAL MATCHING. Quotes attributed to archive.org/download/tennessee-football-1999-media-guide/...djvu.txt come from an OCR scan of poor quality; they are copied byte-for-byte from that text file, artifacts and all, and are confined to a single line of that file to avoid line-break mismatches. Wikipedia quotes from the coaching-staff list use an en dash (U+2013) as the name/role separator and are trimmed at wikilink boundaries where necessary. Wayback Machine URLs must be fetched using the \"+\" (not \"%20\") form of the path — the \"%20\" captures of these same pages are archived 404s and return nothing. Mark Bradley and Kevin Ramsey have no surviving 1998-dated official Tennessee bio for this reason; their rows rest on Wikipedia plus, respectively, the 1999 media guide and Fiesta Bowl game coverage naming Ramsey as defensive backs coach at the title game."
+}

@@ -1,0 +1,765 @@
+{
+  "team": "LSU",
+  "season": 2003,
+  "coverage_notes": "SOURCE BASIS. Two contemporaneous primary sources carried almost all of this: (1) LSU's own athletics-site staff directory archived mid-season, \"2003 LSU Football Coaching/Strength Staff\" (Wayback capture 2003-11-21), which is a clean HTML table of 16 names with exact position titles and years at LSU; and (2) the 2003 LSU Football Media Guide, archived on lsusports.net as page-range PDFs, whose \"Football Support Staff\" section (pp. 129-136) covers graduate assistants, interns, equipment, video, athletic training, and football operations. The archived athletics-wide \"Equipment Staff\" page (Wayback 2003-09-08) supplied the equipment tier and football student managers. 49 people total.\n\nPDF QUOTE LIMITATION. Per instructions, every source that is a media-guide PDF has quote set to \"\" because the text cannot be copied faithfully. The 2003 guide's PDFs extract with pervasive intra-word letter-spacing artifacts (e.g. \"B a r n e t t\", \"re c o rded\", \"ov e rall\", \"g raduate\") and with role titles broken across lines, so any quote I copied would not string-match a re-extraction. For those rows the note gives the exact printed heading text, the PDF page range, and the printed page number. Where a clean HTML source also exists (the archived staff directory, the archived equipment page, Wikipedia, or a current official bio), I used that for the matchable quote and kept the PDF as corroboration.\n\nHTML TABLE QUOTES. The archived staff-directory and equipment-staff pages are HTML tables where the name and the position sit in adjacent <td> cells, so no single contiguous string contains both. For those rows I supply two source entries per person - one quoting the Name cell verbatim, one quoting the Position cell verbatim - both from the same URL, with the pairing explained in the note.\n\nWHAT IS FULLY COVERED. The complete on-field staff is recovered and internally consistent across both primary sources: Saban plus exactly nine assistants (Doll, Dooley, Fisher, Hixon, Travis Jones, Muschamp, Searels, Lance Thompson, Walton), which matches the NCAA limit of the era. Strength and conditioning, football operations/administration, video, athletic training, and equipment are all recovered by name and title.\n\nWHAT IS PARTIAL OR UNCERTAIN.\n- Graduate assistants and interns: the media guide documents four (Coley, Barnett, Scherer, Walker) and I recovered three more from secondary sources (Dawsey, Cochran, Mike Collins). This tier was not published as a roster in 2003, so I cannot assert the list is exhaustive; there were likely additional GAs and interns who were never printed anywhere I could find.\n- Scott Cochran and Mike Collins do NOT appear on the official 2003-11-21 staff directory, which lists only four S&C staff (Moffitt, Bo Davis, Gadeken, Will Jones). Both are sourced to later retrospective bios (Wikipedia for Cochran; LSU's own 2004 staff bio for Collins). Their 2003 roles therefore sit below the tier LSU published, and Cochran's exact title in 2003 (\"assistant strength and conditioning coach\" per Wikipedia) conflicts with his absence from LSU's own contemporaneous S&C list - treat the title as approximate.\n- Chad Walker role conflict: the 2003 media guide, written preseason, titles him \"Recruiting Intern\" and I used that verbatim with role_category ops. Wikipedia and later bios describe him as a defensive graduate assistant at LSU in 2003-2004. I kept the contemporaneous title and flagged the conflict in his source note; a consumer may prefer gradasst.\n- Analysts and quality control: NOT RECOVERED, and I believe genuinely nonexistent as titled positions. No person on either primary source carries an \"analyst\" or \"quality control\" title; those roles had not yet proliferated in college football in 2003. The functional equivalents in this era were the graduate assistants (film breakdown, scouting reports - explicitly described in Coley's and Barnett's guide bios) and the video department. No row is categorized analyst or qc.\n- Video staff: Doug Aucoin's guide bio states he \"oversees a staff of eight people in the video department, which includes one full-time assistant, one graduate assistant and six student assistants.\" Only two of those eight are named (Aucoin, Fairburn). The video graduate assistant and six student assistants are UNRECOVERED - no source names them. I categorized the two named video staff as \"other\" rather than analyst, since Videography Director/Assistant Videographer are the titles as worded.\n- Athletic training: the three named trainers (Marucci, Barker, Mullenix) are the football-relevant full-time staff per the media guide's Athletic Training Staff section. The guide elsewhere notes \"Three full time trainers\" plus \"as many graduate assistants and student-trainers\" - those GA and student trainers are UNRECOVERED. Team physicians are not named in any source I found and are NOT included.\n- Equipment and student managers: the archived Equipment Staff page is athletics-wide, not football-only. I included the four full-time equipment staff (Boss, Shillings, Stringfellow, Boniol - the media guide's Equipment Staff section confirms all four work with football; Boniol's bio says he oversees Olympic sports \"as well as working with the Tiger football team\") and the twelve student managers whose Position cell explicitly says Football or Baseball/Football. Student managers are marked role_category equipment; a consumer wanting only salaried staff should filter these twelve out. Athletics-wide equipment staff without a football designation were excluded rather than guessed.\n- Secretaries/receptionist (Spradley, CC Thompson, Stuckey) and the two operations coordinators (Mangum, Lofton) appear only as a name-and-title block on the last page of the guide's support-staff section, with no bio text. Names are as printed; \"CC Thompson\" is printed without periods, and \"Ya'el Lofton\" is printed with a typographic apostrophe.\n- Wikipedia's 2003 LSU team page has no coaching-staff section; its navbox lists only assistants who happen to have Wikipedia articles, which is how Barnett, Cochran, Coley, Collins, Dawsey and Walker surfaced. It is not a staff roster and I did not treat it as one.\n- Kirby Smart is frequently associated with this staff in popular retellings but joined LSU in 2004, not 2003. He is correctly EXCLUDED.\n\nNO MID-SEASON MOVEMENT was documented for anyone. Every person listed is documented on staff for the 2003 season and, so far as any source shows, through the January 4, 2004 Sugar Bowl. No midseason_note was warranted on any row. Nothing in this dataset is inferred from plausibility - every row has a real source.",
+  "staff": [
+    {
+      "name": "Nick Saban",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Nick Saban",
+          "note": "Name cell of the row in LSU's official mid-season staff table headed \"2003 LSU Football Coaching/Strength Staff\" (Wayback capture 2003-11-21). Adjacent Position cell reads \"Head Coach\"; Season at LSU cell reads \"Fourth\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Head Coach",
+          "note": "Position cell of the row whose Name cell reads \"Nick Saban\"."
+        }
+      ]
+    },
+    {
+      "name": "Jimbo Fisher",
+      "role": "Offensive Coordinator/Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Jimbo Fisher",
+          "note": "Name cell; Season at LSU cell reads \"Fourth\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Offensive Coordinator/Quarterbacks",
+          "note": "Position cell of the row whose Name cell reads \"Jimbo Fisher\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030929084136/http://www.lsusports.net/fb/pdf/03fb120-128.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, coaching-staff section. Printed page 141-142 area of this PDF range shows the heading \"Jimbo Fisher\" over the subhead \"Offensive Coordinator/Quarterbacks\". Quote left empty: this media-guide PDF extracts with pervasive intra-word letter-spacing artifacts, so no copied string would faithfully match a re-extraction."
+        }
+      ]
+    },
+    {
+      "name": "Will Muschamp",
+      "role": "Defensive Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Will Muschamp",
+          "note": "Name cell; Season at LSU cell reads \"Third\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Defensive Coordinator",
+          "note": "Position cell of the row whose Name cell reads \"Will Muschamp\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030929084136/http://www.lsusports.net/fb/pdf/03fb120-128.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide coaching-staff section prints the heading \"Will Muschamp\" over the subhead \"Defensive Coordinator\". Quote empty because this PDF cannot be copied faithfully (letter-spacing artifacts)."
+        }
+      ]
+    },
+    {
+      "name": "Kirk Doll",
+      "role": "Linebackers/Asst. Head Coach",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Kirk Doll",
+          "note": "Name cell; Season at LSU cell reads \"Second\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Linebackers/Asst. Head Coach",
+          "note": "Position cell of the row whose Name cell reads \"Kirk Doll\". The 2003 media guide words the same job as \"Assistant Head Coach/Linebackers\"."
+        }
+      ]
+    },
+    {
+      "name": "Derek Dooley",
+      "role": "Running Backs/Special Teams",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Derek Dooley",
+          "note": "Name cell; Season at LSU cell reads \"Fourth\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Running Backs/Special Teams",
+          "note": "Position cell of the row whose Name cell reads \"Derek Dooley\". The 2003 media guide words the same job as \"Special Teams Coordinator/Running Backs\"."
+        }
+      ]
+    },
+    {
+      "name": "Stan Hixon",
+      "role": "Asso. Head Coach/Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Stan Hixon",
+          "note": "Name cell; Season at LSU cell reads \"Fourth\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Asso. Head Coach/Wide Receivers",
+          "note": "Position cell of the row whose Name cell reads \"Stan Hixon\". The 2003 media guide words the same job as \"Associate Head Coach/Wide Receivers\"."
+        }
+      ]
+    },
+    {
+      "name": "Travis Jones",
+      "role": "Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Travis Jones",
+          "note": "Name cell; Season at LSU cell reads \"First\". Distinct from Will Jones, the S&C assistant, who is a separate row on the same table."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Defensive Line",
+          "note": "Position cell of the row whose Name cell reads \"Travis Jones\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030929084136/http://www.lsusports.net/fb/pdf/03fb120-128.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide prints the heading \"Travis Jones\" over the subhead \"Defensive Line\", with bio text stating he is in his first year as LSU's defensive line coach after being named to the position in January. Quote empty because this PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Stacy Searels",
+      "role": "Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Stacy Searels",
+          "note": "Name cell; Season at LSU cell reads \"First\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Offensive Line",
+          "note": "Position cell of the row whose Name cell reads \"Stacy Searels\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030929084136/http://www.lsusports.net/fb/pdf/03fb120-128.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide bio states Searels, a former First-Team All-America lineman at Auburn, enters his first year as offensive line coach at LSU after being named to the position in January. Quote empty because this PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Lance Thompson",
+      "role": "Asst. Head Coach -- Tight Ends/Recruiting Coord.",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Lance Thompson",
+          "note": "Name cell; Season at LSU cell reads \"Second\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Asst. Head Coach -- Tight Ends/Recruiting Coord.",
+          "note": "Position cell of the row whose Name cell reads \"Lance Thompson\". Rendered with a double hyphen exactly as shown. The 2003 media guide words the same job as \"Assistant Head Coach/Recruiting Coordinator/Tight Ends\"."
+        }
+      ]
+    },
+    {
+      "name": "Tim Walton",
+      "role": "Defensive Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Tim Walton",
+          "note": "Name cell; Season at LSU cell reads \"First\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Defensive Backs",
+          "note": "Position cell of the row whose Name cell reads \"Tim Walton\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030929084136/http://www.lsusports.net/fb/pdf/03fb120-128.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide bio states Walton, a member of the coaching staff at Syracuse in 2002, enters his first year with the Tigers after being named LSU's defensive backs coach in February. Quote empty because this PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Tommy Moffitt",
+      "role": "Strength & Conditioning Coordinator",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Tommy Moffitt",
+          "note": "Name cell; Season at LSU cell reads \"Fourth\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Strength & Conditioning Coordinator",
+          "note": "Position cell of the row whose Name cell reads \"Tommy Moffitt\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, Strength & Conditioning Staff section, printed page 132: heading \"Tommy Moffitt\" over subhead \"Strength & Conditioning Coordinator\", bio noting he enters his fourth season at LSU and was appointed Jan. 10, 2000. Quote empty because this PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Bo Davis",
+      "role": "Assistant Strength and Conditioning Coordinator",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Bo Davis",
+          "note": "Name cell; Season at LSU cell reads \"Second\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Assistant Strength and Conditioning Coordinator",
+          "note": "Position cell of the row whose Name cell reads \"Bo Davis\". The 2003 media guide abbreviates the same title as \"Asst. Strength & Conditioning Coordinator\"."
+        }
+      ]
+    },
+    {
+      "name": "Scott Gadeken",
+      "role": "Asst. Strength & Conditioning Coord.",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Scott Gadeken",
+          "note": "Name cell; Season at LSU cell reads \"Fourth\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Asst. Strength & Conditioning Coord.",
+          "note": "Position cell of the row whose Name cell reads \"Scott Gadeken\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, printed page 133: heading \"Scott Gadeken\" over subhead \"Asst. Strength & Conditioning Coordinator\", bio stating he is in his fourth year as an assistant strength coach at LSU and spends time with the LSU football program. Quote empty because this PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Will Jones",
+      "role": "Strength & Conditioning Assistant",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Will Jones",
+          "note": "Name cell; Season at LSU cell reads \"Second\". Distinct from Travis Jones, the defensive line coach, a separate row on the same table."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Strength & Conditioning Assistant",
+          "note": "Position cell of the row whose Name cell reads \"Will Jones\". The 2003 media guide titles him \"Asst. Strength & Conditioning Coordinator\" and notes he works with the LSU football program."
+        }
+      ]
+    },
+    {
+      "name": "Scott Cochran",
+      "role": "assistant strength and conditioning coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Scott_Cochran",
+          "quote": "In 2003 he was named an assistant strength and conditioning coach for the team and won his first national championship under Nick Saban.",
+          "note": "Secondary/retrospective source. Cochran does NOT appear on LSU's official 2003-11-21 staff directory, which lists only four S&C staff (Moffitt, Bo Davis, Gadeken, Will Jones), nor in the 2003 media guide's S&C section. His 2003 title should therefore be treated as approximate; he was below the tier LSU published that season. His Wikipedia infobox records LSU (GA) 2001-2002 and LSU (AS&C) 2003-2004."
+        }
+      ]
+    },
+    {
+      "name": "Mike Collins",
+      "role": "intern with the LSU football program during the 2003 national championship season",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://lsusports.net/sports/fb/roster/season/2004/staff/mike-collins",
+          "quote": "Mike Collins, who served as an intern with the LSU football program during the 2003 national championship season, joined the Tiger staff on a full-time basis in March of 2004.",
+          "note": "LSU's own official bio, written for the 2004 staff, retrospectively documenting his 2003 role. He does not appear on the 2003-11-21 staff directory or in the 2003 media guide, so he sat below the published tier. Wikipedia specifies the internship as strength/conditioning (\"2003 LSU (strength/conditioning intern)\"), which is why role_category is sc; LSU's own wording says only \"intern\"."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mike_Collins_(American_football)",
+          "quote": "",
+          "note": "Wikipedia infobox rows render as concatenated text (\"2003LSU (strength/conditioning intern)\" and \"2004LSU (LB)\") with no clean sentence-level prose about the 2003 LSU role, so no faithful contiguous quote is available. Listed as corroboration for the strength/conditioning nature of the internship and for the BCS national champion (2003) honor in his infobox."
+        }
+      ]
+    },
+    {
+      "name": "James Coley",
+      "role": "Graduate Assistant - Offense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/James_Coley_(American_football_coach)",
+          "quote": "Coley's college coaching career started at Louisiana State University (LSU) in 2003, where he was an offensive graduate assistant under offensive coordinator Jimbo Fisher for two seasons.",
+          "note": "Clean matchable prose confirming the 2003 offensive GA role."
+        },
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "Primary contemporaneous source: 2003 LSU Football Media Guide, Football Support Staff section, printed page 129. Prints the heading \"James Coley\" over the subhead \"Graduate Assistant - Offense\" (the role string used here), with bio text stating he enters his first season with the Tigers, will work on the field with the LSU offense, and will break down tape and assist in game plans and scouting reports off the field. Quote empty because this media-guide PDF extracts with intra-word letter-spacing artifacts and cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Harlon Barnett",
+      "role": "Graduate Assistant - Defense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Harlon_Barnett",
+          "quote": "In Barnett's sole season as a GA at LSU, the Tigers won the 2004 Sugar Bowl (BCS National Championship Game).",
+          "note": "Clean matchable prose confirming he was a graduate assistant at LSU for the championship season. His infobox records coach_years3 = 2003, coach_team3 = LSU (GA)."
+        },
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "Primary contemporaneous source: 2003 LSU Football Media Guide, Football Support Staff section, printed page 129. Prints the heading \"Harlon Barnett\" over the subhead \"Graduate Assistant - Defense\" (the role string used here), with bio text stating the former Michigan State all-America defensive back joins LSU as a graduate assistant this season and will work on the field with the Tiger defense as well as assisting with scouting reports and film breakdown. Quote empty because this media-guide PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Lawrence Dawsey",
+      "role": "graduate assistant on Saban's LSU staff",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://appstatesports.com/sports/football/roster/coaches/lawrence-dawsey/1206",
+          "quote": "won a national title as a graduate assistant on Saban's LSU staff that included Fisher in 2003",
+          "note": "Official athletics-site bio confirming the 2003 LSU graduate assistant role. Dawsey does not appear in the 2003 media guide's support-staff section, which was printed preseason, nor on the November 2003 staff directory, so this GA slot is documented only retrospectively."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Lawrence_Dawsey",
+          "quote": "",
+          "note": "Wikipedia infobox renders as concatenated text (\"LSU (2003)Graduate assistant\") with no clean contiguous prose sentence, so no faithful quote is available. Corroborates the 2003 LSU graduate assistant role and lists 2X BCS National (2003, 2013)."
+        }
+      ]
+    },
+    {
+      "name": "Scott Scherer",
+      "role": "Administrative Intern",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, Football Support Staff section, printed page 129. Prints the heading \"Scott Scherer\" over the subhead \"Administrative Intern\" (the role string used here), with bio text stating the former Memphis quarterback joined the LSU staff over the summer and will spend the 2003 season as an administrative intern with the team. Quote empty because this media-guide PDF extracts with intra-word letter-spacing artifacts and cannot be copied faithfully. This is the only source I located for Scherer."
+        }
+      ]
+    },
+    {
+      "name": "Chad Walker",
+      "role": "Recruiting Intern",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, Football Support Staff section, printed page 129. Prints the heading \"Chad Walker\" over the subhead \"Recruiting Intern\" (the role string used here), with bio text stating he enters his first season as a recruiting intern with the LSU football staff after returning to his alma mater last spring, having spent 2002 as a defensive graduate assistant at Louisiana-Monroe. Quote empty because this media-guide PDF cannot be copied faithfully. ROLE CONFLICT: the guide was written preseason; Wikipedia and later bios describe him as LSU's defensive graduate assistant in 2003-2004. I kept the contemporaneous title; a consumer may prefer role_category gradasst."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chad_Walker",
+          "quote": "Before moving to the NFL, Walker spent two seasons as a defensive assistant on Nick Saban's staff at Louisiana State University.",
+          "note": "Retrospective source describing the 2003-2004 LSU stint as a defensive assistant; his infobox lists LSU (2003-2004) Defensive graduate assistant and BCS national champion (2003)."
+        }
+      ]
+    },
+    {
+      "name": "Charles Baglio",
+      "role": "Coordinator of High School Football Relations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Charles Baglio",
+          "note": "Name cell; Season at LSU cell reads \"Second\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Coordinator of High School Football Relations",
+          "note": "Position cell of the row whose Name cell reads \"Charles Baglio\". The 2003 media guide heads his bio \"Coordinator of High School Relations\" but its body text uses the fuller \"Coordinator of High School Football Relations\"."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Sam Nader",
+      "role": "Assistant Athletics Director - Football",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Dr. Sam Nader",
+          "note": "Name cell; Season at LSU cell reads \"24th\" (the 2003 media guide says 29th season overall with the LSU football program, counting from his 1975 arrival)."
+        },
+        {
+          "url": "https://web.archive.org/web/20031121135658/http://www.lsusports.net:80/fb/fbcoaches.cfm?season=2003&title=2003+LSU+Football+Coaching/Strength+Staff",
+          "quote": "Assistant Athletics Director - Football",
+          "note": "Position cell of the row whose Name cell reads \"Dr. Sam Nader\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, Football Support Staff section, printed page 136: heading \"Dr. Sam Nader\" over subhead \"Assistant AD/Football Operations\", bio stating he begins his third season as Assistant Athletic Director for Football Operations. Quote empty because this PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Sharon Mangum",
+      "role": "Coordinator of Recruiting Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, printed page 136, in the name-and-title block headed \"Support Staff\" at the foot of the Football Support Staff section. Prints \"Sharon Mangum\" over \"Coordinator of Recruiting Operations\" (the title is set across two printed lines). No bio text accompanies this block. Quote empty because this media-guide PDF cannot be copied faithfully and the title is line-broken in the source."
+        }
+      ]
+    },
+    {
+      "name": "Ya'el Lofton",
+      "role": "Coordinator of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, printed page 136, \"Support Staff\" name-and-title block. Prints the name with a typographic apostrophe as \"Ya’el Lofton\" over \"Coordinator of Football Operations\" (title set across two printed lines). No bio text. Quote empty because this media-guide PDF cannot be copied faithfully and the title is line-broken."
+        }
+      ]
+    },
+    {
+      "name": "Faye Spradley",
+      "role": "Offensive Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, printed page 136, \"Support Staff\" name-and-title block: \"Faye Spradley\" over \"Offensive Secretary\". No bio text. Quote empty because this media-guide PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "CC Thompson",
+      "role": "Defensive Secretary",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, printed page 136, \"Support Staff\" name-and-title block: \"CC Thompson\" over \"Defensive Secretary\". Name is printed without periods in the initials, as reproduced here. No bio text. Quote empty because this media-guide PDF cannot be copied faithfully. Unrelated to Lance Thompson, the tight ends coach."
+        }
+      ]
+    },
+    {
+      "name": "Lois Stuckey",
+      "role": "Receptionist",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, printed page 136, \"Support Staff\" name-and-title block: \"Lois Stuckey\" over \"Receptionist\". No bio text. Quote empty because this media-guide PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Doug Aucoin",
+      "role": "Videography Director",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, Video Staff section, printed page 131. Prints the heading \"Doug Aucoin\" over the subhead \"Videography Director\" (the role string used here), with bio text stating he enters his seventh season as LSU's video coordinator, is responsible for taping of games and practices, opponent video exchange, self-scout and opponent breakdowns, manages the computer network the football coaches use for statistical analysis and scouting, and oversees a staff of eight in the video department including one full-time assistant, one graduate assistant and six student assistants. Quote empty because this media-guide PDF cannot be copied faithfully. Categorized \"other\" rather than analyst because Videography Director is the title as worded; the six student assistants and the video graduate assistant are unnamed in any source."
+        }
+      ]
+    },
+    {
+      "name": "Brandon Fairburn",
+      "role": "Assistant Videographer",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, Video Staff section, printed page 131. Prints the heading \"Brandon Fairburn\" over the subhead \"Assistant Videographer\" (the role string used here), with bio text stating he was a student assistant on the video staff for four years, returned as a fulltime member in July of 2002, and assists videography director Doug Aucoin with all video needs for the LSU football staff. Quote empty because this media-guide PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Jack Marucci",
+      "role": "Director of Athletic Training",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, Athletic Training Staff section, printed page 134. Prints the heading \"Jack Marucci\" over the subhead \"Director of Athletic Training\" (the role string used here), with bio text stating he enters his seventh season as director of athletic training at LSU and supervises a staff of five full-time trainers across all 20 varsity sports. Quote empty because this media-guide PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Andy Barker",
+      "role": "Senior Associate Atheltic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, Athletic Training Staff section, printed page 134. Prints the heading \"Andy Barker\" over the subhead \"Senior Associate Atheltic Trainer\" - the misspelling of \"Athletic\" is the guide's own and is reproduced verbatim in the role field. Bio text states he enters his seventh season as senior associate athletic trainer at LSU. Quote empty because this media-guide PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Shelly Mullenix",
+      "role": "Senior Associate Atheltic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, Athletic Training Staff section, printed page 135. Prints the heading \"Shelly Mullenix\" over the subhead \"Senior Associate Atheltic Trainer\" - the misspelling of \"Athletic\" is the guide's own and is reproduced verbatim. Bio text explicitly describes \"Mullenix's role as a trainer with the football program\" and notes she joined the LSU training staff in January of 1997. Quote empty because this media-guide PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Boss",
+      "role": "Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Jeff Boss",
+          "note": "Name cell of LSU's archived Equipment Staff directory (Wayback capture 2003-09-08, in-season). Adjacent Position cell reads \"Equipment Manager\"; Experience cell reads \"23rd Year\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Equipment Manager",
+          "note": "Position cell of the row whose Name cell reads \"Jeff Boss\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "2003 LSU Football Media Guide, Equipment Staff section, printed page 130: heading \"Jeff Boss\" over subhead \"Equipment Manager\", bio stating he enters his 24th year with the LSU football staff and is responsible for issuing and maintaining all football equipment. Quote empty because this PDF cannot be copied faithfully."
+        }
+      ]
+    },
+    {
+      "name": "Ferrell Shillings",
+      "role": "Asst. Athletic Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Ferrell Shillings",
+          "note": "Name cell of the archived Equipment Staff directory; Experience cell reads \"11th Year\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Asst. Athletic Equipment Manager",
+          "note": "Position cell of the row whose Name cell reads \"Ferrell Shillings\". The 2003 football media guide carries him in its Equipment Staff section as \"Assistant Equipment Manager\", entering his 12th season with the LSU equipment staff."
+        }
+      ]
+    },
+    {
+      "name": "Greg Stringfellow",
+      "role": "Asst. Athletic Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Greg Stringfellow",
+          "note": "Name cell of the archived Equipment Staff directory; Experience cell reads \"5th Year\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Asst. Athletic Equipment Manager",
+          "note": "Position cell of the row whose Name cell reads \"Greg Stringfellow\". The 2003 football media guide carries him as \"Assistant Equipment Manager\" and states he works alongside Jeff Boss in the ordering and maintaining of equipment and facilities for the LSU football team."
+        }
+      ]
+    },
+    {
+      "name": "Mike 'Bones' Boniol",
+      "role": "Olympic Sports Athletic Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Mike 'Bones' Boniol",
+          "note": "Name cell of the archived Equipment Staff directory, reproduced with the straight single quotes used on the page; Experience cell reads \"1st Year\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20030929153743/http://www.lsusports.net/fb/pdf/03fb129-136.pdf",
+          "quote": "",
+          "note": "Included as football staff on the strength of the 2003 LSU Football Media Guide, Equipment Staff section, printed page 130, which heads him \"Mike Boniol\" / \"Assistant Equipment Manager\" and states that Boniol, known across campus as \"Bones\", oversees all equipment related activities for LSU's Olympic sports as well as working with the Tiger football team. Quote empty because this PDF cannot be copied faithfully. Flagged as the weakest of the four full-time equipment entries, since his primary assignment was Olympic sports."
+        }
+      ]
+    },
+    {
+      "name": "Van Bounpheng",
+      "role": "Student Manager -- Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Van Bounpheng",
+          "note": "Name cell of LSU's archived Equipment Staff directory (Wayback capture 2003-09-08, in-season). Adjacent Position cell reads \"Student Manager -- Football\" with a double hyphen; Class \"So.\", Experience \"1st Year\". Student manager, not salaried staff - filterable via this note."
+        }
+      ]
+    },
+    {
+      "name": "George Branigan",
+      "role": "Student Manager -- Baseball/Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "George Branigan",
+          "note": "Name cell of the archived Equipment Staff directory. Adjacent Position cell reads \"Student Manager -- Baseball/Football\"; Class \"Jr.\", Experience \"3rd Year\". Split between two sports; student manager, not salaried staff."
+        }
+      ]
+    },
+    {
+      "name": "Matt Curley",
+      "role": "Student Manager -- Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Matt Curley",
+          "note": "Name cell of the archived Equipment Staff directory. Adjacent Position cell reads \"Student Manager -- Football\"; Class \"Sr.\", Experience \"2nd Year\". Student manager, not salaried staff."
+        }
+      ]
+    },
+    {
+      "name": "Corey Gaudet",
+      "role": "Student Manager -- Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Corey Gaudet",
+          "note": "Name cell of the archived Equipment Staff directory. Adjacent Position cell reads \"Student Manager -- Football\"; Class \"So.\", Experience \"2nd Year\". Student manager, not salaried staff. Distinct from Scott Gaudin, a separate row."
+        }
+      ]
+    },
+    {
+      "name": "Scott Gaudin",
+      "role": "Student Manager -- Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Scott Gaudin",
+          "note": "Name cell of the archived Equipment Staff directory. Adjacent Position cell reads \"Student Manager -- Football\"; Class \"Jr.\", Experience \"3rd Year\". Student manager, not salaried staff. Distinct from Corey Gaudet, a separate row."
+        }
+      ]
+    },
+    {
+      "name": "Aaron Keating",
+      "role": "Student Manager -- Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Aaron Keating",
+          "note": "Name cell of the archived Equipment Staff directory. Adjacent Position cell reads \"Student Manager -- Football\"; Class \"Jr.\", Experience \"3rd Year\". Student manager, not salaried staff."
+        }
+      ]
+    },
+    {
+      "name": "Adam Luquette",
+      "role": "Student Manager -- Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Adam Luquette",
+          "note": "Name cell of the archived Equipment Staff directory. Adjacent Position cell reads \"Student Manager -- Football\"; Class \"So.\", Experience \"1st Year\". Student manager, not salaried staff."
+        }
+      ]
+    },
+    {
+      "name": "John McClanahan",
+      "role": "Student Manager -- Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "John McClanahan",
+          "note": "Name cell of the archived Equipment Staff directory. Adjacent Position cell reads \"Student Manager -- Football\"; Class \"So.\", Experience \"1st Year\". Student manager, not salaried staff."
+        }
+      ]
+    },
+    {
+      "name": "Joey \"Q\" Quilio",
+      "role": "Student Manager -- Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Joey \"Q\" Quilio",
+          "note": "Name cell of the archived Equipment Staff directory, reproduced with the straight double quotes used on the page. Adjacent Position cell reads \"Student Manager -- Football\"; Class \"Sr.\", Experience \"4th Year\". Student manager, not salaried staff."
+        }
+      ]
+    },
+    {
+      "name": "Brian Starr",
+      "role": "Student Manager -- Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Brian Starr",
+          "note": "Name cell of the archived Equipment Staff directory. Adjacent Position cell reads \"Student Manager -- Football\"; Class \"Sr.\", Experience \"3rd Year\". Student manager, not salaried staff."
+        }
+      ]
+    },
+    {
+      "name": "Scott Stiegman",
+      "role": "Student Manager -- Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Scott Stiegman",
+          "note": "Name cell of the archived Equipment Staff directory. Adjacent Position cell reads \"Student Manager -- Football\"; Class \"Jr.\", Experience \"2nd Year\". Student manager, not salaried staff."
+        }
+      ]
+    },
+    {
+      "name": "Kacey Youens",
+      "role": "Student Manager -- Football",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030908174710/http://www.lsusports.net:80/gn/gnplayers.cfm?title=Equipment+Staff",
+          "quote": "Kacey Youens",
+          "note": "Name cell of the archived Equipment Staff directory. Adjacent Position cell reads \"Student Manager -- Football\"; Class \"Sr.\", Experience \"2nd Year\". Student manager, not salaried staff."
+        }
+      ]
+    }
+  ]
+}
