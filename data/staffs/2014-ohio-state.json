@@ -8,60 +8,71 @@
       "role_category": "headcoach",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
-          "quote": "Urban Meyer – Head Coach (3rd year)"
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Head Coach",
+          "note": "Official Ohio State football 'Coaching Staff / Support Staff' page, Wayback capture of Oct. 10, 2014 (mid-2014 season). The page lists 'Urban Meyer' immediately above the role text 'Head Coach'; name and title sit in separate HTML nodes, so the quote is the role string as it appears."
         },
         {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Urban Meyer - Head Coach",
-          "note": "Ohio State's own football roster page, captured Oct. 31, 2014 (during the 2014 season), 'Coaching Staff' block."
+          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
+          "quote": "Head Coach (3rd year)",
+          "note": "Wikipedia 2014 team page, Coaching staff list; the name 'Urban Meyer' is a wiki-link immediately preceding this text."
         }
       ]
     },
     {
       "name": "Tom Herman",
-      "role": "Offensive Coordinator / Quarterbacks",
+      "role": "Offensive Coordinator and Quarterbacks Coach",
       "role_category": "onfield",
-      "midseason_note": "Named head coach at Houston on Dec. 15, 2014, but remained Ohio State's offensive coordinator through the Jan. 12, 2015 CFP National Championship game.",
+      "midseason_note": "Named head coach at Houston on Dec. 16, 2014, but remained Ohio State's offensive coordinator through the Jan. 12, 2015 CFP National Championship Game.",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
-          "quote": "Tom Herman – Offensive Coordinator / Quarterbacks"
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Offensive Coordinator and Quarterbacks Coach",
+          "note": "Official 2014 in-season staff page (Oct. 10, 2014 capture); role text follows the linked name 'Tom Herman'."
         },
         {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Tom Herman - Off. Coord/Quarterbacks",
-          "note": "In-season (Oct. 31, 2014) capture of the official Ohio State football roster/coaching staff page."
+          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
+          "quote": "Offensive Coordinator / Quarterbacks",
+          "note": "Wikipedia Coaching staff list, immediately after the 'Tom Herman' link."
+        },
+        {
+          "url": "https://uhcougars.com/news/2014/12/16/Tom_Herman_Named_Houston_Head_Coach",
+          "quote": "",
+          "note": "Houston's Dec. 16, 2014 hire announcement, cited for the midseason note only; quote left blank because the archived release text could not be verified character-for-character."
         }
       ]
     },
     {
       "name": "Ed Warinner",
-      "role": "Co-Offensive Coordinator / Offensive Line",
+      "role": "Co-Offensive Coordinator / Offensive Line Coach",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
-          "quote": "Ed Warinner – Co-Offensive Coordinator / Offensive Line (3rd year)"
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Co-Offensive Coordinator",
+          "note": "Official 2014 in-season staff page; the two role lines under the linked name 'Ed Warinner' read 'Co-Offensive Coordinator' and 'Offensive Line Coach'."
         },
         {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Ed Warinner - Co-Offensive Coordinator/Offensive Line Coach"
+          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
+          "quote": "Co-Offensive Coordinator / Offensive Line (3rd year)",
+          "note": "Wikipedia Coaching staff list, immediately after the 'Ed Warinner' link."
         }
       ]
     },
     {
       "name": "Stan Drayton",
-      "role": "Assistant Head Coach For Offense/Running Backs",
+      "role": "Running Backs Coach (Assistant Head Coach for Offense)",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
-          "quote": "Stan Drayton – Assistant Head Coach / Running Backs (3rd year)"
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Running Backs Coach",
+          "note": "Official 2014 in-season staff page; role text follows the linked name 'Stan Drayton'."
         },
         {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Stan Drayton - Asst Head Coach (Off)/RBs"
+          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
+          "quote": "Assistant Head Coach / Running Backs (3rd year)",
+          "note": "Wikipedia Coaching staff list, immediately after the 'Stan Drayton' link. Drayton left for the Chicago Bears in February 2015, after the championship game."
         }
       ]
     },
@@ -71,44 +82,48 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
-          "quote": "Tim Hinton – Tight Ends / Fullbacks (3rd year)"
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Tight Ends/Fullbacks",
+          "note": "Official 2014 in-season staff page; role text follows the linked name 'Tim Hinton'."
         },
         {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Tim Hinton - Tight Ends/Fullbacks",
-          "note": "The Oct. 2014 athletics staff directory words his role 'Asst Coach/TEs & Recruiting Coord'."
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Asst Coach/TEs & Recruiting Coord",
+          "note": "Ohio State athletics staff directory (Oct. 8, 2014 capture), Football section; this title cell sits beside the name 'Tim Hinton'."
         }
       ]
     },
     {
       "name": "Zach Smith",
-      "role": "Wide Receivers",
+      "role": "Wide Receivers Coach",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Zach Smith - Wide Receivers Coach"
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Wide Receivers Coach",
+          "note": "Official 2014 in-season staff page; role text follows the linked name 'Zach Smith'."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
-          "quote": "Zack Smith – Wide Receivers (3rd year)",
-          "note": "Wikipedia misspells the first name as 'Zack'; Ohio State's own pages and the 2014 media guide spell it 'Zach Smith'."
+          "quote": "Wide Receivers (3rd year)",
+          "note": "Wikipedia Coaching staff list, after the link that Wikipedia spells 'Zack Smith'; the official school spelling is Zach Smith."
         }
       ]
     },
     {
       "name": "Luke Fickell",
-      "role": "Defensive Coordinator / Linebackers",
+      "role": "Defensive Coordinator / Linebackers Coach",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
-          "quote": "Luke Fickell – Defensive Coordinator / Linebackers (13th year)"
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Defensive Coordinator",
+          "note": "Official 2014 in-season staff page; the two role lines under the linked name 'Luke Fickell' read 'Defensive Coordinator' and 'Linebackers Coach'."
         },
         {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Luke Fickell - Defensive Coordinator/LB Coach"
+          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
+          "quote": "Defensive Coordinator / Linebackers (13th year)",
+          "note": "Wikipedia Coaching staff list, immediately after the 'Luke Fickell' link."
         }
       ]
     },
@@ -118,145 +133,133 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
-          "quote": "Chris Ash – Co-Defensive Coordinator / Safeties (1st year)"
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Co-Defensive Coordinator/Safeties Coach",
+          "note": "Official 2014 in-season staff page; role text follows the linked name 'Chris Ash'."
         },
         {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Chris Ash - Co-Defensive Coordinator/Safeties Coach",
-          "note": "Hired Jan. 23, 2014 (offseason, before the 2014 season began), replacing Everett Withers."
+          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
+          "quote": "Co-Defensive Coordinator / Safeties (1st year)",
+          "note": "Wikipedia Coaching staff list; Ash was hired Jan. 23, 2014, i.e. before the season, so no midseason note applies."
         }
       ]
     },
     {
       "name": "Kerry Coombs",
-      "role": "Cornerbacks Coach/Special teams coordinator",
+      "role": "Cornerbacks Coach / Special Teams Coordinator",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
-          "quote": "Kerry Coombs– Cornerbacks / Special Teams (3rd year)"
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Special Teams Coordinator",
+          "note": "Official 2014 in-season staff page; the two role lines under the linked name 'Kerry Coombs' read 'Cornerbacks Coach' and 'Special Teams Coordinator'."
         },
         {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Kerry Coombs - CB Coach/Special Teams Coordinator"
+          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
+          "quote": "Cornerbacks / Special Teams (3rd year)",
+          "note": "Wikipedia Coaching staff list, immediately after the 'Kerry Coombs' link."
         }
       ]
     },
     {
       "name": "Larry Johnson",
-      "role": "ASSISTANT HEad coach/defensive line coach",
+      "role": "Assistant Head Coach / Defensive Line Coach",
       "role_category": "onfield",
       "sources": [
         {
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Defensive Line Coach",
+          "note": "Official 2014 in-season staff page; the two role lines under the linked name 'Larry Johnson' read 'Assistant Head Coach' and 'Defensive Line Coach'."
+        },
+        {
           "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
-          "quote": "Larry Johnson – Assistant Head Coach / Defensive Line (1st year)"
-        },
-        {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Larry Johnson - Asst. Head Coach/DL coach",
-          "note": "Hired Jan. 15, 2014 (offseason), replacing Mike Vrabel."
-        }
-      ]
-    },
-    {
-      "name": "Jon Carpenter",
-      "role": "Graduate Assistant - Defense",
-      "role_category": "gradasst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Jon Carpenter - Graduate Assistant - Defense"
-        },
-        {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
-          "quote": "GAA",
-          "note": "Ohio State athletics staff directory captured Oct. 2014. In the 'Football' department table his name cell reads 'Jon Carpenter' and the adjacent role cell reads 'GAA' (graduate assistant coach). The two cells are separate table cells, so only the role string is quoted contiguously here."
-        }
-      ]
-    },
-    {
-      "name": "Adrian Mayes",
-      "role": "Graduate Assistant -  Offense",
-      "role_category": "gradasst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Adrian Mayes - Graduate Assistant -  Offense",
-          "note": "The source page contains a double space before 'Offense'; reproduced verbatim."
-        },
-        {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
-          "quote": "GAA",
-          "note": "Listed in the 'Football' department table of the Oct. 2014 athletics staff directory; name cell 'Adrian Mayes', adjacent role cell 'GAA'."
+          "quote": "Assistant Head Coach / Defensive Line (1st year)",
+          "note": "Wikipedia Coaching staff list; Johnson was hired Jan. 15, 2014, before the season."
         }
       ]
     },
     {
       "name": "Vince Oghobaase",
-      "role": "Graduate Assistant - Defense",
+      "role": "Graduate Assist. Coach",
       "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Vince Oghobaase - Graduate Assistant - Defense"
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Graduate Assist. Coach",
+          "note": "Official 2014 in-season staff page; role text follows the linked name 'Vince Oghobaase'."
         },
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
-          "quote": "Graduate Assist. Coach",
-          "note": "Ohio State's 'Coaching Staff / Support Staff' page captured Oct. 10, 2014; his photo cell reads 'Vince Oghobaase' followed by 'Graduate Assist. Coach' after a <br>, so only the role string is contiguous."
+          "url": "http://web.archive.org/web/20141031180748/http://grfx.cstv.com/schools/osu/graphics/pdf/m-footbl/1415_guide.pdf",
+          "quote": "Jon Carpenter, Vince Oghobaase, Adrian Mayes",
+          "note": "2014 Ohio State Football media/team guide PDF (Wayback capture Oct. 31, 2014), Quick Facts page, under the heading 'GRADUATE ASSISTANTS'. Quote is a single extracted PDF text line; the list continues 'and Quinn Tempel' on the next line."
         }
       ]
     },
     {
       "name": "Quinn Tempel",
-      "role": "Graduate Assistant - Offense",
+      "role": "Graduate Assist. Coach",
       "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Quinn Tempel - Graduate Assistant - Offense"
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Graduate Assist. Coach",
+          "note": "Official 2014 in-season staff page; role text follows the linked name 'Quinn Tempel'."
         },
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
-          "quote": "Graduate Assist. Coach",
-          "note": "Same Oct. 10, 2014 staff page; his cell reads 'Quinn Tempel' then 'Graduate Assist. Coach'. Also named in the 2014 media guide's graduate assistant list."
+          "url": "http://web.archive.org/web/20141031180748/http://grfx.cstv.com/schools/osu/graphics/pdf/m-footbl/1415_guide.pdf",
+          "quote": "and Quinn Tempel",
+          "note": "2014 media guide Quick Facts, 'GRADUATE ASSISTANTS' entry; quote is the second extracted PDF line of that list."
+        }
+      ]
+    },
+    {
+      "name": "Jon Carpenter",
+      "role": "GAA (graduate assistant coach)",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141031180748/http://grfx.cstv.com/schools/osu/graphics/pdf/m-footbl/1415_guide.pdf",
+          "quote": "Jon Carpenter, Vince Oghobaase, Adrian Mayes",
+          "note": "2014 Ohio State Football media/team guide, Quick Facts page, under the heading 'GRADUATE ASSISTANTS'."
+        },
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "GAA",
+          "note": "Ohio State athletics staff directory (Oct. 8, 2014), Football section; the title cell 'GAA' sits beside the name 'Jon Carpenter'. GAA = Graduate Administrative Associate."
+        }
+      ]
+    },
+    {
+      "name": "Adrian Mayes",
+      "role": "GAA (graduate assistant coach)",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141031180748/http://grfx.cstv.com/schools/osu/graphics/pdf/m-footbl/1415_guide.pdf",
+          "quote": "Jon Carpenter, Vince Oghobaase, Adrian Mayes",
+          "note": "2014 Ohio State Football media/team guide, Quick Facts page, under the heading 'GRADUATE ASSISTANTS'."
+        },
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "GAA",
+          "note": "Athletics staff directory (Oct. 8, 2014), Football section; the title cell 'GAA' sits beside the name 'Adrian Mayes'."
         }
       ]
     },
     {
       "name": "Mickey Marotti",
-      "role": "Assistant AD for Football Sports Performance",
+      "role": "Asst. AD for FB Sports Performance",
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
-          "quote": "Mickey Marotti – Strength Coach (3rd year)"
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Asst. AD for FB Sports Performance",
+          "note": "Official 2014 in-season 'Football Support Staff' section; role text follows the linked name 'Mickey Marotti'."
         },
         {
-          "url": "https://web.archive.org/web/20141031180732/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/osu-m-footbl-mtt.html",
-          "quote": "Mickey Marotti - Asst AD, FB Sport Performance"
-        },
-        {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
           "quote": "Assistant AD, Football Sport Performance",
-          "note": "Heads the 'Strength Training & Conditioning-Football' section of the Oct. 2014 athletics staff directory."
-        }
-      ]
-    },
-    {
-      "name": "Anthony Schlegel",
-      "role": "Assistant Strength & Conditioning Coach",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
-          "quote": "Anthony Schlegel -Assistant Strength and Conditioning coach"
-        },
-        {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
-          "quote": "Assistant Strength &amp; Conditioning Coach",
-          "note": "Listed under the 'Football Support Staff' heading on the Oct. 10, 2014 capture. The ampersand is HTML-encoded in the page source and renders as 'Assistant Strength & Conditioning Coach'. The Oct. 2014 athletics staff directory words his title 'Associate Director' under 'Strength Training & Conditioning-Football'."
+          "note": "Athletics staff directory, 'Strength Training & Conditioning-Football' section; title cell beside 'Mickey Marotti'."
         }
       ]
     },
@@ -266,14 +269,31 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
-          "quote": "Assistant Strength &amp; Conditioning Coach",
-          "note": "Under the 'Football Support Staff' heading on the Oct. 10, 2014 capture; his cell reads 'Kenny Parker' then this title. Ampersand is HTML-encoded in source."
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Assistant Strength & Conditioning Coach",
+          "note": "Official 2014 in-season 'Football Support Staff' section; role text follows the linked name 'Kenny Parker'."
         },
         {
-          "url": "https://web.archive.org/web/20150328004227/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/parker_kenny00.html",
-          "quote": "Kenny Parker is in his third season working with the Ohio State football program.",
-          "note": "Ohio State staff bio confirming he was on the football strength staff continuously from January 2012 through the 2014 season."
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Associate Director",
+          "note": "Athletics staff directory, 'Strength Training & Conditioning-Football' section; title cell beside 'Kenny Parker'."
+        }
+      ]
+    },
+    {
+      "name": "Anthony Schlegel",
+      "role": "Assistant Strength & Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Assistant Strength & Conditioning Coach",
+          "note": "Official 2014 in-season 'Football Support Staff' section; role text follows the linked name 'Anthony Schlegel'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
+          "quote": "Assistant Strength and Conditioning coach",
+          "note": "Wikipedia 2014 team page, Strength and Conditioning list, immediately after the 'Anthony Schlegel' link."
         }
       ]
     },
@@ -283,26 +303,31 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
-          "quote": "Assistant Strength &amp; Conditioning Coach",
-          "note": "Under 'Football Support Staff' on the Oct. 10, 2014 capture; his cell reads 'Jeff Uhlenhake' then this title. Ampersand is HTML-encoded in source."
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Assistant Strength & Conditioning Coach",
+          "note": "Official 2014 in-season 'Football Support Staff' section; role text follows the linked name 'Jeff Uhlenhake'."
         },
         {
-          "url": "https://web.archive.org/web/20150328003111/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/uhlenhake_jeff00.html",
-          "quote": "Jeff Uhlenhake is in his seventh season as an Ohio State football strength and conditioning assistant.",
-          "note": "Ohio State staff bio confirming continuous service through the 2014 season."
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Ath Cond Spec-FB",
+          "note": "Athletics staff directory, 'Strength Training & Conditioning-Football' section; title cell beside 'Jeff Uhlenhake'."
         }
       ]
     },
     {
       "name": "Phil Matusz",
-      "role": "Ath Cond Spec-Football",
+      "role": "Ath Cond Spec-Football (Assistant Strength & Conditioning Coach)",
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
           "quote": "Ath Cond Spec-Football",
-          "note": "Row in the 'Strength Training & Conditioning-Football' section of the Ohio State athletics staff directory captured Oct. 2014 (in-season); the name cell of the same row reads 'Phil Matusz'. He also appears as 'Assistant Strength & Conditioning Coach' on the football staff page captured Feb. 8, 2015, immediately after the title game."
+          "note": "Athletics staff directory (Oct. 8, 2014), 'Strength Training & Conditioning-Football' section; title cell beside 'Phil Matusz'."
+        },
+        {
+          "url": "http://web.archive.org/web/20150208034620/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Assistant Strength & Conditioning Coach",
+          "note": "Football 'Coaching Staff / Support Staff' page, Feb. 8, 2015 capture, where 'Phil Matusz' appears in the Football Support Staff block with this title. He was not pictured on the Oct. 2014 capture of the same page but was in the athletics directory throughout 2014-15."
         }
       ]
     },
@@ -314,7 +339,7 @@
         {
           "url": "https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team",
           "quote": "Scott Ray- Assistant Strength and Conditioning coach",
-          "note": "UNCONFIRMED BY PRIMARY SOURCES. This name appears only in Wikipedia's unsourced coaching-staff list. He does not appear in Ohio State's own Oct. 2014 athletics staff directory ('Strength Training & Conditioning-Football' section), on the Oct. 2014 football staff page, or in the 2014 media guide. Treat with caution before awarding a ring."
+          "note": "Wikipedia 2014 team page, Strength and Conditioning list. NOTE: I could not corroborate this name in the official Oct. 2014 Ohio State athletics staff directory or on the official 2014 football staff page, both of which list only Marotti, Matusz, Parker, Schlegel and Uhlenhake for football strength staff. Treat as low confidence."
         }
       ]
     },
@@ -324,14 +349,14 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
           "quote": "Director of Football Operations",
-          "note": "First entry under the 'Football Support Staff' heading on Ohio State's staff page captured Oct. 10, 2014; the cell reads 'Brian Voltolini' followed by this title after a <br>."
+          "note": "Official 2014 in-season 'Football Support Staff' section; role text follows the linked name 'Brian Voltolini'."
         },
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
-          "quote": "Dir, Football Operations",
-          "note": "Row in the 'Football' department table of the Oct. 2014 athletics staff directory; name cell reads 'Brian Voltolini'. Also listed as 'director of operations / Brian Voltolini' on p.2 of the 2014 media guide."
+          "url": "http://web.archive.org/web/20141031180748/http://grfx.cstv.com/schools/osu/graphics/pdf/m-footbl/1415_guide.pdf",
+          "quote": "director of operations",
+          "note": "2014 media guide Quick Facts page; this label appears on the line immediately above 'Brian Voltolini'."
         }
       ]
     },
@@ -341,14 +366,14 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
+          "url": "http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html",
           "quote": "Director of Player Personnel",
-          "note": "Under the 'Football Support Staff' heading on the Oct. 10, 2014 capture; the cell reads 'Mark Pantoni' followed by this title."
+          "note": "Official 2014 in-season 'Football Support Staff' section; role text follows the linked name 'Mark Pantoni'."
         },
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
           "quote": "Director of Player Personnel",
-          "note": "Row in the 'Football' department table of the Oct. 2014 athletics staff directory; name cell reads 'Mark Pantoni'."
+          "note": "Athletics staff directory (Oct. 8, 2014), Football section; title cell beside 'Mark Pantoni'."
         }
       ]
     },
@@ -358,14 +383,9 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
           "quote": "Dir, High School Relations",
-          "note": "Row in the 'Football' department table of the Ohio State athletics staff directory captured Oct. 2014; the adjacent name cell reads 'Greg Gillum'."
-        },
-        {
-          "url": "https://web.archive.org/web/20140722192402/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/gillum_greg00.html",
-          "quote": "The versatile Greg Gillum is in his seventh season at Ohio State",
-          "note": "Ohio State football staff bio page, captured July 2014. The page's 'Position:' field reads 'Dir, High School Relations'."
+          "note": "Ohio State athletics staff directory (Oct. 8, 2014), Football section (Woody Hayes Athletic Center); title cell beside 'Greg Gillum'."
         }
       ]
     },
@@ -375,26 +395,9 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
           "quote": "Dir, Player Development",
-          "note": "Row in the 'Football' department table of the Oct. 2014 athletics staff directory; the adjacent name cell reads 'Stan Jefferson'."
-        },
-        {
-          "url": "https://web.archive.org/web/20140722173937/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/jefferson_stan00.html",
-          "quote": "Jefferson works closely with the football operations staff in orchestrating the day-to-day workings of the football program.",
-          "note": "Ohio State football staff bio page captured July 2014; its 'Position:' field reads 'Director of Player Development'."
-        }
-      ]
-    },
-    {
-      "name": "Ryan Stamper",
-      "role": "Coord, Player Development",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
-          "quote": "Coord, Player Development",
-          "note": "Row in the 'Football' department table of the Ohio State athletics staff directory captured Oct. 2014 (in-season); the adjacent name cell reads 'Ryan Stamper'."
+          "note": "Athletics staff directory (Oct. 8, 2014), Football section; title cell beside 'Stan Jefferson'."
         }
       ]
     },
@@ -404,9 +407,45 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
           "quote": "Coord, Operations",
-          "note": "Row in the 'Football' department table of the Ohio State athletics staff directory captured Oct. 2014; the adjacent name cell reads 'Fernando Lovo'."
+          "note": "Athletics staff directory (Oct. 8, 2014), Football section; title cell beside 'Fernando Lovo'. Still listed in the Oct. 2014 in-season capture; the entry was commented out by the March 2015 capture."
+        }
+      ]
+    },
+    {
+      "name": "Ryan Stamper",
+      "role": "Coord, Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Coord, Player Development",
+          "note": "Athletics staff directory (Oct. 8, 2014), Football section; title cell beside 'Ryan Stamper'. Also present in the March 2015 capture of the same directory."
+        }
+      ]
+    },
+    {
+      "name": "David Trichel",
+      "role": "Dir, Video Post-Production",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Dir, Video Post-Production",
+          "note": "Athletics staff directory (Oct. 8, 2014), listed inside the Football department block; title cell beside 'David Trichel'."
+        }
+      ]
+    },
+    {
+      "name": "Mark Quisenberry",
+      "role": "Mgr, Video (FB)",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Mgr, Video (FB)",
+          "note": "Athletics staff directory (Oct. 8, 2014), Football section; title cell beside 'Mark Quisenberry'. '(FB)' denotes football."
         }
       ]
     },
@@ -416,9 +455,9 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
           "quote": "Program Coord, Camps and Administration",
-          "note": "Second row in the 'Football' department table (directly under Urban Meyer) of the Ohio State athletics staff directory captured Oct. 2014; the adjacent name cell reads 'Amy Halpin'."
+          "note": "Athletics staff directory (Oct. 8, 2014), Football section, listed directly under Urban Meyer; title cell beside 'Amy Halpin'."
         }
       ]
     },
@@ -428,65 +467,149 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
           "quote": "Office Assoc",
-          "note": "Row in the 'Football' department table of the Ohio State athletics staff directory captured Oct. 2014; the adjacent name cell reads 'Shannon Smith'. Note this role string is generic and also appears in other departments of the same directory; the football listing is the one in the Woody Hayes Athletic Center / Football block."
+          "note": "Athletics staff directory (Oct. 8, 2014), Football section; title cell beside 'Shannon Smith'."
         }
       ]
     },
     {
       "name": "Derek Chang",
       "role": "Intern",
-      "role_category": "ops",
+      "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
           "quote": "Intern",
-          "note": "Final row in the 'Football' department table of the Ohio State athletics staff directory captured Oct. 2014; the adjacent name cell reads 'Derek Chang'. The role string 'Intern' is generic and appears elsewhere in the directory; the relevant listing is inside the Football block."
-        }
-      ]
-    },
-    {
-      "name": "David Trichel",
-      "role": "Dir, Video Post-Production",
-      "role_category": "other",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
-          "quote": "Dir, Video Post-Production",
-          "note": "Row inside the 'Football' department table of the Ohio State athletics staff directory captured Oct. 2014; the adjacent name cell reads 'David Trichel'. Football video staff, listed within the football block rather than the general Video Services department."
-        }
-      ]
-    },
-    {
-      "name": "Mark Quisenberry",
-      "role": "Mgr, Video (FB)",
-      "role_category": "other",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
-          "quote": "Mgr, Video (FB)",
-          "note": "Row inside the 'Football' department table of the Ohio State athletics staff directory captured Oct. 2014; the adjacent name cell reads 'Mark Quisenberry'. '(FB)' denotes football."
+          "note": "Athletics staff directory (Oct. 8, 2014), Football section, last active entry; title cell beside 'Derek Chang'. Other intern entries in the same block (Cody Hawkins, Jon Stanek, Chadd Pierce) were commented out of the page HTML and are therefore excluded."
         }
       ]
     },
     {
       "name": "Doug Calland",
-      "role": "Head trainer",
+      "role": "Head Athletic Trainer (WHAC)",
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
-          "quote": "Head Athletic Trainer (WHAC)",
-          "note": "Row in the athletic training section of the Ohio State athletics staff directory captured Oct. 2014; the adjacent name cell reads 'Doug Calland'. WHAC = Woody Hayes Athletic Center, the football facility."
+          "url": "http://web.archive.org/web/20141031180748/http://grfx.cstv.com/schools/osu/graphics/pdf/m-footbl/1415_guide.pdf",
+          "quote": "Head trainer",
+          "note": "2014 Ohio State Football media/team guide, Quick Facts page: the label 'Head trainer' appears on the line immediately above 'Doug Calland', in the football staff quick-facts block."
         },
         {
-          "url": "https://web.archive.org/web/20160203210117/http://grfx.cstv.com/schools/osu/graphics/pdf/m-footbl/2014/2014_guide.pdf",
-          "quote": "",
-          "note": "PDF source - text cannot be copied faithfully because the layout uses dot-leader tabs and column breaks. Page 2 of the 2014 Ohio State football media guide ('football FACTS & more') lists, in the team quick-facts box, the line 'Head trainer' followed by 'Doug Calland', alongside 'director of operations / Brian Voltolini' and 'Assistant AD for FB Sports Performance / Mickey Marotti'."
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Head Athletic Trainer (WHAC)",
+          "note": "Athletics staff directory (Oct. 8, 2014), 'Medical Services and Training' section; title cell beside 'Doug Calland'. WHAC = Woody Hayes Athletic Center, the football facility."
+        }
+      ]
+    },
+    {
+      "name": "Bob Sweeney",
+      "role": "Athletic Trainer (WHAC)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Athletic Trainer (WHAC)",
+          "note": "Athletics staff directory (Oct. 8, 2014), 'Medical Services and Training' section; title cell beside 'Bob Sweeney'. Football affiliation is inferred from the (WHAC) facility tag (Woody Hayes Athletic Center = football building); the directory does not name a sport."
+        }
+      ]
+    },
+    {
+      "name": "Jason Rule",
+      "role": "Asst Athletic Trainer (WHAC)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Asst Athletic Trainer (WHAC)",
+          "note": "Athletics staff directory (Oct. 8, 2014), 'Medical Services and Training' section; title cell beside 'Jason Rule'. Football affiliation inferred from the (WHAC) facility tag."
+        }
+      ]
+    },
+    {
+      "name": "Erin Scheper",
+      "role": "Asst Athletic Trainer (WHAC)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Asst Athletic Trainer (WHAC)",
+          "note": "Athletics staff directory (Oct. 8, 2014), 'Medical Services and Training' section; title cell beside 'Erin Scheper'. Football affiliation inferred from the (WHAC) facility tag."
+        }
+      ]
+    },
+    {
+      "name": "Michael Sypniak",
+      "role": "Asst Athletic Trainer (WHAC)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Asst Athletic Trainer (WHAC)",
+          "note": "Athletics staff directory (Oct. 8, 2014), 'Medical Services and Training' section; title cell beside 'Michael Sypniak'. Football affiliation inferred from the (WHAC) facility tag."
+        }
+      ]
+    },
+    {
+      "name": "Shaun Barnhouse",
+      "role": "Assistant Athletic Trainer (WHAC)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Assistant Athletic Trainer (WHAC)",
+          "note": "Athletics staff directory (Oct. 8, 2014), 'Medical Services and Training' section; title cell beside 'Shaun Barnhouse'. Football affiliation inferred from the (WHAC) facility tag."
+        }
+      ]
+    },
+    {
+      "name": "Mike Caldwell",
+      "role": "Ath Equip Asst-WHAC",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Ath Equip Asst-WHAC",
+          "note": "Athletics staff directory (Oct. 8, 2014), 'Equipment' section (offices at Woody Hayes Ath Ctr); title cell beside 'Mike Caldwell'. Football affiliation inferred from the -WHAC facility tag."
+        }
+      ]
+    },
+    {
+      "name": "John Dunn",
+      "role": "Ath Equip Asst-WHAC",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Ath Equip Asst-WHAC",
+          "note": "Athletics staff directory (Oct. 8, 2014), 'Equipment' section; title cell beside 'John Dunn'. Football affiliation inferred from the -WHAC facility tag."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Ries",
+      "role": "Ath Equip Asst-WHAC",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Ath Equip Asst-WHAC",
+          "note": "Athletics staff directory (Oct. 8, 2014), 'Equipment' section; title cell beside 'Kevin Ries'. Football affiliation inferred from the -WHAC facility tag."
+        }
+      ]
+    },
+    {
+      "name": "Sam Staley",
+      "role": "Intern-WHAC",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html",
+          "quote": "Intern-WHAC",
+          "note": "Athletics staff directory (Oct. 8, 2014), 'Equipment' section; title cell beside 'Sam Staley'. Equipment intern assigned to the Woody Hayes Athletic Center (football facility)."
         }
       ]
     }
   ],
-  "coverage_notes": "SOURCES USED. (1) Wikipedia 2014 Ohio State Buckeyes football team page - infobox plus its \"Coaching staff\" section (12 names). (2) Ohio State's own football roster/coaching-staff page archived on the Wayback Machine at 20141031180732 (Oct. 31, 2014, mid-season) - 15 names including all four graduate assistants. (3) Ohio State's \"Coaching Staff / Support Staff\" page archived at 20141010100906 (Oct. 10, 2014, mid-season) - adds the \"Football Support Staff\" block (Voltolini, Pantoni, Marotti, Parker, Schlegel, Uhlenhake). (4) The full Ohio State athletics staff directory archived at the same timestamp (redirects to a 20141008043321 snapshot) - this was the single richest source, giving the complete \"Football\" department table (24 rows) and the \"Strength Training & Conditioning-Football\" table (5 rows). (5) The 2014 Ohio State football media guide PDF (11.3 MB, 252 pp.) recovered from the Wayback Machine, page 2 of which carries the quick-facts staff box. (6) Individual archived Ohio State staff bio pages for Gillum, Jefferson, Parker and Uhlenhake.\n\nTOTAL: 32 people, all with at least one real citation. Breakdown: 1 head coach, 9 on-field assistants, 4 graduate assistants, 6 strength and conditioning (one unconfirmed - see below), 9 operations/personnel/administration, 2 football video, 1 medical.\n\nQUOTE-MATCHING CAVEAT - PLEASE READ. Every quote below was mechanically verified by me against a tag-stripped rendering of the live/archived page before submission. However, the two most valuable sources are HTML tables in which a person's NAME and their ROLE sit in two SEPARATE adjacent table cells with no whitespace between them in the source (`...>Greg Gillum</a></td><td>Dir, High School Relations</td>`). A combined \"Name Role\" quote would therefore NOT survive a naive tag-strip. For those rows I deliberately quoted only the role string - which is contiguous and verified present - and named the person in the accompanying `note`. Where a source did put name and role in one cell (the roster page, e.g. \"Jon Carpenter - Graduate Assistant - Defense\", and Wikipedia's bulleted list) I quoted the full combined string. Three quotes contain an HTML-encoded ampersand (\"Assistant Strength &amp; Conditioning Coach\") because that is literally what the page source contains; if your fetcher decodes entities, match \"Assistant Strength & Conditioning Coach\" instead. One quote (\"Adrian Mayes - Graduate Assistant -  Offense\") contains a genuine double space, reproduced verbatim. Wikipedia's dashes are en-dashes (–) except for the Scott Ray and Anthony Schlegel lines, which use hyphens with irregular spacing; all reproduced exactly.\n\nWHAT I COULD NOT DOCUMENT.\n- Scott Ray is included but FLAGGED AS UNCONFIRMED. He appears only in Wikipedia's unsourced staff list and is absent from Ohio State's own October 2014 athletics staff directory, the October 2014 football staff page, and the 2014 media guide. I did not drop him (he is genuinely sourced) but he should not be awarded a ring without independent confirmation.\n- ANALYSTS / QUALITY CONTROL: I found none, and I believe none existed under that title. Ohio State's 2014 football department table lists four graduate assistants (GAA) and one \"Intern\" (Derek Chang) and no analyst or QC positions. The `analyst` and `qc` categories are therefore empty - this is a real absence, not a gap in my search.\n- EQUIPMENT: Ohio State's directory lists equipment staff (Rob Lachey, \"Mgr, Athletic Equipment\"; Brad Swartz, \"Supv, Athletics Equipment\") only department-wide, with NO sport assignment. I could not establish that any named equipment person was assigned to football, so I added no `equipment` rows rather than guess.\n- MEDICAL beyond Doug Calland: the directory lists athletic trainers by FACILITY, not by sport. Six are based at WHAC (the football building): Doug Calland, Bob Sweeney, Jason Rule, Erin Scheper, Michael Sypniak and Shaun Barnhouse. Only Calland is independently confirmed as football's trainer (the media guide's football quick-facts box names him \"Head trainer\"). The other five are plausible football trainers but the source does not say so, so I excluded them rather than pad. If you want them, they are cited and recoverable from the same directory URL.\n- ACADEMICS/NUTRITION/SPORTS PSYCHOLOGY: the SASSO academic counselors and sports-psychology staff are listed department-wide with no sport assignment, so no football-specific names could be established.\n- The February 2015 capture of the staff page (20150208034620) is already the 2015 staff (Tim Beck had replaced Tom Herman), so I used the October 2014 in-season captures as the authoritative snapshot. There is no Wayback capture of these pages between November 2014 and the January 12, 2015 title game; I am relying on October 2014 captures plus the absence of any documented mid-season departure.\n- I detected and correctly EXCLUDED three names (Patrick Flemming, Bryant Haines, Drew Mehringer) that appear in the raw HTML of the October 2014 staff page but are inside HTML comment blocks - stale 2012-13 graduate assistants left commented out in the template. A naive scrape of that page would wrongly include them.\n- Web search quota for this session was exhausted before I began, so I could not run contemporary news searches for hire announcements. All findings come from direct URL fetches, Wayback CDX enumeration, and the media guide PDF."
+  "coverage_notes": "SOURCES USED (in the order requested):\n1. Wikipedia 2014 team page (https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team) - infobox plus a \"Coaching staff\" bullet list of 13 names (10 on-field + 3 strength).\n2. PRIMARY SOURCE: the school's own in-season football staff page, Wayback capture of Oct. 10, 2014 - http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html (\"Coaching Staff\" + \"Football Support Staff\" blocks). This is the only capture of that page between the 2014 preseason and Feb. 8, 2015; there is NO capture from December 2014 or January 2015, so I could not photograph the staff page as it stood on championship night (Jan. 12, 2015). The Feb. 8, 2015 capture (http://web.archive.org/web/20150208034620/...) was used as a cross-check and shows only one difference: Tim Beck had replaced Tom Herman, and Phil Matusz had been added to the visible support-staff block.\n3. PRIMARY SOURCE: Ohio State athletics-wide staff directory, Wayback capture of Oct. 8, 2014 - http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html. Its \"Football\", \"Strength Training & Conditioning-Football\", \"Medical Services and Training\" and \"Equipment\" sections supplied every non-coaching name here. Cross-checked against the March 16, 2015 capture, which is identical for football apart from Herman->Beck and Lovo being removed.\n4. 2014 Ohio State Football team/media guide PDF - http://web.archive.org/web/20141031180748/http://grfx.cstv.com/schools/osu/graphics/pdf/m-footbl/1415_guide.pdf (252 pp.). Its Quick Facts page names the four graduate assistants, the head trainer and the director of operations. The guide contains bios only for the 10 on-field coaches and Marotti - it has NO support-staff directory section.\n\nQUOTE-MATCHING CAVEAT (important): on all three HTML sources, a person's NAME and their TITLE live in separate HTML elements (a linked name followed by a <br> or a separate table cell). Any markdown/text conversion therefore puts them on separate lines, so a \"Name - Title\" quote would not string-match. Every quote I supplied is the exact contiguous title/role text node as it appears, with the adjacent name identified in the accompanying note. Quotes from the media guide are single extracted PDF text lines (extracted with PyMuPDF) and should match a standard PDF text extraction, but PDF extraction differs between tools.\n\nWHAT I COULD NOT DOCUMENT / JUDGMENT CALLS:\n- Scott Ray (strength) appears ONLY on Wikipedia, with no citation there. He is absent from both the official Oct. 2014 football staff page and the Oct. 2014 / Mar. 2015 athletics staff directories, which list exactly five football strength staffers (Marotti, Matusz, Parker, Schlegel, Uhlenhake). I included him because Wikipedia is a real source, but flagged him as low confidence. If the dataset penalises false positives, drop this row.\n- MEDICAL and EQUIPMENT rows are an inference. The Ohio State directory is athletics-wide and tags these staff by facility, not by sport. I included only people whose row carries the \"(WHAC)\" / \"-WHAC\" tag - WHAC is the Woody Hayes Athletic Center, the football building - and Doug Calland is independently confirmed as the football \"Head trainer\" by the media guide, which validates that WHAC = football. But the directory never writes the word \"football\" next to Sweeney, Rule, Scheper, Sypniak, Barnhouse, Caldwell, Dunn, Ries or Staley, so their football assignment is not literally stated.\n- Deliberately EXCLUDED as athletics-wide rather than football-specific, despite being based at the Woody Hayes Athletic Center: Dr Chris Kaeding (Medical Director), Leif Smith (Sports Psychologist), Sara Abrams (GAA, medical), Rob Lachey (Mgr, Athletic Equipment - the department-wide equipment manager). Also excluded: athletics communications staff who covered football (Jerry Emig, primary football contact; Adam Widman, secondary) - listed in the media guide's media-services page but employed by athletics communications, not the football program.\n- Deliberately EXCLUDED because their directory/staff-page entries were commented out of the HTML (i.e. no longer active staff at the time of the capture): Debbie Broeker (Assistant to the Head Coach), Larry Romanoff (Dir, Football External Operations - he appears elsewhere in the same directory as Asst Dir, Event Management), Bob Tucker (Dir, Military Operations), Tom Dunlap (Academic/Operations Asst), Jason Osborne (GAA), Shane Bowen (Graduate Assistant - Defense), Cody Hawkins (Intern), Jon Stanek (Intern), Chadd Pierce (Intern-Video Services), and 2013 graduate assistants Patrick Flemming, Bryant Haines and Drew Mehringer. If the dataset wants \"anyone whose name was ever in the 2014-15 HTML\", these are the candidates I withheld.\n- I found NO documented off-field analyst or quality-control staff for 2014 Ohio State in any of the four sources. One web-search snippet mentioned \"Sean Buckley\" (offensive QC) and \"Matt Thurin\" (QC) for Ohio State, but I could not open a page that tied either name to the 2014 season, so I did not include them. This is the most likely gap in the list.\n- Ohio State's academic-support (SASSO) and nutrition staff assigned to football are not separately identifiable in the 2014 directory.\n- No true mid-season arrivals or departures: Everett Withers (to James Madison) and Mike Vrabel (to Houston Texans) left after the 2013 season, and Chris Ash (Jan. 23, 2014) and Larry Johnson (Jan. 15, 2014) arrived before spring practice. Tom Herman accepted the Houston head job on Dec. 16, 2014 but stayed through the Jan. 12, 2015 title game (noted on his row). Stan Drayton left for the Chicago Bears in early February 2015, after the championship.\nTOTAL: 41 people."
 }

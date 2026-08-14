@@ -1,0 +1,998 @@
+{
+  "team": "Florida",
+  "season": 2006,
+  "staff": [
+    {
+      "name": "Urban Meyer",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team",
+          "quote": "Urban Meyer – head coach – 1 year at UF",
+          "note": "Wikipedia team-season page, Coaching staff section. The '1 year' tenure figure is stale/incorrect (2006 was his 2nd season); the name+role are corroborated below."
+        },
+        {
+          "url": "https://web.archive.org/web/20061021215339/http://www.gatorzone.com/insidefootball/?sub=staff&bio=meyer",
+          "quote": "Head Coach",
+          "note": "Archived official UF athletics (gatorzone.com) staff bio, captured Oct 21, 2006 (mid-season). Title appears as a list item directly under the heading 'Urban Meyer'."
+        }
+      ]
+    },
+    {
+      "name": "Charlie Strong",
+      "role": "Assistant Head Coach; Co-Defensive Coordinator; Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021213722/http://www.gatorzone.com/insidefootball/?sub=staff&bio=strong",
+          "quote": "Assistant Head Coach; Co-Defensive Coordinator; Linebackers",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006; page also carries the line 'As of May 5, 2006'. Title is the list item under the heading 'Charlie Strong'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team",
+          "quote": "Charlie Strong – Assistant head coach/co-defensive coordinator/linebackers – 6 years",
+          "note": "Wikipedia Coaching staff section."
+        },
+        {
+          "url": "https://web.archive.org/web/20061203055317/http://www.gatorzone.com/football/bios.php",
+          "quote": "Assistant Head Coach; Co-Defensive Coordinator; Linebackers",
+          "note": "Official 2006 UF football roster page, archived Dec 3, 2006 (day after the SEC Championship Game), 'Coaches' block. Role text follows the linked name 'Charlie Strong'."
+        }
+      ]
+    },
+    {
+      "name": "Greg Mattison",
+      "role": "Co-Defensive Coordinator; Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021220334/http://www.gatorzone.com/insidefootball/?sub=staff&bio=mattison",
+          "quote": "Co-Defensive Coordinator; Defensive Line",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006; page also carries 'As of July 27, 2006'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team",
+          "quote": "Greg Mattison – Co-defensive coordinator/defensive line – 1 year",
+          "note": "Wikipedia Coaching staff section."
+        },
+        {
+          "url": "https://web.archive.org/web/20061203055317/http://www.gatorzone.com/football/bios.php",
+          "quote": "Co-Defensive Coordinator/Defensive Line",
+          "note": "2006 UF roster page archived Dec 3, 2006; text follows the linked name 'Greg Mattison'."
+        }
+      ]
+    },
+    {
+      "name": "Dan Mullen",
+      "role": "Offensive Coordinator; Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021215258/http://www.gatorzone.com/insidefootball/?sub=staff&bio=mullen",
+          "quote": "Offensive Coordinator; Quarterbacks",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006; page also carries 'As of May 5, 2006'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team",
+          "quote": "Dan Mullen – Offensive coordinator/quarterbacks – 1 year",
+          "note": "Wikipedia Coaching staff section."
+        },
+        {
+          "url": "https://web.archive.org/web/20061203055317/http://www.gatorzone.com/football/bios.php",
+          "quote": "Offensive Coordinator/Quarterbacks",
+          "note": "2006 UF roster page archived Dec 3, 2006; text follows the linked name 'Dan Mullen:'."
+        }
+      ]
+    },
+    {
+      "name": "Chuck Heater",
+      "role": "Recruiting Coordinator; Cornerbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021220324/http://www.gatorzone.com/insidefootball/?sub=staff&bio=heater",
+          "quote": "Recruiting Coordinator; Cornerbacks",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006; page also carries 'As of May 5, 2006'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team",
+          "quote": "Chuck Heater – Recruiting coordinator/cornerbacks – 1 year",
+          "note": "Wikipedia Coaching staff section."
+        },
+        {
+          "url": "https://web.archive.org/web/20061203055317/http://www.gatorzone.com/football/bios.php",
+          "quote": "Recruiting Coordinator/Cornerbacks",
+          "note": "2006 UF roster page archived Dec 3, 2006; text follows the linked name 'Chuck Heater'."
+        }
+      ]
+    },
+    {
+      "name": "John \"Doc\" Holliday",
+      "role": "Associate Head Coach; Safeties",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021215405/http://www.gatorzone.com/insidefootball/?sub=staff&bio=holliday",
+          "quote": "Associate Head Coach; Safeties",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006 (the page's own 'As of' stamp reads May 5, 2005, but it was the live 2006 staff bio and the role is corroborated by the Dec 2006 roster page and the 2006 media guide)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team",
+          "quote": "John \"Doc\" Holliday – Associate head coach/safeties – 1 year",
+          "note": "Wikipedia Coaching staff section."
+        },
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "2005-Present Florida (Associate Head",
+          "note": "2006 UF football media guide, 'Assistant Coaches/Strength Staff/Football Support Staff' section (guide pages 53-71), archived on the Wayback Machine. Coaching Experience table reads '2005-Present Florida (Associate Head Coach/Safeties)'; the extracted line wraps after 'Head'."
+        }
+      ]
+    },
+    {
+      "name": "Steve Addazio",
+      "role": "Offensive Line/Tackles; Tight Ends",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021214129/http://www.gatorzone.com/insidefootball/?sub=staff&bio=addazio",
+          "quote": "Offensive Line/Tackles; Tight Ends",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006; page also carries 'As of August 10, 2006'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team",
+          "quote": "Steve Addazio – Tackles/tight ends – 1 year",
+          "note": "Wikipedia Coaching staff section."
+        },
+        {
+          "url": "https://web.archive.org/web/20061203055317/http://www.gatorzone.com/football/bios.php",
+          "quote": "Offensive Line/Tackles; Tight Ends",
+          "note": "2006 UF roster page archived Dec 3, 2006; text follows the linked name 'Steve Addazio'."
+        }
+      ]
+    },
+    {
+      "name": "John Hevesy",
+      "role": "Offensive Line/Centers and Guards",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021215646/http://www.gatorzone.com/insidefootball/?sub=staff&bio=hevesy",
+          "quote": "Offensive Line/Centers and Guards",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006; page also carries 'As of May 5, 2006'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team",
+          "quote": "John Hevesy – Centers/guards – 1 year",
+          "note": "Wikipedia Coaching staff section."
+        },
+        {
+          "url": "https://web.archive.org/web/20061203055317/http://www.gatorzone.com/football/bios.php",
+          "quote": "Offensive Line/Centers and Guards",
+          "note": "2006 UF roster page archived Dec 3, 2006; text follows the linked name 'John Hevesy'."
+        }
+      ]
+    },
+    {
+      "name": "Billy Gonzales",
+      "role": "Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021214406/http://www.gatorzone.com/insidefootball/?sub=staff&bio=gonzales",
+          "quote": "Wide Receivers",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006; page also carries 'As of August 10, 2006'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team",
+          "quote": "Billy Gonzales – Wide receivers – 1 year",
+          "note": "Wikipedia Coaching staff section."
+        },
+        {
+          "url": "https://floridagators.com/documents/download/2006/8/28/20060902180000.pdf",
+          "quote": "Under the guidance of position coach Billy Gonzales, the leading receiver on the squad has equaled",
+          "note": "Official 2006 Florida football game notes (vs. Southern Miss, Sept. 2, 2006), hosted on floridagators.com. Quote is a single extracted line; it wraps mid-sentence in the PDF."
+        }
+      ]
+    },
+    {
+      "name": "Stan Drayton",
+      "role": "Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021214433/http://www.gatorzone.com/insidefootball/?sub=staff&bio=drayton",
+          "quote": "Running Backs",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006; page also carries 'As of As of May 5, 2006'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team",
+          "quote": "Stan Drayton – Running backs – 1 year",
+          "note": "Wikipedia Coaching staff section."
+        },
+        {
+          "url": "https://web.archive.org/web/20061203055317/http://www.gatorzone.com/football/bios.php",
+          "quote": "Running Backs",
+          "note": "2006 UF roster page archived Dec 3, 2006; text follows the linked name 'Stan Drayton'."
+        }
+      ]
+    },
+    {
+      "name": "Sean Cronin",
+      "role": "Graduate Assistant Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235216/http://www.gatorzone.com/insidefootball/?sub=staff&bio=cronin",
+          "quote": "Sean Cronin is entering his first season as a graduate assistant at the University of Florida, and will assist with the defense.",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006. Listed under 'Coaches' in the official 2006 football staff directory."
+        },
+        {
+          "url": "https://web.archive.org/web/20061021213122/http://www.gatorzone.com/insidefootball/?sub=staff",
+          "quote": "Sean Cronin",
+          "note": "Official UF football staff directory archived Oct 21, 2006; Cronin appears in the 'Coaches' list alongside Meyer and the nine on-field assistants."
+        }
+      ]
+    },
+    {
+      "name": "Nick Schiralli",
+      "role": "Graduate Assistant Coach",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235451/http://www.gatorzone.com/insidefootball/?sub=staff&bio=schiralli",
+          "quote": "Nick Schiralli is entering his first season as a graduate assistant at the University of Florida, returning to his alma mater after lettering at UF from 1995-99.",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006. Title heading on the page reads 'Graduate Assistant Coach'."
+        },
+        {
+          "url": "https://web.archive.org/web/20061021213122/http://www.gatorzone.com/insidefootball/?sub=staff",
+          "quote": "Nick Schiralli",
+          "note": "Official UF football staff directory archived Oct 21, 2006, 'Coaches' list."
+        }
+      ]
+    },
+    {
+      "name": "Mickey Marotti",
+      "role": "Director of Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235131/http://www.gatorzone.com/insidefootball/?sub=staff&bio=marotti",
+          "quote": "Director of Strength and Conditioning",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006; title is the list item under the heading 'Mickey Marotti'."
+        },
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "MICKEY MAROTTI",
+          "note": "2006 UF football media guide, 'Sports Health' spread (guide pages 16-17), archived. Under the 'Strength & Conditioning Staff:' header the entry reads 'MICKEY MAROTTI / Director of, Strength and Conditioning'; name and title occupy separate extracted lines, so only the name line is quoted verbatim."
+        }
+      ]
+    },
+    {
+      "name": "Matt Balis",
+      "role": "Assistant Director of Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235153/http://www.gatorzone.com/insidefootball/?sub=staff&bio=balis",
+          "quote": "Assistant Director of Strength and Conditioning",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006; title is the list item under the heading 'Matt Balis'. Experience table on the same page reads 'Jan. 2005 - Present / Florida (Assistant Director, Strength and Conditioning )'."
+        },
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Assistant Director, Strength and Conditioning ",
+          "note": "2006 UF football media guide (pages 53-71), archived; single extracted line directly beneath his name on the Strength Staff page."
+        }
+      ]
+    },
+    {
+      "name": "Frank Piraino",
+      "role": "Coordinator, Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235428/http://www.gatorzone.com/insidefootball/?sub=staff&bio=piraino",
+          "quote": "Frank Piraino works primarily with the football and men's and women's cross country teams at the University of Florida as Coordinator, Strength and Conditioning.",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006."
+        },
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "FRANK PIRAINO",
+          "note": "2006 UF media guide, 'Strength & Conditioning Staff:' list (pages 16-17). Entry reads 'FRANK PIRAINO / Coordinator, Strength and Conditioning'; name and title are on separate extracted lines."
+        }
+      ]
+    },
+    {
+      "name": "Mark Campbell",
+      "role": "Coordinator, Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Mark Campbell enters his fifth year with the",
+          "note": "2006 UF football media guide, 'Strength & Conditioning Staff:' block on page 16, archived on the Wayback Machine. His heading reads 'MARK CAMPBELL / Coordinator, Strength and Conditioning'; the name and title sit on separate extracted lines, so the quote is the first prose line of his bio ('Mark Campbell enters his fifth year with the Florida Strength and Conditioning program, as he joined the Gator staff in January of 2002.'). He does not appear in the archived gatorzone.com online staff directory - media guide is the only source recovered."
+        }
+      ]
+    },
+    {
+      "name": "Bob LaCivita",
+      "role": "Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235119/http://www.gatorzone.com/insidefootball/?sub=staff&bio=lacivita",
+          "quote": "Bob LaCivita joins UF as Director of Football Operations after handling the same position at North Carolina State the past five seasons.",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006. Bio prose is carried over from his 2005 hire; the 2006 media guide updates it to 'Bob LaCivita is in his second season at UF as Director of Football Operations'."
+        },
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Director of Football Operations ",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' section (pages 53-71), archived; single extracted line directly beneath 'Bob LaCivita'."
+        }
+      ]
+    },
+    {
+      "name": "Jon Clark",
+      "role": "Administrative Assistant, Football",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235606/http://www.gatorzone.com/insidefootball/?sub=staff&bio=clark",
+          "quote": "Jon Clark, who will be Florida's Administrative Assistant for Football, comes to Gainesville after serving in the same role at the University of Utah since 2003.",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006; heading on the page reads 'Administrative Assistant, Football'."
+        },
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Director of Football Administration",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' (pages 53-71). The media guide gives his title as 'Director of Football Administration' and states 'Jon Clark, entering his second year at Florida'. The two 2006 sources word his title differently; the gatorzone directory wording is used for the role field."
+        }
+      ]
+    },
+    {
+      "name": "Betty Ling",
+      "role": "Senior Administrative Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' section (pages 53-71), archived. PDF text extraction breaks her entry across lines as 'Betty Ling' / 'Senior Administrative' / 'Assistant' / 'A member of the University' / 'of Florida football family' / 'for 28 years, Betty Ling' / 'enters her 16th year as Senior' / 'Administrative Assistant.' - no single extracted line carries name and title together, so no faithful quote is possible. Bio adds 'Ling serves as the Administrative Assistant for football recruiting.' Not present in the archived gatorzone.com online directory."
+        }
+      ]
+    },
+    {
+      "name": "Dave Houts",
+      "role": "Director of Video Services",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235259/http://www.gatorzone.com/insidefootball/?sub=staff&bio=houts",
+          "quote": "Dave Houts, who has been associated with the Gator football team since 1977, has worked for the UAA as Director of Video Services since 1989 and worked for the University of Florida since 1983.",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006, listed under 'Support Staff' in the football staff directory."
+        },
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Director of Video",
+          "note": "2006 UF media guide '2006 Football Support Staff' sidebar (page 71); entry wraps as 'Dave Houts' / 'Director of Video' / 'Services'."
+        }
+      ]
+    },
+    {
+      "name": "Brian Voltolini",
+      "role": "Director Football Video/Software Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235142/http://www.gatorzone.com/insidefootball/?sub=staff&bio=voltolini",
+          "quote": "Brian Voltolini is entering his first season with the University of Florida football team as Director of Football Video/Software Operations.",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006."
+        }
+      ]
+    },
+    {
+      "name": "Hiram de Fries",
+      "role": "Football Staff",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' sidebar on page 71, archived. Extraction renders his entry as two separate lines, 'Hiram de Fries' then 'Football Staff', so no single verbatim line carries both name and role. This is the only title the 2006 program published for him; he is a longtime Urban Meyer confidant who traveled with the program."
+        }
+      ]
+    },
+    {
+      "name": "Katie Plageman",
+      "role": "Staff Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' sidebar on page 71, archived. Rendered as 'Katie Plageman' / 'Staff Assistant' on separate extracted lines; no faithful single-line quote available."
+        }
+      ]
+    },
+    {
+      "name": "Alecia Pynn",
+      "role": "Staff Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' sidebar on page 71, archived. Rendered as 'Alecia Pynn' / 'Staff Assistant' on separate extracted lines."
+        }
+      ]
+    },
+    {
+      "name": "Nancy Scarborough",
+      "role": "Office Manager",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' sidebar on page 71, archived. Rendered as 'Nancy Scarborough ' / 'Office Manager' on separate extracted lines."
+        }
+      ]
+    },
+    {
+      "name": "Ross Dewitt",
+      "role": "Director of Aviation",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' sidebar on page 71, archived. Rendered as 'Ross Dewitt' / 'Director of Aviation' on separate extracted lines."
+        }
+      ]
+    },
+    {
+      "name": "Malcom Jowers",
+      "role": "Team Security",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' sidebar on page 71, archived. Rendered as 'Malcom Jowers' / 'Team Security' on separate extracted lines. Name spelling 'Malcom' is as printed."
+        }
+      ]
+    },
+    {
+      "name": "Anthony Meacham",
+      "role": "Academic Counselor for Football and Softball",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235630/http://www.gatorzone.com/insidefootball/?sub=academics&page=staff/meacham",
+          "quote": "Anthony Meacham is entering his eighth year with the University Athletic Association. He is currently an Academic Counselor for the Football and Softball student-athletes.",
+          "note": "Archived gatorzone.com Inside Florida Football academic-staff bio captured Oct 21, 2006. He is listed as 'Tony Meachem' in the football staff directory's 'Support Staff' list but as 'Anthony Meacham' on his own bio page."
+        },
+        {
+          "url": "https://web.archive.org/web/20061021213122/http://www.gatorzone.com/insidefootball/?sub=staff",
+          "quote": "Tony Meachem",
+          "note": "Official UF football staff directory archived Oct 21, 2006, 'Support Staff' list."
+        }
+      ]
+    },
+    {
+      "name": "Jason Storch",
+      "role": "Academic Counselor for Football and Women's Soccer",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235641/http://www.gatorzone.com/insidefootball/?sub=academics&page=staff/storch",
+          "quote": "Jason Storch enters his tenth year with the University Athletic Association. He is currently an Academic Counselor for the football and women's soccer student-athletes as well as an Adjunct Professor in the College of Health and Human Performance.",
+          "note": "Archived gatorzone.com academic-staff bio captured Oct 21, 2006, linked from the football 'Support Staff' directory."
+        },
+        {
+          "url": "https://web.archive.org/web/20061021213122/http://www.gatorzone.com/insidefootball/?sub=staff",
+          "quote": "Jason Storch",
+          "note": "Official UF football staff directory archived Oct 21, 2006, 'Support Staff' list."
+        }
+      ]
+    },
+    {
+      "name": "Jason Baisden",
+      "role": "Football Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235538/http://www.gatorzone.com/insidefootball/?sub=staff&bio=baisden",
+          "quote": "Jason Baisden enters his second season as UF's Football Equipment Manager, a position he undertook in January of 2005 after joining the Gator program in June of 2004 as Assistant Equipment Manager.",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006."
+        }
+      ]
+    },
+    {
+      "name": "Van Stuckey",
+      "role": "Director of Athletic Equipment",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Director of Athletic Equipment",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' section (pages 53-71), archived. This single extracted line sits directly beneath the heading 'Van Stuckey'; his bio adds 'Stuckey, in his 21st year at the University of Florida, is the Director of Athletic Equipment.' Department-wide equipment role covering the football equipment room."
+        }
+      ]
+    },
+    {
+      "name": "Jeff McGrew",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' sidebar on page 71, archived. Rendered across three extracted lines as 'Jeff McGrew ' / 'Assistant Equipment' / 'Manager ', so no faithful single-line quote is available."
+        }
+      ]
+    },
+    {
+      "name": "Peter A. Indelicato, MD",
+      "role": "Head Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235732/http://www.gatorzone.com/insidefootball/?sub=staff&bio=indelicato",
+          "quote": "Dr. Peter A. Indelicato, UF's head team physician since 1977, is one of the nation's leading orthopaedic surgeons in the field of Sports Medicine as he was recently honored by his peers as the first-ever recipient of the National College Team Physician of the Year Award.",
+          "note": "Archived gatorzone.com football staff bio captured Oct 21, 2006; heading reads 'Peter A. Indelicato, MD / Head Team Physician'."
+        },
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Dr. Pete Indelicato – Head Team Physician/",
+          "note": "2006 UF media guide, '2006 Sports Health Staff' list (page 17). Line wraps; the following extracted line reads 'Team Orthopedist'."
+        }
+      ]
+    },
+    {
+      "name": "Douglas McDonald, MD",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235944/http://www.gatorzone.com/insidefootball/?sub=staff&bio=mcdonald",
+          "quote": "Dr. McDonald is in his third year as a University of Florida Athletic Association Team Physician.",
+          "note": "Archived gatorzone.com football staff bio captured Oct 21, 2006; heading reads 'Douglas McDonald, MD / Team Physician'."
+        },
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Dr. Doug McDonald – Team Physician",
+          "note": "2006 UF media guide, '2006 Sports Health Staff' list (page 17)."
+        }
+      ]
+    },
+    {
+      "name": "Jay Clugston, MD",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Dr. Jay Clugston – Team Physician",
+          "note": "2006 UF football media guide, '2006 Sports Health Staff' list on page 17, archived. He also appears in the photo strip as 'JAY CLUGSTON, MD / Team Physician'. Not present in the archived gatorzone.com online football staff directory."
+        }
+      ]
+    },
+    {
+      "name": "Chris Patrick",
+      "role": "Assistant Athletic Director for Sports Health",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Chris Patrick – Assistant Athletic Director",
+          "note": "2006 UF football media guide, '2006 Sports Health Staff' list on page 17, archived. The extracted line ends here and wraps to 'for Sports Health' on the next line. Not present in the archived gatorzone.com online football staff directory."
+        }
+      ]
+    },
+    {
+      "name": "Anthony Pass",
+      "role": "Head Athletic Trainer, Football",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235929/http://www.gatorzone.com/insidefootball/?sub=staff&bio=pass",
+          "quote": "Anthony Pass enters his second season at the University of Florida as the Head Athletic Trainer for the football team.",
+          "note": "Archived gatorzone.com staff bio captured Oct 21, 2006; heading reads 'Anthony Pass / Head Athletic Trainer, Football'."
+        },
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Anthony Pass – Head Athletic Trainer",
+          "note": "2006 UF media guide, '2006 Sports Health Staff' list (page 17)."
+        }
+      ]
+    },
+    {
+      "name": "John Dean",
+      "role": "Assistant Athletic Trainer/Physical Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "John Dean – Assistant Athletic Trainer/",
+          "note": "2006 UF football media guide, '2006 Sports Health Staff' list on page 17, archived. The extracted line wraps here; the next line reads 'Physical Therapist'. The media guide's fuller bio (pages 53-71) titles him 'Athletic Trainer' and states 'John Dean is in his third season as an athletic trainer at the University of Florida, working primarily with the football team.'"
+        },
+        {
+          "url": "https://web.archive.org/web/20061021213122/http://www.gatorzone.com/insidefootball/?sub=staff",
+          "quote": "John Dean",
+          "note": "Official UF football staff directory archived Oct 21, 2006, 'Support Staff' list. His individual bio page in that capture is blank."
+        }
+      ]
+    },
+    {
+      "name": "Marty Huegel",
+      "role": "Coordinator of Physical Therapy",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Marty Huegel – Coordinator of Physical",
+          "note": "2006 UF football media guide, '2006 Sports Health Staff' list on page 17, archived. The extracted line wraps here; the next line reads 'Therapy'. The same guide's support-staff sidebar (page 71) spells the surname 'Marty Hugel' and gives the title 'Physical Therapist'."
+        }
+      ]
+    },
+    {
+      "name": "Tim Shay",
+      "role": "Physical Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Tim Shay – Physical Therapist",
+          "note": "2006 UF football media guide, '2006 Sports Health Staff' list on page 17, archived."
+        }
+      ]
+    },
+    {
+      "name": "Susan Tillman",
+      "role": "Physical Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Susan Tillman – Physical Therapist",
+          "note": "2006 UF football media guide, '2006 Sports Health Staff' list on page 17, archived."
+        }
+      ]
+    },
+    {
+      "name": "Brad Patterson",
+      "role": "Massage Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Brad Patterson – Massage Therapist",
+          "note": "2006 UF football media guide, '2006 Sports Health Staff' list on page 17, archived. Also appears in the '2006 Football Support Staff' sidebar on page 71 as 'Brad Patterson / Massage Therapist'."
+        }
+      ]
+    },
+    {
+      "name": "Bob Seebohar",
+      "role": "Coordinator of Sports Nutrition",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235318/http://www.gatorzone.com/insidefootball/?sub=staff&bio=seebohar",
+          "quote": "Bob Seebohar begins his first year serving as a full-time sports dietitian for the University Athletic Association.",
+          "note": "Archived gatorzone.com football staff bio captured Oct 21, 2006; heading on that page reads 'Bob Seebohar / Sports Dietitian'."
+        },
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Bob Seebohar – Coordinator of Sports",
+          "note": "2006 UF media guide '2006 Sports Health Staff' list (page 17); the extracted line wraps here and the next line reads 'Nutrition'. The same spread's bio block titles him 'Team Nutritionist'."
+        }
+      ]
+    },
+    {
+      "name": "Maureen Mason",
+      "role": "Sports Nutritionist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061021235556/http://www.gatorzone.com/insidefootball/?sub=staff&bio=mason",
+          "quote": "Maureen Mason enters her first season as a sports nutritionist at the University of Florida.",
+          "note": "Archived gatorzone.com football staff bio captured Oct 21, 2006; heading reads 'Maureen Mason / Sports Nutritionist'."
+        },
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Maureen Mason – Sports Nutritionist",
+          "note": "2006 UF media guide, '2006 Sports Health Staff' list (page 17)."
+        }
+      ]
+    },
+    {
+      "name": "Kyle Johnston",
+      "role": "Graduate Assistant (athletic training)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Kyle Johnston – Graduate Assistant",
+          "note": "2006 UF football media guide, '2006 Sports Health Staff' list on page 17, archived. Also listed on page 71 under '2006 Athletic Trainers / Graduate Interns:'. The parenthetical in the role field is added for clarity; the source words it simply 'Graduate Assistant' within the Sports Health staff list."
+        }
+      ]
+    },
+    {
+      "name": "Meghan Fornoff",
+      "role": "Graduate Assistant (athletic training)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Meghan Fornoff – Graduate Assistant",
+          "note": "2006 UF football media guide, '2006 Sports Health Staff' list on page 17, archived. Also listed on page 71 under '2006 Athletic Trainers / Graduate Interns:'."
+        }
+      ]
+    },
+    {
+      "name": "Spencer Thomas",
+      "role": "Intern (athletic training)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/16-17.pdf",
+          "quote": "Spencer Thomas – Intern",
+          "note": "2006 UF football media guide, '2006 Sports Health Staff' list on page 17, archived. Also listed on page 71 under '2006 Athletic Trainers / Intern:'."
+        }
+      ]
+    },
+    {
+      "name": "Randy Caton, DMD",
+      "role": "Oral Surgeon",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' sidebar on page 71, archived. Rendered as 'Randy Caton, DMD' / 'Oral Surgeon' on separate extracted lines, so no faithful single-line quote is available."
+        }
+      ]
+    },
+    {
+      "name": "Frank Dolwick, D.M.D., Ph.D.",
+      "role": "Oral Surgeon",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' sidebar on page 71, archived. Rendered as 'Frank Dolwick,' / 'D.M.D., Ph.D. ' / 'Oral Surgeon' on separate extracted lines."
+        }
+      ]
+    },
+    {
+      "name": "Gerald Hazouri, MD",
+      "role": "Team Ophthalmologist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' sidebar on page 71, archived. Rendered as 'Gerald Hazouri, MD' / 'Team Ophthalmologist' on separate extracted lines."
+        }
+      ]
+    },
+    {
+      "name": "Mike Moser, MD",
+      "role": "Team Orthopaedist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' sidebar on page 71, archived. Rendered as 'Mike Moser, MD' / 'Team Orthopaedist' on separate extracted lines."
+        }
+      ]
+    },
+    {
+      "name": "Thomas Weber, DMD",
+      "role": "Team Dentist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "",
+          "note": "2006 UF football media guide, '2006 Football Support Staff' sidebar on page 71, archived. Rendered as 'Thomas Weber, DMD' / 'Team Dentist' on separate extracted lines."
+        }
+      ]
+    },
+    {
+      "name": "Dan Gibbs",
+      "role": "Athletic Training Student",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Dan Gibbs",
+          "note": "2006 UF football media guide, page 71 sidebar headed '2006 Athletic Trainers', under the sub-heading 'Athletic Training Students:'. Only the name is printed; the role is the group heading, which sits on its own extracted line."
+        }
+      ]
+    },
+    {
+      "name": "Stacie Maxwell",
+      "role": "Athletic Training Student",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Stacie Maxwell",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Athletic Trainers', sub-heading 'Athletic Training Students:'."
+        }
+      ]
+    },
+    {
+      "name": "Josh Arias",
+      "role": "Athletic Training Student",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Josh Arias",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Athletic Trainers', sub-heading 'Athletic Training Students:'."
+        }
+      ]
+    },
+    {
+      "name": "Matt Smith",
+      "role": "Athletic Training Student",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Matt Smith",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Athletic Trainers', sub-heading 'Athletic Training Students:'."
+        }
+      ]
+    },
+    {
+      "name": "Dan Holt",
+      "role": "Athletic Training Student",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Dan Holt",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Athletic Trainers', sub-heading 'Athletic Training Students:'."
+        }
+      ]
+    },
+    {
+      "name": "Hope Jacoby",
+      "role": "Athletic Training Student",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Hope Jacoby",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Athletic Trainers', sub-heading 'Athletic Training Students:'."
+        }
+      ]
+    },
+    {
+      "name": "Jim Slentz",
+      "role": "Student Assistant (2006 Managers)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Jim Slentz",
+          "note": "2006 UF football media guide, page 71 sidebar headed '2006 Managers', under the sub-heading 'Student Assistants:'. Only the name is printed; the role wording comes from the two group headings, each on its own extracted line."
+        }
+      ]
+    },
+    {
+      "name": "Matt Burgner",
+      "role": "Student Assistant (2006 Managers)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Matt Burgner",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Managers', sub-heading 'Student Assistants:'."
+        }
+      ]
+    },
+    {
+      "name": "Ryan Casey",
+      "role": "Student Assistant (2006 Managers)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Ryan Casey",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Managers', sub-heading 'Student Assistants:'."
+        }
+      ]
+    },
+    {
+      "name": "Mike Knowles",
+      "role": "Student Assistant (2006 Managers)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Mike Knowles",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Managers', sub-heading 'Student Assistants:'."
+        }
+      ]
+    },
+    {
+      "name": "Demetrius Moore",
+      "role": "Student Assistant (2006 Managers)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Demetrius Moore",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Managers', sub-heading 'Student Assistants:'."
+        }
+      ]
+    },
+    {
+      "name": "Stephanie Davis",
+      "role": "Student Assistant (2006 Managers)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Stephanie Davis",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Managers', sub-heading 'Student Assistants:'."
+        }
+      ]
+    },
+    {
+      "name": "Austin Pope",
+      "role": "Student Assistant (2006 Managers)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Austin Pope",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Managers', sub-heading 'Student Assistants:'."
+        }
+      ]
+    },
+    {
+      "name": "David Spitzer",
+      "role": "Student Assistant (2006 Managers)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "David Spitzer",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Managers', sub-heading 'Student Assistants:'."
+        }
+      ]
+    },
+    {
+      "name": "Daniel Clayton",
+      "role": "Student Assistant (2006 Managers)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Daniel Clayton",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Managers', sub-heading 'Student Assistants:'."
+        }
+      ]
+    },
+    {
+      "name": "Matt Bonnett",
+      "role": "Student Assistant (2006 Managers)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20070105215734id_/http://www.gatorzone.com/football/media/2006/pdf/53-71.pdf",
+          "quote": "Matt Bonnett",
+          "note": "2006 UF football media guide, page 71 sidebar '2006 Managers', sub-heading 'Student Assistants:'."
+        }
+      ]
+    }
+  ],
+  "coverage_notes": "SOURCES USED (in the order requested):\n1. Wikipedia team-season page (https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team) - infobox plus a \"Coaching staff\" section listing Meyer and the nine on-field assistants. Caveat: its \"1 year\" / \"6 years\" tenure figures are stale and wrong (2006 was Meyer's 2nd season); names and roles match contemporaneous UF sources.\n2. School athletics site archived on the Wayback Machine. Two useful captures: the official football staff directory at gatorzone.com/insidefootball/?sub=staff captured Oct 21, 2006 (mid-season), which lists a \"Coaches\" tier and a \"Support Staff\" tier with individual bio pages; and the official 2006 roster page gatorzone.com/football/bios.php captured Dec 3, 2006 (the day after the SEC Championship Game), whose \"Coaches:\" block repeats all ten with roles. Individual bio pages were fetched at their own capture timestamps (all Oct 21, 2006) and are cited per person.\n3. The 2006 season media guide. The live floridagators.com media-guide index links to gatorzone.com PDFs that now 404, but the original per-section PDFs survive under the archived path http://www.gatorzone.com/football/media/2006/pdf/. Two sections carry staff: pages 53-71 (\"Assistant Coaches/Strength Staff/Football Support Staff\", including a \"2006 Football Support Staff\" block and a page-71 sidebar of one-line staff entries) and pages 16-17 (\"Sports Health\", including the \"Strength & Conditioning Staff:\" block and the \"2006 Sports Health Staff\" list).\n4. Contemporary game notes: the official Sept. 2, 2006 game notes PDF on floridagators.com, which contains a game-day coaching-staff box (all ten on-field coaches, with press-box designations) and the note that the staff was unchanged from 2005.\n\nWHAT IS COMPLETE:\n- On-field tier: fully recovered. Head coach plus exactly nine assistants (Strong, Mattison, Mullen, Heater, Holliday, Gonzales, Hevesy, Addazio, Drayton), each confirmed by three independent 2006 sources.\n- Strength and conditioning: four documented (Marotti, Balis, Piraino, Campbell). Campbell appears only in the media guide, not in the online directory.\n- Graduate assistants: exactly two documented (Cronin, Schiralli), both listed under \"Coaches\" in the October 2006 directory and both with media guide bios.\n- Operations/administration, equipment, video, medical/sports health, and academics tiers recovered from the media guide and the online directory.\n\nWHAT I COULD NOT RECOVER - stated plainly:\n- ANALYST tier: none exists. I found no person with an analyst title in any 2006 UF source. The role did not exist as a published category in this era.\n- QUALITY CONTROL tier: none published. No UF staffer carried a QC title in 2006. (Sean Cronin's bio mentions a QC job at Marshall in 2005, not at Florida.) If Florida employed off-field QC assistants in 2006, they were not published in the media guide or on the athletics site, and I found no other source naming them.\n- I could not confirm whether the two graduate assistants listed are the program's complete GA complement. NCAA rules of the era allowed additional GAs; the media guide and the athletics site each list only these two, so two is the documented figure, not necessarily the actual one.\n- Recruiting/personnel staff beyond LaCivita (Director of Football Operations) and Betty Ling (Senior Administrative Assistant, working football recruiting) are not documented anywhere I could reach.\n- No sports information / media relations contact list survives in the game notes I retrieved.\n\nTIMING AND THE RING RULE:\n- No mid-season arrivals or departures are documented for anyone here, so no midseason_note is set on any row. The Sept. 2006 game notes state the staff was unchanged from 2005, and the Dec. 3, 2006 roster capture (after the SEC title game) still shows the identical ten coaches, so the on-field staff demonstrably held through the postseason.\n- The media guide is a PRESEASON document (published August 2006). For support-staff rows sourced only to it, I verified nothing that contradicts their presence at the Jan. 8, 2007 championship game, but I also could not positively confirm each individual was still employed on that date. Treat media-guide-only support rows as \"on staff for the 2006 season\" rather than \"verified present at the title game.\"\n\nQUOTE FIDELITY:\n- All Wikipedia and archived-HTML quotes are copied verbatim from page text and should string-match cleanly.\n- PDF quotes are copied verbatim from an embedded-text extraction (the media guide PDFs contain real text, not scans). Where the media guide's layout puts a person's name and title on separate lines - which is true of the entire page-71 support-staff sidebar and of several strength-staff headings - no single line carries both, so per instruction I set quote to \"\" and recorded the exact line breakdown in the note. Rows with non-empty PDF quotes use lines I confirmed are complete single lines in the extraction; a different PDF text extractor could still re-wrap them.\n\nNAME-SPELLING CONFLICTS IN THE SOURCES (not errors on my part):\n- \"Tony Meachem\" (staff directory) vs \"Anthony Meacham\" (his own bio page).\n- \"Marty Huegel\" (Sports Health list, page 17) vs \"Marty Hugel\" (support-staff sidebar, page 71), with different titles on each.\n- Jon Clark: \"Administrative Assistant, Football\" (athletics site, October 2006) vs \"Director of Football Administration\" (2006 media guide).\n- Bob Seebohar: \"Sports Dietitian\" (athletics site) vs \"Coordinator of Sports Nutrition\" (Sports Health list) vs \"Team Nutritionist\" (Sports Health bio block).\n- John Dean: \"Athletic Trainer\" (media guide bio) vs \"Assistant Athletic Trainer/Physical Therapist\" (Sports Health list).\n\nNO PADDING: every row above comes from a real, retrieved 2006 source. I added no one from memory or inference."
+}

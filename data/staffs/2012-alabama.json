@@ -1,6 +1,7 @@
 {
   "team": "Alabama",
   "season": 2012,
+  "coverage_notes": "SOURCES USED. (1) Primary: the official \"2012 Alabama Football Media Guide,\" scanned at archive.org (https://archive.org/details/alabama-football-2012-media-guide). This is a preseason guide (published Aug. 2012) and its COACHES AND STAFF section is the only place a full Alabama support staff for this season is enumerated: printed p. 2 = \"2012 ALABAMA COACHING STAFF\" directory; printed pp. 78-91 = bios of the 10 on-field coaches plus Cochran, Gonnella, Pannunzio, Allen, Springer, Sherrer, Martin; printed p. 92 = a 35-person \"COACHING STAFF\" support-staff photo grid. That yields 53 of the 55 rows below. (2) Corroboration near the title date: the Wayback capture of rolltide.com's official football roster page from Dec. 30, 2012 (8 days before the Jan. 7, 2013 BCS Championship Game) lists 13 coaches/senior staff, matching the guide exactly. (3) Wikipedia's 2012 team page, plus the subjects' own later official bios, for two people absent from the preseason guide.\n\nQUOTE MECHANICS - PLEASE READ BEFORE STRING-MATCHING. Media-guide quotes are copied verbatim from the PDF's embedded text layer (extracted with PyMuPDF), not retyped. Two consequences: (a) The guide's staff pages are photo-caption grids and two-column directories, so most quotes span the source's own line breaks; these are preserved as real newlines inside the quote. (b) The PDF's font has broken ligatures, so the text layer genuinely reads \"Off ensive\", \"Th ompson\", \"Th e Citadel\", and \"Jeff  Stoutland\" / \"Jeff  Allen\" / \"Jeff  Purinton\" with two spaces. I have NOT normalized these - matching them requires the same text layer. Every media-guide quote below was programmatically confirmed present in the extracted page text before being written here.\n\nGRID PAIRING VERIFICATION. Name-to-title pairing for all 35 support-staff grid entries was verified two independent ways: (i) text-block x/y coordinates (7 columns at x = 46.6, 121.1, 195.7, 270.3, 345.1, 419.5, 499.0; 5 rows), and (ii) rendering the page to an image and reading the captions visually. Both agree. Note the naive extraction order is NOT reliable here - it would mis-pair Jordan and Finney - so do not re-derive pairings from raw text order. For 10 of the 35 (Brown, C. Burns, Edwards, Finney, Jordan, T. Jones, Kimble, Lyerly, Moorehead, Perschel) the extractor emits the title caption in a trailing block rather than adjacent to the name; those rows carry two source entries, one quoting the name caption and one quoting the title caption, with the grid cell identified in the note. Kindal Moorehead's title string \"Strength & Conditioning\" is not unique on the page (Mark Hocke shares it), so his name caption is the anchoring quote.\n\nWHAT I COULD NOT DOCUMENT - honest gaps. (a) No archived rolltide.com staff directory covering football support staff exists near the title date; the Wayback CDX/search endpoints were unreachable from this environment, and archive.org's availability API returned no snapshot for the school-bio staff-directory URL. (b) No BCS National Championship game notes were archived on rolltide.com's 2012 game-notes index (captures stop at the Nov. 26, 2012 SEC Championship release), and the late-season game-release PDFs contain no staff listing. (c) Consequently, only the 13 coaches/senior staff are independently confirmed still on staff eight days before the title game. The 35 support-staff members and Allen/Springer/Sherrer/Martin are documented for the 2012 season by the preseason guide but their individual continuity through Jan. 7, 2013 is NOT separately verified. (d) I found no documentation of any mid-season arrival or departure, so no midseason_note is set on any row. Departures I could date all fall after the title game: Kevin Sherrer left for South Alabama in Feb. 2013 (per the 2013 Spring Media Guide: \"Stevenson takes over for Kevin Sherrer, who was named the defensive coordinator at South Alabama.\"), and Stoutland, Rumph, Groh and Pruitt were all still listed on Dec. 30, 2012. (e) The 2013 Spring Media Guide is a short guide with no support-staff grid, so it could not be used to confirm the 35 support staff.\n\nJUDGMENT CALLS you may want to override. (1) George Helow and John Van Dam are the only two rows not in the preseason media guide; both are corroborated by their own official later bios, and Helow's Michigan bio carries a year-by-year table row reading \"2012 Alabama Defensive Intern\". Wikipedia's analyst/GA section (its only footnote is an unrelated Tim Castille article) is weak on its own, which is why I sourced both independently. (2) Jeff Purinton is an athletics-department title, but it is football-dedicated and printed in the guide's \"2012 ALABAMA FOOTBALL DIRECTORY\"; drop this row if the dataset counts program-employed staff only. I deliberately excluded department-wide administrators printed in that same directory (Mal Moore, Shane Lyons, Thad Turnipseed, etc.) and the athletics communications writers credited on p. 3. (3) Several grid members hold department-wide rather than football-only roles (Cedric Burns, Gary Cramer, Brandy Moore, the two state troopers, and the three video staff) but are printed inside the football guide's COACHING STAFF section, so I kept them. (4) Roles are given exactly as the source words them, including the guide's own typos - Jody Wright is printed \"Offensive Analysts\" and John Wozniak \"Special Teams Analysts\", both plural in the original. (5) Chris Samuels is \"Student Assistant\" in the guide though Wikipedia lists him among offensive analysts; I used the guide's wording and category \"other\". (6) No one on this staff carried a \"quality control\" title - Alabama used \"analyst\" - so no qc rows.",
   "staff": [
     {
       "name": "Nick Saban",
@@ -8,14 +9,14 @@
       "role_category": "headcoach",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Nick Saban, Head Coach",
-          "note": "Alabama athletics staff directory archived Jan. 9, 2013 (two days after the BCS title game); Football section. Name is inside an <a> tag, so the quoted string is contiguous in the rendered page text rather than the raw HTML."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Nick Saban (Kent State, 1973) \nHead Coach",
+          "note": "2012 Alabama Football Media Guide, printed p. 2, \"2012 ALABAMA COACHING STAFF\" directory. Verbatim from PDF text layer; line break preserved."
         },
         {
-          "url": "https://web.archive.org/web/20121116154713/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html?DB_OEM_ID=27300",
-          "quote": "Nick Saban - Head Coach",
-          "note": "rolltide.com '2012 Alabama Football Roster' page, Coaches block, archived Nov. 16, 2012."
+          "url": "http://web.archive.org/web/20121230111652/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": " - Head Coach",
+          "note": "Official rolltide.com 2012 football roster page captured Dec. 30, 2012, eight days before the BCS title game. Name and title are separate HTML elements: the linked text \"Nick Saban\" immediately precedes this title string."
         }
       ]
     },
@@ -25,31 +26,31 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Burton Burns, Associate Head Coach/Running Backs",
-          "note": "Football section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Burton Burns (Nebraska, 1976) \nAssociate Head Coach/Running Backs",
+          "note": "2012 Alabama Football Media Guide, printed p. 2 coaching-staff directory."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Associate head coach, running backs",
-          "note": "Coaching staff table row for Burton Burns; the name and role sit in separate table cells, so only the role cell is quoted contiguously."
+          "url": "http://web.archive.org/web/20121230111652/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": " - Associate Head Coach/Running Backs",
+          "note": "Dec. 30, 2012 capture; linked text \"Burton Burns\" immediately precedes this string."
         }
       ]
     },
     {
       "name": "Mike Groh",
-      "role": "Wide Receivers/Recruiting Coordinator",
+      "role": "Receivers/Recruiting Coordinator",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20121116154713/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html?DB_OEM_ID=27300",
-          "quote": "Mike Groh - Wide Receivers/Recruiting Coordinator",
-          "note": "Coaches block of the 2012 Alabama Football Roster page."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Mike Groh (Virginia, 1995) \nReceivers/Recruiting Coordinator",
+          "note": "2012 Alabama Football Media Guide, printed p. 2 coaching-staff directory."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Receivers, recruiting coordinator",
-          "note": "Coaching staff table row for Mike Groh (role cell only)."
+          "url": "http://web.archive.org/web/20121230111652/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": " - Wide Receivers/Recruiting Coordinator",
+          "note": "Dec. 30, 2012 capture; linked text \"Mike Groh\" immediately precedes this string. Site wording is \"Wide Receivers\" vs. the guide's \"Receivers\"."
         }
       ]
     },
@@ -59,14 +60,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Doug Nussmeier, Offensive Coordinator/Quarterbacks",
-          "note": "Football section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Doug Nussmeier (Idaho, 1994) \nOff ensive Coordinator/Quarterbacks",
+          "note": "2012 Alabama Football Media Guide, printed p. 2. The PDF text layer genuinely reads \"Off ensive\" (broken ligature); not normalized."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Offensive coordinator, quarterbacks",
-          "note": "Coaching staff table row for Doug Nussmeier (role cell only). Hired Jan. 18, 2012, replacing Jim McElwain."
+          "quote": "On January 18, 2012, Alabama officially hired Doug Nussmeier from the Washington Huskies as offensive coordinator and Lance Thompson from the Tennessee Volunteers as outside linebackers coach.",
+          "note": "Wikipedia 2012 team page, Coaching staff section prose. Clean contiguous sentence; also supports Lance Thompson."
         }
       ]
     },
@@ -74,17 +75,16 @@
       "name": "Jeremy Pruitt",
       "role": "Secondary",
       "role_category": "onfield",
-      "midseason_note": "Named Florida State's defensive coordinator on Dec. 20, 2012, but remained on the Alabama staff through the Jan. 7, 2013 BCS National Championship Game.",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeremy Pruitt, Secondary",
-          "note": "Still listed in the Football section of the athletics staff directory archived Jan. 9, 2013, after the title game."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Jeremy Pruitt (West Alabama, 2001) \nSecondary",
+          "note": "2012 Alabama Football Media Guide, printed p. 2 coaching-staff directory."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Pruitt remained on staff through the 2013 BCS National Championship Game.",
-          "note": "'Coaching changes' section, confirming he coached the title game."
+          "url": "http://web.archive.org/web/20121230111652/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": " - Secondary",
+          "note": "Dec. 30, 2012 capture; linked text \"Jeremy Pruitt\" immediately precedes this string."
         }
       ]
     },
@@ -94,31 +94,31 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Chris Rumph, Defensive Line",
-          "note": "Football section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Chris Rumph (South Carolina, 1994) \nDefensive Line",
+          "note": "2012 Alabama Football Media Guide, printed p. 2 coaching-staff directory."
         },
         {
-          "url": "https://web.archive.org/web/20121116154713/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html?DB_OEM_ID=27300",
-          "quote": "Chris Rumph - Defensive Line",
-          "note": "Coaches block of the 2012 Alabama Football Roster page."
+          "url": "http://web.archive.org/web/20121230111652/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": " - Defensive Line",
+          "note": "Dec. 30, 2012 capture; linked text \"Chris Rumph\" immediately precedes this string. Confirms he was still on staff before the Jan. 7, 2013 title game."
         }
       ]
     },
     {
       "name": "Kirby Smart",
-      "role": "Defensive Coordinator/Linebackers",
+      "role": "Defensive Coordinator/Inside Linebackers",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Kirby Smart, Defensive Coordinator/Linebackers",
-          "note": "Football section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Kirby Smart (Georgia, 1999) \nDefensive Coordinator/Inside Linebackers",
+          "note": "2012 Alabama Football Media Guide, printed p. 2 coaching-staff directory."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Defensive coordinator, linebackers",
-          "note": "Coaching staff table row for Kirby Smart (role cell only); he was 2012 AFCA FBS Assistant Coach of the Year."
+          "url": "http://web.archive.org/web/20121230111652/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": " - Defensive Coordinator/Linebackers",
+          "note": "Dec. 30, 2012 capture; linked text \"Kirby Smart\" immediately precedes this string."
         }
       ]
     },
@@ -128,14 +128,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeff Stoutland, Offensive Line",
-          "note": "Football section of the archived athletics staff directory. Wikipedia words his title as 'Assistant head coach, offensive line'."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Jeff  Stoutland (Southern Connecticut State, 1984) \nOff ensive Line",
+          "note": "2012 Alabama Football Media Guide, printed p. 2. Text layer has TWO spaces in \"Jeff  Stoutland\" and reads \"Off ensive\" (broken ligatures); not normalized. Wikipedia additionally lists him as \"Assistant head coach, offensive line\"."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Assistant head coach, offensive line",
-          "note": "Coaching staff table row for Jeff Stoutland (role cell only)."
+          "url": "http://web.archive.org/web/20121230111652/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": " - Offensive Line",
+          "note": "Dec. 30, 2012 capture; linked text \"Jeff Stoutland\" immediately precedes this string."
         }
       ]
     },
@@ -145,31 +145,31 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Lance Thompson, Outside Linebackers",
-          "note": "Football section of the archived athletics staff directory; this string is contiguous in the raw HTML."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Lance Th ompson (Th e Citadel, 1987) \nOutside Linebackers",
+          "note": "2012 Alabama Football Media Guide, printed p. 2. Text layer reads \"Th ompson\" and \"Th e Citadel\" (broken ligature); not normalized."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Alabama officially hired [[Doug Nussmeier]] from the [[University of Washington|Washington]] [[Washington Huskies football|Huskies]] as offensive coordinator and Lance Thompson from the [[University of Tennessee|Tennessee]] [[Tennessee Volunteers football|Volunteers]] as outside linebackers coach",
-          "note": "This wikitext string is present in the served HTML inside the page's data-mw payload; the rendered prose reads the same with wiki-link brackets removed."
+          "url": "http://web.archive.org/web/20121230111652/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": " - Outside Linebackers",
+          "note": "Dec. 30, 2012 capture; linked text \"Lance Thompson\" immediately precedes this string."
         }
       ]
     },
     {
       "name": "Bobby Williams",
-      "role": "Tight Ends/Special Teams Coordinator",
+      "role": "Tight Ends/Special Teams",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20121116154713/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html?DB_OEM_ID=27300",
-          "quote": "Bobby Williams - Tight Ends/Special Teams Coordinator",
-          "note": "Coaches block of the 2012 Alabama Football Roster page."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Bobby Williams (Purdue, 1982) \nTight Ends/Special Teams",
+          "note": "2012 Alabama Football Media Guide, printed p. 2 coaching-staff directory."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Tight ends, special teams",
-          "note": "Coaching staff table row for Bobby Williams (role cell only)."
+          "url": "http://web.archive.org/web/20121230111652/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": " - Tight Ends/Special Teams Coordinator",
+          "note": "Dec. 30, 2012 capture; linked text \"Bobby Williams\" immediately precedes this string."
         }
       ]
     },
@@ -179,14 +179,14 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20121116154713/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html?DB_OEM_ID=27300",
-          "quote": "Scott Cochran - Director of Strength and Conditioning",
-          "note": "Coaches block of the 2012 Alabama Football Roster page."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "of Director of Strength and Conditioning Scott Cochran.",
+          "note": "2012 Alabama Football Media Guide, printed p. 87 (PDF page 89), Cochran bio page."
         },
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Scott Cochran, Head Strength and Conditioning Coach/Football",
-          "note": "Strength and Conditioning section of the archived athletics staff directory."
+          "url": "http://web.archive.org/web/20121230111652/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": " - Director of Strength and Conditioning",
+          "note": "Dec. 30, 2012 capture; linked text \"Scott Cochran\" immediately precedes this string."
         }
       ]
     },
@@ -196,14 +196,14 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Terry Jones, Assistant Head Strength and Conditioning Coach",
-          "note": "Strength and Conditioning section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Terry\nJONES",
+          "note": "Name caption, support-staff photo grid, printed p. 92 (PDF page 94), row 3 column 1 (x=46.6)."
         },
         {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "2012 Alabama BCS National Championship bowl guide, 'Support Staff' photo grid on guide page 56 (PDF page 58): 'Terry JONES / Assistant Head Strength Coach'. Quote omitted because the PDF is a laid-out photo grid whose text layer cannot be copied as a contiguous string (name and title are separate positioned text runs, with ligature artifacts)."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Assistant Head \nStrength Coach",
+          "note": "Title caption printed directly beneath the JONES photo in the same grid cell (x=46.8, same column). Extractor emits it in a trailing block; pairing confirmed by coordinates and by visual inspection of the rendered page."
         }
       ]
     },
@@ -213,14 +213,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Mark Hocke, Assistant Strength and Conditioning Coach",
-          "note": "Strength and Conditioning section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56 (PDF page 58): 'Mark HOCKE / Strength & Conditioning'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Mark\nHOCKE\nStrength & Conditioning",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 2 column 6. Name and title captions are contiguous in the text layer."
         }
       ]
     },
@@ -230,196 +225,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Kindal Moorehead, Assistant Strength and Conditioning Coach",
-          "note": "Strength and Conditioning section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56 (PDF page 58): 'Kindal MOOREHEAD / Strength & Conditioning'. Quote omitted: positioned-text grid in a PDF."
-        }
-      ]
-    },
-    {
-      "name": "Joe Pannunzio",
-      "role": "Director of Football Operations",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20121116154713/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html?DB_OEM_ID=27300",
-          "quote": "Joe Pannunzio - Director of Football Operations",
-          "note": "Coaches block of the 2012 Alabama Football Roster page."
-        },
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Joe Pannunzio, Associate Athletics Director/Football",
-          "note": "Football section of the archived athletics staff directory, which words his role as Associate Athletics Director/Football."
-        }
-      ]
-    },
-    {
-      "name": "Patrick Suddes",
-      "role": "Associate Director of Football Operations",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Patrick Suddes, Assistant Director/Football Operations",
-          "note": "Football section of the archived athletics staff directory (worded 'Assistant Director/Football Operations' there)."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56: 'Patrick SUDDES / Associate Director of Football Operations'. Quote omitted: positioned-text grid in a PDF."
-        }
-      ]
-    },
-    {
-      "name": "Paul Gonnella",
-      "role": "Director of Player Personnel",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20121116154713/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html?DB_OEM_ID=27300",
-          "quote": "Paul Gonnella - Director of Player Personnel",
-          "note": "Coaches block of the 2012 Alabama Football Roster page."
-        },
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Paul Gonnella, Director of Player Personnel",
-          "note": "Football section of the archived athletics staff directory."
-        }
-      ]
-    },
-    {
-      "name": "Ashleigh Kimble",
-      "role": "Assistant Director of Player Personnel",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Ashleigh Kimble, Assistant Director of Player Personnel",
-          "note": "Football section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56: 'Ashleigh KIMBLE / Assistant Director of Player Personnel'. Quote omitted: positioned-text grid in a PDF."
-        }
-      ]
-    },
-    {
-      "name": "Kevin Sherrer",
-      "role": "Director of Player Development",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Kevin Sherrer, Director of Player Development",
-          "note": "Football section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' bio, guide page 55 (PDF page 57): 'Kevin Sherrer is in his third season as director of player development at the University of Alabama.' Quote left empty because the PDF text layer contains broken ligatures/spacing that prevent a faithful character-for-character copy."
-        }
-      ]
-    },
-    {
-      "name": "Willie Carl Martin",
-      "role": "Director of Player Development",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Willie Carl Martin, Director of Player Development",
-          "note": "Football section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' bio, guide page 55: Martin is described as director of player development (academics). Quote omitted due to PDF ligature/spacing corruption."
-        }
-      ]
-    },
-    {
-      "name": "Candice Rosenkranz",
-      "role": "Recruiting Operations Coordinator",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Candice Rosenkranz, Recruiting Operations Coordinator",
-          "note": "Football section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56: 'Candice ROSENKRANZ / Recruiting Operations Coordinator'. Quote omitted: positioned-text grid in a PDF."
-        }
-      ]
-    },
-    {
-      "name": "J.R. Sandlin",
-      "role": "Recruiting Intern",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56 (PDF page 58): 'J.R. SANDLIN / Recruiting Intern'. Also on the same grid in the Aug. 2012 media guide, page 92. Quote omitted: the grid is positioned text in a PDF, not copyable as a contiguous string."
-        },
-        {
-          "url": "https://web.archive.org/web/20130430194155/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/20120820football-guide.pdf",
-          "quote": "",
-          "note": "2012 Alabama Football Media Guide, 'Support Staff' grid on guide page 92 (PDF page 94), column 7 of the fourth row: 'J.R. SANDLIN / Recruiting Intern'."
-        }
-      ]
-    },
-    {
-      "name": "Glenda Edwards",
-      "role": "Administrative Assistant for Head Coach",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Glenda Edwards, Administrative Secretary",
-          "note": "Football section of the archived athletics staff directory (worded 'Administrative Secretary' there)."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56: 'Glenda EDWARDS / Administrative Assistant for Head Coach'. Quote omitted: positioned-text grid in a PDF."
-        }
-      ]
-    },
-    {
-      "name": "Linda Leoni",
-      "role": "Administrative Assistant",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Linda Leoni, Administrative Assistant",
-          "note": "Listed inside the Football section of the archived athletics staff directory. She does not appear on the media guide/bowl guide football support-staff photo grid."
-        }
-      ]
-    },
-    {
-      "name": "Brandy Moore",
-      "role": "Athletics Intern",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Brandy Moore, Athletics Intern",
-          "note": "Football section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56: 'Brandy MOORE / Athletics Intern'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Kindal \nMOOREHEAD",
+          "note": "Name caption, support-staff photo grid, printed p. 92 (PDF page 94), row 3 column 6 (x=419.5). His title caption reads \"Strength & Conditioning\" (x=419.6, same column) but that exact string is not unique on the page - Mark Hocke shares it - so the name caption is the anchoring quote. Pairing confirmed by coordinates and visual inspection."
         }
       ]
     },
@@ -429,14 +237,14 @@
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Dean Altobelli, Football Analyst",
-          "note": "Football section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Dean\nALTOBELLI\nDefensive Analyst",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 1 column 1. Contiguous in the text layer."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Dean Altobelli",
-          "note": "Listed under the 'Defensive analysts' heading in the Analysts section of the 2012 team page."
+          "quote": "Defensive analysts",
+          "note": "Wikipedia 2012 team page, Analysts subsection heading; \"Dean Altobelli\" is the first bulleted name under it."
         }
       ]
     },
@@ -446,14 +254,21 @@
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Russ Callaway, Football Analyst",
-          "note": "Football section of the archived athletics staff directory."
-        },
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Russ\nCALLAWAY\nDefensive Analyst",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 1 column 5. Contiguous in the text layer. Wikipedia also lists Callaway under \"Defensive analysts\"."
+        }
+      ]
+    },
+    {
+      "name": "Wesley Neighbors",
+      "role": "Defensive Analyst",
+      "role_category": "analyst",
+      "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Russ Callaway",
-          "note": "Listed under the 'Defensive analysts' heading in the Analysts section of the 2012 team page."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Wesley\nNEIGHBORS\nDefensive Analyst",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 3 column 7. Contiguous in the text layer. Confirmed he was staff and not a player: \"Neighbors\" does not appear on the 2012 roster in either the media guide or the Dec. 30, 2012 rolltide.com roster page."
         }
       ]
     },
@@ -463,14 +278,26 @@
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Kevin Garver, Football Analyst",
-          "note": "Football section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Kevin \nGARVER\nOffensive Analyst",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 2 column 3. Contiguous in the text layer."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Kevin Garver",
-          "note": "Listed under the 'Offensive analysts' heading in the Analysts section of the 2012 team page."
+          "quote": "Offensive analysts",
+          "note": "Wikipedia 2012 team page, Analysts subsection heading; \"Kevin Garver\" is the first bulleted name under it."
+        }
+      ]
+    },
+    {
+      "name": "Jules Montinar",
+      "role": "Offensive Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Jules\nMONTINAR\nOffensive Analyst",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 3 column 4. Contiguous in the text layer. Wikipedia also lists Montinar under \"Offensive analysts\"."
         }
       ]
     },
@@ -480,96 +307,72 @@
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeff Norrid, Football Analyst",
-          "note": "Football section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Jeff Norrid",
-          "note": "Listed under the 'Offensive analysts' heading in the Analysts section of the 2012 team page."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Jeff \nNORRID\nOffensive Analyst",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 4 column 1. Contiguous in the text layer; note trailing space after \"Jeff\". Wikipedia also lists Norrid under \"Offensive analysts\"."
         }
       ]
     },
     {
       "name": "Kelvin Sigler",
-      "role": "Defensive Analyst",
+      "role": "Offensive Analyst",
       "role_category": "analyst",
-      "midseason_note": "Title shifted during the season: listed as 'Offensive Analyst' in the August 2012 media guide and as 'Defensive Analyst' in the January 2013 BCS championship bowl guide. On staff for the title game either way.",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Kelvin Sigler, Football Analyst",
-          "note": "Football section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Kelvin Sigler",
-          "note": "Listed under the 'Offensive analysts' heading in the Analysts section of the 2012 team page."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Kelvin\nSIGLER\nOffensive Analyst",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 5 column 2. Contiguous in the text layer. Wikipedia also lists Sigler under \"Offensive analysts\"."
         }
       ]
     },
     {
       "name": "Jody Wright",
-      "role": "Offensive Analyst",
+      "role": "Offensive Analysts",
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jody Wright, Football Analyst",
-          "note": "Football section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Jody Wright",
-          "note": "Listed under the 'Offensive analysts' heading in the Analysts section of the 2012 team page."
-        }
-      ]
-    },
-    {
-      "name": "Wesley Neighbors",
-      "role": "Special Teams Analyst",
-      "role_category": "analyst",
-      "midseason_note": "Title shifted during the season: listed as 'Defensive Analyst' in the August 2012 media guide and as 'Special Teams Analyst' in the January 2013 BCS championship bowl guide.",
-      "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Wesley Neighbors",
-          "note": "Listed under the 'Defensive analysts' heading in the Analysts section of the 2012 team page."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56 (PDF page 58): 'Wesley NEIGHBORS / Special Teams Analyst'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Jody\nWRIGHT\nOffensive Analysts",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 5 column 7. The guide prints the title in the plural (\"Analysts\"); reproduced as worded. Wikipedia also lists Wright under \"Offensive analysts\"."
         }
       ]
     },
     {
       "name": "John Wozniak",
-      "role": "Special Teams Analyst",
+      "role": "Special Teams Analysts",
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "John Wozniak, Football Analyst",
-          "note": "Football section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "John\nWOZNIAK\nSpecial Teams Analysts",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 5 column 6. The guide prints the title in the plural; reproduced as worded."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "John Wozniak",
-          "note": "Listed under the 'Special Teams analysts' heading in the Analysts section of the 2012 team page."
+          "quote": "Special Teams analysts",
+          "note": "Wikipedia 2012 team page, Analysts subsection heading; \"John Wozniak\" is the only bulleted name under it."
         }
       ]
     },
     {
       "name": "George Helow",
-      "role": "Defensive analysts",
+      "role": "Defensive Intern",
       "role_category": "analyst",
       "sources": [
         {
+          "url": "https://cubuffs.com/sports/football/roster/coaches/george-helow/4714",
+          "quote": "He served as a defensive graduate assistant at Florida State in 2013 when the Seminoles won the national title and worked as a defensive intern under Nick Saban at Alabama in 2012 when the Crimson Tide captured the BCS National Championship.",
+          "note": "Helow's official Colorado bio. Explicitly ties the 2012 Alabama defensive-intern role to the BCS title season."
+        },
+        {
+          "url": "https://mgoblue.com/sports/football/roster/coaches/george-helow/5714",
+          "quote": "In 2012, Helow broke into the college coaching ranks as a member of the Alabama staff under Nick Saban.",
+          "note": "Helow's official Michigan bio. The same page carries a year-by-year table whose extracted text includes \"2012 Alabama Defensive Intern\"."
+        },
+        {
           "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
           "quote": "George Helow",
-          "note": "Listed under the 'Defensive analysts' heading in the Analysts section of the 2012 team page. CAUTION: I could not corroborate him in any contemporary Alabama source. He is absent from the August 2012 media guide support-staff grid, the January 2013 BCS bowl guide support-staff grid, and both the September 2012 and January 2013 archived athletics staff directories. Treat as unverified for the 2012 season."
+          "note": "Wikipedia 2012 team page lists him as a bullet under the \"Defensive analysts\" heading. NOT in the preseason media guide, which is why two official bios are cited above."
         }
       ]
     },
@@ -579,14 +382,14 @@
       "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Tim Castille",
-          "note": "Listed under the 'Graduate assistants' heading of the 2012 team page; the section cites an AL.com report headlined 'Tim Castille back at Alabama as a graduate assistant coach' (July 28, 2012)."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Tim\nCASTILLE\nGraduate Assistant",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 1 column 6. Contiguous in the text layer."
         },
         {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56 (PDF page 58): 'Tim CASTILLE / Graduate Assistant'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
+          "quote": "Graduate assistants",
+          "note": "Wikipedia 2012 team page, Graduate assistants subsection heading; \"Tim Castille\" is the first bulleted name under it."
         }
       ]
     },
@@ -596,44 +399,31 @@
       "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Glenn Schumann",
-          "note": "Listed on the 2012 team page under both 'Defensive analysts' and 'Graduate assistants'."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56 (PDF page 58): 'Glenn SCHUMANN / Graduate Assistant'. Quote omitted: positioned-text grid in a PDF."
-        }
-      ]
-    },
-    {
-      "name": "Jules Montinar",
-      "role": "Graduate Assistant",
-      "role_category": "gradasst",
-      "midseason_note": "Title shifted during the season: listed as 'Offensive Analyst' in the August 2012 media guide and as 'Graduate Assistant' in the January 2013 BCS championship bowl guide.",
-      "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Jules Montinar",
-          "note": "Listed under the 'Offensive analysts' heading in the Analysts section of the 2012 team page."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56 (PDF page 58): 'Jules MONTINAR / Graduate Assistant'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Glenn\nSCHUMANN\nGraduate Assistant",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 5 column 1. Contiguous in the text layer. Wikipedia lists him under both \"Defensive analysts\" and \"Graduate assistants\"; the guide's wording is used here."
         }
       ]
     },
     {
       "name": "John Van Dam",
-      "role": "Graduate assistants",
+      "role": "offensive graduate assistant",
       "role_category": "gradasst",
       "sources": [
         {
+          "url": "https://goleopards.com/sports/football/roster/coaches/john-van-dam/473",
+          "quote": "That followed two seasons at Alabama as an offensive graduate assistant under Nick Saban, primarily coaching the wide receivers while running the offensive and special teams scout teams.",
+          "note": "Van Dam's official Lafayette College bio."
+        },
+        {
+          "url": "https://goleopards.com/sports/football/roster/coaches/john-van-dam/473",
+          "quote": "During his time in Tuscaloosa, Alabama won the 2012 SEC title and the 2013 BCS National Championship.",
+          "note": "Same bio; explicitly places his Alabama tenure across the 2012 season and the Jan. 2013 BCS title. NOT in the preseason media guide."
+        },
+        {
           "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
           "quote": "John Van Dam",
-          "note": "Listed under the 'Graduate assistants' heading of the 2012 team page. CAUTION: not corroborated in any contemporary Alabama source I checked — absent from the August 2012 media guide grid, the January 2013 BCS bowl guide grid, and both archived athletics staff directories. Treat as unverified for the 2012 season."
+          "note": "Wikipedia 2012 team page lists him as a bullet under the \"Graduate assistants\" heading."
         }
       ]
     },
@@ -643,65 +433,176 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team",
-          "quote": "Chris Samuels",
-          "note": "Listed under the 'Offensive analysts' heading on the 2012 team page; Alabama's own guides word his role as 'Student Assistant'."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Chris\nSAMUELS\nStudent Assistant",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 4 column 6. Contiguous in the text layer. Wikipedia instead lists Samuels among \"Offensive analysts\"; the guide's wording is used here."
+        }
+      ]
+    },
+    {
+      "name": "Joe Pannunzio",
+      "role": "Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Director of Football Operations \nJoe Pannunzio",
+          "note": "2012 Alabama Football Media Guide, printed p. 2, \"2012 ALABAMA FOOTBALL DIRECTORY\"."
         },
         {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56 (PDF page 58): 'Chris SAMUELS / Student Assistant'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Joe Pannunzio is in his second year at Alabama, joining the Crimson Tide \ncoaching staff  as director of football operations in February, 2011.",
+          "note": "Pannunzio bio page, printed p. 89 (PDF page 91). Text layer has two spaces in \"staff  as\"."
+        },
+        {
+          "url": "http://web.archive.org/web/20121230111652/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": " - Director of Football Operations",
+          "note": "Dec. 30, 2012 capture; linked text \"Joe Pannunzio\" immediately precedes this string."
+        }
+      ]
+    },
+    {
+      "name": "Patrick Suddes",
+      "role": "Associate Director Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Patrick \nSUDDES\nAssociate Director \nFootball Operations",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 5 column 3. Contiguous in the text layer; two-line title caption."
+        }
+      ]
+    },
+    {
+      "name": "Paul Gonnella",
+      "role": "Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "added Paul Gonnella as \nAlabama’s Director of Player Personnel in the spring of 2012.",
+          "note": "Gonnella bio page, printed p. 88 (PDF page 90). He replaced Ed Marynowitz, who left for the Philadelphia Eagles before the season - Marynowitz is therefore excluded from this staff list."
+        },
+        {
+          "url": "http://web.archive.org/web/20121230111652/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": " - Director of Player Personnel",
+          "note": "Dec. 30, 2012 capture; linked text \"Paul Gonnella\" immediately precedes this string."
+        }
+      ]
+    },
+    {
+      "name": "Ashleigh Kimble",
+      "role": "Assistant Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Ashleigh\nKIMBLE",
+          "note": "Name caption, support-staff photo grid, printed p. 92 (PDF page 94), row 3 column 2 (x=121.1)."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Assistant Director of \nPlayer Personnel",
+          "note": "Title caption printed directly beneath the KIMBLE photo in the same grid cell (x=121.2, same column). Extractor emits it in a trailing block; pairing confirmed by coordinates and visual inspection."
+        }
+      ]
+    },
+    {
+      "name": "Candice Rosenkranz",
+      "role": "Recruiting Operations Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Candice \nROSENKRANZ\nRecruiting Operations \nCoordinator",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 4 column 5. Contiguous in the text layer; two-line title caption."
+        }
+      ]
+    },
+    {
+      "name": "J.R. Sandlin",
+      "role": "Recruiting Intern",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "J.R.\nSANDLIN\nRecruiting Intern",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 4 column 7. Contiguous in the text layer."
+        }
+      ]
+    },
+    {
+      "name": "Glenda Edwards",
+      "role": "Administrative Assistant for Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Glenda \nEDWARDS",
+          "note": "Name caption, support-staff photo grid, printed p. 92 (PDF page 94), row 2 column 1 (x=46.6)."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Administrative Assistant \nfor Head Coach",
+          "note": "Title caption printed directly beneath the EDWARDS photo in the same grid cell (x=46.6, same column). Extractor emits it in a trailing block; pairing confirmed by coordinates and visual inspection."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Sherrer",
+      "role": "Director of Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Kevin Sherrer is in his third season as Director of Player Development at the University of Alabama.",
+          "note": "Sherrer bio, printed p. 91 (PDF page 93)."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-2013-spring-media-guide/Alabama%20Football%2C%202013%20Spring%20Media%20Guide.pdf",
+          "quote": "Stevenson takes over for Kevin Sherrer, who was named the defensive coordinator at South Alabama.",
+          "note": "2013 Spring Media Guide, printed p. 69, Kerry Stevenson bio. Establishes that Sherrer's departure came in Feb. 2013, i.e. AFTER the Jan. 7, 2013 title game - so no midseason_note applies."
+        }
+      ]
+    },
+    {
+      "name": "Willie Carl Martin",
+      "role": "Director of Player Development (Academics)",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Willie Carl Martin joined the Alabama football staff  as Director of Player Development (Academics) in March \nof 2007",
+          "note": "Martin bio, printed p. 91 (PDF page 93). Text layer has two spaces in \"staff  as\". His continued presence is corroborated by the 2013 Spring Media Guide, which carries the same bio."
+        }
+      ]
+    },
+    {
+      "name": "Lance Walker",
+      "role": "Academic Program Advisor",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Lance\nWALKER\nAcademic Program \nAdvisor",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 5 column 4. Contiguous in the text layer; two-line title caption."
         }
       ]
     },
     {
       "name": "Jeff Allen",
-      "role": "Assistant Athletic Director for Sports Medicine/Head Football Athletic Trainer",
+      "role": "Assistant Athletics Director for Sports Medicine",
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeff Allen, Assistant Athletic Director for Sports Medicine/Head Football Athletic Trainer",
-          "note": "Training section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Assistant Athletics Director for Sports Medicine \nJeff  Allen",
+          "note": "2012 Alabama Football Media Guide, printed p. 2, \"2012 ALABAMA FOOTBALL DIRECTORY\". Text layer has two spaces in \"Jeff  Allen\"."
         },
         {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' bio, guide page 54 (PDF page 56): director of sports medicine, promoted to assistant athletics director for sports medicine in June 2012, sixth season at Alabama. Quote omitted due to PDF ligature/spacing corruption."
-        }
-      ]
-    },
-    {
-      "name": "Jeremy Gsell",
-      "role": "Athletic Trainer",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeremy Gsell, Assistant Athletic Trainer/Football",
-          "note": "Training section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56: 'Jeremy GSELL / Athletic Trainer'. Quote omitted: positioned-text grid in a PDF."
-        }
-      ]
-    },
-    {
-      "name": "Ginger Gilmore",
-      "role": "Athletic Trainer",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Ginger Gilmore, Director of Behavioral Medicine",
-          "note": "Training section of the archived athletics staff directory, which words her role as Director of Behavioral Medicine."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56: 'Ginger GILMORE / Athletic Trainer'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Director of Sports Medicine Jeff  Allen is in his sixth season at Th e University of Alabama",
+          "note": "Allen bio, printed p. 90 (PDF page 92). Same page states he assumed the assistant AD title in June 2012. Broken ligature \"Th e\" preserved."
         }
       ]
     },
@@ -711,14 +612,38 @@
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Rodney Brown, Director of Rehabilitation Services",
-          "note": "Training section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Rodney\nBROWN",
+          "note": "Name caption, support-staff photo grid, printed p. 92 (PDF page 94), row 1 column 3 (x=195.7)."
         },
         {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56: 'Rodney BROWN / Director of Rehab Services'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Director of Rehab \nServices",
+          "note": "Title caption printed directly beneath the BROWN photo in the same grid cell (x=196.0, same column). Extractor emits it in a trailing block; pairing confirmed by coordinates and visual inspection. A facilities page elsewhere in the guide also names Brown among the full-time football training staff alongside Jeff Allen, Ginger Gilmore and Jeremy Gsell."
+        }
+      ]
+    },
+    {
+      "name": "Ginger Gilmore",
+      "role": "Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Ginger\nGILMORE\nAthletic Trainer",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 2 column 4. Contiguous in the text layer."
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Gsell",
+      "role": "Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Jeremy \nGSELL\nAthletic Trainer",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 2 column 5. Contiguous in the text layer; note trailing space after \"Jeremy\"."
         }
       ]
     },
@@ -728,44 +653,21 @@
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Amy Bragg, Director of Performance Nutrition",
-          "note": "Training section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56: 'Amy BRAGG / Director of Performance Nutrition'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Amy\nBRAGG\nDirector of Performance \nNutrition",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 1 column 2. Contiguous in the text layer; two-line title caption."
         }
       ]
     },
     {
       "name": "Jeff Springer",
-      "role": "Equipment Manager - Football",
+      "role": "Athletic Equipment Director",
       "role_category": "equipment",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeffrey Springer, Equipment Manager - Football",
-          "note": "Equipment section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' bio, guide page 54 (PDF page 56): the athletic equipment director role is coordinated by Jeff Springer, who joined the Alabama football staff in March 2011. Quote omitted due to PDF ligature/spacing corruption."
-        }
-      ]
-    },
-    {
-      "name": "Larry Waters",
-      "role": "Assistant Equipment Manager",
-      "role_category": "equipment",
-      "midseason_note": "Appears on the January 2013 BCS championship bowl guide support-staff grid in the slot the August 2012 media guide gave to Jeremy 'Bear' Jordan, so he appears to have joined during the season.",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide 'Support Staff' grid, guide page 56 (PDF page 58): 'Larry WATERS / Assistant Equipment Manager'. Quote omitted: positioned-text grid in a PDF. He does not appear in the August 2012 media guide or in either archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "role of Athletic Equipment Director is coordinated by Jeff  Springer",
+          "note": "Springer bio, printed p. 90 (PDF page 92). Text layer has two spaces in \"Jeff  Springer\"."
         }
       ]
     },
@@ -773,17 +675,16 @@
       "name": "Jeremy \"Bear\" Jordan",
       "role": "Assistant Equipment Manager",
       "role_category": "equipment",
-      "midseason_note": "On the August 2012 media guide football support-staff grid as Assistant Equipment Manager; his slot on the January 2013 BCS bowl guide grid is occupied by Larry Waters instead. He was still listed in the athletics staff directory Equipment section (as Materials Clerk) in the Jan. 9, 2013 capture.",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeremy Jordan, Materials Clerk",
-          "note": "Equipment section of the archived athletics staff directory, Jan. 9, 2013 capture."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Jeremy “Bear”\nJORDAN",
+          "note": "Name caption, support-staff photo grid, printed p. 92 (PDF page 94), row 2 column 7 (x=499.0). Uses curly typographic quotes around Bear in the original."
         },
         {
-          "url": "https://web.archive.org/web/20130430194155/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/20120820football-guide.pdf",
-          "quote": "",
-          "note": "2012 Alabama Football Media Guide, 'Support Staff' grid on guide page 92 (PDF page 94): 'Jeremy \"Bear\" JORDAN / Assistant Equipment Manager'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Assistant Equipment \nManager",
+          "note": "Title caption printed directly beneath the JORDAN photo in the same grid cell (x=499.2, same column). IMPORTANT: naive text order would wrongly pair Jordan with \"Senior Director of Video Operations\" (Troy Finney's title); coordinates and the rendered page image both confirm this pairing."
         }
       ]
     },
@@ -793,14 +694,14 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Troy Finney, Senior Director/Video Services",
-          "note": "Video Services section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Troy \nFINNEY",
+          "note": "Name caption, support-staff photo grid, printed p. 92 (PDF page 94), row 2 column 2 (x=121.1)."
         },
         {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56: 'Troy FINNEY / Senior Director of Video Operations'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Senior Director of Video \nOperations",
+          "note": "Title caption printed directly beneath the FINNEY photo in the same grid cell (x=120.8, same column). Confirmed by coordinates and by the rendered page image."
         }
       ]
     },
@@ -810,14 +711,14 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Daniel Lyerly, Director, Football Video Operations",
-          "note": "Video Services section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Daniel \nLYERLY",
+          "note": "Name caption, support-staff photo grid, printed p. 92 (PDF page 94), row 3 column 3 (x=195.7)."
         },
         {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56: 'Daniel LYERLY / Director of Video Operations for Football'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Director of Video \nOperations for Football",
+          "note": "Title caption printed directly beneath the LYERLY photo in the same grid cell (x=195.9, same column). Confirmed by coordinates and visual inspection."
         }
       ]
     },
@@ -827,48 +728,14 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Mark Perschel, Assistant Director, Football Video Operations",
-          "note": "Video Services section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Mark\nPERSCHEL",
+          "note": "Name caption, support-staff photo grid, printed p. 92 (PDF page 94), row 4 column 4 (x=270.3)."
         },
         {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56: 'Mark PERSCHEL / Assistant Director Video Operations for Football'. Quote omitted: positioned-text grid in a PDF."
-        }
-      ]
-    },
-    {
-      "name": "Cedric Burns",
-      "role": "Coordinator of Athletic Relations",
-      "role_category": "other",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Cedric Burns, Athletics Relations Coordinator",
-          "note": "Football section of the archived athletics staff directory."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56: 'Cedric BURNS / Coordinator of Athletic Relations'. Quote omitted: positioned-text grid in a PDF."
-        }
-      ]
-    },
-    {
-      "name": "Gary Cramer",
-      "role": "Director of the FCA",
-      "role_category": "other",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56 (PDF page 58): 'Gary CRAMER / Director of the FCA'. Quote omitted: positioned-text grid in a PDF."
-        },
-        {
-          "url": "https://web.archive.org/web/20130430194155/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/20120820football-guide.pdf",
-          "quote": "",
-          "note": "2012 Alabama Football Media Guide, 'Support Staff' grid on guide page 92 (PDF page 94), same name/title pairing."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Assistant Director Video \nOperations for Football",
+          "note": "Title caption printed directly beneath the PERSCHEL photo in the same grid cell (x=270.4, same column). Confirmed by coordinates and visual inspection."
         }
       ]
     },
@@ -878,14 +745,50 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Buddy Overstreet, Director, Creative",
-          "note": "Crimson Tide Productions section of the archived athletics staff directory."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Buddy\nOVERSTREET\nDirector of Creative Media",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 4 column 2. Contiguous in the text layer."
+        }
+      ]
+    },
+    {
+      "name": "Cedric Burns",
+      "role": "Coordinator of Athletic Relations",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Cedric\nBURNS",
+          "note": "Name caption, support-staff photo grid, printed p. 92 (PDF page 94), row 1 column 4 (x=270.3)."
         },
         {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56: 'Buddy OVERSTREET / Director of Creative Media'. Quote omitted: positioned-text grid in a PDF."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Coordinator of Athletic \nRelations",
+          "note": "Title caption printed directly beneath the BURNS photo in the same grid cell (x=270.4, same column). Confirmed by coordinates and visual inspection. No relation indicated to RB coach Burton Burns."
+        }
+      ]
+    },
+    {
+      "name": "Gary Cramer",
+      "role": "Director of the FCA",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Gary \nCRAMER\nDirector of the FCA",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 1 column 7. Contiguous in the text layer. FCA = Fellowship of Christian Athletes; team chaplaincy-type role printed inside the football coaching-staff section."
+        }
+      ]
+    },
+    {
+      "name": "Brandy Moore",
+      "role": "Athletics Intern",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Brandy\nMOORE\nAthletics Intern",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 3 column 5. Contiguous in the text layer."
         }
       ]
     },
@@ -895,14 +798,9 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56 (PDF page 58): 'Jessie PEOPLES / State Trooper'. Quote omitted: positioned-text grid in a PDF."
-        },
-        {
-          "url": "https://web.archive.org/web/20130430194155/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/20120820football-guide.pdf",
-          "quote": "",
-          "note": "2012 Alabama Football Media Guide, 'Support Staff' grid on guide page 92 (PDF page 94), same name/title pairing."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Jessie \nPEOPLES\nState Trooper",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 4 column 3. Contiguous in the text layer. Assigned state-trooper security detail, printed inside the football coaching-staff section."
         }
       ]
     },
@@ -912,31 +810,9 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56 (PDF page 58): 'Eddie WILDER / State Trooper'. Quote omitted: positioned-text grid in a PDF."
-        },
-        {
-          "url": "https://web.archive.org/web/20130430194155/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/20120820football-guide.pdf",
-          "quote": "",
-          "note": "2012 Alabama Football Media Guide, 'Support Staff' grid on guide page 92 (PDF page 94), same name/title pairing."
-        }
-      ]
-    },
-    {
-      "name": "Lance Walker",
-      "role": "Academic Program Advisor",
-      "role_category": "other",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "BCS bowl guide football 'Support Staff' grid, guide page 56 (PDF page 58): 'Lance WALKER / Academic Program Advisor'. Quote omitted: positioned-text grid in a PDF."
-        },
-        {
-          "url": "https://web.archive.org/web/20130430194155/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/20120820football-guide.pdf",
-          "quote": "",
-          "note": "2012 Alabama Football Media Guide, 'Support Staff' grid on guide page 92 (PDF page 94), same name/title pairing."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Eddie \nWILDER\nState Trooper",
+          "note": "Support-staff photo grid, printed p. 92 (PDF page 94), row 5 column 5. Contiguous in the text layer."
         }
       ]
     },
@@ -946,17 +822,11 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeff Purinton, Associate Athletics Director/Football",
-          "note": "Communications section of the archived athletics staff directory; the title wraps in the HTML as 'Associate Athletics Director/Football\\n\\t\\t\\tCommunications', so only the first line is quoted contiguously."
-        },
-        {
-          "url": "https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf",
-          "quote": "",
-          "note": "Listed in the '2012 ALABAMA FOOTBALL DIRECTORY' on guide page 2 as Associate Athletics Director/Football Communications. He is an athletics-department employee assigned to football, not on the football support-staff photo grid."
+          "url": "https://archive.org/download/alabama-football-2012-media-guide/Alabama%20Football%2C%202012%20Media%20Guide.pdf",
+          "quote": "Associate Athletics Director/Football Communications \nJeff  Purinton",
+          "note": "2012 Alabama Football Media Guide, printed p. 2, \"2012 ALABAMA FOOTBALL DIRECTORY\". Text layer has two spaces in \"Jeff  Purinton\". JUDGMENT CALL: this is an athletics-department title, but football-dedicated. Drop this row if the dataset counts only program-employed staff; I excluded all department-wide administrators from that same directory."
         }
       ]
     }
-  ],
-  "coverage_notes": "SOURCES USED (in order of authority for this roster):\n1. Archived rolltide.com athletics staff directory, Jan. 9, 2013 capture (two days after the BCS title game): https://web.archive.org/web/20130109065314/http://www.rolltide.com/staffdir/alab-staffdir.html — has a \"Football\" department block plus Strength and Conditioning, Training, Video Services, Equipment and Communications blocks. Best HTML source: most rows are plain text in a <td> (\"Name, Title\"), so quotes are contiguous in the raw HTML.\n2. 2012 Alabama BCS National Championship bowl guide PDF (published for the Jan. 7, 2013 game): https://web.archive.org/web/20140425043403/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/2012-bcs-bowl-guide.pdf — coaching staff directory on guide page 2, coach bios pages 40-51, \"Support Staff\" bios pages 52-55 and a 35-person support-staff photo grid on guide page 56 (PDF page 58). This is the authoritative \"who was on staff at the championship game\" list.\n3. 2012 Alabama Football Media Guide PDF (dated Aug. 20, 2012): https://web.archive.org/web/20130430194155/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2012-13/misc_non_event/20120820football-guide.pdf — same support-staff grid on guide page 92 (PDF page 94), used to detect in-season title changes.\n4. Archived 2012 Alabama Football Roster page (Coaches block), Nov. 16, 2012: https://web.archive.org/web/20121116154713/http://www.rolltide.com/sports/m-footbl/mtt/alab-m-footbl-mtt.html?DB_OEM_ID=27300\n5. Wikipedia: https://en.wikipedia.org/wiki/2012_Alabama_Crimson_Tide_football_team\n\nQUOTE CAVEATS — please read before machine-matching:\n- All non-empty quotes were verified programmatically against freshly downloaded copies of the exact URLs cited. Every staff-directory quote marked as such is a contiguous substring of the raw HTML except where noted.\n- For the ten on-field assistant coaches and for Saban, Cochran, Pannunzio and Gonnella, the staff directory wraps the person's name in an <a> tag, so \"Name, Title\" is contiguous only in the RENDERED page text, not in the raw HTML. Same for the roster page, where the rendered form is \"Name - Title\". Strip tags without inserting separators and the quotes match.\n- Wikipedia's coaching-staff table puts name and role in separate cells, so for those people the Wikipedia quote is the role cell alone; the person is identified in the source note.\n- All PDF-sourced rows use quote:\"\" per instructions. Two reasons: (a) the support-staff page is a photo grid where each person's first name, LAST NAME and title are separately positioned text runs, so no contiguous \"name + title\" string exists in the text layer; I reconstructed the pairings by clustering the text runs by x-coordinate column, which is reliable and I verified it against known-good facts; (b) the guides' body text has systematic ligature/spacing corruption in the extracted text layer (\"Th e\", \"fi eld\", \"off ense\"), so nothing can be copied faithfully.\n\nWHAT I COULD NOT DOCUMENT:\n- George Helow (defensive analyst) and John Van Dam (graduate assistant) appear ONLY on Wikipedia's uncited analyst/GA lists. I searched the August 2012 media guide, the January 2013 BCS bowl guide, the April 2013 spring guide, and the September 2012 and January 2013 athletics staff directories, and neither name appears in any of them. They are included with an explicit unverified flag; consider dropping them if the dataset requires corroborated sources.\n- Larry Waters (assistant equipment manager) appears only in the January 2013 BCS bowl guide grid, in the slot the August guide assigned to Jeremy \"Bear\" Jordan. I could not find a hire announcement or any second source, so I cannot say whether Jordan moved roles or left. Both are included with midseason notes.\n- Four support-staff titles differ between the August 2012 media guide and the January 2013 bowl guide (Sigler, Neighbors, Montinar, and Wright's singular/plural). I used the January (championship-time) wording and flagged the change in midseason_note.\n- Alabama's Strength and Conditioning department listed eleven staff in the athletics directory, but only Cochran, Terry Jones, Mark Hocke and Kindal Moorehead appear on the football support-staff grid. I excluded the other seven (Rocky Colburn, Michelle Martin Diltz, Jonathan Farris, Jim Hamner, Corey Harris, Travis Illian, Andy Weigel) because the program's own publications do not assign them to football. Same reasoning excluded the athletics-wide athletic trainers assigned to other sports.\n- Student assistants, undergraduate managers and student trainers below the media-guide grid are not documented anywhere I could find; the true headcount around the program was certainly larger than 57.\n- No graduate-assistant hire announcements or a dedicated \"football support staff\" web page existed on rolltide.com in this era; the athletics staff directory omits analysts' specific offensive/defensive designations (it lists all seven directory-listed analysts generically as \"Football Analyst\") and omits the GAs, student assistants, state troopers, FCA director and academic advisor entirely — those come only from the PDF guides.\n- WebSearch was unavailable for this session (budget exhausted), so I could not run contemporary news searches; everything above came from direct URL fetches and Wayback CDX enumeration.\n- One process note: the shared scratchpad directory was being written concurrently by another agent and one of my downloaded files was silently overwritten with content from a later season (2015-era coaches). I detected this, re-downloaded every source into an isolated directory, and re-verified all quotes against the clean copies. Nothing in the output above derives from the corrupted file."
+  ]
 }

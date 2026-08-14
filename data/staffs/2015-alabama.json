@@ -1,7 +1,7 @@
 {
   "team": "Alabama",
   "season": 2015,
-  "coverage_notes": "SOURCES USED (in order of reliability for this dataset):\n1. rolltide.com official athletics staff directory, Wayback capture of Nov 16, 2015 (in-season): https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html — this is the single best source. Its \"Football\" section lists all on-field coaches, operations/personnel staff, all eight \"Football Analyst\" titles and the graduate assistants, and separate sections cover Strength and Conditioning, Training (sports medicine), Equipment, Video Services and Communications. Every row is plain text of the form \"Name, Title\" inside one table cell, so the quotes are exactly contiguous page text.\n2. Two later captures of the same directory, Dec 28, 2015 (https://web.archive.org/web/20151228222004/...) and Jan 10, 2016 — the day before the CFP title game (https://web.archive.org/web/20160110185043/...) — used to catch late-season changes (Pruitt appearing, Wilson Love appearing, Rocky Colburn dropping off).\n3. Archived rolltide.com individual coach bio pages (fall 2015) for the 13 coaches, which give each coach's role and season count in running prose.\n4. 2015 Alabama Football Media Guide PDF (posted July 29, 2015), archived at https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf — pages 84-88 (\"Coaches and Staff\" / \"Support Staff\") carry full-page bios for Dickens, Wright, Jeff Allen, Springer, Finney, Roach, Schumann and Stevenson, plus a 35-person photo grid of support staff on guide page 88 (PDF page 93).\n5. Wikipedia (2015 team page + individual bios) as corroboration for several analysts and graduate assistants.\n6. CFP National Championship game notes PDF dated Jan 6, 2016 (https://web.archive.org/web/20160122101801/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/release/release_20160106aaa.pdf), which still lists Kirby Smart as defensive coordinator five days before the title game.\n\nPDF QUOTES: for the media guide and the game-notes PDF I set quote to \"\" per instructions. The PDF text layer is corrupted by broken ligatures throughout (\"fi eld\", \"fi rst\", \"Lane Kiffi  n\"), so a mechanical string match against extracted text is unreliable. The exact rendered wording is given in each source note instead.\n\nWHAT I COULD NOT DOCUMENT / CAVEATS:\n- Jeremy Pruitt is a genuine ambiguity, not a filler row. He does NOT appear in the Nov 16, 2015 directory (Kirby Smart is listed as DC there), but he IS listed as \"Jeremy Pruitt, Defensive Coordinator\" in place of Smart in both the Dec 28, 2015 and Jan 10, 2016 captures — i.e. on the official staff directory the day before the championship game. Smart, however, remained and coached the Jan 11, 2016 title game (he is still the DC in the Jan 6, 2016 game notes). I included Pruitt with a midseason_note; whether he earns a ring under the \"on staff at the championship game\" rule is a judgment call I could not resolve from primary sources.\n- Dan Lanning's departure date is not documented. Memphis announced hiring him on Dec 8, 2015, roughly five weeks before the title game. His Wikipedia bio nonetheless credits him with the 2015 season and the CFP championship. I could not find a source stating whether he worked the Cotton Bowl (Dec 31) or the title game (Jan 11).\n- Jeff Dillman appears in the media guide's football Support Staff grid under \"STRENGTH & CONDITIONING\" but appears in NEITHER the Nov 2015 nor the Jan 2016 staff directory, so his presence during the season is unverified. Flagged in his note. He is included only because the program's own media guide lists him; treat as low confidence.\n- Gary Cramer, Eddie Wilder and Jessie Peoples are documented ONLY in the media guide support-staff grid (FCA director and two state troopers). No HTML source found; quotes are empty.\n- The media guide lists a person as \"ERIC KEISAU\"; the staff directory and all other sources spell it \"Eric Kiesau\" (the correct spelling). Likewise the directory misspells \"Glen Schumann\" (correct: Glenn Schumann) and abbreviates Aazaar Abdul-Rahim as \"Aazaar A. Rahim\". I used the correct names and quoted the sources verbatim.\n- SCOPE BOUNDARY: rolltide.com's directory is department-wide and lists several hundred people (ticket office, business office, facilities, other sports). I included only (a) everyone in the directory's Football section, (b) football-designated staff from the Strength and Conditioning, Training, Equipment, Video Services and Communications sections, and (c) everyone pictured in the media guide's football Support Staff grid. Department-wide staff who were NOT in the football media guide and NOT football-designated were excluded — notably assistant strength coaches Rocky Colburn (present Nov 2015, gone by Jan 2016), Michelle Martin Diltz, Deanna Hayes, Jim Hamner, Mark Hocke, Jason Poeth and Lou DeNeen, athletic interns Jarwarski Beckum, Josh Hampton and Alex Watkins, athletic trainers Sherry Kimbro and Bill McDonald, and equipment assistants Jakob Walden and Garrett Walker. Any of these may reasonably belong in a \"full staff\" count; I left them out to avoid inflating the list with non-football personnel, but they are recoverable from the same directory URL.\n- No one on the 2015 staff carried a \"quality control\" title; Alabama used \"Football Analyst\" for that tier, so the qc category is empty.\n- Student assistants, undergraduate assistants and team managers are not enumerated in any source I found.",
+  "coverage_notes": "SOURCES USED (in order of reliability):\n\n(1) 2015 Alabama Football Media Guide (published July 29, 2015), archived PDF: https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf — this is the single most complete source. Its \"coaches and staff\" section runs PDF pages 76-93 (printed pp. 71-88) and ends with a full support-staff photo grid on PDF p. 93 (printed p. 88) listing 35 support staff with titles. Because it is a PDF whose staff grid is a multi-column layout, I set quote to \"\" for all media-guide-only rows per instructions. I did NOT eyeball these: I extracted the page's text blocks with x/y coordinates (PyMuPDF) and confirmed every name-to-title pairing by column position, so the pairings are verified, not inferred.\n\n(2) rolltide.com official football coaches page captured by the Wayback Machine DURING the 2015 season — Dec 6, 2015 (https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html) and Nov 16, 2015 (…/20151116051021/…). Both captures are identical and list the same 13 (10 on-field + Cochran + Dickens + Wright). Quotes from this page are the true plain-text rendering: the name is a link and the title is the next text node, so the verbatim string is \"Name\\nTitle\" (newline between). If the checker fetches raw HTML instead of rendered text, these will need whitespace-insensitive matching.\n\n(3) Wikipedia, cited via the raw-wikitext URL rather than the rendered article, so the quoted table rows are guaranteed byte-present in what is fetched.\n\n(4) Roll 'Bama Roll (SB Nation) 2022 retrospective, used as a secondary corroborating source for off-field staff. Note it explicitly says its off-field list is \"not a complete list.\" Its table quotes are also \"Name\\nRole\" plain-text form.\n\nWHAT I COULD NOT DOCUMENT / CAVEATS:\n\n- The media guide was published July 29, 2015. Any support-staff person hired between August 2015 and the Jan. 11, 2016 championship game would not appear in it, and I found no in-season staff-addition announcements for 2015. There is no Wayback capture of a full Alabama football SUPPORT-staff directory near the title date — the archived in-season rolltide coaches page lists only the 13 on-field/major staff, not analysts or GAs. So the 35 support-staff rows are documented as of preseason 2015, not as of the championship game. I could not verify individually that each of them was still employed on Jan. 11, 2016.\n- I could NOT find documentation of any mid-season departure. Bo Davis left for Texas after the season (Feb. 2016), so he was on staff for the title game.\n- Explicitly EXCLUDED, despite being commonly misremembered as 2015 Alabama staff: Steve Sarkisian. He was fired by USC in Oct. 2015 but was not hired by Alabama until September 2016; he was an analyst for the 2016 season, not 2015. Also excluded: Jeremy Pruitt (Georgia DC in 2015, arrived at Alabama in 2016), Mike Locksley (arrived 2016), Brent Key (his rolltide bio page first appears in the archive in Feb. 2016).\n- Titles in the media guide grid are printed in ALL CAPS; I have preserved the wording exactly but normalized capitalization to title case.\n- Name spellings printed by the media guide that appear to be typos and which I corrected, with the printed form recorded in the source note: \"ERIC KEISAU\" (the analyst is Eric Kiesau — Roll 'Bama Roll independently lists him as \"Eric Kiesau, Analyst\") and \"AAZAAR A. RAHIM\" (Aazaar Abdul-Rahim).\n- Rodney Brown is documented only by a prose line in the media guide's training-room page (PDF p. 105) naming the full-time football athletic training staff; he has no photo/title entry, so his exact title is not documented beyond \"athletic trainer.\"\n- The current live rolltide.com page at /sports/football/coaches/2015 is NOT reliable for this season: it lists only 9 people and attaches later titles to them (e.g. Mario Cristobal as \"Assistant Head Coach/Tackles and Tight Ends/Recruiting Coordinator\" and Bobby Williams as \"Special Assistant to the Head Coach,\" both of which are his 2016 title), and it omits Smart, Tucker, Davis and Cochran entirely. I did not use it as a role source.\n- No one on the 2015 staff carried a \"quality control\" title; Alabama used \"analyst\" for that tier, so the qc category is empty by design.\n- Total documented: 56 people. Nothing in this list is inferred or padded — every row traces to the media guide, the in-season school coaches page, Wikipedia, or Roll 'Bama Roll.",
   "staff": [
     {
       "name": "Nick Saban",
@@ -9,120 +9,105 @@
       "role_category": "headcoach",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Head Coach",
-          "note": "Football section of the official in-season athletics staff directory. The row reads 'Nick Saban, Head Coach'; the name itself is wrapped in an anchor tag so only the role text is a guaranteed-contiguous string."
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Nick Saban\nHead Coach",
+          "note": "Official rolltide.com football coaches page captured Dec. 6, 2015, during the 2015 season. Plain-text rendering: name is a link, title is the following text node."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2015_Alabama_Crimson_Tide_football_team",
-          "quote": "Nick Saban entered his ninth year as the Crimson Tide's head coach for the 2015 season."
-        },
-        {
-          "url": "https://web.archive.org/web/20150827035830/http://www.rolltide.com/sports/m-footbl/mtt/nick_saban_350174.html",
-          "quote": "head coach Nick Saban has returned the University of Alabama to the top of the college football landscape"
+          "url": "https://en.wikipedia.org/w/index.php?title=2015_Alabama_Crimson_Tide_football_team&action=raw",
+          "quote": "Nick Saban entered his ninth year as the Crimson Tide's head coach for the 2015 season.",
+          "note": "Prose sentence from the Coaching staff section of the raw wikitext."
         }
       ]
     },
     {
       "name": "Burton Burns",
-      "role": "Associate Head Coach/Running Backs",
+      "role": "Associate Head Coach / Running Backs",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20150816105955/http://www.rolltide.com/sports/m-footbl/mtt/burton_burns_350178.html",
-          "quote": "Burton Burns is in his ninth season with the Alabama Crimson Tide football program in 2015 as associate head coach and running backs coach."
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Burton Burns\nAssociate Head Coach / Running Backs",
+          "note": "Official in-season school coaches page, Dec. 6, 2015 capture."
         },
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Associate Head Coach/Running Backs",
-          "note": "Row reads 'Burton Burns, Associate Head Coach/Running Backs'; name is inside an anchor tag."
+          "url": "https://en.wikipedia.org/w/index.php?title=2015_Alabama_Crimson_Tide_football_team&action=raw",
+          "quote": "| [[Burton Burns]] || Associate head coach, [[Running backs coach|running backs]] ||align=center| 9th",
+          "note": "Coaching staff table row in raw wikitext; Wikipedia sources this table to the 2015 Alabama Crimson Tide Football Media Guide, p. 2."
         }
       ]
     },
     {
       "name": "Lane Kiffin",
-      "role": "Offensive Coordinator/Quarterbacks",
+      "role": "Offensive Coordinator / Quarterbacks",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151109144006/http://www.rolltide.com/sports/m-footbl/mtt/lane_kiffin_881543.html",
-          "quote": "Lane Kiffin joined the Alabama staff on Jan. 10, 2014, as the offensive coordinator and quarterbacks coach"
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Lane Kiffin\nOffensive Coordinator / Quarterbacks",
+          "note": "Official in-season school coaches page, Dec. 6, 2015 capture."
         },
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Offensive Coordinator/Quarterbacks",
-          "note": "Row reads 'Lane Kiffin, Offensive Coordinator/Quarterbacks'; name is inside an anchor tag."
+          "url": "https://en.wikipedia.org/w/index.php?title=2015_Alabama_Crimson_Tide_football_team&action=raw",
+          "quote": "| [[Lane Kiffin]] || [[Offensive coordinator]], [[Quarterbacks coach|quarterbacks]] ||align=center| 2nd",
+          "note": "Coaching staff table row in raw wikitext."
         }
       ]
     },
     {
       "name": "Kirby Smart",
-      "role": "Defensive Coordinator/Linebackers",
+      "role": "Defensive Coordinator / Linebackers",
       "role_category": "onfield",
-      "midseason_note": "Named head coach at Georgia on Dec 6, 2015 but remained Alabama's defensive coordinator through the CFP National Championship Game on Jan 11, 2016. He was replaced by Jeremy Pruitt on the online staff directory between the Nov 16 and Dec 28, 2015 captures, yet Alabama's own CFP championship game notes dated Jan 6, 2016 still list him as defensive coordinator. On staff at the championship game.",
+      "midseason_note": "Named head coach at Georgia on Dec. 6, 2015, but remained Alabama's defensive coordinator through the Jan. 11, 2016 CFP National Championship Game, holding both jobs simultaneously. He was on staff at the championship game.",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20150802060132/http://www.rolltide.com/sports/m-footbl/mtt/kirby_smart_350183.html",
-          "quote": "is in his ninth season with the Alabama football staff and seventh as defensive coordinator."
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Kirby Smart\nDefensive Coordinator / Linebackers",
+          "note": "Official in-season school coaches page; this capture is dated Dec. 6, 2015 — the same day Georgia announced him — and Alabama still lists him as defensive coordinator."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2015_Alabama_Crimson_Tide_football_team",
-          "quote": "Defensive coordinator",
-          "note": "Wikipedia coaching-staff table row: 'Kirby Smart | Defensive coordinator, inside linebackers | 9th'. Table cells are separate elements so only the role cell is quoted."
+          "url": "https://en.wikipedia.org/w/index.php?title=2015_Alabama_Crimson_Tide_football_team&action=raw",
+          "quote": "| [[Kirby Smart]] || [[Defensive coordinator]], inside [[linebackers]] ||align=center| 9th",
+          "note": "Coaching staff table row in raw wikitext."
         },
         {
-          "url": "https://web.archive.org/web/20160122101801/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/release/release_20160106aaa.pdf",
+          "url": "https://georgiadogs.com/news/2015/12/6/Kirby_Smart_Named_New_UGA_Head_Coach",
           "quote": "",
-          "note": "PDF (Alabama CFP National Championship game notes, Jan 6, 2016). Its COACHING STAFF panel reads: 'Defensive Coordinator Kirby Smart / Alma Mater Georgia, 1999'. Quote left empty because the PDF text layer has broken ligatures elsewhere and cannot be relied on for exact string matching."
+          "note": "Georgia's Dec. 6, 2015 hire announcement, cited to date the dual-role period. Quote left blank because I did not fetch and verify this page's exact text."
         }
       ]
     },
     {
-      "name": "Jeremy Pruitt",
-      "role": "Defensive Coordinator",
+      "name": "Mel Tucker",
+      "role": "Assistant Head Coach / Defensive Backs",
       "role_category": "onfield",
-      "midseason_note": "Not present in the Nov 16, 2015 staff directory. Appears as defensive coordinator, in place of Kirby Smart, in the Dec 28, 2015 capture and again in the Jan 10, 2016 capture — the day before the CFP National Championship Game. Hired to succeed Smart, who nevertheless coached the title game. Whether Pruitt qualifies as on staff at the championship game is genuinely ambiguous.",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151228222004/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeremy Pruitt, Defensive Coordinator"
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Mel Tucker\nAssistant Head Coach / Defensive Backs",
+          "note": "Official in-season school coaches page, Dec. 6, 2015 capture."
         },
         {
-          "url": "https://web.archive.org/web/20160110185043/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeremy Pruitt, Defensive Coordinator",
-          "note": "Capture dated Jan 10, 2016, one day before the championship game."
+          "url": "https://web.archive.org/web/20150905070057/http://www.rolltide.com/sports/m-footbl/mtt/mel_tucker_953771.html",
+          "quote": "Mel Tucker was hired by head coach Nick Saban as defensive backs coach and assistant head coach on January 29, 2015.",
+          "note": "Opening sentence of his official rolltide.com bio, archived Sept. 5, 2015. Clean ASCII prose."
         }
       ]
     },
     {
       "name": "Mario Cristobal",
-      "role": "Assistant Head Coach/Offensive Line",
+      "role": "Offensive Line",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20150816111604/http://www.rolltide.com/sports/m-footbl/mtt/mario_cristobal_839415.html",
-          "quote": "Mario Cristobal is in his third season on the Alabama coaching staff as the assistant head coach and offensive line coach"
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Mario Cristobal\nOffensive Line",
+          "note": "Official in-season school coaches page, Dec. 6, 2015 capture. Note: the current live rolltide.com 2015 page wrongly shows his later 2016 title."
         },
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": ", Assistant Head Coach/Offensive Line",
-          "note": "Row reads 'Mario Cristobal, Assistant Head Coach/Offensive Line'; name is inside an anchor tag."
-        }
-      ]
-    },
-    {
-      "name": "Billy Napier",
-      "role": "Wide Receivers",
-      "role_category": "onfield",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20150812061742/http://www.rolltide.com/sports/m-footbl/mtt/billy_napier_842636.html",
-          "quote": "Billy Napier is in his third season on the Alabama coaching staff as wide receivers coach."
-        },
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": ", Wide Receivers",
-          "note": "Row reads 'Billy Napier, Wide Receivers'; name is inside an anchor tag."
+          "url": "https://en.wikipedia.org/w/index.php?title=2015_Alabama_Crimson_Tide_football_team&action=raw",
+          "quote": "| [[Mario Cristobal]] || [[Offensive line coach|Offensive line]] ||align=center| 3rd",
+          "note": "Coaching staff table row in raw wikitext."
         }
       ]
     },
@@ -132,13 +117,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151204091714/http://www.rolltide.com/sports/m-footbl/mtt/bo_davis_350180.html",
-          "quote": "Bo Davis returned to Alabama in 2014 for his second stint as the Crimson Tide's defensive line coach under Nick Saban."
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Bo Davis\nDefensive Line",
+          "note": "Official in-season school coaches page, Dec. 6, 2015 capture. He left for Texas after the season, so he was on staff for the title game."
         },
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Defensive Line",
-          "note": "Row reads 'Bo Davis, Defensive Line'; name is inside an anchor tag."
+          "url": "https://en.wikipedia.org/w/index.php?title=2015_Alabama_Crimson_Tide_football_team&action=raw",
+          "quote": "| [[Bo Davis]] || [[Defensive line coach|Defensive line]] ||align=center| 2nd",
+          "note": "Coaching staff table row in raw wikitext."
         }
       ]
     },
@@ -148,114 +134,195 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20150812061752/http://www.rolltide.com/sports/m-footbl/mtt/tosh_lupoi_953770.html",
-          "quote": "One of the newest assistant coaches on head coach Nick Saban"
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Tosh Lupoi\nOutside Linebackers",
+          "note": "Official in-season school coaches page, Dec. 6, 2015 capture."
         },
         {
-          "url": "https://web.archive.org/web/20150812061752/http://www.rolltide.com/sports/m-footbl/mtt/tosh_lupoi_953770.html",
-          "quote": "will serve as Alabama",
-          "note": "Full sentence on the page: 'Lupoi, who was on Alabama's staff last season as an analyst, will serve as Alabama's outside linebackers coach.' Fragment chosen to avoid a curly apostrophe encoding mismatch."
-        },
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Tosh Lupoi, Linebackers",
-          "note": "The athletics-wide directory shortens his title to 'Linebackers'; the football roster page and media guide both say 'Outside Linebackers'."
+          "url": "https://en.wikipedia.org/w/index.php?title=2015_Alabama_Crimson_Tide_football_team&action=raw",
+          "quote": "| [[Tosh Lupoi]] || Outside linebackers ||align=center| 1st",
+          "note": "Coaching staff table row in raw wikitext. 2015 was his first year as an on-field assistant; he was a defensive analyst at Alabama in 2014."
         }
       ]
     },
     {
-      "name": "Mel Tucker",
-      "role": "Assistant Head Coach/Defensive Backs",
+      "name": "Billy Napier",
+      "role": "Wide Receivers",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151024053309/http://www.rolltide.com/sports/m-footbl/mtt/mel_tucker_953771.html",
-          "quote": "Mel Tucker was hired by head coach Nick Saban as defensive backs coach and assistant head coach on January 29, 2015."
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Billy Napier\nWide Receivers",
+          "note": "Official in-season school coaches page, Dec. 6, 2015 capture."
         },
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Mel Tucker, Assistant Head Coach/Defensive Backs"
+          "url": "https://en.wikipedia.org/w/index.php?title=2015_Alabama_Crimson_Tide_football_team&action=raw",
+          "quote": "| [[Billy Napier]] || [[Wide receiver]]s ||align=center| 3rd",
+          "note": "Coaching staff table row in raw wikitext."
         }
       ]
     },
     {
       "name": "Bobby Williams",
-      "role": "Tight Ends/Special Teams Coordinator",
+      "role": "Tight Ends / Special Teams Coordinator",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151020021114/http://www.rolltide.com/sports/m-footbl/mtt/bobby_williams_350188.html",
-          "quote": "Bobby Williams is in his eighth season in Tuscaloosa as Alabama"
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Bobby Williams\nTight Ends / Special Teams Coordinator",
+          "note": "Official in-season school coaches page, Dec. 6, 2015 capture."
         },
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": ", Tight Ends/Special Teams Coordinator",
-          "note": "Row reads 'Bobby Williams, Tight Ends/Special Teams Coordinator'; name is inside an anchor tag."
+          "url": "https://en.wikipedia.org/w/index.php?title=2015_Alabama_Crimson_Tide_football_team&action=raw",
+          "quote": "| [[Bobby Williams]] || [[Tight ends coach|Tight ends]] and special teams ||align=center| 8th",
+          "note": "Coaching staff table row in raw wikitext."
         }
       ]
     },
     {
       "name": "Scott Cochran",
-      "role": "Head Strength and Conditioning Coach/Football",
+      "role": "Director of Strength and Conditioning",
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20150821074136/http://www.rolltide.com/sports/m-footbl/mtt/scott_cochran_400909.html",
-          "quote": "is that of Director of Strength and Conditioning Scott Cochran."
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Scott Cochran\nDirector of Strength and Conditioning",
+          "note": "Official in-season school coaches page, Dec. 6, 2015 capture."
         },
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": ", Head Strength and Conditioning Coach/Football",
-          "note": "Row reads 'Scott Cochran, Head Strength and Conditioning Coach/Football'; name is inside an anchor tag. The football roster page and media guide title him 'Director of Strength and Conditioning'."
+          "url": "https://en.wikipedia.org/w/index.php?title=2015_Alabama_Crimson_Tide_football_team&action=raw",
+          "quote": "| [[Scott Cochran]] || Strength and conditioning ||align=center| 9th",
+          "note": "Coaching staff table row in raw wikitext."
+        }
+      ]
+    },
+    {
+      "name": "Justin Dickens",
+      "role": "Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Justin Dickens\nDirector of Football Operations",
+          "note": "Official in-season school coaches page, Dec. 6, 2015 capture."
+        },
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 89 (printed p. 84): full-page bio headed 'JUSTIN DICKENS / AUSTIN PEAY STATE, 2003 / Football Operations / First Year', opening 'Justin Dickens begins his first year as Alabama's Director of Football Operations after being hired in February.' Quote blank per PDF rule (ligature and curly-apostrophe artifacts make byte-exact quoting unreliable)."
+        }
+      ]
+    },
+    {
+      "name": "Jody Wright",
+      "role": "Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20151206214105/http://www.rolltide.com/sports/m-footbl/spec-rel/coaches.html",
+          "quote": "Jody Wright\nDirector of Player Personnel",
+          "note": "Official in-season school coaches page, Dec. 6, 2015 capture."
+        },
+        {
+          "url": "https://web.archive.org/web/20150905064333/http://www.rolltide.com/sports/m-footbl/mtt/jody_wright_953750.html",
+          "quote": "Jody Wright returned to the Alabama staff in January of 2015 as the Director of Player Personnel.",
+          "note": "Opening sentence of his official rolltide.com bio, archived Sept. 5, 2015. Clean ASCII prose."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Allen",
+      "role": "Assistant AD for Sports Medicine",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 91 (printed p. 86), bio headed 'JEFF ALLEN / ASSISTANT AD FOR SPORTS MEDICINE', text: 'Assistant Athletics Director for Sports Medicine Jeff Allen is in his ninth season at The University of Alabama.' Quote blank per PDF rule. Also named on PDF p. 105 as 'Head Foootball Trainer Jeff Allen' [sic, typo in original]."
+        }
+      ]
+    },
+    {
+      "name": "Rodney Brown",
+      "role": "Athletic trainer (named as part of the full-time football training staff)",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 105, training room page: 'The full-time football staff includes Head Foootball Trainer Jeff Allen, Rodney Brown, Ginger Gilmore and Jeremy Gsell.' [typo 'Foootball' is in the original]. Quote blank per PDF rule. This prose line is the only documentation of Brown; he has no separate titled entry, so his exact title is undocumented."
+        }
+      ]
+    },
+    {
+      "name": "Ginger Gilmore",
+      "role": "Director of Behavioral Medicine / Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'GINGER GILMORE / DIRECTOR OF BEHAVIORAL MEDICINE/ ATHLETIC TRAINER'. Pairing confirmed by coordinate extraction (name and title both at x=344). Also named on PDF p. 105 among the full-time football training staff."
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Gsell",
+      "role": "Director of Rehab / Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'JEREMY GSELL / DIRECTOR OF REHAB/ ATHLETIC TRAINER'. Pairing confirmed by coordinate extraction (x=419). Also named on PDF p. 105 among the full-time football training staff."
+        }
+      ]
+    },
+    {
+      "name": "Amy Bragg",
+      "role": "Director of Performance Nutrition",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'AMY BRAGG / DIRECTOR OF PERFORMANCE NUTRITION'. Pairing confirmed by coordinate extraction (x=194)."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Springer",
+      "role": "Athletic Equipment Director",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 91 (printed p. 86), bio headed 'JEFF SPRINGER / ATHLETIC EQUIPMENT DIRECTOR': 'The all-important role of athletic equipment director is coordinated by Jeff Springer, entering his fifth season with the Crimson Tide.' Quote blank per PDF rule."
+        }
+      ]
+    },
+    {
+      "name": "Larry Waters",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'LARRY WATERS / ASSISTANT EQUIPMENT MANAGER'. Pairing confirmed by coordinate extraction (x=344)."
         }
       ]
     },
     {
       "name": "Terry Jones",
-      "role": "Assistant Head Strength and Conditioning Coach",
+      "role": "Assistant Head Strength Coach",
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Terry Jones, Assistant Head Strength and Conditioning Coach"
-        },
-        {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 (PDF page 93) support-staff grid: 'TERRY JONES — ASSISTANT HEAD STRENGTH COACH'. Quote empty because the media guide's PDF text layer has broken ligatures."
-        }
-      ]
-    },
-    {
-      "name": "Kindal Moorehead",
-      "role": "Assistant Strength and Conditioning Coach",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Kindal Moorehead, Assistant Strength and Conditioning Coach"
-        },
-        {
-          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
-          "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'KINDAL MOOREHEAD — STRENGTH & CONDITIONING'."
-        }
-      ]
-    },
-    {
-      "name": "Wilson Love",
-      "role": "Assistant Strength and Conditioning Coach",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20160110185043/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Wilson Love, Assistant Strength and Conditioning Coach",
-          "note": "Capture dated Jan 10, 2016, the day before the championship game. He is not in the Nov 16, 2015 capture of the same directory, but is in the July 2015 media guide."
-        },
-        {
-          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
-          "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'WILSON LOVE — STRENGTH & CONDITIONING'."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'TERRY JONES / ASSISTANT HEAD STRENGTH COACH'. Pairing confirmed by coordinate extraction (x=493)."
         }
       ]
     },
@@ -267,343 +334,157 @@
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 (PDF page 93) support-staff grid: 'JEFF DILLMAN — STRENGTH & CONDITIONING'. LOW CONFIDENCE: this is the only source. He does not appear in the Nov 16, 2015 or Jan 10, 2016 athletics staff directory, so his presence during the season and at the championship game is unverified."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'JEFF DILLMAN / STRENGTH & CONDITIONING'. Pairing confirmed by coordinate extraction (x=44)."
         }
       ]
     },
     {
-      "name": "Justin Dickens",
-      "role": "Director of Football Operations",
-      "role_category": "ops",
+      "name": "Wilson Love",
+      "role": "Strength & Conditioning",
+      "role_category": "sc",
       "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Justin Dickens, Director of Football Operations"
-        },
-        {
-          "url": "https://web.archive.org/web/20150821093736/http://www.rolltide.com/sports/m-footbl/mtt/justin_dickens_956950.html",
-          "quote": "Director of Football Operations after being hired in February."
-        }
-      ]
-    },
-    {
-      "name": "Ellis Ponder",
-      "role": "Associate Director/Football Operations",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Ellis Ponder, Associate Director/Football Operations",
-          "note": "Present in the Nov 16, 2015, Dec 28, 2015 and Jan 10, 2016 captures. Not pictured in the media guide support-staff grid."
-        }
-      ]
-    },
-    {
-      "name": "Jody Wright",
-      "role": "Director/Player Personnel",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jody Wright, Director/Player Personnel"
-        },
-        {
-          "url": "https://web.archive.org/web/20151020021125/http://www.rolltide.com/sports/m-footbl/mtt/jody_wright_953750.html",
-          "quote": "Jody Wright returned to the Alabama staff in January of 2015 as the Director of Player Personnel."
-        }
-      ]
-    },
-    {
-      "name": "Ashleigh Kimble",
-      "role": "Assistant Director of Player Personnel",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Ashleigh Kimble, Assistant Director of Player Personnel"
-        },
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'ASHLEIGH KIMBLE — ASSISTANT DIRECTOR OF PLAYER PERSONNEL'."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'WILSON LOVE / STRENGTH & CONDITIONING'. Pairing confirmed by coordinate extraction (x=344). A rolltide.com bio page for him (love_wilson00.html) is also archived from Sept. 2015."
         }
       ]
     },
     {
-      "name": "Aazaar Abdul-Rahim",
-      "role": "Associate Director/Player Personnel",
-      "role_category": "ops",
+      "name": "Kindal Moorehead",
+      "role": "Strength & Conditioning",
+      "role_category": "sc",
       "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Aazaar A. Rahim, Associate Director/Player Personnel",
-          "note": "The directory abbreviates his surname as 'Rahim'; his full name is Aazaar Abdul-Rahim."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Aazaar_Abdul-Rahim",
-          "quote": "He was on the 2015 Alabama coaching staff that won the National Championship."
-        }
-      ]
-    },
-    {
-      "name": "Kerry Stevenson",
-      "role": "Director of Player Development",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Kerry Stevenson, Director of Player Development"
-        },
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 87. Full-page bio headed 'KERRY STEVENSON — DIRECTOR OF PLAYER DEVELOPMENT', opening: 'Kerry Stevenson joined Nick Saban's staff at Alabama in February of 2013 as the Crimson Tide's director of player development.'"
-        }
-      ]
-    },
-    {
-      "name": "Freddie Roach",
-      "role": "Director of Player Development",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Freddie Roach, Director of Player Development"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Freddie_Roach_(American_football)",
-          "quote": "this time working as the team's director of player development."
-        }
-      ]
-    },
-    {
-      "name": "Glenn Schumann",
-      "role": "Player Development/Player Personnel",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Glen Schumann, Player Development/Player Personnel",
-          "note": "The directory misspells his first name as 'Glen'; correct spelling is Glenn Schumann."
-        },
-        {
-          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
-          "quote": "",
-          "note": "PDF, guide page 87. Full-page bio headed 'GLENN SCHUMANN — DIRECTOR OF PLAYER DEVELOPMENT/ASSOCIATE DIRECTOR OF PLAYER PERSONNEL'."
-        }
-      ]
-    },
-    {
-      "name": "Asha Sowell",
-      "role": "Recruiting Operations Coordinator",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Asha Sowell, Recruiting Operations Coordinator"
-        },
-        {
-          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
-          "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'ASHA SOWELL — RECRUITING OPERATIONS COORDINATOR'."
-        }
-      ]
-    },
-    {
-      "name": "Brandy Moore",
-      "role": "Football Operations Coordinator",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Brandy Moore, Football Operations Coordinator"
-        },
-        {
-          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
-          "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'BRANDY MOORE — FOOTBALL OPERATIONS COORDINATOR'."
-        }
-      ]
-    },
-    {
-      "name": "Cedric Burns",
-      "role": "Athletics Relations Coordinator",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Cedric Burns, Athletics Relations Coordinator"
-        },
-        {
-          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
-          "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'CEDRIC BURNS — COORDINATOR OF ATHLETIC RELATIONS'."
-        }
-      ]
-    },
-    {
-      "name": "Linda Leoni",
-      "role": "Administrative Assistant",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Linda Leoni, Administrative Assistant",
-          "note": "Listed in the Football section of the directory. Not pictured in the media guide support-staff grid."
-        }
-      ]
-    },
-    {
-      "name": "Glenda Edwards",
-      "role": "Administrative Secretary",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Glenda Edwards, Administrative Secretary"
-        },
-        {
-          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
-          "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'GLENDA EDWARDS — ADMINISTRATIVE ASSISTANT FOR HEAD COACH'."
-        }
-      ]
-    },
-    {
-      "name": "JT Summerford",
-      "role": "Athletics Intern",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "JT Summerford, Athletics Intern",
-          "note": "Listed in the Football section of the directory in all three 2015-16 captures. Not pictured in the media guide."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'KINDAL MOOREHEAD / STRENGTH & CONDITIONING'. Pairing confirmed by coordinate extraction (x=119). A rolltide.com bio page (moorehead_kindal00.html) is archived from Sept. 8, 2015."
         }
       ]
     },
     {
       "name": "Dean Altobelli",
-      "role": "Football Analyst",
+      "role": "Analyst",
       "role_category": "analyst",
       "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Dean Altobelli, Football Analyst"
-        },
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'DEAN ALTOBELLI — ANALYST'."
-        }
-      ]
-    },
-    {
-      "name": "Eric Kiesau",
-      "role": "Football Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Eric Kiesau, Football Analyst"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Eric_Kiesau",
-          "quote": "In 2015, Kiesau was named an offensive analyst at the"
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'DEAN ALTOBELLI / ANALYST'. Pairing confirmed by coordinate extraction (x=44)."
         }
       ]
     },
     {
       "name": "Keary Colbert",
-      "role": "Football Analyst",
+      "role": "Analyst",
       "role_category": "analyst",
       "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Keary Colbert, Football Analyst"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Keary_Colbert",
-          "quote": "Colbert served as the offensive analyst at"
-        }
-      ]
-    },
-    {
-      "name": "Brendan Farrell",
-      "role": "Football Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Brendan Farrell, Football Analyst"
-        },
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'BRENDAN FARRELL — ANALYST'."
-        }
-      ]
-    },
-    {
-      "name": "Wes Neighbors",
-      "role": "Football Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Wes Neighbors, Football Analyst"
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'KEARY COLBERT / ANALYST'. Pairing confirmed by coordinate extraction (x=344)."
         },
         {
-          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
-          "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'WES NEIGHBORS — ANALYST'."
-        }
-      ]
-    },
-    {
-      "name": "William Vlachos",
-      "role": "Football Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "William Vlachos, Football Analyst"
-        },
-        {
-          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
-          "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'WILLIAM VLACHOS — ANALYST'."
-        }
-      ]
-    },
-    {
-      "name": "Charlie Weis Jr.",
-      "role": "Football Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Charlie Weis, Jr., Football Analyst"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Charlie_Weis_Jr.",
-          "quote": "as an offensive analyst in 2015.",
-          "note": "Full sentence: 'After a stint as a volunteer training camp intern with the New England Patriots in 2014, Weis Jr. joined the coaching staff at Alabama as an offensive analyst in 2015.' Fragment chosen to avoid an internal wikilink."
+          "url": "https://www.rollbamaroll.com/2022/2/27/22946434/the-legacy-of-2015-alabama-crimson-tide-college-football-team-continues-coaches-players",
+          "quote": "Keary Colbert\nAnalyst",
+          "note": "Roll 'Bama Roll off-field staff table, '2015 POSITION' column. Plain-text rendering of adjacent table cells."
         }
       ]
     },
     {
       "name": "Garrett Cox",
-      "role": "Football Analyst",
+      "role": "Analyst",
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Garrett Cox, Football Analyst"
-        },
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'GARRETT COX / ANALYST'. Pairing confirmed by coordinate extraction (x=419)."
+        }
+      ]
+    },
+    {
+      "name": "Brendan Farrell",
+      "role": "Analyst",
+      "role_category": "analyst",
+      "sources": [
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'GARRETT COX — ANALYST'."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'BRENDAN FARRELL / ANALYST'. Pairing confirmed by coordinate extraction (x=269)."
+        },
+        {
+          "url": "https://www.rollbamaroll.com/2022/2/27/22946434/the-legacy-of-2015-alabama-crimson-tide-college-football-team-continues-coaches-players",
+          "quote": "Brendan Farrell\nAnalyst",
+          "note": "Roll 'Bama Roll off-field staff table, '2015 POSITION' column. ESPN's 2015-staff retrospective describes him more specifically as the special teams analyst."
+        }
+      ]
+    },
+    {
+      "name": "Eric Kiesau",
+      "role": "Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid. NOTE: the guide misprints his surname as 'ERIC KEISAU / ANALYST'. Pairing confirmed by coordinate extraction (x=44). Roll 'Bama Roll independently lists the correct spelling."
+        },
+        {
+          "url": "https://www.rollbamaroll.com/2022/2/27/22946434/the-legacy-of-2015-alabama-crimson-tide-college-football-team-continues-coaches-players",
+          "quote": "Eric Kiesau\nAnalyst",
+          "note": "Roll 'Bama Roll off-field staff table, '2015 POSITION' column — confirms the correct spelling of the name."
+        }
+      ]
+    },
+    {
+      "name": "Wes Neighbors",
+      "role": "Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'WES NEIGHBORS / ANALYST'. Pairing confirmed by coordinate extraction (x=269)."
+        },
+        {
+          "url": "https://www.rollbamaroll.com/2022/2/27/22946434/the-legacy-of-2015-alabama-crimson-tide-college-football-team-continues-coaches-players",
+          "quote": "Wes Neighbors\nAnalyst",
+          "note": "Roll 'Bama Roll off-field staff table, '2015 POSITION' column."
+        }
+      ]
+    },
+    {
+      "name": "William Vlachos",
+      "role": "Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'WILLIAM VLACHOS / ANALYST'. Pairing confirmed by coordinate extraction (x=194)."
+        },
+        {
+          "url": "https://www.rollbamaroll.com/2022/2/27/22946434/the-legacy-of-2015-alabama-crimson-tide-college-football-team-continues-coaches-players",
+          "quote": "William Vlachos\nAnalyst",
+          "note": "Roll 'Bama Roll off-field staff table, '2015 POSITION' column."
+        }
+      ]
+    },
+    {
+      "name": "Charlie Weis Jr.",
+      "role": "Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'CHARLIE WEIS JR. / ANALYST'. Pairing confirmed by coordinate extraction (x=419)."
+        },
+        {
+          "url": "https://www.rollbamaroll.com/2022/2/27/22946434/the-legacy-of-2015-alabama-crimson-tide-college-football-team-continues-coaches-players",
+          "quote": "Charlie Weis Jr.\nAnalyst",
+          "note": "Roll 'Bama Roll off-field staff table, '2015 POSITION' column."
         }
       ]
     },
@@ -613,47 +494,14 @@
       "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Doug Belk, Graduate Assistant"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Doug_Belk",
-          "quote": "Alabama (2014–2016)",
-          "note": "Career infobox line reads 'Alabama (2014–2016) / Graduate assistant'; the article body adds that he won a national championship in 2015."
-        }
-      ]
-    },
-    {
-      "name": "Alex Mortensen",
-      "role": "Graduate Assistant",
-      "role_category": "gradasst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Alex Mortensen, Graduate Assistant"
-        },
-        {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'ALEX MORTENSEN — GRADUATE ASSISTANT'."
-        }
-      ]
-    },
-    {
-      "name": "Dan Lanning",
-      "role": "Graduate Assistant",
-      "role_category": "gradasst",
-      "midseason_note": "Memphis announced hiring him as inside linebackers coach/recruiting coordinator on Dec 8, 2015, about five weeks before the CFP National Championship Game. He does not appear in the Nov 16, 2015 athletics staff directory (which omits several media-guide graduate assistants), so his exact departure date is undocumented; Wikipedia nevertheless credits him with the 2015 season and the championship.",
-      "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Dan_Lanning",
-          "quote": "He spent 2015 as a graduate assistant at",
-          "note": "Full sentence: 'He spent 2015 as a graduate assistant at Alabama, where the Crimson Tide defeated Clemson 45–40 in the CFP National Championship game.'"
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'DOUG BELK / GRADUATE ASSISTANT'. Pairing confirmed by coordinate extraction (x=119)."
         },
         {
-          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
-          "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'DAN LANNING — GRADUATE ASSISTANT'."
+          "url": "https://www.rollbamaroll.com/2022/2/27/22946434/the-legacy-of-2015-alabama-crimson-tide-college-football-team-continues-coaches-players",
+          "quote": "Doug Belk\nGraduate assistant",
+          "note": "Roll 'Bama Roll off-field staff table, '2015 POSITION' column."
         }
       ]
     },
@@ -663,225 +511,226 @@
       "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/Rob_Ezell",
-          "quote": "where he served as a graduate assistant from 2015 to 2016"
-        },
-        {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'ROB EZELL — GRADUATE ASSISTANT'. He is not in the athletics staff directory's Football section, which lists only two of the four graduate assistants."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'ROB EZELL / GRADUATE ASSISTANT'. Pairing confirmed by coordinate extraction (x=194). A rolltide.com bio page (ezell_rob00.html) is archived from Sept. 8, 2015."
+        },
+        {
+          "url": "https://www.rollbamaroll.com/2022/2/27/22946434/the-legacy-of-2015-alabama-crimson-tide-college-football-team-continues-coaches-players",
+          "quote": "Rob Ezell\nGraduate assistant",
+          "note": "Roll 'Bama Roll off-field staff table, '2015 POSITION' column."
         }
       ]
     },
     {
-      "name": "Jeff Allen",
-      "role": "Assistant Athletic Director for Sports Medicine/Head Football Athletic Trainer",
-      "role_category": "medical",
+      "name": "Dan Lanning",
+      "role": "Graduate Assistant",
+      "role_category": "gradasst",
       "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeff Allen, Assistant Athletic Director for Sports Medicine/Head Football Athletic Trainer"
-        },
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 86. Full-page bio headed 'JEFF ALLEN — ASSISTANT AD FOR SPORTS MEDICINE', opening: 'Assistant Athletics Director for Sports Medicine Jeff Allen is in his ninth season at The University of Alabama.'"
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'DAN LANNING / GRADUATE ASSISTANT'. Pairing confirmed by coordinate extraction (x=269)."
+        },
+        {
+          "url": "https://www.rollbamaroll.com/2022/2/27/22946434/the-legacy-of-2015-alabama-crimson-tide-college-football-team-continues-coaches-players",
+          "quote": "Dan Lanning\nGraduate assistant",
+          "note": "Roll 'Bama Roll off-field staff table, '2015 POSITION' column."
         }
       ]
     },
     {
-      "name": "Jeremy Gsell",
-      "role": "Assistant Athletic Trainer/Football",
-      "role_category": "medical",
+      "name": "Alex Mortensen",
+      "role": "Graduate Assistant",
+      "role_category": "gradasst",
       "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeremy Gsell, Assistant Athletic Trainer/Football"
-        },
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'JEREMY GSELL — DIRECTOR OF REHAB/ATHLETIC TRAINER'."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'ALEX MORTENSEN / GRADUATE ASSISTANT'. Pairing confirmed by coordinate extraction (x=194)."
         }
       ]
     },
     {
-      "name": "Ginger Gilmore",
-      "role": "Director of Behavioral Medicine",
-      "role_category": "medical",
+      "name": "Freddie Roach",
+      "role": "Director of Player Development",
+      "role_category": "ops",
       "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Ginger Gilmore, Director of Behavioral Medicine"
-        },
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'GINGER GILMORE — DIRECTOR OF BEHAVIORAL MEDICINE/ATHLETIC TRAINER'."
+          "note": "2015 Alabama Football Media Guide, PDF p. 92 (printed p. 87), bio headed 'FREDDIE ROACH / DIRECTOR OF PLAYER DEVELOPMENT': 'Freddie Roach joined the Alabama staff in March of 2015 as the director of player development.' Quote blank per PDF rule."
+        },
+        {
+          "url": "https://www.rollbamaroll.com/2022/2/27/22946434/the-legacy-of-2015-alabama-crimson-tide-college-football-team-continues-coaches-players",
+          "quote": "Freddie Roach\nDirector of football player development",
+          "note": "Roll 'Bama Roll off-field staff table, '2015 POSITION' column."
         }
       ]
     },
     {
-      "name": "Amy Bragg",
-      "role": "Director of Performance Nutrition",
-      "role_category": "medical",
+      "name": "Glenn Schumann",
+      "role": "Director of Player Development / Associate Director of Player Personnel",
+      "role_category": "ops",
       "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Amy Bragg, Director of Performance Nutrition"
-        },
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'AMY BRAGG — DIRECTOR OF PERFORMANCE NUTRITION'."
+          "note": "2015 Alabama Football Media Guide, PDF p. 92 (printed p. 87), bio headed 'GLENN SCHUMANN / DIRECTOR OF PLAYER DEVELOPMENT/ ASSOCIATE DIRECTOR OF PLAYER PERSONNEL': 'Glenn Schumann was promoted to the director of player development and associate director of personnel in February of 2014 after spending six years with the Crimson Tide...'. Quote blank per PDF rule."
+        },
+        {
+          "url": "https://www.rollbamaroll.com/2022/2/27/22946434/the-legacy-of-2015-alabama-crimson-tide-college-football-team-continues-coaches-players",
+          "quote": "Glenn Schumann\nDirector of football player development",
+          "note": "Roll 'Bama Roll off-field staff table, '2015 POSITION' column."
         }
       ]
     },
     {
-      "name": "Jeff Springer",
-      "role": "Equipment Manager - Football",
-      "role_category": "equipment",
+      "name": "Kerry Stevenson",
+      "role": "Director of Player Development",
+      "role_category": "ops",
       "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Jeffrey Springer, Equipment Manager - Football"
-        },
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 86. Full-page bio headed 'JEFF SPRINGER — ATHLETIC EQUIPMENT DIRECTOR', opening: 'The all-important role of athletic equipment director is coordinated by Jeff Springer, entering his fifth season with the Crimson Tide.'"
+          "note": "2015 Alabama Football Media Guide, PDF p. 92 (printed p. 87), bio headed 'KERRY STEVENSON / DIRECTOR OF PLAYER DEVELOPMENT': 'Stevenson returns to the director of player development role in 2015...' (he had been a strength and conditioning assistant in 2014). Quote blank per PDF rule."
+        },
+        {
+          "url": "https://www.rollbamaroll.com/2022/2/27/22946434/the-legacy-of-2015-alabama-crimson-tide-college-football-team-continues-coaches-players",
+          "quote": "Kerry Stevenson\nDirector of football player development",
+          "note": "Roll 'Bama Roll off-field staff table, '2015 POSITION' column."
         }
       ]
     },
     {
-      "name": "Larry Waters",
-      "role": "Assistant Equipment Manager",
-      "role_category": "equipment",
+      "name": "Aazaar Abdul-Rahim",
+      "role": "Associate Director of Player Personnel",
+      "role_category": "ops",
       "sources": [
-        {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Larry Waters, Assistant Equipment Manager"
-        },
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'LARRY WATERS — ASSISTANT EQUIPMENT MANAGER'. He is the only one of the three assistant equipment managers in the directory who is pictured in the football media guide."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid. The guide prints the name as 'AAZAAR A. RAHIM / ASSOCIATE DIRECTOR OF PLAYER PERSONNEL'; his full surname is Abdul-Rahim, as Roll 'Bama Roll's table confirms. Pairing confirmed by coordinate extraction (x=494)."
+        }
+      ]
+    },
+    {
+      "name": "Ashleigh Kimble",
+      "role": "Assistant Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'ASHLEIGH KIMBLE / ASSISTANT DIRECTOR OF PLAYER PERSONNEL'. Pairing confirmed by coordinate extraction (x=119)."
+        }
+      ]
+    },
+    {
+      "name": "Brandy Moore",
+      "role": "Football Operations Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'BRANDY MOORE / FOOTBALL OPERATIONS COORDINATOR'. Pairing confirmed by coordinate extraction (x=44)."
+        }
+      ]
+    },
+    {
+      "name": "Asha Sowell",
+      "role": "Recruiting Operations Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'ASHA SOWELL / RECRUITING OPERATIONS COORDINATOR'. Pairing confirmed by coordinate extraction (x=119)."
         }
       ]
     },
     {
       "name": "Troy Finney",
-      "role": "Senior Director/Video Services",
+      "role": "Assistant AD for Sports Technology & Innovation",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Troy Finney, Senior Director/Video Services"
-        },
-        {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 86. Full-page bio headed 'TROY FINNEY — ASSISTANT AD FOR SPORTS TECHNOLOGY & INNOVATION', noting he 'administers all video and technology for Alabama's football coaching staff'."
+          "note": "2015 Alabama Football Media Guide, PDF p. 91 (printed p. 86), bio headed 'TROY FINNEY / ASSISTANT AD FOR SPORTS TECHNOLOGY & INNOVATION': 'Finney not only administers all video and technology for Alabama's football coaching staff...'. Quote blank per PDF rule."
         }
       ]
     },
     {
       "name": "Daniel Lyerly",
-      "role": "Director, Football Video Operations",
+      "role": "Director of Video Operations for Football",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Daniel Lyerly, Director, Football Video Operations"
-        },
-        {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'DANIEL LYERLY — DIRECTOR OF VIDEO OPERATIONS FOR FOOTBALL'."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'DANIEL LYERLY / DIRECTOR OF VIDEO OPERATIONS FOR FOOTBALL'. Pairing confirmed by coordinate extraction (x=418)."
         }
       ]
     },
     {
       "name": "Mark Perschel",
-      "role": "Assistant Director, Football Video Operations",
+      "role": "Assistant Director of Video Operations for Football",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Mark Perschel, Assistant Director, Football Video Operations"
-        },
-        {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'MARK PERSCHEL — ASSISTANT DIRECTOR OF VIDEO OPERATIONS FOR FOOTBALL'."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'MARK PERSCHEL / ASSISTANT DIRECTOR OF VIDEO OPERATIONS FOR FOOTBALL'. Pairing confirmed by coordinate extraction (x=419)."
         }
       ]
     },
     {
       "name": "Josh Maxson",
-      "role": "Director (Football), Athletics Communications",
+      "role": "Director of Football Communications",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Josh Maxson, Director (Football)",
-          "note": "Listed under the Communications section of the directory."
-        },
-        {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 support-staff grid: 'JOSH MAXSON — DIRECTOR OF FOOTBALL COMMUNICATIONS'. He is also the named football media contact in the guide's front matter."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'JOSH MAXSON / DIRECTOR OF FOOTBALL COMMUNICATIONS'. Pairing confirmed by coordinate extraction (x=493)."
         }
       ]
     },
     {
       "name": "Matt Lange",
-      "role": "Assistant Director/Graphics",
+      "role": "Assistant Director Graphic Design",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Matt Lange, Assistant Director/Graphics",
-          "note": "Listed under Crimson Tide Productions in the directory."
-        },
-        {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 football support-staff grid: 'MATT LANGE — ASSISTANT DIRECTOR GRAPHIC DESIGN'."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'MATT LANGE / ASSISTANT DIRECTOR GRAPHIC DESIGN'. Pairing confirmed by coordinate extraction (x=194)."
         }
       ]
     },
     {
-      "name": "Lance Walker",
-      "role": "Assistant Director, Athletic Student Services",
+      "name": "Glenda Edwards",
+      "role": "Administrative Assistant for Head Coach",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Lance Walker, Assistant Director, Athletic Student Services",
-          "note": "Listed under Academics in the directory."
-        },
-        {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 football support-staff grid: 'LANCE WALKER — ACADEMIC PROGRAM ADVISOR'."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'GLENDA EDWARDS / ADMINISTRATIVE ASSISTANT FOR HEAD COACH'. Pairing confirmed by coordinate extraction (x=119)."
         }
       ]
     },
     {
-      "name": "Matt Self",
-      "role": "Assistant Athletics Director for Compliance",
+      "name": "Cedric Burns",
+      "role": "Coordinator of Athletic Relations",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
-          "quote": "Matthew Self, Assistant Athletics Director for Compliance",
-          "note": "Directory gives his name as 'Matthew Self'; the football media guide lists him as 'MATT SELF'."
-        },
-        {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 football support-staff grid: 'MATT SELF — ASSISTANT A.D. COMPLIANCE'."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'CEDRIC BURNS / COORDINATOR OF ATHLETIC RELATIONS'. Pairing confirmed by coordinate extraction (x=269)."
         }
       ]
     },
@@ -893,19 +742,31 @@
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 (PDF page 93) football support-staff grid: 'GARY CRAMER — DIRECTOR OF THE FCA'. Only source found; he is not in the athletics staff directory."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'GARY CRAMER / DIRECTOR OF THE FCA' (Fellowship of Christian Athletes). Pairing confirmed by coordinate extraction (x=493). A rolltide.com bio page (cramer_robert00.html) is archived from Dec. 15, 2015."
         }
       ]
     },
     {
-      "name": "Eddie Wilder",
-      "role": "State Trooper",
+      "name": "Matt Self",
+      "role": "Assistant A.D. Compliance",
       "role_category": "other",
       "sources": [
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 football support-staff grid: 'EDDIE WILDER — STATE TROOPER'. Only source found; state troopers assigned to the program are not in the athletics staff directory."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'MATT SELF / ASSISTANT A.D. COMPLIANCE'. Pairing confirmed by coordinate extraction (x=44)."
+        }
+      ]
+    },
+    {
+      "name": "Lance Walker",
+      "role": "Academic Program Advisor",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'LANCE WALKER / ACADEMIC PROGRAM ADVISOR'. Pairing confirmed by coordinate extraction (x=269)."
         }
       ]
     },
@@ -917,7 +778,19 @@
         {
           "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
           "quote": "",
-          "note": "PDF, guide page 88 football support-staff grid: 'JESSIE PEOPLES — STATE TROOPER'. Only source found."
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'JESSIE PEOPLES / STATE TROOPER'. Pairing confirmed by coordinate extraction (x=344). Listed by Alabama among football staff; security detail rather than football operations."
+        }
+      ]
+    },
+    {
+      "name": "Eddie Wilder",
+      "role": "State Trooper",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20160313043706/http://grfx.cstv.com/photos/schools/alab/sports/m-footbl/auto_pdf/2015-16/misc_non_event/20150729MFBmedia-guide.pdf",
+          "quote": "",
+          "note": "2015 Alabama Football Media Guide, PDF p. 93 (printed p. 88) support-staff grid; entry reads 'EDDIE WILDER / STATE TROOPER'. Pairing confirmed by coordinate extraction (x=493). Listed by Alabama among football staff; security detail rather than football operations."
         }
       ]
     }

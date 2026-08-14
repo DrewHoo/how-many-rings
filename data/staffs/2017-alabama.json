@@ -1,7 +1,6 @@
 {
   "team": "Alabama",
   "season": 2017,
-  "coverage_notes": "PRIMARY SOURCE: the University of Alabama athletics staff directory (rolltide.com/staff.aspx) archived by the Wayback Machine at 20180109063923 — January 9, 2018, the morning AFTER Alabama beat Georgia 26-23 in the CFP National Championship on January 8, 2018. This is the ideal snapshot for the \"on staff at the championship game\" ring rule. I verified it is byte-for-byte identical in the FOOTBALL, STRENGTH AND CONDITIONING, TRAINING, EQUIPMENT and VIDEO SERVICES sections to the 20171130125028 (Nov 30, 2017, mid-season) snapshot, so no roster churn occurred in that window. A season-labeled page titled \"2017 Football Coaching Staff\" (coaches.aspx?path=football, archived 20170828042923) corroborates the ten on-field coaches.\n\nQUOTE FORMAT WARNING — please read before machine-matching. The rolltide.com directory is an HTML table: the person's name sits in a `<th>` cell and the title in a separate adjacent `<td>` cell, with markup between them. There is NO contiguous \"Name + Title\" string anywhere in that page. So for every person sourced to that directory I set `quote` to the exact Title-cell text, which IS a contiguous verbatim substring of the page, and I put the name-to-row binding in `note` (including the exact name-cell text). Do not expect \"Nick Saban Head Coach\" to match. Note two literal quirks I preserved: the name cell for Brendan Farrell contains a DOUBLE space (\"Brendan  Farrell\"), and Terry Jones's title uses a straight apostrophe in \"Women's Basketball\". Titles such as \"Football Analyst\" and \"Assistant Strength and Conditioning Coach, Football\" are shared by several people, so those quotes are verbatim but not individually distinguishing — the `note` field disambiguates. Where a clean contiguous prose sentence existed (Wikipedia bios, 247Sports, Roll 'Bama Roll), I used that instead.\n\nWEBFETCH LIMITATION: this session's WebSearch budget was exhausted before I started (200/200 used), and WebFetch is blocked from web.archive.org in this environment. All archive work was done with curl, and I extracted quotes from raw HTML rather than a rendered view. Quotes are copied character-for-character from that HTML after entity unescaping.\n\nWHAT I COULD NOT DOCUMENT / DELIBERATE EXCLUSIONS:\n1. FREDDIE ROACH — EXCLUDED as an apparent Wikipedia error. The 2017 team article lists him among 2017 analysts, but his own Wikipedia biography says \"Roach was recruited to be the defensive line coach for Ole Miss by head coach Hugh Freeze in 2017\" and has him at Ole Miss through 2019, returning to Alabama only in 2020. He is also absent from the Wikipedia \"2017 Alabama Crimson Tide football—consensus national champions\" navbox, and absent from the Jan 2018 rolltide directory. I did not include him rather than pad.\n2. JESSE WILLIAMS — EXCLUDED. Roll 'Bama Roll (March 2017) says he \"serves as Assistant Coach, Sports Science/Performance,\" but he does not appear in either the Nov 2017 or Jan 2018 staff directory, so I could not confirm he was on staff at the title game.\n3. ATHLETICS-WIDE SUPPORT DEPARTMENTS. Alabama's directory organized sports medicine (\"TRAINING\"), equipment, and nutrition as athletics-wide units rather than football units. Only Jeremy Gsell carries an explicit football designation (\"Assistant Athletic Trainer/Football\"). I included the two unit heads — Jeff Allen (Associate Athletics Director, Sports Medicine) and Jeffrey Springer (Associate Athletics Director, Equipment Operations) — flagged in their notes as athletics-wide titles, because both are the responsible leads for football; but I did NOT include the remaining ~18 training-room and equipment names (Rodney Brown, Amy Bragg, Sherry Kimbro, Ginger Gilmore, Kevin Murray, Frank Newell, Amanda Poppleton, Jakob Walden, Garrett Walker, Kyle Smith, Eric Cookmeyer, and the sport-assigned trainers) because the source gives no football-specific attribution. Several of them very likely worked football; I have no evidence to prove it, so they are omitted rather than guessed. Alabama's football support headcount is therefore probably somewhat larger than the 49 rows here.\n4. NO MEDIA GUIDE FOUND. I could not locate a 2017 Alabama football media guide PDF on the Wayback Machine (CDX queries for grfx.cstv.com and rolltide.com/documents PDFs returned no 2017 football guide; several regex-filtered CDX queries timed out with 504s). Alabama appears to have stopped publishing a printed football media guide by this era. A media guide would normally add student assistants, interns, and recruiting staff not in the web directory.\n5. GRADUATE ASSISTANTS are not listed in the athletics staff directory at all. The three GAs (Mike Miller, Nick Perry, Kyle Pope) come from the Wikipedia team-season article's GA list plus corroborating biography/news sources. There may have been additional GAs — programs typically carry four — that I could not document.\n6. Wikipedia's 2017 team article also lists Rob Ezell and Alex Mortensen as analysts; neither appears in the rolltide directory's analyst block, so I sourced them to their own Wikipedia biographies (both explicitly cover 2017 at Alabama, and both appear in the champions navbox). Mortensen's page carries no prose sentence about the role, only the infobox coaching timeline, so his quote is the run-together infobox string \"2017–2019Alabama (analyst)\" — verbatim from the rendered page but visually odd; a secondary 247Sports quote is included.\n7. MIDSEASON NOTES: Jeremy Pruitt was hired as Tennessee's head coach in December 2017 but stayed to coach Alabama's defense through the title game (he is still listed in the Jan 9, 2018 directory). Brian Niedermeyer followed Pruitt to Tennessee as tight ends coach; he is likewise still in the Jan 9, 2018 directory and his Wikipedia infobox credits him with the 2017 CFP title. Both are flagged.\n8. Burton Burns's title differs between the two official pages: \"Associate Head Coach/Running Backs/Special Teams\" (Aug 2017 coaches page) vs \"Associate Head Coach/Running Backs\" (Jan 2018 directory). I used the January wording and cited both.",
   "staff": [
     {
       "name": "Nick Saban",
@@ -9,48 +8,19 @@
       "role_category": "headcoach",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Head Coach",
-          "note": "FOOTBALL department row; name cell reads \"Nick Saban\", adjacent Title cell reads \"Head Coach\". Snapshot Jan 9, 2018, the day after the CFP National Championship. Name and title are in separate table cells, so no contiguous name+title string exists on the page."
-        },
-        {
-          "url": "https://web.archive.org/web/20170828042923/http://rolltide.com/coaches.aspx?path=football",
-          "quote": "2017 Football Coaching Staff",
-          "note": "Page title of Alabama's season-labeled 2017 coaching staff page, which lists Nick Saban with title \"Head Coach\"."
-        }
-      ]
-    },
-    {
-      "name": "Brian Daboll",
-      "role": "Offensive Coordinator/Quarterbacks",
-      "role_category": "onfield",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Offensive Coordinator/Quarterbacks",
-          "note": "FOOTBALL department row; name cell reads \"Brian Daboll\". Also appears on the 2017 Football Coaching Staff page with the identical title."
+          "note": "Alabama athletics official staff directory, snapshot dated Jan 7, 2018 (the day before the CFP National Championship). FOOTBALL section row: name cell 'Nick Saban', title cell 'Head Coach'."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
-          "quote": "Brian Daboll",
-          "note": "Listed in the Coaching staff table as Offensive coordinator and quarterbacks coach, 1st season; also in the article infobox as Offensive coordinator."
-        }
-      ]
-    },
-    {
-      "name": "Michael Locksley",
-      "role": "Co-Offensive Coordinator/Wide Receivers",
-      "role_category": "onfield",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Co-Offensive Coordinator/Wide Receivers",
-          "note": "FOOTBALL department row; name cell reads \"Michael Locksley\" (commonly Mike Locksley)."
+          "quote": "were led by eleventh-year head coach Nick Saban",
+          "note": "Lead paragraph of the 2017 team-season article."
         },
         {
-          "url": "https://www.rollbamaroll.com/2017/3/17/14923452/alabama-tide-spring-football-2017-previewing-coaching-staff",
-          "quote": "Locksley was promoted from Offensive Analyst to replace Billy Napier",
-          "note": "Contiguous prose confirming his 2017 promotion to the co-offensive coordinator role."
+          "url": "http://web.archive.org/web/20170906073014/http://www.rolltide.com/coaches.aspx?path=football",
+          "quote": "Head Coach",
+          "note": "Page titled '2017 Football Coaching Staff' on rolltide.com, snapshot Sept 6, 2017; row 'Nick Saban' / 'Head Coach'."
         }
       ]
     },
@@ -58,17 +28,22 @@
       "name": "Jeremy Pruitt",
       "role": "Defensive Coordinator and Inside Linebackers",
       "role_category": "onfield",
-      "midseason_note": "Hired as head coach at Tennessee in December 2017 but remained Alabama's defensive coordinator through the January 8, 2018 CFP National Championship; still listed on Alabama's staff directory in the January 9, 2018 snapshot.",
+      "midseason_note": "Named head coach at Tennessee on Dec. 7, 2017, but remained Alabama's defensive coordinator through the College Football Playoff and coached the Jan. 8, 2018 national championship game.",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Defensive Coordinator and Inside Linebackers",
-          "note": "FOOTBALL department row; name cell reads \"Jeremy Pruitt\". Present in the snapshot taken the day after the championship game."
+          "note": "Jan 7, 2018 snapshot of the official staff directory; FOOTBALL section row 'Jeremy Pruitt' / 'Defensive Coordinator and Inside Linebackers' — i.e. still carried on Alabama's staff the day before the title game."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/Brian_Niedermeyer",
-          "quote": "In December 2017, Pruitt was hired as the head coach of the University of Tennessee Volunteers football program.",
-          "note": "Supports the midseason_note about Pruitt's December 2017 Tennessee hire."
+          "url": "http://web.archive.org/web/20170918034037/http://www.rolltide.com/coaches.aspx?rc=688&path=football",
+          "quote": "In his first season back in 2016, Pruitt coordinated a defense that led the nation in scoring defense (13.0 ppg) and rushing defense (63.9 ypg), while ranking second in total defense by two yards (261.8 ypg) and ranked ninth in pass efficiency defense (106.47).",
+          "note": "Official 2017 rolltide.com bio page; page header lists Title: Defensive Coordinator and Inside Linebackers."
+        },
+        {
+          "url": "https://www.cbssports.com/college-football/news/tennessee-coach-jeremy-pruitt-to-remain-with-alabama-through-playoff",
+          "quote": "",
+          "note": "Contemporary reporting that Pruitt, after taking the Tennessee head job, stayed with Alabama through the playoff. Quote left blank because the exact headline/body wording was not fetched directly, only summarized via search."
         }
       ]
     },
@@ -78,31 +53,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Co-Defensive Coordinator and Outside Linebackers",
-          "note": "FOOTBALL department row; name cell reads \"Tosh Lupoi\"."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Tosh Lupoi'."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
-          "quote": "Tosh Lupoi",
-          "note": "Listed in the Coaching staff table as Co-defensive coordinator and outside linebackers coach for 2017."
-        }
-      ]
-    },
-    {
-      "name": "Burton Burns",
-      "role": "Associate Head Coach/Running Backs",
-      "role_category": "onfield",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Associate Head Coach/Running Backs",
-          "note": "FOOTBALL department row; name cell reads \"Burton Burns\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20170828042923/http://rolltide.com/coaches.aspx?path=football",
-          "quote": "Associate Head Coach/Running Backs/Special Teams",
-          "note": "The August 2017 season-labeled 2017 Football Coaching Staff page words Burns's title with the added special teams duty; the January 2018 directory dropped it."
+          "url": "http://web.archive.org/web/20170918034120/http://www.rolltide.com/coaches.aspx?rc=685&path=football",
+          "quote": "In 2016, Lupoi has helped coordinate a defense that led the nation in scoring defense (13.0 ppg) and rushing defense (63.9 ypg), while ranking second in total defense (261.8 ypg) and ninth in pass efficiency defense (106.47).",
+          "note": "Official 2017 rolltide.com coach bio; page header reads Tosh Lupoi / Title / Co-Defensive Coordinator and Outside Linebackers."
         }
       ]
     },
@@ -112,14 +70,36 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Defensive Backs",
-          "note": "FOOTBALL department row; name cell reads \"Derrick Ansley\". Same title on the 2017 Football Coaching Staff page."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Derrick Ansley'."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
-          "quote": "Derrick Ansley",
-          "note": "Listed in the Coaching staff table with position \"Defensive backs\", 2nd season."
+          "url": "http://web.archive.org/web/20171107055152/http://rolltide.com/coaches.aspx?rc=594&path=football",
+          "quote": "He spent the previous four seasons as a secondary coach at Tennessee (2012) and Kentucky (2013-15) after a two-year stint as a graduate assistant for Alabama during the 2010 and 2011 seasons.",
+          "note": "Official rolltide.com bio archived Nov 7, 2017; page header reads Derrick Ansley / Title / Defensive Backs. Opening line of the bio states he is in his second season on Saban's staff as the defensive backs coach."
+        }
+      ]
+    },
+    {
+      "name": "Burton Burns",
+      "role": "Associate Head Coach/Running Backs/Special Teams",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20170906073014/http://www.rolltide.com/coaches.aspx?path=football",
+          "quote": "Associate Head Coach/Running Backs/Special Teams",
+          "note": "'2017 Football Coaching Staff' page, snapshot Sept 6, 2017; row 'Burton Burns'."
+        },
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Associate Head Coach/Running Backs",
+          "note": "Jan 7, 2018 official staff directory lists Burton Burns with the shortened title 'Associate Head Coach/Running Backs'."
+        },
+        {
+          "url": "http://web.archive.org/web/20171012225420/http://www.rolltide.com/coaches.aspx?rc=684&path=football",
+          "quote": "Over 20 seasons as a college assistant, Burns has produced versatile running backs who have been effective in every phase of the game.",
+          "note": "Official rolltide.com bio page; header reads Burton Burns / Title / Associate Head Coach/Running Backs."
         }
       ]
     },
@@ -129,14 +109,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Defensive Line",
-          "note": "FOOTBALL department row; name cell reads \"Karl Dunbar\". Same title on the 2017 Football Coaching Staff page."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Karl Dunbar'."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
-          "quote": "Karl Dunbar",
-          "note": "Listed in the Coaching staff table as Defensive line coach, 2nd season."
+          "quote": "Defensive line coach",
+          "note": "Coaching staff table of the 2017 team-season article: row 'Karl Dunbar' / 'Defensive line coach' / 2nd season."
         }
       ]
     },
@@ -146,14 +126,31 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Offensive Line",
-          "note": "FOOTBALL department row; name cell reads \"Brent Key\". Same title on the 2017 Football Coaching Staff page."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Brent Key'."
         },
         {
-          "url": "https://www.rollbamaroll.com/2017/3/17/14923452/alabama-tide-spring-football-2017-previewing-coaching-staff",
-          "quote": "As the second-longest tenured offensive assistant at Alabama, Key will take over the whole offensive line.",
-          "note": "Contiguous prose confirming Key's 2017 offensive line role."
+          "url": "http://web.archive.org/web/20170906073014/http://www.rolltide.com/coaches.aspx?path=football",
+          "quote": "Offensive Line",
+          "note": "'2017 Football Coaching Staff' page, snapshot Sept 6, 2017; row 'Brent Key'."
+        }
+      ]
+    },
+    {
+      "name": "Michael Locksley",
+      "role": "Co-Offensive Coordinator/Wide Receivers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Co-Offensive Coordinator/Wide Receivers",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Michael Locksley'. Wikipedia and other sources render the first name as 'Mike'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
+          "quote": "Co-offensive coordinator and wide receivers coach",
+          "note": "Coaching staff table row 'Mike Locksley'."
         }
       ]
     },
@@ -163,14 +160,48 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Special Teams Coordinator/Tight Ends",
-          "note": "FOOTBALL department row; name cell reads \"Joe Pannunzio\". Same title on the 2017 Football Coaching Staff page."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Joe Pannunzio'."
+        },
+        {
+          "url": "http://web.archive.org/web/20170918032857/http://www.rolltide.com/coaches.aspx?rc=696&path=football",
+          "quote": "Pannunzio inherits junior tight end Hale Hentges and sophomore Miller Forristall for the 2017 season giving the Crimson Tide proven talent and depth at the position.",
+          "note": "Official rolltide.com bio; header reads Joe Pannunzio / Title / Special Teams Coordinator/Tight Ends."
+        }
+      ]
+    },
+    {
+      "name": "Brian Daboll",
+      "role": "Offensive Coordinator/Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Offensive Coordinator/Quarterbacks",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Brian Daboll'."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
-          "quote": "Joe Pannunzio",
-          "note": "Listed in the Coaching staff table as Tight end coach and special teams coordinator, 1st season."
+          "quote": "Offensive coordinator and quarterbacks coach",
+          "note": "Coaching staff table row 'Brian Daboll', 1st season. He left for the Buffalo Bills only after the championship game."
+        }
+      ]
+    },
+    {
+      "name": "Bobby Williams",
+      "role": "Special Assistant to the Head Coach",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Special Assistant to the Head Coach",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Bobby Williams'. Off-field role in 2017 (Alabama's nine on-field assistants were Ansley, Burns, Daboll, Dunbar, Key, Locksley, Lupoi, Pannunzio and Pruitt)."
+        },
+        {
+          "url": "http://web.archive.org/web/20170918034029/http://www.rolltide.com/coaches.aspx?rc=686&path=football",
+          "quote": "The 2015 season saw tight end O.J. Howard rank third on the team with 602 receiving yards and tied for third in receptions with 38.",
+          "note": "Official rolltide.com bio; header reads Bobby Williams / Title / Special Assistant to the Head Coach."
         }
       ]
     },
@@ -180,14 +211,14 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Head Strength and Conditioning Coach, Football",
-          "note": "STRENGTH AND CONDITIONING department row; name cell reads \"Scott Cochran\". He is also listed in the FOOTBALL-adjacent 2017 Football Coaching Staff page as \"Head Strength and Conditioning Coach\"."
+          "note": "Jan 7, 2018 official staff directory, STRENGTH AND CONDITIONING section row 'Scott Cochran'."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
-          "quote": "Scott Cochran",
-          "note": "Listed in the Coaching staff table with position \"Strength and conditioning\", 10th season."
+          "url": "http://web.archive.org/web/20170906073014/http://www.rolltide.com/coaches.aspx?path=football",
+          "quote": "Head Strength and Conditioning Coach",
+          "note": "'2017 Football Coaching Staff' page, snapshot Sept 6, 2017; row 'Scott Cochran'."
         }
       ]
     },
@@ -197,9 +228,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Assistant Head Strength and Conditioning Coach, Football and Women's Basketball",
-          "note": "STRENGTH AND CONDITIONING department row; name cell reads \"Terry Jones\". Note the straight apostrophe in \"Women's\" as it appears in the source HTML."
+          "note": "Jan 7, 2018 official staff directory, STRENGTH AND CONDITIONING section row 'Terry Jones'. Also pictured in the 2017 Alabama Football Media Guide 'Coaches and Staff' pages as STRENGTH & CONDITIONING."
         }
       ]
     },
@@ -209,9 +240,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Assistant Strength and Conditioning Coach, Football",
-          "note": "STRENGTH AND CONDITIONING department row; name cell reads \"Kindal Moorehead\". This exact title string is shared by three football S&C assistants (Moorehead, Josh Chapman, Tyler Owens)."
+          "note": "Jan 7, 2018 official staff directory, STRENGTH AND CONDITIONING section row 'Kindal Moorehead'. Also pictured in the 2017 media guide 'Coaches and Staff' pages as STRENGTH & CONDITIONING."
         }
       ]
     },
@@ -221,9 +252,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Assistant Strength and Conditioning Coach, Football",
-          "note": "STRENGTH AND CONDITIONING department row; name cell reads \"Josh Chapman\". Title string shared with Moorehead and Owens."
+          "note": "Jan 7, 2018 official staff directory, STRENGTH AND CONDITIONING section row 'Josh Chapman'. Also pictured in the 2017 media guide 'Coaches and Staff' pages as STRENGTH & CONDITIONING."
         }
       ]
     },
@@ -233,111 +264,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Assistant Strength and Conditioning Coach, Football",
-          "note": "STRENGTH AND CONDITIONING department row; name cell reads \"Tyler Owens\". Title string shared with Moorehead and Chapman."
-        }
-      ]
-    },
-    {
-      "name": "Chris Weinke",
-      "role": "Football Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Football Analyst",
-          "note": "FOOTBALL department row; name cell reads \"Chris Weinke\". The string \"Football Analyst\" is the Title cell text and is shared by eight analysts in this snapshot."
-        },
-        {
-          "url": "https://www.rollbamaroll.com/2017/3/17/14923452/alabama-tide-spring-football-2017-previewing-coaching-staff",
-          "quote": "Weinke recently served as the quarterbacks coach for the Los Angeles Rams (2015-16).",
-          "note": "March 2017 preview identifying Weinke as the highest-profile addition to Alabama's 2017 analyst group."
-        }
-      ]
-    },
-    {
-      "name": "Dan Werner",
-      "role": "Football Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Football Analyst",
-          "note": "FOOTBALL department row; name cell reads \"Dan Werner\"."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
-          "quote": "Dan Werner",
-          "note": "Listed under the Analysts heading of the 2017 team article's coaching staff section."
-        }
-      ]
-    },
-    {
-      "name": "William Vlachos",
-      "role": "Football Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Football Analyst",
-          "note": "FOOTBALL department row; name cell reads \"William Vlachos\"."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
-          "quote": "William Vlachos",
-          "note": "Listed under the Analysts heading of the 2017 team article; also in the Wikipedia 2017 Alabama consensus national champions navbox."
-        }
-      ]
-    },
-    {
-      "name": "Wes Neighbors",
-      "role": "Football Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Football Analyst",
-          "note": "FOOTBALL department row; name cell reads \"Wes Neighbors\"."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
-          "quote": "Wes Neighbors",
-          "note": "Listed under the Analysts heading of the 2017 team article's coaching staff section."
-        }
-      ]
-    },
-    {
-      "name": "Shea Tierney",
-      "role": "Football Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Football Analyst",
-          "note": "FOOTBALL department row; name cell reads \"Shea Tierney\"."
-        },
-        {
-          "url": "https://www.rollbamaroll.com/2017/3/17/14923452/alabama-tide-spring-football-2017-previewing-coaching-staff",
-          "quote": "Former Philadelphia Eagles analyst Shea Tierney enters his second season with the Tide.",
-          "note": "Contiguous prose sentence (no inline markup) naming Tierney as a returning 2017 analyst."
-        }
-      ]
-    },
-    {
-      "name": "Garrett Cox",
-      "role": "Football Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Football Analyst",
-          "note": "FOOTBALL department row; name cell reads \"Garrett Cox\"."
-        },
-        {
-          "url": "https://www.rollbamaroll.com/2017/3/17/14923452/alabama-tide-spring-football-2017-previewing-coaching-staff",
-          "quote": "Also returning are Garrett Cox, Dean Altobelli, and Brendan Farrell.",
-          "note": "Contiguous prose sentence naming three returning 2017 analysts."
+          "note": "Jan 7, 2018 official staff directory, STRENGTH AND CONDITIONING section row 'Tyler Owens'."
         }
       ]
     },
@@ -347,14 +276,31 @@
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Football Analyst",
-          "note": "FOOTBALL department row; name cell reads \"Dean Altobelli\"."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Dean Altobelli' / 'Football Analyst'."
         },
         {
-          "url": "https://www.rollbamaroll.com/2017/3/17/14923452/alabama-tide-spring-football-2017-previewing-coaching-staff",
-          "quote": "Also returning are Garrett Cox, Dean Altobelli, and Brendan Farrell.",
-          "note": "Contiguous prose sentence naming three returning 2017 analysts."
+          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
+          "quote": "Dean Altobelli",
+          "note": "Listed under the 'Analysts' heading in the Coaching staff section of the 2017 team-season article."
+        }
+      ]
+    },
+    {
+      "name": "Shea Tierney",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Football Analyst",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Shea Tierney' / 'Football Analyst'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Shea_Tierney",
+          "quote": "He also spent three seasons with the Philadelphia Eagles as an analyst and coaching intern, and also worked for Alabama as an offensive analyst.",
+          "note": "Tierney's infobox lists Alabama (2016-2017), Offensive analyst."
         }
       ]
     },
@@ -364,48 +310,157 @@
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Football Analyst",
-          "note": "FOOTBALL department row; the name cell reads \"Brendan  Farrell\" with a DOUBLE space between first and last name in the source HTML. I normalized to a single space in the name field."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Brendan  Farrell' (name cell contains a double space in the source) / 'Football Analyst'."
         },
         {
-          "url": "https://www.rollbamaroll.com/2017/3/17/14923452/alabama-tide-spring-football-2017-previewing-coaching-staff",
-          "quote": "Also returning are Garrett Cox, Dean Altobelli, and Brendan Farrell.",
-          "note": "Contiguous prose sentence naming three returning 2017 analysts."
+          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
+          "quote": "Brendan Farrell",
+          "note": "Listed under the 'Analysts' heading in the Coaching staff section."
+        }
+      ]
+    },
+    {
+      "name": "Wes Neighbors",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Football Analyst",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Wes Neighbors' / 'Football Analyst'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
+          "quote": "Wes Neighbors",
+          "note": "Listed under the 'Analysts' heading in the Coaching staff section."
+        }
+      ]
+    },
+    {
+      "name": "William Vlachos",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Football Analyst",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'William Vlachos' / 'Football Analyst'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
+          "quote": "William Vlachos",
+          "note": "Listed under the 'Analysts' heading in the Coaching staff section."
+        }
+      ]
+    },
+    {
+      "name": "Garrett Cox",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Football Analyst",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Garrett Cox' / 'Football Analyst'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
+          "quote": "Garrett Cox",
+          "note": "Listed under the 'Analysts' heading in the Coaching staff section."
+        }
+      ]
+    },
+    {
+      "name": "Dan Werner",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Football Analyst",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Dan Werner' / 'Football Analyst'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
+          "quote": "Dan Werner",
+          "note": "Listed under the 'Analysts' heading in the Coaching staff section."
+        }
+      ]
+    },
+    {
+      "name": "Chris Weinke",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Football Analyst",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Chris Weinke' / 'Football Analyst'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
+          "quote": "Chris Weinke",
+          "note": "Listed under the 'Analysts' heading in the Coaching staff section."
         }
       ]
     },
     {
       "name": "Rob Ezell",
-      "role": "offensive analyst",
+      "role": "Analyst",
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/Rob_Ezell",
-          "quote": "He then served as an offensive analyst from 2017 to 2020",
-          "note": "Ezell's biography; the preceding sentence establishes Alabama as the employer, and the infobox coaching timeline reads \"2017–2020Alabama (OA)\". He does not appear in the rolltide.com directory analyst block, which lists only the eight staffers titled \"Football Analyst\"."
-        },
-        {
           "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
           "quote": "Rob Ezell",
-          "note": "Listed under the Analysts heading of the 2017 team article; also present in the Wikipedia 2017 Alabama consensus national champions navbox assistant-coach list."
+          "note": "Listed under the 'Analysts' heading in the Coaching staff section of the 2017 team-season article. Ezell is also pictured as ANALYST in the 2017 Alabama Football Media Guide 'Coaches and Staff' pages, but he is not in the Jan 7, 2018 online staff directory, which lists only eight 'Football Analyst' rows."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Rob_Ezell",
+          "quote": "Rob Ezell",
+          "note": "Ezell's biography infobox lists coaching years 2017-2020 at Alabama as OA (offensive analyst)."
         }
       ]
     },
     {
       "name": "Alex Mortensen",
-      "role": "analyst",
+      "role": "Analyst",
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/Alex_Mortensen",
-          "quote": "2017–2019Alabama (analyst)",
-          "note": "Verbatim run-together string from the rendered infobox coaching timeline (Wikipedia infoboxes render year and team without a separating space). Mortensen's article contains no prose sentence about the Alabama analyst role, so this infobox line is the only supporting text on that page."
+          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
+          "quote": "Alex Mortensen",
+          "note": "Listed under the 'Analysts' heading in the Coaching staff section. Also pictured as ANALYST in the 2017 Alabama Football Media Guide 'Coaches and Staff' pages; not present in the Jan 7, 2018 online staff directory."
         },
         {
-          "url": "https://247sports.com/college/alabama/Article/Tracking-Alabama-Footballs-off-the-field-staff-changes-128028255/",
-          "quote": "Mortensen, a former quarterback at Arkansas, Samford and the Tennessee Titans, first arrived in Tuscaloosa as a graduate assistant in 2014 and moved up to an analyst before his departure this offseason.",
-          "note": "Article tracking Alabama off-field staff changes; the departure referenced is the 2018-19 offseason, so the analyst tenure spans the 2017 championship season."
+          "url": "https://en.wikipedia.org/wiki/Alex_Mortensen",
+          "quote": "In 2014, he joined the Alabama Crimson Tide as an offensive graduate assistant.",
+          "note": "Mortensen's infobox lists 2017-2019 Alabama (analyst); the quoted sentence establishes the Alabama tenure that began as a GA in 2014 before he moved to analyst."
+        }
+      ]
+    },
+    {
+      "name": "Jake Thornton",
+      "role": "Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2017-media-guide-c",
+          "quote": "",
+          "note": "Pictured in the 'Coaches and Staff' pages of the 2017 Alabama Football Media Guide with the caption GRADUATE ASSISTANT. Quote left empty because the only machine-readable version is an OCR layer of a scanned PDF in which first and last names are split across separate lines and characters are frequently garbled, so no faithful verbatim string can be copied."
+        }
+      ]
+    },
+    {
+      "name": "Kyle Pope",
+      "role": "Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
+          "quote": "Kyle Pope",
+          "note": "Listed under the 'Graduate Assistant' heading in the Coaching staff section of the 2017 team-season article. Also pictured as GRADUATE ASSISTANT in the 2017 media guide 'Coaches and Staff' pages."
         }
       ]
     },
@@ -415,48 +470,31 @@
       "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://247sports.com/college/alabama/Article/Tracking-Alabama-Footballs-off-the-field-staff-changes-128028255/",
-          "quote": "Miller spent the past two seasons as an offensive graduate assistant under Locksley with the Crimson Tide.",
-          "note": "Written when Miller left for Maryland after the 2018 season, so \"the past two seasons\" covers 2017 and 2018. His Wikipedia infobox reads \"2017–2018Alabama (GA)\"."
+          "url": "https://en.wikipedia.org/wiki/Mike_Miller_(American_football_coach,_born_1991)",
+          "quote": "Miller was hired as a graduate assistant at Alabama by head coach Nick Saban in 2017 to work under newly hired offensive coordinator Brian Daboll.",
+          "note": "Infobox lists 2017-2018 Alabama (GA)."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
           "quote": "Mike Miller",
-          "note": "Listed under the Graduate Assistant heading of the 2017 team article's coaching staff section; also in the 2017 consensus national champions navbox."
+          "note": "Listed under the 'Graduate Assistant' heading in the Coaching staff section."
         }
       ]
     },
     {
       "name": "Nick Perry",
-      "role": "graduate assistant",
+      "role": "Graduate assistant",
       "role_category": "gradasst",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Nick_Perry_(safety)",
           "quote": "Perry began his coaching career at his alma mater in Alabama in 2017",
-          "note": "The full sentence continues \"as a graduate assistant\" after an inline reference marker, so I trimmed the quote at a word boundary before the marker to keep it a contiguous substring. Perry is a former Alabama safety who joined Saban's staff for the 2017 season."
+          "note": "Sentence continues 'as a graduate assistant.'; the infobox lists Alabama (2017-2018) Graduate assistant and credits him with the 2017 CFP national championship."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
           "quote": "Nick Perry",
-          "note": "Listed under the Graduate Assistant heading of the 2017 team article; also in the 2017 consensus national champions navbox."
-        }
-      ]
-    },
-    {
-      "name": "Kyle Pope",
-      "role": "defensive line graduate assistant",
-      "role_category": "gradasst",
-      "sources": [
-        {
-          "url": "https://247sports.com/college/alabama/Article/Tracking-Alabama-Footballs-off-the-field-staff-changes-128028255/",
-          "quote": "Pope served as a defensive line graduate assistant for the Crimson Tide under position coaches Karl Dunbar and Craig Kuligowski.",
-          "note": "Same article states he left \"after spending the last two seasons at Alabama\"; written after the 2018 season, so his tenure covers 2017 and 2018. Dunbar was Alabama's DL coach in 2017."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
-          "quote": "Kyle Pope",
-          "note": "Listed under the Graduate Assistant heading of the 2017 team article's coaching staff section."
+          "note": "Listed under the 'Graduate Assistant' heading in the Coaching staff section."
         }
       ]
     },
@@ -466,26 +504,14 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Associate Athletics Director, Football",
-          "note": "Appears in both the ATHLETICS ADMINISTRATION and FOOTBALL department blocks; name cell reads \"Ed Marynowitz\". The August 2017 2017 Football Coaching Staff page words it \"Associate Athletic Director for Football\"."
-        }
-      ]
-    },
-    {
-      "name": "Bobby Williams",
-      "role": "Special Assistant to the Head Coach",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Special Assistant to the Head Coach",
-          "note": "FOOTBALL department row; name cell reads \"Bobby Williams\". Same title on the season-labeled 2017 Football Coaching Staff page."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Ed Marynowitz'."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
-          "quote": "2017 Alabama Crimson Tide football team",
-          "note": "Bobby Williams appears in the Wikipedia 2017 Alabama consensus national champions navbox assistant-coach list linked from this article."
+          "url": "http://web.archive.org/web/20170906073014/http://www.rolltide.com/coaches.aspx?path=football",
+          "quote": "Associate Athletic Director for Football",
+          "note": "'2017 Football Coaching Staff' page, snapshot Sept 6, 2017; row 'Ed Marynowitz'."
         }
       ]
     },
@@ -495,9 +521,14 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Director/Player Personnel",
-          "note": "FOOTBALL department row; name cell reads \"Jody Wright\". The August 2017 2017 Football Coaching Staff page words it \"Director, Player Personnel\"."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Jody Wright'."
+        },
+        {
+          "url": "http://web.archive.org/web/20170918032925/http://www.rolltide.com/coaches.aspx?rc=687&path=football",
+          "quote": "Alabama put together the No. 1 signing class in the country in February of 2015 according to three major recruiting services.",
+          "note": "Official rolltide.com bio; header reads Jody Wright / Title / Director/Player Personnel."
         }
       ]
     },
@@ -507,92 +538,14 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Director, Football Operations",
-          "note": "FOOTBALL department row; name cell reads \"Ellis Ponder\". Identical title on the season-labeled 2017 Football Coaching Staff page."
-        }
-      ]
-    },
-    {
-      "name": "Ashleigh Kimble",
-      "role": "Associate Director Recruiting Operations",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Associate Director Recruiting Operations",
-          "note": "FOOTBALL department row; name cell reads \"Ashleigh Kimble\". Title has no comma after \"Director\" in the source."
-        }
-      ]
-    },
-    {
-      "name": "Sam Petitto",
-      "role": "Assistant Director of Player Personnel",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Assistant Director of Player Personnel",
-          "note": "FOOTBALL department row; name cell reads \"Sam Petitto\"."
-        }
-      ]
-    },
-    {
-      "name": "Brian Niedermeyer",
-      "role": "Assistant Director, Personnel Operations",
-      "role_category": "ops",
-      "midseason_note": "Followed Jeremy Pruitt to Tennessee as tight ends coach after Pruitt's December 2017 hire, but is still listed in Alabama's January 9, 2018 staff directory (the day after the title game), and his Wikipedia infobox credits him as a 2017 CFP national champion.",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Assistant Director, Personnel Operations",
-          "note": "FOOTBALL department row; name cell reads \"Brian Niedermeyer\". Present in the snapshot taken the day after the championship game."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Ellis Ponder'."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/Brian_Niedermeyer",
-          "quote": "Niedermeyer got promoted to assistant director of recruiting operations in 2017",
-          "note": "His biography words the 2017 role as assistant director of recruiting operations; the official directory words it \"Assistant Director, Personnel Operations\"."
-        }
-      ]
-    },
-    {
-      "name": "Kerry Stevenson",
-      "role": "Director of Player Development",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Director of Player Development",
-          "note": "FOOTBALL department row; name cell reads \"Kerry Stevenson\"."
-        },
-        {
-          "url": "https://247sports.com/college/alabama/Article/Tracking-Alabama-Footballs-off-the-field-staff-changes-128028255/",
-          "quote": "former Alabama director of player development Kerry Stevenson, who was hired in the same role",
-          "note": "Confirms the role title; his departure to Tennessee came after the 2018 season, so he was on staff for 2017."
-        }
-      ]
-    },
-    {
-      "name": "Denzel Devall",
-      "role": "Director, Player Development",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Director, Player Development",
-          "note": "FOOTBALL department row; name cell reads \"Denzel Devall\". Distinct from Kerry Stevenson's near-identical title \"Director of Player Development\"; both are listed separately in the same snapshot."
-        }
-      ]
-    },
-    {
-      "name": "Leah Knight",
-      "role": "Director, Football Recruitment",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Director, Football Recruitment",
-          "note": "FOOTBALL department row; name cell reads \"Leah Knight\"."
+          "url": "http://web.archive.org/web/20171003040441/http://www.rolltide.com/coaches.aspx?rc=697&path=football",
+          "quote": "His primary role with the Crimson Tide is to oversee the day-to-day organizational and operational aspects of the Alabama football program.",
+          "note": "Official rolltide.com bio; header reads Ellis Ponder / Title / Director, Football Operations."
         }
       ]
     },
@@ -602,9 +555,9 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Associate Director, Football Operations",
-          "note": "FOOTBALL department row; name cell reads \"Brandy Lyerly\"."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Brandy Lyerly'. Also pictured in the 2017 media guide 'Coaches and Staff' pages."
         }
       ]
     },
@@ -614,9 +567,86 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Assistant Director, Football Operations",
-          "note": "FOOTBALL department row; name cell reads \"JT Summerford\" (no periods in the initials in the source)."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'JT Summerford'. Also pictured in the 2017 media guide 'Coaches and Staff' pages."
+        }
+      ]
+    },
+    {
+      "name": "Ashleigh Kimble",
+      "role": "Associate Director Recruiting Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Associate Director Recruiting Operations",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Ashleigh Kimble'. The 2017 media guide captions her photo ASSISTANT DIRECTOR, PLAYER PERSONNEL."
+        }
+      ]
+    },
+    {
+      "name": "Sam Petitto",
+      "role": "Assistant Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Assistant Director of Player Personnel",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Sam Petitto'. The 2017 media guide captions his photo DIRECTOR, PERSONNEL OPERATIONS."
+        }
+      ]
+    },
+    {
+      "name": "Brian Niedermeyer",
+      "role": "Assistant Director, Personnel Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Assistant Director, Personnel Operations",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Brian Niedermeyer'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2017_Alabama_Crimson_Tide_football_team",
+          "quote": "Brian Niedermeyer",
+          "note": "Listed under the 'Analysts' heading in the Wikipedia Coaching staff section; the official directory and media guide both give the more precise personnel-operations title used here."
+        }
+      ]
+    },
+    {
+      "name": "Leah Knight",
+      "role": "Director, Football Recruitment",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Director, Football Recruitment",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Leah Knight'. Also pictured in the 2017 media guide as DIRECTOR, FOOTBALL RECRUITING."
+        }
+      ]
+    },
+    {
+      "name": "Kerry Stevenson",
+      "role": "Director of Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Director of Player Development",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Kerry Stevenson'. He also has a full bio in the 2017 media guide's Coaches and Staff section."
+        }
+      ]
+    },
+    {
+      "name": "Denzel Devall",
+      "role": "Director, Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Director, Player Development",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Denzel Devall'. The 2017 media guide bio reads that he was named Alabama's director of player development in February of 2017 after a year as associate director of player development in 2016."
         }
       ]
     },
@@ -626,21 +656,9 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Athletics Relations Coordinator",
-          "note": "FOOTBALL department row; name cell reads \"Cedric Burns\". Listed inside the FOOTBALL block, not the athletics-wide administration block."
-        }
-      ]
-    },
-    {
-      "name": "Javier Arenas",
-      "role": "Athletics Support Assistant",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Athletics Support Assistant",
-          "note": "Final row of the FOOTBALL department block; name cell reads \"Javier Arenas\". Former Alabama defensive back."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Cedric Burns'. The 2017 media guide captions his photo COORDINATOR OF ATHLETIC RELATIONS."
         }
       ]
     },
@@ -650,9 +668,9 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Administrative Assistant",
-          "note": "FOOTBALL department row; name cell reads \"Linda Leoni\". This generic title string also occurs in other departments of the same page, so the FOOTBALL block placement is what ties it to the football program."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Linda Leoni' / 'Administrative Assistant'."
         }
       ]
     },
@@ -662,45 +680,21 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Administrative Secretary",
-          "note": "FOOTBALL department row; name cell reads \"Glenda Edwards\". This generic title string also occurs in other departments of the same page; the FOOTBALL block placement ties it to the football program."
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Glenda Edwards'. The 2017 media guide captions her photo ADMINISTRATIVE ASSISTANT FOR HEAD COACH."
         }
       ]
     },
     {
-      "name": "Josh Maxson",
-      "role": "Assistant Athletics Director, Football Communications",
+      "name": "Javier Arenas",
+      "role": "Athletics Support Assistant",
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Assistant Athletics Director, Football Communications",
-          "note": "Listed in the COMMUNICATIONS department block, but the title is explicitly football-designated; name cell reads \"Josh Maxson\"."
-        }
-      ]
-    },
-    {
-      "name": "Daniel Lyerly",
-      "role": "Assistant Athletics Director, Football Video Services",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Assistant Athletics Director, Football Video Services",
-          "note": "Listed in the VIDEO SERVICES department block, but the title is explicitly football-designated; name cell reads \"Daniel Lyerly\"."
-        }
-      ]
-    },
-    {
-      "name": "Jeremy Gsell",
-      "role": "Assistant Athletic Trainer/Football",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
-          "quote": "Assistant Athletic Trainer/Football",
-          "note": "TRAINING department row; name cell reads \"Jeremy Gsell\". The only person in Alabama's athletics-wide training block with an explicit football designation."
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Athletics Support Assistant",
+          "note": "Jan 7, 2018 official staff directory, FOOTBALL section row 'Javier Arenas' — the last entry in the football listing."
         }
       ]
     },
@@ -710,9 +704,93 @@
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Associate Athletics Director, Sports Medicine",
-          "note": "TRAINING department row; name cell reads \"Jeff Allen\". CAVEAT: this title is athletics-wide, not football-specific. Allen headed Alabama's sports medicine operation and is the responsible lead for football, but the source does not designate him to football, so treat this row as inferred-by-role rather than explicitly football-labeled."
+          "note": "Jan 7, 2018 official staff directory, TRAINING section row 'Jeff Allen'. He also receives a full bio in the 2017 Alabama Football Media Guide's Coaches and Staff section, where he is described as the football program's head athletic trainer figure."
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Gsell",
+      "role": "Assistant Athletic Trainer/Football",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Assistant Athletic Trainer/Football",
+          "note": "Jan 7, 2018 official staff directory, TRAINING section row 'Jeremy Gsell'. The 2017 media guide captions his photo DIRECTOR, REHAB/ATHLETIC TRAINER."
+        }
+      ]
+    },
+    {
+      "name": "Ryan Vicknair",
+      "role": "Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Athletic Trainer",
+          "note": "Jan 7, 2018 official staff directory, TRAINING section row 'Ryan Vicknair'. He is one of the trainers pictured in the football media guide's Coaches and Staff pages (caption ATHLETIC TRAINER), which is why he is included and other department trainers are not."
+        }
+      ]
+    },
+    {
+      "name": "Ginger Gilmore",
+      "role": "Director of Behavioral Medicine",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Director of Behavioral Medicine",
+          "note": "Jan 7, 2018 official staff directory, TRAINING section row 'Ginger Gilmore'. The 2017 football media guide captions her photo DIRECTOR, BEHAVIORAL MEDICINE/ATHLETIC TRAINER."
+        }
+      ]
+    },
+    {
+      "name": "Amy Bragg",
+      "role": "Director of Performance Nutrition",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Director of Performance Nutrition",
+          "note": "Jan 7, 2018 official staff directory, TRAINING section row 'Amy Bragg'. She also receives a full bio in the 2017 Alabama Football Media Guide's Coaches and Staff section."
+        }
+      ]
+    },
+    {
+      "name": "Frank Newell",
+      "role": "Assistant Sports Nutritionist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Assistant Sports Nutritionist",
+          "note": "Jan 7, 2018 official staff directory, TRAINING section row 'Frank Newell'. The 2017 football media guide captions his photo ASSISTANT DIRECTOR, PERFORMANCE NUTRITION."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Lyle Cain",
+      "role": "Director, Orthopedic Surgeon",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2017-media-guide-c",
+          "quote": "",
+          "note": "Pictured in the 'Coaches and Staff' pages of the 2017 Alabama Football Media Guide with the caption DIRECTOR, ORTHOPEDIC SURGEON. Quote left empty because the item is a scanned PDF whose OCR layer splits the honorific, first name and surname across separate lines, so no faithful verbatim string exists in the machine-readable text."
+        }
+      ]
+    },
+    {
+      "name": "Dr. James Robinson",
+      "role": "Medical Director",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2017-media-guide-c",
+          "quote": "",
+          "note": "Pictured in the 'Coaches and Staff' pages of the 2017 Alabama Football Media Guide with the caption MEDICAL DIRECTOR. Quote left empty for the same OCR reason as above."
         }
       ]
     },
@@ -722,11 +800,144 @@
       "role_category": "equipment",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20180109063923/http://rolltide.com/staff.aspx",
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
           "quote": "Associate Athletics Director, Equipment Operations",
-          "note": "EQUIPMENT department row; name cell reads \"Jeffrey Springer\". CAVEAT: athletics-wide title. He is the head of equipment operations, and the only other equipment staffer with a sport designation is assigned to Olympic sports (\"Athletics Equipment Manager for Olympic Sports\"), which implies Springer covered football; but the source does not say so explicitly."
+          "note": "Jan 7, 2018 official staff directory, EQUIPMENT section row 'Jeffrey Springer'. He also receives a full bio in the 2017 Alabama Football Media Guide's Coaches and Staff section, which describes him coordinating the athletic equipment director role for the Crimson Tide. Commonly rendered 'Jeff Springer'."
+        }
+      ]
+    },
+    {
+      "name": "Kyle Smith",
+      "role": "Assistant Athletic Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Assistant Athletic Equipment Manager",
+          "note": "Jan 7, 2018 official staff directory, EQUIPMENT section row 'Kyle Smith'. The 2017 football media guide captions his photo ASSISTANT EQUIPMENT MANAGER in the football Coaches and Staff pages."
+        }
+      ]
+    },
+    {
+      "name": "Daniel Lyerly",
+      "role": "Assistant Athletics Director, Football Video Services",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Assistant Athletics Director, Football Video Services",
+          "note": "Jan 7, 2018 official staff directory, VIDEO SERVICES section row 'Daniel Lyerly'. Also pictured in the 2017 football media guide's Coaches and Staff pages with the same title."
+        }
+      ]
+    },
+    {
+      "name": "Troy Finney",
+      "role": "Associate Athletics Director, Sports Technology",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Associate Athletics Director, Sports Technology",
+          "note": "Jan 7, 2018 official staff directory, VIDEO SERVICES section row 'Troy Finney'. He receives a full bio in the 2017 Alabama Football Media Guide's Coaches and Staff section, which states he administers all video and technology for Alabama's football coaching staff."
+        }
+      ]
+    },
+    {
+      "name": "Josh Maxson",
+      "role": "Assistant Athletics Director, Football Communications",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx",
+          "quote": "Assistant Athletics Director, Football Communications",
+          "note": "Jan 7, 2018 official staff directory, COMMUNICATIONS section row 'Josh Maxson'. Also pictured in the 2017 football media guide's Coaches and Staff pages with the same title."
+        }
+      ]
+    },
+    {
+      "name": "Jonathan King",
+      "role": "Director, Football Graphic Design",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2017-media-guide-c",
+          "quote": "",
+          "note": "Pictured in the 'Coaches and Staff' pages of the 2017 Alabama Football Media Guide with the caption DIRECTOR, FOOTBALL GRAPHIC DESIGN. Quote left empty because the source is a scanned PDF whose OCR layer splits names across lines."
+        }
+      ]
+    },
+    {
+      "name": "Chris Liskiewicz",
+      "role": "Assistant Director, Football Graphics",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2017-media-guide-c",
+          "quote": "",
+          "note": "Pictured in the 'Coaches and Staff' pages of the 2017 Alabama Football Media Guide with the caption ASSISTANT DIRECTOR, FOOTBALL GRAPHICS. Quote left empty for the OCR reason above."
+        }
+      ]
+    },
+    {
+      "name": "Michaiah Smith",
+      "role": "Assistant Director, Football Graphic Design",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2017-media-guide-c",
+          "quote": "",
+          "note": "Pictured in the 'Coaches and Staff' pages of the 2017 Alabama Football Media Guide with the caption ASSISTANT DIRECTOR, FOOTBALL GRAPHIC DESIGN. Quote left empty for the OCR reason above."
+        }
+      ]
+    },
+    {
+      "name": "Molly Dowd",
+      "role": "Assistant Director, Athletic Student Services",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20171017022939/http://www.rolltide.com/staff.aspx?print=true",
+          "quote": "Assistant Director, Athletic Student Services",
+          "note": "Printable version of Alabama's official athletics staff directory, snapshot Oct 17, 2017; ACADEMICS section row 'Molly Dowd'. Included because she is one of the staff pictured in the 2017 football media guide's football Coaches and Staff pages (caption ASSISTANT DIRECTOR, ATHLETICS STUDENT SERVICES), i.e. she was the football program's academic liaison."
+        }
+      ]
+    },
+    {
+      "name": "Gary Cramer",
+      "role": "Director of the FCA",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2017-media-guide-c",
+          "quote": "",
+          "note": "Pictured in the 'Coaches and Staff' pages of the 2017 Alabama Football Media Guide with the caption DIRECTOR OF THE FCA (Fellowship of Christian Athletes). Quote left empty because the source is a scanned PDF whose OCR layer splits names across lines."
+        }
+      ]
+    },
+    {
+      "name": "Jessie Peoples",
+      "role": "State Trooper",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2017-media-guide-c",
+          "quote": "",
+          "note": "Pictured in the 'Coaches and Staff' pages of the 2017 Alabama Football Media Guide with the caption STATE TROOPER (team security detail). Quote left empty for the OCR reason above."
+        }
+      ]
+    },
+    {
+      "name": "Eddie Wilder",
+      "role": "State Trooper",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2017-media-guide-c",
+          "quote": "",
+          "note": "Pictured in the 'Coaches and Staff' pages of the 2017 Alabama Football Media Guide with the caption STATE TROOPER (team security detail). Quote left empty for the OCR reason above."
         }
       ]
     }
-  ]
+  ],
+  "coverage_notes": "SOURCES USED. (1) Best source by far: Alabama's own athletics staff directory captured on the Wayback Machine at http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx — snapshot dated Jan 7, 2018, ONE DAY BEFORE the Jan 8, 2018 CFP National Championship. Its FOOTBALL category lists 34 people; STRENGTH AND CONDITIONING, TRAINING, EQUIPMENT, VIDEO SERVICES and COMMUNICATIONS categories flag football-designated staff. A functionally identical Oct 17, 2017 printable snapshot (http://web.archive.org/web/20171017022939/http://www.rolltide.com/staff.aspx?print=true) corroborates it, so the football staff was unchanged across the season. (2) The rolltide.com page literally headed \"2017 Football Coaching Staff\" (snapshot Sept 6, 2017) plus several individual archived coach bio pages. (3) The 2017 Alabama Football Media Guide (Internet Archive item alabama-football-2017-media-guide-c), whose \"Coaches and Staff\" pages carry a 42-photo grid of the full football support staff. (4) Wikipedia's 2017 team-season article and individual coach biographies.\n\nQUOTE FORMAT CAVEAT. The staff directory and coaching-staff pages are HTML tables in which the name and the title sit in separate cells; there is no contiguous run of page text containing both. To keep quotes mechanically matchable I quoted the exact title cell string verbatim and identified the person, section and snapshot date in the accompanying note. Quotes from bio pages and Wikipedia are full prose sentences.\n\nEMPTY QUOTES. Ten people are documented only by the 2017 media guide, which on the Internet Archive exists as a scanned PDF with a poor OCR layer that splits first and last names onto separate lines and garbles characters. Per instructions their quote is \"\" with the caption recorded in the note: Jake Thornton, Dr. Lyle Cain, Dr. James Robinson, Jonathan King, Chris Liskiewicz, Michaiah Smith, Gary Cramer, Jessie Peoples, Eddie Wilder. (Rob Ezell and Alex Mortensen appear there too but are additionally backed by Wikipedia.)\n\nWHAT I COULD NOT NAIL DOWN. (a) Graduate assistants are absent from the official online directory entirely; the four listed (Jake Thornton, Kyle Pope, Mike Miller, Nick Perry) come from the media guide plus Wikipedia. The media guide grid shows only three GA photos, so the GA group may be slightly incomplete or may have turned over during the season. (b) Rob Ezell and Alex Mortensen are captioned ANALYST in the July 2017 media guide but are NOT among the eight \"Football Analyst\" rows in the Oct 2017 or Jan 2018 directory; their own Wikipedia infoboxes say Alabama 2017-2020 and 2017-2019 respectively, so I kept them, but I could not confirm from a January 2018 official listing that they were still on staff at the title game. (c) One \"STRENGTH & CONDITIONING\" photo in the media guide grid is unreadable in OCR; I matched it to Tyler Owens using the directory's football-designated S&C rows, which is an inference, though Owens' own directory row is directly sourced. (d) No student assistants, recruiting interns, equipment student managers or video interns are recoverable from any source I found.\n\nDELIBERATE EXCLUSIONS. Freddie Roach is listed as a 2017 Alabama analyst on Wikipedia's team-season page; that is WRONG — Ole Miss hired him away from Alabama in February 2017 and he did not return to Tuscaloosa until 2019, so he is omitted. Pete Golding (whose rolltide.com bio page was archived Jan 12, 2018), Butch Jones, Craig Kuligowski, Dan Enos and Josh Gattis all joined after the Jan 8, 2018 championship game and are excluded under the ring rule. I also excluded athletics-department staff with no football designation (other sports' trainers, S&C coaches, communications and video staff), keeping only those the football media guide itself pictures in its football \"Coaches and Staff\" pages or the directory explicitly tags to football.\n\nMID-SEASON NOTE. Only one true mid-season status change was found: Jeremy Pruitt was hired as Tennessee's head coach on Dec. 7, 2017 but remained Alabama's defensive coordinator and coached the national championship game, so he qualifies under the ring rule. Brian Daboll (Buffalo Bills), Derrick Ansley and Shea Tierney all departed AFTER the title game, so they were on staff for it."
 }

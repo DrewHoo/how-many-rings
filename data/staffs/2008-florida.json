@@ -1,7 +1,7 @@
 {
   "team": "Florida",
   "season": 2008,
-  "coverage_notes": "SOURCES USED. (1) Wikipedia team-season page https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team — has an explicit \"Coaching staff\" section listing all 10 on-field coaches; every quote I cite from it was mechanically verified present in the rendered page text. (2) The school's own archived staff directory: https://web.archive.org/web/20081007232739/http://www.gatorzone.com/football/bios/roster/spring2008coaches.html — a snapshot taken 7 Oct 2008, i.e. DURING the championship season, titled \"2008 Coaches\". This is the strongest source and independently confirms all 10 on-field coaches with the school's own wording. Also used the 9 Aug 2008 snapshot of gatorzone.com/football/bios.php?year=2008, which additionally lists Terry Jackson under a \"Staff\" heading. (3) The 2008 Florida Football Media Guide PDF (archived copy, ~115 MB, 208 pp.): https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf — pp. 88-92 carry the full support-staff bios and photo grid, p. 22 the \"2008 Sports Health Staff\" panel, p. 205 a \"Staff Information\" quick-facts block. This is where essentially all non-on-field staff came from.\n\nWHY MANY QUOTES ARE EMPTY. Everything sourced only to the media guide has quote: \"\". That PDF's text layer does not extract faithfully — it renders letter-spaced/justified display type, so extraction produces artifacts like \"P atriots\", \"Ky l e  J o h n s t o n\", \"or thopaedic\", \"UF ,\". A verbatim string match would fail through no fault of the claim. I instead rendered each relevant page to an image and read it visually, and put the exact printed name and title plus page number in each source note. So those rows are real and eyeball-verified, just not string-matchable. The 11 rows sourced to Wikipedia and to GatorZone HTML do carry true verbatim quotes, all of which I programmatically confirmed match the live page text.\n\nWEB SEARCH WAS UNAVAILABLE. This session's web-search budget was exhausted before I started, so I could not run contemporary-news sweeps (hire announcements, championship-week coverage). Everything here came from direct URL fetches and the Wayback CDX index. That mainly cost me the ability to chase mid-season personnel churn and to confirm titles against news reporting.\n\nTIER-BY-TIER HONESTY.\n- Head coach and on-field assistants (10 of 10): COMPLETE and double-sourced. Florida ran the full NCAA-allowed 9 assistants plus Meyer.\n- Strength and conditioning (4): believed complete for football — Marotti, Holsopple, Campbell, Piraino. Only Marotti and Holsopple also appear in the p. 205 quick-facts block; Campbell and Piraino come from their p. 89/91 bios.\n- Graduate assistants (2): Sean Cronin (defense) and Zach Smith (offense) are the only two given bios. Programs of this era were capped at two football GAs, so this is very likely complete, but I could not affirmatively rule out unlisted GAs.\n- ANALYSTS AND QUALITY CONTROL: RECOVERED ZERO, and I believe that is correct rather than a gap. No one on the 2008 staff carries an \"analyst\" or \"quality control\" title anywhere in the media guide. The only QC reference is retrospective — Zach Smith's bio noting he \"took the role as a Special Teams and Offensive Quality Control assistant\" in 2006, a job he had left by 2008. The large off-field analyst rooms of the modern era did not exist under 2008 NCAA staff limits. I have returned no analyst or qc rows; do not read that as thin documentation.\n- Operations / personnel / recruiting (9): good coverage, though two people carry conflicting titles between the bio pages and the p. 205 quick-facts block (Jon Clark: \"Director of Football Operations\" vs \"Director of Football Administration\"; Nancy Scarborough: \"Executive Assistant to Head Coach\" vs \"Office Manager\"). I used the bio-page wording and flagged the variant in each note.\n- Equipment (2), medical/sports health (25 including student trainers), and student managers (10): documented, but with the caveat below.\n\nTWO CAVEATS THAT AFFECT RING ELIGIBILITY.\n- TIMING. The media guide went to press in mid-June 2008 (page footers read 6/14/08 and 6/15/08), before the season began. The GatorZone coaches page I used is from 7 Oct 2008, mid-season, and matches the guide exactly for on-field coaches — so the coaching staff was demonstrably stable. For the support tiers I have no January 2009 snapshot and therefore cannot prove each person was still on staff at the BCS title game on 8 Jan 2009. I found no evidence of any support-staff departure, but that is absence of evidence.\n- SCOPE. Some medical, nutrition, and dental personnel (Chris Patrick, Jay Clugston, Tim Shay, Susan Tillman, Anna Grout, Cheryl Zonkowski, and the oral surgeons/dentist/ophthalmologist) are University Athletic Association department-wide staff who appear in the football guide and serve football, not football-only employees. Likewise the six athletic training students and ten student managers are students, not staff hires. I included them because they are documented on the team's staff pages, but you may want to gate them out of ring counts. They are all flagged in their notes.\n\nONE MID-SEASON NOTE. Dan Mullen was hired as Mississippi State's head coach on 11 December 2008 but remained Florida's offensive coordinator through the 8 January 2009 title game, so he satisfies the ring rule. Flagged on his row. The three 2008 departures Wikipedia mentions in \"Before the season\" — Doc Holliday to West Virginia, Stan Drayton to Tennessee, Greg Mattison to the Ravens — all left BEFORE the 2008 season and are deliberately excluded; Bedford, Carter and McCarney are their replacements. No names in this dataset are inferred or padded.",
+  "coverage_notes": "SOURCES USED (in the order requested):\n1. Wikipedia \"2008 Florida Gators football team\" — has a real \"Coaching staff\" table (section 6.3) listing the head coach plus 9 on-field assistants. Note: the WebFetch/markdown rendering of this page sometimes drops that table; it is present in the article HTML and in the wikitext (Special:Export). Its own citation points at a July 2009 Wayback capture of gatorzone.com/football/bios.php, which is the 2009 staff, NOT 2008 — I did not rely on that capture.\n2. School athletics site archived near the title date — https://web.archive.org/web/20081217012732/http://www.gatorzone.com/football/bios.php (captured Dec 17, 2008, i.e. between the SEC title game and the Jan 8, 2009 BCS Championship). Its \"Coaches\" block confirms all 10 on-field coaches and exactly one support-staff name (Terry Jackson). Note for the verifier: on this page the coach NAME and the ROLE sit in two separate <td> cells, so no single verbatim run contains both. I therefore quoted the contiguous role string only from this source, and used Wikipedia (where name and role are one contiguous list item) for name+role quotes.\n3. 2008 Florida football media guide — this is where essentially all support-staff coverage comes from. The linked floridagators.com URL (/documents/2016/2/11/2008_FB_media_guide.pdf?id=14741) returns an HTML wrapper page, not the PDF; the actual file is the S3 URL I cited (110 MB, 208 pages). Support staff bios are on printed pp. 88-92, the \"Football Staff\" photo grid + \"2008 Athletic Trainers\" + \"2008 Managers\" lists on printed p. 92, the \"2008 Sports Health Staff\" grid on printed p. 22, and a compact staff directory in \"2008 Florida Football Quick Facts\" on printed p. 205.\n\nQUOTE HONESTY: Per the instructions, every media-guide row has quote set to \"\" because the PDF's text layer does not extract faithfully — it injects spurious intra-word spaces (the extracted text literally reads \"Anthony P ass\", \"Mark P antoni\", \"Ky l e  J o h n s t o n\", \"Human P erformance\"). Any mechanical string match would fail through no fault of the claim. Each of those rows instead carries a note with the exact printed page and the exact printed wording of the name/title block. Rows sourced from Wikipedia and the Wayback gatorzone capture DO carry true verbatim quotes.\n\nWHAT I RECOVERED\n- On-field: complete. All 10 (head coach + 9 assistants), triple-sourced (Wikipedia table, Dec-2008 gatorzone capture, media guide Quick Facts p. 205).\n- Strength & conditioning: 4 (Marotti, Holsopple, Campbell, Piraino), all with full media-guide bios.\n- Graduate assistants: 2 (Sean Cronin - defense, Zach Smith - offense), both with full media-guide bios.\n- Operations/personnel/recruiting/video/academic: 12, from media-guide bios, the p. 92 \"Football Staff\" grid, and the p. 205 directory.\n- Equipment: 2 (Baisden, McGrew).\n- Medical/sports health/nutrition: 18, including the football-specific athletic training staff, the physicians/dentists/therapists on the p. 92 \"Football Staff\" grid, and the graduate interns and athletic training students named on p. 92.\n- Student managers: 10, named on p. 92 under \"2008 Managers / Student Assistants\".\n\nWHAT I COULD NOT RECOVER / CAVEATS\n- ANALYST tier: nothing. Florida in 2008 had no documented \"analyst\" titles; that role category did not exist in the program's published materials for this era. Zero rows returned as analyst — this is a genuine absence, not a research gap.\n- QUALITY CONTROL tier: no 2008 QC staffer is documented anywhere I could find. The only QC mention in the guide is retrospective — Zach Smith's bio says he held a \"Special Teams and Offensive Quality Control\" role in 2006 before becoming a GA. If Florida employed QC assistants in 2008 they were not published. Zero qc rows.\n- GA count: only 2 GAs are documented. NCAA rules of the era permitted up to 4 football GAs, so it is likely 1-2 more existed and were simply not printed in the media guide. I did not guess at names.\n- The media guide went to press in June 2008 (InDesign stamps read 6/14/08 and 6/15/08). It therefore reflects the roster of support staff at the START of the season. I cross-checked the on-field staff against the December 2008 capture and they match exactly, but I have NO independent December/January confirmation for any support-staff row. Anyone in the support tiers who left between June 2008 and the Jan 8, 2009 title game would not be flagged here — I could not find a late-season staff directory to check against.\n- SCOPE JUDGMENT: I included the p. 22 \"2008 Sports Health Staff\" grid (Chris Patrick, Dr. Jay Clugston, Tim Shay, Susan Tillman, Anna Grout, Joshua Chatman) even though some are University Athletic Association department-wide rather than football-only, because that page appears inside the football media guide. Ring-eligibility for these is a judgment call for the dataset owner. Similarly, Ross DeWitt (Director of Aviation) and Malcom Jowers (Team Security) appear on the football staff page but are department resources.\n- I deliberately EXCLUDED the Sports Information / media relations staff (Steve McClain, Mary Howard, etc., printed p. 206-207) — they are athletic department SID, not football staff.\n- Hiram de Fries is listed on p. 92 with the literal title \"Football Staff\" (verified via layout-mode extraction, so it is his title and not a stray section header). His actual function — Meyer's longtime mentor/advisor — is not stated in the guide, so I recorded the title as printed and categorized him \"other\".\n- Two names in the p. 92 manager list appear to contain typos in the source (\"Evan Hillestsad\", \"Alexis Candelania\"). I reproduced them exactly as printed rather than correcting them.\n- MIDSEASON: two flagged. Dan Mullen accepted the Mississippi State head job in December 2008 but coached the BCS title game; Steve Addazio was promoted to offensive coordinator on Dec 27, 2008, before the Jan 8 title game. Both were on staff at the championship game, so both count under the ring rule. Vance Bedford, Kenny Carter and Dan McCarney were all first-year hires who arrived in the 2008 offseason (replacing Doc Holliday, Stan Drayton and Greg Mattison), not mid-season arrivals, so they carry no midseason_note.",
   "staff": [
     {
       "name": "Urban Meyer",
@@ -9,13 +9,14 @@
       "role_category": "headcoach",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20081007232739/http://www.gatorzone.com/football/bios/roster/spring2008coaches.html",
-          "quote": "Head Coach",
-          "note": "School's own '2008 Coaches' page, Wayback snapshot 7 Oct 2008 (mid-season). Meyer is listed alone above the '2008 Assistant Coaches' heading."
+          "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
+          "quote": "Urban Meyer – Head coach – 3 years at UF",
+          "note": "Bullet in the article's \"Coaching staff\" table, captioned \"2008 Florida Gators coaching staff\". Dashes are en dashes (U+2013)."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
-          "quote": "Urban Meyer – Head coach – 3 years at UF"
+          "url": "https://web.archive.org/web/20081217012732/http://www.gatorzone.com/football/bios.php",
+          "quote": "Head Coach",
+          "note": "Official UF athletics site captured Dec 17, 2008, three weeks before the BCS title game. Under the heading \"Coaches\", the row reads Urban Meyer / Head Coach; name and title are in separate table cells so only the title is a contiguous verbatim run."
         }
       ]
     },
@@ -23,14 +24,22 @@
       "name": "Steve Addazio",
       "role": "Assistant Head Coach, Offense/Offensive Line",
       "role_category": "onfield",
+      "midseason_note": "Promoted to offensive coordinator on Dec 27, 2008 — after the regular season and SEC Championship, but 12 days before the Jan 8, 2009 BCS National Championship Game. He was on staff for the title game.",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20081007232739/http://www.gatorzone.com/football/bios/roster/spring2008coaches.html",
-          "quote": "Assistant Head Coach, Offense/Offensive Line"
+          "url": "https://web.archive.org/web/20081217012732/http://www.gatorzone.com/football/bios.php",
+          "quote": "Assistant Head Coach, Offense/Offensive Line",
+          "note": "Official UF site captured Dec 17, 2008, listing Steve Addazio under \"Assistant Coaches\"."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
-          "quote": "Steve Addazio – Assistant head coach, offense/offensive line – 3 years"
+          "quote": "Steve Addazio – Assistant head coach, offense/offensive line – 3 years",
+          "note": "Row in the \"2008 Florida Gators coaching staff\" table."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
+          "quote": "Urban Meyer named Steve Addazio as the offensive coordinator shortly thereafter",
+          "note": "Supports the midseason_note. Appears in the BCS National Championship game-summary section, immediately after the sentence about Dan Mullen taking the Mississippi State job."
         }
       ]
     },
@@ -42,12 +51,12 @@
         {
           "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
           "quote": "Vance Bedford – Cornerbacks – 0 years",
-          "note": "First season at Florida in 2008, replacing staff that departed before the season."
+          "note": "Row in the \"2008 Florida Gators coaching staff\" table; \"0 years\" denotes his first season at UF."
         },
         {
-          "url": "https://web.archive.org/web/20081007232739/http://www.gatorzone.com/football/bios/roster/spring2008coaches.html",
+          "url": "https://web.archive.org/web/20081217012732/http://www.gatorzone.com/football/bios.php",
           "quote": "Cornerbacks",
-          "note": "Role cell for Bedford on the 7 Oct 2008 '2008 Coaches' page. Quoted role-only because the source HTML renders his name with irregular internal spacing ('Vance   Bedford'), which would break a verbatim match."
+          "note": "Official UF site captured Dec 17, 2008; Vance Bedford's row under \"Assistant Coaches\"."
         }
       ]
     },
@@ -57,13 +66,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20081007232739/http://www.gatorzone.com/football/bios/roster/spring2008coaches.html",
-          "quote": "Running Backs"
-        },
-        {
           "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
           "quote": "Kenny Carter – Running backs – 0 years",
-          "note": "First season at Florida in 2008, replacing Stan Drayton who left for Tennessee before the season."
+          "note": "Row in the \"2008 Florida Gators coaching staff\" table; first season at UF, replacing Stan Drayton."
+        },
+        {
+          "url": "https://web.archive.org/web/20081217012732/http://www.gatorzone.com/football/bios.php",
+          "quote": "Running Backs",
+          "note": "Official UF site captured Dec 17, 2008; Kenny Carter's row under \"Assistant Coaches\"."
         }
       ]
     },
@@ -73,12 +83,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20081007232739/http://www.gatorzone.com/football/bios/roster/spring2008coaches.html",
-          "quote": "Recruiting Coordinator/Wide Receivers"
+          "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
+          "quote": "Billy Gonzales – Recruiting coordinator/wide receivers – 3 years",
+          "note": "Row in the \"2008 Florida Gators coaching staff\" table."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
-          "quote": "Billy Gonzales – Recruiting coordinator/wide receivers – 3 years"
+          "url": "https://web.archive.org/web/20081217012732/http://www.gatorzone.com/football/bios.php",
+          "quote": "Recruiting Coordinator/Wide Receivers",
+          "note": "Official UF site captured Dec 17, 2008; Billy Gonzales' row under \"Assistant Coaches\"."
         }
       ]
     },
@@ -88,12 +100,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20081007232739/http://www.gatorzone.com/football/bios/roster/spring2008coaches.html",
-          "quote": "Assistant Defensive Coordinator/Safeties"
+          "url": "https://web.archive.org/web/20081217012732/http://www.gatorzone.com/football/bios.php",
+          "quote": "Assistant Defensive Coordinator/Safeties",
+          "note": "Official UF site captured Dec 17, 2008; Chuck Heater's row under \"Assistant Coaches\"."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
-          "quote": "Assistant defensive coordinator/safeties – 3 years"
+          "quote": "Assistant defensive coordinator/safeties – 3 years",
+          "note": "Row in the \"2008 Florida Gators coaching staff\" table reads \"Chuck Heater –     Assistant defensive coordinator/safeties – 3 years\". The source HTML contains five literal spaces after the en dash following his name, so I trimmed the quote to the contiguous single-spaced portion to keep it mechanically matchable."
         }
       ]
     },
@@ -104,12 +118,13 @@
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
-          "quote": "John Hevesy – Tight ends/assistant offensive line"
+          "quote": "John Hevesy – Tight ends/assistant offensive line",
+          "note": "Row in the \"2008 Florida Gators coaching staff\" table. Full row ends \"…offensive line  – 3 years\" with a double space before the final en dash, so the quote stops short of it."
         },
         {
-          "url": "https://web.archive.org/web/20081007232739/http://www.gatorzone.com/football/bios/roster/spring2008coaches.html",
+          "url": "https://web.archive.org/web/20081217012732/http://www.gatorzone.com/football/bios.php",
           "quote": "Ends/Assistant Offensive Line",
-          "note": "Partial role quote. The source HTML reads 'Tight   Ends/Assistant Offensive Line' with irregular internal spacing, so I quoted the clean trailing portion to keep the match exact."
+          "note": "Official UF site captured Dec 17, 2008; John Hevesy's row reads \"Tight   Ends/Assistant Offensive Line\" with three literal spaces after \"Tight\", so the quote starts after that gap."
         }
       ]
     },
@@ -121,12 +136,12 @@
         {
           "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
           "quote": "Dan McCarney – Assistant head coach, defense/defensive line – 0 years",
-          "note": "First season at Florida in 2008, replacing co-defensive coordinator/DL coach Greg Mattison who left for the Baltimore Ravens before the season."
+          "note": "Row in the \"2008 Florida Gators coaching staff\" table; first season at UF, replacing Greg Mattison."
         },
         {
-          "url": "https://web.archive.org/web/20081007232739/http://www.gatorzone.com/football/bios/roster/spring2008coaches.html",
+          "url": "https://web.archive.org/web/20081217012732/http://www.gatorzone.com/football/bios.php",
           "quote": "Defense/Defensive Line",
-          "note": "Partial role quote. Source HTML reads 'Assistant Head Coach,   Defense/Defensive Line' with irregular internal spacing."
+          "note": "Official UF site captured Dec 17, 2008; Dan McCarney's row reads \"Assistant Head Coach,   Defense/Defensive Line\" with three literal spaces after the comma, so the quote starts after that gap."
         }
       ]
     },
@@ -134,21 +149,22 @@
       "name": "Dan Mullen",
       "role": "Offensive Coordinator/Quarterbacks",
       "role_category": "onfield",
-      "midseason_note": "Hired as Mississippi State's head coach on 11 December 2008 but stayed on Florida's staff and coached the BCS National Championship Game on 8 January 2009, so he was on staff at the championship game.",
+      "midseason_note": "Accepted the Mississippi State head coaching job in December 2008 but remained Florida's offensive coordinator through, and coached in, the Jan 8, 2009 BCS National Championship Game.",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20081007232739/http://www.gatorzone.com/football/bios/roster/spring2008coaches.html",
-          "quote": "Coordinator/Quarterbacks",
-          "note": "Partial role quote. Source HTML reads 'Offensive   Coordinator/Quarterbacks' with irregular internal spacing."
+          "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
+          "quote": "Dan Mullen – Offensive coordinator/quarterbacks – 3 years",
+          "note": "Row in the \"2008 Florida Gators coaching staff\" table."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
-          "quote": "Dan Mullen – Offensive coordinator/quarterbacks – 3 years"
+          "quote": "but Dan Mullen would still coach in the game",
+          "note": "Supports the midseason_note. From the BCS National Championship section, in the sentence describing Mullen accepting the Mississippi State job and Addazio being named OC."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/Dan_Mullen",
-          "quote": "On December 11, 2008, Mullen was hired as the head coach of Mississippi State",
-          "note": "Supports the midseason_note. His Wikipedia infobox still lists his Florida tenure as 2005-2008."
+          "url": "https://web.archive.org/web/20081217012732/http://www.gatorzone.com/football/bios.php",
+          "quote": "Coordinator/Quarterbacks",
+          "note": "Official UF site captured Dec 17, 2008; Dan Mullen's row reads \"Offensive   Coordinator/Quarterbacks\" with three literal spaces after \"Offensive\", so the quote starts after that gap."
         }
       ]
     },
@@ -158,13 +174,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
-          "quote": "Charlie Strong – Defensive coordinator, associate head coach/linebackers – 8 years"
+          "url": "https://web.archive.org/web/20081217012732/http://www.gatorzone.com/football/bios.php",
+          "quote": "Defensive Coordinator, Associate Head Coach/Linebackers",
+          "note": "Official UF site captured Dec 17, 2008; Charlie Strong's row under \"Assistant Coaches\"."
         },
         {
-          "url": "https://web.archive.org/web/20081007232739/http://www.gatorzone.com/football/bios/roster/spring2008coaches.html",
-          "quote": "Associate Head Coach/Linebackers",
-          "note": "Partial role quote. Source HTML reads 'Defensive Coordinator,   Associate Head Coach/Linebackers' with irregular internal spacing."
+          "url": "https://en.wikipedia.org/wiki/2008_Florida_Gators_football_team",
+          "quote": "Charlie Strong – Defensive coordinator, associate head coach/linebackers – 8 years",
+          "note": "Row in the \"2008 Florida Gators coaching staff\" table."
         }
       ]
     },
@@ -174,14 +191,19 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/Mickey_Marotti",
-          "quote": "In 2005, when Meyer took over as head coach for Florida Marotti joined Meyer's coaching staff as director of strength and conditioning.",
-          "note": "Verbatim from rendered page. Marotti's article also carries the 2008 Florida Gators football navbox, tying him to this specific team."
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 88 (PDF page 88 of 208). Full-page bio; the title block beside his photo reads \"Director of Strength and Conditioning\", and the sidebar \"MAROTTI file / Coaching Experience\" lists \"2005 Florida (Director of Strength -Present and Conditioning)\". Quote left empty because the PDF text layer inserts spurious intra-word spaces (e.g. it extracts \"Human P erformance\", \"Ambridge, P a.\"), so no string would match reliably."
         },
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 88 — full-page bio, printed title 'Director of Strength and Conditioning', with a career table reading '2005-Present Florida (Director of Strength and Conditioning)'. Also listed on p. 205 quick facts as 'DIRECTOR OF STRENGTH AND CONDITIONING: Mickey Marotti'. Quote left empty because this 115 MB PDF's text layer extracts unfaithfully; page verified by rendering to image."
+          "note": "Same PDF, printed p. 205, \"2008 Florida Football Quick Facts\" staff directory: \"DIRECTOR OF STRENGTH AND CONDITIONING: Mickey Marotti\"."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mickey_Marotti",
+          "quote": "In 2005, when Meyer took over as head coach for Florida Marotti joined Meyer's coaching staff as director of strength and conditioning.",
+          "note": "Corroborating HTML source with a genuine verbatim quote (straight apostrophe in \"Meyer's\", verified against the raw page). Establishes the role but not the specific season; the media guide establishes 2008."
         }
       ]
     },
@@ -191,9 +213,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide pp. 89-90 — bio heading 'Scott Holsopple / Assistant Director of Strength and Conditioning', described as entering his second season in the role. Corroborated on p. 205: 'ASSISTANT DIRECTOR, STRENGTH AND CONDITIONING: Scott Holsopple'. Quote empty due to unfaithful PDF text extraction; verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 89. Bio header reads \"Scott Holsopple / Assistant Director of Strength and Conditioning\" and the body opens \"Scott Holsopple enters his second season as Assistant Director of Strength and Conditioning at the University of Florida.\" Also in the printed p. 205 Quick Facts directory: \"ASSISTANT DIRECTOR, STRENGTH AND CONDITIONING: Scott Holsopple\". Quote empty per the PDF-extraction caveat in coverage_notes."
         }
       ]
     },
@@ -203,9 +225,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 89 — bio heading 'Mark Campbell / Coordinator, Strength and Conditioning', entering his seventh year with the Florida strength program. Quote empty due to unfaithful PDF text extraction; page verified by rendering to image."
+          "note": "2008 Florida football media guide, printed p. 89. Bio header reads \"Mark Campbell / Coordinator, Strength and Conditioning\"; body: \"Mark Campbell enters his seventh year with the Florida Strength and Conditioning program, as he joined the Gator staff in January of 2002.\" Season-specific detail in the same bio: his daughter \"will turn one in August, 2008\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
@@ -215,9 +237,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 91 — bio heading 'Frank Piraino / Coordinator, Strength and Conditioning', entering his fourth year at UF and working primarily with the football team. Quote empty due to unfaithful PDF text extraction; verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 91. Bio header reads \"Frank Piraino / Coordinator, Strength and Conditioning\"; body: \"Frank Piraino enters his fourth season at UF and works primarily with Florida's football team as Coordinator, Strength and Conditioning.\" Quote empty per the PDF-extraction caveat."
         }
       ]
     },
@@ -227,9 +249,9 @@
       "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 89 — bio heading 'Sean Cronin / Graduate Assistant Coach', entering his third season as a GA at Florida and assigned to assist with the defense. Quote empty due to unfaithful PDF text extraction; heading confirmed by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 89. Bio header reads \"Sean Cronin / Graduate Assistant Coach\"; body: \"Sean Cronin is entering his third season as a Graduate Assistant at the University of Florida, and will assist with the defense.\" Quote empty per the PDF-extraction caveat."
         }
       ]
     },
@@ -239,9 +261,9 @@
       "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide pp. 91-92 — bio heading 'Zach Smith / Offensive Graduate Assistant', fourth season on staff and first as a GA on offense, assigned to the wide receivers. His earlier 2006 role as a special teams/offensive quality control assistant is described as past, not his 2008 job. Quote empty due to unfaithful PDF text extraction."
+          "note": "2008 Florida football media guide, printed p. 91. Bio header reads \"Zach Smith / Offensive Graduate Assistant\"; body: \"Zach Smith is entering his fourth season on staff at the University of Florida, and first as a Graduate Assistant on Offense… He will spend this fall working with the Gator wide receivers.\" Quote empty per the PDF-extraction caveat."
         }
       ]
     },
@@ -251,9 +273,9 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 89 — bio heading 'Jon Clark / Director of Football Operations', entering his fourth season. TITLE CONFLICT: the p. 205 quick-facts block instead reads 'DIRECTOR OF FOOTBALL ADMINISTRATION: Jon Clark'. I used the bio-page wording. Quote empty due to unfaithful PDF text extraction; heading confirmed by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 89. Bio header reads \"Jon Clark / Director of Football Operations\"; body: \"Jon Clark, entering his fourth season as Florida's Director of Football Operations…\". The same guide's Quick Facts directory (printed p. 205) words it differently: \"DIRECTOR OF FOOTBALL ADMINISTRATION: Jon Clark\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
@@ -263,14 +285,14 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20080809114532/http://www.gatorzone.com/football/bios.php?year=2008",
+          "url": "https://web.archive.org/web/20081217012732/http://www.gatorzone.com/football/bios.php",
           "quote": "Director of Player and Community Relations",
-          "note": "School's own 2008 football roster/bios page, Wayback snapshot 9 Aug 2008. Jackson appears under a 'Staff' heading immediately below the 2008 coaches list — the only non-coach the site listed."
+          "note": "Official UF athletics site captured Dec 17, 2008. He is the single name listed under the \"Staff\" heading below the coaches; name and title are in separate table cells, so only the title is a contiguous verbatim run."
         },
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 90 — bio heading 'Terry Jackson / Director of Player and Community Relations', noting he joined the staff in March of 2008, so he was in place for the full season."
+          "note": "2008 media guide, printed p. 90. Bio header \"Terry Jackson / Director of Player and Community Relations\"; body: \"Former Gator Great Terry Jackson is in his first year as Director of Player and Community Relations… joined the staff in March of 2008.\" Also printed p. 205 Quick Facts. Quote empty per the PDF-extraction caveat."
         }
       ]
     },
@@ -280,69 +302,9 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide pp. 91-92 — bio heading 'Brian Voltolini / Director of Football Video/Software Operations', third season with the team. Corroborated on p. 205: 'DIRECTOR OF VIDEO/SOFTWARE OPERATIONS: Brian Voltolini'. Quote empty due to unfaithful PDF text extraction."
-        }
-      ]
-    },
-    {
-      "name": "Nancy Scarborough",
-      "role": "Executive Assistant to Head Coach",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — photo-grid caption 'Nancy Scarborough / Executive Assistant to Head Coach'. TITLE CONFLICT: p. 205 quick facts reads 'OFFICE MANAGER: Nancy Scarborough'. I used the photo-grid wording. Caption verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Emily Heater",
-      "role": "Program Assistant",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — photo-grid caption 'Emily Heater / Program Assistant'. p. 205 is more specific: 'PROGRAM ASSISTANTS FOR RECRUITING: Emily Heater and Mark Pantoni'. Caption verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Mark Pantoni",
-      "role": "Program Assistant",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — photo-grid caption 'Mark Pantoni / Program Assistant'. p. 205: 'PROGRAM ASSISTANTS FOR RECRUITING: Emily Heater and Mark Pantoni'. Caption verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Katie Plageman",
-      "role": "Staff Assistant",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — photo-grid caption 'Katie Plageman / Staff Assistant'. Corroborated on p. 205: 'STAFF ASSISTANTS: Katie Plageman and Amy Halpin'. Caption verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Amy Halpin",
-      "role": "Staff Assistant",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 205 quick-facts block: 'STAFF ASSISTANTS: Katie Plageman and Amy Halpin'. Halpin has no photo or bio elsewhere in the guide, so this single line is the whole record for her."
+          "note": "2008 Florida football media guide, printed p. 91. Bio header reads \"Brian Voltolini / Director of Football Video/Software Operations\"; body: \"Brian Voltolini is entering his third season with the University of Florida football team as Director of Football Video/Software Operations.\" Also printed p. 205: \"DIRECTOR OF VIDEO/SOFTWARE OPERATIONS: Brian Voltolini\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
@@ -352,357 +314,93 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — photo-grid caption 'Wayne Cederholm / Assistant Director, Video Services'. Caption verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92, in the \"Football Staff\" photo grid. His caption reads \"Wayne Cederholm / Assistant Director, Video Services\". Confirmed via layout-mode extraction that the name and this title are vertically paired in the same grid cell. Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
-      "name": "Jason Baisden",
-      "role": "Football Equipment Manager",
-      "role_category": "equipment",
+      "name": "Nancy Scarborough",
+      "role": "Executive Assistant to Head Coach",
+      "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 89 — bio heading 'Jason Baisden / Football Equipment Manager', fourth season in the role. Corroborated on p. 205: 'FOOTBALL EQUIPMENT MANAGER: Jason Baisden'. Heading confirmed by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Nancy Scarborough / Executive Assistant to Head Coach\". The Quick Facts directory on printed p. 205 words the same job as \"OFFICE MANAGER: Nancy Scarborough\", and the football office phone listing reads \"Office Manager – Nancy Scarborough (ext. 4128)\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
-      "name": "Jeff McGrew",
-      "role": "Assistant Equipment Manager",
-      "role_category": "equipment",
+      "name": "Emily Heater",
+      "role": "Program Assistant",
+      "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 91 — bio heading 'Jeff McGrew / Assistant Equipment Manager', seventh season on the equipment staff and third as assistant manager. Quote empty due to unfaithful PDF text extraction."
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Emily Heater / Program Assistant\". The Quick Facts directory on printed p. 205 is more specific: \"PROGRAM ASSISTANTS FOR RECRUITING: Emily Heater and Mark Pantoni\" (extracted as \"Mark P antoni\"). Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
-      "name": "Anthony Pass",
-      "role": "Associate Director of Sports Health, Head Athletic Trainer, Football",
-      "role_category": "medical",
+      "name": "Mark Pantoni",
+      "role": "Program Assistant",
+      "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 91 — bio heading 'Anthony Pass / Associate Director of Sports Health / Head Athletic Trainer, Football'. Also on the p. 22 '2008 Sports Health Staff' panel as 'Anthony Pass / Head Athletic Trainer', and on p. 205: 'HEAD ATHLETIC TRAINER, FOOTBALL: Anthony Pass'. Verified by rendering both pages."
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Mark Pantoni / Program Assistant\". Printed p. 205 Quick Facts: \"PROGRAM ASSISTANTS FOR RECRUITING: Emily Heater and Mark Pantoni\". Quote empty per the PDF-extraction caveat — the extractor renders his surname as \"P antoni\"."
         }
       ]
     },
     {
-      "name": "Kyle Johnston",
-      "role": "Assistant Athletic Trainer, Football",
-      "role_category": "medical",
+      "name": "Katie Plageman",
+      "role": "Staff Assistant",
+      "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide pp. 90-91 — bio heading 'Kyle Johnston / Assistant Athletic Trainer, Football', fourth season with the football team. Also on the p. 22 '2008 Sports Health Staff' panel as 'Kyle Johnston / Assistant Athletic Trainer'. Verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Katie Plageman / Staff Assistant\". Printed p. 205: \"STAFF ASSISTANTS: Katie Plageman and Amy Halpin\" and \"Staff Assistants – Amy Halpin, Katie Plageman (ext. 4100)\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
-      "name": "Meghan Fornoff",
-      "role": "Assistant Athletic Trainer, Football",
-      "role_category": "medical",
+      "name": "Amy Halpin",
+      "role": "Staff Assistant",
+      "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 89 — bio heading 'Meghan Fornoff / Assistant Athletic Trainer, Football', third season with the football team and first as assistant AT, promoted in spring 2008. Also on the p. 22 '2008 Sports Health Staff' panel. Heading confirmed by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Dr. Peter A. Indelicato",
-      "role": "Head Team Physician",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 90 — bio heading 'Dr. Peter A. Indelicato / Head Team Physician', UF head team physician since 1977. Appears on the p. 22 '2008 Sports Health Staff' panel as 'Dr. Pete Indelicato / Head Team Physician/Team'. University-wide sports medicine role serving football."
-        }
-      ]
-    },
-    {
-      "name": "Dr. Jay Clugston",
-      "role": "Team Physician",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 22 — '2008 Sports Health Staff' photo panel, caption 'Dr. Jay Clugston / Team Physician'. Panel verified by rendering the page image. Department-wide sports health role rather than a football-only hire."
-        }
-      ]
-    },
-    {
-      "name": "Chris Patrick",
-      "role": "Assistant Athletic Director for Sports Health",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 22 — '2008 Sports Health Staff' photo panel, caption 'Chris Patrick / Assistant Athletic Director for Sports Health'. Verified by rendering the page image. Department-wide UAA role, listed first on the football team's sports health panel."
-        }
-      ]
-    },
-    {
-      "name": "Marty Huegel",
-      "role": "Physical Therapist",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — photo-grid caption 'Marty Huegel / Physical Therapist'. The p. 22 sports health panel gives the fuller title 'Coordinator of Physical Therapy'. Both captions verified by rendering the page images."
-        }
-      ]
-    },
-    {
-      "name": "Tim Shay",
-      "role": "Physical Therapist",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 22 — '2008 Sports Health Staff' panel, caption 'Tim Shay / Physical Therapist'. Verified by rendering the page image. Department-wide sports health role."
-        }
-      ]
-    },
-    {
-      "name": "Susan Tillman",
-      "role": "Physical Therapist",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 22 — '2008 Sports Health Staff' panel, caption 'Susan Tillman / Physical Therapist'. Verified by rendering the page image. Department-wide sports health role."
-        }
-      ]
-    },
-    {
-      "name": "Brad Patterson",
-      "role": "Massage Therapist",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — football staff photo-grid caption 'Brad Patterson / Massage Therapist'. Caption verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Mike Moser, MD",
-      "role": "Team Orthopaedist",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — football staff photo-grid caption 'Mike Moser, MD / Team Orthopaedist'. Caption verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Gerald Hazouri, MD",
-      "role": "Team Ophthalmologist",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — football staff photo-grid caption 'Gerald Hazouri, MD / Team Ophthalmologist'. Caption verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Randy Caton, DMD",
-      "role": "Oral Surgeon",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — football staff photo-grid caption 'Randy Caton, DMD / Oral Surgeon'. Caption verified by rendering the page image. Consulting specialist rather than full-time football staff."
-        }
-      ]
-    },
-    {
-      "name": "Frank Dolwick, DMD, Ph.D.",
-      "role": "Oral Surgeon",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — football staff photo-grid caption 'Frank Dolwick, DMD, Ph.D. / Oral Surgeon'. Caption verified by rendering the page image. Consulting specialist rather than full-time football staff."
-        }
-      ]
-    },
-    {
-      "name": "Thomas Weber, DMD",
-      "role": "Team Dentist",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — football staff photo-grid caption 'Thomas Weber, DMD / Team Dentist'. Caption verified by rendering the page image. Consulting specialist rather than full-time football staff."
-        }
-      ]
-    },
-    {
-      "name": "Cheryl Zonkowski",
-      "role": "Director, Sports Nutrition",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — bio heading 'Cheryl Zonkowski / Director, Sports Nutrition', third year in the role for the University Athletic Association. The p. 22 panel captions her 'Coordinator of Sports Nutrition'. Department-wide role. Both verified by rendering the page images."
-        }
-      ]
-    },
-    {
-      "name": "Anna Grout",
-      "role": "Sports Nutritionist",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 22 — '2008 Sports Health Staff' panel, caption 'Anna Grout / Sports Nutritionist'. Verified by rendering the page image. Department-wide sports nutrition role."
-        }
-      ]
-    },
-    {
-      "name": "Joshua Chatman",
-      "role": "Graduate Interns (2008 Athletic Trainers)",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under the heading '2008 Athletic Trainers' / 'Graduate Interns:' as the sole name. Also appears on the p. 22 sports health panel captioned 'Joshua Chatman / Graduate Assistant'. Both verified by rendering the page images."
-        }
-      ]
-    },
-    {
-      "name": "Ian Brokaw",
-      "role": "Intern (2008 Athletic Trainers)",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Athletic Trainers' / 'Intern:' as the sole name. Verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Lexi Douglas",
-      "role": "Athletic Training Students",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Athletic Trainers' / 'Athletic Training Students:'. Student, not a staff hire; consider excluding from ring counts. Verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Andrew Geers",
-      "role": "Athletic Training Students",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Athletic Trainers' / 'Athletic Training Students:'. Student, not a staff hire. Verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Jude Alcide",
-      "role": "Athletic Training Students",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Athletic Trainers' / 'Athletic Training Students:'. Student, not a staff hire. Verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Aaron Stuminger",
-      "role": "Athletic Training Students",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Athletic Trainers' / 'Athletic Training Students:'. Student, not a staff hire. Verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Kendra Boyce",
-      "role": "Athletic Training Students",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Athletic Trainers' / 'Athletic Training Students:'. Student, not a staff hire. Verified by rendering the page image."
-        }
-      ]
-    },
-    {
-      "name": "Lauren San Agustin",
-      "role": "Athletic Training Students",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
-          "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Athletic Trainers' / 'Athletic Training Students:'. Student, not a staff hire. Verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 205, \"2008 Florida Football Quick Facts\" staff directory: \"STAFF ASSISTANTS: Katie Plageman and Amy Halpin\". Also in the football office contact block: \"Staff Assistants – Amy Halpin, Katie Plageman (ext. 4100)\". She is not in the p. 92 photo grid. Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
       "name": "Jason Storch",
       "role": "Football Academic Counselor",
-      "role_category": "other",
+      "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 205 quick-facts block: 'FOOTBALL ACADEMIC COUNSELORS: Jason Storch and Tony Meacham'. This single line is the only record of him in the guide; no photo or bio. Categorized 'other' since academic support fits none of the listed tiers."
+          "note": "2008 Florida football media guide, printed p. 205, \"2008 Florida Football Quick Facts\" staff directory: \"FOOTBALL ACADEMIC COUNSELORS: Jason Storch and Tony Meacham\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
       "name": "Tony Meacham",
       "role": "Football Academic Counselor",
-      "role_category": "other",
+      "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 205 quick-facts block: 'FOOTBALL ACADEMIC COUNSELORS: Jason Storch and Tony Meacham'. No photo or bio elsewhere. Categorized 'other' since academic support fits none of the listed tiers."
+          "note": "2008 Florida football media guide, printed p. 205, \"2008 Florida Football Quick Facts\" staff directory: \"FOOTBALL ACADEMIC COUNSELORS: Jason Storch and Tony Meacham\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
@@ -712,9 +410,9 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — football staff photo-grid caption reads exactly 'Hiram de Fries / Football Staff'. I rendered the page to an image specifically to check this, because 'Football Staff' also reads like a section header; it is genuinely printed in his caption slot, in the same position and style as every other person's title. So his listed role really is just the generic 'Football Staff' with no specific title. De Fries was a longtime Urban Meyer confidant/adviser."
+          "note": "2008 Florida football media guide, printed p. 92. His photo caption in the staff grid reads \"Hiram de Fries / Football Staff\". I verified with layout-mode extraction that \"Football Staff\" sits directly under his name in the same grid column (alongside \"Randy Caton, DMD / Oral Surgeon\" and \"Wayne Cederholm / Assistant Director, Video Services\"), so it is his printed title rather than a section header. No further description of his duties is given. Quote empty per the PDF-extraction caveat."
         }
       ]
     },
@@ -724,9 +422,9 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — football staff photo-grid caption 'Ross DeWitt / Director of Aviation'. Caption verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Ross DeWitt / Director of Aviation\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
@@ -736,129 +434,453 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — football staff photo-grid caption 'Malcom Jowers / Team Security'. Name spelled 'Malcom' (one L) in the source. Caption verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Malcom Jowers / Team Security\". Name spelled \"Malcom\" (one L) in the source; reproduced as printed. Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Jason Baisden",
+      "role": "Football Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 89. Bio header reads \"Jason Baisden / Football Equipment Manager\"; body: \"Jason Baisden enters his fourth season as UF's Football Equipment Manager, a position he undertook in January of 2005…\". Also printed p. 205: \"FOOTBALL EQUIPMENT MANAGER: Jason Baisden\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Jeff McGrew",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 91. Bio header reads \"Jeff McGrew / Assistant Equipment Manager\"; body: \"Jeff McGrew is entering his seventh season on the equipment staff and third as Assistant Equipment Manager at the University of Florida.\" Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Anthony Pass",
+      "role": "Associate Director of Sports Health, Head Athletic Trainer, Football",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 91. Bio header runs two lines: \"Anthony Pass / Associate Director of Sports Health / Head Athletic Trainer, Football\". Printed p. 205 Quick Facts: \"HEAD ATHLETIC TRAINER, FOOTBALL: Anthony Pass\". Printed p. 22 grid: \"Anthony Pass / Head Athletic Trainer\". Quote empty per the PDF-extraction caveat — his surname extracts as \"P ass\" throughout."
+        }
+      ]
+    },
+    {
+      "name": "Kyle Johnston",
+      "role": "Assistant Athletic Trainer, Football",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 90. Bio header reads \"Kyle Johnston / Assistant Athletic Trainer, Football\"; body: \"Kyle Johnston is entering his fourth season with the University of Florida football team and will be serving his second season as Assistant Athletic Trainer.\" Also in the printed p. 22 \"2008 Sports Health Staff\" grid. Quote empty per the PDF-extraction caveat — his name extracts as \"Ky l e  J o h n s t o n\"."
+        }
+      ]
+    },
+    {
+      "name": "Meghan Fornoff",
+      "role": "Assistant Athletic Trainer, Football",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 89. Bio header reads \"Meghan Fornoff / Assistant Athletic Trainer, Football\"; body: \"Meghan Fornoff is entering her third season with the University of Florida football team and her first as an Assistant Athletic Trainer. She joined the program two years ago as a graduate assistant athletic trainer before taking over her new role in the spring of 2008.\" Also in the printed p. 22 Sports Health grid. Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Peter A. Indelicato",
+      "role": "Head Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 90. Bio header reads \"Dr. Peter A. Indelicato / Head Team Physician\"; body: \"Dr. Peter A. Indelicato, University of Florida's head team physician since 1977…\". Printed p. 22 grid lists him as \"Dr. Pete Indelicato / Head Team Physician/Team\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Marty Huegel",
+      "role": "Physical Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Marty Huegel / Physical Therapist\". The printed p. 22 \"2008 Sports Health Staff\" grid words it as \"Marty Huegel / Coordinator of Physical Therapy\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Brad Patterson",
+      "role": "Massage Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Brad Patterson / Massage Therapist\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Randy Caton, DMD",
+      "role": "Oral Surgeon",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Randy Caton, DMD / Oral Surgeon\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Frank Dolwick, DMD, Ph.D.",
+      "role": "Oral Surgeon",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Frank Dolwick, DMD, Ph.D. / Oral Surgeon\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Gerald Hazouri, MD",
+      "role": "Team Ophthalmologist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Gerald Hazouri, MD / Team Ophthalmologist\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Mike Moser, MD",
+      "role": "Team Orthopaedist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Mike Moser, MD / Team Orthopaedist\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Thomas Weber, DMD",
+      "role": "Team Dentist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92 \"Football Staff\" grid: \"Thomas Weber, DMD / Team Dentist\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Cheryl Zonkowski",
+      "role": "Director, Sports Nutrition",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92. Bio header reads \"Cheryl Zonkowski / Director, Sports Nutrition\"; body: \"Cheryl Zonkowski begins her third year serving as the Director of Sports Nutrition for the University Athletic Association.\" The printed p. 22 grid words it \"Coordinator of Sports Nutrition\". Note this is a University Athletic Association-wide role, not football-only. Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Chris Patrick",
+      "role": "Assistant Athletic Director for Sports Health",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 22, in the grid headed \"2008 Sports Health Staff\": \"Chris Patrick / Assistant Athletic Director for Sports Health\". Department-wide role appearing in the football media guide rather than a football-only title. Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Jay Clugston",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 22, \"2008 Sports Health Staff\" grid: \"Dr. Jay Clugston / Team Physician\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Tim Shay",
+      "role": "Physical Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 22, \"2008 Sports Health Staff\" grid: \"Tim Shay / Physical Therapist\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Susan Tillman",
+      "role": "Physical Therapist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 22, \"2008 Sports Health Staff\" grid: \"Susan Tillman / Physical Therapist\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Anna Grout",
+      "role": "Sports Nutritionist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 22, \"2008 Sports Health Staff\" grid: \"Anna Grout / Sports Nutritionist\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Joshua Chatman",
+      "role": "Graduate Assistant (Sports Health) / Graduate Intern, 2008 Athletic Trainers",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide. Printed p. 22, \"2008 Sports Health Staff\" grid: \"Joshua Chatman / Graduate Assistant\". Printed p. 92, under the heading \"2008 Athletic Trainers / Graduate Interns:\", he is the sole name listed. Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Ian Brokaw",
+      "role": "Intern, 2008 Athletic Trainers",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Athletic Trainers\" then the sub-heading \"Intern:\" — he is the only name under it. Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Lexi Douglas",
+      "role": "Athletic Training Student, 2008 Athletic Trainers",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Athletic Trainers / Athletic Training Students:\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Andrew Geers",
+      "role": "Athletic Training Student, 2008 Athletic Trainers",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Athletic Trainers / Athletic Training Students:\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Jude Alcide",
+      "role": "Athletic Training Student, 2008 Athletic Trainers",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Athletic Trainers / Athletic Training Students:\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Aaron Stuminger",
+      "role": "Athletic Training Student, 2008 Athletic Trainers",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Athletic Trainers / Athletic Training Students:\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Kendra Boyce",
+      "role": "Athletic Training Student, 2008 Athletic Trainers",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Athletic Trainers / Athletic Training Students:\". Quote empty per the PDF-extraction caveat."
+        }
+      ]
+    },
+    {
+      "name": "Lauren San Agustin",
+      "role": "Athletic Training Student, 2008 Athletic Trainers",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
+          "quote": "",
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Athletic Trainers / Athletic Training Students:\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
       "name": "Marilyn Gonzalez",
-      "role": "Student Assistants (2008 Managers)",
+      "role": "Student Assistant, 2008 Managers",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Managers' / 'Student Assistants:'. Student manager, not a staff hire; consider excluding from ring counts. Verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92, under the heading \"2008 Managers / Student Assistants:\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
       "name": "Bryan Merrill",
-      "role": "Student Assistants (2008 Managers)",
+      "role": "Student Assistant, 2008 Managers",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Managers' / 'Student Assistants:'. Student manager, not a staff hire. Verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Managers / Student Assistants:\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
       "name": "Walker Hancock",
-      "role": "Student Assistants (2008 Managers)",
+      "role": "Student Assistant, 2008 Managers",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Managers' / 'Student Assistants:'. Student manager, not a staff hire. Verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Managers / Student Assistants:\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
       "name": "Evan Hillestsad",
-      "role": "Student Assistants (2008 Managers)",
+      "role": "Student Assistant, 2008 Managers",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Managers' / 'Student Assistants:'. Surname printed as 'Hillestsad', likely a typo for Hillestad, but I reproduced the source spelling. Student manager, not a staff hire."
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Managers / Student Assistants:\". Surname is printed \"Hillestsad\" and looks like a typesetting error (likely Hillestad); reproduced exactly as printed rather than corrected. Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
       "name": "Kyle Rifkin",
-      "role": "Student Assistants (2008 Managers)",
+      "role": "Student Assistant, 2008 Managers",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Managers' / 'Student Assistants:'. Student manager, not a staff hire. Verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Managers / Student Assistants:\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
       "name": "Bob Olivo",
-      "role": "Student Assistants (2008 Managers)",
+      "role": "Student Assistant, 2008 Managers",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Managers' / 'Student Assistants:'. Student manager, not a staff hire. Verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Managers / Student Assistants:\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
       "name": "Alexis Candelania",
-      "role": "Student Assistants (2008 Managers)",
+      "role": "Student Assistant, 2008 Managers",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Managers' / 'Student Assistants:'. Surname printed 'Candelania', possibly a typo for Candelaria; source spelling reproduced. Student manager, not a staff hire."
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Managers / Student Assistants:\". Surname is printed \"Candelania\" and may be a typesetting error (likely Candelaria); reproduced exactly as printed. Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
       "name": "Austin Pope",
-      "role": "Student Assistants (2008 Managers)",
+      "role": "Student Assistant, 2008 Managers",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Managers' / 'Student Assistants:'. Student manager, not a staff hire. Verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Managers / Student Assistants:\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
       "name": "Evan Cawthon",
-      "role": "Student Assistants (2008 Managers)",
+      "role": "Student Assistant, 2008 Managers",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Managers' / 'Student Assistants:'. Student manager, not a staff hire. Verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Managers / Student Assistants:\". Quote empty per the PDF-extraction caveat."
         }
       ]
     },
     {
       "name": "Justin Nierman",
-      "role": "Student Assistants (2008 Managers)",
+      "role": "Student Assistant, 2008 Managers",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200904105537/https://s3.amazonaws.com/sidearm.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf",
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2016/2/11/2008_FB_media_guide.pdf?timestamp=20160211103058",
           "quote": "",
-          "note": "2008 Florida Football Media Guide p. 92 — listed under '2008 Managers' / 'Student Assistants:'. Student manager, not a staff hire. Verified by rendering the page image."
+          "note": "2008 Florida football media guide, printed p. 92, under \"2008 Managers / Student Assistants:\". Quote empty per the PDF-extraction caveat."
         }
       ]
     }

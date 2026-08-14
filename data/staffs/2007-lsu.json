@@ -1,7 +1,6 @@
 {
   "team": "LSU",
   "season": 2007,
-  "coverage_notes": "SOURCES USED. (1) Wikipedia's 2007 LSU Tigers football team page \"Coaching staff\" table (10 on-field coaches + Moffitt + 2 GAs). (2) The 2007 LSU Football Media Guide, scanned on archive.org (item lsu-football-2007-media-guide-c). Nearly every quote below is copied verbatim from that item's machine-readable OCR text file at https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt — the quotes will match that URL, not the PDF. (3) Individual Wikipedia biographies for corroborating prose.\n\nWHAT I COULD NOT DO. The Wayback Machine's replay service (web.archive.org/web/...) returned HTTP 503 \"No server is available to handle this request\" on every attempt from this environment, and WebFetch refuses that host outright, so I could NOT consult the archived lsusports.net staff directory near the title date (step 2 of the requested source order). The archive.org-hosted media guide substituted for it. The WebSearch budget for this session was already exhausted before I began, so no contemporary news articles (hire announcements, championship coverage) could be searched; step 4 is entirely unrepresented.\n\nTIMING CAVEAT (important for the ring rule). The media guide is a PRESEASON document published in August 2007. It documents the staff as constituted at the start of the season, NOT as verified on January 7, 2008. I found no evidence of any mid-season departure among these 38 people, but I also could not positively confirm each support-staff member was still employed at the BCS title game. The one well-known complication is Bo Pelini, who accepted the Nebraska head-coaching job in December 2007 yet remained LSU's defensive coordinator through the championship game (noted on his row).\n\nOCR CAVEATS. The archive.org text is uncorrected OCR of a two-column scanned page. Several quotes therefore contain visible OCR artifacts that I have preserved exactly rather than cleaning up: \"SharonMangum\" (run-together), \"1oth\" for 10th, \"1lth\" for 11th, \"Ist\" for 1st, and stray schedule text bleeding into staff rows. On the \"Football Support Staff\" photo-grid page (guide p. 110), each person's name and title fall on separate OCR lines, so for those twelve people I supply the name as one quote and the title as a second quote from the same URL, with a note — the two are not contiguous in the text and must not be matched as a single string.\n\nTIERS I RECOVERED: head coach (1), on-field assistants (9 — the full NCAA-maximum complement, so this tier is complete), strength and conditioning (6), graduate assistants (2), operations/personnel/recruiting (11), medical/athletic training (3), equipment (4), video (2). Total 38.\n\nTIERS I COULD NOT RECOVER. (a) ANALYSTS and QUALITY CONTROL: no such titles existed in LSU's documented 2007 structure; zero rows. The closest analogues are the three \"Administrative Intern\" positions (Farrell, Papuchis, Wozniak), which I categorized as ops rather than guess. (b) GRADUATE ASSISTANTS are almost certainly undercounted. The media guide does not list football GAs by name at all; my two rows come solely from Wikipedia. Note the conflict on Mike Ekeler: Wikipedia documents him as a graduate assistant 2005–2007, while the 2007 media guide lists him under \"Assistant Strength Coach\" — the era's common title workaround. Glen Elarbee appears in Wikipedia but nowhere in the media guide. A typical 2007 SEC staff carried more GAs than two; I did not invent them. (c) TEAM PHYSICIANS / ORTHOPEDIC SURGEONS: the football media guide names none. (Dr. James Andrews appears in the guide only as a distinguished LSU alumnus, not as staff, so I excluded him.) (d) STUDENT and PART-TIME staff: the guide states the video department alone \"oversees a staff of eight people... one full-time assistant, one graduate assistant and six student assistants,\" and that athletic training runs \"a staff of six full-time trainers and 10 graduate assistants\" department-wide — none of these individuals are named, and only the three trainers assigned to football are identified. Equipment student managers likewise unnamed. (e) ACADEMIC SUPPORT: the guide's academic-center staff is department-wide across 20 sports and not separable into football-specific personnel, so I included none. (f) RECRUITING/PERSONNEL beyond the four named administrators is not documented.\n\nEvery row has a real, verifiable source. Nothing was padded.",
   "staff": [
     {
       "name": "Les Miles",
@@ -11,27 +10,28 @@
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "Les Miles Head Coach Michigan, ‘76 3rd",
-          "note": "From the 'LSU Football Staff' quick-reference page of the 2007 LSU Football Media Guide (OCR text). Row reads name / position / alma mater / year at LSU; '3rd' = third season at LSU in 2007."
+          "note": "From the \"LSU Football Staff\" directory on p.4 of the official 2007 LSU Football Media Guide (archive.org full-text OCR rendition of the scanned guide). Table columns are NAME / POSITION / ALMA MATER / YEAR AT LSU."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/Les_Miles",
-          "quote": "Miles led the 2007 LSU Tigers football team to a win in the BCS National Championship Game, defeating Ohio State."
+          "url": "https://en.wikipedia.org/wiki/2007_LSU_Tigers_football_team",
+          "quote": "The team's head coach was Les Miles, who entered his third year at the helm."
         }
       ]
     },
     {
       "name": "Gary Crowton",
-      "role": "Offensive Coordinator/Quarterbacks",
+      "role": "Off. Coordinator",
       "role_category": "onfield",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "Gary Crowton Off. Coordinator BYU, '83 Ist",
-          "note": "Staff quick-reference row; 'Ist' is OCR for '1st', i.e. first season at LSU. His bio page in the same guide heads the entry 'Offensive Coordinator/Quarterbacks', which is the role wording used here."
+          "note": "2007 media guide p.4 staff directory (\"Ist\" is the OCR rendering of \"1st\" in the YEAR AT LSU column). His individual bio page in the same guide heads him \"Offensive Coordinator/Quarterbacks\" — quote: \"Gary Crowton \\n\\n\\nOffensive Coordinator/Quarterbacks\"."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/Gary_Crowton",
-          "quote": "He was the offensive coordinator for the 2007 LSU Tigers football team, which won the 2008 BCS National Championship Game and a consensus national championship."
+          "url": "https://en.wikipedia.org/wiki/2007_LSU_Tigers_football_team",
+          "quote": "He was replaced by Gary Crowton who was the offensive coordinator for Oregon in 2005 & 2006.",
+          "note": "Replacing Jimbo Fisher, who left for Florida State after the 2006 season."
         }
       ]
     },
@@ -39,33 +39,29 @@
       "name": "Bo Pelini",
       "role": "Defensive Coordinator",
       "role_category": "onfield",
-      "midseason_note": "Accepted the Nebraska head-coaching job in December 2007 but remained LSU's defensive coordinator through the BCS National Championship Game on January 7, 2008 — on staff at the title game.",
+      "midseason_note": "Hired as Nebraska's head coach in early December 2007 but remained LSU's defensive coordinator and coached the defense in the Jan. 7, 2008 BCS National Championship Game; he left for Nebraska only after the game.",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "Bo Pelini Defensive Coordinator Ohio State, ‘90 3rd",
-          "note": "Staff quick-reference row; '3rd' = third season at LSU in 2007."
+          "note": "2007 media guide p.4 staff directory."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/Bo_Pelini",
-          "quote": "went on to win 38–24 against the Ohio State Buckeyes, Pelini's alma mater, in the 2008 BCS National Championship Game.",
-          "note": "Confirms he was still LSU's DC for the championship game. Contains en dashes, preserved exactly."
+          "url": "https://huskers.com/staff/bo-pelini",
+          "quote": "In his three seasons as the defensive coordinator at LSU from 2005 to 2007, Pelini’s dominant defenses helped the Tigers compile a 34-6 record, including the 2007 BCS national championship and the Southeastern Conference championship.",
+          "note": "Nebraska bio; also states \"While quickly taking charge of all aspects of the Nebraska program, Pelini was also committed to finishing what he had started at LSU.\""
         }
       ]
     },
     {
       "name": "Josh Henson",
-      "role": "Tight Ends/Recruiting Coordinator",
+      "role": "TE/Recruiting Coordinator",
       "role_category": "onfield",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "Josh Henson TE/Recruiting Coordinator Oklahoma State, '98 3rd",
-          "note": "Staff quick-reference row. His individual bio page in the same guide is headed 'Tight Ends/Recruiting Coordinator'."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Josh_Henson",
-          "quote": "he brought Henson with him to coach tight ends."
+          "note": "2007 media guide p.4 staff directory; his bio page in the same guide is headed \"Josh Henson \\nTight Ends/Recruiting Coordinator\"."
         }
       ]
     },
@@ -76,13 +72,13 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Earl Lane enters his second season with the Tigers,",
-          "note": "Opening line of his coach bio in the 2007 guide; second season = 2007. His quick-reference row is too OCR-garbled to quote."
+          "quote": "Earl Lane \n\n\nDefensive Line",
+          "note": "Bio heading in the \"Assistant Coaches\" section of the 2007 LSU Football Media Guide. His row in the p.4 staff directory is badly garbled by OCR, so the bio heading is quoted instead. The bio body reads \"Earl Lane enters his second season with the Tigers, \\nserving as LSU’s defensive line coach.\""
         },
         {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "serving as LSU’s defensive line coach.",
-          "note": "Continuation of the same sentence on the next OCR line; uses a curly apostrophe. Establishes the role."
+          "url": "http://web.archive.org/web/20081211074750/http://www.lsusports.net/SportSelect.dbml?SPSID=28715&SPID=2164&DB_OEM_ID=5200&Q_SEASON=2007",
+          "quote": "Defensive Line Coach",
+          "note": "LSUsports.net football coaches page, 2007-08 season view (Q_SEASON=2007). The title appears in the cell directly beneath Earl Lane's name; names on this page are marked up with non-breaking spaces (\"Earl&nbsp;Lane\"), so a combined name+title string cannot be reproduced faithfully as plain text."
         }
       ]
     },
@@ -93,12 +89,8 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "is in his third year as LSU's defensive backs coach.",
-          "note": "From his coach bio in the 2007 guide; third year = 2007. His bio page is headed 'Defensive Backs'."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Doug_Mallory",
-          "quote": "Mallory followed him to Baton Rouge to become the defensive backs coach for the Tigers."
+          "quote": "Doug Mallory Defensive Backs Michigan, ‘88 3rd",
+          "note": "2007 media guide p.4 staff directory."
         }
       ]
     },
@@ -110,44 +102,36 @@
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "D.J. McCarthy Wide Receivers Washington, '94 1st",
-          "note": "Staff quick-reference row; '1st' = first season at LSU (hired February 2007, replacing Todd Monken). No Wikipedia article exists for him."
+          "note": "2007 media guide p.4 staff directory; first year at LSU."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2007_LSU_Tigers_football_team",
+          "quote": "He was replaced by D.J. McCarthy.",
+          "note": "Replacing Todd Monken, who left after the 2006 season."
         }
       ]
     },
     {
       "name": "Bradley Dale Peveto",
-      "role": "Special Teams Coordinator/Linebackers",
+      "role": "Special Teams Coordinator/LB",
       "role_category": "onfield",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "Bradley Dale Peveto Special Teams Coordinator/LB SMU, '87 3rd",
-          "note": "Staff quick-reference row; his individual bio page is headed 'Special Teams Coordinator/Linebackers'."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Bradley_Dale_Peveto",
-          "quote": "As part of the LSU staff, he coached the special teams and linebackers from 2005 through 2007, including the 2007 national championship team."
+          "note": "2007 media guide p.4 staff directory; bio heading in the same guide reads \"Bradley Dale Peveto \\n\\n\\nSpecial Teams Coordinator/Linebackers\"."
         }
       ]
     },
     {
       "name": "Larry Porter",
-      "role": "Assistant Head Coach/Running Backs",
+      "role": "Running Backs",
       "role_category": "onfield",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Assistant Head Coach/Running Backs",
-          "note": "Standalone title line heading his coach bio in the 2007 guide. The staff quick-reference row abbreviates it to 'Larry Porter Running Backs Memphis, '96 3rd'."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Memphis, is in his third year as LSU's running backs",
-          "note": "From the body of his 2007 bio; third year = 2007."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Larry_Porter_(American_football)",
-          "quote": "In 2005, Porter joined coach Miles at LSU."
+          "quote": "Larry Porter Running Backs Memphis, '96 3rd",
+          "note": "2007 media guide p.4 staff directory. His bio heading in the same guide is \"Larry Porter \\n\\n\\nAssistant Head Coach/Running Backs\", and LSUsports.net's 2007 season page lists him as \"Asst. Head Coach/Running Backs/Special Teams\"."
         }
       ]
     },
@@ -159,23 +143,23 @@
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "Greg Studrawa Offensive Line Bowling Green, '87 Ist",
-          "note": "Staff quick-reference row; 'Ist' is OCR for '1st', i.e. first season at LSU (hired January 2007, replacing Stacy Searels)."
+          "note": "2007 media guide p.4 staff directory (\"Ist\" is the OCR rendering of \"1st\")."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/Greg_Studrawa",
-          "quote": "He was hired by LSU in 2007 to be their offensive line coach, the year that LSU won their third national championship."
+          "url": "https://en.wikipedia.org/wiki/2007_LSU_Tigers_football_team",
+          "quote": "Stacy Searels, the offensive line coach, was replaced by Greg Studrawa who had been the offensive coordinator at Bowling Green the previous four years."
         }
       ]
     },
     {
       "name": "Tommy Moffitt",
-      "role": "Strength and Conditioning Coord.",
+      "role": "Strength & Conditioning Coordinator",
       "role_category": "sc",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Tommy Moffitt Strength and Conditioning Coord.",
-          "note": "Staff quick-reference row (full row reads '... Tennessee Tech, '86 8th', i.e. eighth season). His bio page in the same guide is headed 'Strength & Conditioning Coordinator'."
+          "quote": "Tommy Moffitt \nStrength & Conditioning Coordinator",
+          "note": "Bio heading in the Support Staff section of the 2007 LSU Football Media Guide; the p.4 directory lists him under \"Strength and Conditioning Staff\" as \"Strength and Conditioning Coord.\", 8th year at LSU."
         }
       ]
     },
@@ -186,52 +170,25 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Asst. Strength and Conditioning Coordinator",
-          "note": "Standalone title line heading his bio in the 2007 guide's Support Staff section."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Jimmy Brumbaugh — Assistant Coordinator",
-          "note": "Staff quick-reference row under the 'Strength and Conditioning Staff' heading; contains an em dash. The alma-mater field on this OCR line ('LSU, '93') is a column-misalignment artifact — his bio states he played at Auburn."
+          "quote": "Jimmy Brumbaugh \n\n\nAsst. Strength and Conditioning Coordinator",
+          "note": "Bio heading, Support Staff section, 2007 LSU Football Media Guide; the p.4 directory lists him under \"Strength and Conditioning Staff\" as \"Assistant Coordinator\", 2nd year at LSU."
         }
       ]
     },
     {
       "name": "Mike Ekeler",
-      "role": "Graduate assistant",
-      "role_category": "gradasst",
+      "role": "Assistant Strength Coach",
+      "role_category": "sc",
+      "midseason_note": "Named to Bo Pelini's Nebraska staff in the Dec. 17, 2007 announcement, while LSU was preparing for the BCS title game; his Nebraska bio nonetheless credits him with helping LSU win the 2007 national title \"capped by a victory over Ohio State in the BCS National Championship Game.\"",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Glen_Elarbee",
-          "quote": "He had several stints at assistant roles at East Central CC, LSU, and Oklahoma State.",
-          "note": "PLACEHOLDER CORRECTION — disregard this entry in favor of the two below; included in error is not intended. Primary evidence for Ekeler is the 2007 LSU Tigers football team page and the media guide, cited next."
-        },
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Mike Ekeler",
-          "note": "Name as it appears on the 2007 guide's 'Football Support Staff' photo-grid page (p. 110). The guide gives his title as 'Assistant Strength Coach' on a separate, non-contiguous OCR line — the era's common workaround title for a graduate assistant."
+          "quote": "Mike Ekeler \n\n\nAssistant Strength Coach",
+          "note": "Football Support Staff photo grid, pp.110-111 of the 2007 LSU Football Media Guide. Sources disagree on his 2007 title: Nebraska lists him as a 2007 LSU \"football intern\" and Wikipedia's 2007 LSU team article lists him as a graduate assistant; the contemporaneous LSU media guide titles him Assistant Strength Coach."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2007_LSU_Tigers_football_team",
-          "quote": "Mike Ekeler",
-          "note": "The article's 'Coaching staff' wikitable lists him with title 'Graduate assistant' and first year at LSU 2005; the name and title occupy separate table cells, so only the name is quoted as a contiguous string."
-        }
-      ]
-    },
-    {
-      "name": "Glen Elarbee",
-      "role": "Graduate assistant",
-      "role_category": "gradasst",
-      "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/2007_LSU_Tigers_football_team",
-          "quote": "Glen Elarbee",
-          "note": "The article's 'Coaching staff' wikitable lists him with title 'Graduate assistant' and first year at LSU 2007; name and title are separate table cells, so only the name is quoted as a contiguous string."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Glen_Elarbee",
-          "quote": "He had several stints at assistant roles at East Central CC, LSU, and Oklahoma State.",
-          "note": "His coaching-career infobox lists '2007 LSU (GA)'. He does not appear anywhere in the 2007 LSU media guide, which was published before he joined."
+          "url": "https://huskers.com/staff/mike-ekeler",
+          "quote": "He then served as an intern for the LSU football team in 2007, helping the Tigers win the SEC and national titles, capped by a victory over Ohio State in the BCS National Championship Game."
         }
       ]
     },
@@ -242,47 +199,8 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Melissa Moore",
-          "note": "Name on the 2007 guide's 'Football Support Staff' photo-grid page (p. 110)."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Assistant Strength Coach",
-          "note": "Her title, on the OCR line immediately following her name. Name and title are NOT contiguous in the text file and must be matched separately."
-        }
-      ]
-    },
-    {
-      "name": "Corey Raymond",
-      "role": "Assistant Strength Coach",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Corey Raymond Lois Stuckey",
-          "note": "Two-column photo grid on p. 110; OCR merged the left-column name (Corey Raymond) and right-column name (Lois Stuckey) onto one line."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Assistant Strength Coach Administrative Assistant",
-          "note": "The corresponding merged title line: 'Assistant Strength Coach' belongs to Raymond, 'Administrative Assistant' to Stuckey."
-        }
-      ]
-    },
-    {
-      "name": "Brad Price",
-      "role": "Assistant Strength Coach",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Brad Price",
-          "note": "Name on the 2007 guide's 'Football Support Staff' photo-grid page (p. 110)."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Assistant Strength Coach",
-          "note": "His title, on the OCR line immediately following his name; not contiguous with the name."
+          "quote": "Melissa Moore \nAssistant Strength Coach",
+          "note": "Football Support Staff photo grid, pp.110-111 of the 2007 LSU Football Media Guide."
         }
       ]
     },
@@ -293,42 +211,81 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Jeremy Phillips",
-          "note": "Name on the 2007 guide's 'Football Support Staff' photo-grid page (p. 110)."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Assistant Strength Coach",
-          "note": "His title, appearing on a separate OCR line below his name; not contiguous with the name."
+          "quote": "Jeremy Phillips \n\n\nAssistant Strength Coach",
+          "note": "Football Support Staff photo grid, pp.110-111 of the 2007 LSU Football Media Guide."
         }
       ]
     },
     {
-      "name": "Dr. Sam Nader",
-      "role": "Assistant AD/Football Operations",
-      "role_category": "ops",
+      "name": "Brad Price",
+      "role": "Assistant Strength Coach",
+      "role_category": "sc",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Assistant AD/Football Operations",
-          "note": "Standalone title line heading his bio in the 2007 guide's Support Staff section, directly under the name line 'Dr. Sam Nader'."
-        },
+          "quote": "Brad Price \nAssistant Strength Coach",
+          "note": "Football Support Staff photo grid, pp.110-111 of the 2007 LSU Football Media Guide."
+        }
+      ]
+    },
+    {
+      "name": "Corey Raymond",
+      "role": "Assistant Strength Coach",
+      "role_category": "sc",
+      "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Sam Nader Asst. AD/Football Operations Auburn, '67 33rd",
-          "note": "Staff quick-reference row; '33rd' = 33rd season overall with the LSU football program."
+          "quote": "Corey Raymond Lois Stuckey \n\n\nAssistant Strength Coach Administrative Assistant",
+          "note": "Football Support Staff photo grid, pp.110-111 of the 2007 LSU Football Media Guide. The OCR merges two adjacent grid cells onto one line; column order pairs Corey Raymond with \"Assistant Strength Coach\" and Lois Stuckey with \"Administrative Assistant\" (confirmed independently by the PDF text layer's layout-preserved extraction)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Corey_Raymond",
+          "quote": "From 2007 to 2008, he was the assistant strength and conditioning coach at LSU."
+        }
+      ]
+    },
+    {
+      "name": "Glen Elarbee",
+      "role": "graduate assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://ucfknights.com/staff/glen-elarbee",
+          "quote": "He was also a graduate assistant with the 2007 LSU team that won the national championship."
+        },
+        {
+          "url": "https://utsports.com/staff-directory/glen-elarbee/4027",
+          "quote": "He was also a graduate assistant with the 2007 LSU team that won the national championship.",
+          "note": "The same page's bowl-experience list includes the line \"2008 BCS National Championship Game – LSU\", confirming he was on staff at the title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2007_LSU_Tigers_football_team",
+          "quote": "Graduate assistant",
+          "note": "Wikipedia's 2007 LSU coaching-staff table lists Glen Elarbee, Graduate assistant, first year at LSU 2007, Middle Tennessee (2002). Name and title sit in separate table cells, so only the title string can be quoted contiguously. Elarbee does not appear in the July 2007 media guide, so he likely joined after it went to press."
         }
       ]
     },
     {
       "name": "Mack Butler",
-      "role": "Assistant AD/Football Administration",
+      "role": "Asst. AD/Football Administration",
       "role_category": "ops",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "Mack Butler Asst. AD/Football Administration Central Oklahoma, '72 3rd",
-          "note": "Staff quick-reference row; '3rd' = third year at LSU. His bio page is headed 'Assistant AD/Football Administration'."
+          "note": "2007 media guide p.4 staff directory; bio heading in the same guide reads \"Mack Butler \\nAssistant AD/Football Administration\"."
+        }
+      ]
+    },
+    {
+      "name": "Sam Nader",
+      "role": "Asst. AD/Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
+          "quote": "Sam Nader Asst. AD/Football Operations Auburn, '67 33rd",
+          "note": "2007 media guide p.4 staff directory; his bio heading reads \"Dr. Sam Nader \\nAssistant AD/Football Operations\" and states he was in his 33rd season with the LSU football program."
         }
       ]
     },
@@ -339,13 +296,8 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Assistant AD/Football Recruiting and Alumni Relations",
-          "note": "Standalone title line heading her bio in the 2007 guide's Support Staff section."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "SharonMangum Asst. AD/Recruiting Operations LSU, ‘91 6th",
-          "note": "Staff quick-reference row. OCR ran her first and last name together as 'SharonMangum'; preserved verbatim."
+          "quote": "Sharon Mangum \n\n\nAssistant AD/Football Recruiting and Alumni Relations",
+          "note": "Bio heading, Support Staff section, 2007 LSU Football Media Guide. The p.4 directory abbreviates the title to \"Asst. AD/Recruiting Operations\" but the OCR there runs her first and last name together, so the bio heading is quoted instead."
         }
       ]
     },
@@ -357,24 +309,7 @@
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "Charles Baglio Coordinator High School Relations SE Louisiana, '67 6th",
-          "note": "Staff quick-reference row; '6th' = sixth season. His individual bio page in the same guide is headed 'Director of External Football Relations' — the two titles differ within one document."
-        }
-      ]
-    },
-    {
-      "name": "Ya’el Lofton",
-      "role": "Coordinator of Football Operations",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Ya’el Lofton",
-          "note": "Name on the 2007 guide's 'Football Support Staff' photo-grid page (p. 110). Uses a curly apostrophe (U+2019), preserved exactly."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Coordinator of Football Operations",
-          "note": "Her title, on a separate OCR line below the name; not contiguous with it."
+          "note": "2007 media guide p.4 staff directory. Title varies by source: his bio heading in the same guide reads \"Charles Baglio \\n\\n\\nDirector of External Football Relations\", and LSUsports.net's 2007-08 season page lists \"Coordinator of Football Relations\"."
         }
       ]
     },
@@ -385,13 +320,8 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Tamara Davis",
-          "note": "Name on the 2007 guide's 'Football Support Staff' photo-grid page (p. 110)."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Coordinator of Offensive Operations",
-          "note": "Her title, on a separate OCR line below the name; not contiguous with it."
+          "quote": "Tamara Davis \n\n\nCoordinator of Offensive Operations",
+          "note": "Football Support Staff photo grid, pp.110-111 of the 2007 LSU Football Media Guide."
         }
       ]
     },
@@ -402,13 +332,20 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Johanna Trees",
-          "note": "Name on the 2007 guide's 'Football Support Staff' photo-grid page (p. 110)."
-        },
+          "quote": "Johanna Trees \n\n\nCoordinator of Defensive Operations",
+          "note": "Football Support Staff photo grid, pp.110-111 of the 2007 LSU Football Media Guide."
+        }
+      ]
+    },
+    {
+      "name": "Ya'el Lofton",
+      "role": "Coordinator of Football Operations",
+      "role_category": "ops",
+      "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Coordinator of Defensive Operations",
-          "note": "Her title, on a separate OCR line below the name; not contiguous with it."
+          "quote": "Ya’el Lofton \n\n\nCoordinator of Football Operations",
+          "note": "Football Support Staff photo grid, pp.110-111 of the 2007 LSU Football Media Guide. Note the source renders the name with a typographic apostrophe (Ya’el)."
         }
       ]
     },
@@ -419,13 +356,8 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Corey Raymond Lois Stuckey",
-          "note": "Two-column photo grid on p. 110; OCR merged the left-column name (Corey Raymond) and right-column name (Lois Stuckey) onto one line."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Assistant Strength Coach Administrative Assistant",
-          "note": "The corresponding merged title line: 'Administrative Assistant' is Stuckey's title."
+          "quote": "Corey Raymond Lois Stuckey \n\n\nAssistant Strength Coach Administrative Assistant",
+          "note": "Football Support Staff photo grid, pp.110-111 of the 2007 LSU Football Media Guide. OCR merges two adjacent grid cells per line; column order pairs Lois Stuckey with \"Administrative Assistant\"."
         }
       ]
     },
@@ -436,47 +368,47 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Brendan Farrell",
-          "note": "Name on the 2007 guide's 'Football Support Staff' photo-grid page (p. 110)."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Administrative Intern",
-          "note": "His title, on a separate OCR line below the name; not contiguous with it. Three people on this page share this title."
+          "quote": "Brendan Farrell \n\n\nAdministrative Intern",
+          "note": "Football Support Staff photo grid, pp.110-111 of the 2007 LSU Football Media Guide."
         }
       ]
     },
     {
       "name": "John Papuchis",
       "role": "Administrative Intern",
-      "role_category": "ops",
+      "role_category": "qc",
+      "midseason_note": "Named to Bo Pelini's Nebraska staff in the Dec. 17, 2007 announcement, while LSU was preparing for the BCS title game.",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "John Papuchis",
-          "note": "Name on the 2007 guide's 'Football Support Staff' photo-grid page (p. 110). He later followed Bo Pelini to Nebraska."
+          "quote": "John Papuchis \n\n\nAdministrative Intern",
+          "note": "Football Support Staff photo grid, pp.110-111 of the 2007 LSU Football Media Guide. Categorized as qc rather than ops because contemporaneous accounts describe his LSU function as a defensive intern under Pelini."
         },
         {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Administrative Intern",
-          "note": "His title, on a separate OCR line below the name; not contiguous with it."
+          "url": "https://huskers.com/news/2007/12/17/pelini-announces-husker-coaching-staff",
+          "quote": "John Papuchis comes to Nebraska after spending the past four seasons on the football staff at LSU.",
+          "note": "Nebraska staff announcement of Dec. 17, 2007."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/John_Papuchis",
+          "quote": "2007 was a pinnacle year for LSU as the defense helped the Tigers to win the 2008 BCS National Championship Game ."
         }
       ]
     },
     {
       "name": "John Wozniak",
       "role": "Administrative Intern",
-      "role_category": "ops",
+      "role_category": "gradasst",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "John Wozniak",
-          "note": "Name on the 2007 guide's 'Football Support Staff' photo-grid page (p. 110)."
+          "quote": "John Wozniak \n\n\nAdministrative Intern",
+          "note": "Football Support Staff photo grid, pp.110-111 of the 2007 LSU Football Media Guide (preseason). LSUsports.net's 2007-08 season coaches page instead titles him \"Graduate Assistant\", which is why he is categorized as gradasst."
         },
         {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Administrative Intern",
-          "note": "His title, on a separate OCR line below the name; not contiguous with it."
+          "url": "http://web.archive.org/web/20081211074750/http://www.lsusports.net/SportSelect.dbml?SPSID=28715&SPID=2164&DB_OEM_ID=5200&Q_SEASON=2007",
+          "quote": "Graduate Assistant",
+          "note": "LSUsports.net football coaches page, 2007-08 season view (Q_SEASON=2007). This title appears in the grid cell directly beneath John Wozniak's name; he is the only person on that page carrying it. Names on this page are marked up with non-breaking spaces, so a combined name+title string cannot be reproduced faithfully as plain text."
         }
       ]
     },
@@ -487,8 +419,8 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Jack Marucci enters his 12th season as director of athletic",
-          "note": "Opening line of his bio in the 2007 guide's Support Staff section; the sentence continues 'training at LSU.' on the next OCR line. His bio is headed 'Director of Athletic Training'."
+          "quote": "Jack Marucci \n\n\nDirector of Athletic Training",
+          "note": "Bio heading, Support Staff section, 2007 LSU Football Media Guide; the p.4 directory lists him under \"Athletic Training Staff\" as \"Director\", 12th year at LSU. He is the senior athletic trainer assigned to football."
         }
       ]
     },
@@ -499,25 +431,20 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Andy Barker enters his 12th season as senior associate",
-          "note": "Opening line of his bio in the 2007 guide's Support Staff section; continues 'athletic trainer at LSU.' on the next OCR line."
+          "quote": "Andy Barker \n\n\nSenior Associate Athletic Trainer",
+          "note": "Bio heading, Support Staff section, 2007 LSU Football Media Guide; listed on the p.4 directory under \"Athletic Training Staff\" as \"Sr. Associate Trainer\", 12th year."
         }
       ]
     },
     {
       "name": "Shelly Mullenix",
-      "role": "Senior Associate Athletic Trainer",
+      "role": "Sr. Associate Trainer",
       "role_category": "medical",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Shelly Mullenix begins her 10th year as part of the LSU",
-          "note": "Opening line of her bio in the 2007 guide; continues 'training staff in 2007.' on the next OCR line."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "Shelly Mullenix Sr. Associate Trainer Florida State, '91 10th",
-          "note": "Staff quick-reference row under the Medical Staff heading; she is the trainer identified as servicing the football team day to day."
+          "note": "2007 media guide p.4 staff directory, \"Athletic Training Staff\" block. Her bio adds that she \"plays a key role in servicing the athletic training needs of the football team on a day-to-day basis.\""
         }
       ]
     },
@@ -528,47 +455,32 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Greg Stringfellow Equipment Manager LSU, '97 1oth",
-          "note": "Staff quick-reference row; '1oth' is OCR for '10th' season with the Tigers."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Greg Stringfellow enters his fourth season as LSU's",
-          "note": "Opening line of his bio; continues 'equipment manager after being elevated to the position in the spring of 2004.'"
+          "quote": "Greg Stringfellow \n\n\nEquipment Manager",
+          "note": "Bio heading, Support Staff section, 2007 LSU Football Media Guide; also on the p.4 directory under \"Equipment Staff\", 10th year at LSU."
         }
       ]
     },
     {
       "name": "Ferrell Shillings",
-      "role": "Assistant Equipment Manager",
+      "role": "Asst. Equipment Manager",
       "role_category": "equipment",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "Ferrell Shillings Asst. Equipment Manager 16th",
-          "note": "Staff quick-reference row; '16th' season. His bio page is headed 'Assistant Equipment Manager'."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Ferrell Shillings is now in 16th season on the LSU equipment",
-          "note": "Opening line of his bio; continues 'staff after joining the Tigers in 1991.'"
+          "note": "2007 media guide p.4 staff directory, \"Equipment Staff\" block (no alma mater listed for him)."
         }
       ]
     },
     {
       "name": "George Branigan",
-      "role": "Assistant Equipment Manager",
+      "role": "Asst. Equipment Manager",
       "role_category": "equipment",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "George Branigan Asst. Equipment Manager LSU, '05 2nd",
-          "note": "Staff quick-reference row; '2nd' = second year."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "George Branigan begins his second year as a full-time",
-          "note": "Opening line of his bio; his bio states he 'assists with the nationally-ranked football team.'"
+          "note": "2007 media guide p.4 staff directory, \"Equipment Staff\" block."
         }
       ]
     },
@@ -580,7 +492,7 @@
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "Garland Rodriguez Asst. Equipment Manager UL-Lafayette, '04 2nd",
-          "note": "Staff quick-reference row under the Equipment Staff heading; '2nd' = second year. He is listed in the quick reference but has no individual bio page in the guide."
+          "note": "2007 media guide p.4 staff directory, \"Equipment Staff\" block. He is the only one of the four equipment staffers without an individual bio in the guide."
         }
       ]
     },
@@ -591,32 +503,23 @@
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Doug Aucoin Videography Director New Orleans, '95 th",
-          "note": "Staff quick-reference row under the Video Staff heading; the season figure is OCR-truncated to 'th'. His bio states he enters his 11th season."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Doug Aucoin enters his 1lth season as LSU’s video",
-          "note": "Opening line of his bio; '1lth' is OCR for '11th'. Categorized 'other' because football video/technology is not one of the listed categories."
+          "quote": "Doug Aucoin \nVideography Director",
+          "note": "Bio heading, Support Staff section, 2007 LSU Football Media Guide; also listed on the p.4 directory under \"Video Staff\", 11th year at LSU. Football video coordinator."
         }
       ]
     },
     {
       "name": "Brad Mendow",
-      "role": "Assistant Video Coordinator",
+      "role": "Asst. Videography Director",
       "role_category": "other",
       "sources": [
         {
           "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
           "quote": "Brad Mendow Asst. Videography Director LSU, '04 3rd",
-          "note": "Staff quick-reference row; his individual bio page is headed 'Assistant Video Coordinator'."
-        },
-        {
-          "url": "https://archive.org/download/lsu-football-2007-media-guide-c/LSU%20Football%202007%20Media%20Guide%20%28C%29_djvu.txt",
-          "quote": "Brad Mendow enters his third year as LSU’s assistant video",
-          "note": "Opening line of his bio; continues 'coordinator.' on the next OCR line."
+          "note": "2007 media guide p.4 staff directory, \"Video Staff\" block; his bio heading in the same guide reads \"Brad Mendow \\n\\n\\nAssistant Video Coordinator\"."
         }
       ]
     }
-  ]
+  ],
+  "coverage_notes": "SOURCES USED. (1) Wikipedia's 2007 LSU Tigers football team article has a Coaching staff table with 13 names (10 on-field + Moffitt + GAs Mike Ekeler and Glen Elarbee); its name and title live in separate table cells, so only prose sentences from it are quoted verbatim here. (2) The primary source is the official 2007 LSU Football Media Guide, scanned on the Internet Archive (item lsu-football-2007-media-guide-c). All media-guide quotes are byte-exact substrings of that item's plain-text OCR rendition (the _djvu.txt URL cited), which is what a fetcher retrieving that URL will see. Caveat: that file is ~1.1MB; the Support Staff quotes sit roughly 517KB into it, so a fetcher that truncates long documents may not reach them. The same content is on pp.4, 94-111 of the PDF in the same item. (3) LSUsports.net's football coaches page, season-scoped to 2007-08, was recovered from the Wayback Machine (capture 20081211074750, URL param Q_SEASON=2007) and independently confirms the 10 on-field coaches plus Moffitt, Butler, Nader, Baglio, Mangum and one graduate assistant (John Wozniak). Its markup puts names inside anchors with non-breaking spaces, so combined name+title quotes cannot be reproduced faithfully from it; I quoted role strings only and flagged that in the notes. (4) Later staff bios at huskers.com, ucfknights.com and utsports.com supply the graduate-assistant tier that LSU never published.\n\nWHAT IS COMPLETE. On-field staff is complete and cross-verified: Les Miles plus the NCAA maximum of nine assistants (Crowton, Pelini, Henson, Lane, Mallory, McCarthy, Peveto, Porter, Studrawa). Crowton coached quarterbacks himself (his media-guide bio heading is \"Offensive Coordinator/Quarterbacks\"), which is why there is no separate QB coach. Strength and conditioning, football operations/administration, athletic training, equipment and video tiers are complete as of the media guide's July 2007 press date.\n\nWHAT I COULD NOT RECOVER. (a) Graduate assistants: LSU published no GA list for 2007. The media guide's Support Staff grid uses the titles \"Administrative Intern\" and \"Assistant Strength Coach\" instead — the standard-for-the-era workaround for keeping former GAs on staff — and the only person LSU itself ever labeled a \"Graduate Assistant\" for 2007-08 is John Wozniak. Glen Elarbee is documented as a 2007 LSU GA only through his own later bios; he is absent from the July 2007 media guide, so he presumably joined after it went to press. There were almost certainly additional unnamed GAs and student assistants. (b) Analyst/quality-control tier: no such tier was published in 2007; the three \"Administrative Interns\" (Farrell, Papuchis, Wozniak) are the closest equivalent, and only Papuchis's actual defensive function is documented externally. (c) Medical: only the three football-facing athletic trainers are named. Team physicians and orthopedists are never named for football in any source I recovered; the media guide says the department employed six full-time trainers and 10 graduate-assistant trainers across all sports, and those GA trainers are not enumerated. (d) Video: Doug Aucoin's bio says he oversaw a staff of eight — one full-time assistant, one graduate assistant and six student assistants — but only Aucoin and Brad Mendow are named for 2007. (e) Student equipment managers and student trainers are unnamed. (f) Academic/CHAMPS-Life Skills staff assigned to football could not be separated from department-wide listings.\n\nDELIBERATE EXCLUSIONS. I left out department-wide athletics administration and sports information staff (AD Skip Bertman, SID Michael Bonnette and his staff, TV/radio staff, etc.) that appear on the media guide's Quick Facts page but are not football-program staff. Add them if the dataset's ring rule is broader than the football staff.\n\nTIMING / RING RULE. The media guide is a July 2007 preseason document, so it reflects the staff at the start of the season rather than at the Jan. 7, 2008 BCS National Championship Game; the Wayback LSUsports.net page (season-scoped to 2007-08) corroborates the coaching tier but not the support tiers. Known December movement: Bo Pelini was hired as Nebraska's head coach in early December 2007 and Mike Ekeler and John Papuchis were named to his Nebraska staff on Dec. 17, 2007, but all three are credited with the LSU title — Pelini returned to Baton Rouge and called the defense in the championship game, and Ekeler's own Nebraska bio says he helped LSU win the national title \"capped by a victory over Ohio State in the BCS National Championship Game.\" No departures or arrivals during the regular season were found. No rows here are inferred: every person listed appears by name in a cited source."
 }

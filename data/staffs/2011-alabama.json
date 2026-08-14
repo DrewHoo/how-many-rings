@@ -1,0 +1,713 @@
+{
+  "team": "Alabama",
+  "season": 2011,
+  "coverage_notes": "SOURCES USED (in order of authority):\n(1) 2011 BCS National Championship Bowl Media Guide, published by Alabama Athletics ~Jan 6, 2012 — i.e. the staff as it stood AT the Jan 9, 2012 title game. This is the single best source for the ring rule. URL: https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907 . Its \"Support Staff\" photo grid (printed p. 58) contains 33 named support staffers; the \"Coaching Staff\" bio section (pp. 36-57) covers Saban + 9 on-field assistants + Cochran, Marynowitz, Pannunzio, Allen, Springer, Sherrer, Martin.\n(2) 2011 Alabama Football Media Guide (preseason), archive.org: https://archive.org/download/alabama-football-2011-media-guide-4/Alabama%20Football%202011%20Media%20Guide%204.pdf — same structure, \"Football Support\" grid on printed p. 102 (32 people).\n(3) rolltide.com coaching list archived on the Wayback Machine Dec 20, 2011 (three weeks before the title game): http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html — 13 coaches, clean selectable HTML text.\n(4) Wikipedia team-season page and individual Wikipedia bios.\n\nTOTAL: 52 people documented.\n\nQUOTE LIMITATIONS — PLEASE READ:\n- The support-staff pages in BOTH official guides render every name and job title as a RASTER NAMEPLATE GRAPHIC baked into the photo. There is no selectable text layer for those 33 people. Per instructions, quote is set to \"\" for those source entries and the exact nameplate wording is transcribed in the note field instead. I read every nameplate by rendering the PDF pages at 200-800 DPI and inspecting them visually; the two guides agree on every title, which cross-validates the readings.\n- Where a source DOES have selectable text (the archived rolltide.com HTML page, the media guide bio pages, Wikipedia), I supplied real verbatim quotes.\n- Media-guide PDF quotes are single lines from the embedded text layer, chosen to avoid line-break splits. The bowl guide's own text layer mangles ligatures (\"Off ensive\", \"Jeff  Stoutland\", \"fi rst\"), so I did not quote from it.\n- Russ Callaway's Wikipedia quote contains the typo \"ifor\" — reproduced verbatim as required.\n\nWHAT I COULD NOT DOCUMENT:\n- Glenn Schumann and Rob Ezell appear on the Wikipedia team-season page (graduate assistant / student assistant) but appear in NEITHER official guide's staff grid. Their Wikipedia bios independently confirm 2011 Alabama service. Lower confidence on exact 2011 title than the other 50; flagged in their notes.\n- No archived rolltide.com support-staff/analyst directory page was recoverable — the Wayback CDX API returned 503 repeatedly, and the one archived football page (the roster page) lists only the 13 primary coaches. So the support-staff evidence rests entirely on the two PDF guides.\n- Undergraduate student managers, additional student assistants, video interns, and any GA hired after the guides went to press are almost certainly missing. The real headcount was larger than 52.\n- I deliberately EXCLUDED athletics-department-wide administrators listed in the guides' \"2011 Alabama Football Directory\" because they are not football-program staff: Mal Moore (Athletics Director), Finus Gaston, Shane Lyons, Milton Overton, Kevin Almond, Chris Besanceney, Jon Dever, Dr. Kevin Whitacker, Carol Park, Jeff Purinton (Assoc. AD/Football Communications), Marie Robbins, Ronny Robertson, Doug Walker, Mike Ward, Jon Gilbert, Dave Hart. Purinton and Walker are football-facing communications staff if the dataset wants them; flagging so the decision is yours, not mine.\n- Terry Saban is described in the guide's Saban feature but holds no staff title; excluded.\n\nROSTER-CHANGE NOTES: Candice Rosenkranz appears in the January 2012 bowl guide but NOT the preseason media guide, so she joined during the season and was present at the title game. Jim McElwain was named Colorado State head coach on Dec 12, 2011 but coached the championship game. Sal Sunseri left for Tennessee on Jan 13, 2012 — four days AFTER the title game, so he was on staff for it. No documented mid-season departures.",
+  "staff": [
+    {
+      "name": "Nick Saban",
+      "role": "Head Coach",
+      "role_category": "headcoach",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Nick Saban - Head Coach",
+          "note": "Official rolltide.com 2011 football page archived Dec 20, 2011, 'Coaches' list."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2011_Alabama_Crimson_Tide_football_team",
+          "quote": "Nick Saban",
+          "note": "Listed as head coach in the infobox and the Coaching staff table."
+        }
+      ]
+    },
+    {
+      "name": "Burton Burns",
+      "role": "Associate Head Coach/Running Backs",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Burton Burns - Associate Head Coach/Running Backs",
+          "note": "Archived Dec 20, 2011 rolltide.com 'Coaches' list."
+        }
+      ]
+    },
+    {
+      "name": "Mike Groh",
+      "role": "Wide Receivers/Recruiting Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Mike Groh - Wide Receivers/Recruiting Coordinator",
+          "note": "Archived Dec 20, 2011 rolltide.com 'Coaches' list. Hired Feb 2011 to replace Curt Cignetti."
+        }
+      ]
+    },
+    {
+      "name": "Jim McElwain",
+      "role": "Offensive Coordinator/Quarterbacks",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Jim McElwain - Offensive Coordinator/Quarterbacks",
+          "note": "Archived Dec 20, 2011 rolltide.com 'Coaches' list — i.e. still listed as OC after his Colorado State hire was announced."
+        }
+      ],
+      "midseason_note": "Named head coach at Colorado State on Dec 12, 2011, but remained with Alabama and coached the Jan 9, 2012 BCS National Championship Game. On staff at the championship game."
+    },
+    {
+      "name": "Jeremy Pruitt",
+      "role": "Secondary",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Jeremy Pruitt - Secondary",
+          "note": "Archived Dec 20, 2011 rolltide.com 'Coaches' list."
+        }
+      ]
+    },
+    {
+      "name": "Chris Rumph",
+      "role": "Defensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Chris Rumph - Defensive Line",
+          "note": "Archived Dec 20, 2011 rolltide.com 'Coaches' list. Hired Jan 2011 from Clemson to replace Bo Davis."
+        }
+      ]
+    },
+    {
+      "name": "Kirby Smart",
+      "role": "Defensive Coordinator/Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Kirby Smart - Defensive Coordinator/Linebackers",
+          "note": "Archived Dec 20, 2011 rolltide.com 'Coaches' list."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Stoutland",
+      "role": "Offensive Line",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Jeff Stoutland - Offensive Line",
+          "note": "Archived Dec 20, 2011 rolltide.com 'Coaches' list. Hired Jan 2011 to replace the retiring Joe Pendry. Wikipedia's table words this as 'Assistant head coach, offensive line'."
+        }
+      ]
+    },
+    {
+      "name": "Sal Sunseri",
+      "role": "Assistant Head Coach/Linebackers",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Sal Sunseri - Assistant Head Coach/Linebackers",
+          "note": "Archived Dec 20, 2011 rolltide.com 'Coaches' list. Left for Tennessee on Jan 13, 2012 — after the title game."
+        }
+      ]
+    },
+    {
+      "name": "Bobby Williams",
+      "role": "Tight Ends/Special Teams Coordinator",
+      "role_category": "onfield",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Bobby Williams - Tight Ends/Special Teams Coordinator",
+          "note": "Archived Dec 20, 2011 rolltide.com 'Coaches' list."
+        }
+      ]
+    },
+    {
+      "name": "Scott Cochran",
+      "role": "Director of Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Scott Cochran - Director of Strength and Conditioning",
+          "note": "Archived Dec 20, 2011 rolltide.com 'Coaches' list."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-2011-media-guide-4/Alabama%20Football%202011%20Media%20Guide%204.pdf",
+          "quote": "strong is that of Director of Strength and Conditioning Scott Co-",
+          "note": "2011 media guide printed p. 97 (PDF page index 97). Quote is one full line of the PDF text layer; the sentence continues 'chran.' on the next line due to hyphenation."
+        }
+      ]
+    },
+    {
+      "name": "Terry Jones",
+      "role": "Assistant Head Strength Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "2011 BCS National Championship bowl media guide (Jan 2012), 'Support Staff' photo grid, printed p. 58. Nameplate is a raster graphic with no selectable text; it reads 'TERRY JONES / ASSISTANT HEAD STRENGTH COACH'. Identical nameplate appears in the preseason media guide printed p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Mark Hocke",
+      "role": "Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'MARK HOCKE / STRENGTH & CONDITIONING'. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Kendal Morehead",
+      "role": "Strength and Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'KENDAL MOREHEAD / STRENGTH AND CONDITIONING' (spelled out 'AND', unlike the '&' used on other strength nameplates). Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Rob Sale",
+      "role": "Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'ROB SALE / STRENGTH & CONDITIONING'. Same in preseason media guide p. 102."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Rob_Sale",
+          "quote": "Sale was hired as a strength & conditioning assistant and offensive analyst at Alabama in 2007 under his former college coach Nick Saban.",
+          "note": "Corroborates his Alabama strength-staff tenure covering 2011; Wikipedia adds an analyst component the guides do not list."
+        }
+      ]
+    },
+    {
+      "name": "Lester Towns",
+      "role": "Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'LESTER TOWNS / STRENGTH & CONDITIONING'. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Dean Altobelli",
+      "role": "Defensive Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58, first entry. Raster nameplate reads 'DEAN ALTOBELLI / DEFENSIVE ANALYST'. Same in preseason media guide p. 102."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2011_Alabama_Crimson_Tide_football_team",
+          "quote": "Dean Altobelli",
+          "note": "Listed under the 'Defensive analysts' subheading of the Analysts section; the role comes from the heading, not the same line as the name."
+        }
+      ]
+    },
+    {
+      "name": "Russ Callaway",
+      "role": "Defensive Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'RUSS CALLAWAY / DEFENSIVE ANALYST'. Same in preseason media guide p. 102."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Russ_Callaway",
+          "quote": "He was part of the Alabama coaching staffs that won the National Championship ifor the 2011 and 2012 seasons.",
+          "note": "Quoted verbatim including the source's typo 'ifor'. The preceding sentence reads: 'Callaway got his first career coaching job as a defensive analyst for the Alabama Crimson Tide.'"
+        }
+      ]
+    },
+    {
+      "name": "Joe Judge",
+      "role": "Special Teams Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'JOE JUDGE / SPECIAL TEAMS ANALYST'. Same in preseason media guide p. 102."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2011_Alabama_Crimson_Tide_football_team",
+          "quote": "Joe Judge",
+          "note": "Listed as the sole entry under the 'Special teams analysts' subheading; role derives from the heading line above the name."
+        }
+      ]
+    },
+    {
+      "name": "Billy Napier",
+      "role": "Offensive Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'BILLY NAPIER / OFFENSIVE ANALYST'. Same in preseason media guide p. 102."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Billy_Napier",
+          "quote": "After spending the 2011 season as an analyst on Saban's staff, Napier earned a championship ring following Alabama's win over LSU in the BCS National Championship Game.",
+          "note": "Directly states he earned a ring for this exact season — useful confirmation of the ring rule."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Norrid",
+      "role": "Offensive Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'JEFF NORRID / OFFENSIVE ANALYST'. Same in preseason media guide p. 102."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2011_Alabama_Crimson_Tide_football_team",
+          "quote": "Jeff Norrid",
+          "note": "Listed under the 'Offensive analysts' subheading of the Analysts section."
+        }
+      ]
+    },
+    {
+      "name": "Jody Wright",
+      "role": "Offensive Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'JODY WRIGHT / OFFENSIVE ANALYST'. Same in preseason media guide p. 102."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jody_Wright",
+          "quote": "In 2010, Wright joined the Alabama Crimson Tide as a graduate assistant, then becoming an offensive analyst in 2011 and serving in that role through 2012.",
+          "note": "Explicitly dates the offensive-analyst role to 2011."
+        }
+      ]
+    },
+    {
+      "name": "Derrick Ansley",
+      "role": "Defensive Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'DERRICK ANSLEY / DEFENSIVE GRADUATE ASSISTANT'. Same in preseason media guide p. 102."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Derrick_Ansley",
+          "quote": "In 2010, he made the jump to Alabama as an on-field defensive graduate assistant.",
+          "note": "Dates the start of the role to 2010; the 2011 guides confirm he still held it for the championship season."
+        }
+      ]
+    },
+    {
+      "name": "Derrick Crudup",
+      "role": "Offensive Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'DERRICK CRUDUP / OFFENSIVE GRADUATE ASSISTANT'. Same in preseason media guide p. 102. Not listed on the Wikipedia team page, which names only three GAs."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Garver",
+      "role": "Video Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'KEVIN GARVER / VIDEO GRADUATE ASSISTANT'. Same in preseason media guide p. 102."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2011_Alabama_Crimson_Tide_football_team",
+          "quote": "Kevin Garver",
+          "note": "Listed under the 'Graduate assistants' section heading."
+        }
+      ]
+    },
+    {
+      "name": "Glenn Schumann",
+      "role": "Graduate assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2011_Alabama_Crimson_Tide_football_team",
+          "quote": "Glenn Schumann",
+          "note": "Listed under the 'Graduate assistants' section heading of the 2011 team page. NOTE: Schumann does NOT appear in either official Alabama guide's support-staff grid, so this rests on Wikipedia alone."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Glenn_Schumann",
+          "quote": "He served as a student assistant from 2008 to 2011, when he graduated.",
+          "note": "The next sentence reads 'After he graduated, he became a graduate assistant under Saban.' He graduated in spring 2011, placing him in the GA role for the 2011 season — consistent with the team page but not independently confirmed by a contemporary Alabama source."
+        }
+      ]
+    },
+    {
+      "name": "Rob Ezell",
+      "role": "Student assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2011_Alabama_Crimson_Tide_football_team",
+          "quote": "Rob Ezell",
+          "note": "Listed as the sole entry under the 'Student assistants' section heading. Does NOT appear in either official guide's support-staff grid."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Rob_Ezell",
+          "quote": "Ezell started his college coaching career as a student assistant at Alabama in 2011.",
+          "note": "Independently dates the student-assistant role to 2011. He was a walk-on player at Alabama 2007-2010 before joining the staff."
+        }
+      ]
+    },
+    {
+      "name": "Joe Pannunzio",
+      "role": "Director of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Joe Pannunzio - Director of Football Operations",
+          "note": "Archived Dec 20, 2011 rolltide.com 'Coaches' list — he was listed among the coaches, not the support staff."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-2011-media-guide-4/Alabama%20Football%202011%20Media%20Guide%204.pdf",
+          "quote": "  Joe Pannunzio is in his first year at Alabama, joining the Crim-",
+          "note": "2011 media guide printed p. 99. One full line of the PDF text layer, including its two leading spaces; the sentence continues 'son Tide coaching staff as director of football operations in February, 2011.' across the next two lines."
+        }
+      ]
+    },
+    {
+      "name": "Patrick Suddes",
+      "role": "Associate Director Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'PATRICK SUDDES / ASSOCIATE DIRECTOR FOOTBALL OPERATIONS' on two lines. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Ed Marynowitz",
+      "role": "Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "http://web.archive.org/web/20111220221933/http://www.rolltide.com:80/sports/m-footbl/mtt/alab-m-footbl-mtt.html",
+          "quote": "Ed Marynowitz - Director of Player Personnel",
+          "note": "Archived Dec 20, 2011 rolltide.com 'Coaches' list."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-2011-media-guide-4/Alabama%20Football%202011%20Media%20Guide%204.pdf",
+          "quote": "Ed Marynowitz is in his third year on the Alabama staff as ",
+          "note": "2011 media guide printed p. 98. One full line of the PDF text layer including its trailing space; continues 'the Director of Player Personnel.' on the next line."
+        }
+      ]
+    },
+    {
+      "name": "Ashleigh Kimble",
+      "role": "Assistant Director Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'ASHLEIGH KIMBLE / ASSISTANT DIRECTOR PLAYER PERSONNEL' on two lines. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Rachael Smallwood",
+      "role": "Recruiting Operations Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'RACHAEL SMALLWOOD / RECRUITING OPERATIONS COORDINATOR'. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Candice Rosenkranz",
+      "role": "Recruiting Operations Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'CANDICE ROSENKRANZ / RECRUITING OPERATIONS COORDINATOR'; I verified this by rendering the page region at 800 DPI. She is absent from the preseason media guide's equivalent grid."
+        }
+      ],
+      "midseason_note": "Appears only in the January 2012 BCS bowl guide, not in the preseason 2011 media guide — she joined the staff during the 2011 season and was on staff at the championship game."
+    },
+    {
+      "name": "Glenda Edwards",
+      "role": "Administrative Assistant for Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'GLENDA EDWARDS / ADMINISTRATIVE ASSISTANT FOR HEAD COACH' on two lines. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Sherrer",
+      "role": "Director of Player Development",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2011-media-guide-4/Alabama%20Football%202011%20Media%20Guide%204.pdf",
+          "quote": "Kevin Sherrer was hired by Alabama head coach Nick Saban as Director of Player Development on March ",
+          "note": "2011 media guide printed p. 101. One full line of the PDF text layer including its trailing space; continues '1, 2010.' on the next line. The same bio appears in the January 2012 bowl guide, printed p. 57, confirming he was still on staff at the title game."
+        }
+      ]
+    },
+    {
+      "name": "Willie Carl Martin",
+      "role": "Director of Player Development (Academics/Strength & Conditioning)",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2011-media-guide-4/Alabama%20Football%202011%20Media%20Guide%204.pdf",
+          "quote": "Willie Carl Martin joined the Alabama football staff as Director of Player Development (Academics/Strength ",
+          "note": "2011 media guide printed p. 101. One full line of the PDF text layer including its trailing space; the title continues '& Conditioning) in March of 2007' on the next line. Same bio in the January 2012 bowl guide, printed p. 57."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Aul",
+      "role": "Academic Program Advisor",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'JEFF AUL / ACADEMIC PROGRAM ADVISOR'. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Lance Walker",
+      "role": "Academic Program Advisor",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'LANCE WALKER / ACADEMIC PROGRAM ADVISOR'. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Allen",
+      "role": "Director of Sports Medicine",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2011-media-guide-4/Alabama%20Football%202011%20Media%20Guide%204.pdf",
+          "quote": "Director of Sports Medicine Jeff Allen is in his fifth year as head football athletic trainer at Alabama. Before joining ",
+          "note": "2011 media guide printed p. 100. One full line of the PDF text layer including its trailing space. Same bio in the January 2012 bowl guide, printed p. 56."
+        }
+      ]
+    },
+    {
+      "name": "Ginger Gilmore",
+      "role": "Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'GINGER GILMORE / ATHLETIC TRAINER'. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Gsell",
+      "role": "Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'JEREMY GSELL / ATHLETIC TRAINER'. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Rodney Brown",
+      "role": "Director of Rehab Services",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'RODNEY BROWN / DIRECTOR OF REHAB SERVICES'. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Amy Bragg",
+      "role": "Director of Performance Nutrition",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'AMY BRAGG / DIRECTOR OF PERFORMANCE NUTRITION'. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Springer",
+      "role": "Athletic Equipment Director",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://archive.org/download/alabama-football-2011-media-guide-4/Alabama%20Football%202011%20Media%20Guide%204.pdf",
+          "quote": "The all-important role of Athletic Equipment Director will be filled this season by Jeff Springer, who joined the ",
+          "note": "2011 media guide printed p. 100. One full line of the PDF text layer including its trailing space. Joined in March 2011 after Tank Conerly retired. Same bio in the January 2012 bowl guide, printed p. 56."
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Jordan",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'JEREMY JORDAN / ASSISTANT EQUIPMENT MANAGER'. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Troy Finney",
+      "role": "Senior Director of Video Operations",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'TROY FINNEY / SENIOR DIRECTOR OF VIDEO OPERATIONS' on two lines. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Daniel Lyerly",
+      "role": "Director of Video Operations for Football",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'DANIEL LYERLY / DIRECTOR OF VIDEO OPERATIONS FOR FOOTBALL' on two lines. Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Buddy Overstreet",
+      "role": "Director of Creative Media",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'BUDDY OVERSTREET / DIRECTOR OF CREATIVE MEDIA'. Same in preseason media guide p. 102."
+        },
+        {
+          "url": "https://archive.org/download/alabama-football-2011-media-guide-4/Alabama%20Football%202011%20Media%20Guide%204.pdf",
+          "quote": "Buddy Overstreet\t",
+          "note": "2011 media guide printed p. 3, listed in the media relations staff block under the label 'Director of Creative Media:' on the preceding line. Quote includes the trailing tab character present in the PDF text layer."
+        }
+      ]
+    },
+    {
+      "name": "Cedric Burns",
+      "role": "Coordinator of Athletic Relations",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'CEDRIC BURNS / COORDINATOR OF ATHLETIC RELATIONS'. Same in preseason media guide p. 102. Distinct person from running backs coach Burton Burns."
+        }
+      ]
+    },
+    {
+      "name": "Gary Cramer",
+      "role": "Director of FCA",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'GARY CRAMER / DIRECTOR OF FCA' (Fellowship of Christian Athletes — team chaplain role). Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Jessie Peoples",
+      "role": "State Trooper",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'JESSIE PEOPLES / STATE TROOPER' (team security detail). Same in preseason media guide p. 102."
+        }
+      ]
+    },
+    {
+      "name": "Eddie Wilder",
+      "role": "State Trooper",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/rolltide.com/documents/2012/1/6/2011-bcs-bowl-guide.pdf?timestamp=20160610115907",
+          "quote": "",
+          "note": "Bowl guide 'Support Staff' grid, printed p. 58. Raster nameplate reads 'EDDIE WILDER / STATE TROOPER' (team security detail). Same in preseason media guide p. 102."
+        }
+      ]
+    }
+  ]
+}

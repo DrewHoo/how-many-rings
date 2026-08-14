@@ -1,6 +1,7 @@
 {
   "team": "Florida State",
   "season": 2013,
+  "coverage_notes": "SOURCES USED (4):\n(A) Archived seminoles.com official football roster page, snapshot 2013-09-28: https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html — clean HTML \"Coaches\" block, 15 people. Best-quality source; quotes verified by stripping tags (name and title are adjacent inline nodes, so they concatenate to \"Name - Role\").\n(B) Wikipedia 2013 team-season page: https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team — infobox/Coaching staff table (11 on-field + S&C) plus an untitled \"Support Staff\" bullet list.\n(C) 2013 FSU Media Guide, Internet Archive OCR text: https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt — the deepest source; yields the Support Staff / Football Office grid, the 2013 Graduate Assistants page, the Football Strength & Conditioning + Nutrition staff, and the Sports Medicine staff.\n(D) 2013 BCS Bowl (championship game) Media Guide, Internet Archive OCR text: https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt — January 2014 staff/administration page; this is the source that reflects who was actually there at the title game.\n\nOCR CAVEAT (important for quote matching): sources C and D are OCR of print media guides. Every quote I supply from them is copied byte-for-byte out of the fetched _djvu.txt, including OCR garbling (e.g. \"§Rhonne Sanderson\", \"KevinGadowry\", \"feams\", \"ap steel\", \"Foothall\"), so string matching against that URL should succeed — but the quotes are NOT clean English, by design. The media-guide staff pages are photo grids: OCR emits a row of names as one line and the row of captions as the next line(s). I assigned each role by matching column position across those lines. Where that mapping is ambiguous I say so in the person's note rather than guessing silently.\n\nWHAT I COULD NOT DOCUMENT:\n- One assistant athletic trainer's name is unrecoverable: the Sports Medicine line reads \"Jake Pfeil Jerry Latimer Jeronimo Boche ap steel Brandon Stone Madeleine Scaramuzzo\" — \"ap steel\" is a mangled fourth name. I did NOT create a row for that person rather than invent a name.\n- The seminoles.com athletics staff directory itself (school-bio/fsu-contacts.html) could not be retrieved from the Wayback Machine — repeated CDX/API calls returned 429/503 rate limits, and this environment blocks WebFetch against web.archive.org (curl worked, the API did not). Roster page A was retrieved successfully via curl; a January 2014 request redirected to an October 2013 snapshot.\n- The live seminoles.com PDF of the 2013 media guide returned an HTML block page, so I used the Internet Archive copies.\n- Exact arrival/departure dates for support staff are not documented in any source I found, so midseason_note is populated only for Chris Revell, where the two media guides disagree in a way that is itself evidence.\n\nRELIABILITY WARNING ON 7 ROWS — Wikipedia's \"Support Staff\" bullet list on the 2013 page is untitled and uncited. Nine of its names (Lynch, Kennedy, Biffani, Helow, Spurlock, Snider, Revell, Warren, Edwards Sr.) are corroborated by the 2013 media guides. Seven are NOT: Jeremiah Wilson, Brian Williams, Jamie Mujeni, Matt McCutchan, Roy Upchurch, Ernest Bradley, Paul Sheffield. I grepped both full media guides for each — zero hits — and targeted web searches returned nothing tying them to FSU in 2013. Several (Upchurch, Jeremiah Wilson) are plausibly from FSU staffs of later seasons, so Wikipedia's list may be anachronistic. I included them because they do have a real source and the task asked for everything documented, but they are flagged individually and should probably be held out of a rings count without further evidence.\n\nSCOPE DECISION: I excluded athletics-department-wide personnel who appear on the media guides' football pages but are not football staff — university president Eric J. Barron, AD Stan Wilcox, Monk Bonasorte, Matt Behnke, Vanessa Fuchs, Dr. Greg Beaumont, and the Communications / Marketing / Facilities / Ticket Office / Business Office blocks (Rob Wilson, Jason Dennard, Drew Longenecker, Nicole Haves, Staci Sutton, Bernie Waxman, Chuck Morris, Laurie Swiger, Brian Donoway, Ben Zierden, Jack Chatham, Michael Espada, Elizabeth Hartsock, Charla Phinney). Team physicians (Dr. Steve Jordan, Dr. Kris Stowers, Dr. William Thompson, Dr. John Katopodis, Dr. Hector Mejia) and specialists (Dr. Darrh Bryant, Dr. Bob Orsillo, Dr. John Van Tassel) are also listed in the guide but serve all 20 FSU sports; I left them out for the same reason. Note that the Sports Medicine trainers I DID include are described in the guide as serving all sports too, except Jake Pfeil, who is explicitly the head football athletic trainer — treat the other five as lower-confidence for a football-rings count.\n\nTotal: 57 rows. 10 on-field coaches + head coach role, 4 graduate assistants, 8 quality control, 5 strength/speed, 6 medical, 2 equipment, 3 video, plus operations/personnel/administrative and the 7 flagged Wikipedia-only names.",
   "staff": [
     {
       "name": "Jimbo Fisher",
@@ -8,14 +9,14 @@
       "role_category": "headcoach",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
           "quote": "Jimbo Fisher - Head Coach",
-          "note": "Coaches list on the archived 2013 Florida State Football Roster page (Oct. 17, 2013 snapshot of seminoles.com)."
+          "note": "Coaches block of the official FSU football roster page, snapshot 2013-09-28."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Jimbo Fisher – Offensive coordinator",
-          "note": "Fisher also held the offensive coordinator title in 2013."
+          "quote": "Offensive coordinator",
+          "note": "Wikipedia's Coaching staff table lists Fisher a second time as offensive coordinator: 'Jimbo Fisher – Offensive coordinator'. He called plays himself in 2013 after James Coley left for Miami."
         }
       ]
     },
@@ -25,12 +26,13 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
           "quote": "Jeremy Pruitt - Defensive Coordinator/Defensive Backs"
         },
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Jeremy Pruitt – Defensive coordinator and Secondary coach"
+          "quote": "and Secondary coach",
+          "note": "Wikipedia renders the entry as 'Jeremy Pruitt – Defensive coordinator and Secondary coach'; quoted the contiguous italic fragment to guarantee an exact match. First season at FSU; left for Georgia after the title game."
         }
       ]
     },
@@ -40,13 +42,12 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
           "quote": "Rick Trickett - Assistant Head Coach/Offensive Line"
         },
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Rick Trickett– Assistant head coach and offensive line coach",
-          "note": "Wikipedia's rendered text has no space before the en dash; copied exactly."
+          "quote": "Assistant head coach and offensive line coach"
         }
       ]
     },
@@ -56,12 +57,17 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
           "quote": "Tim Brewster - Recruiting Coordinator/Tight Ends"
         },
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Tim Brewster – Tight ends coach/recruiting coordinator"
+          "quote": "Tight ends coach/recruiting coordinator"
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Tim Brewster 2013-present",
+          "note": "All-time assistant coaches list in the media guide confirms 2013 as his first season on staff."
         }
       ]
     },
@@ -71,12 +77,12 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
           "quote": "Lawrence Dawsey - Passing Game Coordinator/Wide Receivers"
         },
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Lawrence Dawsey – Wide receivers coach"
+          "quote": "Wide receivers coach"
         }
       ]
     },
@@ -86,12 +92,12 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
           "quote": "Jay Graham - Running Backs"
         },
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Jay Graham – Running backs coach"
+          "quote": "Running backs coach"
         }
       ]
     },
@@ -101,12 +107,13 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
           "quote": "Odell Haggins - Defensive Tackles"
         },
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Odell Haggins – Defensive line coach"
+          "quote": "Defensive line coach",
+          "note": "Wikipedia words it as defensive line coach; the school's own page words it as Defensive Tackles."
         }
       ]
     },
@@ -116,12 +123,12 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
           "quote": "Charles Kelly - Special Teams Coordinator/Linebackers"
         },
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Charles Kelly – Linebackers coach and special teams coordinator"
+          "quote": "Linebackers coach and special teams coordinator"
         }
       ]
     },
@@ -131,12 +138,12 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
           "quote": "Randy Sanders - Quarterbacks"
         },
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Randy Sanders – Quarterbacks coach"
+          "quote": "Quarterbacks coach"
         }
       ]
     },
@@ -146,28 +153,13 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
           "quote": "Sal Sunseri - Defensive Ends"
         },
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Sal Sunseri – Defensive ends coach"
-        }
-      ]
-    },
-    {
-      "name": "Vic Viloria",
-      "role": "Head Strength & Conditioning Coach",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
-          "quote": "Vic Viloria - Head Strength & Conditioning Coach"
-        },
-        {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Vic Viloria Head Strength and Speed - Football",
-          "note": "Weight Rooms section of the archived FSU athletics staff directory (Oct. 17, 2013). Name and title are adjacent table cells; quote reflects whitespace-normalized page text."
+          "quote": "Defensive ends coach",
+          "note": "Hired in the 2013 offseason (Feb 2013), before the season, so no midseason note applies."
         }
       ]
     },
@@ -177,13 +169,13 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
           "quote": "Mark Robinson - Director of Football Operations"
         },
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Mark Robinson Director of Football Operations",
-          "note": "Football/(ADMINISTRATION) block of the archived staff directory."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Nov. 23 Idaho Tallahassee, Fla. First Meeting | Mark Robinson Director of Football Operations _ Appalachian State ‘03 1st",
+          "note": "Media guide quick-facts staff table is printed in a column beside the schedule, so OCR interleaves the two. Verbatim from the OCR text; '1st' = first season at FSU."
         }
       ]
     },
@@ -193,178 +185,57 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
           "quote": "Bob Lacivita - Director of Player Personnel",
-          "note": "The roster page spells the surname 'Lacivita'; the media guide and staff directory spell it 'LaCivita'."
+          "note": "School roster page spells it 'Bob Lacivita'; the media guide spells it 'Bob LaCivita'."
         },
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Bob LaCivita Player Personnel"
-        }
-      ]
-    },
-    {
-      "name": "Addison Lynch",
-      "role": "Defensive Graduate Assistant",
-      "role_category": "gradasst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
-          "quote": "Addison Lynch - Defensive Graduate Assistant"
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Bob LaCivita Director of Player Personnel IUP '71 7th"
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Addison Lynch",
-          "note": "Listed under the 'Support Staff' heading of the Wikipedia coaching staff box without a title."
+          "url": "https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt",
+          "quote": "Dir. of Player Personnel EDWARDS SR. MS,ATC,LAT ———Equipment Manager _Grad. Asst. - Offense",
+          "note": "Championship-game guide staff grid; caption row under the names row 'BOB LACIVITA MARIO JAKE PFEIL DARIN KERNS DAVID SPURLOCK'. Confirms he was on staff at the BCS title game."
         }
       ]
     },
     {
-      "name": "David Spurlock",
-      "role": "Offensive Graduate Assistant",
-      "role_category": "gradasst",
+      "name": "Matt Ayer",
+      "role": "Asst. Dir. of Player Personnel",
+      "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
-          "quote": "David Spurlock - Offensive Graduate Assistant"
+          "url": "https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt",
+          "quote": "Grad. Asst. - Offense Grad. Asst. - Defense Grad. Asst.- Defense Asst. Dir. of Player Personnel Video Director",
+          "note": "Caption row of the championship-game staff photo grid; the names row directly above it is 'CHRIS REVELL ADDISON LYNCH GEORGE HELOW MATT AYER CRAIG CAMPANOZZI'. Ayer is column 4, matching 'Asst. Dir. of Player Personnel'."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "David Spurlock",
-          "note": "Listed under the 'Support Staff' heading without a title."
-        }
-      ]
-    },
-    {
-      "name": "George Helow",
-      "role": "Graduate Assistant",
-      "role_category": "gradasst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "George Helow Graduate Assistant",
-          "note": "Football/(DEFENSE) block of the archived staff directory (Oct. 17, 2013). Name and title are adjacent table cells; quote reflects whitespace-normalized page text."
+          "url": "https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt",
+          "quote": "CHRIS REVELL ADDISON LYNCH GEORGE HELOW MATT AYER CRAIG CAMPANOZZI",
+          "note": "Names row of the same grid."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "George Helow",
-          "note": "Listed under 'Support Staff' without a title. The 2013 media guide's all-time assistant coaches page also lists 'George Helow 2013-present (GA)'."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Joy Beech Daphne Williams Nicole Lamar Logan McMahon Matt Ayer Christian Sanders Clint Purvis Mario Edwards Sr.",
+          "note": "Preseason media guide Support Staff / Football Office grid, names row; Ayer is column 5, whose caption reads 'Assistant Director of Player Personnel'."
         }
       ]
     },
     {
-      "name": "Kurt Kennedy",
-      "role": "Quality Control",
-      "role_category": "qc",
+      "name": "Christian Sanders",
+      "role": "Player Personnel Assistant",
+      "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Kurt Kennedy Quality Control",
-          "note": "Football/(DEFENSE) block of the archived staff directory. Media guide lists him as 'Quality Control/Offense'."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Joy Beech Daphne Williams Nicole Lamar Logan McMahon Matt Ayer Christian Sanders Clint Purvis Mario Edwards Sr.",
+          "note": "Support Staff / Football Office photo grid, names row. Sanders is column 6."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Kurt Kennedy",
-          "note": "Listed under 'Support Staff' without a title."
-        }
-      ]
-    },
-    {
-      "name": "Steve Schlemon",
-      "role": "Quality Control",
-      "role_category": "qc",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Steve Shelmon Quality Control",
-          "note": "The archived staff directory spells the surname 'Shelmon'; the 2013 media guide support-staff page spells it 'Schlemon' and gives the title 'Quality Control/Offense'. Same person; spelling unresolved."
-        }
-      ]
-    },
-    {
-      "name": "Mike Warren",
-      "role": "Quality Control",
-      "role_category": "qc",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Mike Warren Quality Control",
-          "note": "Football/(DEFENSE) block of the archived staff directory. Media guide lists him as 'Quality Control/Offense'."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Mike Warren",
-          "note": "Listed under 'Support Staff' without a title."
-        }
-      ]
-    },
-    {
-      "name": "Bert Biffani",
-      "role": "Quality Control",
-      "role_category": "qc",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide (prospectus), 'SUPPORT STAFF' page (printed page 74). Entry reads: Bert Biffani / Football / Quality Control. Quote left empty because this is a PDF whose text layer cannot be copied faithfully (the page's decorative headings inject repeated characters)."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Bert Biffani",
-          "note": "Listed under 'Support Staff' without a title."
-        }
-      ]
-    },
-    {
-      "name": "Blake Snider",
-      "role": "Quality Control",
-      "role_category": "qc",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Blake Snider / Football / Quality Control. PDF text layer, quote omitted per instructions."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Blake Snider",
-          "note": "Listed under 'Support Staff' without a title."
-        }
-      ]
-    },
-    {
-      "name": "Rhonne Sanderson",
-      "role": "Quality Control",
-      "role_category": "qc",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Rhonne Sanderson / Football / Quality Control. PDF text layer, quote omitted per instructions."
-        }
-      ]
-    },
-    {
-      "name": "Justin Bright",
-      "role": "Quality Control",
-      "role_category": "qc",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Justin Bright / Football / Quality Control. PDF text layer, quote omitted per instructions."
-        }
-      ]
-    },
-    {
-      "name": "Chris Jacobs",
-      "role": "Quality Control",
-      "role_category": "qc",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Chris Jacobs / Football / Quality Control. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "the Head Football Coach ile and Special Defense Recruiting Operations Player Personnel Assistant Player Development",
+          "note": "Second caption line of that grid. Column 6 reads 'Player Personnel' (first caption line) + 'Assistant' here."
         }
       ]
     },
@@ -374,43 +245,53 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Mario Edwards Sr. / Football / Director of Player Development. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt",
+          "quote": "Dir. of Player Development Assoc. Dir. of Sports Medicine",
+          "note": "Championship-game staff grid caption; his name is OCR'd as 'MARIO' / 'EDWARDS SR.' split across the names and caption rows. Confirms he was on staff at the BCS title game."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Joy Beech Daphne Williams Nicole Lamar Logan McMahon Matt Ayer Christian Sanders Clint Purvis Mario Edwards Sr.",
+          "note": "Preseason Support Staff grid, names row; column 8, caption 'Director of Player Development'."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
           "quote": "Mario Edwards Sr.",
-          "note": "Listed under 'Support Staff' without a title."
+          "note": "Listed in Wikipedia's untitled 'Support Staff' bullet list. Father of DE Mario Edwards Jr."
         }
       ]
     },
     {
       "name": "Joy Beech",
-      "role": "Fisher's Administrative Assistant",
+      "role": "Executive Assistant to the Head Football Coach",
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Joy Beech Fisher's Administrative Assistant",
-          "note": "Football/(HEAD COACHES OFFICE) block of the archived staff directory. The same directory's (SECRETARIES) block lists 'Joy Beech / Head Coach Jimbo Fisher'; the media guide titles her 'Executive Assistant to the Head Football Coach'."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Joy Beech Daphne Williams Nicole Lamar Logan McMahon Matt Ayer Christian Sanders Clint Purvis Mario Edwards Sr.",
+          "note": "Support Staff / Football Office grid, names row. Beech is column 1."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Executive Assistant to Administrative Assistant Administrative Assistant Administrative Assistant Assistant Director of Player Personnel Team Chaplin Director of",
+          "note": "First caption line of that grid; column 1 = 'Executive Assistant to', continued as 'the Head Football Coach' on the next line."
         }
       ]
     },
     {
       "name": "Daphne Williams",
-      "role": "Administrative Assistant Offense and Special Teams",
+      "role": "Administrative Assistant",
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Daphne Williams / Football / Administrative Assistant Offense and Special Teams. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Joy Beech Daphne Williams Nicole Lamar Logan McMahon Matt Ayer Christian Sanders Clint Purvis Mario Edwards Sr.",
+          "note": "Support Staff grid, names row, column 2."
         },
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Daphne Williams Offense",
-          "note": "Football/(SECRETARIES) block of the archived staff directory."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "the Head Football Coach ile and Special Defense Recruiting Operations Player Personnel Assistant Player Development",
+          "note": "Her caption's second line OCRs as 'ile and Special' with 'feams' (=Teams) on the following line, i.e. something like '...ine and Special Teams'. The leading word is unrecoverable, so I recorded only the certain part, 'Administrative Assistant', rather than guess the specialty."
         }
       ]
     },
@@ -420,14 +301,14 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Nicole Lamar / Football / Administrative Assistant Defense. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Joy Beech Daphne Williams Nicole Lamar Logan McMahon Matt Ayer Christian Sanders Clint Purvis Mario Edwards Sr.",
+          "note": "Support Staff grid, names row, column 3."
         },
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Nicole Lamar Defense",
-          "note": "Football/(SECRETARIES) block of the archived staff directory."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "the Head Football Coach ile and Special Defense Recruiting Operations Player Personnel Assistant Player Development",
+          "note": "Second caption line; column 3 = 'Defense', under 'Administrative Assistant' from the first caption line."
         }
       ]
     },
@@ -437,14 +318,14 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Logan McMahon / Football / Administrative Assistant Recruiting Operations. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Joy Beech Daphne Williams Nicole Lamar Logan McMahon Matt Ayer Christian Sanders Clint Purvis Mario Edwards Sr.",
+          "note": "Support Staff grid, names row, column 4."
         },
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Logan McMahon Recruiting",
-          "note": "Football/(SECRETARIES) block of the archived staff directory."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "the Head Football Coach ile and Special Defense Recruiting Operations Player Personnel Assistant Player Development",
+          "note": "Second caption line; column 4 = 'Recruiting Operations', under 'Administrative Assistant'."
         }
       ]
     },
@@ -454,92 +335,31 @@
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Carol Moore / Football / Executive Assistant to Football Operations. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Carol Moore Scott Smith Steve Schlemon _Kurt Kennedy Blake Snider §Rhonne Sanderson Justin Bright Mike Warren",
+          "note": "Support Staff grid, second names row. Moore is column 1."
         },
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Carol Moore Football Operations",
-          "note": "Football/(SECRETARIES) block of the archived staff directory."
-        }
-      ]
-    },
-    {
-      "name": "Ali Jones",
-      "role": "Administrative Assistant",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Ali Jones Administrative Assistant",
-          "note": "Football/(SECRETARIES) block of the archived FSU athletics staff directory (Oct. 17, 2013); also present in the Feb. 15, 2014 snapshot."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Executive Assistant to Assistant to Quality Control/Offense Quality Control/Offense Quality Control Quality Control Quality Control Quality Control/Offense",
+          "note": "Caption row; column 1 = 'Executive Assistant to', continued as 'Football Operations' on the next line."
         }
       ]
     },
     {
       "name": "Scott Smith",
-      "role": "Asst. Director for Football Opperations",
+      "role": "Assistant to Football Operations",
       "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Scott Smith Asst. Director for Football Opperations",
-          "note": "Football/(ADMINISTRATION) block of the archived staff directory; 'Opperations' is the site's own misspelling, copied exactly. Media guide titles him 'Assistant to Football Operations'."
-        }
-      ]
-    },
-    {
-      "name": "Matt Ayer",
-      "role": "Assistant Director of Player Personnel",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Matt Ayer / Football / Assistant Director of Player Personnel. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Carol Moore Scott Smith Steve Schlemon _Kurt Kennedy Blake Snider §Rhonne Sanderson Justin Bright Mike Warren",
+          "note": "Support Staff grid, second names row, column 2."
         },
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Matt Ayer Recruiting Assistant",
-          "note": "Football/(RECRUITING) block of the archived staff directory."
-        }
-      ]
-    },
-    {
-      "name": "Christian Sanders",
-      "role": "Coordinator of On Campus Recruiting",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Christian Sanders Coordinator of On Campus Recruiting",
-          "note": "Football/(RECRUITING) block of the archived staff directory. Media guide titles him 'Player Personnel Assistant'."
-        }
-      ]
-    },
-    {
-      "name": "Kali Hunter",
-      "role": "Recruiting",
-      "role_category": "ops",
-      "midseason_note": "Listed in the Football/(RECRUITING) block of the Oct. 17, 2013 staff directory but absent from the Feb. 15, 2014 snapshot (where Logan McMahon occupies that recruiting line). Presence at the Jan. 6, 2014 BCS title game is not established.",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Kali Hunter Recruiting",
-          "note": "Football/(RECRUITING) block of the archived staff directory, in-season snapshot."
-        }
-      ]
-    },
-    {
-      "name": "Ryals Lee",
-      "role": "Memorabilia / Coaches Autograph",
-      "role_category": "other",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Ryals Lee Memorabilia / Coaches Autograph",
-          "note": "Listed inside the Football/(ADMINISTRATION) block of the archived staff directory, though the same person also appears under a department-wide 'Memorabilia' heading."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Football Operations Football Operations",
+          "note": "Continuation caption line; the two 'Football Operations' fragments complete columns 1 and 2 ('Executive Assistant to' / 'Assistant to')."
         }
       ]
     },
@@ -549,21 +369,252 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Clint Purvis / Football / Team Chaplin. 'Chaplin' is the media guide's own spelling of chaplain. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Joy Beech Daphne Williams Nicole Lamar Logan McMahon Matt Ayer Christian Sanders Clint Purvis Mario Edwards Sr.",
+          "note": "Support Staff grid, names row, column 7."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Executive Assistant to Administrative Assistant Administrative Assistant Administrative Assistant Assistant Director of Player Personnel Team Chaplin Director of",
+          "note": "Caption row; column 7 = 'Team Chaplin' (the media guide's own spelling of chaplain). Long-time FSU football team chaplain."
         }
       ]
     },
     {
-      "name": "John Bagnardi",
-      "role": "Team Security",
-      "role_category": "other",
+      "name": "David Spurlock",
+      "role": "Graduate Assistant Offense",
+      "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): John Bagnardi / Football / Team Security. PDF text layer, quote omitted per instructions."
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "quote": "David Spurlock - Offensive Graduate Assistant"
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt",
+          "quote": "Graduate Assistants: Offense - David Spurlock (pb), Chris",
+          "note": "Roster page of the championship-game guide; the sentence continues 'Revell (f). Defense - Addison Lynch (pb); George Helow (pb).' Confirms he was on staff at the BCS title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
+          "quote": "David Spurlock",
+          "note": "Also in Wikipedia's untitled Support Staff list."
+        }
+      ]
+    },
+    {
+      "name": "Addison Lynch",
+      "role": "Graduate Assistant Defense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "quote": "Addison Lynch - Defensive Graduate Assistant"
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt",
+          "quote": "Revell (f). Defense - Addison Lynch (pb); George Helow (pb).",
+          "note": "Championship-game guide roster page. Confirms staff at the title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
+          "quote": "Addison Lynch"
+        }
+      ]
+    },
+    {
+      "name": "George Helow",
+      "role": "Graduate Assistant Defense",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "George Helow 2013-present (GA) | Joe Scola 2011-12 (GA)",
+          "note": "All-time assistants list confirms 2013 as his first season as a graduate assistant. His entry on the '2013 Graduate Assistants' page reads 'George Helow / Graduate Assistant / Defense / Ole Miss 2011'."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt",
+          "quote": "Revell (f). Defense - Addison Lynch (pb); George Helow (pb).",
+          "note": "Championship-game guide. Confirms staff at the title game."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
+          "quote": "George Helow"
+        }
+      ]
+    },
+    {
+      "name": "Chris Revell",
+      "role": "Grad. Asst. - Offense",
+      "role_category": "gradasst",
+      "midseason_note": "Not listed on the preseason 2013 media guide's '2013 Graduate Assistants' page (which shows only Spurlock, Lynch and Helow), but appears as an offensive graduate assistant in the January 2014 BCS championship-game media guide, marked '(f)' for first year. A former FSU walk-on receiver (lettered 2012). He was on staff at the championship game.",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt",
+          "quote": "CHRIS REVELL ADDISON LYNCH GEORGE HELOW MATT AYER CRAIG CAMPANOZZI",
+          "note": "Names row of the championship-game staff photo grid; the caption row below reads 'Grad. Asst. - Offense Grad. Asst. - Defense Grad. Asst.- Defense Asst. Dir. of Player Personnel Video Director', so Revell (column 1) = Grad. Asst. - Offense."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt",
+          "quote": "Graduate Assistants: Offense - David Spurlock (pb), Chris"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
+          "quote": "Chris Revell",
+          "note": "Also in Wikipedia's untitled Support Staff list."
+        }
+      ]
+    },
+    {
+      "name": "Steve Schlemon",
+      "role": "Quality Control/Offense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Carol Moore Scott Smith Steve Schlemon _Kurt Kennedy Blake Snider §Rhonne Sanderson Justin Bright Mike Warren",
+          "note": "Support Staff grid, second names row, column 3. Surname spelling is OCR-derived and may be imperfect."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Executive Assistant to Assistant to Quality Control/Offense Quality Control/Offense Quality Control Quality Control Quality Control Quality Control/Offense",
+          "note": "Caption row; column 3 = 'Quality Control/Offense'."
+        }
+      ]
+    },
+    {
+      "name": "Kurt Kennedy",
+      "role": "Quality Control/Offense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Carol Moore Scott Smith Steve Schlemon _Kurt Kennedy Blake Snider §Rhonne Sanderson Justin Bright Mike Warren",
+          "note": "Support Staff grid, second names row, column 4 (OCR prefixes a stray underscore)."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Executive Assistant to Assistant to Quality Control/Offense Quality Control/Offense Quality Control Quality Control Quality Control Quality Control/Offense",
+          "note": "Caption row; column 4 = 'Quality Control/Offense'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
+          "quote": "Kurt Kennedy",
+          "note": "Also in Wikipedia's untitled Support Staff list."
+        }
+      ]
+    },
+    {
+      "name": "Blake Snider",
+      "role": "Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Carol Moore Scott Smith Steve Schlemon _Kurt Kennedy Blake Snider §Rhonne Sanderson Justin Bright Mike Warren",
+          "note": "Support Staff grid, second names row, column 5. A former FSU letterwinner (the guide's letterwinner index lists 'Snider, Blake, 2009')."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Executive Assistant to Assistant to Quality Control/Offense Quality Control/Offense Quality Control Quality Control Quality Control Quality Control/Offense",
+          "note": "Caption row; column 5 = 'Quality Control'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
+          "quote": "Blake Snider"
+        }
+      ]
+    },
+    {
+      "name": "Rhonne Sanderson",
+      "role": "Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Carol Moore Scott Smith Steve Schlemon _Kurt Kennedy Blake Snider §Rhonne Sanderson Justin Bright Mike Warren",
+          "note": "Support Staff grid, second names row, column 6. OCR prefixes a stray section sign to the given name."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Executive Assistant to Assistant to Quality Control/Offense Quality Control/Offense Quality Control Quality Control Quality Control Quality Control/Offense",
+          "note": "Caption row; column 6 = 'Quality Control'."
+        }
+      ]
+    },
+    {
+      "name": "Justin Bright",
+      "role": "Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Carol Moore Scott Smith Steve Schlemon _Kurt Kennedy Blake Snider §Rhonne Sanderson Justin Bright Mike Warren",
+          "note": "Support Staff grid, second names row, column 7."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Executive Assistant to Assistant to Quality Control/Offense Quality Control/Offense Quality Control Quality Control Quality Control Quality Control/Offense",
+          "note": "Caption row; column 7 = 'Quality Control'."
+        }
+      ]
+    },
+    {
+      "name": "Mike Warren",
+      "role": "Quality Control/Offense",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Carol Moore Scott Smith Steve Schlemon _Kurt Kennedy Blake Snider §Rhonne Sanderson Justin Bright Mike Warren",
+          "note": "Support Staff grid, second names row, column 8."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Executive Assistant to Assistant to Quality Control/Offense Quality Control/Offense Quality Control Quality Control Quality Control Quality Control/Offense",
+          "note": "Caption row; column 8 = 'Quality Control/Offense'. Column-to-caption alignment in this row is the least certain part of the grid, since the caption row has 8 entries for 8 names but the /Offense suffixes may not land where OCR places them."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
+          "quote": "Mike Warren"
+        }
+      ]
+    },
+    {
+      "name": "Chris Jacobs",
+      "role": "Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Chris Jacobs Bert Biffani Darin Kerns Zack Lucas Craig Campanozzi Christian Fiero KevinGadowry John Bagnardi",
+          "note": "Support Staff grid, third names row, column 1."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Quality Control Quality Control Equipment Manager —_— Equipment Video Director Video Coordinator ai Video Team Security",
+          "note": "Caption row for that names row; column 1 = 'Quality Control'."
+        }
+      ]
+    },
+    {
+      "name": "Bert Biffani",
+      "role": "Quality Control",
+      "role_category": "qc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Chris Jacobs Bert Biffani Darin Kerns Zack Lucas Craig Campanozzi Christian Fiero KevinGadowry John Bagnardi",
+          "note": "Support Staff grid, third names row, column 2."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Quality Control Quality Control Equipment Manager —_— Equipment Video Director Video Coordinator ai Video Team Security",
+          "note": "Caption row; column 2 = 'Quality Control'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
+          "quote": "Bert Biffani",
+          "note": "Also in Wikipedia's untitled Support Staff list."
         }
       ]
     },
@@ -573,26 +624,31 @@
       "role_category": "equipment",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Darin Kerns / Football / Equipment Manager. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt",
+          "quote": "BOB LACIVITA MARIO JAKE PFEIL DARIN KERNS DAVID SPURLOCK",
+          "note": "Championship-game staff photo grid names row; the caption row reads '...———Equipment Manager _Grad. Asst. - Offense', placing Kerns as Equipment Manager. Confirms he was on staff at the BCS title game."
         },
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Darin Kerns Football Contact",
-          "note": "Equipment section of the archived staff directory, where he is the football equipment contact."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Chris Jacobs Bert Biffani Darin Kerns Zack Lucas Craig Campanozzi Christian Fiero KevinGadowry John Bagnardi",
+          "note": "Preseason Support Staff grid, third names row, column 3, captioned 'Equipment Manager'."
         }
       ]
     },
     {
       "name": "Zack Lucas",
-      "role": "Assistant Equipment Manager",
+      "role": "Equipment Manager",
       "role_category": "equipment",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Zack Lucas / Football / Assistant Equipment Manager. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Chris Jacobs Bert Biffani Darin Kerns Zack Lucas Craig Campanozzi Christian Fiero KevinGadowry John Bagnardi",
+          "note": "Support Staff grid, third names row, column 4."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Quality Control Quality Control Equipment Manager —_— Equipment Video Director Video Coordinator ai Video Team Security",
+          "note": "OCR AMBIGUITY: his caption starts 'Equipment' and the continuation line reads \"ager ‘oordinator\", so the full title is either 'Equipment Manager' or 'Equipment Coordinator'. I recorded 'Equipment Manager' but this specific wording is not certain."
         }
       ]
     },
@@ -602,14 +658,14 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SUPPORT STAFF' page (printed page 74): Craig Campanozzi / Coaches Video / Video Director. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt",
+          "quote": "Grad. Asst. - Offense Grad. Asst. - Defense Grad. Asst.- Defense Asst. Dir. of Player Personnel Video Director",
+          "note": "Championship-game staff grid caption row; Campanozzi is column 5 of the names row above. Confirms staff at the BCS title game."
         },
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Craig Campanozzi Video Coordinator",
-          "note": "Coaches Video section of the archived staff directory."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Football Football Football Football Coaches Video Coaches Video Coaches Video Football",
+          "note": "Department row of the preseason Support Staff grid; Campanozzi (column 5) is under 'Coaches Video', captioned 'Video Director'."
         }
       ]
     },
@@ -619,57 +675,68 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Christian Fiero Video Coordinator",
-          "note": "Coaches Video section of the archived staff directory; the 2013 media guide's football support staff page lists him identically."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Chris Jacobs Bert Biffani Darin Kerns Zack Lucas Craig Campanozzi Christian Fiero KevinGadowry John Bagnardi",
+          "note": "Support Staff grid, third names row, column 6; department row shows 'Coaches Video'."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Quality Control Quality Control Equipment Manager —_— Equipment Video Director Video Coordinator ai Video Team Security",
+          "note": "Caption row; column 6 = 'Video Coordinator'."
         }
       ]
     },
     {
       "name": "Kevin Gadowry",
-      "role": "Assistant Video Coordinator",
+      "role": "Video Coordinator",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Kevin Gadowry Assistant Video Coordinator",
-          "note": "Coaches Video section of the archived staff directory; the 2013 media guide's football support staff page lists him identically."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Chris Jacobs Bert Biffani Darin Kerns Zack Lucas Craig Campanozzi Christian Fiero KevinGadowry John Bagnardi",
+          "note": "Support Staff grid, third names row, column 7; OCR runs the name together as 'KevinGadowry'. Department row shows 'Coaches Video'."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Quality Control Quality Control Equipment Manager —_— Equipment Video Director Video Coordinator ai Video Team Security",
+          "note": "OCR AMBIGUITY: his caption OCRs as 'ai Video' with \"‘oordinator\" on the continuation line — most likely 'Assistant Video Coordinator', since column 6 already carries 'Video Coordinator'. I recorded the certain part; the 'Assistant' prefix is probable but unproven."
         }
       ]
     },
     {
-      "name": "Derek Smith",
-      "role": "Assistant Strength and Speed Coach",
-      "role_category": "sc",
+      "name": "John Bagnardi",
+      "role": "Team Security",
+      "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'FOOTBALL STRENGTH & CONDITIONING STAFF' panel (printed page 118): Derek Smith / Assistant Strength and Speed Coach. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Chris Jacobs Bert Biffani Darin Kerns Zack Lucas Craig Campanozzi Christian Fiero KevinGadowry John Bagnardi",
+          "note": "Support Staff grid, third names row, column 8; department row shows 'Football'."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Quality Control Quality Control Equipment Manager —_— Equipment Video Director Video Coordinator ai Video Team Security",
+          "note": "Caption row; column 8 = 'Team Security'."
         }
       ]
     },
     {
-      "name": "Louis Dobosenski",
-      "role": "Assistant Strength and Speed Coach",
+      "name": "Vic Viloria",
+      "role": "Head Strength & Conditioning Coach",
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'FOOTBALL STRENGTH & CONDITIONING STAFF' panel (printed page 118): Louis Dobosenski / Assistant Strength and Speed Coach. PDF text layer, quote omitted per instructions."
-        }
-      ]
-    },
-    {
-      "name": "Brice Lockart",
-      "role": "Assistant Strength and Speed Coach",
-      "role_category": "sc",
-      "sources": [
+          "url": "https://web.archive.org/web/20130928125459/http://www.seminoles.com/sports/m-footbl/mtt/fsu-m-footbl-mtt.html",
+          "quote": "Vic Viloria - Head Strength & Conditioning Coach"
+        },
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Brice Lockart Assistant Strength and Speed Coach",
-          "note": "Weight Rooms section of the archived staff directory; the 2013 media guide lists him on the football strength and conditioning staff panel."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Vic Viloria  BrandonSanders Louis Dobosenski Brice Lockart Derek Smith Kristen Gravani",
+          "note": "Football Strength & Conditioning staff photo grid, names row (note the double space after 'Viloria' in the OCR). His caption is 'Head Strength / and Speed Coach'."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
+          "quote": "Head strength and conditioning coach"
         }
       ]
     },
@@ -679,33 +746,109 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017115151/http://www.seminoles.com/school-bio/fsu-contacts.html",
-          "quote": "Brandon Sanders Assistant Strength and Speed Coach",
-          "note": "Weight Rooms section of the archived staff directory; the 2013 media guide lists him on the football strength and conditioning staff panel."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "FOOTBALL STRENGTH & CONDITIONING STAFF NUTRITION STAFF",
+          "note": "Section header establishing that this grid is the football-specific strength staff."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Vic Viloria  BrandonSanders Louis Dobosenski Brice Lockart Derek Smith Kristen Gravani",
+          "note": "Names row, column 2 (OCR runs the name together as 'BrandonSanders')."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Head Strength Assistant Strength Assistant Strength Assistant Strength Assistant Strength Sports Dietitian",
+          "note": "Caption row; column 2 = 'Assistant Strength', completed by 'and Speed Coach' on the next line."
+        }
+      ]
+    },
+    {
+      "name": "Louis Dobosenski",
+      "role": "Assistant Strength and Speed Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Vic Viloria  BrandonSanders Louis Dobosenski Brice Lockart Derek Smith Kristen Gravani",
+          "note": "Football Strength & Conditioning grid, names row, column 3."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "and Speed Coach and Speed Coach and Speed Coach and Speed Coach and Speed Coach",
+          "note": "Continuation caption line; five 'and Speed Coach' fragments complete columns 1-5."
+        }
+      ]
+    },
+    {
+      "name": "Brice Lockart",
+      "role": "Assistant Strength and Speed Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Vic Viloria  BrandonSanders Louis Dobosenski Brice Lockart Derek Smith Kristen Gravani",
+          "note": "Football Strength & Conditioning grid, names row, column 4. Surname spelling is OCR-derived (may be 'Lockhart')."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Head Strength Assistant Strength Assistant Strength Assistant Strength Assistant Strength Sports Dietitian",
+          "note": "Caption row; column 4 = 'Assistant Strength' + 'and Speed Coach'."
+        }
+      ]
+    },
+    {
+      "name": "Derek Smith",
+      "role": "Assistant Strength and Speed Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Vic Viloria  BrandonSanders Louis Dobosenski Brice Lockart Derek Smith Kristen Gravani",
+          "note": "Football Strength & Conditioning grid, names row, column 5."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Head Strength Assistant Strength Assistant Strength Assistant Strength Assistant Strength Sports Dietitian",
+          "note": "Caption row; column 5 = 'Assistant Strength' + 'and Speed Coach'. The guide's prose confirms the count: Viloria plus 'his staff of four full-time assistants'."
         }
       ]
     },
     {
       "name": "Kristen Gravani",
       "role": "Sports Dietitian",
-      "role_category": "medical",
+      "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'NUTRITION STAFF' panel on the football strength and conditioning page (printed page 118): Kristen Gravani / Sports Dietitian. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Vic Viloria  BrandonSanders Louis Dobosenski Brice Lockart Derek Smith Kristen Gravani",
+          "note": "Column 6 of the same photo row, but under the separate 'NUTRITION STAFF' heading rather than the football strength staff heading."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Head Strength Assistant Strength Assistant Strength Assistant Strength Assistant Strength Sports Dietitian",
+          "note": "Caption row; column 6 = 'Sports Dietitian'."
         }
       ]
     },
     {
       "name": "Jake Pfeil",
-      "role": "Associate Director of Sports Medicine/Head Football Athletic Trainer",
+      "role": "Head Football Athletic Trainer",
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide: listed in the 'Florida State Football Staff' table (printed page 7) as 'Jake Pfeil / Head Football Athletic Trainer', given a full bio on the coaching staff pages (printed page 71), and headlined on the 'ATHLETIC TRAINING STAFF' panel (printed page 120). PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "“Denotes ACC Game Jake Pfeil Head Football Athletic Trainer Florida State'00 —_10th/3rd with Football",
+          "note": "Media guide quick-facts staff table, printed beside the schedule so OCR interleaves them. Verbatim including the stray leading quote mark. '10th/3rd with Football' = 10th year at FSU, 3rd with football."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "his third as the Associate Director of Sports Medicine and head football athletic trainer.",
+          "note": "Bio prose in the media guide's staff section."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-bcs-bowl-media-guide/Florida%20State%20Football%2C%202013%20BCS%20Bowl%20Media%20Guide_djvu.txt",
+          "quote": "Dir. of Player Development Assoc. Dir. of Sports Medicine",
+          "note": "Championship-game staff grid caption; Pfeil is column 3 of the names row 'BOB LACIVITA MARIO JAKE PFEIL DARIN KERNS DAVID SPURLOCK'. Confirms he was on staff at the BCS title game."
         }
       ]
     },
@@ -715,9 +858,14 @@
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'ATHLETIC TRAINING STAFF' panel (printed page 120). PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Jake Pfeil Jerry Latimer Jeronimo Boche ap steel Brandon Stone Madeleine Scaramuzzo",
+          "note": "Sports Medicine photo grid in the football media guide, names row, column 2."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "of Sports Medicine/ Sports Medicine/Direc- Trainer Trainer",
+          "note": "Second caption line; column 2 continues as 'Sports Medicine/Direc-' + 'tor of Rehabilitation'. CAVEAT: the guide says this facility and staff serve all 20 FSU teams, so he is not documented as football-exclusive."
         }
       ]
     },
@@ -727,33 +875,14 @@
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'ATHLETIC TRAINING STAFF' panel (printed page 120). PDF text layer, quote omitted per instructions."
-        }
-      ]
-    },
-    {
-      "name": "Julie Kruessel",
-      "role": "Assistant Athletic Trainer",
-      "role_category": "medical",
-      "sources": [
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Jake Pfeil Jerry Latimer Jeronimo Boche ap steel Brandon Stone Madeleine Scaramuzzo",
+          "note": "Sports Medicine grid, names row, column 3. Name spelling is OCR-derived."
+        },
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'ATHLETIC TRAINING STAFF' panel (printed page 120). PDF text layer, quote omitted per instructions."
-        }
-      ]
-    },
-    {
-      "name": "Madeleine Scaramuzzo",
-      "role": "Graduate Assistant (Athletic Training)",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'ATHLETIC TRAINING STAFF' panel (printed page 120), where she is listed as 'Madeleine Scaramuzzo / ATC, LAT / Graduate Assistant'. PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Associate Director Associate Director of Assistant Athletic Assistant Athletic Athletic Training Intern Graduate Assistant",
+          "note": "Caption row; column 3 = 'Assistant Athletic' + 'Trainer'. CAVEAT: department-wide sports medicine staff, not documented as football-exclusive."
         }
       ]
     },
@@ -763,105 +892,31 @@
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'ATHLETIC TRAINING STAFF' panel (printed page 120). PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Jake Pfeil Jerry Latimer Jeronimo Boche ap steel Brandon Stone Madeleine Scaramuzzo",
+          "note": "Sports Medicine grid, names row, column 5."
+        },
+        {
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Associate Director Associate Director of Assistant Athletic Assistant Athletic Athletic Training Intern Graduate Assistant",
+          "note": "Caption row; column 5 = 'Athletic Training Intern'. CAVEAT: department-wide sports medicine staff."
         }
       ]
     },
     {
-      "name": "Dr. Steve Jordan",
-      "role": "Orthopedic Surgeon (Team Physicians)",
+      "name": "Madeleine Scaramuzzo",
+      "role": "Graduate Assistant",
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'TEAM PHYSICIANS' panel (printed page 121). PDF text layer, quote omitted per instructions."
-        }
-      ]
-    },
-    {
-      "name": "Dr. Kris Stowers",
-      "role": "Sports Medicine/Family Practice (Team Physicians)",
-      "role_category": "medical",
-      "sources": [
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Jake Pfeil Jerry Latimer Jeronimo Boche ap steel Brandon Stone Madeleine Scaramuzzo",
+          "note": "Sports Medicine grid, names row, column 6."
+        },
         {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'TEAM PHYSICIANS' panel (printed page 121). PDF text layer, quote omitted per instructions."
-        }
-      ]
-    },
-    {
-      "name": "Dr. William Thompson",
-      "role": "Orthopedic Surgeon (Team Physicians)",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'TEAM PHYSICIANS' panel (printed page 121). PDF text layer, quote omitted per instructions."
-        }
-      ]
-    },
-    {
-      "name": "Dr. Hector Mejia",
-      "role": "Orthopedic Surgeon (Team Physicians)",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'TEAM PHYSICIANS' panel (printed page 121). PDF text layer, quote omitted per instructions."
-        }
-      ]
-    },
-    {
-      "name": "Dr. John Katopodis",
-      "role": "Cardiologist (Team Physicians)",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'TEAM PHYSICIANS' panel (printed page 121). PDF text layer, quote omitted per instructions."
-        }
-      ]
-    },
-    {
-      "name": "Dr. Darrh Bryant",
-      "role": "Dentist (Specialists)",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SPECIALISTS' panel (printed page 121). PDF text layer, quote omitted per instructions."
-        }
-      ]
-    },
-    {
-      "name": "Dr. Bob Orsillo",
-      "role": "Optometrist (Specialists)",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SPECIALISTS' panel (printed page 121). PDF text layer, quote omitted per instructions."
-        }
-      ]
-    },
-    {
-      "name": "Dr. John Van Tassel",
-      "role": "Chiropractor (Specialists)",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20131017120601/http://grfx.cstv.com/photos/schools/fsu/sports/m-footbl/auto_pdf/2013-14/prospectus/prospectus.pdf",
-          "quote": "",
-          "note": "2013 FSU football media guide, 'SPECIALISTS' panel (printed page 121). PDF text layer, quote omitted per instructions."
+          "url": "https://archive.org/download/florida-state-football-2013-media-guide/Florida%20State%20Football%2C%202013%20Media%20Guide_djvu.txt",
+          "quote": "Associate Director Associate Director of Assistant Athletic Assistant Athletic Athletic Training Intern Graduate Assistant",
+          "note": "Caption row; column 6 = 'Graduate Assistant' (athletic training GA, not a coaching GA). CAVEAT: department-wide sports medicine staff."
         }
       ]
     },
@@ -873,7 +928,7 @@
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
           "quote": "Ernest Bradley – \"Recruiting Intern\"",
-          "note": "Wikipedia's 'Support Staff' list in the coaching staff box. Not corroborated in the 2013 media guide or the archived 2013-14 seminoles.com staff directory."
+          "note": "LOW CONFIDENCE. Only source is Wikipedia's uncited Support Staff list on the 2013 season page. He does not appear anywhere in either the 2013 preseason media guide or the January 2014 BCS championship media guide, and targeted web searches found no corroboration."
         }
       ]
     },
@@ -885,7 +940,7 @@
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
           "quote": "Paul Sheffield – \"Recruiting Intern\"",
-          "note": "Wikipedia's 'Support Staff' list in the coaching staff box. Not corroborated in the 2013 media guide or the archived 2013-14 seminoles.com staff directory."
+          "note": "LOW CONFIDENCE. Only source is Wikipedia's uncited Support Staff list. Absent from both 2013 media guides; no corroboration found in web searches."
         }
       ]
     },
@@ -897,7 +952,7 @@
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
           "quote": "Jeremiah Wilson",
-          "note": "Listed only as a bare name under the 'Support Staff' heading of Wikipedia's coaching staff box; no title given. Not found in the 2013 media guide or the Oct. 2013 / Feb. 2014 archived seminoles.com staff directories, so the 2013 association is weakly documented."
+          "note": "LOW CONFIDENCE, NO TITLE GIVEN. Appears only as a bare bullet under Wikipedia's untitled 'Support Staff' heading. Absent from both 2013 media guides; no corroborating source found. Possibly a later-season FSU staffer misplaced on the 2013 page."
         }
       ]
     },
@@ -909,7 +964,7 @@
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
           "quote": "Brian Williams",
-          "note": "Listed only as a bare name under the 'Support Staff' heading; no title given. Not found in the 2013 media guide football staff pages or the archived 2013-14 staff directory, so the 2013 association is weakly documented."
+          "note": "LOW CONFIDENCE, NO TITLE GIVEN. Bare bullet under Wikipedia's untitled 'Support Staff' heading. The only 'Brian Williams' in the 2013 media guide is a 1980s letterwinner, not a staff member. No corroboration found."
         }
       ]
     },
@@ -921,19 +976,7 @@
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
           "quote": "Jamie Mujeni",
-          "note": "Listed only as a bare name under the 'Support Staff' heading; no title given. Not found in the 2013 media guide or the archived 2013-14 staff directory, so the 2013 association is weakly documented."
-        }
-      ]
-    },
-    {
-      "name": "Chris Revell",
-      "role": "Support Staff",
-      "role_category": "other",
-      "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
-          "quote": "Chris Revell",
-          "note": "Listed only as a bare name under the 'Support Staff' heading; no title given. Not found on the 2013 media guide's football staff or support staff pages, nor in the archived 2013-14 staff directory, so the 2013 association is weakly documented."
+          "note": "LOW CONFIDENCE, NO TITLE GIVEN. Bare bullet under Wikipedia's untitled 'Support Staff' heading. Zero hits in either 2013 media guide; no corroborating source found."
         }
       ]
     },
@@ -945,7 +988,7 @@
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
           "quote": "Matt McCutchan",
-          "note": "Listed only as a bare name under the 'Support Staff' heading; no title given. Not found in the 2013 media guide or the archived 2013-14 staff directory, so the 2013 association is weakly documented."
+          "note": "LOW CONFIDENCE, NO TITLE GIVEN. Bare bullet under Wikipedia's untitled 'Support Staff' heading. Zero hits in either 2013 media guide; no corroborating source found."
         }
       ]
     },
@@ -957,10 +1000,9 @@
         {
           "url": "https://en.wikipedia.org/wiki/2013_Florida_State_Seminoles_football_team",
           "quote": "Roy Upchurch",
-          "note": "Listed only as a bare name under the 'Support Staff' heading; no title given. Not found in the 2013 media guide or the archived 2013-14 staff directory, so the 2013 association is weakly documented."
+          "note": "LOW CONFIDENCE, NO TITLE GIVEN. Bare bullet under Wikipedia's untitled 'Support Staff' heading. Zero hits in either 2013 media guide; no corroborating source found. A former Alabama running back of this name later worked in college support-staff roles, which makes a wrong-season placement plausible."
         }
       ]
     }
-  ],
-  "coverage_notes": "SOURCES USED (WebSearch quota for this session was already exhausted, so everything below came from direct HTTP fetches of known URLs plus the Wayback CDX API):\n1. Wikipedia, 2013 Florida State Seminoles football team — coaching staff box (11 on-field entries) plus a bare-name \"Support Staff\" list.\n2. Archived seminoles.com 2013 Florida State Football Roster page, \"Coaches\" anchor section, Wayback snapshot 20131017120601 — the single best structured source: 15 name-plus-title pairs covering all on-field coaches, the head S&C coach, director of football operations, director of player personnel, and both listed graduate assistants.\n3. Archived seminoles.com athletics staff directory (school-bio/fsu-contacts.html), Wayback snapshots 20131017115151 (in-season) and 20140215155124 (five weeks after the BCS title game) — Football section broken into SECRETARIES / ADMINISTRATION / HEAD COACHES OFFICE / OFFENSE / DEFENSE / RECRUITING, plus Equipment, Coaches Video and Weight Rooms sections.\n4. The 2013 FSU football media guide (\"prospectus.pdf\", 212 pp.) linked from the archived roster page — \"Florida State Football Staff\" table (p. 7), coach bios (pp. 58-72), \"2013 Graduate Assistants\" panel (p. 73), \"SUPPORT STAFF\" page (p. 74), football strength and conditioning and nutrition panels (p. 118), and athletic training / team physicians / specialists panels (pp. 120-121).\n\nQUOTE MECHANICS / CAVEATS:\n- Media-guide rows carry quote \"\" as instructed, because the PDF's decorative section headings inject long runs of repeated letters into the text layer and cell text is emitted as separate lines, so no faithful contiguous quote exists. The exact panel and printed page number is given in each note.\n- Quotes taken from the archived staff directory are HTML table rows where the name and the title sit in adjacent <td> cells. The quoted string is the whitespace-normalized visible text (\"Name Title\"); it will match an extraction that inserts a separator between cells, but not one that renders the table as pipe-delimited markdown. Quotes from the archived roster page (\"Name - Role\") are contiguous in the underlying markup and should match either way.\n- WebFetch is blocked from web.archive.org in this environment, so archived pages were retrieved with curl; the Wayback URLs given are the ones that returned HTTP 200.\n\nWHAT I COULD NOT DOCUMENT:\n- No snapshot of the seminoles.com roster/coaches page exists between Oct. 17, 2013 and Aug. 2014, so nothing confirms the staff list as of the Jan. 6, 2014 title game itself. The Feb. 15, 2014 staff directory snapshot still shows the full 2013 on-field staff (including Jeremy Pruitt, who left for Georgia in Jan. 2014), which is consistent with everyone listed here having been present for the championship game. Only Kali Hunter changes between the two directory snapshots and is flagged with a midseason_note.\n- Wikipedia's \"Support Staff\" list contains eight names I could not corroborate anywhere in the 2013 media guide or either archived staff directory: Jeremiah Wilson, Brian Williams, Jamie Mujeni, Chris Revell, Matt McCutchan, Roy Upchurch, Ernest Bradley and Paul Sheffield. Several of these appear to have been FSU staffers in later seasons, so the Wikipedia list may be conflating years. I included them because Wikipedia is a real cited source, but each row's note flags the weak documentation — treat them as unverified for 2013.\n- Name-spelling conflict left unresolved: the media guide prints \"Steve Schlemon\" while both staff-directory snapshots print \"Steve Shelmon\". I used the media guide spelling for the name field and the directory spelling inside the quote.\n- I deliberately excluded athletics-department-wide staff who appear on the media guide's support-staff page but are not football-specific (communications, marketing, facilities, ticket office, business office, human resources, Seminole Productions), as well as the media relations football contacts (Kerwin Lonzo, Zach Stipe). They are documented at the same URLs if the dataset wants a wider boundary.\n- Olympic-sport strength coaches listed in the directory's Weight Rooms section (Jon Jost, Joseph Danos, Adam Ross, Brian Johnson, Caitlin Quinn, Mike Bradley, Dave Plettl) were excluded; the media guide's \"FOOTBALL STRENGTH & CONDITIONING STAFF\" panel names only Viloria plus Derek Smith, Louis Dobosenski, Brice Lockart and Brandon Sanders.\n- Only three graduate assistants are documented (Spurlock, Lynch, Helow); no fourth GA appears in any source. Student assistants, managers, and video/recruiting interns beyond those named above are not enumerated anywhere I could reach."
+  ]
 }

@@ -1,6 +1,7 @@
 {
   "team": "Clemson",
   "season": 2018,
+  "coverage_notes": "PRIMARY SOURCE: the Clemson athletics staff directory as archived by the Wayback Machine on Dec. 11, 2018 (https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory) — the last capture before the Jan. 7, 2019 CFP National Championship, so it reflects the staff as constituted at the title game. It renders every department on one page; I pulled the \"Football\" section in full plus every football-designated person in Strength & Conditioning, Sports Medicine, Equipment Services, Communications, Compliance Services and Student-Athlete Enrichment Services (academics).\n\nQUOTE-MATCHING CAVEAT (important): on that directory page each person's name and title live in ADJACENT <td> cells of the same table row, so no contiguous \"Name — Title\" string exists in the page text. Every quote I supply is therefore the person's title cell copied verbatim (contiguous, exact, ampersands are literal \"&\" in the source, not entities), and each source note names the person whose row it belongs to. Titles that repeat elsewhere on the page (e.g. \"Head Coach\", \"Administrative Assistant\") are flagged in the note with the section heading needed to disambiguate. Three people (Swinney, Alley, Grisham/Goodwin) also carry a second source with a contiguous prose quote naming them.\n\nFOUND OUTSIDE THE DIRECTORY: the directory omits pure analyst/GA roles. I added three, each from a bio page with contiguous prose: Wes Goodwin (senior defensive assistant, 2018-21), Tyler Grisham (offensive analyst, 2016-19), and Zac Alley (graduate assistant, 2015-18). Wikipedia's 2018 team page corroborates the on-field staff and Alley.\n\nKNOWN GAPS / THINGS I COULD NOT DOCUMENT:\n1. Andrew Warwick appears as \"Assistant for Defensive Analysis & Reserach Development\" [sic] in the July 6, 2018 capture of the same directory but is ABSENT from the Dec. 11, 2018 capture. I could not determine whether he departed, was retitled, or was simply dropped from the listing, so I excluded him rather than guess. He is a real 2018-calendar-year staffer if you want to chase him further.\n2. Clemson almost certainly carried more graduate assistants than the one (Alley) I could source. GA rosters are not in the directory and I found no published 2018 GA list. Treat the gradasst count as a floor.\n3. Additional offensive/defensive analysts beyond Goodwin, Grisham, Richardson, Aiken, Chavis and McCombs may exist and are undocumented here.\n4. Team physicians (Dr. Len Reeves, Dr. Larry Bowman, Dr. Steven L. Martin, Dr. Tenley Murphy) are listed department-wide with no sport designation, so I excluded them rather than assert football assignment. The three athletic trainers I included are explicitly tagged \"- Football\".\n5. The 208-page 2018 Clemson media guide (issuu.com/clemsontigers) would likely close gaps 1-3, but it is a page-image PDF whose text cannot be copied faithfully for mechanical matching, so I did not source from it.\n6. No mid-season arrivals or departures among the people listed below were documented; all appear in the Dec. 11, 2018 capture or in bios that explicitly span the 2018 season. No midseason_note was warranted for anyone.",
   "staff": [
     {
       "name": "Dabo Swinney",
@@ -8,19 +9,14 @@
       "role_category": "headcoach",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Dabo Swinney",
-          "note": "Name cell, first row of the \"Football\" department table in Clemson's own athletics staff directory, archived Dec. 11, 2018 (during the 2018 season). Name and title sit in adjacent table cells, so each is quoted separately."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Head Coach",
-          "note": "Title cell in the same Football-section row as \"Dabo Swinney\"."
+          "note": "Title cell for the Dabo Swinney row, the first row under the 'Football' section heading. This exact title string also appears for other sports' head coaches on the same page, so see the second source for a name-bearing quote."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2018_Clemson_Tigers_football_team",
-          "quote": "Clemson Tigers football current coaching staff",
-          "note": "Caption of the coaching-staff table on the 2018 season page, which lists Dabo Swinney as \"Head coach\"."
+          "quote": "They were led by head coach Dabo Swinney in his tenth full year and 11th overall since taking over midway through 2008 season.",
+          "note": "Contiguous prose from the article lead naming Swinney as 2018 head coach."
         }
       ]
     },
@@ -30,19 +26,9 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Associate Head Coach, Defensive Coordinator, Linebackers",
-          "note": "Title cell in the Football section, in the row whose name cell reads \"Brent Venables\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Brent Venables",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2018_Clemson_Tigers_football_team",
-          "quote": "Defensive coordinator/linebackers coach",
-          "note": "Wikipedia 2018 coaching-staff table row for Brent Venables."
+          "note": "Title cell adjacent to the name cell 'Brent Venables' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -52,19 +38,9 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant Head Coach, Special Teams Coordinator, Tight Ends",
-          "note": "Title cell in the Football section, row name cell \"Danny Pearman\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Danny Pearman",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2018_Clemson_Tigers_football_team",
-          "quote": "Assistant head coach, Special Teams Coordinator, Tight Ends",
-          "note": "Wikipedia 2018 coaching-staff table row for Danny Pearman."
+          "note": "Title cell adjacent to the name cell 'Danny Pearman' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -74,19 +50,9 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Co-Offensive Coordinator, Running Backs",
-          "note": "Title cell in the Football section, row name cell \"Tony Elliott\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Tony Elliott",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2018_Clemson_Tigers_football_team",
-          "quote": "Co-offensive coordinator/running backs coach",
-          "note": "Wikipedia 2018 coaching-staff table row for Tony Elliott."
+          "note": "Title cell adjacent to the name cell 'Tony Elliott' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -96,19 +62,9 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Co-Offensive Coordinator, Wide Receivers",
-          "note": "Title cell in the Football section, row name cell \"Jeff Scott\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Jeff Scott",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2018_Clemson_Tigers_football_team",
-          "quote": "Co-offensive coordinator/wide receivers coach",
-          "note": "Wikipedia 2018 coaching-staff table row for Jeff Scott."
+          "note": "Title cell adjacent to the name cell 'Jeff Scott' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -118,19 +74,9 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant Coach, Offensive Linemen",
-          "note": "Title cell in the Football section, row name cell \"Robbie Caldwell\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Robbie Caldwell",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2018_Clemson_Tigers_football_team",
-          "quote": "Assistant coach, Offensive Linemen",
-          "note": "Wikipedia 2018 coaching-staff table row for Robbie Caldwell."
+          "note": "Title cell adjacent to the name cell 'Robbie Caldwell' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -140,19 +86,9 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant Coach, Cornerbacks",
-          "note": "Title cell in the Football section, row name cell \"Mike Reed\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Mike Reed",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2018_Clemson_Tigers_football_team",
-          "quote": "Assistant coach, Cornerbacks",
-          "note": "Wikipedia 2018 coaching-staff table row for Mike (Michael) Reed."
+          "note": "Title cell adjacent to the name cell 'Mike Reed' under the 'Football' section heading. Unique on the page. Wikipedia's 2018 team article lists him twice, as 'Michael Reed - Defensive Backs Coach' and 'Mike Reed - Assistant coach, Cornerbacks'; these are the same person, counted once here per the school directory."
         }
       ]
     },
@@ -162,19 +98,9 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant Coach, Recruiting Coordinator, Quarterbacks",
-          "note": "Title cell in the Football section, row name cell \"Brandon Streeter\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Brandon Streeter",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2018_Clemson_Tigers_football_team",
-          "quote": "Assistant coach, Recruiting Coordinator, Quarterbacks",
-          "note": "Wikipedia 2018 coaching-staff table row for Brandon Streeter."
+          "note": "Title cell adjacent to the name cell 'Brandon Streeter' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -184,19 +110,9 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant Coach, Defensive Tackles",
-          "note": "Title cell in the Football section, row name cell \"Todd Bates\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Todd Bates",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2018_Clemson_Tigers_football_team",
-          "quote": "Assistant coach, Defensive tackles",
-          "note": "Wikipedia 2018 coaching-staff table row for Todd Bates."
+          "note": "Title cell adjacent to the name cell 'Todd Bates' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -206,19 +122,9 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant Coach, Safeties",
-          "note": "Title cell in the Football section, row name cell \"Mickey Conn\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Mickey Conn",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2018_Clemson_Tigers_football_team",
-          "quote": "Assistant coach, Safeties",
-          "note": "Wikipedia 2018 coaching-staff table row for Mickey Conn."
+          "note": "Title cell adjacent to the name cell 'Mickey Conn' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -228,449 +134,33 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant Coach, Defensive Ends",
-          "note": "Title cell in the Football section, row name cell \"Lemanski Hall\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Lemanski Hall",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2018_Clemson_Tigers_football_team",
-          "quote": "Assistant coach, Defensive Ends",
-          "note": "Wikipedia 2018 coaching-staff table row for Lemanski Hall."
+          "note": "Title cell adjacent to the name cell 'Lemanski Hall' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
     {
-      "name": "Woody McCorvey",
-      "role": "Associate AD of Football Administration",
-      "role_category": "ops",
+      "name": "Wes Goodwin",
+      "role": "senior defensive assistant",
+      "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Associate AD of Football Administration",
-          "note": "Title cell in the Football section, row name cell \"Woody McCorvey\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Woody McCorvey",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ASSOCIATE ATHLETIC DIRECTOR OF FOOTBALL ADMINISTRATION",
-          "note": "Listed under \"Support Staff\" beneath the name \"WOODY MCCORVEY\" on Dabo Swinney's official staff page, archived Nov. 24, 2018."
+          "url": "https://clemsontigers.com/staff/wes-goodwin/",
+          "quote": "Served in a critical off-field role for former Defensive Coordinator Brent Venables as a defensive analyst from 2012-14 and as senior defensive assistant from 2018-21, overseeing defensive breakdowns and opponent scouting, assisting with on-campus recruiting and also serving as one of the program's primary liaisons to NFL scouting personnel and coaches.",
+          "note": "Contiguous prose on Goodwin's own Clemson bio page; the 2018-21 span covers the championship season. Goodwin is not in the Dec. 2018 staff directory, which omits analyst roles."
         }
       ]
     },
     {
-      "name": "Thad Turnipseed",
-      "role": "Director of Football Recruiting & External Affairs",
-      "role_category": "ops",
+      "name": "Tyler Grisham",
+      "role": "offensive analyst",
+      "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Director of Football Recruiting & External Affairs",
-          "note": "Title cell in the Football section, row name cell \"Thad Turnipseed\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Thad Turnipseed",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "THAD TURNIPSEED",
-          "note": "Listed under \"Support Staff\" with the title \"DIRECTOR OF RECRUITING & EXTERNAL AFFAIRS\"."
-        }
-      ]
-    },
-    {
-      "name": "Brad Scott",
-      "role": "Director of Football Player Development",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Director of Football Player Development",
-          "note": "Title cell in the Football section, row name cell \"Brad Scott\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Brad Scott",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ASSISTANT ATHLETIC DIRECTOR OF FOOTBALL PLAYER DEVELOPMENT",
-          "note": "Listed under \"Support Staff\" beneath the name \"BRAD SCOTT\"."
-        }
-      ]
-    },
-    {
-      "name": "Mike Dooley",
-      "role": "Director of Football Operations/Player Personnel",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Director of Football Operations/Player Personnel",
-          "note": "Title cell in the Football section, row name cell \"Mike Dooley\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Mike Dooley",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "DIRECTOR OF FOOTBALL OPERATIONS AND PLAYER PERSONNEL",
-          "note": "Listed under \"Support Staff\" beneath the name \"MIKE DOOLEY\"."
-        }
-      ]
-    },
-    {
-      "name": "D.J. Gordon",
-      "role": "Assistant Director of Football Ops & Creative Coordinator",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Assistant Director of Football Ops & Creative Coordinator",
-          "note": "Title cell in the Football section, row name cell \"D.J. Gordon\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "D.J. Gordon",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ASSISTANT DIRECTOR OF FOOTBALL OPERATIONS AND CREATIVE MEDIA",
-          "note": "Listed under \"Support Staff\" beneath the name \"D.J. GORDON\"."
-        }
-      ]
-    },
-    {
-      "name": "Jordan Sorrells",
-      "role": "Coordinator of Football Recruiting Communications",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Coordinator of Football Recruiting Communications",
-          "note": "Title cell in the Football section, row name cell \"Jordan Sorrells\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Jordan Sorrells",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ASSISTANT DIRECTOR OF RECRUITING",
-          "note": "Listed under \"Support Staff\" beneath the name \"JORDAN SORRELLS\"."
-        }
-      ]
-    },
-    {
-      "name": "Tyler Clements",
-      "role": "Recruiting Operations Coordinator",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Tyler Clements",
-          "note": "Name cell in the Football section; the adjacent title cell reads \"Recruiting Operations Coordinator\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Recruiting Operations Coordinator",
-          "note": "Title cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Director of On-Campus Recruiting",
-          "note": "Listed under \"Support Staff\" beneath the name \"TY CLEMENTS\" on Dabo Swinney's official staff page (same person, shortened first name)."
-        }
-      ]
-    },
-    {
-      "name": "Jeff Davis",
-      "role": "Assistant AD of Football Player Relations",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Assistant AD of Football Player Relations",
-          "note": "Title cell in the Football section, row name cell \"Jeff Davis\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Jeff Davis",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ASSISTANT ATHLETIC DIRECTOR OF FOOTBALL PLAYER RELATIONS",
-          "note": "Listed in the \"P.A.W. Journey\" section beneath the name \"JEFF DAVIS\"."
-        }
-      ]
-    },
-    {
-      "name": "Savannah Bailey",
-      "role": "Director of Life Skills & Community Service",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Director of Life Skills & Community Service",
-          "note": "Title cell in the Football section, row name cell \"Savannah Bailey\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Savannah Bailey",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "PLAYER RELATIONS COORDINATOR",
-          "note": "Listed in the \"P.A.W. Journey\" section beneath the name \"SAVANNAH BAILEY\"."
-        }
-      ]
-    },
-    {
-      "name": "Rashard Hall",
-      "role": "Director of Career & Professional Development",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Director of Career & Professional Development",
-          "note": "Title cell in the Football section, row name cell \"Rashard Hall\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Rashard Hall",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Director of Player Relations",
-          "note": "Listed in the \"P.A.W. Journey\" section beneath the name \"Rashard Hall\"."
-        }
-      ]
-    },
-    {
-      "name": "Joshua Smick",
-      "role": "Assistant Director of Football Video Operations",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Assistant Director of Football Video Operations",
-          "note": "Title cell in the Football section, row name cell \"Joshua Smick\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Joshua Smick",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Josh Smick",
-          "note": "Listed under \"Support Staff\" with the title \"Assistant Director of Football Video Operations\"."
-        }
-      ]
-    },
-    {
-      "name": "Morgan Tadlock",
-      "role": "Administrative Assistant for Recruiting Operations",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Administrative Assistant for Recruiting Operations",
-          "note": "Title cell in the Football section, row name cell \"Morgan Tadlock\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Morgan Tadlock",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ADMINISTRATIVE ASSISTANT RECRUITING",
-          "note": "Listed in the \"Administrative Support Staff\" section beneath the name \"MORGAN TADLOCK\"."
-        }
-      ]
-    },
-    {
-      "name": "Ashley Spiers",
-      "role": "Administrative Assistant to the Head Coach",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Ashley Spiers",
-          "note": "Name cell in the Football section; adjacent title cell reads \"Administrative Assistant to the Head Coach\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Administrative Assistant to the Head Coach",
-          "note": "Title cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ADMINISTRATIVE ASSISTANT HEAD COACH",
-          "note": "Listed in the \"Administrative Support Staff\" section beneath the name \"ASHLEY SPIERS\"."
-        }
-      ]
-    },
-    {
-      "name": "Ren Windham",
-      "role": "Administrative Assistant",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Ren Windham",
-          "note": "Name cell in the Football section; adjacent title cell reads \"Administrative Assistant\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ADMINISTRATIVE ASSISTANT OFFENSE",
-          "note": "Listed in the \"Administrative Support Staff\" section beneath the name \"REN WINDHAM\"."
-        }
-      ]
-    },
-    {
-      "name": "Jennifer Benton",
-      "role": "Administrative Assistant",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Jennifer Benton",
-          "note": "Name cell in the Football section; adjacent title cell reads \"Administrative Assistant\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ADMINISTRATIVE COORDINATOR OF FOOTBALL OPERATIONS",
-          "note": "Listed in the \"Administrative Support Staff\" section beneath the name \"JENNIFER BENTON\"."
-        }
-      ]
-    },
-    {
-      "name": "Beth Douglas",
-      "role": "Senior Administrative Assistant to the Head Coach",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Senior Administrative Assistant to the Head Coach",
-          "note": "Title cell in the Football section, row name cell \"Beth Douglas\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Beth Douglas",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ASSISTANT TO THE HEAD COACH",
-          "note": "Listed in the \"Administrative Support Staff\" section beneath the name \"BETH DOUGLAS\"."
-        }
-      ]
-    },
-    {
-      "name": "Henry Guess",
-      "role": "Director of Football Coaching Video",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Director of Football Coaching Video",
-          "note": "Title cell in the Football section, row name cell \"Henry Guess\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Henry Guess",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ASSISTANT DIRECTOR OF ATHLETIC VIDEO SERVICES",
-          "note": "Listed under \"Support Staff\" beneath the name \"HENRY GUESS\"."
-        }
-      ]
-    },
-    {
-      "name": "Todd Green",
-      "role": "Director of Football Video Operations",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Director of Football Video Operations",
-          "note": "Title cell in the Football section, row name cell \"Todd Green\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Todd Green",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "DIRECTOR OF FOOTBALL VIDEO",
-          "note": "Listed under \"Support Staff\" beneath the name \"TODD GREEN\"."
-        }
-      ]
-    },
-    {
-      "name": "Jeff Fellers",
-      "role": "Graphic Design Coordinator",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Jeff Fellers",
-          "note": "Name cell in the Football section; adjacent title cell reads \"Graphic Design Coordinator\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Graphic Design Coordinator",
-          "note": "Title cell of that row."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 Clemson Football Media Guide (published Aug. 9, 2018), \"Football Support Staff\" photo grid on printed page 33: \"JEFF FELLERS — Graphic Design Coordinator\". The guide is an image-only scan on Issuu, so no faithful text quote can be copied."
-        }
-      ]
-    },
-    {
-      "name": "Ross Taylor",
-      "role": "Assistant AD / Football Communications",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Assistant AD / Football Communications",
-          "note": "Title cell in the \"Communications\" section, row name cell \"Ross Taylor\" (football-designated communications role)."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Ross Taylor",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" page 33: \"ROSS TAYLOR — DIRECTOR OF COMMUNICATIONS, 1ST SEASON AT CLEMSON\"; the bio states he replaced Tim Bourret in July 2018. Image-only scan, so no text quote."
+          "url": "https://clemsontigers.com/staff/tyler-grisham",
+          "quote": "Though in his seventh season as a full-time coach, he is entering his 17th overall season in a variety of roles at Clemson, including four as a player (2005-08), two as a graduate assistant (2014-15) and four as an offensive analyst (2016-19).",
+          "note": "Contiguous prose on Grisham's own Clemson bio page; the 2016-19 analyst span covers the 2018 championship season. A second sentence on the same page reads 'In addition to serving as an offensive analyst, he served as assistant camp director in 2018 and 2019.' Grisham is not in the Dec. 2018 staff directory, which omits analyst roles."
         }
       ]
     },
@@ -680,41 +170,9 @@
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Senior Offensive Assistant",
-          "note": "Title cell in the Football section, row name cell \"Kyle Richardson\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Kyle Richardson",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "KYLE RICHARDSON",
-          "note": "Listed under \"Support Staff\" with the title \"SENIOR OFFENSIVE ASSISTANT\"."
-        }
-      ]
-    },
-    {
-      "name": "Wes Goodwin",
-      "role": "Senior Defensive Assistant",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Wes Goodwin",
-          "note": "Listed in the \"Player Development\" section of Dabo Swinney's official staff page, archived Nov. 24, 2018."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Senior Defensive Assistant",
-          "note": "Title text directly beneath the name \"Wes Goodwin\" in that section."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" page 31: \"WESLEY GOODWIN — SENIOR DEFENSIVE ASSISTANT, 7TH SEASON AT CLEMSON\". Image-only scan, so no text quote."
+          "note": "Title cell adjacent to the name cell 'Kyle Richardson' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -724,19 +182,9 @@
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant for Offensive Player Development",
-          "note": "Title cell in the Football section, row name cell \"Cam Aiken\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Cam Aiken",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "CAM AIKEN",
-          "note": "Listed in the \"Player Development\" section with the title \"ASSISTANT FOR OFFENSIVE PLAYER DEVELOPMENT\"; the 2018 media guide gives his full name as Cameron Aiken."
+          "note": "Title cell adjacent to the name cell 'Cam Aiken' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -746,19 +194,9 @@
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant for Defensive Player Development",
-          "note": "Title cell in the Football section, row name cell \"Miguel Chavis\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Miguel Chavis",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "MIGUEL CHAVIS",
-          "note": "Listed in the \"Player Development\" section with the title \"ASSISTANT FOR DEFENSIVE PLAYER DEVELOPMENT\"."
+          "note": "Title cell adjacent to the name cell 'Miguel Chavis' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -768,192 +206,26 @@
       "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant for Special Teams Analysis & Research Development",
-          "note": "Title cell in the Football section, row name cell \"Brandon McCombs\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Brandon McCombs",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "BRANDON MCCOMBS",
-          "note": "Listed in the \"Player Development\" section with the same title."
+          "note": "Title cell adjacent to the name cell 'Brandon McCombs' under the 'Football' section heading. Unique on the page; ampersand is a literal '&' in the source."
         }
       ]
     },
     {
-      "name": "Tyler Grisham",
-      "role": "ASSISTANT FOR OFFENSIVE ANALYSIS & RESEARCH DEVELOPMENT",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ASSISTANT FOR OFFENSIVE ANALYSIS & RESEARCH DEVELOPMENT",
-          "note": "Title text directly beneath the name \"TYLER GRISHAM\" in the \"Player Development\" section, archived Nov. 24, 2018."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "TYLER GRISHAM",
-          "note": "Name text of that entry."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" page 31: \"TYLER GRISHAM — OFFENSIVE ANALYST & ASSISTANT CAMP DIRECTOR, 5TH SEASON AT CLEMSON\". Image-only scan, so no text quote."
-        }
-      ]
-    },
-    {
-      "name": "DeAndre McDaniel",
-      "role": "Assistant for Defensive Analysis",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Assistant for Defensive Analysis",
-          "note": "Title text directly beneath the name \"DEANDRE MCDANIEL\" in the \"Player Development\" section, archived Nov. 24, 2018."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "DEANDRE MCDANIEL",
-          "note": "Name text of that entry."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" page 32: \"DeANDRE McDANIEL — DEFENSIVE ANALYST & ASSISTANT CAMP DIRECTOR, 4TH SEASON AT CLEMSON\". Image-only scan, so no text quote."
-        }
-      ]
-    },
-    {
-      "name": "Bill Spiers",
-      "role": "Senior Assistant for Offense and Special Teams",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Senior Assistant for Offense and Special Teams",
-          "note": "Title text directly beneath the name \"Bill Spiers\" in the \"Support Staff\" section, archived Nov. 24, 2018."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Bill Spiers",
-          "note": "Name text of that entry."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" page 33: \"BILL SPIERS — SENIOR SPECIAL TEAMS ASSISTANT, 3RD SEASON AT CLEMSON\". Image-only scan, so no text quote."
-        }
-      ]
-    },
-    {
-      "name": "Zachary Alley",
-      "role": "Graduate Assistant",
+      "name": "Zac Alley",
+      "role": "Graduate assistant",
       "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ZACHARY ALLEY",
-          "note": "Listed under the \"Graduate Assistants\" heading on Dabo Swinney's official staff page, archived Nov. 24, 2018."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Graduate Assistants",
-          "note": "Section heading above the block containing his name."
+          "url": "https://en.wikipedia.org/wiki/Zac_Alley",
+          "quote": "Once he graduated he became a graduate assistant from 2015 to 2018,",
+          "note": "Contiguous rendered prose (a citation marker follows the comma). The 2015-2018 span covers the championship season."
         },
         {
           "url": "https://en.wikipedia.org/wiki/2018_Clemson_Tigers_football_team",
-          "quote": "Zac Alley",
-          "note": "Listed in the 2018 coaching-staff table with the role \"Graduate assistant\"."
-        }
-      ]
-    },
-    {
-      "name": "Thomas Austin",
-      "role": "Graduate Assistant",
-      "role_category": "gradasst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "THOMAS AUSTIN",
-          "note": "Listed under the \"Graduate Assistants\" heading on Dabo Swinney's official staff page, archived Nov. 24, 2018."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" page 30: \"THOMAS AUSTIN — VIDEO GRADUATE ASSISTANT, 4TH SEASON AT CLEMSON\". Image-only scan, so no text quote."
-        }
-      ]
-    },
-    {
-      "name": "Zach Fulmer",
-      "role": "Graduate Assistant",
-      "role_category": "gradasst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ZACH FULMER",
-          "note": "Listed under the \"Graduate Assistants\" heading on Dabo Swinney's official staff page, archived Nov. 24, 2018."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" page 31: \"ZACH FULMER — GRADUATE ASSISTANT, 4TH SEASON AT CLEMSON\" (defensive graduate assistant). Image-only scan, so no text quote."
-        }
-      ]
-    },
-    {
-      "name": "Xavier Dye",
-      "role": "Graduate Assistant",
-      "role_category": "gradasst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "XAVIER DYE",
-          "note": "Listed under the \"Graduate Assistants\" heading on Dabo Swinney's official staff page, archived Nov. 24, 2018."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" page 31: \"XAVIER DYE — GRADUATE ASSISTANT, 2ND SEASON AT CLEMSON\" (offensive graduate assistant). Image-only scan, so no text quote."
-        }
-      ]
-    },
-    {
-      "name": "Mike Briglin",
-      "role": "Graduate Assistant",
-      "role_category": "gradasst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "MIKE BRIGLIN",
-          "note": "Listed under the \"Graduate Assistants\" heading on Dabo Swinney's official staff page, archived Nov. 24, 2018."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" page 30: \"MIKE BRIGLIN — VIDEO GRADUATE ASSISTANT, 4TH SEASON AT CLEMSON\". Image-only scan, so no text quote."
-        }
-      ]
-    },
-    {
-      "name": "Maverick Morris",
-      "role": "Graduate Assistant",
-      "role_category": "gradasst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Maverick Morris",
-          "note": "Listed under the \"Graduate Assistants\" heading on Dabo Swinney's official staff page, archived Nov. 24, 2018."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" page 32: \"MAVERICK MORRIS — GRADUATE ASSISTANT, 1ST SEASON AT CLEMSON\", working with the offense. Image-only scan, so no text quote."
+          "quote": "Graduate assistant",
+          "note": "Title cell for the Zac Alley row in the 'Coaching staff' wikitable of the 2018 team article; name and title are in adjacent cells."
         }
       ]
     },
@@ -963,19 +235,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Director of Football Strength & Conditioning",
-          "note": "Title cell in the \"Strength & Conditioning\" section, row name cell \"Joey Batson\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Joey Batson",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "JOEY BATSON",
-          "note": "Listed in the \"Strength and Conditioning\" section with the title \"DIRECTOR OF FOOTBALL STRENGTH & CONDITIONING\"."
+          "note": "Title cell adjacent to the name cell 'Joey Batson' under the 'Strength & Conditioning' section heading. Unique on the page."
         }
       ]
     },
@@ -985,19 +247,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant Director of Football Strength & Conditioning",
-          "note": "Title cell in the \"Strength & Conditioning\" section, row name cell \"Larry Greenlee\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Larry Greenlee",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "LARRY GREENLEE",
-          "note": "Listed in the \"Strength and Conditioning\" section with the same title."
+          "note": "Title cell adjacent to the name cell 'Larry Greenlee' under the 'Strength & Conditioning' section heading. Unique on the page."
         }
       ]
     },
@@ -1007,19 +259,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Senior Assistant Football Strength & Conditioning Coach",
-          "note": "Title cell in the \"Strength & Conditioning\" section, row name cell \"Paul Hogan\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Paul Hogan",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "FOOTBALL SENIOR ASSISTANT STRENGTH & CONDITIONING COACH",
-          "note": "Listed in the \"Strength and Conditioning\" section beneath the name \"PAUL HOGAN\"."
+          "note": "Title cell adjacent to the name cell 'Paul Hogan' under the 'Strength & Conditioning' section heading. Unique on the page."
         }
       ]
     },
@@ -1029,19 +271,9 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant Strength & Conditioning Coach/Football",
-          "note": "Title cell in the Football and \"Strength & Conditioning\" sections, row name cell \"Adam Smotherman\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Adam Smotherman",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ADAM SMOTHERMAN",
-          "note": "Listed in the \"Strength and Conditioning\" section with the title \"FOOTBALL ASSISTANT STRENGTH & CONDITIONING COACH\"."
+          "note": "Title cell adjacent to the name cell 'Adam Smotherman'. Appears in both the 'Football' and 'Strength & Conditioning' sections of the same page."
         }
       ]
     },
@@ -1051,41 +283,249 @@
       "role_category": "sc",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Graduate Assistant Football Strength & Conditioning Coach",
-          "note": "Title cell in the Football section, row name cell \"Adrien Dunn\"."
-        },
+          "note": "Title cell adjacent to the name cell 'Adrien Dunn' under the 'Football' section heading. Unique on the page. Categorized 'sc' for the strength-and-conditioning function; the title is also a graduate-assistant role."
+        }
+      ]
+    },
+    {
+      "name": "Woody McCorvey",
+      "role": "Associate AD of Football Administration",
+      "role_category": "ops",
+      "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Adrien Dunn",
-          "note": "Name cell of that row."
-        },
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Associate AD of Football Administration",
+          "note": "Title cell adjacent to the name cell 'Woody McCorvey' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Thad Turnipseed",
+      "role": "Director of Football Recruiting & External Affairs",
+      "role_category": "ops",
+      "sources": [
         {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Strength and Conditioning Graduate Assistant",
-          "note": "Title text directly beneath the name \"Adrien Dunn\" in the \"Strength and Conditioning\" section."
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Director of Football Recruiting & External Affairs",
+          "note": "Title cell adjacent to the name cell 'Thad Turnipseed' under the 'Football' section heading. Unique on the page; ampersand is a literal '&' in the source."
+        }
+      ]
+    },
+    {
+      "name": "Brad Scott",
+      "role": "Director of Football Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Director of Football Player Development",
+          "note": "Title cell adjacent to the name cell 'Brad Scott' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Mike Dooley",
+      "role": "Director of Football Operations/Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Director of Football Operations/Player Personnel",
+          "note": "Title cell adjacent to the name cell 'Mike Dooley' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "D.J. Gordon",
+      "role": "Assistant Director of Football Ops & Creative Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Assistant Director of Football Ops & Creative Coordinator",
+          "note": "Title cell adjacent to the name cell 'D.J. Gordon' under the 'Football' section heading. Unique on the page; ampersand is a literal '&' in the source."
+        }
+      ]
+    },
+    {
+      "name": "Jordan Sorrells",
+      "role": "Coordinator of Football Recruiting Communications",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Coordinator of Football Recruiting Communications",
+          "note": "Title cell adjacent to the name cell 'Jordan Sorrells' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Tyler Clements",
+      "role": "Recruiting Operations Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Recruiting Operations Coordinator",
+          "note": "Title cell adjacent to the name cell 'Tyler Clements' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Davis",
+      "role": "Assistant AD of Football Player Relations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Assistant AD of Football Player Relations",
+          "note": "Title cell adjacent to the name cell 'Jeff Davis' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Savannah Bailey",
+      "role": "Director of Life Skills & Community Service",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Director of Life Skills & Community Service",
+          "note": "Title cell adjacent to the name cell 'Savannah Bailey' under the 'Football' section heading. Unique on the page. She was listed as 'Player Relations Coordinator' in the July 2018 capture of the same directory, i.e. retitled within the football staff during 2018, not an arrival or departure."
+        }
+      ]
+    },
+    {
+      "name": "Rashard Hall",
+      "role": "Director of Career & Professional Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Director of Career & Professional Development",
+          "note": "Title cell adjacent to the name cell 'Rashard Hall' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Henry Guess",
+      "role": "Director of Football Coaching Video",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Director of Football Coaching Video",
+          "note": "Title cell adjacent to the name cell 'Henry Guess' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Todd Green",
+      "role": "Director of Football Video Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Director of Football Video Operations",
+          "note": "Title cell adjacent to the name cell 'Todd Green' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Joshua Smick",
+      "role": "Assistant Director of Football Video Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Assistant Director of Football Video Operations",
+          "note": "Title cell adjacent to the name cell 'Joshua Smick' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Fellers",
+      "role": "Graphic Design Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Graphic Design Coordinator",
+          "note": "Title cell adjacent to the name cell 'Jeff Fellers' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Beth Douglas",
+      "role": "Senior Administrative Assistant to the Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Senior Administrative Assistant to the Head Coach",
+          "note": "Title cell adjacent to the name cell 'Beth Douglas' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Ashley Spiers",
+      "role": "Administrative Assistant to the Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Administrative Assistant to the Head Coach",
+          "note": "Title cell adjacent to the name cell 'Ashley Spiers' under the 'Football' section heading."
+        }
+      ]
+    },
+    {
+      "name": "Morgan Tadlock",
+      "role": "Administrative Assistant for Recruiting Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Administrative Assistant for Recruiting Operations",
+          "note": "Title cell adjacent to the name cell 'Morgan Tadlock' under the 'Football' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Ren Windham",
+      "role": "Administrative Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Administrative Assistant",
+          "note": "Title cell adjacent to the name cell 'Ren Windham' under the 'Football' section heading. This generic title appears more than once on the page; the Ren Windham row is inside the Football section (listed phone 864-656-0609)."
+        }
+      ]
+    },
+    {
+      "name": "Jennifer Benton",
+      "role": "Administrative Assistant",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Administrative Assistant",
+          "note": "Title cell adjacent to the name cell 'Jennifer Benton' under the 'Football' section heading. This generic title appears more than once on the page; the Jennifer Benton row is inside the Football section (listed phone 864-656-1911)."
         }
       ]
     },
     {
       "name": "Paul Harrington",
       "role": "Director of Football Nutrition",
-      "role_category": "medical",
+      "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Director of Football Nutrition",
-          "note": "Title cell in the Football section, row name cell \"Paul Harrington\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Paul Harrington",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Director of Football Performance Nutrition",
-          "note": "Title text beneath the name \"PAUL HARRINGTON\" in the \"Performance Nutrition\" section."
+          "note": "Title cell adjacent to the name cell 'Paul Harrington' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -1095,19 +535,9 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Donna McCain",
-          "note": "Name cell in the Football section; adjacent title cell reads \"Performance Chef\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Performance Chef",
-          "note": "Title cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "EXECUTIVE PERFORMANCE CHEF",
-          "note": "Title text beneath the name \"DONNA MCCAIN\" in the \"Performance Nutrition\" section."
+          "note": "Title cell adjacent to the name cell 'Donna McCain' under the 'Football' section heading. Unique on the page."
         }
       ]
     },
@@ -1117,19 +547,9 @@
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Director of Sports Medicine/Head Athletic Trainer - Football",
-          "note": "Title cell in the \"Sports Medicine\" section, row name cell \"Danny Poole\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Danny Poole",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" page 32: \"DANNY POOLE — DIRECTOR OF SPORTS MEDICINE, 36TH SEASON AT CLEMSON\". Image-only scan, so no text quote."
+          "note": "Title cell adjacent to the name cell 'Danny Poole' under the 'Sports Medicine' section heading. Unique on the page; explicitly designated Football."
         }
       ]
     },
@@ -1139,19 +559,9 @@
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Scott Crothers",
-          "note": "Name cell in the \"Sports Medicine\" section; adjacent title cell reads \"Assistant Athletic Trainer - Football\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant Athletic Trainer - Football",
-          "note": "Title cell of that row (the same title string is also used for Abby Dedecker)."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" photo grid on page 33: \"SCOTT CROTHERS — Sports Medicine Assistant\". Image-only scan, so no text quote."
+          "note": "Title cell adjacent to the name cell 'Scott Crothers' under the 'Sports Medicine' section heading. The identical Football-designated title also belongs to Abby Dedecker's row; Crothers' row lists phone 864-656-4725."
         }
       ]
     },
@@ -1161,53 +571,9 @@
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Abby Dedecker",
-          "note": "Name cell in the \"Sports Medicine\" section; adjacent title cell reads \"Assistant Athletic Trainer - Football\"."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" photo grid on page 33, where the name is styled \"ABBY DeDECKER — Sports Medicine Assistant\". Image-only scan, so no text quote."
-        }
-      ]
-    },
-    {
-      "name": "Dr. Len Reeves",
-      "role": "Team Physician",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Dr. Len Reeves",
-          "note": "Name cell in the \"Sports Medicine\" section; adjacent title cell reads \"Team Physician\"."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" photo grid on page 33: \"DR. LEN REEVES — Physician\". He is the only team physician pictured with the football support staff. Image-only scan, so no text quote."
-        }
-      ]
-    },
-    {
-      "name": "Reggie Pleasent",
-      "role": "LIFE COACH",
-      "role_category": "other",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "REGGIE PLEASENT",
-          "note": "Listed in the \"P.A.W. Journey\" section of Dabo Swinney's official staff page, archived Nov. 24, 2018 (the site spells the surname \"PLEASENT\"; the media guide spells it \"REGGIE PLEASANT\")."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "LIFE COACH",
-          "note": "Title text directly beneath that name."
-        },
-        {
-          "url": "https://issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02",
-          "quote": "",
-          "note": "2018 media guide, \"Football Support Staff\" photo grid on page 33: \"REGGIE PLEASANT — Life Coach\". Image-only scan, so no text quote."
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Assistant Athletic Trainer - Football",
+          "note": "Title cell adjacent to the name cell 'Abby Dedecker' under the 'Sports Medicine' section heading. The identical Football-designated title also belongs to Scott Crothers' row; Dedecker's row lists phone 864-656-7271."
         }
       ]
     },
@@ -1217,19 +583,9 @@
       "role_category": "equipment",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Director of Equipment for Football",
-          "note": "Title cell in the \"Equipment Services\" section, row name cell \"Abe Reed\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Abe Reed",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "ABE REED",
-          "note": "Listed under \"Support Staff\" with the title \"DIRECTOR OF EQUIPMENT\"."
+          "note": "Title cell adjacent to the name cell 'Abe Reed' under the 'Equipment Services' section heading. Unique on the page."
         }
       ]
     },
@@ -1239,104 +595,21 @@
       "role_category": "equipment",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Assistant Director of Equipment for Football",
-          "note": "Title cell in the \"Equipment Services\" section, row name cell \"Nicholas Yarid\"."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Nicholas Yarid",
-          "note": "Name cell of that row."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "NICK YARID",
-          "note": "Listed under \"Support Staff\" with the title \"ASSISTANT DIRECTOR OF EQUIPMENT\"."
+          "note": "Title cell adjacent to the name cell 'Nicholas Yarid' under the 'Equipment Services' section heading. Unique on the page."
         }
       ]
     },
     {
-      "name": "Tracy Swinney",
-      "role": "Football Security",
+      "name": "Ross Taylor",
+      "role": "Assistant AD / Football Communications",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Tracy Swinney",
-          "note": "Listed in the \"Support Staff\" section of Dabo Swinney's official staff page, archived Nov. 24, 2018."
-        },
-        {
-          "url": "https://web.archive.org/web/20181124131916/http://www.daboswinney.com/staff/",
-          "quote": "Football Security",
-          "note": "Title text directly beneath that name. Not carried in the athletics staff directory or the media guide, so this page is the only documentation found."
-        }
-      ]
-    },
-    {
-      "name": "Matt Lombardi",
-      "role": "Director of Football Academic Services",
-      "role_category": "other",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Director of Football Academic Services",
-          "note": "Title cell in the \"Student-Athlete Enrichment Services\" section, row name cell \"Matt Lombardi\". Athletics-department role explicitly designated to football."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Matt Lombardi",
-          "note": "Name cell of that row."
-        }
-      ]
-    },
-    {
-      "name": "Luke Fieser",
-      "role": "Associate Director of Football Academic Services",
-      "role_category": "other",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Associate Director of Football Academic Services",
-          "note": "Title cell in the \"Student-Athlete Enrichment Services\" section, row name cell \"Luke Fieser\". Athletics-department role explicitly designated to football."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Luke Fieser",
-          "note": "Name cell of that row."
-        }
-      ]
-    },
-    {
-      "name": "Chris Roberts",
-      "role": "Associate Director of Football Academic Advising",
-      "role_category": "other",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Associate Director of Football Academic Advising",
-          "note": "Title cell in the \"Student-Athlete Enrichment Services\" section, row name cell \"Chris Roberts\". Athletics-department role explicitly designated to football."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Chris Roberts",
-          "note": "Name cell of that row."
-        }
-      ]
-    },
-    {
-      "name": "Amanda Gray",
-      "role": "Associate AD / Football Compliance",
-      "role_category": "other",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Associate AD / Football Compliance",
-          "note": "Title cell in the \"Compliance Services\" section, row name cell \"Amanda Gray\". Athletics-department role explicitly designated to football."
-        },
-        {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Amanda Gray",
-          "note": "Name cell of that row."
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Assistant AD / Football Communications",
+          "note": "Title cell adjacent to the name cell 'Ross Taylor' under the 'Communications' section heading. Unique on the page."
         }
       ]
     },
@@ -1346,17 +619,59 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
           "quote": "Senior Associate Director of Communications (Football, Baseball)",
-          "note": "Title cell in the \"Communications\" section, row name cell \"Brian Hennessy\". Split assignment across football and baseball, so a partial-football role."
-        },
+          "note": "Title cell adjacent to the name cell 'Brian Hennessy' under the 'Communications' section heading. Unique on the page; football is one of two sports assigned."
+        }
+      ]
+    },
+    {
+      "name": "Amanda Gray",
+      "role": "Associate AD / Football Compliance",
+      "role_category": "other",
+      "sources": [
         {
-          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory/",
-          "quote": "Brian Hennessy",
-          "note": "Name cell of that row."
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Associate AD / Football Compliance",
+          "note": "Title cell adjacent to the name cell 'Amanda Gray' under the 'Compliance Services' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Matt Lombardi",
+      "role": "Director of Football Academic Services",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Director of Football Academic Services",
+          "note": "Title cell adjacent to the name cell 'Matt Lombardi' under the 'Student-Athlete Enrichment Services' section heading. Unique on the page."
+        }
+      ]
+    },
+    {
+      "name": "Luke Fieser",
+      "role": "Associate Director of Football Academic Services",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Associate Director of Football Academic Services",
+          "note": "Title cell adjacent to the name cell 'Luke Fieser' under the 'Student-Athlete Enrichment Services' section heading. His row is duplicated verbatim within that section on the source page."
+        }
+      ]
+    },
+    {
+      "name": "Chris Roberts",
+      "role": "Associate Director of Football Academic Advising",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181211232455/http://clemsontigers.com/staff-directory",
+          "quote": "Associate Director of Football Academic Advising",
+          "note": "Title cell adjacent to the name cell 'Chris Roberts' under the 'Student-Athlete Enrichment Services' section heading. Unique on the page."
         }
       ]
     }
-  ],
-  "coverage_notes": "SOURCES USED. (1) Primary: Clemson's own athletics staff directory at clemsontigers.com/staff-directory/, Wayback snapshot 20181211232455 (Dec. 11, 2018) — captured mid-season, four weeks before the Jan. 7, 2019 CFP title game. Its \"Football\" department table has 38 rows; football-designated people also appear under Sports Medicine, Strength & Conditioning, Equipment Services, Communications, Compliance Services and Student-Athlete Enrichment Services. (2) Dabo Swinney's official site staff page, daboswinney.com/staff/, Wayback snapshot 20181124131916 (Nov. 24, 2018) — the only source found that names the six football graduate assistants individually and that documents Tyler Grisham, DeAndre McDaniel, Wes Goodwin, Bill Spiers and Tracy Swinney. (3) Wikipedia's 2018 Clemson Tigers football team page (on-field staff only). (4) The 2018 Clemson Football Media Guide on Issuu (issuu.com/clemsontigers/docs/mediaguide_a04593a0a33e02, published Aug. 9, 2018), \"Football Support Staff,\" pages 30-33, plus the Strength & Conditioning page 41 and the Woody McCorvey page 19 — used to corroborate names, titles and season counts. Every media-guide citation carries quote:\"\" because the guide is published on Issuu as page images only; I read the page scans visually, so no character-faithful text can be copied.\n\nQUOTE MECHANICS. On both archived pages a person's name and title live in separate HTML elements (adjacent <td> cells in the staff directory; <span> + <p> on daboswinney.com), so no single contiguous string carries both. Each quote is therefore a single-cell/single-element string, with the pairing explained in the note. All 100+ non-empty quotes were programmatically verified to appear in the rendered text of the exact URL cited.\n\nWHAT I COULD NOT DOCUMENT. (a) No staff snapshot exists between the Dec. 28 Cotton Bowl and the Jan. 7, 2019 championship game. I found no reporting of any mid-season arrival or departure, so no midseason_note is set on anyone — but \"on staff at the championship game\" is an inference from the November/December snapshots rather than something documented at game time. The Jan. 3, 2019 Clemson championship game notes (rolltide.com/documents/download/2019/1/3/Clemson_Notes.pdf) do confirm Swinney, Pearman (\"AHC/STC/TE Coach\") and Lemanski Hall (\"DE Coach\") in their listed roles in January, but contain no full staff directory. (b) Student assistants, undergraduate managers, recruiting-visit hosts, video/equipment student workers and unpaid interns are not enumerated anywhere I could reach. (c) Clemson's own football coaches/staff page was not archived for 2018 — no clemsontigers.com/sports/football/coaches/ or /roster/season/2018/ snapshot exists in the Wayback CDX index. (d) I could not enumerate the strength staff beyond the five named (Batson, Greenlee, Hogan, Smotherman, Dunn); the media guide's S&C page shows exactly those five.\n\nJUDGMENT CALLS. I included athletics-department employees whose titles explicitly designate football (Ross Taylor, Brian Hennessy, Amanda Gray, Matt Lombardi, Luke Fieser, Chris Roberts, Danny Poole, Scott Crothers, Abby Dedecker, Abe Reed, Nicholas Yarid) because Clemson itself lists several of them inside the football staff block; each note flags the department. I excluded university/athletics leadership who are not football staff (president Jim Clements, AD Dan Radakovich, broadcaster Don Munson) even though the media guide profiles them in its \"Football & Administrative Staff\" section, and excluded the three team physicians who are not attached to football (Drs. Bowman, Martin, Murphy) — only Dr. Len Reeves appears in the media guide's football support-staff grid. Paul Harrington (nutrition) is categorized medical; Donna McCain (performance chef), Reggie Pleasent (life coach), Tracy Swinney (security) and the academic/compliance/communications staff are categorized other. Name spellings vary between sources and are noted where they differ: Cam/Cameron Aiken, Ty/Tyler Clements, Josh/Joshua Smick, Nick/Nicholas Yarid, Zac/Zachary Alley, Wes/Wesley Goodwin, Reggie Pleasent/Pleasant, Abby Dedecker/DeDecker. Total: 65 people. No name in this list is unsourced."
+  ]
 }

@@ -1,6 +1,7 @@
 {
   "team": "LSU",
   "season": 2019,
+  "coverage_notes": "SOURCES USED (in the order requested):\n1. Wikipedia team-season page (https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team) — infobox, \"Coaching staff\" table, and the roster-footer staff list. Quotes taken from the roster-footer list render as single lines of the form \"Name – Role\" (en dash U+2013).\n2. LSU athletics staff directory archived on the Wayback Machine at https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory — captured Jan. 26, 2020, 13 days after the CFP title game (Jan. 13, 2020). This was the ONLY capture of that directory between Aug. 2019 and Jan. 2020 (verified via the Wayback CDX API), so no in-season snapshot exists. For directory rows the visible page text puts the person's name in one table cell and the title in the next, so quotes are the exact name link text and the note records the exact title-column text and the directory category.\n3. 2019 LSU Football Media Guide, official PDF at https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf (published Aug. 12, 2019). Text extracted with PyMuPDF; the support-staff pages (PDF pages 51-54 = guide pages 50-53) are name/title grids, so quotes are single extracted lines (a name, or a one-line sentence fragment from a bio). Every quote was string-verified against the extracted text before being written here.\n4. Contemporary news (247Sports, Wikipedia biography pages, Texas A&M staff bio) for people the two staff listings disagreed on or omitted.\n\nKNOWN GAPS AND CAVEATS:\n- The Jan. 26, 2020 directory post-dates the title game, so three people who were on staff for the championship are missing from it: Dave Aranda (left for Baylor Jan. 16, 2020), Joe Brady (left for the Carolina Panthers Jan. 15, 2020) and Kenechi Udeze (left for Vanderbilt Jan. 21, 2020). All three are documented via Wikipedia and/or the media guide instead.\n- Conversely, the same timing means the directory cannot by itself prove someone was on staff before Jan. 13. David Bowen and Caleb Young are independently confirmed for the 2019 season by outside sources. Forrest Buckner (Recruiting Creative Coordinator) is documented ONLY by the Jan. 26, 2020 directory — I could not find a second source fixing his start date, so his presence at the championship game is probable but not proven.\n- Role churn at defensive line: the Aug. 2019 media guide lists Dennis Johnson as Defensive Line Coach. LSU hired Bill Johnson as defensive line coach on Aug. 15, 2019 (before the Aug. 31 opener) and Dennis Johnson moved to an analyst role, which is how Wikipedia and the January directory list him. Both are included with their championship-game roles. Neither change is mid-season, so no midseason_note is set.\n- No \"quality control\" (qc) titles are documented anywhere for 2019 LSU; the program used \"Analyst\" for those roles, so the qc category is empty.\n- NOT ENUMERATED because no source names them: student assistants, recruiting student workers, and the eleven student video assistants referenced in Doug Aucoin's media-guide bio (\"Aucoin oversees a staff of 13 people, which includes two full-time assistants and eleven student assistants\"). Also not enumerated: the football team's physicians/orthopedic surgeons, who do not appear in either staff listing.\n- DELIBERATELY EXCLUDED as athletics-department-wide staff assigned to other sports in the January 2020 directory, even though they appear on the media guide's football \"Support Staff\" pages: Melissa Moore Seal (Associate Strength & Conditioning Coach, tagged \"SB, MT\") and Earl Chevalier (Assistant Strength & Conditioning Coach, tagged \"GYM, WG\"). Also excluded: other Strength & Conditioning staff with no football tag (Greg Goldin, Travis Roy, Chris White, Boo Schexnayder, Jeremy Jacobs, Tim Johnson), other athletic trainers tagged to non-football sports, Shelly Mullenix (Sr. Associate AD/Health and Wellness), Michael Johnson (Executive Chef), and Louis Bourgeois (Director of Athletic Equipment), who is in the department's Equipment Staff category but not on the football media guide's equipment page.\n- BORDERLINE, INCLUDED WITH FLAGS: Lauren Marucci, Rebecca Moore, LaKeitha Poole, Bruce Buggs, Christine Sotile and Nathan Lemoine are athletics-department-wide health/performance staff, but LSU printed all six on the football media guide's \"Support Staff\" page. Their per-person notes say so; filter them out if the ring rule is football-only employment.\n- Name spelling conflicts, resolved in favor of the more widely used form and flagged in notes: \"DJ Mangas\" (directory) vs \"DJ Mangus\" (media guide); \"Jeff Grigus\" (media guide) vs \"Jeffery Grigus\" (directory); \"Joe Bourg\" (media guide) vs \"Joseph Bourg\" (directory).\n- Total documented: 70 people. Nothing here is inferred or padded; every row carries at least one verified verbatim quote.",
   "staff": [
     {
       "name": "Ed Orgeron",
@@ -8,621 +9,189 @@
       "role_category": "headcoach",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Head Coach",
-          "note": "LSU's own football staff directory archived Jan 7, 2020 (six days before the Jan 13, 2020 CFP title game), season selector set to 2019. Name and Title sit in separate table cells, so no contiguous name+title string exists; this quote is the Title cell of the Ed Orgeron row under the heading '2019 Football Coaching Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Ed Orgeron",
-          "note": "Name cell of the same row."
-        },
-        {
           "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Head coach",
-          "note": "Coaching staff table, 2019 season page."
+          "quote": "Head coach Ed Orgeron was awarded several national Coach of the Year honors.",
+          "note": "Season-summary prose on the 2019 team page; the page's Coaching staff table also lists 'Ed Orgeron / Head coach'."
+        },
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Ed Orgeron",
+          "note": "2019 LSU Football Media Guide, 'LSU Football Coaching Staff' table (PDF p. 5): Ed Orgeron / Head Coach / Northwestern State, '84 / 5th year at LSU."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Ed Orgeron",
+          "note": "LSU athletics staff directory archived Jan. 26, 2020; Football category, title column reads 'Head Coach'."
         }
       ]
     },
     {
       "name": "Dave Aranda",
-      "role": "Associate Head Coach/Defensive Coordinator",
+      "role": "Associate head coach/defensive coordinator/linebackers",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Associate Head Coach/Defensive Coordinator",
-          "note": "Title cell of the Dave Aranda row under the '2019 Football Coaching Staff' heading."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Dave Aranda",
-          "note": "Name cell of the same row."
-        },
-        {
           "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Defensive coordinator/linebackers coach/associate head coach",
-          "note": "Coaching staff table row for Dave Aranda."
+          "quote": "Dave Aranda – Associate head coach/defensive coordinator/linebackers",
+          "note": "Roster-footer staff list. The page's Coaching staff table words it 'Defensive coordinator/linebackers coach/associate head coach'."
+        },
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Dave Aranda",
+          "note": "2019 media guide 'LSU Football Coaching Staff' table (PDF p. 5) lists him as 'Assoc. Head Coach/Defensive Coordinator', 4th year at LSU. He is absent from the Jan. 26, 2020 directory because he left for Baylor on Jan. 16, 2020, three days after the title game."
         }
       ]
     },
     {
       "name": "Steve Ensminger",
-      "role": "Offensive Coordinator",
+      "role": "Offensive coordinator/quarterbacks",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Offensive Coordinator",
-          "note": "Title cell of the Steve Ensminger row under '2019 Football Coaching Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Steve Ensminger",
-          "note": "Name cell of the same row."
-        },
-        {
           "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Offensive coordinator/quarterbacks coach",
-          "note": "Coaching staff table row for Steve Ensminger."
+          "quote": "Steve Ensminger – Offensive coordinator/quarterbacks",
+          "note": "Roster-footer staff list; the Coaching staff table words it 'Offensive coordinator/quarterbacks coach'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Steve Ensminger",
+          "note": "Archived LSU staff directory, Football category, title column 'Offensive Coordinator'."
         }
       ]
     },
     {
       "name": "Joe Brady",
-      "role": "Passing Game Coordinator/Wide Receivers",
+      "role": "Passing game coordinator/receivers coach",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Passing Game Coordinator/Wide Receivers",
-          "note": "Title cell of the Joe Brady row under '2019 Football Coaching Staff'."
+          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
+          "quote": "Joe Brady – Passing game coordinator/receivers coach",
+          "note": "Roster-footer staff list; Coaching staff table words it 'Passing game coordinator/wide receivers coach'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
           "quote": "Joe Brady",
-          "note": "Name cell of the same row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Passing game coordinator/wide receivers coach",
-          "note": "Coaching staff table row for Joe Brady; he won the 2019 Broyles Award at LSU."
-        }
-      ]
-    },
-    {
-      "name": "Tommie Robinson",
-      "role": "Asst. Head Coach/Running Backs/Recruiting Coordinator",
-      "role_category": "onfield",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Asst. Head Coach/Running Backs/Recruiting Coordinator",
-          "note": "Title cell of the Tommie Robinson row under '2019 Football Coaching Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Tommie Robinson",
-          "note": "Name cell of the same row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Running backs coach/assistant head coach/recruiting coordinator",
-          "note": "Coaching staff table row for Tommie Robinson."
-        }
-      ]
-    },
-    {
-      "name": "Bill Busch",
-      "role": "Safeties Coach",
-      "role_category": "onfield",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Safeties Coach",
-          "note": "Title cell of the Bill Busch row under '2019 Football Coaching Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Bill Busch",
-          "note": "Name cell of the same row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Safeties coach",
-          "note": "Coaching staff table row for Bill Busch."
+          "note": "2019 media guide coaching staff table (PDF p. 5): 'Passing Game Coordinator/Wide Receivers', William & Mary '13, 1st year. Absent from the Jan. 26, 2020 directory because he left for the Carolina Panthers on Jan. 15, 2020, two days after the title game."
         }
       ]
     },
     {
       "name": "James Cregg",
-      "role": "Offensive Line Coach",
+      "role": "Offensive line",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Offensive Line Coach",
-          "note": "Title cell of the James Cregg row under '2019 Football Coaching Staff'."
+          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
+          "quote": "James Cregg – Offensive line",
+          "note": "Roster-footer staff list; Coaching staff table words it 'Offensive line coach/running game coordinator'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
           "quote": "James Cregg",
-          "note": "Name cell of the same row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Offensive line coach/running game coordinator",
-          "note": "Coaching staff table row for James Cregg."
-        }
-      ]
-    },
-    {
-      "name": "Bill Johnson",
-      "role": "Defensive Line Coach",
-      "role_category": "onfield",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Defensive Line Coach",
-          "note": "Title cell of the Bill Johnson row under '2019 Football Coaching Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Bill Johnson",
-          "note": "Name cell of the same row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Defensive line coach",
-          "note": "Coaching staff table row for Bill Johnson. Wikipedia cites an Aug 15, 2019 Advocate report of his hiring, i.e. before the season opener, so he was on staff all season."
+          "note": "Archived LSU staff directory, Football category, title column 'Offensive Line Coach'."
         }
       ]
     },
     {
       "name": "Mickey Joseph",
-      "role": "Wide Receivers Coach",
+      "role": "Wide receivers",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Wide Receivers Coach",
-          "note": "Title cell of the Mickey Joseph row under '2019 Football Coaching Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Mickey Joseph",
-          "note": "Name cell of the same row."
-        },
-        {
           "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Wide receivers coach",
-          "note": "Coaching staff table row for Mickey Joseph."
+          "quote": "Mickey Joseph – Wide receivers",
+          "note": "Roster-footer staff list; Coaching staff table words it 'Wide receivers coach'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Mickey Joseph",
+          "note": "Archived LSU staff directory, Football category, title column 'Wide Receivers Coach'."
         }
       ]
     },
     {
-      "name": "Greg McMahon",
-      "role": "Special Teams Coordinator",
+      "name": "Tommie Robinson",
+      "role": "Assistant head coach/recruiting coordinator/running backs",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Special Teams Coordinator",
-          "note": "Title cell of the Greg McMahon row under '2019 Football Coaching Staff'."
+          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
+          "quote": "Tommie Robinson – Assistant head coach/recruiting coordinator/running backs",
+          "note": "Roster-footer staff list."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Greg McMahon",
-          "note": "Name cell of the same row."
-        },
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Tommie Robinson",
+          "note": "Archived LSU staff directory, Football category, title column 'Asst. Head Coach/Running Backs/Recruiting Coordinator'."
+        }
+      ]
+    },
+    {
+      "name": "Bill Johnson",
+      "role": "Defensive line",
+      "role_category": "onfield",
+      "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Special teams coordinator",
-          "note": "Coaching staff table row for Greg McMahon."
+          "quote": "Bill Johnson – Defensive line",
+          "note": "Roster-footer staff list; Coaching staff table words it 'Defensive line coach'. Wikipedia dates the staff table 'as of August 17, 2019' and cites an Aug. 15, 2019 Advocate report of LSU offering him a one-year deal — i.e. hired two weeks before the season opener, replacing Dennis Johnson at defensive line."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Bill Johnson",
+          "note": "Archived LSU staff directory, Football category, title column 'Defensive Line Coach'."
         }
       ]
     },
     {
       "name": "Corey Raymond",
-      "role": "Defensive Backs Coach",
+      "role": "Cornerbacks",
       "role_category": "onfield",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Defensive Backs Coach",
-          "note": "Title cell of the Corey Raymond row under '2019 Football Coaching Staff'."
+          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
+          "quote": "Corey Raymond – Cornerbacks",
+          "note": "Roster-footer staff list; Coaching staff table words it 'Cornerbacks coach'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
           "quote": "Corey Raymond",
-          "note": "Name cell of the same row."
-        },
+          "note": "Archived LSU staff directory, Football category, title column 'Defensive Backs Coach' (the 2019 media guide also uses 'Defensive Backs Coach')."
+        }
+      ]
+    },
+    {
+      "name": "Bill Busch",
+      "role": "Safeties",
+      "role_category": "onfield",
+      "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Cornerbacks coach",
-          "note": "Coaching staff table row for Corey Raymond (Wikipedia words it as cornerbacks)."
+          "quote": "Bill Busch – Safeties",
+          "note": "Roster-footer staff list; Coaching staff table words it 'Safeties coach'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Bill Busch",
+          "note": "Archived LSU staff directory, Football category, title column 'Safeties Coach'."
         }
       ]
     },
     {
-      "name": "Dr. Sam Nader",
-      "role": "Assistant Athletics Director - Football",
-      "role_category": "ops",
+      "name": "Greg McMahon",
+      "role": "Special teams coordinator",
+      "role_category": "onfield",
       "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Assistant Athletics Director - Football",
-          "note": "Title cell of the Dr. Sam Nader row under the heading '2019 Football Support Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Dr. Sam Nader",
-          "note": "Name cell of the same row."
-        },
         {
           "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Assistant Athletic Director",
-          "note": "Roster-footer coaching list on the 2019 season page lists Dr. Sam Nader as Assistant Athletic Director - Football."
-        }
-      ]
-    },
-    {
-      "name": "Derek Ponamsky",
-      "role": "Special Asst. to Head Coach",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Special Asst. to Head Coach",
-          "note": "Title cell of the Derek Ponamsky row under '2019 Football Support Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Derek Ponamsky",
-          "note": "Name cell of the same row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Special assistant to the head coach",
-          "note": "Roster-footer coaching list entry for Derek Ponamsky."
-        }
-      ]
-    },
-    {
-      "name": "Jeffery Grigus",
-      "role": "Assistant Director of Operations",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Assistant Director of Operations",
-          "note": "Title cell of the Jeffery Grigus row under '2019 Football Support Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Jeffery Grigus",
-          "note": "Name cell of the same row."
-        }
-      ]
-    },
-    {
-      "name": "Tommy Moffitt",
-      "role": "Assistant AD/Strength and Conditioning",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Assistant AD/Strength and Conditioning",
-          "note": "Title cell of the Tommy Moffitt row under '2019 Football Support Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Tommy Moffitt",
-          "note": "Name cell of the same row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Strength and conditioning coordinator",
-          "note": "Coaching staff table row for Tommy Moffitt."
-        }
-      ]
-    },
-    {
-      "name": "Sharon Lewis",
-      "role": "Assistant AD/Football Recruiting and Alumni Relations",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Assistant AD/Football Recruiting and Alumni Relations",
-          "note": "Title cell of the Sharon Lewis row under '2019 Football Support Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Sharon Lewis",
-          "note": "Name cell of the same row."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Assistant athletic director/football recruiting and alumni relations",
-          "note": "Roster-footer coaching list entry for Sharon Lewis."
-        }
-      ]
-    },
-    {
-      "name": "Keava Soil-Cormier",
-      "role": "Coordinator of Recruiting",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Coordinator of Recruiting",
-          "note": "Title cell of the Keava Soil-Cormier row under '2019 Football Support Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Keava Soil-Cormier",
-          "note": "Name cell of the same row."
-        }
-      ]
-    },
-    {
-      "name": "Forrest Buckner",
-      "role": "Recruiting Creative Coordinator",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Recruiting Creative Coordinator",
-          "note": "Title cell of the Forrest Buckner row under '2019 Football Support Staff'; this title string occurs exactly once on the page."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Forrest Buckner",
-          "note": "Name cell of the same row."
-        }
-      ]
-    },
-    {
-      "name": "Roy Anderson",
-      "role": "Lead Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Lead Analyst",
-          "note": "Title cell of the Roy Anderson row under '2019 Football Support Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Roy Anderson",
-          "note": "Name cell of the same row."
+          "quote": "Greg McMahon – Special teams coordinator",
+          "note": "Roster-footer staff list."
         },
         {
           "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Roy Anderson",
-          "note": "Also listed under the Football department of the LSU athletics staff directory archived Jan 26, 2020, there titled 'Analyst'."
-        }
-      ]
-    },
-    {
-      "name": "Kevin Cosgrove",
-      "role": "Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Kevin Cosgrove",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Analyst'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Analyst",
-          "note": "Title cell text for this row (the string 'Analyst' recurs for the other analysts in the same table)."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Lead defensive analyst",
-          "note": "Roster-footer coaching list entry for Kevin Cosgrove on the 2019 season page."
-        }
-      ]
-    },
-    {
-      "name": "Kevin Coyle",
-      "role": "Sr. Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Sr. Analyst",
-          "note": "Title cell of the Kevin Coyle row under '2019 Football Support Staff'; occurs once on the page."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Kevin Coyle",
-          "note": "Name cell of the same row."
-        }
-      ]
-    },
-    {
-      "name": "Blaine Gautier",
-      "role": "Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Blaine Gautier",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Analyst'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Blaine Gautier",
-          "note": "Also listed under the Football department of the LSU athletics staff directory archived Jan 26, 2020, titled 'Analyst'."
-        }
-      ]
-    },
-    {
-      "name": "Mark Hutson",
-      "role": "Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Mark Hutson",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Analyst'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Mark Hutson",
-          "note": "Also listed under the Football department of the LSU athletics staff directory archived Jan 26, 2020, titled 'Analyst'."
-        }
-      ]
-    },
-    {
-      "name": "Dennis Johnson",
-      "role": "Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Dennis Johnson",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Analyst'."
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Analyst",
-          "note": "Roster-footer coaching list on the 2019 season page lists Dennis Johnson as Analyst."
-        }
-      ]
-    },
-    {
-      "name": "DJ Mangas",
-      "role": "Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "DJ Mangas",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Analyst'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "DJ Mangas",
-          "note": "Also listed under the Football department of the LSU athletics staff directory archived Jan 26, 2020, titled 'Analyst'."
-        }
-      ]
-    },
-    {
-      "name": "August Mangin",
-      "role": "Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "August Mangin",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Analyst'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "August Mangin",
-          "note": "Also listed under the Football department of the LSU athletics staff directory archived Jan 26, 2020, titled 'Analyst'."
-        }
-      ]
-    },
-    {
-      "name": "Jorge Munoz",
-      "role": "Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Jorge Munoz",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Analyst'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Jorge Munoz",
-          "note": "Also listed under the Football department of the LSU athletics staff directory archived Jan 26, 2020, titled 'Analyst'."
-        }
-      ]
-    },
-    {
-      "name": "Aaron Schwanz",
-      "role": "Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Aaron Schwanz",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Analyst'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Aaron Schwanz",
-          "note": "Also listed under the Football department of the LSU athletics staff directory archived Jan 26, 2020, titled 'Analyst'."
-        }
-      ]
-    },
-    {
-      "name": "Tyler Spotts-Orgeron",
-      "role": "Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Tyler Spotts-Orgeron",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Analyst'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Tyler Spotts-Orgeron",
-          "note": "Also listed under the Football department of the LSU athletics staff directory archived Jan 26, 2020, titled 'Analyst'."
-        }
-      ]
-    },
-    {
-      "name": "Kenechi Udeze",
-      "role": "Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Kenechi Udeze",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Analyst'. Present on the Jan 7, 2020 snapshot (pre-title game) but absent from the Jan 26, 2020 athletics directory, suggesting he left shortly after the season."
-        }
-      ]
-    },
-    {
-      "name": "Ronnie Wheat",
-      "role": "Lead Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Ronnie Wheat",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Lead Analyst'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Ronnie Wheat",
-          "note": "Also listed under the Football department of the LSU athletics staff directory archived Jan 26, 2020, there titled 'Analyst'."
-        }
-      ]
-    },
-    {
-      "name": "Caleb Young",
-      "role": "Analyst",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Caleb Young",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Analyst'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Caleb Young",
-          "note": "Also listed under the Football department of the LSU athletics staff directory archived Jan 26, 2020, titled 'Analyst'."
+          "quote": "Greg McMahon",
+          "note": "Archived LSU staff directory, Football category, title column 'Special Teams Coordinator'."
         }
       ]
     },
@@ -632,194 +201,257 @@
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Senior Consultant",
-          "note": "Title cell of the John Robinson row under '2019 Football Support Staff'."
+          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
+          "quote": "John Robinson – Senior Consultant",
+          "note": "Roster-footer staff list; Coaching staff table words it 'Senior consultant'. LSU announced the hire July 1, 2019, before the season."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
           "quote": "John Robinson",
-          "note": "Name cell of the same row."
-        },
+          "note": "Archived LSU staff directory, Football category, title column 'Senior Consultant'."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Cosgrove",
+      "role": "Lead defensive analyst",
+      "role_category": "analyst",
+      "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Senior consultant",
-          "note": "Coaching staff table row for John Robinson."
+          "quote": "Kevin Cosgrove – Lead defensive analyst",
+          "note": "Roster-footer staff list."
+        },
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Kevin Cosgrove",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Kevin Cosgrove / Lead Analyst / - Defense'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Kevin Cosgrove",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'."
         }
       ]
     },
     {
-      "name": "Kevin Faulk",
-      "role": "Director of Player Development",
-      "role_category": "ops",
+      "name": "Dennis Johnson",
+      "role": "Analyst",
+      "role_category": "analyst",
       "sources": [
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Director of Player Development",
-          "note": "Title cell of the Kevin Faulk row under '2019 Football Support Staff'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Kevin Faulk",
-          "note": "Name cell of the same row."
-        },
         {
           "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
-          "quote": "Director, player development",
-          "note": "Roster-footer coaching list entry for Kevin Faulk."
+          "quote": "Dennis Johnson – Analyst",
+          "note": "Roster-footer staff list. The Aug. 2019 media guide still listed him as Defensive Line Coach; he moved to an analyst role when Bill Johnson was hired on Aug. 15, 2019, two weeks before the opener."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Dennis Johnson",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'."
         }
       ]
     },
     {
-      "name": "Jeff Martin",
-      "role": "Lead Player Personnel Analyst",
-      "role_category": "ops",
+      "name": "Roy Anderson",
+      "role": "Lead Analyst - Defense",
+      "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Lead Player Personnel Analyst",
-          "note": "Title cell of the Jeff Martin row under '2019 Football Support Staff'; occurs once on the page."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Roy Anderson",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Roy Anderson / Lead Analyst / - Defense'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Jeff Martin",
-          "note": "Name cell of the same row."
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Roy Anderson",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'."
         }
       ]
     },
     {
-      "name": "David Bowen",
-      "role": "Assistant Director of Player Personnel",
-      "role_category": "ops",
+      "name": "Ronnie Wheat",
+      "role": "Lead Analyst - Defense",
+      "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "David Bowen",
-          "note": "Name cell in the '2019 Football Support Staff' table (rendered with a trailing space in the source markup); the adjacent Title cell reads 'Assistant Director of Player Personnel'."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Ronnie Wheat",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Ronnie Wheat / Lead Analyst / - Defense'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Assistant Director of Player Personnel",
-          "note": "Title cell text for this row (shared with Collin D'Angelo)."
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Ronnie Wheat",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'."
         }
       ]
     },
     {
-      "name": "Collin D'Angelo",
-      "role": "Assistant Director of Player Personnel",
-      "role_category": "ops",
+      "name": "Kevin Coyle",
+      "role": "Senior Analyst - Defense",
+      "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Collin D'Angelo",
-          "note": "Name cell in the '2019 Football Support Staff' table (straight apostrophe in the source); the adjacent Title cell reads 'Assistant Director of Player Personnel'."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Kevin Coyle",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Kevin Coyle / Senior Analyst / - Defense'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Assistant Director of Player Personnel",
-          "note": "Title cell text for this row (shared with David Bowen)."
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Kevin Coyle",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'."
         }
       ]
     },
     {
-      "name": "Charles Baglio",
-      "role": "Coordinator of Football Relations",
-      "role_category": "ops",
+      "name": "August Mangin",
+      "role": "Analyst - Defense",
+      "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Coordinator of Football Relations",
-          "note": "Title cell of the Charles Baglio row under '2019 Football Support Staff'."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "August Mangin",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'August Mangin / Analyst / - Defense'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Charles Baglio",
-          "note": "Name cell of the same row."
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "August Mangin",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'."
         }
       ]
     },
     {
-      "name": "Ya'el Lofton",
-      "role": "Coordinator of Football Operations",
-      "role_category": "ops",
+      "name": "Kenechi Udeze",
+      "role": "Analyst - Defense",
+      "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Coordinator of Football Operations",
-          "note": "Title cell of the Ya'el Lofton row under '2019 Football Support Staff'."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Kenechi Udeze",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Kenechi Udeze / Analyst / - Defense'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Ya'el Lofton",
-          "note": "Name cell of the same row; the source uses a straight apostrophe."
+          "url": "https://en.wikipedia.org/wiki/Kenechi_Udeze",
+          "quote": "In 2019, Udeze was hired as a Defensive Analyst at Louisiana State University, reuniting with his former defensive line coach at USC Ed Orgeron, who is now the head coach at LSU.",
+          "note": "He is absent from the Jan. 26, 2020 LSU directory because he left to become Vanderbilt's linebackers coach on Jan. 21, 2020, eight days after the title game."
         }
       ]
     },
     {
-      "name": "Tamara Davis",
-      "role": "Coordinator of Defensive Operations",
-      "role_category": "ops",
+      "name": "Aaron Schwanz",
+      "role": "Analyst - Special Teams",
+      "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Coordinator of Defensive Operations",
-          "note": "Title cell of the Tamara Davis row under '2019 Football Support Staff'."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Aaron Schwanz",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Aaron Schwanz / Analyst / - Special Teams'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Tamara Davis",
-          "note": "Name cell of the same row."
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Aaron Schwanz",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'."
         }
       ]
     },
     {
-      "name": "Emily Dixon",
-      "role": "Coordinator of Offensive Operations",
-      "role_category": "ops",
+      "name": "Caleb Young",
+      "role": "Analyst",
+      "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Coordinator of Offensive Operations",
-          "note": "Title cell of the Emily Dixon row under '2019 Football Support Staff'."
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Caleb Young",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'. Not in the Aug. 2019 media guide grid; reported to have been promoted from graduate assistant to analyst in July 2019."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Emily Dixon",
-          "note": "Name cell of the same row."
+          "url": "https://247sports.com/college/lsu/LongFormArticle/LSU-Tigers-football-coaching-staff-analysts-graduate-assistants-2020-season-143711807/",
+          "quote": "Young has spent multiple seasons on staff with LSU, working as an analyst on the defensive side.",
+          "note": "247Sports staff breakdown confirming multi-season analyst tenure spanning the 2019 championship season."
         }
       ]
     },
     {
-      "name": "Lois Stuckey",
-      "role": "Administrative Coordinator",
-      "role_category": "ops",
+      "name": "Blaine Gautier",
+      "role": "Analyst - Offense",
+      "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Administrative Coordinator",
-          "note": "Title cell of the Lois Stuckey row under '2019 Football Support Staff'; occurs once on the page."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Blaine Gautier",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Blaine Gautier / Analyst / - Offense'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Stuckey",
-          "note": "Surname portion of the name cell. The source markup renders her name with a double space ('Lois  Stuckey'), so only the surname is quoted to keep the string exact."
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Blaine Gautier",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'."
         }
       ]
     },
     {
-      "name": "Chris Forestier",
-      "role": "Graduate Assistant",
-      "role_category": "gradasst",
+      "name": "Mark Hutson",
+      "role": "Analyst - Offense",
+      "role_category": "analyst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Chris Forestier",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Graduate Assistant'."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Mark Hutson",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Mark Hutson / Analyst / - Offense'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Graduate Assistant",
-          "note": "Title cell text for this row (shared with the other two graduate assistants)."
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Mark Hutson",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'."
+        }
+      ]
+    },
+    {
+      "name": "DJ Mangas",
+      "role": "Analyst - Offense",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "DJ Mangas",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'. The 2019 media guide misspells the surname as 'Mangus' in its Support Staff grid, where the entry reads 'DJ Mangus / Analyst / - Offense'."
+        },
+        {
+          "url": "https://247sports.com/college/lsu/LongFormArticle/LSU-Tigers-football-coaching-staff-analysts-graduate-assistants-2020-season-143711807/",
+          "quote": "DJ Mangas - Analyst (Offense)",
+          "note": "Same article notes he 'joined the staff at the same time as Joe Brady in 2019' and was entering his second season as an offensive analyst in 2020."
+        }
+      ]
+    },
+    {
+      "name": "Jorge Munoz",
+      "role": "Analyst - Offense",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Jorge Munoz",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Jorge Munoz / Analyst / - Offense'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Jorge Munoz",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'."
+        }
+      ]
+    },
+    {
+      "name": "Tyler Spotts-Orgeron",
+      "role": "Analyst - Offense",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Tyler Spotts-Orgeron",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Tyler Spotts-Orgeron / Analyst / - Offense'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Tyler Spotts-Orgeron",
+          "note": "Archived LSU staff directory, Football category, title column 'Analyst'."
         }
       ]
     },
@@ -829,14 +461,14 @@
       "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
           "quote": "Christian LaCouture",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Graduate Assistant'. Former LSU defensive lineman."
+          "note": "Archived LSU staff directory (Jan. 26, 2020), Football category, title column 'Graduate Assistant'. Contemporary reporting has him joining Orgeron's staff as a graduate assistant in January 2019."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Graduate Assistant",
-          "note": "Title cell text for this row."
+          "url": "https://247sports.com/college/lsu/LongFormArticle/LSU-Tigers-football-coaching-staff-analysts-graduate-assistants-2020-season-143711807/",
+          "quote": "works on staff as a graduate assistant with the defense, putting his focus on the defensive line.",
+          "note": "Sentence fragment; the full sentence names him via an inline link ('Another former LSU player, Christian LaCouture, works on staff as a graduate assistant...'), so the quote starts after the link text to stay matchable."
         }
       ]
     },
@@ -846,99 +478,526 @@
       "role_category": "gradasst",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
           "quote": "Alec Osborne",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Graduate Assistant'."
+          "note": "Archived LSU staff directory (Jan. 26, 2020), Football category, title column 'Graduate Assistant'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Graduate Assistant",
-          "note": "Title cell text for this row."
+          "url": "https://247sports.com/college/lsu/LongFormArticle/LSU-Tigers-football-coaching-staff-analysts-graduate-assistants-2020-season-143711807/",
+          "quote": "who has had coaching stops at Northwestern State and McNeese State, works as a graduate assistant on defense, with a focus on linebackers.",
+          "note": "Sentence fragment beginning after the inline link on his name; he was a defensive graduate assistant at LSU 2019-21."
+        }
+      ]
+    },
+    {
+      "name": "Chris Forestier",
+      "role": "Graduate Assistant",
+      "role_category": "gradasst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Chris Forestier",
+          "note": "Archived LSU staff directory (Jan. 26, 2020), Football category, title column 'Graduate Assistant'."
+        },
+        {
+          "url": "https://247sports.com/college/lsu/LongFormArticle/LSU-Tigers-football-coaching-staff-analysts-graduate-assistants-2020-season-143711807/",
+          "quote": "a one-time statistician on LSU's staff, moved into a graduate assistant role on special teams in 2017",
+          "note": "Sentence fragment beginning after the inline link on his name; establishes continuous graduate-assistant tenure from 2017 through the 2019 title season."
+        }
+      ]
+    },
+    {
+      "name": "Tommy Moffitt",
+      "role": "Assistant Athletic Director/Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
+          "quote": "Tommy Moffitt – Assistant athletic director/strength and conditioning",
+          "note": "Roster-footer staff list; the Coaching staff table words it 'Strength and conditioning coordinator'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Tommy Moffitt",
+          "note": "Archived LSU staff directory; listed in BOTH the Football category and the Strength & Conditioning category as 'Assistant AD/Strength and Conditioning'."
+        }
+      ]
+    },
+    {
+      "name": "Vic Viloria",
+      "role": "Sr. Associate Strength & Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Vic Viloria",
+          "note": "2019 media guide football Support Staff page (PDF p. 52 = guide p. 51), entry reads 'Vic Viloria / Sr. Associate Strength & Conditioning Coach'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Vic Viloria",
+          "note": "Archived LSU staff directory, Strength & Conditioning category, title column 'Sr. Associate Strength & Conditioning Coach (FB)' — the (FB) tag marks him as football-assigned."
+        }
+      ]
+    },
+    {
+      "name": "Lance Barilow",
+      "role": "Assistant Strength & Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Lance Barilow",
+          "note": "2019 media guide football Support Staff page (PDF p. 52 = guide p. 51), entry reads 'Lance Barilow / Assistant Strength & Conditioning Coach'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Lance Barilow",
+          "note": "Archived LSU staff directory, Strength & Conditioning category, title column 'Assistant Strength & Conditioning Coach (FB)'."
+        }
+      ]
+    },
+    {
+      "name": "Connor Neighbors",
+      "role": "Assistant Strength & Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Connor Neighbors",
+          "note": "2019 media guide football Support Staff page (PDF p. 52 = guide p. 51), entry reads 'Connor Neighbors / Assistant Strength & Conditioning Coach'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Connor Neighbors",
+          "note": "Archived LSU staff directory, Strength & Conditioning category, title column 'Assistant Strength & Conditioning Coach (FB)'."
+        }
+      ]
+    },
+    {
+      "name": "Jake Riedel",
+      "role": "Assistant Strength & Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Jake Riedel",
+          "note": "2019 media guide football Support Staff page (PDF p. 52 = guide p. 51), entry reads 'Jake Riedel / Assistant Strength & Conditioning Coach'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Jake Riedel",
+          "note": "Archived LSU staff directory, Strength & Conditioning category, title column 'Assistant Strength & Conditioning Coach (FB)'."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Sam Nader",
+      "role": "Assistant AD/Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
+          "quote": "Dr. Sam Nader – Assistant Athletic Director – Football",
+          "note": "Roster-footer staff list."
+        },
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Dr. Sam Nader",
+          "note": "2019 media guide Support Staff bio page (PDF p. 51 = guide p. 50), headed 'Dr. Sam Nader / Assistant AD/Football Operations'; his 45th year with the program in 2019."
+        }
+      ]
+    },
+    {
+      "name": "Sharon Lewis",
+      "role": "Assistant AD/Football Recruiting and Alumni Relations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
+          "quote": "Sharon Lewis – Assistant athletic director/football recruiting and alumni relations",
+          "note": "Roster-footer staff list."
+        },
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Sharon Lewis enters her 18th season with the",
+          "note": "Single extracted line from her 2019 media guide Support Staff bio (PDF p. 51 = guide p. 50), headed 'Sharon Lewis / Assistant AD/Football Recruiting and Alumni Relations'."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Faulk",
+      "role": "Director of Player Development",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
+          "quote": "Kevin Faulk – Director, player development",
+          "note": "Roster-footer staff list."
+        },
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Kevin Faulk, the leading rusher in LSU history",
+          "note": "Single extracted line from his 2019 media guide Support Staff bio (PDF p. 51 = guide p. 50), headed 'Kevin Faulk / Director of Player Development'; second year on the staff."
+        }
+      ]
+    },
+    {
+      "name": "Derek Ponamsky",
+      "role": "Special Assistant to the Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team",
+          "quote": "Derek Ponamsky – Special assistant to the head coach",
+          "note": "Roster-footer staff list."
+        },
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Derek Ponamsky joined the LSU football staff",
+          "note": "Single extracted line from his 2019 media guide Support Staff bio (PDF p. 51 = guide p. 50), headed 'Derek Ponamsky / Special Assistant to the Head Coach'."
+        }
+      ]
+    },
+    {
+      "name": "Charles Baglio",
+      "role": "Director of External Football Relations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Charles Baglio, one of the most successful high",
+          "note": "Single extracted line from his 2019 media guide Support Staff bio (PDF p. 52 = guide p. 51), headed 'Charles Baglio / Director of External Football Relations'; 17th season."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Charles Baglio",
+          "note": "Archived LSU staff directory, Football category, title column 'Coordinator of Football Relations'."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Grigus",
+      "role": "Assistant Director of Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Jeff Grigus enters his second season as assistant",
+          "note": "Single extracted line from his 2019 media guide Support Staff bio (PDF p. 52 = guide p. 51), headed 'Jeff Grigus / Assistant Director of Operations'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Jeffery Grigus",
+          "note": "Archived LSU staff directory, Football category, title column 'Assistant Director of Operations'; the directory spells his first name 'Jeffery'."
+        }
+      ]
+    },
+    {
+      "name": "Ya'el Lofton",
+      "role": "Coordinator of Football Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Ya’el Lofton",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Ya’el Lofton / Coordinator of / Football Operations'. The PDF uses a curly apostrophe (U+2019); the archived staff directory uses a straight apostrophe."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Ya'el Lofton",
+          "note": "Archived LSU staff directory, Football category, title column 'Coordinator of Football Operations'."
+        }
+      ]
+    },
+    {
+      "name": "Tamara Davis",
+      "role": "Coordinator of Defensive Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Tamara Davis",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Tamara Davis / Coordinator of / Defensive Operations'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Tamara Davis",
+          "note": "Archived LSU staff directory, Football category, title column 'Coordinator of Defensive Operations'."
+        }
+      ]
+    },
+    {
+      "name": "Emily Dixon",
+      "role": "Coordinator of Offensive Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Emily Dixon",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Emily Dixon / Coordinator of / Offensive Operations'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Emily Dixon",
+          "note": "Archived LSU staff directory, Football category, title column 'Coordinator of Offensive Operations'."
+        }
+      ]
+    },
+    {
+      "name": "Keava Soil-Cormier",
+      "role": "Coordinator of Recruiting Operations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Keava Soil-Cormier",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Keava Soil-Cormier / Coordinator of / Recruiting Operations'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Keava Soil-Cormier",
+          "note": "Archived LSU staff directory, Football category, title column 'Coordinator of Recruiting'."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Martin",
+      "role": "Director of On-Campus Recruiting",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Jeff Martin",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Jeff Martin / Director of / On-Campus Recruiting'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Jeff Martin",
+          "note": "Archived LSU staff directory, Football category, title column 'Lead Player Personnel Analyst' — retitled between August 2019 and January 2020."
+        }
+      ]
+    },
+    {
+      "name": "Collin D'Angelo",
+      "role": "Assistant Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Collin D’Angelo",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Collin D’Angelo / Assistant Director / of Player Personnel'. The PDF uses a curly apostrophe (U+2019)."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Collin D'Angelo",
+          "note": "Archived LSU staff directory, Football category, title column 'Assistant Director of Player Personnel'; the directory link text uses a straight apostrophe."
+        }
+      ]
+    },
+    {
+      "name": "David Bowen",
+      "role": "Assistant Director of Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "David Bowen",
+          "note": "Archived LSU staff directory (Jan. 26, 2020), Football category, title column 'Assistant Director of Player Personnel'. Not in the Aug. 2019 media guide grid. NB: the directory link text carries a trailing space ('David Bowen ')."
+        },
+        {
+          "url": "https://12thman.com/staff-directory/david-bowen/2184",
+          "quote": "Bowen also was part of the Tigers' national championship team in 2019.",
+          "note": "Texas A&M staff bio, independently confirming he was on the LSU staff for the 2019 championship season."
+        }
+      ]
+    },
+    {
+      "name": "Forrest Buckner",
+      "role": "Recruiting Creative Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Forrest Buckner",
+          "note": "Archived LSU staff directory (Jan. 26, 2020), Football category, title column 'Recruiting Creative Coordinator'. WEAKEST ROW IN THIS DATASET: he is not in the Aug. 2019 media guide and I could not find a second source fixing his start date, so I cannot rule out that he was hired in the 13 days between the title game and this snapshot."
+        }
+      ]
+    },
+    {
+      "name": "Lois Stuckey",
+      "role": "Administrative Coordinator",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Lois Stuckey",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Lois Stuckey / Administrative Coordinator'. Also in the Jan. 26, 2020 archived staff directory under Football as 'Administrative Coordinator', though there the link text contains a double space ('Lois  Stuckey')."
         }
       ]
     },
     {
       "name": "Keith Sanchez",
-      "role": "Intern",
-      "role_category": "other",
+      "role": "Player Personnel Intern",
+      "role_category": "ops",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
           "quote": "Keith Sanchez",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Intern'."
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Keith Sanchez / Player Personnel / Intern'."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Intern",
-          "note": "Title cell text for this row (shared with Dwayne Thomas)."
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Keith Sanchez",
+          "note": "Archived LSU staff directory, Football category, title column 'Intern'."
         }
       ]
     },
     {
       "name": "Dwayne Thomas",
-      "role": "Intern",
+      "role": "Player Personnel Intern",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Dwayne Thomas",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Dwayne Thomas / Player Personnel / Intern'. Former LSU cornerback."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Dwayne Thomas",
+          "note": "Archived LSU staff directory, Football category, title column 'Intern'."
+        }
+      ]
+    },
+    {
+      "name": "Olivia Ohlsen",
+      "role": "Recruiting Intern",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Olivia Ohlsen",
+          "note": "2019 media guide Support Staff grid (PDF p. 54 = guide p. 53), entry reads 'Olivia Ohlsen / Recruiting Intern'. She does not appear in the Jan. 26, 2020 archived directory, so her presence at the title game is documented only by the preseason media guide."
+        }
+      ]
+    },
+    {
+      "name": "Doug Aucoin",
+      "role": "Director of Video",
       "role_category": "other",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Dwayne Thomas",
-          "note": "Name cell in the '2019 Football Support Staff' table; the adjacent Title cell reads 'Intern'."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Doug Aucoin, widely considered one of the most",
+          "note": "Single extracted line from his 2019 media guide Support Staff bio (PDF p. 52 = guide p. 51), headed 'Doug Aucoin / Director of Video'; 23rd season."
         },
         {
-          "url": "https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches",
-          "quote": "Intern",
-          "note": "Title cell text for this row (shared with Keith Sanchez)."
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Doug Aucoin",
+          "note": "Archived LSU staff directory, Team Video Services category, title column 'Director of Video'."
+        }
+      ]
+    },
+    {
+      "name": "Jacob Brown",
+      "role": "Video Coordinator",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Jacob Brown",
+          "note": "2019 media guide football Support Staff page (PDF p. 52 = guide p. 51), entry reads 'Jacob Brown / Video / Coordinator'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Jacob Brown",
+          "note": "Archived LSU staff directory, Team Video Services category, title column 'Video Coordinator'."
+        }
+      ]
+    },
+    {
+      "name": "Jonny Saterfield",
+      "role": "Video Manager",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Jonny Saterfield",
+          "note": "2019 media guide football Support Staff page (PDF p. 52 = guide p. 51), entry reads 'Jonny Saterfield / Video / Manager'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Jonny Saterfield",
+          "note": "Archived LSU staff directory, Team Video Services category, title column 'Video Manager'."
+        }
+      ]
+    },
+    {
+      "name": "Joe Bourg",
+      "role": "Video Intern",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Joe Bourg",
+          "note": "2019 media guide football Support Staff page (PDF p. 52 = guide p. 51), entry reads 'Joe Bourg / Video / Intern'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Joseph Bourg",
+          "note": "Archived LSU staff directory, Team Video Services category, title column 'Video Intern'; the directory uses 'Joseph'."
         }
       ]
     },
     {
       "name": "Jack Marucci",
-      "role": "Director of Athletic Training (FB)",
+      "role": "Director of Athletic Training",
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Director of Athletic Training (FB)",
-          "note": "LSU athletics staff directory archived Jan 26, 2020, 'Athletic Training | Nutrition | Mental Health' department; '(FB)' is LSU's own sport designation for football. Title cell of the Jack Marucci row."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "A leader in the field of athletic training, Jack Marucci",
+          "note": "Single extracted line from his 2019 media guide football Support Staff bio (PDF p. 53 = guide p. 52), headed 'Jack Marucci / Director of Athletic Training'; 24th season."
         },
         {
           "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
           "quote": "Jack Marucci",
-          "note": "Name cell of the same row."
-        }
-      ]
-    },
-    {
-      "name": "Micki Collins",
-      "role": "Director of Athletic Training and Administration (FB)",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Director of Athletic Training and Administration (FB)",
-          "note": "Title cell of the Micki Collins row in the 'Athletic Training | Nutrition | Mental Health' department of the archived LSU athletics staff directory; '(FB)' denotes football."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Micki Collins",
-          "note": "Name cell of the same row."
+          "note": "Archived LSU staff directory, Athletic Training | Nutrition | Mental Health category, title column 'Director of Athletic Training (FB)' — the (FB) tag marks him as football-assigned."
         }
       ]
     },
     {
       "name": "Derek Calvert",
-      "role": "Associate Athletic Trainer (FB)",
+      "role": "Associate Athletic Trainer",
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Associate Athletic Trainer (FB)",
-          "note": "Title cell of the Derek Calvert row in the 'Athletic Training | Nutrition | Mental Health' department; '(FB)' denotes football."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Derek Calvert enters his fourth season as a football",
+          "note": "Single extracted line from his 2019 media guide football Support Staff bio (PDF p. 53 = guide p. 52), headed 'Derek Calvert / Associate Athletic Trainer'."
         },
         {
           "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
           "quote": "Derek Calvert",
-          "note": "Name cell of the same row."
+          "note": "Archived LSU staff directory, title column 'Associate Athletic Trainer (FB)'."
+        }
+      ]
+    },
+    {
+      "name": "Micki Collins",
+      "role": "Associate Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Micki Collins enters her first season as a football",
+          "note": "Single extracted line from her 2019 media guide football Support Staff bio (PDF p. 53 = guide p. 52), headed 'Micki Collins / Associate Athletic Trainer'; 2019 was her first season with football after 18 with women's basketball."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Micki Collins",
+          "note": "Archived LSU staff directory, title column 'Director of Athletic Training and Administration (FB)'."
         }
       ]
     },
@@ -948,85 +1007,156 @@
       "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Director of Football Nutrition",
-          "note": "Title cell of the Zach Bennett row in the 'Athletic Training | Nutrition | Mental Health' department of the archived LSU athletics staff directory."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Zach Bennett joined the LSU nutrition staff in June",
+          "note": "Single extracted line from his 2019 media guide football Support Staff bio (PDF p. 53 = guide p. 52), headed 'Zach Bennett / Director of Football Nutrition'; joined June 2019, before the season."
         },
         {
           "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
           "quote": "Zach Bennett",
-          "note": "Name cell of the same row."
+          "note": "Archived LSU staff directory, title column 'Director of Football Nutrition'."
         }
       ]
     },
     {
-      "name": "Vic Viloria",
-      "role": "Sr. Associate Strength & Conditioning Coach (FB)",
-      "role_category": "sc",
+      "name": "Lauren Marucci",
+      "role": "Assistant Sports Dietician",
+      "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Conditioning Coach (FB)",
-          "note": "Ampersand-free fragment of the Title cell for the Vic Viloria row in the 'Strength & Conditioning' department; the full title reads 'Sr. Associate Strength & Conditioning Coach (FB)' (encoded with &amp; in the page source), and '(FB)' denotes football."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Vic Viloria",
-          "note": "Name cell of the same row."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Lauren Marucci",
+          "note": "2019 media guide football Support Staff page (PDF p. 53 = guide p. 52), entry reads 'Lauren Marucci / Assistant / Sports Dietician'. BORDERLINE: the January 2020 athletics directory lists her department-wide as 'Performance Dietitian' with no sport tag; she is included because LSU printed her on the football media guide's support staff page."
         }
       ]
     },
     {
-      "name": "Lance Barilow",
-      "role": "Assistant Strength & Conditioning Coach (FB)",
-      "role_category": "sc",
+      "name": "Rebecca Moore",
+      "role": "Assistant Sports Dietician",
+      "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Conditioning Coach (FB)",
-          "note": "Ampersand-free fragment of the Title cell for the Lance Barilow row in the 'Strength & Conditioning' department; full title 'Assistant Strength & Conditioning Coach (FB)'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Lance Barilow",
-          "note": "Name cell of the same row."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Rebecca Moore",
+          "note": "2019 media guide football Support Staff page (PDF p. 53 = guide p. 52), entry reads 'Rebecca Moore / Assistant / Sports Dietician'. BORDERLINE: listed department-wide as 'Performance Dietitian' in the January 2020 athletics directory, with no sport tag."
         }
       ]
     },
     {
-      "name": "Connor Neighbors",
-      "role": "Assistant Strength & Conditioning Coach (FB)",
-      "role_category": "sc",
+      "name": "LaKeitha Poole",
+      "role": "Director of Student-Athlete Mental Health",
+      "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Conditioning Coach (FB)",
-          "note": "Ampersand-free fragment of the Title cell for the Connor Neighbors row in the 'Strength & Conditioning' department; full title 'Assistant Strength & Conditioning Coach (FB)'."
-        },
-        {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Connor Neighbors",
-          "note": "Name cell of the same row."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "LaKeitha Poole",
+          "note": "2019 media guide football Support Staff bio (PDF p. 53 = guide p. 52), headed 'LaKeitha Poole / Director of Student-Athlete Mental Health'; fourth season. BORDERLINE: an athletics-department-wide role printed in the football guide's support staff section."
         }
       ]
     },
     {
-      "name": "Jake Riedel",
-      "role": "Assistant Strength & Conditioning Coach (FB)",
-      "role_category": "sc",
+      "name": "Bruce Buggs",
+      "role": "Assistant Director Student-Athlete Mental Health",
+      "role_category": "medical",
       "sources": [
         {
-          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Conditioning Coach (FB)",
-          "note": "Ampersand-free fragment of the Title cell for the Jake Riedel row in the 'Strength & Conditioning' department; full title 'Assistant Strength & Conditioning Coach (FB)'."
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Bruce Buggs",
+          "note": "2019 media guide football Support Staff page (PDF p. 53 = guide p. 52), entry reads 'Bruce Buggs / Assistant Director / Student-Athlete / Mental Health'. BORDERLINE: athletics-department-wide role printed in the football guide."
+        }
+      ]
+    },
+    {
+      "name": "Christine Sotile",
+      "role": "Coordinator Student-Athlete Mental Health",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Christine Sotile",
+          "note": "2019 media guide football Support Staff page (PDF p. 53 = guide p. 52), entry reads 'Christine Sotile / Coordinator / Student-Athlete / Mental Health'. BORDERLINE: athletics-department-wide role printed in the football guide."
+        }
+      ]
+    },
+    {
+      "name": "Nathan Lemoine",
+      "role": "Sports Science Research Associate",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Nathan Lemoine",
+          "note": "2019 media guide football Support Staff page (PDF p. 53 = guide p. 52), entry reads 'Nathan Lemoine / Sports Science / Research Associate'. BORDERLINE: athletics-department-wide role printed in the football guide's support staff section."
+        }
+      ]
+    },
+    {
+      "name": "Greg Stringfellow",
+      "role": "Director of Equipment",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Greg Stringfellow",
+          "note": "2019 media guide football Support Staff bio (PDF p. 54 = guide p. 53), headed 'Greg Stringfellow / Director of Equipment'; 15th season in the role, 27th overall with the Tigers."
         },
         {
           "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
-          "quote": "Jake Riedel",
-          "note": "Name cell of the same row."
+          "quote": "Greg Stringfellow",
+          "note": "Archived LSU staff directory, Equipment Staff category, title column 'Assistant AD/Athletics Equipment'."
+        }
+      ]
+    },
+    {
+      "name": "Eric Cookmeyer",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Eric Cookmeyer",
+          "note": "2019 media guide football Support Staff page (PDF p. 54 = guide p. 53), entry reads 'Eric Cookmeyer / Assistant / Equipment Manager'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Eric Cookmeyer",
+          "note": "Archived LSU staff directory, Equipment Staff category, title column 'Assistant Equipment Manager'."
+        }
+      ]
+    },
+    {
+      "name": "Luke Dudley",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Luke Dudley",
+          "note": "2019 media guide football Support Staff page (PDF p. 54 = guide p. 53), entry reads 'Luke Dudley / Assistant / Equipment Manager'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Luke Dudley",
+          "note": "Archived LSU staff directory, Equipment Staff category, title column 'Assistant Equipment Manager'."
+        }
+      ]
+    },
+    {
+      "name": "Matt Montgomery",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://static.lsusports.net/assets/docs/fb/pdf/19guide.pdf",
+          "quote": "Matt Montgomery",
+          "note": "2019 media guide football Support Staff page (PDF p. 54 = guide p. 53), entry reads 'Matt Montgomery / Assistant / Equipment Manager'."
+        },
+        {
+          "url": "https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory",
+          "quote": "Matt Montgomery",
+          "note": "Archived LSU staff directory, Equipment Staff category, title column 'Director of Equipment - Olympic Sports' — retitled between the Aug. 2019 media guide and the Jan. 2020 snapshot."
         }
       ]
     }
-  ],
-  "coverage_notes": "55 people documented. PRIMARY SOURCE: LSU's own football staff page archived by the Wayback Machine at https://web.archive.org/web/20200107061755/https://lsusports.net/sports/football/coaches — captured January 7, 2020, six days before the January 13, 2020 CFP National Championship win over Clemson, with the season selector on 2019. It carries two headings, \"2019 Football Coaching Staff\" (11 people) and \"2019 Football Support Staff\" (36 people), for 47 total. That is the authoritative, sport-specific roster of staff and everyone on it was in place for the title game.\n\nSECOND SOURCE: the LSU athletics department-wide staff directory archived at https://web.archive.org/web/20200126232710/https://lsusports.net/staff-directory (January 26, 2020) supplies the football-designated medical, nutrition and strength staff that the football page omits. LSU marks sport assignment inline as \"(FB)\", so I included only rows explicitly designated football: Jack Marucci, Micki Collins, Derek Calvert (athletic training), Zach Bennett (Director of Football Nutrition), and Vic Viloria, Lance Barilow, Connor Neighbors, Jake Riedel (strength). That adds 8, for 55.\n\nQUOTE MECHANICS — please read before string-matching: on both LSU pages the person's name and their title live in SEPARATE table cells (an anchor in a <th scope=\"row\"> followed by a <td>), separated only by whitespace and markup. There is therefore NO contiguous \"Name — Title\" string anywhere in the page source. To keep every quote genuinely verbatim I split the evidence into two source entries per person — one quoting the exact Title cell text, one quoting the exact Name cell text — with the pairing explained in each note. Every quote in this dataset was mechanically verified as an exact substring of the actual downloaded HTML of the URL it is attached to. Three deliberate deviations: Lois Stuckey's name is rendered with a double space in the markup (\"Lois  Stuckey\"), so I quoted only \"Stuckey\"; David Bowen's anchor carries a trailing space, so I quoted the trimmed \"David Bowen\", which is still an exact substring; and the four strength titles contain an ampersand encoded as &amp;, so I quoted the ampersand-free fragment \"Conditioning Coach (FB)\" instead of the full title.\n\nWIKIPEDIA: https://en.wikipedia.org/wiki/2019_LSU_Tigers_football_team was checked first and corroborates 19 of these people (11 coaches in its Coaching staff table plus Cosgrove, Dennis Johnson, Moffitt, Nader, Sharon Lewis, Faulk, Ponamsky and John Robinson in the roster-footer list). Its wording sometimes differs from LSU's — Wikipedia calls Corey Raymond \"Cornerbacks coach\" where LSU says \"Defensive Backs Coach,\" and calls Kevin Cosgrove \"Lead defensive analyst\" where LSU says \"Analyst.\" I used LSU's wording for the role field and recorded Wikipedia's as a corroborating quote. Note that Wikipedia's table is stamped \"Current staff as of August 17, 2019\" and lists only 13 people, so it is far less complete than the LSU directory.\n\nWHAT I COULD NOT DOCUMENT:\n- Equipment staff. LSU's directory has an \"Equipment Staff\" department (Greg Stringfellow, Louis Bourgeois, Matt Montgomery, Eric Cookmeyer, Luke Dudley) but, unlike athletic training and strength, it carries NO sport designations. Only Montgomery is marked, as \"Olympic Sports,\" which implies but does not state that others handled football. I excluded all five rather than guess. No equipment person is in this dataset; that is a real gap.\n- Team video staff (Doug Aucoin, Jonny Saterfield, Jacob Brown, Joseph Bourg) are likewise listed department-wide with no sport designation and are excluded for the same reason.\n- Student assistants, recruiting interns and student managers do not appear in either directory and are almost certainly undercounted.\n- MID-SEASON CHANGES: I found no documented in-season arrivals or departures, so no midseason_note is set on any row. Bill Johnson's hiring was reported by The Advocate on August 15, 2019, before the August 31 opener, so he was on staff the whole season. One soft signal worth flagging: analyst Kenechi Udeze appears on the January 7, 2020 football page (pre-title game, so the ring rule is satisfied) but is absent from the January 26, 2020 athletics directory, indicating he departed shortly after the championship. I could not confirm this with a second source because this session's web-search budget was exhausted before I could run news queries.\n- LIMITATION: the season media guide and contemporary hire-announcement articles were not consulted. The web search tool reported its full 200-call session budget already spent on the very first query, so I could not search news coverage or locate the 2019 media guide PDF; all findings above come from direct URL fetches. web.archive.org is also blocked for the WebFetch tool in this environment, so the archived pages were retrieved via scripted HTTP with retry/backoff. A follow-up pass with search available should target the media guide for equipment and video staff sport assignments."
+  ]
 }

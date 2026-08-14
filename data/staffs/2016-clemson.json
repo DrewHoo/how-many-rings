@@ -8,14 +8,19 @@
       "role_category": "headcoach",
       "sources": [
         {
-          "url": "http://web.archive.org/web/20161203182304/http://www.clemsontigers.com/SportSelect.dbml?DB_OEM_ID=28500&SPID=103701&SPSID=657774",
-          "quote": "Dabo Swinney",
-          "note": "Archived clemsontigers.com 'Football Coaching Staff' page, snapshot Dec. 3, 2016. Listed first under the heading 'Football Coaching Staff' with the title 'Head Coach' in the adjacent element."
+          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
+          "quote": "Head Coach",
+          "note": "Wikipedia coaching staff table, row for Dabo Swinney (CU Years: 14th; Alma mater Alabama (1993)). The quote is the exact Position cell text."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "The Tigers were led by head coach Dabo Swinney in his eighth full year and ninth overall",
-          "note": "Lead section of the 2016 season article."
+          "url": "https://web.archive.org/web/20170124023212/http://www.clemsontigers.com/fls/28500/pdf/football/2016-17/ClemsonBowlGuide.pdf?DB_OEM_ID=28500",
+          "quote": "Head Coach Dabo Swinney (Alabama ‘93)",
+          "note": "2016 Fiesta Bowl Guide fact sheet, page 1 (CFP semifinal, Dec. 31, 2016). Note the typographic left single quote in \"‘93\"."
+        },
+        {
+          "url": "https://web.archive.org/web/20161119144422/http://www.clemsontigers.com/SportSelect.dbml?&DB_OEM_ID=28500&SPID=103701&SPSID=657774",
+          "quote": "Football Coaching Staff",
+          "note": "Archived clemsontigers.com football Coaches page captured Nov. 19, 2016; Dabo Swinney is listed first under this heading with the title \"Head Coach\"."
         }
       ]
     },
@@ -25,14 +30,19 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "http://web.archive.org/web/20161203182304/http://www.clemsontigers.com/SportSelect.dbml?DB_OEM_ID=28500&SPID=103701&SPSID=657774",
+          "url": "https://web.archive.org/web/20161119144422/http://www.clemsontigers.com/SportSelect.dbml?&DB_OEM_ID=28500&SPID=103701&SPSID=657774",
           "quote": "Associate Head Coach / Defensive Tackles",
-          "note": "Archived Clemson football coaching-staff page (Dec. 3, 2016); this title string appears directly beneath the name 'Dan Brooks'."
+          "note": "Archived clemsontigers.com football Coaches page (Nov. 19, 2016). This exact string is the title shown directly beneath the name \"Dan Brooks\"."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "Associate head coach / Defensive tackles Coach",
-          "note": "Coaching staff table row for Dan Brooks, 8th year at Clemson."
+          "url": "https://web.archive.org/web/20170124023212/http://www.clemsontigers.com/fls/28500/pdf/football/2016-17/ClemsonBowlGuide.pdf?DB_OEM_ID=28500",
+          "quote": "Dan Brooks Associate Head Coach Defensive Tackles 8th Western Carolina ‘76",
+          "note": "2016 Fiesta Bowl Guide COACHES table (page 6). Quote reproduced from the PDF text layer."
+        },
+        {
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "Defensive tackles coach Dan Brooks got a $95,000 raise and is making $450,000 a year, while tight ends coach Danny Pearman received an $80,000 raise and is making $435,000 annually.",
+          "note": "March 4, 2016 report on Clemson Board of Trustees approval of 2016 football staff salaries."
         }
       ]
     },
@@ -42,14 +52,19 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "http://web.archive.org/web/20161203182304/http://www.clemsontigers.com/SportSelect.dbml?DB_OEM_ID=28500&SPID=103701&SPSID=657774",
-          "quote": "Assistant Head Coach / Special Teams Coordinator",
-          "note": "Archived Clemson coaching-staff page (Dec. 3, 2016). Full printed title is 'Assistant Head Coach / Special Teams Coordinator & Tight Ends'; quote truncated at a word boundary to avoid the HTML-entity ampersand."
+          "url": "https://web.archive.org/web/20161119144422/http://www.clemsontigers.com/SportSelect.dbml?&DB_OEM_ID=28500&SPID=103701&SPSID=657774",
+          "quote": "Assistant Head Coach / Special Teams Coordinator &amp; Tight Ends",
+          "note": "Archived clemsontigers.com football Coaches page (Nov. 19, 2016). Quoted exactly as it appears in the page source; the ampersand is HTML-encoded there and renders as \"Assistant Head Coach / Special Teams Coordinator & Tight Ends\"."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "Assistant Head Coach / special teams coordinator / tight ends coach",
-          "note": "Coaching staff table row for Danny Pearman, 9th year at Clemson."
+          "url": "https://web.archive.org/web/20170124023212/http://www.clemsontigers.com/fls/28500/pdf/football/2016-17/ClemsonBowlGuide.pdf?DB_OEM_ID=28500",
+          "quote": "Danny Pearman Assistant Head Coach, Special Teams Coordinator Tight Ends 9th Clemson ‘87",
+          "note": "2016 Fiesta Bowl Guide COACHES table (page 6)."
+        },
+        {
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "Defensive tackles coach Dan Brooks got a $95,000 raise and is making $450,000 a year, while tight ends coach Danny Pearman received an $80,000 raise and is making $435,000 annually.",
+          "note": "March 4, 2016 salary-approval report; identifies Pearman as tight ends coach for 2016."
         }
       ]
     },
@@ -59,14 +74,19 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "http://web.archive.org/web/20161203182304/http://www.clemsontigers.com/SportSelect.dbml?DB_OEM_ID=28500&SPID=103701&SPSID=657774",
+          "url": "https://web.archive.org/web/20161119144422/http://www.clemsontigers.com/SportSelect.dbml?&DB_OEM_ID=28500&SPID=103701&SPSID=657774",
           "quote": "Defensive Coordinator / Linebackers",
-          "note": "Archived Clemson coaching-staff page (Dec. 3, 2016), title beneath 'Brent Venables'."
+          "note": "Archived clemsontigers.com football Coaches page (Nov. 19, 2016), title shown beneath \"Brent Venables\"."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "Defensive Coordinator / linebackers coach",
-          "note": "Coaching staff table row for Brent Venables, 5th year at Clemson."
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "Defensive coordinator Brent Venables, who received a significant pay raise in 2015 to become one of the highest paid assistant coaches in college football, had is salary increase from $1.35 million to $1.425 million.",
+          "note": "March 4, 2016 salary-approval report. The \"had is\" typo is present in the source and is reproduced verbatim."
+        },
+        {
+          "url": "https://web.archive.org/web/20170124023212/http://www.clemsontigers.com/fls/28500/pdf/football/2016-17/ClemsonBowlGuide.pdf?DB_OEM_ID=28500",
+          "quote": "Brent Venables Assistant Coach, Defensive Coordinator Linebackers 5th Kansas State ‘92",
+          "note": "2016 Fiesta Bowl Guide COACHES table (page 6)."
         }
       ]
     },
@@ -76,14 +96,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "http://web.archive.org/web/20161203182304/http://www.clemsontigers.com/SportSelect.dbml?DB_OEM_ID=28500&SPID=103701&SPSID=657774",
+          "url": "https://web.archive.org/web/20161119144422/http://www.clemsontigers.com/SportSelect.dbml?&DB_OEM_ID=28500&SPID=103701&SPSID=657774",
           "quote": "Co-Defensive Coordinator / Defensive Ends",
-          "note": "Archived Clemson coaching-staff page (Dec. 3, 2016), title beneath 'Marion Hobby'."
+          "note": "Archived clemsontigers.com football Coaches page (Nov. 19, 2016), title beneath \"Marion Hobby\"."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "Co-defensive Coordinator / Defensive Ends Coach",
-          "note": "Coaching staff table row for Marion Hobby, 7th year at Clemson."
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "Co-defensive coordinator and defensive ends coach Marion Hobby received an $85,000 pay raise as he is now making $500,000 a year, while offensive line coach Robbie Caldwell is making $465,000 a year – a $110,000 raise.",
+          "note": "March 4, 2016 salary-approval report. Contains an en dash before \"a $110,000 raise\"."
         }
       ]
     },
@@ -93,14 +113,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "http://web.archive.org/web/20161203182304/http://www.clemsontigers.com/SportSelect.dbml?DB_OEM_ID=28500&SPID=103701&SPSID=657774",
+          "url": "https://web.archive.org/web/20161119144422/http://www.clemsontigers.com/SportSelect.dbml?&DB_OEM_ID=28500&SPID=103701&SPSID=657774",
           "quote": "Co-Offensive Coordinator / Wide Receivers",
-          "note": "Archived Clemson coaching-staff page (Dec. 3, 2016), title beneath 'Jeff Scott'."
+          "note": "Archived clemsontigers.com football Coaches page (Nov. 19, 2016), title beneath \"Jeff Scott\"."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "Co-offensive Coordinator / wide receivers coach",
-          "note": "Coaching staff table row for Jeff Scott, 9th year at Clemson."
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "co-offensive coordinators Jeff Scott and Tony Elliott saw their salaries increase from $400,000 last year to $625,000 this season.",
+          "note": "March 4, 2016 salary-approval report."
         }
       ]
     },
@@ -110,14 +130,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "http://web.archive.org/web/20161203182304/http://www.clemsontigers.com/SportSelect.dbml?DB_OEM_ID=28500&SPID=103701&SPSID=657774",
+          "url": "https://web.archive.org/web/20161119144422/http://www.clemsontigers.com/SportSelect.dbml?&DB_OEM_ID=28500&SPID=103701&SPSID=657774",
           "quote": "Co-Offensive Coordinator / Running Backs",
-          "note": "Archived Clemson coaching-staff page (Dec. 3, 2016), title beneath 'Tony Elliott'."
+          "note": "Archived clemsontigers.com football Coaches page (Nov. 19, 2016), title beneath \"Tony Elliott\"."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "Co-offensive Coordinator / running backs Coach",
-          "note": "Coaching staff table row for Tony Elliott, 6th year at Clemson."
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "co-offensive coordinators Jeff Scott and Tony Elliott saw their salaries increase from $400,000 last year to $625,000 this season.",
+          "note": "March 4, 2016 salary-approval report."
         }
       ]
     },
@@ -127,14 +147,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "http://web.archive.org/web/20161203182304/http://www.clemsontigers.com/SportSelect.dbml?DB_OEM_ID=28500&SPID=103701&SPSID=657774",
+          "url": "https://web.archive.org/web/20161119144422/http://www.clemsontigers.com/SportSelect.dbml?&DB_OEM_ID=28500&SPID=103701&SPSID=657774",
           "quote": "Assistant Coach / Offensive Linemen",
-          "note": "Archived Clemson coaching-staff page (Dec. 3, 2016), title beneath 'Robbie Caldwell'."
+          "note": "Archived clemsontigers.com football Coaches page (Nov. 19, 2016), title beneath \"Robbie Caldwell\"."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "Offensive Linemen Coach",
-          "note": "Coaching staff table row for Robbie Caldwell, 6th year at Clemson."
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "Co-defensive coordinator and defensive ends coach Marion Hobby received an $85,000 pay raise as he is now making $500,000 a year, while offensive line coach Robbie Caldwell is making $465,000 a year – a $110,000 raise.",
+          "note": "March 4, 2016 salary-approval report; identifies Caldwell as offensive line coach for 2016."
         }
       ]
     },
@@ -144,14 +164,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "http://web.archive.org/web/20161203182304/http://www.clemsontigers.com/SportSelect.dbml?DB_OEM_ID=28500&SPID=103701&SPSID=657774",
+          "url": "https://web.archive.org/web/20161119144422/http://www.clemsontigers.com/SportSelect.dbml?&DB_OEM_ID=28500&SPID=103701&SPSID=657774",
           "quote": "Assistant Coach / Defensive Backs",
-          "note": "Archived Clemson coaching-staff page (Dec. 3, 2016), title beneath 'Mike Reed'."
+          "note": "Archived clemsontigers.com football Coaches page (Nov. 19, 2016), title beneath \"Mike Reed\"."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "Defensive backs coach",
-          "note": "Coaching staff table row for Mike Reed, 4th year at Clemson."
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "Mike Reed, who coaches the secondary, received a $90,000 raise and is now making $400,000 a year.",
+          "note": "March 4, 2016 salary-approval report."
         }
       ]
     },
@@ -161,50 +181,14 @@
       "role_category": "onfield",
       "sources": [
         {
-          "url": "http://web.archive.org/web/20161203182304/http://www.clemsontigers.com/SportSelect.dbml?DB_OEM_ID=28500&SPID=103701&SPSID=657774",
+          "url": "https://web.archive.org/web/20161119144422/http://www.clemsontigers.com/SportSelect.dbml?&DB_OEM_ID=28500&SPID=103701&SPSID=657774",
           "quote": "Assistant Coach / Recruiting Coordinator / Quarterbacks",
-          "note": "Archived Clemson coaching-staff page (Dec. 3, 2016), title beneath 'Brandon Streeter'."
+          "note": "Archived clemsontigers.com football Coaches page (Nov. 19, 2016), title beneath \"Brandon Streeter\"."
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "Recruiting coordinator / quarterbacks Coach",
-          "note": "Coaching staff table row for Brandon Streeter, 3rd year at Clemson."
-        }
-      ]
-    },
-    {
-      "name": "Woody McCorvey",
-      "role": "Associate Athletic Director, Football Administration",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide (published July 30, 2016), 'Football Administration' page, printed page 21 (Issuu reader page 23). Headline block reads: WOODY McCORVEY / ASSOCIATE ATHLETIC DIRECTOR / FOOTBALL ADMINISTRATION / 15TH SEASON AT CLEMSON / ALABAMA STATE '72. Quote left empty because this is a flowed Issuu publication whose page text is only recoverable from the reader's binary text layer or from the page image, not as copyable page text."
-        }
-      ]
-    },
-    {
-      "name": "Cameron Aiken",
-      "role": "Offensive Player Development",
-      "role_category": "qc",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 31 (Issuu reader page 33). Header reads: CAMERON AIKEN / OFFENSIVE PLAYER DEVELOPMENT / 2ND SEASON AT CLEMSON / CLEMSON '11. Body text: 'Cameron Aiken is in his second season as an assistant for offensive player development.' Quote empty: Issuu page text is not copyable as rendered page text."
-        }
-      ]
-    },
-    {
-      "name": "Andrew Warwick",
-      "role": "Defensive Player Development",
-      "role_category": "qc",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 33 (Issuu reader page 35). Header reads: ANDREW WARWICK / DEFENSIVE PLAYER DEVELOPMENT / 5TH SEASON AT CLEMSON / KNOX '07. Quote empty: Issuu page text is not copyable as rendered page text."
+          "url": "https://web.archive.org/web/20170124023212/http://www.clemsontigers.com/fls/28500/pdf/football/2016-17/ClemsonBowlGuide.pdf?DB_OEM_ID=28500",
+          "quote": "Brandon Streeter Assistant Coach, Recruiting Coordinator Quarterbacks 3rd Clemson ‘99",
+          "note": "2016 Fiesta Bowl Guide COACHES table (page 6)."
         }
       ]
     },
@@ -215,13 +199,13 @@
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "Swinney hired former Grayson (GA) head coach Mickey Conn as a defensive analyst for the Tigers",
-          "note": "Coaching staff section prose; the staff table lists him as 'Defensive Analyst', 1st year."
+          "quote": "Swinney hired former Grayson (GA) head coach Mickey Conn as a defensive analyst for the Tigers along with former Northwestern (SC) head coach Kyle Richardson, who will serve as the team's offensive analyst.",
+          "note": "Wikipedia \"Coaching staff\" prose section. Clemson's own 2016 media guide words the title as \"SENIOR DEFENSIVE ANALYST\" (Football Support Staff, guide page 31)."
         },
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 31 (Issuu reader page 33). Header reads: MICKEY CONN / SENIOR DEFENSIVE ANALYST / 1ST SEASON AT CLEMSON / ALABAMA '93. Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\" section, guide page 31. Entry reads: MICKEY CONN / SENIOR DEFENSIVE ANALYST / 1ST SEASON AT CLEMSON / ALABAMA '93. Quote left empty because the guide is published only as an image-based Issuu flipbook, so page text cannot be copied faithfully from a fetched page."
         }
       ]
     },
@@ -232,13 +216,13 @@
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "Kyle Richardson, who will serve as the team's offensive analyst",
-          "note": "Coaching staff section prose; staff table lists him as 'Offensive Analyst', 1st year."
+          "quote": "Swinney hired former Grayson (GA) head coach Mickey Conn as a defensive analyst for the Tigers along with former Northwestern (SC) head coach Kyle Richardson, who will serve as the team's offensive analyst.",
+          "note": "Wikipedia \"Coaching staff\" prose section. Clemson's own 2016 media guide words the title as \"SENIOR OFFENSIVE ANALYST\" (Football Support Staff, guide page 33)."
         },
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 33 (Issuu reader page 35). Header reads: KYLE RICHARDSON / SENIOR OFFENSIVE ANALYST / 1ST SEASON AT CLEMSON / APPALACHIAN STATE '01. Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 33. Entry reads: KYLE RICHARDSON / SENIOR OFFENSIVE ANALYST / 1ST SEASON AT CLEMSON / APPALACHIAN STATE '01. Image-based Issuu flipbook, so no copyable page text."
         }
       ]
     },
@@ -250,19 +234,7 @@
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 32 (Issuu reader page 34). Header reads: LEMANSKI HALL / DEFENSIVE ANALYST/RESEARCH DEVELOPMENT / 2ND SEASON AT CLEMSON / ALABAMA '93. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Tyler Grisham",
-      "role": "Offensive Analyst/Research Development",
-      "role_category": "analyst",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 32 (Issuu reader page 34). Header reads: TYLER GRISHAM / OFFENSIVE ANALYST/RESEARCH DEVELOPMENT / 3RD SEASON AT CLEMSON / CLEMSON '09. Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 32. Entry reads: LEMANSKI HALL / DEFENSIVE ANALYST/RESEARCH DEVELOPMENT / 2ND SEASON AT CLEMSON / ALABAMA '93, with bio text \"Lemanski Hall is in his second year as an assistant for defensive analysis and research development.\" Image-based Issuu flipbook, so no copyable page text."
         }
       ]
     },
@@ -274,7 +246,43 @@
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 32 (Issuu reader page 34). Header reads: BRANDON McCOMBS / SPECIAL TEAMS ANALYST/RESEARCH DEVELOPMENT / 7TH SEASON AT CLEMSON / CLEMSON '09. Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 32. Entry reads: BRANDON McCOMBS / SPECIAL TEAMS ANALYST/RESEARCH DEVELOPMENT / 7TH SEASON AT CLEMSON / CLEMSON '09, with bio text \"Brandon McCombs is in his seventh year at Clemson and his fourth under the position of special teams analyst for research development.\" Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Tyler Grisham",
+      "role": "Offensive Analyst/Research Development",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 32. Entry reads: TYLER GRISHAM / OFFENSIVE ANALYST/RESEARCH DEVELOPMENT / 3RD SEASON AT CLEMSON / CLEMSON '09, with bio text \"Tyler Grisham is in his third year as a member of Clemson's staff, his first as an assistant for offensive analysis and research development.\" Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Cameron Aiken",
+      "role": "Offensive Player Development",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 31 (first entry). Reads: CAMERON AIKEN / OFFENSIVE PLAYER DEVELOPMENT / 2ND SEASON AT CLEMSON / CLEMSON '11, with bio text \"Cameron Aiken is in his second season as an assistant for offensive player development.\" Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Andrew Warwick",
+      "role": "Defensive Player Development",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 33. Reads: ANDREW WARWICK / DEFENSIVE PLAYER DEVELOPMENT / 5TH SEASON AT CLEMSON / KNOX '07, with bio text \"Andrew Warwick is in his fifth year with the Clemson football program, including his second year as an assistant for defensive player development.\" Image-based Issuu flipbook, so no copyable page text."
         }
       ]
     },
@@ -286,7 +294,7 @@
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 31 (Issuu reader page 33). Header reads: THOMAS AUSTIN / GRADUATE ASSISTANT / 2ND SEASON AT CLEMSON / CLEMSON '09; body says he is 'in his second season as a graduate assistant coach with the Clemson offense.' Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 31. Reads: THOMAS AUSTIN / GRADUATE ASSISTANT / 2ND SEASON AT CLEMSON / CLEMSON '09, with bio text \"Thomas Austin is in his second season as a graduate assistant coach with the Clemson offense.\" Image-based Issuu flipbook, so no copyable page text."
         }
       ]
     },
@@ -298,7 +306,7 @@
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 31 (Issuu reader page 33). Header reads: DURRELL BARRY / GRADUATE ASSISTANT / 2ND SEASON AT CLEMSON / CLEMSON '09. Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 31. Reads: DURRELL BARRY / GRADUATE ASSISTANT / 2ND SEASON AT CLEMSON / CLEMSON '09, with bio text \"Durrell Barry is in his second season as a graduate assistant coach with the Clemson offense.\" Image-based Issuu flipbook, so no copyable page text."
         }
       ]
     },
@@ -310,7 +318,7 @@
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 32 (Issuu reader page 34). Header reads: DeANDRE McDANIEL / GRADUATE ASSISTANT / 2ND SEASON AT CLEMSON / CLEMSON '10; body says he is 'in his second season as a graduate assistant coach with the Clemson defense.' Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 32. Reads: DeANDRE McDANIEL / GRADUATE ASSISTANT / 2ND SEASON AT CLEMSON / CLEMSON '10, with bio text \"DeAndre McDaniel is in his second season as a graduate assistant coach with the Clemson defense.\" Image-based Issuu flipbook, so no copyable page text."
         }
       ]
     },
@@ -322,180 +330,24 @@
         {
           "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
           "quote": "Graduate assistant",
-          "note": "Coaching staff table, final row: 'Zac Alley | Graduate assistant | 6th | Clemson University (2014)'. Alley is NOT listed in the July 2016 media guide's Football Support Staff section, so Wikipedia is the only source found for him in 2016."
+          "note": "Wikipedia coaching staff table, row for Zac Alley (CU Years: 6th; Clemson University (2014)). The quote is the exact Position cell text. CAUTION: Clemson's own July 2016 media guide lists only Thomas Austin, Durrell Barry and DeAndre McDaniel as graduate assistants, so Alley's exact 2016 title/status is not corroborated by a school source I could locate."
         }
       ]
     },
     {
-      "name": "Joey Batson",
-      "role": "Director of Strength & Conditioning",
-      "role_category": "sc",
+      "name": "Woody McCorvey",
+      "role": "Associate Athletic Director, Football Administration",
+      "role_category": "ops",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
-          "quote": "Director of strength and conditioning",
-          "note": "Coaching staff table row for Joey Batson, 20th year at Clemson."
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL & ADMINISTRATIVE STAFF\" section, guide pages 16-20. The bio card reads: ASSOCIATE ATHLETIC DIRECTOR / FOOTBALL ADMINISTRATION / 15th Season at Clemson / ALABAMA STATE '72 / WOODY McCORVEY. Table of contents line reads \"16-20 Woody McCorvey (Associate AD)\". Image-based Issuu flipbook, so no copyable page text."
         },
         {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Strength & Conditioning', printed page 41 (Issuu reader page 43). Header block reads: JOEY BATSON / DIRECTOR OF STRENGTH & CONDITIONING / 20TH SEASON AT CLEMSON / NEWBERRY '85. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Larry Greenlee",
-      "role": "Assistant Director of Strength & Conditioning",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Strength & Conditioning' page, 'STRENGTH ASSISTANTS' panel, printed page 41 (Issuu reader page 43). Caption reads: LARRY GREENLEE / Assistant Director of Strength & Conditioning. Verified against the page image. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Paul Hogan",
-      "role": "Senior Assistant Football Strength & Conditioning Coach",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'STRENGTH ASSISTANTS' panel, printed page 41 (Issuu reader page 43). Caption reads: PAUL HOGAN / Senior Assistant Football Strength & Conditioning Coach. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Adam Smotherman",
-      "role": "Assistant Football Strength & Conditioning Coach",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'STRENGTH ASSISTANTS' panel, printed page 41 (Issuu reader page 43). Caption reads: ADAM SMOTHERMAN / Assistant Football Strength & Conditioning Coach. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Drew McDuffie",
-      "role": "Graduate Assistant Football Strength & Conditioning Coach",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'STRENGTH ASSISTANTS' panel, printed page 41 (Issuu reader page 43). Caption reads: DREW McDUFFIE / Graduate Assistant Football Strength & Conditioning Coach; the facing text says 'the staff includes graduate assistant Drew McDuffie'. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Mark Estes",
-      "role": "student administrative assistant (strength & conditioning)",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Strength & Conditioning' feature, printed page 40 (Issuu reader page 42): 'In addition, the staff includes graduate assistant Drew McDuffie and five student administrative assistants - Mark Estes, Brennan Goodnature, Pat McNamara, Will Paruta and Steven Wilson.' Student assistant, not full-time staff. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Brennan Goodnature",
-      "role": "student administrative assistant (strength & conditioning)",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, printed page 40 (Issuu reader page 42), same sentence listing the five student administrative assistants in strength & conditioning. Student assistant, not full-time staff. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Pat McNamara",
-      "role": "student administrative assistant (strength & conditioning)",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, printed page 40 (Issuu reader page 42), same sentence listing the five student administrative assistants in strength & conditioning. Student assistant, not full-time staff. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Will Paruta",
-      "role": "student administrative assistant (strength & conditioning)",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, printed page 40 (Issuu reader page 42), same sentence listing the five student administrative assistants in strength & conditioning. Student assistant, not full-time staff. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Steven Wilson",
-      "role": "student administrative assistant (strength & conditioning)",
-      "role_category": "sc",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, printed page 40 (Issuu reader page 42), same sentence listing the five student administrative assistants in strength & conditioning. Student assistant, not full-time staff. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Daniel Bassett",
-      "role": "Director of Football Programs",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 31 (Issuu reader page 33). Header reads: DANIEL BASSETT / DIRECTOR OF FOOTBALL PROGRAMS / 9TH SEASON AT CLEMSON / TENNESSEE '01. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Jeff Davis",
-      "role": "Assistant AD for Player Relations",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 31 (Issuu reader page 33). Header reads: JEFF DAVIS / ASSISTANT AD FOR PLAYER RELATIONS / 13TH SEASON AT CLEMSON / CLEMSON '84. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Mike Dooley",
-      "role": "Director of HS Relations & Player Personnel",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 31 (Issuu reader page 33). Header reads: MIKE DOOLEY / DIRECTOR OF HS RELATIONS & PLAYER PERSONNEL / 12TH SEASON AT CLEMSON / FURMAN '98. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Todd Green",
-      "role": "Director of Football Coaching Technology",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 32 (Issuu reader page 34). Header reads: TODD GREEN / DIRECTOR OF FOOTBALL COACHING TECHNOLOGY / 3RD SEASON AT CLEMSON / TENNESSEE '02. Quote empty: Issuu page text not copyable."
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "It also needs to be noted that strength and conditioning coach Joey Batson received a raise as did football operation directors and staffers Woody McCorvey, Brad Scott, Thad Turnipseed, Mike Dooley, Jeff Davis and Daniel Bassett.",
+          "note": "March 4, 2016 report on Clemson's approved 2016 football staff salaries; McCorvey listed at $270,000."
         }
       ]
     },
@@ -507,7 +359,12 @@
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 33 (Issuu reader page 35). Header reads: BRAD SCOTT / ASSISTANT AD, PLAYER DEVELOPMENT / 18TH SEASON AT CLEMSON / SOUTH FLORIDA '79. Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 33. Reads: BRAD SCOTT / ASSISTANT AD, PLAYER DEVELOPMENT / 18TH SEASON AT CLEMSON / SOUTH FLORIDA '79. Image-based Issuu flipbook, so no copyable page text."
+        },
+        {
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "It also needs to be noted that strength and conditioning coach Joey Batson received a raise as did football operation directors and staffers Woody McCorvey, Brad Scott, Thad Turnipseed, Mike Dooley, Jeff Davis and Daniel Bassett.",
+          "note": "March 4, 2016 salary-approval report; Brad Scott listed at $225,080."
         }
       ]
     },
@@ -519,7 +376,75 @@
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 33 (Issuu reader page 35). Header reads: THAD TURNIPSEED / DIRECTOR OF RECRUITING & EXTERNAL AFFAIRS / 4TH SEASON AT CLEMSON / ALABAMA '95. Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 33. Reads: THAD TURNIPSEED / DIRECTOR OF RECRUITING & EXTERNAL AFFAIRS / 4TH SEASON AT CLEMSON / ALABAMA '95, with bio text \"Thad Turnipseed is in his fourth year as director of recruiting & external affairs.\" Image-based Issuu flipbook, so no copyable page text."
+        },
+        {
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "It also needs to be noted that strength and conditioning coach Joey Batson received a raise as did football operation directors and staffers Woody McCorvey, Brad Scott, Thad Turnipseed, Mike Dooley, Jeff Davis and Daniel Bassett.",
+          "note": "March 4, 2016 salary-approval report; Turnipseed listed at $170,000."
+        }
+      ]
+    },
+    {
+      "name": "Mike Dooley",
+      "role": "Director of HS Relations & Player Personnel",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 31. Reads: MIKE DOOLEY / DIRECTOR OF HS RELATIONS & PLAYER PERSONNEL / 12TH SEASON AT CLEMSON. Image-based Issuu flipbook, so no copyable page text."
+        },
+        {
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "It also needs to be noted that strength and conditioning coach Joey Batson received a raise as did football operation directors and staffers Woody McCorvey, Brad Scott, Thad Turnipseed, Mike Dooley, Jeff Davis and Daniel Bassett.",
+          "note": "March 4, 2016 salary-approval report; Dooley listed at $165,000."
+        }
+      ]
+    },
+    {
+      "name": "Jeff Davis",
+      "role": "Assistant AD for Player Relations",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 31. Reads: JEFF DAVIS / ASSISTANT AD FOR PLAYER RELATIONS / 13TH SEASON AT CLEMSON / CLEMSON '84, with bio text \"Jeff Davis is in his eighth year as assistant athletic director for football player relations within the Clemson football program\". Image-based Issuu flipbook, so no copyable page text."
+        },
+        {
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "It also needs to be noted that strength and conditioning coach Joey Batson received a raise as did football operation directors and staffers Woody McCorvey, Brad Scott, Thad Turnipseed, Mike Dooley, Jeff Davis and Daniel Bassett.",
+          "note": "March 4, 2016 salary-approval report; Davis listed at $155,082."
+        }
+      ]
+    },
+    {
+      "name": "Daniel Bassett",
+      "role": "Director of Football Programs",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 31. Reads: DANIEL BASSETT / DIRECTOR OF FOOTBALL PROGRAMS / 9TH SEASON AT CLEMSON / TENNESSEE '01, with bio text \"Daniel Bassett is in his ninth year as director of football programs.\" Image-based Issuu flipbook, so no copyable page text."
+        },
+        {
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "It also needs to be noted that strength and conditioning coach Joey Batson received a raise as did football operation directors and staffers Woody McCorvey, Brad Scott, Thad Turnipseed, Mike Dooley, Jeff Davis and Daniel Bassett.",
+          "note": "March 4, 2016 salary-approval report; Bassett listed at $86,000."
+        }
+      ]
+    },
+    {
+      "name": "Todd Green",
+      "role": "Director of Football Coaching Technology",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 32. Reads: TODD GREEN / DIRECTOR OF FOOTBALL COACHING TECHNOLOGY / 3RD SEASON AT CLEMSON / TENNESSEE '02, with bio text \"Todd Green is in his third season as Director of Football Coaching Technology. He oversees all aspects of coaching video and the technology associated with its production.\" Image-based Issuu flipbook, so no copyable page text."
         }
       ]
     },
@@ -531,55 +456,7 @@
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: JESSIE CARROLL / Recruiting Operations Coordinator. Verified against the page image. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Beth Douglas",
-      "role": "Assistant to the Head Coach",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: BETH DOUGLAS / Assistant to the Head Coach. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Jennifer Benton",
-      "role": "Administrative Assistant, Defense",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: JENNIFER BENTON / Administrative Assistant, Defense. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Ren Windham",
-      "role": "Administrative Assistant, Offense",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: REN WINDHAM / Administrative Assistant, Offense. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Jill Williams-Wilks",
-      "role": "Administrative Assistant, Administration",
-      "role_category": "ops",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: JILL WILLIAMS-WILKS / Administrative Assistant, Administration. Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34, in the photo-and-title strip of additional support staff: \"JESSIE CARROLL Recruiting Operations Coordinator\". Image-based Issuu flipbook, so no copyable page text."
         }
       ]
     },
@@ -591,7 +468,55 @@
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: JORDAN SORRELLS / Coordinator of Football Recruiting Communications. Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34 strip: \"JORDAN SORRELLS Coordinator of Football Recruiting Communications\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Beth Douglas",
+      "role": "Assistant to the Head Coach",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34 strip: \"BETH DOUGLAS Assistant to the Head Coach\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Jennifer Benton",
+      "role": "Administrative Assistant, Defense",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34 strip: \"JENNIFER BENTON Administrative Assistant, Defense\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Ren Windham",
+      "role": "Administrative Assistant, Offense",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34 strip: \"REN WINDHAM Administrative Assistant, Offense\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Jill Williams-Wilks",
+      "role": "Administrative Assistant, Administration",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34 strip: \"JILL WILLIAMS-WILKS Administrative Assistant, Administration\". Image-based Issuu flipbook, so no copyable page text."
         }
       ]
     },
@@ -603,91 +528,7 @@
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: HENRY GUESS / Assistant Director of Athletic Video Services. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Danny Poole",
-      "role": "Director of Sports Medicine",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 32 (Issuu reader page 34). Header reads: DANNY POOLE / DIRECTOR OF SPORTS MEDICINE / 34TH SEASON AT CLEMSON / WESTERN CAROLINA '79; body notes 'his primary area of emphasis is with the football program.' Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Dr. Larry Bowman",
-      "role": "Team Orthopedic Surgeon",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: DR. LARRY BOWMAN / Team Orthopedic Surgeon. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Dr. Len Reeves",
-      "role": "Team Physician",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: DR. LEN REEVES / Team Physician. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Jeffie Trammell",
-      "role": "Assistant Athletic Trainer",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: JEFFIE TRAMMELL / Assistant Athletic Trainer. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Lisa Chan",
-      "role": "Sports Nutritionist",
-      "role_category": "medical",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: LISA CHAN / Sports Nutritionist. Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "Abe Reed",
-      "role": "Director of Equipment",
-      "role_category": "equipment",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff', printed page 32 (Issuu reader page 34). Header reads: ABE REED / DIRECTOR OF EQUIPMENT / 18TH SEASON AT CLEMSON / HOUSTON '97; body says 'this is his third year as director of equipment for football.' Quote empty: Issuu page text not copyable."
-        }
-      ]
-    },
-    {
-      "name": "D.J. Gordon",
-      "role": "Assistant Football Equipment Manager",
-      "role_category": "equipment",
-      "sources": [
-        {
-          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
-          "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: D.J. GORDON / Assistant Football Equipment Manager. Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34 strip: \"HENRY GUESS Assistant Director of Athletic Video Services\". Image-based Issuu flipbook, so no copyable page text."
         }
       ]
     },
@@ -699,10 +540,313 @@
         {
           "url": "https://issuu.com/clemsontigers/docs/2016_guide",
           "quote": "",
-          "note": "2016 Clemson Football Media Guide, 'Football Support Staff' photo directory, printed page 34 (Issuu reader page 36). Caption reads: REGGIE PLEASANT / Team Advisor. Quote empty: Issuu page text not copyable."
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34: \"REGGIE PLEASANT Team Advisor\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Joey Batson",
+      "role": "Director of Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
+          "quote": "Director of strength and conditioning",
+          "note": "Wikipedia coaching staff table, row for Joey Batson (CU Years: 20th; Newberry College (1981)). Quote is the exact Position cell text."
+        },
+        {
+          "url": "https://theclemsoninsider.com/2016/03/04/football-coaches-salaries-up-1-085-million/",
+          "quote": "It also needs to be noted that strength and conditioning coach Joey Batson received a raise as did football operation directors and staffers Woody McCorvey, Brad Scott, Thad Turnipseed, Mike Dooley, Jeff Davis and Daniel Bassett.",
+          "note": "March 4, 2016 salary-approval report; Batson listed at $360,000."
+        },
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"STRENGTH & CONDITIONING\" section, guide pages 40-41. Card reads: JOEY BATSON / DIRECTOR OF STRENGTH & CONDITIONING / 20th Season at Clemson / NEWBERRY '85; body text calls him \"Director of Football Strength & Conditioning Joey Batson, who is in his 20th season at Clemson\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Larry Greenlee",
+      "role": "Assistant Director of Strength & Conditioning",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"STRENGTH & CONDITIONING\" section, guide page 41 staff cards (LARRY GREENLEE / Assistant Director of Strength & Conditioning). Corroborated inside the same guide by the player bio of his son D.J. Greenlee: \"His father, Larry, is Clemson's assistant director of strength & conditioning\". Also named in body text: \"Batson has an extensive staff of strength & conditioning assistants — veteran strength coaches Larry Greenlee, Paul Hogan and Adam Smotherman.\" Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Paul Hogan",
+      "role": "Senior Assistant Football Strength & Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"STRENGTH & CONDITIONING\", guide page 41 staff cards (PAUL HOGAN / Senior Assistant Football Strength & Conditioning Coach). Also named in body text: \"veteran strength coaches Larry Greenlee, Paul Hogan and Adam Smotherman\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Adam Smotherman",
+      "role": "Assistant Football Strength & Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"STRENGTH & CONDITIONING\", guide page 41 staff cards (ADAM SMOTHERMAN / Assistant Football Strength & Conditioning Coach). Also named in body text: \"veteran strength coaches Larry Greenlee, Paul Hogan and Adam Smotherman\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Drew McDuffie",
+      "role": "Graduate Assistant Football Strength & Conditioning Coach",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"STRENGTH & CONDITIONING\", guide page 41 staff cards (DREW McDUFFIE / Graduate Assistant Football Strength & Conditioning Coach) and body text \"the staff includes graduate assistant Drew McDuffie\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Mark Estes",
+      "role": "student administrative assistant (strength & conditioning)",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"STRENGTH & CONDITIONING\", guide page 40 body text: \"In addition, the staff includes graduate assistant Drew McDuffie and five student administrative assistants — Mark Estes, Brennan Goodnature, Pat McNamara, Will Paruta and Steven Wilson.\" Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Brennan Goodnature",
+      "role": "student administrative assistant (strength & conditioning)",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"STRENGTH & CONDITIONING\", guide page 40 body text: \"In addition, the staff includes graduate assistant Drew McDuffie and five student administrative assistants — Mark Estes, Brennan Goodnature, Pat McNamara, Will Paruta and Steven Wilson.\" Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Pat McNamara",
+      "role": "student administrative assistant (strength & conditioning)",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"STRENGTH & CONDITIONING\", guide page 40 body text: \"In addition, the staff includes graduate assistant Drew McDuffie and five student administrative assistants — Mark Estes, Brennan Goodnature, Pat McNamara, Will Paruta and Steven Wilson.\" Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Will Paruta",
+      "role": "student administrative assistant (strength & conditioning)",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"STRENGTH & CONDITIONING\", guide page 40 body text: \"In addition, the staff includes graduate assistant Drew McDuffie and five student administrative assistants — Mark Estes, Brennan Goodnature, Pat McNamara, Will Paruta and Steven Wilson.\" Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Steven Wilson",
+      "role": "student administrative assistant (strength & conditioning)",
+      "role_category": "sc",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"STRENGTH & CONDITIONING\", guide page 40 body text: \"In addition, the staff includes graduate assistant Drew McDuffie and five student administrative assistants — Mark Estes, Brennan Goodnature, Pat McNamara, Will Paruta and Steven Wilson.\" Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Danny Poole",
+      "role": "Director of Sports Medicine",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 32. Reads: DANNY POOLE / DIRECTOR OF SPORTS MEDICINE / 34TH SEASON AT CLEMSON / WESTERN CAROLINA '79, with bio text \"He supervises the athletic training needs of all student-athletes, but his primary area of emphasis is with the football program.\" Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Jeffie Trammell",
+      "role": "Assistant Athletic Trainer",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34 strip: \"JEFFIE TRAMMELL Assistant Athletic Trainer\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Larry Bowman",
+      "role": "Team Orthopedic Surgeon",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34 strip: \"DR. LARRY BOWMAN Team Orthopedic Surgeon\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Len Reeves",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34 strip: \"DR. LEN REEVES Team Physician\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Lisa Chan",
+      "role": "Sports Nutritionist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34 strip: \"LISA CHAN Sports Nutritionist\". Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Abe Reed",
+      "role": "Director of Equipment",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 32. Reads: ABE REED / DIRECTOR OF EQUIPMENT / 18TH SEASON AT CLEMSON / HOUSTON '97, with bio text \"this is his third year as director of equipment for football.\" Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "D.J. Gordon",
+      "role": "Assistant Football Equipment Manager",
+      "role_category": "equipment",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\", guide page 34 strip: \"D.J. GORDON Assistant Football Equipment Manager\". NOTE: the same guide's Media Information page also lists a \"D.J. GORDON Coordinator of Creative Services\" in the athletic communications staff; the guide does not clarify whether these are the same person. Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Matt Lombardi",
+      "role": "Director of Football Academic Services",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"VICKERY FOOTBALL STAFF\" panel (Vickery Hall section, guide page 36-37). Names listed are Steve Duzan, Matt Lombardi, Luke Fieser and Chris Roberts against the titles Associate Athletic Director, Athletic Academic Services / Director of Football Academic Services / Associate Director of Football Academic Services / Associate Director of Football Academic Services. Name-to-title pairing is inferred from the panel's column layout. Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Luke Fieser",
+      "role": "Associate Director of Football Academic Services",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"VICKERY FOOTBALL STAFF\" panel (guide page 36-37). Name-to-title pairing inferred from the panel's column layout; see Matt Lombardi note. Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Chris Roberts",
+      "role": "Associate Director of Football Academic Services",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"VICKERY FOOTBALL STAFF\" panel (guide page 36-37). Name-to-title pairing inferred from the panel's column layout; see Matt Lombardi note. Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Steve Duzan",
+      "role": "Associate Athletic Director, Athletic Academic Services",
+      "role_category": "ops",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, Vickery Hall section (guide page 36-37), listed in the \"VICKERY FOOTBALL STAFF\" panel and named in the body text: \"Under the direction of the associate athletic director for athletic academic services, Steve Duzan, the staff guides and encourages each individual...\". This is a department-wide academic-services role, not football-only. Image-based Issuu flipbook, so no copyable page text."
+        }
+      ]
+    },
+    {
+      "name": "Tim Bourret",
+      "role": "Director of Football Communications",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, Media Information page: \"TIM BOURRET Director of Football Communications Email - btimoth@clemson.edu\"; the guide's credits also read \"The 2016 Clemson Football Media Guide was written and edited by Director of Football Communications\". Image-based Issuu flipbook, so no copyable page text."
+        },
+        {
+          "url": "https://web.archive.org/web/20170124023212/http://www.clemsontigers.com/fls/28500/pdf/football/2016-17/ClemsonBowlGuide.pdf?DB_OEM_ID=28500",
+          "quote": "Primary Football Contact Tim Bourret (Notre Dame ‘77)",
+          "note": "2016 Fiesta Bowl Guide fact sheet, page 1."
+        }
+      ]
+    },
+    {
+      "name": "Philip Sikes",
+      "role": "Associate ACD, Secondary Football",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20170124023212/http://www.clemsontigers.com/fls/28500/pdf/football/2016-17/ClemsonBowlGuide.pdf?DB_OEM_ID=28500",
+          "quote": "Secondary Football Contact Philip Sikes (Clemson ‘02)",
+          "note": "2016 Fiesta Bowl Guide fact sheet, page 1. The 2016 media guide's Media Information page words his title as \"PHILIP SIKES Associate ACD, Secondary Football\"."
+        }
+      ]
+    },
+    {
+      "name": "Don Munson",
+      "role": "Director of Broadcasting",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://issuu.com/clemsontigers/docs/2016_guide",
+          "quote": "",
+          "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\" section, guide page 34. Card reads: DIRECTOR OF BROADCASTING / 7th Season at Clemson / appalachian state '84 / DON MUNSON, with bio text \"Munson is in his seventh year with the Clemson athletic department in a full-time capacity and his third year as director of broadcasting.\" He is the radio play-by-play voice rather than a football-employed staffer, but Clemson prints him inside the football support staff section. Image-based Issuu flipbook, so no copyable page text."
         }
       ]
     }
   ],
-  "coverage_notes": "SOURCES ACTUALLY USED\n1) Wikipedia, 2016 Clemson Tigers football team — infobox + \"Coaching staff\" table (14 names). All quotes from it are HTML-page verbatim.\n2) Wayback Machine capture of the official athletics site's football COACHES page: http://web.archive.org/web/20161203182304/http://www.clemsontigers.com/SportSelect.dbml?DB_OEM_ID=28500&SPID=103701&SPSID=657774 (snapshot Dec. 3, 2016 — i.e., after the ACC Championship and about five weeks before the Jan. 9, 2017 title game). Lists exactly the 10 on-field coaches with their titles. Quotes are verbatim HTML text.\n3) 2016 Clemson Football Media Guide, https://issuu.com/clemsontigers/docs/2016_guide (published July 30, 2016; 212 pages). Sections used: \"Football Administration\" (p. 21), \"Football Support Staff\" (pp. 31-34) and \"Strength & Conditioning\" (pp. 40-41). This supplied all 42 non-on-field names.\n4) Corroboration only (not cited per person): the archived 2016 Fiesta Bowl Guide PDF, http://web.archive.org/web/20170124023212/http://www.clemsontigers.com/fls/28500/pdf/football/2016-17/ClemsonBowlGuide.pdf?DB_OEM_ID=28500 — its COACHES table (p. 7) lists the same 10 on-field coaches with the same titles as of the postseason, confirming no on-field turnover between the media guide, the December site capture, and the playoff.\n\nWHY MANY QUOTES ARE EMPTY\nThe media guide exists only as an Issuu publication; no PDF copy of it survives on clemsontigers.com or in the Wayback Machine (I enumerated every archived clemsontigers.com PDF for 2016-17 — only the bowl guide, a stats package, a fan guide and a parking map). Issuu's reader page contains no page text in its HTML; the text is served as a separate binary layer. I recovered the text from that layer AND visually verified every name/title against the rendered page images (reader pages 23, 33, 34, 35, 36, 42, 43) before recording it. Because none of that text can be string-matched against a fetched Issuu URL, those rows follow the instruction to set quote to \"\" and explain here. Every media-guide row was read off the page image, so the names and titles are exact; only the mechanical match is unavailable.\n\nKNOWN GAPS AND CAVEATS\n- Timing mismatch for support staff: the media guide is a July 2016 snapshot. I could not find any archived staff listing from December 2016/January 2017 for the non-coaching staff (the site's athletics staff-directory article, ATCLID=205504944, is archived but its body content is empty in every snapshot I tried: Sep 2016, Oct 2016, Dec 2016, Feb 2017). So for the 42 support-staff rows I can document \"on staff for the 2016 season\" but not independently confirm presence at the championship game. No midseason_note is set on anyone because I found no documented arrival or departure during the season.\n- Zac Alley is the one name taken solely from Wikipedia; he does not appear in the media guide's Football Support Staff section, and I could not corroborate his 2016 role elsewhere. Treat that row as lower confidence.\n- Deliberately excluded as athletics-department rather than football-team staff, though they appear in the same media guide: Don Munson (Director of Broadcasting, Clemson Tiger Sports Network, printed p. 34) and the Athletic Communications staff on printed p. 8 — Joe Galbraith (Assistant AD, Director), Tim Bourret (Director of Football Communications), Jonathan Gantt (Director, New & Creative Media), Sam Blackman, Brian Hennessy, Libby Kehn, Philip Sikes (Associate ACD, Secondary Football), Jeff Kallin, Nik Conklin and D.J. Gordon (Coordinator of Creative Services — a different D.J. Gordon entry from the equipment manager listed above). Tim Bourret and Philip Sikes are football-designated and could reasonably be added if the dataset counts communications staff.\n- Role_category judgment calls: Cameron Aiken and Andrew Warwick carry \"player development\" titles and are filed as qc rather than analyst; the five S&C student administrative assistants (Estes, Goodnature, McNamara, Paruta, Wilson) are filed as sc but are students named in prose, not full-time staff, and may warrant exclusion.\n- Web search was unavailable for this run (session search budget exhausted before I started), so I could not sweep contemporary news articles for additional hires, interim staff, or student/volunteer assistants beyond what the three primary sources document. Nothing in this list is inferred: every row traces to one of the sources above."
+  "coverage_notes": "SOURCES USED. (1) Wikipedia 2016 team page — 14-row coaching staff table plus a prose paragraph on the Conn/Richardson hires; role cell strings are literal and quotable. (2) The archived clemsontigers.com football \"Coaches\" page, captured Nov. 19, 2016 (https://web.archive.org/web/20161119144422/http://www.clemsontigers.com/SportSelect.dbml?&DB_OEM_ID=28500&SPID=103701&SPSID=657774) — the 10 on-field coaches with official in-season titles. Locating this required tracing Clemson's 2016 CBS-Interactive .dbml URL scheme (football = SPID 103701 / SPSID 657769); the generic /staff-directory URL only has 2018+ captures, and Wayback's query-string collapsing sends naive requests to the Diving page instead. (3) The 2016-17 Clemson Bowl Guide PDF (2016 Fiesta Bowl / CFP semifinal), recovered from Wayback at .../fls/28500/pdf/football/2016-17/ClemsonBowlGuide.pdf — real text layer, so quotes there are contiguous name+title lines. (4) The 2016 Clemson Football Media Guide (published 2016-07-30) on Issuu — this is the only source that enumerates the full support staff, and it is where 40+ of these rows come from. (5) The Clemson Insider's March 4, 2016 report on the Board of Trustees' approved football salaries, which independently names Batson, McCorvey, Brad Scott, Turnipseed, Dooley, Davis and Bassett in one sentence.\n\nQUOTE LIMITATIONS. The 2016 media guide exists publicly only as an image-based Issuu flipbook — no PDF with a text layer is available on clemsontigers.com, open.clemson.edu (their collection stops at 2015) or scmemory.org. I read it by parsing Issuu's protobuf text layer (layers.isu.pub/5943634a90b325e7b81b67d7fca15465/160730232027/text_v0/text_info.bin), which round-trips with hyphenation and column-order artifacts. Because that text cannot be reproduced faithfully from a fetch of the cited URL, every media-guide-only row carries quote:\"\" with the exact printed wording and guide page number in the note, per instructions. Rows that also appear in the Clemson Insider article or the Bowl Guide carry a real verbatim quote as a second source.\n\nKNOWN GAPS AND CAUTIONS. (a) No staff directory snapshot exists from the championship date itself (Jan. 9, 2017); the support-staff roster is as of July 2016 and the on-field roster as of Nov. 2016, so any mid-season support-staff arrival or departure would be invisible to me. I found no evidence of any such change, and no midseason_note is set on any row. (b) Zac Alley is included solely on Wikipedia's authority; Clemson's own July 2016 guide names only Austin, Barry and McDaniel as graduate assistants, so his 2016 title is not school-corroborated. (c) The Vickery Hall academic block (Duzan, Lombardi, Fieser, Roberts) prints names in one column and titles in another; my name-to-title pairing is inferred from that layout and could be transposed between Fieser and Roberts, who share a title anyway. (d) The guide lists a \"D.J. Gordon\" as Assistant Football Equipment Manager on the support-staff page and a \"D.J. Gordon, Coordinator of Creative Services\" in athletic communications; I could not determine whether these are one person or two. (e) I deliberately EXCLUDED department-wide athletic communications staff who are not football-specific (Joe Galbraith, Jonathan Gantt, Sam Blackman, Brian Hennessy, Libby Kehn, Jeff Kallin, Nik Conklin) even though they appear in the guide's media information page and Blackman/Hennessy are credited in the bowl guide — they are athletics-department employees, not football staff. Tim Bourret, Philip Sikes and Don Munson ARE included because Clemson prints them with explicitly football-designated titles or inside the football support staff section; treat them as judgment calls for ring purposes. (f) Student managers, video interns and undergraduate football student assistants outside the five named strength-and-conditioning student administrative assistants are not enumerated anywhere I could find. (g) Head athletic trainer coverage may be incomplete: the guide names only Danny Poole and Jeffie Trammell on the training side for football, and no full sports-medicine roster for football was published. (h) Nothing here is inferred from general knowledge — every one of the 60 rows traces to one of the five sources above."
 }
