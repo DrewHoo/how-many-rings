@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Curio example — editorial "warm paper" identity. The chrome stays quiet so
+   the twelve team colors carry the page. Swap in self-hosted Fraunces/Inter per
+   references/meta-and-assets.md for the full type treatment; a refined system
+   stack keeps this example zero-dependency. */
+:root {
+  --bg: #f5f2ec;
+  --card: #fffdf8;
+  --ink: #1b1712;
+  --muted: #6c6357;
+  --faint: #8a8175;
+  --line: #e7e0d4;
+  --accent: #1f6f57;
+
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Palatino", Georgia, serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Categorical, reasonably colorblind-aware line palette (rank-ordered). */
+  --chart-1: #d8a200;  /* Brazil — iconic yellow, reads on top */
+  --chart-2: #4c78a8;
+  --chart-3: #e4572e;
+  --chart-4: #3f9668;
+  --chart-5: #b279a2;
+  --chart-6: #2aa3b8;
+  --chart-7: #c9902a;
+  --chart-8: #e8869b;
+  --chart-9: #8a6d55;
+  --chart-10: #7a71c4;
+  --chart-11: #5aa469;
+  --chart-12: #9aa0a6;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.01em; }
+
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* Recharts touch niceties: let vertical scroll through, capture horizontal. */
+.recharts-wrapper, .recharts-surface { touch-action: pan-y; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
