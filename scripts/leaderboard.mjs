@@ -40,12 +40,17 @@ const rows = [...people.values()]
   .filter((p) => (includeHC ? p.total : p.asAssistant) >= min)
   .sort((a, b) => b.asAssistant - a.asAssistant || b.total - a.total)
 
-for (const p of rows) {
-  const flag = p.rings.some((r) => r.flagged) ? ' *' : ''
-  const hc = p.total !== p.asAssistant ? ` (+${p.total - p.asAssistant} as HC)` : ''
-  console.log(
-    `${String(p.asAssistant).padStart(2)}${flag} ${p.display}${hc} — ${p.schools.join(', ')} — ` +
-    p.rings.map((r) => `${r.season} ${r.team} [${r.role_category}]`).join('; ')
-  )
+if (process.argv.includes('--json')) {
+  const top = process.argv.includes('--top') ? Number(process.argv[process.argv.indexOf('--top') + 1]) : rows.length
+  console.log(JSON.stringify(rows.slice(0, top), null, 2))
+} else {
+  for (const p of rows) {
+    const flag = p.rings.some((r) => r.flagged) ? ' *' : ''
+    const hc = p.total !== p.asAssistant ? ` (+${p.total - p.asAssistant} as HC)` : ''
+    console.log(
+      `${String(p.asAssistant).padStart(2)}${flag} ${p.display}${hc} — ${p.schools.join(', ')} — ` +
+      p.rings.map((r) => `${r.season} ${r.team} [${r.role_category}]`).join('; ')
+    )
+  }
+  console.error(`\n${rows.length} people with ${min}+ non-HC rings; * = has a midseason/role note to review`)
 }
-console.error(`\n${rows.length} people with ${min}+ non-HC rings; * = has a midseason/role note to review`)
