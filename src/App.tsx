@@ -32,6 +32,14 @@ export function App() {
   const [tip, setTip] = useState<{ ring: Ring; x: number; y: number } | null>(null)
 
   useEffect(() => {
+    if (!tip) return
+    const clear = () => setTip(null)
+    window.addEventListener('scroll', clear, { passive: true })
+    window.addEventListener('blur', clear)
+    return () => { window.removeEventListener('scroll', clear); window.removeEventListener('blur', clear) }
+  }, [tip])
+
+  useEffect(() => {
     fetch(`${BASE}data/rings.json`)
       .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
       .then(setData)
@@ -85,7 +93,9 @@ export function App() {
         {scope === 'all' ? ' have 2 or more rings.' : ' qualify — each still shown with every ring they own.'}
       </p>
 
-      <ol className="rows">
+      {/* A tooltip anchored to a small mark can outlive its pointer — scrolling,
+          tabbing away, or a fast exit never fires the circle's leave handler. */}
+      <ol className="rows" onPointerLeave={() => setTip(null)}>
         {ranked.slice(0, 100).map((c, i) => (
           <CoachRow key={c.id} coach={c} rank={i + 1} scope={scope as Scope} count={c.total}
             expanded={open === c.id}
