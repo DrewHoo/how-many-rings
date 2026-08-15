@@ -1,6 +1,6 @@
-# How Many Rings?
+# Who has the most rings in Division I football?
 
-**Which college football assistant coaches have the most national championship rings?**
+**Which college football staffers have the most national championship rings?**
 
 Head coaches get the statues. But an assistant who rides shotgun on multiple dynasties can quietly out-ring almost everyone — Scott Cochran followed Nick Saban from LSU to Alabama, then followed Kirby Smart to Georgia, collecting rings at every stop. This site counts every ring on every championship staff and ranks the assistants.
 

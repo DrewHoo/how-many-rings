@@ -785,9 +785,13 @@
   "thad-turnipseed": {
     "name": "Thad Turnipseed",
     "group": "leaderboard",
-    "status": "missing",
-    "reason": "rejected: og:image fell back to the clemsontigers.com site logo, not a photo of him",
-    "file": "thad-turnipseed.svg"
+    "status": "ok",
+    "file": "thad-turnipseed.jpg",
+    "locked": true,
+    "sourceKind": "news",
+    "license": "TigerNet photo (copyrighted)",
+    "sourcePage": "https://www.tigernet.com/clemson-football/story/the-thad-turnipseed-files-13548",
+    "note": "TigerNet press-conference photo, cropped to portrait. Replaces an earlier file that was the clemsontigers.com site logo served as an og:image fallback."
   },
   "joe-pendry": {
     "name": "Joe Pendry",
@@ -2047,10 +2051,14 @@
   },
   "roots-woodruff": {
     "name": "Roots Woodruff",
-    "group": "counterexample",
-    "status": "missing",
-    "reason": "no matching article",
-    "file": "roots-woodruff.svg"
+    "group": "leaderboard",
+    "status": "ok",
+    "file": "roots-woodruff.jpg",
+    "locked": true,
+    "sourceKind": "news",
+    "license": "College Sports Communicators photo (copyrighted)",
+    "sourcePage": "https://collegesportscommunicators.com/news/2023/2/22/special-awards-csc-recognizes-2023-lifetime-achievement-award-recipients-and-25-year-award-winners.aspx",
+    "note": "CSC 2023 Lifetime Achievement Award headshot, recovered via the Wayback Machine after the origin path 404d. 32 years in Alabama athletics communications; the award citation credits him with seven national championship football teams, matching this dataset."
   },
   "jon-dever": {
     "name": "Jon Dever",

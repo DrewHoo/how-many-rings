@@ -68,11 +68,17 @@ export function App() {
   return (
     <main className="wrap">
       <header className="head">
-        <h1>How Many Rings?</h1>
+        <h1>Who has the most rings in Division I football?</h1>
         <p className="lede">
-          Head coaches get the statues. But an assistant who rides shotgun on a dynasty — and then
-          follows it somewhere else — can quietly out-ring almost everyone in the sport.
-          Here is every person on a national-championship staff since 1990, ranked by rings.
+          Coach Saban has seven rings. But you might be surprised to learn that Scott Cochran,
+          who ran his weight room, has eight! I had an agent (really a whole mess of agents)
+          systematically research and answer the question “who has the most rings?” for
+          Division I football.
+        </p>
+        <p className="lede lede-note">
+          Note that I’m not certain that every single person literally possesses a championship
+          ring for each year (there are department policies and complicated reasons why they may
+          or may not have a physical ring), but I am saying that if they did, they deserve them!
         </p>
       </header>
 
@@ -93,8 +99,6 @@ export function App() {
         {scope === 'all' ? ' have 2 or more rings.' : ' qualify — each still shown with every ring they own.'}
       </p>
 
-      {/* A tooltip anchored to a small mark can outlive its pointer — scrolling,
-          tabbing away, or a fast exit never fires the circle's leave handler. */}
       {/* The tooltip belongs to a ring, so it lives exactly as long as the pointer
           is on one. Watching the list rather than each circle survives the case
           that broke it before: clicking a ring expands the row, unmounting the

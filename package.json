@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "How Many Rings? — ranking college football assistant coaches by national championship rings, with citations.",
+  "description": "Who has the most rings in Division I football? \u2014 ranking college football championship staff by rings, with citations.",
   "scripts": {
     "fetch": "node scripts/build-site-data.mjs",
     "dev": "vite",
