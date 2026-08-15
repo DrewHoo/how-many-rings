@@ -64,3 +64,24 @@ for (const s of suspects.sort((a, b) => b.seasons.length - a.seasons.length || a
   console.log(`  ${s.name} (${s.team}) has ${s.seasons.join(',')} — program also won ${s.missing.join(',')} | ${s.role.slice(0, 50)}`)
 }
 console.log(`\n${suspects.length} people in long-tenure roles are credited for only part of their program's titles.`)
+
+// --- 3. Photo coverage for everyone actually visible on the site ---
+// The site shows the top 100 of each filter, so that union is the set that
+// needs faces; a gray box beside a well-known name reads as a broken page.
+const rings = JSON.parse(fs.readFileSync(path.join(import.meta.dirname, '..', 'public', 'data', 'rings.json'), 'utf8'))
+const SUPPORT_CATS = new Set(['sc', 'analyst', 'qc', 'gradasst', 'ops', 'medical', 'equipment', 'other'])
+const scopeOf = (r, s) => s === 'all' ? true
+  : s === 'onfield' ? (r.cat === 'onfield' || r.cat === 'headcoach')
+  : SUPPORT_CATS.has(r.cat)
+
+console.log('\n=== 3. Photo coverage of the visible top 100 per filter ===\n')
+const visible = new Map()
+for (const s of ['all', 'support', 'onfield']) {
+  const list = rings.coaches.filter((c) => s === 'all' || c.rings.some((r) => scopeOf(r, s))).slice(0, 100)
+  const withPhoto = list.filter((c) => c.photo).length
+  console.log(`  ${s.padEnd(8)} ${withPhoto}/${list.length} (${Math.round(withPhoto / list.length * 100)}%)`)
+  for (const c of list) visible.set(c.id, c)
+}
+const missing = [...visible.values()].filter((c) => !c.photo)
+console.log(`\n  union: ${visible.size - missing.length}/${visible.size} have photos; ${missing.length} still missing`)
+if (missing.length) console.log('  ' + missing.slice(0, 15).map((c) => c.name).join(', ') + (missing.length > 15 ? ', …' : ''))

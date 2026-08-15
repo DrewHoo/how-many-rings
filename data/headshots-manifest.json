@@ -111,9 +111,9 @@
   },
   "troy-finney": {
     "name": "Troy Finney",
-    "group": "leaderboard",
+    "group": "counterexample",
     "status": "missing",
-    "reason": "Confirmed real Alabama staffer (Assistant AD) but no photo found anywhere incl. Wayback CDX.",
+    "reason": "no matching article",
     "file": "troy-finney.svg"
   },
   "jeremy-pruitt": {
@@ -186,7 +186,7 @@
     "name": "Jessie Peoples",
     "group": "leaderboard",
     "status": "missing",
-    "reason": "UNVERIFIED PERSON: hunter could not confirm existence on Alabama staff at all - roster rows need review.",
+    "reason": "no matching article",
     "file": "jessie-peoples.svg"
   },
   "kirby-smart": {
@@ -257,9 +257,9 @@
   },
   "lance-walker": {
     "name": "Lance Walker",
-    "group": "leaderboard",
+    "group": "counterexample",
     "status": "missing",
-    "reason": "UNVERIFIED PERSON: no documented Alabama tenure found for any Lance Walker - roster rows need review.",
+    "reason": "no matching article",
     "file": "lance-walker.svg"
   },
   "jody-wright": {
@@ -655,9 +655,9 @@
   },
   "dr-lonnie-albers": {
     "name": "Dr. Lonnie Albers",
-    "group": "leaderboard",
+    "group": "counterexample",
     "status": "missing",
-    "reason": "web url failed: 200 application/octet-stream",
+    "reason": "no matching article",
     "file": "dr-lonnie-albers.svg"
   },
   "carol-moore": {
@@ -780,5 +780,974 @@
     "license": "school photo (copyrighted)",
     "note": "Clemson staff directory photo; earlier an Alabama player (1992 title team) and Saban-era facilities/external affairs staffer.",
     "imageUrl": "https://clemsontigers.com/imgproxy/5uMMYIajagh9nKi5qkKL3HeNk8MYpy6uGPzlHs1dDR0/rs:fit:1200:630:0:0/g:ce:0:0/q:70/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NsZW1zb250aWdlcnMtY29tLzIwMjYvMDIvMDYvVXNZamVzUGJSMXNSZnVBbExZYjFCOWxxMElqdWpBTUJFWmN3MkJINi5qcGc.jpg"
+  },
+  "joe-pendry": {
+    "name": "Joe Pendry",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Joe Pendry\" has no lead image",
+    "file": "joe-pendry.svg"
+  },
+  "brandy-lyerly": {
+    "name": "Brandy Lyerly",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "brandy-lyerly.svg"
+  },
+  "cindy-barker": {
+    "name": "Cindy Barker",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "cindy-barker.svg"
+  },
+  "dr-sam-nader": {
+    "name": "Dr. Sam Nader",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "dr-sam-nader.svg"
+  },
+  "ed-marynowitz": {
+    "name": "Ed Marynowitz",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "ed-marynowitz.svg"
+  },
+  "glen-abbott": {
+    "name": "Glen Abbott",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "glen-abbott.svg"
+  },
+  "greg-stringfellow": {
+    "name": "Greg Stringfellow",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "greg-stringfellow.svg"
+  },
+  "jeff-norrid": {
+    "name": "Jeff Norrid",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "jeff-norrid.svg"
+  },
+  "jerry-weber": {
+    "name": "Jerry Weber",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "jerry-weber.svg"
+  },
+  "joe-pannunzio": {
+    "name": "Joe Pannunzio",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Joe Pannunzio\" has no lead image",
+    "file": "joe-pannunzio.svg"
+  },
+  "john-bousek": {
+    "name": "John Bousek",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "john-bousek.svg"
+  },
+  "joni-duff": {
+    "name": "Joni Duff",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "joni-duff.svg"
+  },
+  "josh-maxson": {
+    "name": "Josh Maxson",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "josh-maxson.svg"
+  },
+  "kevin-coleman": {
+    "name": "Kevin Coleman",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "kevin-coleman.jpg",
+    "article": "https://en.wikipedia.org/wiki/Kevin_Coleman_Jr.",
+    "imageFile": "File:Kevin_Coleman_Jr_(clear).jpg",
+    "license": "Public domain",
+    "artist": "U.S. Navy photo by Mass Communication Specialist 2nd Class Clayton A. Wren",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kevin_Coleman_Jr_(clear).jpg"
+  },
+  "kindal-moorehead": {
+    "name": "Kindal Moorehead",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Kindal Moorehead\" has no lead image",
+    "file": "kindal-moorehead.svg"
+  },
+  "lois-stuckey": {
+    "name": "Lois Stuckey",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "lois-stuckey.svg"
+  },
+  "mark-pantoni": {
+    "name": "Mark Pantoni",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "mark-pantoni.svg"
+  },
+  "marty-huegel": {
+    "name": "Marty Huegel",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "marty-huegel.svg"
+  },
+  "mary-lyn-wininger": {
+    "name": "Mary Lyn Wininger",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "mary-lyn-wininger.svg"
+  },
+  "mike-arthur": {
+    "name": "Mike Arthur",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Mike Arthur\" has no lead image",
+    "file": "mike-arthur.svg"
+  },
+  "mike-groh": {
+    "name": "Mike Groh",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Mike Groh\" has no lead image",
+    "file": "mike-groh.svg"
+  },
+  "patrick-suddes": {
+    "name": "Patrick Suddes",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "patrick-suddes.svg"
+  },
+  "randy-gobel": {
+    "name": "Randy Gobel",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "randy-gobel.svg"
+  },
+  "sam-petitto": {
+    "name": "Sam Petitto",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "sam-petitto.svg"
+  },
+  "tommy-moffitt": {
+    "name": "Tommy Moffitt",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "tommy-moffitt.svg"
+  },
+  "wes-neighbors": {
+    "name": "Wes Neighbors",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "wes-neighbors.svg"
+  },
+  "will-muschamp": {
+    "name": "Will Muschamp",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "will-muschamp.jpg",
+    "article": "https://en.wikipedia.org/wiki/Will_Muschamp",
+    "imageFile": "File:Will_Muschamp.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Enoch Lai",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Will_Muschamp.jpg"
+  },
+  "willie-carl-martin": {
+    "name": "Willie Carl Martin",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "willie-carl-martin.svg"
+  },
+  "ya-el-lofton": {
+    "name": "Ya'el Lofton",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "ya-el-lofton.svg"
+  },
+  "abe-reed": {
+    "name": "Abe Reed",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "abe-reed.svg"
+  },
+  "adam-ray": {
+    "name": "Adam Ray",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "adam-ray.svg"
+  },
+  "adam-smotherman": {
+    "name": "Adam Smotherman",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "adam-smotherman.svg"
+  },
+  "amy-halpin": {
+    "name": "Amy Halpin",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "amy-halpin.svg"
+  },
+  "angela-kirkpatrick": {
+    "name": "Angela Kirkpatrick",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "angela-kirkpatrick.svg"
+  },
+  "ann-hunt": {
+    "name": "Ann Hunt",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "ann-hunt.svg"
+  },
+  "anna-courson": {
+    "name": "Anna Courson",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "anna-courson.svg"
+  },
+  "anthony-pass": {
+    "name": "Anthony Pass",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "anthony-pass.svg"
+  },
+  "austin-chambers": {
+    "name": "Austin Chambers",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "austin-chambers.svg"
+  },
+  "austin-pope": {
+    "name": "Austin Pope",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "austin-pope.svg"
+  },
+  "bert-biffani": {
+    "name": "Bert Biffani",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "bert-biffani.svg"
+  },
+  "beth-douglas": {
+    "name": "Beth Douglas",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "beth-douglas.svg"
+  },
+  "betty-ling": {
+    "name": "Betty Ling",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "betty-ling.svg"
+  },
+  "bill-mcdonald": {
+    "name": "Bill McDonald",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "bill-mcdonald.svg"
+  },
+  "billy-napier": {
+    "name": "Billy Napier",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "billy-napier.jpg",
+    "article": "https://en.wikipedia.org/wiki/Billy_Napier",
+    "imageFile": "File:2024-1220_Gasparilla_Bowl_Billy_Napier.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:2024-1220_Gasparilla_Bowl_Billy_Napier.jpg"
+  },
+  "bob-lacivita": {
+    "name": "Bob LaCivita",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "bob-lacivita.svg"
+  },
+  "brad-patterson": {
+    "name": "Brad Patterson",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "brad-patterson.svg"
+  },
+  "brandon-mccombs": {
+    "name": "Brandon McCombs",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "brandon-mccombs.svg"
+  },
+  "brandy-moore": {
+    "name": "Brandy Moore",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "brandy-moore.svg"
+  },
+  "brennan-carroll": {
+    "name": "Brennan Carroll",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "brennan-carroll.jpg",
+    "article": "https://en.wikipedia.org/wiki/Brennan_Carroll",
+    "imageFile": "File:2008-0808-USC18-BrennanCarroll.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:2008-0808-USC18-BrennanCarroll.jpg"
+  },
+  "brian-mohnsen": {
+    "name": "Brian Mohnsen",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "brian-mohnsen.svg"
+  },
+  "bryan-carpenter": {
+    "name": "Bryan Carpenter",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "bryan-carpenter.svg"
+  },
+  "bryant-gantt": {
+    "name": "Bryant Gantt",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "bryant-gantt.svg"
+  },
+  "buster-faulkner": {
+    "name": "Buster Faulkner",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Buster Faulkner\" has no lead image",
+    "file": "buster-faulkner.svg"
+  },
+  "candice-rosenkranz": {
+    "name": "Candice Rosenkranz",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "candice-rosenkranz.svg"
+  },
+  "cc-thompson": {
+    "name": "CC Thompson",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "cc-thompson.svg"
+  },
+  "chad-morehead": {
+    "name": "Chad Morehead",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "chad-morehead.svg"
+  },
+  "billy-gonzales": {
+    "name": "Billy Gonzales",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Billy Gonzales\" has no lead image",
+    "file": "billy-gonzales.svg"
+  },
+  "billy-sexton": {
+    "name": "Billy Sexton",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "billy-sexton.svg"
+  },
+  "bob-stoops": {
+    "name": "Bob Stoops",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "bob-stoops.jpg",
+    "article": "https://en.wikipedia.org/wiki/Bob_Stoops",
+    "imageFile": "File:BobStoops.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Maize &amp; Blue Nation",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:BobStoops.jpg"
+  },
+  "bobby-bowden": {
+    "name": "Bobby Bowden",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "bobby-bowden.jpg",
+    "article": "https://en.wikipedia.org/wiki/Bobby_Bowden",
+    "imageFile": "File:Bobby_Bowden_2007.jpg",
+    "license": "Public domain",
+    "artist": "Mark Foley",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bobby_Bowden_2007.jpg"
+  },
+  "brandon-streeter": {
+    "name": "Brandon Streeter",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "brandon-streeter.jpg",
+    "article": "https://en.wikipedia.org/wiki/Brandon_Streeter",
+    "imageFile": "File:Brandon_Streeter_and_Trevor_Lawrence.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "TigerNet.com (Clemson Tigers' Flickr account)",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Brandon_Streeter_and_Trevor_Lawrence.jpg"
+  },
+  "charles-kelly": {
+    "name": "Charles Kelly",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "charles-kelly.jpg",
+    "article": "https://en.wikipedia.org/wiki/Charles_Kelly_(American_football)",
+    "imageFile": "File:Kelly_in_2025.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "AlabamaBeachBoy",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kelly_in_2025.jpg"
+  },
+  "chris-rumph": {
+    "name": "Chris Rumph",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Chris Rumph\" has no lead image",
+    "file": "chris-rumph.svg"
+  },
+  "chuck-amato": {
+    "name": "Chuck Amato",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "chuck-amato.jpg",
+    "article": "https://en.wikipedia.org/wiki/Chuck_Amato",
+    "imageFile": "File:Chuck_Amato_in_2005.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Genefoto (talk) (Uploads)",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chuck_Amato_in_2005.jpg"
+  },
+  "chuck-heater": {
+    "name": "Chuck Heater",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "chuck-heater.png",
+    "article": "https://en.wikipedia.org/wiki/Chuck_Heater",
+    "imageFile": "File:Chuck_Heater_and_Ed_Shuttlesworth.png",
+    "license": "Public domain",
+    "artist": "Unidentified (Ensian published by University of Michigan)",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chuck_Heater_and_Ed_Shuttlesworth.png"
+  },
+  "corey-raymond": {
+    "name": "Corey Raymond",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Corey Raymond\" has no lead image",
+    "file": "corey-raymond.svg"
+  },
+  "craig-bohl": {
+    "name": "Craig Bohl",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "craig-bohl.jpg",
+    "article": "https://en.wikipedia.org/wiki/Craig_Bohl",
+    "imageFile": "File:Bohl.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Blain.johnson.1",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bohl.jpg"
+  },
+  "curt-cignetti": {
+    "name": "Curt Cignetti",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "curt-cignetti.jpg",
+    "article": "https://en.wikipedia.org/wiki/Curt_Cignetti",
+    "imageFile": "File:CurtCignettiWhiteHouse.jpg",
+    "license": "Public domain",
+    "artist": "The White House",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CurtCignettiWhiteHouse.jpg"
+  },
+  "dabo-swinney": {
+    "name": "Dabo Swinney",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "dabo-swinney.jpg",
+    "article": "https://en.wikipedia.org/wiki/Dabo_Swinney",
+    "imageFile": "File:President_Trump_Welcomes_the_Clemson_Tigers_to_the_White_House_(39791534643)_(cropped).jpg",
+    "license": "Public domain",
+    "artist": "The White House from Washington, DC",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:President_Trump_Welcomes_the_Clemson_Tigers_to_the_White_House_(39791534643)_(cropped).jpg"
+  },
+  "dan-brooks": {
+    "name": "Dan Brooks",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Dan Brooks\" has no lead image",
+    "file": "dan-brooks.svg"
+  },
+  "dan-lanning": {
+    "name": "Dan Lanning",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "dan-lanning.png",
+    "article": "https://en.wikipedia.org/wiki/Dan_Lanning",
+    "imageFile": "File:2025-0723_Dan_Lanning.PNG",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:2025-0723_Dan_Lanning.PNG"
+  },
+  "dan-mullen": {
+    "name": "Dan Mullen",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "dan-mullen.jpg",
+    "article": "https://en.wikipedia.org/wiki/Dan_Mullen",
+    "imageFile": "File:Dan_Mullen_2025.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Nascar9919",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dan_Mullen_2025.jpg"
+  },
+  "dan-werner": {
+    "name": "Dan Werner",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "dan-werner.svg"
+  },
+  "dell-mcgee": {
+    "name": "Dell McGee",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Dell McGee\" has no lead image",
+    "file": "dell-mcgee.svg"
+  },
+  "derrick-ansley": {
+    "name": "Derrick Ansley",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "derrick-ansley.jpg",
+    "article": "https://en.wikipedia.org/wiki/Derrick_Ansley",
+    "imageFile": "File:Derrick_Ansley.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "All-Pro Reels",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Derrick_Ansley.jpg"
+  },
+  "doug-mallory": {
+    "name": "Doug Mallory",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Doug Mallory\" has no lead image",
+    "file": "doug-mallory.svg"
+  },
+  "fred-jackson": {
+    "name": "Fred Jackson",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "fred-jackson.jpg",
+    "article": "https://en.wikipedia.org/wiki/Fred_Jackson_(running_back)",
+    "imageFile": "File:Fred_jackson_2014.jpg",
+    "license": "Public domain",
+    "artist": "original: New York National Guardderivative: Diddykong1130",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fred_jackson_2014.jpg"
+  },
+  "gene-chizik": {
+    "name": "Gene Chizik",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "gene-chizik.jpg",
+    "article": "https://en.wikipedia.org/wiki/Gene_Chizik",
+    "imageFile": "File:Gene_Chizik_-_2018_SEC_Summerfest.jpg",
+    "license": "CC0",
+    "artist": "Thomson200",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gene_Chizik_-_2018_SEC_Summerfest.jpg"
+  },
+  "greg-burns": {
+    "name": "Greg Burns",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Greg Burns (American football)\" has no lead image",
+    "file": "greg-burns.svg"
+  },
+  "jeff-scott": {
+    "name": "Jeff Scott",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "jeff-scott.jpg",
+    "article": "https://en.wikipedia.org/wiki/Jeff_Scott",
+    "imageFile": "File:Jeff_Scott_headshot.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "TigerNet.com",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Jeff_Scott_headshot.jpg"
+  },
+  "jeff-stoutland": {
+    "name": "Jeff Stoutland",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "jeff-stoutland.jpg",
+    "article": "https://en.wikipedia.org/wiki/Jeff_Stoutland",
+    "imageFile": "File:Jeff_Stoutland_(cropped).jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "All-Pro Reels",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Jeff_Stoutland_(cropped).jpg"
+  },
+  "jim-gladden": {
+    "name": "Jim Gladden",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "jim-gladden.svg"
+  },
+  "jimbo-fisher": {
+    "name": "Jimbo Fisher",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "jimbo-fisher.jpg",
+    "article": "https://en.wikipedia.org/wiki/Jimbo_Fisher",
+    "imageFile": "File:Jimbo_Fisher_football_coach.jpg",
+    "license": "CC0",
+    "descriptionUrl": "https://en.wikipedia.org/wiki/File:Jimbo_Fisher_football_coach.jpg"
+  },
+  "jimmy-heggins": {
+    "name": "Jimmy Heggins",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "jimmy-heggins.svg"
+  },
+  "john-hevesy": {
+    "name": "John Hevesy",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"John Hevesy\" has no lead image",
+    "file": "john-hevesy.svg"
+  },
+  "larry-johnson": {
+    "name": "Larry Johnson",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "larry-johnson.jpg",
+    "article": "https://en.wikipedia.org/wiki/Larry_Johnson_(running_back)",
+    "imageFile": "File:Larry_Johnson_KC_Chiefs.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "gamerscoreblog, edited by anetode",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Larry_Johnson_KC_Chiefs.jpg"
+  },
+  "lawrence-dawsey": {
+    "name": "Lawrence Dawsey",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Lawrence Dawsey\" has no lead image",
+    "file": "lawrence-dawsey.svg"
+  },
+  "lemanski-hall": {
+    "name": "Lemanski Hall",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "lemanski-hall.jpg",
+    "article": "https://en.wikipedia.org/wiki/Lemanski_Hall",
+    "imageFile": "File:Lemanski_Hall.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "TigerNet.com",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Lemanski_Hall.jpg"
+  },
+  "luke-fickell": {
+    "name": "Luke Fickell",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "luke-fickell.jpg",
+    "article": "https://en.wikipedia.org/wiki/Luke_Fickell",
+    "imageFile": "File:Fickell_(cropped).jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Apyanac",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fickell_(cropped).jpg"
+  },
+  "mark-richt": {
+    "name": "Mark Richt",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "mark-richt.png",
+    "article": "https://en.wikipedia.org/wiki/Mark_Richt",
+    "imageFile": "File:Mark_Richt_Miami_2018.png",
+    "license": "CC BY 3.0",
+    "artist": "Miami Hurricanes Official Facebook Fans",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mark_Richt_Miami_2018.png"
+  },
+  "mickey-andrews": {
+    "name": "Mickey Andrews",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Mickey Andrews\" has no lead image",
+    "file": "mickey-andrews.svg"
+  },
+  "mickey-conn": {
+    "name": "Mickey Conn",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "mickey-conn.jpg",
+    "article": "https://en.wikipedia.org/wiki/Mickey_Conn",
+    "imageFile": "File:Mickey_Conn.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "TigerNet.com",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mickey_Conn.jpg"
+  },
+  "mike-barry": {
+    "name": "Mike Barry",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Mike Barry (footballer)\" has no lead image",
+    "file": "mike-barry.svg"
+  },
+  "mike-elston": {
+    "name": "Mike Elston",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Mike Elston (American football coach)\" has no lead image",
+    "file": "mike-elston.svg"
+  },
+  "mike-reed": {
+    "name": "Mike Reed",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Mike Reed (fullback)\" has no lead image",
+    "file": "mike-reed.svg"
+  },
+  "norm-chow": {
+    "name": "Norm Chow",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "norm-chow.jpg",
+    "article": "https://en.wikipedia.org/wiki/Norm_Chow",
+    "imageFile": "File:Norm-Chow-Cal-vs-UCLA-Oct-26-08.jpg",
+    "license": "CC BY 2.0",
+    "artist": "John Martinez Pavliga from Chicago. Cropped by User:Blueag9.",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Norm-Chow-Cal-vs-UCLA-Oct-26-08.jpg"
+  },
+  "odell-haggins": {
+    "name": "Odell Haggins",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "odell-haggins.jpg",
+    "article": "https://en.wikipedia.org/wiki/Odell_Haggins",
+    "imageFile": "File:Odell_Haggins.jpg",
+    "license": "CC-BY-SA-4.0",
+    "artist": "Andwrom",
+    "descriptionUrl": "https://en.wikipedia.org/wiki/File:Odell_Haggins.jpg"
+  },
+  "pete-carroll": {
+    "name": "Pete Carroll",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "pete-carroll.jpg",
+    "article": "https://en.wikipedia.org/wiki/Pete_Carroll",
+    "imageFile": "File:Pete_Carroll,_Sept._2025.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "All-Pro Reels from District of Columbia, USA",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Pete_Carroll,_Sept._2025.jpg"
+  },
+  "randy-sanders": {
+    "name": "Randy Sanders",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "randy-sanders.jpg",
+    "article": "https://en.wikipedia.org/wiki/Randy_Sanders",
+    "imageFile": "File:Randy_Sanders_visits_KY_Natl_Guard_2010.jpg",
+    "license": "Public domain",
+    "artist": "Kentucky National Guard",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Randy_Sanders_visits_KY_Natl_Guard_2010.jpg"
+  },
+  "randy-shannon": {
+    "name": "Randy Shannon",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "randy-shannon.jpg",
+    "article": "https://en.wikipedia.org/wiki/Randy_Shannon",
+    "imageFile": "File:Randy_Shannon_70723.jpg",
+    "license": "CC BY-SA 3.0",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Randy_Shannon_70723.jpg"
+  },
+  "robbie-caldwell": {
+    "name": "Robbie Caldwell",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "robbie-caldwell.jpg",
+    "article": "https://en.wikipedia.org/wiki/Robbie_Caldwell",
+    "imageFile": "File:Robbie_Caldwell.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "TigerNet.com",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Robbie_Caldwell.jpg"
+  },
+  "rocky-seto": {
+    "name": "Rocky Seto",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "rocky-seto.jpg",
+    "article": "https://en.wikipedia.org/wiki/Rocky_Seto",
+    "imageFile": "File:2008-0808-USC15-RockySeto.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:2008-0808-USC15-RockySeto.jpg"
+  },
+  "stacy-searels": {
+    "name": "Stacy Searels",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Stacy Searels\" has no lead image",
+    "file": "stacy-searels.svg"
+  },
+  "stan-drayton": {
+    "name": "Stan Drayton",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "stan-drayton.jpg",
+    "article": "https://en.wikipedia.org/wiki/Stan_Drayton",
+    "imageFile": "File:StanDrayton.RobertJosephCruz.RJCPictures-2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Rje cruz",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:StanDrayton.RobertJosephCruz.RJCPictures-2.jpg"
+  },
+  "steve-addazio": {
+    "name": "Steve Addazio",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "steve-addazio.jpg",
+    "article": "https://en.wikipedia.org/wiki/Steve_Addazio",
+    "imageFile": "File:Steve_Addazio_in_2012.jpg",
+    "license": "Public domain",
+    "artist": "U.S. Army photo by Tommy Gilligan, U.S. Military Academy Public Affairs Office",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Steve_Addazio_in_2012.jpg"
+  },
+  "steve-sarkisian": {
+    "name": "Steve Sarkisian",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "steve-sarkisian.jpg",
+    "article": "https://en.wikipedia.org/wiki/Steve_Sarkisian",
+    "imageFile": "File:Steve_Sarkisian_2024_(cropped).jpg",
+    "license": "CC BY 2.0",
+    "artist": "Maize &amp; Blue Nation",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Steve_Sarkisian_2024_(cropped).jpg"
+  },
+  "tim-davis": {
+    "name": "Tim Davis",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Tim Davis (American football)\" has no lead image",
+    "file": "tim-davis.svg"
+  },
+  "tim-hinton": {
+    "name": "Tim Hinton",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "tim-hinton.svg"
+  },
+  "tim-walton": {
+    "name": "Tim Walton",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Tim Walton (American football)\" has no lead image",
+    "file": "tim-walton.svg"
+  },
+  "todd-hartley": {
+    "name": "Todd Hartley",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Todd Hartley\" has no lead image",
+    "file": "todd-hartley.svg"
+  },
+  "todd-monken": {
+    "name": "Todd Monken",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Todd Monken\" has no lead image",
+    "file": "todd-monken.svg"
+  },
+  "tony-elliott": {
+    "name": "Tony Elliott",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Tony Elliott (footballer)\" has no lead image",
+    "file": "tony-elliott.svg"
+  },
+  "tony-samuel": {
+    "name": "Tony Samuel",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Tony Samuel\" has no lead image",
+    "file": "tony-samuel.svg"
+  },
+  "tosh-lupoi": {
+    "name": "Tosh Lupoi",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "tosh-lupoi.png",
+    "article": "https://en.wikipedia.org/wiki/Tosh_Lupoi",
+    "imageFile": "File:Tosh_Lupoi_2025.png",
+    "license": "CC BY 4.0",
+    "artist": "George Wrighster's College Football Podcast",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tosh_Lupoi_2025.png"
+  },
+  "tray-scott": {
+    "name": "Tray Scott",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Tray Scott\" has no lead image",
+    "file": "tray-scott.svg"
+  },
+  "vance-bedford": {
+    "name": "Vance Bedford",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Vance Bedford\" has no lead image",
+    "file": "vance-bedford.svg"
+  },
+  "zach-smith": {
+    "name": "Zach Smith",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "zach-smith.jpg",
+    "article": "https://en.wikipedia.org/wiki/Zach_Smith_(American_football)",
+    "imageFile": "File:Semper_Fi_Bowl_Practice_151230-M-AH293-034.jpg",
+    "license": "Public domain",
+    "artist": "Sgt. Rebecca Eller",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Semper_Fi_Bowl_Practice_151230-M-AH293-034.jpg"
   }
 }
