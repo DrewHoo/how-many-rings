@@ -3,13 +3,15 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Who has the most rings in Division I football? \u2014 ranking college football championship staff by rings, with citations.",
+  "description": "Who has the most rings in Division I football? — ranking college football championship staff by rings, with citations.",
   "scripts": {
     "fetch": "node scripts/build-site-data.mjs",
     "dev": "vite",
-    "build": "node scripts/build-site-data.mjs && tsc -b && vite build",
+    "build": "node scripts/build-site-data.mjs && tsc -b && vite build && node scripts/prerender.mjs",
     "build:no-fetch": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prerender": "node scripts/prerender.mjs",
+    "gen:colors": "node scripts/gen-team-colors.mjs"
   },
   "dependencies": {
     "react": "^19.1.0",

@@ -1,52 +1,51 @@
-// Generates the social preview image + PNG icons from hand-authored SVG.
-// Run locally when the design changes; outputs are committed and served static
-// (CI does not regenerate them). Needs `sharp`, which is intentionally NOT a
-// project dependency (keeps installs + CI lean). Run with a throwaway install:
+// Generates the social preview, the drewhoover.com index card cover, and the
+// PNG icons from hand-authored SVG. Outputs are committed and served static
+// (CI does not regenerate them). Needs `sharp`, intentionally NOT a project
+// dependency — run with a throwaway install:
 //   npm i -D sharp && node scripts/gen-assets.mjs && npm uninstall sharp
 import sharp from 'sharp'
-import { writeFile } from 'node:fs/promises'
+import { writeFile, readFile } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const OUT = resolve(dirname(fileURLToPath(import.meta.url)), '..', 'public')
+const HERE = dirname(fileURLToPath(import.meta.url))
+const OUT = resolve(HERE, '..', 'public')
 
-// A staircase polyline echoing the chart's cumulative lines.
-function stair(x0, y0, steps, dx, up, color, width) {
-  let d = `M ${x0} ${y0}`
-  let x = x0, y = y0
-  for (let i = 0; i < steps; i++) { x += dx; d += ` H ${x}`; y -= up; d += ` V ${y}` }
-  return `<path d="${d}" fill="none" stroke="${color}" stroke-width="${width}" stroke-linejoin="round" opacity="0.95"/>`
+// Reuse the real palette so the card can't drift from the site.
+const css = await readFile(resolve(HERE, '..', 'src', 'team-colors.css'), 'utf8')
+const dark = Object.fromEntries(
+  [...css.split('@media')[1].matchAll(/--team-([a-z0-9-]+): (#[0-9A-F]{6})/g)].map((m) => [m[1], m[2]]))
+
+// Scott Cochran's eight, in order — the fact the whole page exists to tell.
+const COCHRAN = ['lsu', 'alabama', 'alabama', 'alabama', 'alabama', 'alabama', 'georgia', 'georgia']
+
+const rings = (x, y, r, gap, stroke) => COCHRAN
+  .map((t, i) => `<circle cx="${x + i * (r * 2 + gap)}" cy="${y}" r="${r}" fill="none" stroke="${dark[t]}" stroke-width="${stroke}"/>`)
+  .join('\n    ')
+
+function card(w, h, titleY) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+  <rect width="${w}" height="${h}" fill="#17150f"/>
+  <text x="72" y="${titleY - 92}" fill="#BA8A2E" font-family="Helvetica, Arial, sans-serif" font-size="21" letter-spacing="5">A CURIO · CITED DATA</text>
+  <text x="70" y="${titleY}" fill="#f4efe4" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700">Who has the most rings</text>
+  <text x="70" y="${titleY + 76}" fill="#f4efe4" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700">in Division I football?</text>
+  <g>
+    ${rings(74, titleY + 168, 21, 20, 6)}
+  </g>
+  <text x="70" y="${titleY + 238}" fill="#b3aa99" font-family="Helvetica, Arial, sans-serif" font-size="26">Scott Cochran, a strength coach, has eight — one more than Nick Saban.</text>
+  <text x="70" y="${h - 54}" fill="#8f8776" font-family="Helvetica, Arial, sans-serif" font-size="21">drewhoover.com/how-many-rings · every ring cited to a source</text>
+</svg>`
 }
 
-const og = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#15110c"/><stop offset="1" stop-color="#0b0906"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <g transform="translate(560 90)">
-    ${stair(0, 470, 9, 68, 40, '#4c78a8', 5)}
-    ${stair(0, 470, 9, 68, 30, '#e4572e', 5)}
-    ${stair(0, 470, 10, 61, 47, '#d8a200', 7)}
-  </g>
-  <text x="80" y="150" fill="#d8a200" font-family="Georgia, serif" font-size="22" letter-spacing="6">A CURIO · OPEN DATA</text>
-  <text x="78" y="250" fill="#f5f2ec" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700">The World Cup</text>
-  <text x="78" y="340" fill="#f5f2ec" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700">Goal Race</text>
-  <text x="80" y="410" fill="#b9b0a2" font-family="Helvetica, Arial, sans-serif" font-size="27">Which nations have scored the most — 1930–2022,</text>
-  <text x="80" y="446" fill="#b9b0a2" font-family="Helvetica, Arial, sans-serif" font-size="27">as a cumulative race across every match.</text>
-  <text x="80" y="560" fill="#8a8175" font-family="Helvetica, Arial, sans-serif" font-size="22">drewhoover.com/curio · source: openfootball</text>
-  <rect x="80" y="586" width="120" height="4" fill="#d8a200"/>
-</svg>`
-
+// A single ring, the site's unit mark.
 const favicon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="13" fill="#1b1712"/>
-  <polyline points="10,46 24,38 34,42 44,24 54,18" fill="none" stroke="#d8a200" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="54" cy="18" r="5.5" fill="#e4572e"/>
+  <rect width="64" height="64" rx="13" fill="#17150f"/>
+  <circle cx="32" cy="32" r="17" fill="none" stroke="#BA8A2E" stroke-width="7"/>
 </svg>`
 
 await writeFile(resolve(OUT, 'favicon.svg'), favicon)
-await sharp(Buffer.from(og)).png().toFile(resolve(OUT, 'og.png'))
+await sharp(Buffer.from(card(1200, 630, 268))).png().toFile(resolve(OUT, 'og.png'))
+await sharp(Buffer.from(card(1200, 750, 310))).png().toFile(resolve(OUT, 'cover.png'))
 await sharp(Buffer.from(favicon)).resize(180, 180).png().toFile(resolve(OUT, 'apple-touch-icon.png'))
 await sharp(Buffer.from(favicon)).resize(32, 32).png().toFile(resolve(OUT, 'favicon-32.png'))
-console.log('Wrote og.png, apple-touch-icon.png, favicon-32.png')
+console.log('Wrote og.png (1200x630), cover.png (1200x750), favicon.svg, apple-touch-icon.png, favicon-32.png')

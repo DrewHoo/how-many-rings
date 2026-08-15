@@ -11,20 +11,35 @@ const SCOPES: { key: Scope; label: string; blurb: string }[] = [
   { key: 'onfield', label: 'Coaches only', blurb: 'Anyone who earned a ring as a head coach or on-field assistant.' },
 ]
 
+/**
+ * URL-backed state. The first render must not read `window` — the prerendered
+ * HTML has no query string, so seeding from the URL hydrates into a mismatch
+ * whenever someone opens a shared link. Start at the fallback and apply the URL
+ * on mount instead.
+ */
 function useQueryState(key: string, fallback: string) {
-  const [v, setV] = useState(() =>
-    (typeof window === 'undefined' ? null : new URLSearchParams(window.location.search).get(key)) ?? fallback)
+  const [v, setV] = useState(fallback)
+  const [ready, setReady] = useState(false)
+
   useEffect(() => {
+    const fromUrl = new URLSearchParams(window.location.search).get(key)
+    if (fromUrl !== null) setV(fromUrl)
+    setReady(true)
+  }, [key])
+
+  useEffect(() => {
+    if (!ready) return   // don't wipe the incoming URL before we've read it
     const p = new URLSearchParams(window.location.search)
     v === fallback ? p.delete(key) : p.set(key, v)
     const q = p.toString()
     window.history.replaceState(null, '', q ? `?${q}` : window.location.pathname)
-  }, [key, v, fallback])
+  }, [key, v, fallback, ready])
+
   return [v, setV] as const
 }
 
-export function App() {
-  const [data, setData] = useState<Dataset | null>(null)
+export function App({ initialData }: { initialData?: Dataset } = {}) {
+  const [data, setData] = useState<Dataset | null>(initialData ?? null)
   const [error, setError] = useState<string | null>(null)
   const [scope, setScope] = useQueryState('scope', 'all')
   const [q, setQ] = useQueryState('q', '')
@@ -39,12 +54,14 @@ export function App() {
     return () => { window.removeEventListener('scroll', clear); window.removeEventListener('blur', clear) }
   }, [tip])
 
+  // Always fetch the full dataset: the seed carries only the top 100 and no
+  // citations, which is enough to paint but not enough to click into.
   useEffect(() => {
     fetch(`${BASE}data/rings.json`)
       .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
       .then(setData)
-      .catch((e) => setError(String(e)))
-  }, [])
+      .catch((e) => { if (!initialData) setError(String(e)) })
+  }, [initialData])
 
   // Rank and count are always the person's real ring total — the scope decides
   // who is listed, never what anyone is worth.

@@ -29,7 +29,8 @@ jobs:
       # generated lockfile can skip the Linux variant, breaking `npm ci` builds.
       # Install the matching version explicitly; no-op (|| true) when unneeded.
       - run: npm install --no-save "@tailwindcss/oxide-linux-x64-gnu@$(node -p "require('@tailwindcss/oxide/package.json').version")" || true
-      # `npm run build` fetches fresh World Cup data, type-checks, then bundles.
+      # `npm run build` rebuilds rings.json from data/staffs, type-checks, bundles,
+      # then prerenders dist/index.html so crawlers get content instead of an empty div.
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
