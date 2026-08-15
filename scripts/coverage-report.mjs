@@ -85,3 +85,24 @@ for (const s of ['all', 'support', 'onfield']) {
 const missing = [...visible.values()].filter((c) => !c.photo)
 console.log(`\n  union: ${visible.size - missing.length}/${visible.size} have photos; ${missing.length} still missing`)
 if (missing.length) console.log('  ' + missing.slice(0, 15).map((c) => c.name).join(', ') + (missing.length > 15 ? ', …' : ''))
+
+// --- 4. Images that are probably not faces ---
+// A school bio page whose photo failed to load hands back its og:image, which is
+// the site logo. That downloads fine and passes a content-type check, so the only
+// tell is shape: portraits are taller than wide, logos and banners are not.
+console.log('\n=== 4. Headshots shaped like logos or banners (check these by eye) ===\n')
+const manifest = JSON.parse(fs.readFileSync(path.join(import.meta.dirname, '..', 'data', 'headshots-manifest.json'), 'utf8'))
+const { execSync } = await import('node:child_process')
+const odd = []
+for (const [key, e] of Object.entries(manifest)) {
+  if (e.status !== 'ok' || !e.file || e.file.endsWith('.svg')) continue
+  const p = path.join(import.meta.dirname, '..', 'public', 'headshots', e.file)
+  if (!fs.existsSync(p)) continue
+  try {
+    const out = execSync(`sips -g pixelWidth -g pixelHeight '${p}'`, { encoding: 'utf8' })
+    const w = Number(out.match(/pixelWidth: (\d+)/)[1]), h = Number(out.match(/pixelHeight: (\d+)/)[1])
+    if (w / h > 1.4) odd.push(`${key} (${w}x${h}, ${(w / h).toFixed(2)}:1)`)
+  } catch { /* unreadable image, skip */ }
+}
+console.log(odd.length ? '  ' + odd.join('\n  ') : '  none')
+console.log(`\n  ${odd.length} to eyeball. Landscape is not proof of a bad image — action shots are wide too.`)

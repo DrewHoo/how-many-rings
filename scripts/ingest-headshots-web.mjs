@@ -16,7 +16,9 @@ const entries = JSON.parse(fs.readFileSync(path.join(root, 'data', 'headshots-we
 const force = process.argv.includes('--force')
 
 const UA = 'HowManyRings/0.1 (https://drewhoover.com/how-many-rings/; drewhoover@gmail.com) node'
-const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+// Must match build-site-data.mjs: accents are stripped so ids stay ascii.
+const slug = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
 
 for (const e of entries) {
   const key = slug(e.name)

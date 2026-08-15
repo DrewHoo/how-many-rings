@@ -10,7 +10,8 @@ const staffDir = path.join(root, 'data', 'staffs')
 const outDir = path.join(root, 'public', 'data')
 fs.mkdirSync(outDir, { recursive: true })
 
-const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+const slug = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
 
 // Sources spell one person several ways across seasons; canonicalize before the
 // join so a name variant doesn't split someone into two undercounted people.

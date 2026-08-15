@@ -130,11 +130,6 @@ export function App() {
         <p>
           The job has to be the team. {data.meta.excludedCount} people who were on these staff lists are
           left out because someone else signed their paycheck — {data.meta.employmentRules.map((r) => r.label.toLowerCase()).join(', ')}.
-          {data.meta.excludedTop.length > 0 && (
-            <> The biggest names it costs: {data.meta.excludedTop.slice(0, 3).map((e, i) => (
-              <span key={e.name}>{i > 0 ? ', ' : ''}<strong>{e.name}</strong> ({e.rings} rings, {e.role.toLowerCase()})</span>
-            ))}.</>
-          )}
         </p>
         <p className="muted">
           Data built {data.meta.built}. Split national titles count for both schools. The 2004 USC title
