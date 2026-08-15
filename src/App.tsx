@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from 'react'
 import type { Dataset, Ring, Scope } from './lib/types.ts'
 import { ROLE_LABEL, matchesScope } from './lib/types.ts'
 import { CoachRow } from './components/CoachRow.tsx'
-import { teamKey } from './components/RingGlyphs.tsx'
 import { ShareButton } from './components/ShareButton.tsx'
 
 const BASE = import.meta.env.BASE_URL
@@ -61,14 +60,6 @@ export function App() {
       .sort((a, b) => b.total - a.total || a.name.localeCompare(b.name))
   }, [data, scope, q])
 
-  // Only key the schools actually on screen — a fixed 17-school legend would be
-  // mostly noise when a search narrows the list to one person.
-  const schoolsShown = useMemo(() => {
-    const seen = new Set<string>()
-    for (const c of ranked.slice(0, 100)) for (const r of c.rings) seen.add(r.team)
-    return [...seen].sort()
-  }, [ranked])
-
   const activeScope = SCOPES.find((s) => s.key === scope) ?? SCOPES[0]
 
   if (error) return <main className="wrap"><p className="err">Couldn’t load the data: {error}</p></main>
@@ -106,15 +97,6 @@ export function App() {
         {activeScope.blurb} <strong>{ranked.length}</strong> people
         {scope === 'all' ? ' have 2 or more rings.' : ' qualify — each still shown with every ring they own.'}
       </p>
-
-      <ul className="legend" aria-label="Ring colors by school">
-        {schoolsShown.map((t) => (
-          <li key={t}>
-            <span className="dot" style={{ ['--swatch' as string]: `var(--team-${teamKey(t)}, var(--ring-on))` }} />
-            {t}
-          </li>
-        ))}
-      </ul>
 
       {/* The tooltip belongs to a ring, so it lives exactly as long as the pointer
           is on one. Watching the list rather than each circle survives the case

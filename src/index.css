@@ -77,17 +77,9 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
   font: inherit; font-size: 13px; padding: 7px 11px; min-width: 200px; flex: 1 1 200px;
   border: 1px solid var(--line); border-radius: 9px; background: var(--card); color: var(--ink);
 }
-.scope-blurb { font-size: 13px; color: var(--muted); margin: 0 0 10px; }
-
-/* School key. Several programs share a colour — six oranges, seven reds — so the
-   ring tint is a supporting cue, never the identity itself; the name is always
-   in text beside it. */
-.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0 0 18px; padding: 0; list-style: none; }
-.legend li { display: flex; align-items: center; gap: 5px; font-size: 11.5px; color: var(--faint); }
-.legend .dot {
-  width: 11px; height: 11px; border-radius: 999px; flex: none;
-  border: 3px solid var(--swatch); box-sizing: border-box;
-}
+/* No colour key: the schools are named in text on every row and on every ring's
+   hover, so the tint is a recogniser rather than a lookup. */
+.scope-blurb { font-size: 13px; color: var(--muted); margin: 0 0 18px; }
 
 /* ---------- rows ---------- */
 .rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
