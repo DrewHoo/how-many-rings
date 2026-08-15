@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
-/* Curio example — editorial "warm paper" identity. The chrome stays quiet so
-   the twelve team colors carry the page. Swap in self-hosted Fraunces/Inter per
-   references/meta-and-assets.md for the full type treatment; a refined system
-   stack keeps this example zero-dependency. */
+/* How Many Rings? — editorial "warm paper" identity inherited from the Curio
+   template. One data hue (championship gold) does all the encoding; everything
+   else is ink and paper. Gold validated against the light and dark surfaces
+   with the dataviz palette validator (contrast >= 3:1, inside both lightness
+   bands) — see scripts/ in the dataviz skill. */
 :root {
   --bg: #f5f2ec;
   --card: #fffdf8;
@@ -11,25 +12,28 @@
   --muted: #6c6357;
   --faint: #8a8175;
   --line: #e7e0d4;
-  --accent: #1f6f57;
+  --accent: #7a1c1c;
+
+  /* The only data colors: a ring that counts, and one that doesn't. */
+  --ring-on: #a8760e;
+  --ring-off: #cfc7b8;
 
   --font-display: "Iowan Old Style", "Palatino Linotype", "Palatino", Georgia, serif;
   --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+}
 
-  /* Categorical, reasonably colorblind-aware line palette (rank-ordered). */
-  --chart-1: #d8a200;  /* Brazil — iconic yellow, reads on top */
-  --chart-2: #4c78a8;
-  --chart-3: #e4572e;
-  --chart-4: #3f9668;
-  --chart-5: #b279a2;
-  --chart-6: #2aa3b8;
-  --chart-7: #c9902a;
-  --chart-8: #e8869b;
-  --chart-9: #8a6d55;
-  --chart-10: #7a71c4;
-  --chart-11: #5aa469;
-  --chart-12: #9aa0a6;
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    --bg: #17150f;
+    --card: #201d16;
+    --ink: #f4efe4;
+    --muted: #b3aa99;
+    --faint: #8f8776;
+    --line: #332e24;
+    --accent: #e0857f;
+    --ring-on: #ba8a2e;
+    --ring-off: #4a4335;
+  }
 }
 
 * { box-sizing: border-box; }
@@ -46,13 +50,115 @@ html, body {
 }
 
 h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.01em; }
-
 .tabular { font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); }
+.err { color: var(--accent); }
 
-/* Recharts touch niceties: let vertical scroll through, capture horizontal. */
-.recharts-wrapper, .recharts-surface { touch-action: pan-y; }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+.wrap { max-width: 940px; margin: 0 auto; padding: 40px 20px 80px; }
 
-@media (prefers-reduced-motion: reduce) {
-  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+/* ---------- header ---------- */
+.head h1 { font-size: clamp(34px, 7vw, 56px); margin: 0 0 10px; }
+.lede { font-size: 17px; color: var(--muted); max-width: 62ch; margin: 0 0 28px; }
+
+/* ---------- hero ---------- */
+.hero {
+  display: flex; gap: 22px; align-items: flex-start;
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 22px; margin-bottom: 28px;
+}
+.hero-face { border-radius: 10px; object-fit: cover; flex: none; }
+.hero-body { min-width: 0; }
+.kicker { text-transform: uppercase; letter-spacing: 0.08em; font-size: 11px; color: var(--faint); margin: 0 0 2px; }
+.hero-num { font-family: var(--font-display); font-size: 64px; line-height: 1; color: var(--ring-on); margin: 0; }
+.hero-name { font-size: 24px; margin: 2px 0 8px; }
+.hero-blurb { margin: 0 0 12px; color: var(--muted); max-width: 54ch; }
+.hero-rings { margin-top: 4px; }
+
+/* ---------- controls ---------- */
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 8px; }
+.segmented { display: flex; border: 1px solid var(--line); border-radius: 9px; overflow: hidden; background: var(--card); }
+.seg {
+  font: inherit; font-size: 13px; cursor: pointer; padding: 7px 13px;
+  border: 0; border-right: 1px solid var(--line); background: transparent; color: var(--muted);
+}
+.seg:last-child { border-right: 0; }
+.seg.on { background: var(--ring-on); color: #fff; }
+.search {
+  font: inherit; font-size: 13px; padding: 7px 11px; min-width: 200px; flex: 1 1 200px;
+  border: 1px solid var(--line); border-radius: 9px; background: var(--card); color: var(--ink);
+}
+.scope-blurb { font-size: 13px; color: var(--muted); margin: 0 0 18px; }
+
+/* ---------- rows ---------- */
+.rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.row { border-bottom: 1px solid var(--line); }
+.row-open { background: var(--card); }
+.row-head {
+  display: grid; grid-template-columns: 30px 44px minmax(0, 1fr) auto 34px;
+  align-items: center; gap: 12px; width: 100%;
+  font: inherit; text-align: left; cursor: pointer;
+  background: none; border: 0; padding: 9px 6px; color: inherit;
+}
+.row-head:hover { background: var(--card); }
+.rank { color: var(--faint); font-size: 13px; text-align: right; }
+.face { border-radius: 7px; object-fit: cover; background: var(--line); }
+.face-blank { width: 44px; height: 44px; border-radius: 7px; background: var(--line); display: block; }
+.who { min-width: 0; }
+.name { display: block; font-weight: 550; }
+.schools { display: block; font-size: 12px; color: var(--faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.marks { display: flex; justify-content: flex-end; }
+.count { font-family: var(--font-display); font-size: 21px; color: var(--ring-on); text-align: right; }
+
+/* ---------- expanded detail ---------- */
+.detail { padding: 4px 6px 16px 92px; }
+.ring-list { list-style: none; margin: 0; padding: 0; font-size: 13px; }
+.ring-list > li {
+  display: grid; grid-template-columns: 48px 120px minmax(0, 1fr) auto;
+  gap: 10px; padding: 5px 0; border-top: 1px dotted var(--line); align-items: baseline;
+}
+.ring-list > li.dim { opacity: 0.45; }
+.ring-when { color: var(--faint); }
+.ring-team { font-weight: 550; }
+.ring-role { color: var(--muted); }
+.ring-role em { color: var(--faint); font-style: normal; font-size: 12px; }
+.ring-cites { display: flex; gap: 8px; white-space: nowrap; }
+.ring-cites a { color: var(--ring-on); font-size: 12px; }
+.nocite { color: var(--faint); font-size: 12px; }
+.ring-note { grid-column: 2 / -1; font-size: 12px; color: var(--faint); font-style: italic; }
+.credit { font-size: 11px; color: var(--faint); margin: 10px 0 0; }
+.credit a { color: inherit; }
+
+/* ---------- tooltip ---------- */
+.tip {
+  position: fixed; transform: translate(-50%, calc(-100% - 10px)); pointer-events: none; z-index: 20;
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  padding: 7px 10px; font-size: 12px; box-shadow: 0 6px 20px rgb(0 0 0 / 0.13);
+  display: flex; flex-direction: column; gap: 1px; white-space: nowrap;
+}
+.tip b { font-size: 13px; }
+.tip em { color: var(--faint); font-style: normal; }
+
+/* ---------- footer ---------- */
+.more { font-size: 13px; margin: 16px 0 0; }
+.foot { margin-top: 44px; padding-top: 22px; border-top: 1px solid var(--line); max-width: 68ch; }
+.foot h3 { font-size: 17px; margin: 0 0 8px; }
+.foot p { font-size: 14px; color: var(--muted); margin: 0 0 10px; }
+
+/* ---------- mobile ---------- */
+@media (max-width: 640px) {
+  .wrap { padding: 26px 14px 60px; }
+  .hero { flex-direction: column; gap: 14px; }
+  .hero-face { width: 96px; height: 128px; }
+  /* Two rows: identity on top, the ring marks tucked under the name. Every cell
+     is placed explicitly — auto-placement pushes the count onto its own line. */
+  .row-head { grid-template-columns: 22px 40px minmax(0, 1fr) 28px; gap: 4px 9px; padding: 9px 2px; }
+  .rank  { grid-area: 1 / 1; }
+  .face, .face-blank { grid-area: 1 / 2; width: 40px; height: 40px; }
+  .who   { grid-area: 1 / 3; }
+  .count { grid-area: 1 / 4; font-size: 19px; }
+  .marks { grid-area: 2 / 3 / 3 / 5; justify-content: flex-start; }
+  .detail { padding-left: 8px; }
+  .ring-list > li { grid-template-columns: 44px minmax(0, 1fr); }
+  .ring-role, .ring-cites { grid-column: 2; }
+  .tip { display: none; }
 }

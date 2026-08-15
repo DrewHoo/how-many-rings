@@ -113,7 +113,7 @@
     "name": "Troy Finney",
     "group": "leaderboard",
     "status": "missing",
-    "reason": "Real person: video ops -> Associate AD Sports Technology, cited in media guides + archived staff directory. No headshot recoverable; placeholder.",
+    "reason": "no matching article",
     "file": "troy-finney.svg"
   },
   "jeremy-pruitt": {
@@ -186,7 +186,7 @@
     "name": "Jessie Peoples",
     "group": "leaderboard",
     "status": "missing",
-    "reason": "Real person: State Trooper on Alabama sideline detail, cited in official media guides (5 title seasons). No public headshot exists; placeholder is correct.",
+    "reason": "no matching article",
     "file": "jessie-peoples.svg"
   },
   "kirby-smart": {
@@ -259,7 +259,7 @@
     "name": "Lance Walker",
     "group": "leaderboard",
     "status": "missing",
-    "reason": "Real person: Academic Program Advisor in Alabama media guides (4 title seasons). No public headshot found; placeholder is correct.",
+    "reason": "no matching article",
     "file": "lance-walker.svg"
   },
   "jody-wright": {
@@ -299,7 +299,7 @@
     "name": "Eddie Wilder",
     "group": "leaderboard",
     "status": "missing",
-    "reason": "Real person: State Trooper on Alabama sideline detail, cited in official media guides (4 title seasons). No public headshot exists; placeholder is correct.",
+    "reason": "no matching article",
     "file": "eddie-wilder.svg"
   },
   "ed-orgeron": {
@@ -389,5 +389,185 @@
     "license": "news photo (copyrighted)",
     "note": "USA Strength Coaches Hall of Fame profile photo, in the Nebraska weight room.",
     "imageUrl": "https://usastrengthcoacheshf.com/uploads/members/081c14e6a2efa2bbe38f896cd5c7289e.jpg"
+  },
+  "nick-saban": {
+    "name": "Nick Saban",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "nick-saban.jpg",
+    "article": "https://en.wikipedia.org/wiki/Nick_Saban",
+    "imageFile": "File:Nick_saban_cropped_2010.jpg",
+    "license": "Public domain",
+    "artist": "Carol M. Highsmith",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nick_saban_cropped_2010.jpg"
+  },
+  "brent-venables": {
+    "name": "Brent Venables",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "brent-venables.jpg",
+    "article": "https://en.wikipedia.org/wiki/Brent_Venables",
+    "imageFile": "File:Brent_Venables_2013.png",
+    "license": "CC BY 3.0",
+    "artist": "WOSN",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Brent_Venables_2013.png"
+  },
+  "lane-kiffin": {
+    "name": "Lane Kiffin",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "lane-kiffin.jpg",
+    "article": "https://en.wikipedia.org/wiki/Lane_Kiffin",
+    "imageFile": "File:2018-0719-CUSAMD-LaneKiffin.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Bobak Ha'Eri",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:2018-0719-CUSAMD-LaneKiffin.jpg"
+  },
+  "urban-meyer": {
+    "name": "Urban Meyer",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "urban-meyer.jpg",
+    "article": "https://en.wikipedia.org/wiki/Urban_Meyer",
+    "imageFile": "File:Urban_Meyer_in_2017_(cropped).jpg",
+    "license": "Public domain",
+    "artist": "Thomas Matty, United States Army",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Urban_Meyer_in_2017_(cropped).jpg"
+  },
+  "tom-osborne": {
+    "name": "Tom Osborne",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "tom-osborne.jpg",
+    "article": "https://en.wikipedia.org/wiki/Tom_Osborne",
+    "imageFile": "File:Tom_Osborne_US_Congress_portrait.jpg",
+    "license": "Public domain",
+    "artist": "US Congress;",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tom_Osborne_US_Congress_portrait.jpg"
+  },
+  "frank-solich": {
+    "name": "Frank Solich",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Frank Solich\" has no lead image",
+    "file": "frank-solich.svg"
+  },
+  "turner-gill": {
+    "name": "Turner Gill",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "turner-gill.jpg",
+    "article": "https://en.wikipedia.org/wiki/Turner_Gill",
+    "imageFile": "File:Turner_Gill_Introduction.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": ".\n\nThe original uploader was Goingstuckey at English Wikipedia.",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Turner_Gill_Introduction.jpg"
+  },
+  "danny-pearman": {
+    "name": "Danny Pearman",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "danny-pearman.jpg",
+    "article": "https://en.wikipedia.org/wiki/Danny_Pearman",
+    "imageFile": "File:Danny_Pearman.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "TigerNet.com",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Danny_Pearman.jpg"
+  },
+  "charlie-mcbride": {
+    "name": "Charlie McBride",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Charlie McBride (American football coach)\" has no lead image",
+    "file": "charlie-mcbride.svg"
+  },
+  "ron-brown": {
+    "name": "Ron Brown",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Ron Brown (footballer)\" has no lead image",
+    "file": "ron-brown.svg"
+  },
+  "milt-tenopir": {
+    "name": "Milt Tenopir",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "milt-tenopir.svg"
+  },
+  "dan-young": {
+    "name": "Dan Young",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "dan-young.svg"
+  },
+  "george-darlington": {
+    "name": "George Darlington",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "no matching article",
+    "file": "george-darlington.svg"
+  },
+  "lance-thompson": {
+    "name": "Lance Thompson",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Lance Thompson\" has no lead image",
+    "file": "lance-thompson.svg"
+  },
+  "woody-mccorvey": {
+    "name": "Woody McCorvey",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "woody-mccorvey.jpg",
+    "article": "https://en.wikipedia.org/wiki/Woody_McCorvey",
+    "imageFile": "File:WoodyMcCorvey.CA.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Rt591",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:WoodyMcCorvey.CA.jpg"
+  },
+  "mel-tucker": {
+    "name": "Mel Tucker",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "mel-tucker.jpg",
+    "article": "https://en.wikipedia.org/wiki/Mel_Tucker",
+    "imageFile": "File:GA_VS_LSU_E101318_66_(cropped2).jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Tammy Anthony Baker, Photographer",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:GA_VS_LSU_E101318_66_(cropped2).jpg"
+  },
+  "jim-mcelwain": {
+    "name": "Jim McElwain",
+    "group": "counterexample",
+    "status": "ok",
+    "file": "jim-mcelwain.jpg",
+    "article": "https://en.wikipedia.org/wiki/Jim_McElwain",
+    "imageFile": "File:Jim_McElwain.png",
+    "license": "CC BY-SA 4.0",
+    "artist": "University Athletic Association, Inc.",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Jim_McElwain.png"
+  },
+  "bo-davis": {
+    "name": "Bo Davis",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Bo Davis\" has no lead image",
+    "file": "bo-davis.svg"
+  },
+  "mike-stoops": {
+    "name": "Mike Stoops",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Mike Stoops\" has no lead image",
+    "file": "mike-stoops.svg"
+  },
+  "freddie-roach": {
+    "name": "Freddie Roach",
+    "group": "counterexample",
+    "status": "missing",
+    "reason": "article \"Freddie Roach (American football)\" has no lead image",
+    "file": "freddie-roach.svg"
   }
 }

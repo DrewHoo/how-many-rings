@@ -1,49 +1,75 @@
-export interface Game {
-  opp: string
-  gf: number // goals this team scored (in-play + ET, no shootout)
-  ga: number // goals conceded
-  result: 'W' | 'L' | 'D'
-  stage: string
-}
-
-export interface EditionPoint {
-  year: number // World Cup edition
-  ts: number // UTC timestamp used for the x-position (edition's last match)
-  cum: number // cumulative goals for this team through this edition
-  goals: number // goals this team scored in this tournament
-  champion: boolean // this team won the World Cup that year
-  games: Game[] // this team's matches that tournament, in order of appearance
-}
-
-export interface TeamSeries {
-  team: string
-  total: number
-  editions: number
-  matches: number
-  defunct: boolean // nation no longer exists (e.g. West Germany, Soviet Union)
-  points: EditionPoint[]
-}
+export type RoleCat =
+  | 'headcoach' | 'onfield' | 'sc' | 'analyst' | 'qc'
+  | 'gradasst' | 'ops' | 'medical' | 'equipment' | 'other'
 
 export interface Source {
-  label: string
-  publisher: string
   url: string
-  license?: string
-  accessed: string
+  /** Verbatim text from the source page supporting this ring. */
+  quote: string
+}
+
+export interface Ring {
+  season: number
+  team: string
+  /** Role exactly as the source words it. */
+  role: string
+  cat: RoleCat
+  /** Only present when the person arrived or left mid-season. */
+  note?: string
+  sources: Source[]
+}
+
+export interface Coach {
+  id: string
+  name: string
+  rings: Ring[]
+  total: number
+  /** Rings earned in support roles (S&C, analyst, ops, medical, …). */
+  support: number
+  onfield: number
+  head: number
+  schools: string[]
+  photo?: string
+  placeholder?: string
+  photoCredit?: { license?: string; page?: string; note?: string }
 }
 
 export interface Dataset {
-  generatedAt: string
-  source: Source
   meta: {
-    editions: number
-    yearsSpanned: [number, number]
-    matchesUsed: number
-    matchesSkipped: number
-    teamsTotal: number
-    defaultTop: number
-    defaultSelection: string[]
-    goalRule: string
+    built: string
+    seasons: { team: string; season: number; staffCount: number; coverageNotes: string }[]
+    seasonCount: number
+    peopleTotal: number
+    note: string
   }
-  teams: TeamSeries[]
+  coaches: Coach[]
+}
+
+/** Scope filters — which rings "count" for the ranking. */
+export type Scope = 'all' | 'support' | 'onfield'
+
+export const ROLE_LABEL: Record<RoleCat, string> = {
+  headcoach: 'Head coach',
+  onfield: 'On-field assistant',
+  sc: 'Strength & conditioning',
+  analyst: 'Analyst',
+  qc: 'Quality control',
+  gradasst: 'Graduate assistant',
+  ops: 'Operations',
+  medical: 'Medical / training',
+  equipment: 'Equipment',
+  other: 'Support staff',
+}
+
+const SUPPORT_CATS: RoleCat[] = ['sc', 'analyst', 'qc', 'gradasst', 'ops', 'medical', 'equipment', 'other']
+
+/** Does this ring count under the active scope? */
+export function inScope(ring: Ring, scope: Scope): boolean {
+  if (scope === 'all') return true
+  if (scope === 'onfield') return ring.cat === 'onfield' || ring.cat === 'headcoach'
+  return SUPPORT_CATS.includes(ring.cat)
+}
+
+export function scopedCount(coach: Coach, scope: Scope): number {
+  return coach.rings.filter((r) => inScope(r, scope)).length
 }

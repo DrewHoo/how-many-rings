@@ -1,217 +1,141 @@
 import { useEffect, useMemo, useState } from 'react'
-import type { CSSProperties } from 'react'
-import type { Dataset } from './lib/types.ts'
-import { colorFor } from './lib/colors.ts'
-import { GoalRaceChart } from './components/GoalRaceChart.tsx'
-import { TeamSearch } from './components/TeamSearch.tsx'
-import { Sources } from './components/Sources.tsx'
+import type { Coach, Dataset, Ring, Scope } from './lib/types.ts'
+import { ROLE_LABEL, scopedCount } from './lib/types.ts'
+import { CoachRow } from './components/CoachRow.tsx'
+import { RingGlyphs } from './components/RingGlyphs.tsx'
 import { ShareButton } from './components/ShareButton.tsx'
 
-function useIsNarrow() {
-  const [narrow, setNarrow] = useState(() =>
-    typeof window !== 'undefined' ? window.innerWidth < 640 : false,
-  )
+const BASE = import.meta.env.BASE_URL
+const SCOPES: { key: Scope; label: string; blurb: string }[] = [
+  { key: 'all', label: 'Everyone on staff', blurb: 'Every person the team listed — coaches, trainers, analysts, operations.' },
+  { key: 'support', label: 'Support staff only', blurb: 'Strength, medical, analysts, operations — the people who never appear on TV.' },
+  { key: 'onfield', label: 'Coaches only', blurb: 'Head coach and on-field assistants, the traditional definition.' },
+]
+
+function useQueryState(key: string, fallback: string) {
+  const [v, setV] = useState(() =>
+    (typeof window === 'undefined' ? null : new URLSearchParams(window.location.search).get(key)) ?? fallback)
   useEffect(() => {
-    const on = () => setNarrow(window.innerWidth < 640)
-    window.addEventListener('resize', on)
-    return () => window.removeEventListener('resize', on)
-  }, [])
-  return narrow
+    const p = new URLSearchParams(window.location.search)
+    v === fallback ? p.delete(key) : p.set(key, v)
+    const q = p.toString()
+    window.history.replaceState(null, '', q ? `?${q}` : window.location.pathname)
+  }, [key, v, fallback])
+  return [v, setV] as const
 }
 
 export function App() {
   const [data, setData] = useState<Dataset | null>(null)
   const [error, setError] = useState<string | null>(null)
-  const [selected, setSelected] = useState<Set<string> | null>(null)
-  const [highlight, setHighlight] = useState<string | null>(() =>
-    typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('team') : null,
-  )
-  const narrow = useIsNarrow()
+  const [scope, setScope] = useQueryState('scope', 'all')
+  const [q, setQ] = useQueryState('q', '')
+  const [open, setOpen] = useQueryState('open', '')
+  const [tip, setTip] = useState<{ ring: Ring; x: number; y: number } | null>(null)
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data/worldcup.json`)
+    fetch(`${BASE}data/rings.json`)
       .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
-      .then((d: Dataset) => setData(d))
+      .then(setData)
       .catch((e) => setError(String(e)))
   }, [])
 
-  // Stable colour per team, by all-time rank (so a team keeps its colour
-  // regardless of what else is selected).
-  const colorByTeam = useMemo(() => {
-    const m = new Map<string, string>()
-    data?.teams.forEach((t, i) => m.set(t.team, colorFor(i)))
-    return m
-  }, [data])
-  const colorOf = (team: string) => colorByTeam.get(team) ?? '#999'
+  const ranked = useMemo(() => {
+    if (!data) return []
+    const s = scope as Scope
+    const needle = q.trim().toLowerCase()
+    return data.coaches
+      .map((c) => ({ c, n: scopedCount(c, s) }))
+      .filter(({ c, n }) => n >= 2 && (!needle ||
+        c.name.toLowerCase().includes(needle) ||
+        c.schools.some((t) => t.toLowerCase().includes(needle))))
+      .sort((a, b) => b.n - a.n || a.c.name.localeCompare(b.c.name))
+  }, [data, scope, q])
 
-  const defaultSet = useMemo(() => new Set(data?.meta.defaultSelection ?? []), [data])
+  const leader: Coach | undefined = data?.coaches.find((c) => c.id === 'scott-cochran')
+  const activeScope = SCOPES.find((s) => s.key === scope) ?? SCOPES[0]
 
-  // Initialise selection once data lands: honour a shared ?teams= list, else the
-  // default top-20. A ?team= highlight is folded in so its line is visible.
-  useEffect(() => {
-    if (!data || selected) return
-    const known = new Set(data.teams.map((t) => t.team))
-    const raw = new URLSearchParams(window.location.search).get('teams')
-    let init = raw ? raw.split(',').filter((t) => known.has(t)) : []
-    if (!init.length) init = data.meta.defaultSelection
-    if (highlight && known.has(highlight) && !init.includes(highlight)) init = [...init, highlight]
-    if (highlight && !known.has(highlight)) setHighlight(null)
-    setSelected(new Set(init))
-  }, [data, selected, highlight])
-
-  // Mirror state → URL. ?teams= only when the selection differs from default.
-  useEffect(() => {
-    if (!data || !selected) return
-    const isDefault = selected.size === defaultSet.size && [...selected].every((t) => defaultSet.has(t))
-    const params = new URLSearchParams()
-    // URLSearchParams.toString() handles percent-encoding; don't pre-encode
-    // (that double-encodes spaces to %2520). No team name contains a comma.
-    if (!isDefault) params.set('teams', [...selected].join(','))
-    if (highlight) params.set('team', highlight)
-    const qs = params.toString()
-    const next = qs ? `${location.pathname}?${qs}` : location.pathname
-    if (next !== location.pathname + location.search) history.replaceState(null, '', next)
-  }, [data, selected, highlight, defaultSet])
-
-  const selectedTeams = useMemo(
-    () => (data && selected ? data.teams.filter((t) => selected.has(t.team)) : []),
-    [data, selected],
-  )
-  const isDefaultSelection =
-    !!selected && selected.size === defaultSet.size && [...selected].every((t) => defaultSet.has(t))
-
-  function toggleSelect(team: string) {
-    const has = selected?.has(team)
-    setSelected((prev) => {
-      const n = new Set(prev)
-      if (has) n.delete(team); else n.add(team)
-      return n
-    })
-    if (has && highlight === team) setHighlight(null)
-  }
-  function isolate(team: string) {
-    setSelected((prev) => { const n = new Set(prev); n.add(team); return n })
-    setHighlight((cur) => (cur === team ? null : team))
-  }
-  function resetSelection() {
-    if (!data) return
-    setSelected(new Set(data.meta.defaultSelection))
-    setHighlight(null)
-  }
-
-  const leader = data?.teams[0]
-  const btn: CSSProperties = {
-    font: 'inherit', fontSize: 13, cursor: 'pointer', padding: '6px 12px',
-    borderRadius: 8, border: '1px solid var(--line)', background: 'var(--card)', color: 'var(--ink)',
-  }
+  if (error) return <main className="wrap"><p className="err">Couldn’t load the data: {error}</p></main>
+  if (!data) return <main className="wrap"><p className="muted">Loading…</p></main>
 
   return (
-    <main style={{ maxWidth: 920, margin: '0 auto', padding: narrow ? '28px 16px 72px' : '48px 28px 96px' }}>
-      <p style={{ margin: 0, fontSize: 12, letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--accent)', fontWeight: 600 }}>
-        A Curio · built on open data
-      </p>
-      <h1 style={{ fontSize: narrow ? 30 : 42, lineHeight: 1.08, margin: '10px 0 14px', textWrap: 'balance' }}>
-        The World Cup Goal Race
-      </h1>
-      <p style={{ fontSize: narrow ? 16 : 18, color: 'var(--muted)', margin: '0 0 6px', maxWidth: 640 }}>
-        Every goal every nation has scored across World Cup history, 1930–2022, as a cumulative race.
-        Each line is a country; each point is one World Cup — hover it for every game they played, and a 🏆 marks a title.
-      </p>
-      {leader && (
-        <p className="tabular" style={{ fontSize: 15, color: 'var(--ink)', margin: '0 0 22px' }}>
-          {leader.team} leads with <b>{leader.total}</b> goals across {leader.matches} matches.
+    <main className="wrap" onPointerMove={(e) => tip && setTip({ ...tip, x: e.clientX, y: e.clientY })}>
+      <header className="head">
+        <h1>How Many Rings?</h1>
+        <p className="lede">
+          Head coaches get the statues. But an assistant who rides shotgun on a dynasty — and then
+          follows it somewhere else — can quietly out-ring almost everyone in the sport.
+          Here is every person on a national-championship staff since 1990, ranked by rings.
         </p>
+      </header>
+
+      {leader && (
+        <section className="hero">
+          {leader.photo && <img className="hero-face" src={`${BASE}headshots/${leader.photo}`} alt={leader.name} width={132} height={176} />}
+          <div className="hero-body">
+            <p className="kicker">The one that started this</p>
+            <p className="hero-num tabular">{leader.total}</p>
+            <h2 className="hero-name">{leader.name}</h2>
+            <p className="hero-blurb">
+              Strength coach. He followed Nick Saban from LSU to Alabama, then followed Kirby Smart
+              to Georgia — collecting a ring at every stop. Seven of his eight came in roles that
+              never show up on a coaching staff list.
+            </p>
+            <div className="hero-rings"><RingGlyphs rings={leader.rings} scope="all" /></div>
+          </div>
+        </section>
       )}
 
-      <div style={{
-        background: 'var(--card)', border: '1px solid var(--line)', borderRadius: 14,
-        padding: narrow ? '14px 8px 10px' : '18px 18px 12px', boxShadow: '0 1px 3px rgba(0,0,0,0.03)',
-      }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap', padding: '0 6px 10px' }}>
-          {data && selected && (
-            <TeamSearch teams={data.teams} selected={selected} onToggle={toggleSelect} colorOf={colorOf} />
-          )}
-          <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginLeft: 'auto' }}>
-            {highlight && <button onClick={() => setHighlight(null)} style={btn}>Show all lines</button>}
-            {!isDefaultSelection && selected && <button onClick={resetSelection} style={btn}>Reset to top 20</button>}
-            <ShareButton />
-          </div>
+      <section className="controls">
+        <div className="segmented" role="tablist" aria-label="Which rings count">
+          {SCOPES.map((s) => (
+            <button key={s.key} role="tab" aria-selected={scope === s.key}
+              className={scope === s.key ? 'seg on' : 'seg'}
+              onClick={() => setScope(s.key)}>{s.label}</button>
+          ))}
         </div>
+        <input className="search" type="search" placeholder="Filter by name or school…"
+          value={q} onChange={(e) => setQ(e.target.value)} aria-label="Filter by name or school" />
+        <ShareButton />
+      </section>
+      <p className="scope-blurb">{activeScope.blurb} <strong>{ranked.length}</strong> people have 2+ rings under this rule.</p>
 
-        {error && <p style={{ color: '#9c560f', padding: 24 }}>Couldn’t load the data: {error}</p>}
-        {!data && !error && <p style={{ color: 'var(--faint)', padding: 24 }}>Loading the last 92 years of World Cups…</p>}
-        {data && selected && (
-          <GoalRaceChart
-            teams={selectedTeams}
-            colorOf={colorOf}
-            highlight={highlight}
-            onHighlight={isolate}
-            height={narrow ? 380 : 470}
-          />
-        )}
+      <ol className="rows">
+        {ranked.slice(0, 100).map(({ c, n }, i) => (
+          <CoachRow key={c.id} coach={c} rank={i + 1} scope={scope as Scope} count={n}
+            expanded={open === c.id}
+            onToggle={() => setOpen(open === c.id ? '' : c.id)}
+            onHoverRing={(ring, el) => {
+              if (!ring || !el) return setTip(null)
+              const b = el.getBoundingClientRect()
+              setTip({ ring, x: b.left + b.width / 2, y: b.top })
+            }} />
+        ))}
+      </ol>
+      {ranked.length > 100 && <p className="muted more">Showing the top 100 of {ranked.length}. Search to find anyone else.</p>}
 
-        {/* Legend of selected teams. Click a chip to isolate its line; × removes it. */}
-        {data && (
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, padding: '10px 6px 4px' }}>
-            {selectedTeams.map((t) => {
-              const on = highlight === t.team
-              const dim = highlight !== null && !on
-              return (
-                <span
-                  key={t.team}
-                  style={{
-                    display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 13,
-                    padding: '4px 4px 4px 10px', borderRadius: 999,
-                    border: `1px solid ${on ? 'var(--ink)' : 'var(--line)'}`,
-                    background: on ? 'var(--ink)' : 'var(--card)',
-                    color: on ? 'var(--card)' : 'var(--ink)', opacity: dim ? 0.5 : 1,
-                  }}
-                >
-                  <button
-                    onClick={() => isolate(t.team)}
-                    aria-pressed={on}
-                    style={{ display: 'inline-flex', alignItems: 'center', gap: 7, font: 'inherit', fontSize: 13, cursor: 'pointer', border: 'none', background: 'none', color: 'inherit', padding: 0 }}
-                  >
-                    <span style={{ width: 10, height: 10, borderRadius: 10, background: colorOf(t.team), flex: 'none' }} />
-                    {t.team}
-                    <span className="tabular" style={{ color: on ? 'var(--card)' : 'var(--muted)' }}>{t.total}</span>
-                  </button>
-                  <button
-                    onClick={() => toggleSelect(t.team)}
-                    aria-label={`Remove ${t.team}`}
-                    style={{ cursor: 'pointer', border: 'none', background: 'none', color: on ? 'var(--card)' : 'var(--faint)', fontSize: 15, lineHeight: 1, padding: '0 4px' }}
-                  >×</button>
-                </span>
-              )
-            })}
-          </div>
-        )}
-      </div>
+      {tip && (
+        <div className="tip" style={{ left: tip.x, top: tip.y }}>
+          <b>{tip.ring.season} {tip.ring.team}</b>
+          <span>{tip.ring.role}</span>
+          <em>{ROLE_LABEL[tip.ring.cat]}</em>
+        </div>
+      )}
 
-      <div style={{ marginTop: 20, fontSize: 14.5, color: 'var(--muted)', maxWidth: 660, display: 'grid', gap: 8 }}>
-        <p style={{ margin: 0 }}>
-          <b style={{ color: 'var(--ink)' }}>Reading it:</b> each point is one World Cup for that country, at its
-          running goal total; a 🏆 marks the year they won it. Hover (or tap) a point for that tournament’s games.
-          Use search to add any nation — including former ones — or tap a country to isolate its run.
+      <footer className="foot">
+        <h3>How this was counted</h3>
+        <p>
+          A ring here means: this person was on the staff of a team that won the national championship
+          that season, and was still on staff at the championship game. The count comes from staff
+          rosters for all {data.meta.seasonCount} championship team-seasons since 1990 — {data.meta.peopleTotal.toLocaleString()} people in
+          all — each row carrying the source page and the verbatim line that supports it. Click any
+          name to see the receipts.
         </p>
-        <p style={{ margin: 0 }}>
-          <b style={{ color: 'var(--ink)' }}>Former nations</b> like West Germany and the Soviet Union aren’t in the
-          default top 20, but you can add them — West Germany’s goals alone would rank near the very top.
+        <p className="muted">
+          Data built {data.meta.built}. Split national titles count for both schools. The 2004 USC title
+          was later vacated, but the rings were handed out. Coverage of support staff is thinner in the
+          early 1990s than today, so this undercounts the older dynasties.
         </p>
-        {data && (
-          <p style={{ margin: 0, fontSize: 13.5, color: 'var(--faint)' }}>
-            {data.meta.matchesUsed} matches across {data.meta.editions} tournaments, {data.meta.teamsTotal} nations. {data.meta.goalRule}.
-          </p>
-        )}
-      </div>
-
-      <hr style={{ border: 0, borderTop: '1px solid var(--line)', margin: '28px 0 18px' }} />
-      {data && <Sources sources={[data.source]} />}
-
-      <p style={{ marginTop: 28, fontSize: 12.5, color: 'var(--faint)' }}>
-        Made with <a href="https://github.com/DrewHoo/curio" style={{ color: 'var(--accent)' }}>Curio</a>
-        {data ? ` · data generated ${data.generatedAt.slice(0, 10)}` : ''}. A question, settled with receipts.
-      </p>
+      </footer>
     </main>
   )
 }
