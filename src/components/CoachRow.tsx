@@ -1,6 +1,6 @@
 import type { Coach, Ring, Scope } from '../lib/types.ts'
 import { ROLE_LABEL, inScope } from '../lib/types.ts'
-import { RingGlyphs } from './RingGlyphs.tsx'
+import { RingGlyphs, PlayerRingGlyphs } from './RingGlyphs.tsx'
 
 const BASE = import.meta.env.BASE_URL
 
@@ -46,12 +46,19 @@ export function CoachRow({
       {expanded && (
         <div className="detail">
           {coach.player && (
-            <p className="player-note">
-              <strong>Also a player.</strong> {coach.player.detail}
-              {coach.player.sources.map((u, i) => (
-                <a key={u + i} href={u} target="_blank" rel="noopener noreferrer"> source</a>
-              ))}
-            </p>
+            <div className="player-note">
+              <div className="player-head">
+                <PlayerRingGlyphs titles={coach.player.titles} />
+                <strong>Won {coach.player.titles.length === 1 ? 'a ring' : `${coach.player.titles.length} rings`} as a player</strong>
+                <span className="player-titles">{coach.player.titles.join(' · ')}</span>
+              </div>
+              <p>
+                {coach.player.detail}
+                {coach.player.sources.map((u, i) => (
+                  <a key={u + i} href={u} target="_blank" rel="noopener noreferrer"> source</a>
+                ))}
+              </p>
+            </div>
           )}
           <ol className="ring-list">
             {coach.rings.map((r) => (

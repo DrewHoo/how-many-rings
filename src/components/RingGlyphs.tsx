@@ -17,6 +17,37 @@ export function RingGlyphs({
   scope: Scope
   onHover?: (r: Ring | null, el: EventTarget & SVGCircleElement | null) => void
 }) {
+  return <Glyphs rings={rings} scope={scope} onHover={onHover} />
+}
+
+/**
+ * Rings won as a player: same hue, filled instead of outlined. A second
+ * encoding rather than a second color, so the page still has one data color.
+ */
+export function PlayerRingGlyphs({ titles }: { titles: string[] }) {
+  const step = R * 2 + GAP
+  const w = titles.length * step
+  const h = R * 2 + STROKE
+  return (
+    <svg width={w} height={h} viewBox={`0 0 ${w} ${h}`} role="img"
+      aria-label={`${titles.length} won as a player: ${titles.join(', ')}`}>
+      {titles.map((t, i) => (
+        <circle key={t} cx={i * step + R + STROKE / 2} cy={h / 2} r={R - STROKE / 2}
+          fill="var(--ring-on)" stroke="var(--ring-on)" strokeWidth={STROKE}>
+          <title>{`${t} — won as a player`}</title>
+        </circle>
+      ))}
+    </svg>
+  )
+}
+
+function Glyphs({
+  rings, scope, onHover,
+}: {
+  rings: Ring[]
+  scope: Scope
+  onHover?: (r: Ring | null, el: EventTarget & SVGCircleElement | null) => void
+}) {
   const step = R * 2 + GAP
   const w = rings.length * step
   const h = R * 2 + STROKE
