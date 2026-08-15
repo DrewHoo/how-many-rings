@@ -1,0 +1,11 @@
+{
+  "note": "Sources spell the same person differently across seasons — a media guide says 'Wes Neighbors' one year and 'Wesley Neighbors' the next, so a naive join splits one person into two and undercounts both. The rosters keep each source's exact wording; these aliases merge them at build time. Key is the variant, value is the canonical name. Detected by scripts/coverage-report.mjs and confirmed by hand.",
+  "aliases": {
+    "Wesley Neighbors": "Wes Neighbors",
+    "Jeffrey Springer": "Jeff Springer",
+    "Anthony Meacham": "Tony Meacham",
+    "Cameron Aiken": "Cam Aiken",
+    "Matthew Hard": "Matt Hard",
+    "Michael Stoops": "Mike Stoops"
+  }
+}

@@ -11,7 +11,12 @@ const outDir = path.join(root, 'public', 'data')
 fs.mkdirSync(outDir, { recursive: true })
 
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
-const norm = (n) => n.trim().replace(/\s+/g, ' ').replace(/[.']/g, '').replace(/\s+(Jr|Sr|II|III|IV)$/i, '')
+
+// Sources spell one person several ways across seasons; canonicalize before the
+// join so a name variant doesn't split someone into two undercounted people.
+const ALIASES = JSON.parse(fs.readFileSync(path.join(root, 'data', 'name-aliases.json'), 'utf8')).aliases
+const canonical = (n) => ALIASES[n.trim()] ?? n.trim()
+const norm = (n) => canonical(n).replace(/\s+/g, ' ').replace(/[.']/g, '').replace(/\s+(Jr|Sr|II|III|IV)$/i, '')
 
 // Roles the site groups into two readable buckets. 'onfield'/'headcoach' are the
 // coaches you see on TV; everything else is the support staff the project is about.
@@ -81,7 +86,7 @@ for (const file of fs.readdirSync(staffDir).filter((f) => f.endsWith('.json'))) 
       excluded.set(key, e)
       continue
     }
-    if (!people.has(key)) people.set(key, { name: row.name, rings: [] })
+    if (!people.has(key)) people.set(key, { name: canonical(row.name), rings: [] })
     people.get(key).rings.push({
       season, team, role: row.role,
       cat: row.role_category,

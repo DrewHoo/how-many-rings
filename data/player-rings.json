@@ -2,6 +2,317 @@
   "note": "Championships won as a PLAYER by people who also appear on staff. Kept separate from staff rings — the leaderboard ranks staff rings, and a player ring shows as a badge. Filled by scripts + research; see docs/data-pipeline.md.",
   "players": [
     {
+      "name": "Chad Young",
+      "titles": [
+        "1994 Nebraska",
+        "1995 Nebraska"
+      ],
+      "detail": "Young walked on at Nebraska in 1992 out of Millard South (Omaha), saw limited action across four years and earned his varsity letter as a senior; huskers.com credits him as a \"Member of Two Nebraska National Championship Teams (1994, 1995).\" Note the conflict worth flagging: the dataset credits him as an undergraduate assistant coach in 1995, but Nebraska's official records list him as a rostered free safety that same season, so either he was carried in both capacities or the staff-year credit is off by a year — the 1994 player ring is the solid part.",
+      "sources": [
+        "https://huskers.com/sports/football/roster/player/chad-young",
+        "https://huskers.com/sports/football/roster/season/1995/player/chad-young",
+        "https://www.huskermax.com/rosters/1994-roster/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Denzel Devall",
+      "titles": [
+        "2012 Alabama",
+        "2015 Alabama"
+      ],
+      "detail": "Devall played linebacker at Alabama from 2012-15 and earned national championship rings in both his freshman (2012) and senior (2015) seasons. He passed on chasing pro football and rejoined the program in July 2016 as a personnel assistant, was briefly an assistant strength coach, and was promoted to director of player development in February 2017 — on staff for the 2017 and 2020 titles.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Denzel_Devall",
+        "https://tdalabamamag.com/2017/02/22/denzel-devall-receives-promotion-moves-tides-director-player-development/",
+        "https://rolltide.com/staff-directory/denzel-devall/475"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Josh Chapman",
+      "titles": [
+        "2009 Alabama",
+        "2011 Alabama"
+      ],
+      "detail": "Chapman was a nose guard at Alabama from 2007-11 and started in the middle of the defensive line for both the 2009 and 2011 national title teams, then spent four years in the NFL with the Colts. He came back to Tuscaloosa in 2016 as an assistant strength and conditioning coach, adding the 2017 and 2020 championships from the weight room.",
+      "sources": [
+        "https://www.saturdaydownsouth.com/alabama-football/josh-chapman-alabama-staff/",
+        "https://en.wikipedia.org/wiki/Josh_Chapman"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Nick Perry",
+      "titles": [
+        "2011 Alabama",
+        "2012 Alabama"
+      ],
+      "detail": "Perry spent five seasons (2010-14) as a defensive back at Alabama, starting at safety as a senior and collecting rings for the back-to-back 2011 and 2012 titles. After a brief NFL stint he came home as a graduate assistant and analyst from 2017-20, which put him on staff for the 2017 and 2020 championships before he moved on to the Falcons, Seahawks and Virginia Tech. Namesake caution: distinct from Nick Perry the USC/Packers linebacker.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nick_Perry_(safety)",
+        "https://www.saturdaydownsouth.com/alabama-football/nick-perry-joining-staff-graduate-assistant/",
+        "https://tdalabamamag.com/2023/02/28/former-alabama-safety-nick-perry-gets-new-position-on-falcons-staff/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Ryan Stamper",
+      "titles": [
+        "2006 Florida",
+        "2008 Florida"
+      ],
+      "detail": "Stamper was a linebacker and two-time captain at Florida, on the roster for both of Urban Meyer's BCS national championship teams (2006 and 2008) and winner of the Gators' Fergie Ferguson Award as a senior. After a year as a police officer in Florida he rejoined Meyer at Ohio State in player development, and was on staff as Coordinator of Player Development for the Buckeyes' 2014 College Football Playoff title — a third ring, this one on the sideline.",
+      "sources": [
+        "https://www.jaguars.com/team/front-office-roster/ryan-stamper",
+        "https://floridagators.com/roster.aspx?rp_id=1519",
+        "https://www.elevenwarriors.com/ohio-state-football/2021/01/120598/player-development-director-ryan-stamper-leaving-ohio-state-to-join-urban-meyer-on-jacksonville-jaguars",
+        "https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Tyler Owens",
+      "titles": [
+        "2011 Alabama",
+        "2012 Alabama"
+      ],
+      "detail": "Owens was a walk-on linebacker at Alabama from 2011-14, on the roster for the back-to-back 2011 and 2012 national championships, and graduated in 2015. He joined Saban's strength staff as an assistant strength and conditioning coach before the 2015 season and stayed through January 2021, collecting the 2015, 2017 and 2020 titles as a staffer before becoming Arizona's head strength coach.",
+      "sources": [
+        "https://arizonawildcats.com/staff-directory/tyler-owens/1542",
+        "https://arizonawildcats.com/news/2021/1/12/football-fisch-names-owens-head-of-strength-and-conditioning",
+        "https://www.azdesertswarm.com/football/2021/1/12/22226455/tyler-owens-arizona-wildcats-strength-conditioning-alabama-crimson-tide-jedd-fisch-2021-football"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Wes Neighbors",
+      "titles": [
+        "2009 Alabama",
+        "2011 Alabama"
+      ],
+      "detail": "Neighbors (Wes Neighbors III, from the four-generation Alabama Neighbors family) played safety and special teams for the Tide from 2008 to 2011 and is a two-time national champion as a player (2009, 2011). He moved straight onto Saban's staff as a student assistant in 2011-12, then off-field GA, defensive GA and defensive analyst, adding the 2012 and 2015 titles on staff. NOTE: this dataset row and the 'Wes Neighbors' row are the same man; also note heavy namesake risk — his grandfather Billy Neighbors played on Alabama's 1961 title team and his father Wes Neighbors Sr. was an Alabama center in the mid-1980s.",
+      "sources": [
+        "https://fausports.com/staff-directory/Wes-Neighbors/381",
+        "https://olemisssports.com/staff-directory/wes-neighbors-iii/918",
+        "https://olemisssports.com/news/2023/1/17/football-names-wes-neighbors-iii-as-safeties-coach"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "William Vlachos",
+      "titles": [
+        "2009 Alabama",
+        "2011 Alabama"
+      ],
+      "detail": "Starting center at Alabama 2008-2011 — blocked for Mark Ingram's Heisman season — and on the roster for the 2009 and 2011 titles. Came back as a graduate assistant and offensive analyst, adding 2015 and 2017 on staff. Four Alabama rings, two of each kind.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/William_Vlachos",
+        "https://www.on3.com/teams/ole-miss-rebels/news/ole-miss-football-2024-william-vlachos-hire-analyst-lane-kiffin-nick-saban/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Wilson Love",
+      "titles": [
+        "2011 Alabama",
+        "2012 Alabama"
+      ],
+      "detail": "A Mountain Brook product who signed with Alabama in 2010, Love played defensive end through 2013 and was on the roster for the 2011 and 2012 national championships while earning three Academic All-SEC nods. He stayed on as a defensive graduate assistant in 2014 and then as an assistant strength and conditioning coach in 2015-16 under Scott Cochran, adding the 2015 title on staff before leaving for FAU, Ole Miss and Oregon.",
+      "sources": [
+        "https://rolltide.com/sports/football/roster/wilson-love/5550",
+        "https://olemisssports.com/staff-directory/wilson-love/635",
+        "https://tdalabamamag.com/2020/02/25/lane-kiffin-wants-alabama-to-keep-its-hands-off-former-tide-alum-and-current-ole-miss-strength-coach-wilson-love/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Abdul Muhammad",
+      "titles": [
+        "1994 Nebraska"
+      ],
+      "detail": "Muhammad was Nebraska's starting wingback as a senior in 1994, catching 23 passes for 360 yards and adding four catches for 60 yards in the Orange Bowl win over Miami that clinched the title. He stayed on to finish his degree and worked the 1995 season as an undergraduate assistant coach, which put him on the sideline for a second straight championship.",
+      "sources": [
+        "https://huskers.com/sports/football/roster/season/1994/player/abdul-muhammad",
+        "https://huskers.com/sports/football/roster/player/abdul-muhammad",
+        "https://journalstar.com/sports/huskers/football/2014/rutgers/94-flashback-muhammads-late-decision-helps-huskers/article_3195d4b9-d8fc-5829-ba73-7fc467afa93e.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Adrien Dunn",
+      "titles": [
+        "2016 Clemson"
+      ],
+      "detail": "Dunn was an original walk-on receiver at Clemson from 2013-16 who earned a scholarship, appeared in 11 career games and was No. 82 on the 2016 national championship roster — he returned a punt 30 yards against S.C. State that season before tearing his ACL on the play. After a season at Furman he came back to Clemson as a football strength and conditioning graduate assistant in 2018-19, adding a second ring on staff for the 2018 title.",
+      "sources": [
+        "https://libertyflames.com/sports/football/roster/staff/adrien-dunn/292",
+        "https://clemsontigers.com/sports/football/roster/player/adrien-dunn-177748",
+        "https://en.wikipedia.org/wiki/2016_Clemson_Tigers_football_team",
+        "https://clemsontigers.com/staff/adrien-dunn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Chad Stanley",
+      "titles": [
+        "1994 Nebraska"
+      ],
+      "detail": "Stanley was a walk-on fullback from Lebanon, Kansas who lettered and was on the roster for the 1994 championship team; huskers.com lists him under the honor \"Member of the 1994 Nebraska National Championship Team.\" He is gone from the 1995 playing roster and shows up as an undergraduate assistant coach in 1995 and again in 1997, adding two more rings on staff. Namesake caution: \"Chad Stanley\" is also the name of an unrelated NFL punter from Stephen F. Austin, so match on the Nebraska fullback only.",
+      "sources": [
+        "https://huskers.com/sports/football/roster/player/chad-stanley",
+        "https://www.huskermax.com/rosters/1994-roster/",
+        "https://www.huskermax.com/rosters/1995-roster/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Chris Weinke",
+      "titles": [
+        "1999 Florida State"
+      ],
+      "detail": "Weinke quarterbacked Florida State to a 12-0 season and the 1999 BCS national championship, then won the 2000 Heisman Trophy as a 28-year-old senior after a detour through minor league baseball. Nearly two decades later he spent the 2017 season as an offensive analyst on Nick Saban's staff, adding a second ring as Alabama beat Georgia for the CFP title.",
+      "sources": [
+        "https://seminoles.com/honors/florida-state-athletics-hall-of-fame/chris-weinke/123",
+        "https://footballfoundation.org/hof_scholars.aspx?hof=208",
+        "https://utsports.com/sports/football/roster/coaches/chris--weinke/4743"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Dabo Swinney",
+      "titles": [
+        "1992 Alabama"
+      ],
+      "detail": "Swinney joined Alabama as a walk-on receiver in 1989, was put on scholarship in 1990 and lettered 1990-92, catching seven passes for 81 yards while serving as a reserve wideout and special teams starter on Gene Stallings' 13-0 1992 national championship team. He later returned to coaching, landed at Clemson in 2003 and as head coach won national titles in 2016 and 2018 — the same program he now runs having given him his coaching start after his playing ring.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dabo_Swinney",
+        "https://clemsontigers.com/staff/dabo",
+        "https://old.clemsontigers.com/connections",
+        "https://www.espn.com/college-football/story/_/id/21024197/dabo-swinney-attends-reunion-tuscaloosa-alabama-1992-national-championship-team"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Ed Morrow",
+      "titles": [
+        "1994 Nebraska"
+      ],
+      "detail": "Morrow was a reserve outside linebacker (#42) on the 1994 Nebraska roster — huskers.com's own player page tags him as a \"Member of Nebraska's 1994 National Championship Team\" and notes he helped the Huskers to the unbeaten season that ended with the 24-17 Orange Bowl win over Miami. He is off the playing roster by 1995 and appears in the media guide as an undergraduate assistant coach, so he collected a second ring that fall from the sideline.",
+      "sources": [
+        "https://huskers.com/sports/football/roster/season/1994/player/ed-morrow",
+        "https://huskers.com/sports/football/roster/player/ed-morrow",
+        "https://www.huskermax.com/rosters/1994-roster/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Jake Long",
+      "titles": [
+        "2015 Alabama"
+      ],
+      "detail": "A Vestavia Hills native, Long was a walk-on defensive lineman on the Alabama roster from 2013-16 — which includes the 2015 championship team — though he never saw game action as a junior or senior. He moved straight into coaching, working as a student assistant in 2017 and a graduate assistant from 2018-20, so he was on staff for the 2020 title. Namesake caution: this is not Jake Long the Michigan All-American offensive tackle and No. 1 overall NFL pick.",
+      "sources": [
+        "https://247sports.com/college/alabama/article/former-alabama-football-walk-on-jake-long-rejoining-crimson-tide-staff-203797714/",
+        "https://rolltide.com/sports/football/roster/jake-long/3133",
+        "https://tide1009.com/former-alabama-defensive-lineman-and-staffer-returns-to-capstone/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Javier Arenas",
+      "titles": [
+        "2009 Alabama"
+      ],
+      "detail": "Arenas was a consensus All-American cornerback and record-setting punt returner at Alabama from 2006-09, finishing with the BCS title won in the January 2010 game, then went in the second round of the 2010 NFL Draft. He returned to the program as an off-field staffer in the Saban era, listed in support/analyst roles through the 2020 championship season.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Javier_Arenas_(American_football)",
+        "https://www.saturdaydownsouth.com/news/college-football/former-alabama-american-db-javier-arenas-reportedly-joins-alabamas-staff/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Keary Colbert",
+      "titles": [
+        "2003 USC"
+      ],
+      "detail": "Colbert was a four-year starting receiver at USC and left as the program's all-time receptions leader, captaining the 2003 team that won the AP national championship. He was an offensive analyst at Alabama in 2014 and 2015, which put him on staff for the 2015 CFP title, before returning to USC and later becoming Florida's receivers coach. Note: USC's 2003 crown is the AP title (the Trojans' 2004 BCS championship was later vacated).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Keary_Colbert",
+        "https://floridagators.com/sports/football/roster/coaches/keary-colbert/1472",
+        "https://usctrojans.com/sports/football/roster/coaches/keary-colbert/5248"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Kenechi Udeze",
+      "titles": [
+        "2003 USC"
+      ],
+      "detail": "Udeze was a three-year starter at defensive end for USC and a consensus first-team All-American in 2003, when he led the nation with 16.5 sacks and the Trojans won the AP national championship (the split year in which LSU took the BCS title). He rejoined his former USC position coach Ed Orgeron at LSU in April 2019 as a defensive analyst under Dave Aranda and was on staff for the 15-0 CFP championship season.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kenechi_Udeze",
+        "https://www.nola.com/lsu/2019/04/former-usc-defensive-line-coach-kenechi-udeze-rejoins-ed-orgeron-as-lsu-analyst.html",
+        "https://vucommodores.com/coach/kenechi-udeze/",
+        "https://247sports.com/college/lsu/Article/LSU-Tigers-football-hire-former-YSC-coach-Kenechi-Udeze-131553872/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Lemanski Hall",
+      "titles": [
+        "1992 Alabama"
+      ],
+      "detail": "Hall led the 1992 Alabama national championship team in tackles (70), with eight tackles for loss and five sacks, earning first-team All-SEC honors as a junior before captaining the Tide in 1993 and playing seven NFL seasons. He returned to college football on Swinney's Clemson staff as a defensive analyst (2015-16) and senior defensive analyst, later working with the defensive ends, and was on staff for Clemson's championship run.",
+      "sources": [
+        "https://clemsontigers.com/staff/lemanski-hall-184645",
+        "https://en.wikipedia.org/wiki/Lemanski_Hall",
+        "https://old.clemsontigers.com/connections",
+        "https://247sports.com/coach/lemanski-hall-4012/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Mario Edwards Sr.",
+      "titles": [
+        "1999 Florida State"
+      ],
+      "detail": "Edwards signed with Florida State in 1995, sat out the 1997 season, and became a two-year starting cornerback, earning second-team All-ACC in 1998 and first-team All-ACC in 1999 while starting on the Seminoles' 12-0 BCS national championship team that beat Tennessee in the Sugar Bowl. After an NFL career with Dallas, Tampa Bay and Miami, he returned to FSU in 2012 as Director of Player Development and was on Jimbo Fisher's staff for the 2013 BCS title — a ring on the field and a ring on staff at the same school. (His son, Mario Edwards Jr., was a defensive end on that same 2013 FSU team; do not conflate the two.)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mario_Edwards",
+        "https://www.espn.com/college-football/story/_/id/8136986/mario-edwards-sr-former-florida-state-seminole-takes-director-player-development"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Mickey Conn",
+      "titles": [
+        "1992 Alabama"
+      ],
+      "detail": "Conn walked on at Alabama in 1990, redshirted as a freshman and lettered from 1992 through 1994, playing cornerback on the 13-0 1992 national championship team alongside teammate Dabo Swinney. After 16 seasons as head coach at Grayson (Ga.) High School he joined Swinney's Clemson staff as a defensive analyst in 2016, adding staff rings in 2016 and 2018 before rising to safeties coach and eventually co-defensive coordinator.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mickey_Conn",
+        "https://clemsontigers.com/staff/mickey-conn-160820",
+        "https://247sports.com/coach/mickey-conn-3970/",
+        "https://old.clemsontigers.com/connections"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Nick Schiralli",
+      "titles": [
+        "1996 Florida"
+      ],
+      "detail": "Schiralli enrolled at Florida in 1995 and worked with the scout team before becoming a four-time letterwinner as a walk-on receiver, playing in 32 regular-season games plus the January 1997 Sugar Bowl — the game that clinched Florida's first national title — along with the 1998 Citrus and 1999 Orange Bowls. He came back to Gainesville as a graduate assistant coach on Urban Meyer's staff and was on the 2006 BCS national championship staff before leaving for the Denver Broncos' scouting department in January 2008, giving him a ring as a player and another as a coach at the same school.",
+      "sources": [
+        "https://floridagators.com/sports/football/roster/nick-schiralli/7880",
+        "https://www.sports-reference.com/cfb/players/nick-schiralli-1.html",
+        "https://theorg.com/org/denver-broncos/org-chart/nick-schiralli",
+        "https://en.wikipedia.org/wiki/1996_Florida_Gators_football_team"
+      ],
+      "confidence": "high"
+    },
+    {
       "name": "Rob Ezell",
       "titles": [
         "2009 Alabama"
@@ -18,19 +329,6 @@
       "detail": "Played for Alabama 1990-92 and was on the 1992 national championship roster, then came back as a staffer — running facilities and football external affairs under Saban before joining Clemson.",
       "sources": [
         "https://clemsontigers.com/turnipseed-joins-clemson-football-staff/"
-      ],
-      "confidence": "high"
-    },
-    {
-      "name": "William Vlachos",
-      "titles": [
-        "2009 Alabama",
-        "2011 Alabama"
-      ],
-      "detail": "Starting center at Alabama 2008-2011 — blocked for Mark Ingram's Heisman season — and on the roster for the 2009 and 2011 titles. Came back as a graduate assistant and offensive analyst, adding 2015 and 2017 on staff. Four Alabama rings, two of each kind.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/William_Vlachos",
-        "https://www.on3.com/teams/ole-miss-rebels/news/ole-miss-football-2024-william-vlachos-hire-analyst-lane-kiffin-nick-saban/"
       ],
       "confidence": "high"
     }
