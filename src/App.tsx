@@ -66,7 +66,7 @@ export function App() {
   if (!data) return <main className="wrap"><p className="muted">Loading…</p></main>
 
   return (
-    <main className="wrap" onPointerMove={(e) => tip && setTip({ ...tip, x: e.clientX, y: e.clientY })}>
+    <main className="wrap">
       <header className="head">
         <h1>How Many Rings?</h1>
         <p className="lede">
@@ -95,11 +95,17 @@ export function App() {
 
       {/* A tooltip anchored to a small mark can outlive its pointer — scrolling,
           tabbing away, or a fast exit never fires the circle's leave handler. */}
-      <ol className="rows" onPointerLeave={() => setTip(null)}>
+      {/* The tooltip belongs to a ring, so it lives exactly as long as the pointer
+          is on one. Watching the list rather than each circle survives the case
+          that broke it before: clicking a ring expands the row, unmounting the
+          circle mid-hover so its own leave event never fires. */}
+      <ol className="rows"
+        onPointerLeave={() => setTip(null)}
+        onPointerMove={(e) => { if (tip && !(e.target as Element).closest('svg')) setTip(null) }}>
         {ranked.slice(0, 100).map((c, i) => (
           <CoachRow key={c.id} coach={c} rank={i + 1} scope={scope as Scope} count={c.total}
             expanded={open === c.id}
-            onToggle={() => setOpen(open === c.id ? '' : c.id)}
+            onToggle={() => { setTip(null); setOpen(open === c.id ? '' : c.id) }}
             onHoverRing={(ring, el) => {
               if (!ring || !el) return setTip(null)
               const b = el.getBoundingClientRect()

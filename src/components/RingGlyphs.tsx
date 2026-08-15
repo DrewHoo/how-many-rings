@@ -52,21 +52,34 @@ function Glyphs({
   const w = rings.length * step
   const h = R * 2 + STROKE
 
+  // One delegated listener on the <svg> rather than a pair per circle: pointerover
+  // bubbles, so it survives React re-renders that swap the circle under the cursor
+  // (clicking a ring expands the row, which used to strand the tooltip on screen).
+  const handleOver = (e: React.PointerEvent<SVGSVGElement>) => {
+    const el = e.target as Element
+    if (el.tagName !== 'circle') return onHover?.(null, null)
+    const i = Number((el as SVGCircleElement).dataset.i)
+    onHover?.(rings[i], el as SVGCircleElement)
+  }
+
   return (
     <svg width={w} height={h} viewBox={`0 0 ${w} ${h}`} role="img"
+      onPointerOver={handleOver}
+      onPointerLeave={() => onHover?.(null, null)}
       aria-label={`${rings.length} championship rings: ${rings.map((r) => `${r.season} ${r.team}`).join(', ')}`}>
       {rings.map((ring, i) => {
         const on = inScope(ring, scope)
         return (
           <circle
             key={`${ring.season}-${ring.team}`}
+            data-i={i}
             cx={i * step + R + STROKE / 2} cy={h / 2} r={R - STROKE / 2}
             fill="none"
             stroke={on ? 'var(--ring-on)' : 'var(--ring-off)'}
             strokeWidth={STROKE}
-            style={{ cursor: 'pointer', transition: 'stroke 120ms' }}
-            onPointerEnter={(e) => onHover?.(ring, e.currentTarget)}
-            onPointerLeave={() => onHover?.(null, null)}
+            // An unfilled circle is only hit-testable on its stroke, making the
+            // target a 3px outline. 'all' hands back the whole disc.
+            style={{ cursor: 'pointer', transition: 'stroke 120ms', pointerEvents: 'all' }}
           >
             <title>{`${ring.season} ${ring.team} — ${ring.role} (${ROLE_LABEL[ring.cat]})`}</title>
           </circle>
