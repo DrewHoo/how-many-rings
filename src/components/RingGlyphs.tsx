@@ -1,6 +1,9 @@
 import type { Ring, Scope } from '../lib/types.ts'
 import { inScope, ROLE_LABEL } from '../lib/types.ts'
 
+/** Matches the custom-property names generated into src/team-colors.css. */
+export const teamKey = (team: string) => team.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+
 const R = 7          // ring outer radius
 const STROKE = 3     // band thickness — a ring, not a dot
 const GAP = 6        // surface gap between adjacent marks
@@ -25,6 +28,8 @@ export function RingGlyphs({
  * encoding rather than a second color, so the page still has one data color.
  */
 export function PlayerRingGlyphs({ titles }: { titles: string[] }) {
+  // Titles arrive as "2009 Alabama"; the school is everything after the year.
+  const schoolOf = (t: string) => teamKey(t.replace(/^\d{4}\s+/, ''))
   const step = R * 2 + GAP
   const w = titles.length * step
   const h = R * 2 + STROKE
@@ -33,7 +38,8 @@ export function PlayerRingGlyphs({ titles }: { titles: string[] }) {
       aria-label={`${titles.length} won as a player: ${titles.join(', ')}`}>
       {titles.map((t, i) => (
         <circle key={t} cx={i * step + R + STROKE / 2} cy={h / 2} r={R - STROKE / 2}
-          fill="var(--ring-on)" stroke="var(--ring-on)" strokeWidth={STROKE}>
+          fill={`var(--team-${schoolOf(t)}, var(--ring-on))`}
+          stroke={`var(--team-${schoolOf(t)}, var(--ring-on))`} strokeWidth={STROKE}>
           <title>{`${t} — won as a player`}</title>
         </circle>
       ))}
@@ -75,7 +81,10 @@ function Glyphs({
             data-i={i}
             cx={i * step + R + STROKE / 2} cy={h / 2} r={R - STROKE / 2}
             fill="none"
-            stroke={on ? 'var(--ring-on)' : 'var(--ring-off)'}
+            // Hue is the school, always. Whether a ring counts in the current
+            // filter rides on opacity, so the two encodings never fight.
+            stroke={`var(--team-${teamKey(ring.team)}, var(--ring-on))`}
+            opacity={on ? 1 : 0.22}
             strokeWidth={STROKE}
             // An unfilled circle is only hit-testable on its stroke, making the
             // target a 3px outline. 'all' hands back the whole disc.

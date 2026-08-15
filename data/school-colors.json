@@ -1,0 +1,22 @@
+{
+  "note": "PROVISIONAL — pending source verification. Official brand color per school. `mark` overrides `primary` when the primary is not the color that identifies the school on a small mark (Michigan's guide leads with navy, but maize reads as Michigan; navy would also collide with other schools). scripts/gen-team-colors.mjs fits each into the light and dark lightness bands and writes src/team-colors.css.",
+  "schools": {
+    "Alabama":       { "primary": "#9E1B32" },
+    "Auburn":        { "primary": "#0C2340", "mark": "#E87722", "note": "navy is listed first; orange is the identifying mark color" },
+    "Clemson":       { "primary": "#F66733" },
+    "Colorado":      { "primary": "#CFB87C" },
+    "Florida":       { "primary": "#0021A5" },
+    "Florida State": { "primary": "#782F40" },
+    "Georgia":       { "primary": "#BA0C2F" },
+    "Indiana":       { "primary": "#990000" },
+    "LSU":           { "primary": "#461D7C" },
+    "Miami (FL)":    { "primary": "#F47321" },
+    "Michigan":      { "primary": "#00274C", "mark": "#FFCB05", "note": "navy is official primary; maize is the identifying mark color" },
+    "Nebraska":      { "primary": "#E41C38" },
+    "Ohio State":    { "primary": "#BB0000" },
+    "Oklahoma":      { "primary": "#841617" },
+    "Tennessee":     { "primary": "#FF8200" },
+    "Texas":         { "primary": "#BF5700" },
+    "USC":           { "primary": "#990000" }
+  }
+}
