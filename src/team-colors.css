@@ -3,10 +3,10 @@
    it reads as a mark on both surfaces. Source hexes and citations live in
    data/school-colors.json. */
 :root {
-  --team-alabama: #B40028;
-  --team-auburn: #AD4C00;
-  --team-clemson: #C12F00;
-  --team-colorado: #936F00;
+  --team-alabama: #B40038;
+  --team-auburn: #B33F00;
+  --team-clemson: #B63F00;
+  --team-colorado: #946E00;
   --team-florida: #002BE2;
   --team-florida-state: #9C1A45;
   --team-georgia: #BB0020;
@@ -14,20 +14,20 @@
   --team-lsu: #6520B4;
   --team-miami-fl: #B54500;
   --team-michigan: #977500;
-  --team-nebraska: #C20023;
-  --team-ohio-state: #BC0000;
+  --team-nebraska: #BB0000;
+  --team-ohio-state: #BD0000;
   --team-oklahoma: #AC0000;
-  --team-tennessee: #B05100;
-  --team-texas: #A24300;
+  --team-tennessee: #B25000;
+  --team-texas: #A44100;
   --team-usc: #B20000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:where(:not([data-theme="light"])) {
-    --team-alabama: #EB294D;
-    --team-auburn: #DC6200;
-    --team-clemson: #F44000;
-    --team-colorado: #B48700;
+    --team-alabama: #EA285E;
+    --team-auburn: #E65300;
+    --team-clemson: #E95200;
+    --team-colorado: #B58700;
     --team-florida: #2B6CFF;
     --team-florida-state: #D04F6F;
     --team-georgia: #FA003B;
@@ -35,11 +35,11 @@
     --team-lsu: #9259EA;
     --team-miami-fl: #E45900;
     --team-michigan: #B28B00;
-    --team-nebraska: #FF0028;
-    --team-ohio-state: #FD0000;
+    --team-nebraska: #FF0000;
+    --team-ohio-state: #FA0011;
     --team-oklahoma: #E23B38;
     --team-tennessee: #DC6600;
-    --team-texas: #DB5B00;
+    --team-texas: #DD5900;
     --team-usc: #EF2017;
   }
 }

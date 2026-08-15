@@ -1,22 +1,94 @@
 {
-  "note": "PROVISIONAL — pending source verification. Official brand color per school. `mark` overrides `primary` when the primary is not the color that identifies the school on a small mark (Michigan's guide leads with navy, but maize reads as Michigan; navy would also collide with other schools). scripts/gen-team-colors.mjs fits each into the light and dark lightness bands and writes src/team-colors.css.",
+  "note": "Official primary brand color per school, verified against each university's own brand guidelines (sourceUrl). `mark` overrides `primary` when the primary cannot serve as a small mark — Auburn's navy disappears on the dark surface at 1.21:1, and Auburn is known by its orange anyway. `hueShift` (degrees) separates two schools whose official hexes are byte-identical. scripts/gen-team-colors.mjs fits these to the light and dark surfaces; it moves lightness, never hue, so a ring still reads as the school's color.",
   "schools": {
-    "Alabama":       { "primary": "#9E1B32" },
-    "Auburn":        { "primary": "#0C2340", "mark": "#E87722", "note": "navy is listed first; orange is the identifying mark color" },
-    "Clemson":       { "primary": "#F66733" },
-    "Colorado":      { "primary": "#CFB87C" },
-    "Florida":       { "primary": "#0021A5" },
-    "Florida State": { "primary": "#782F40" },
-    "Georgia":       { "primary": "#BA0C2F" },
-    "Indiana":       { "primary": "#990000" },
-    "LSU":           { "primary": "#461D7C" },
-    "Miami (FL)":    { "primary": "#F47321" },
-    "Michigan":      { "primary": "#00274C", "mark": "#FFCB05", "note": "navy is official primary; maize is the identifying mark color" },
-    "Nebraska":      { "primary": "#E41C38" },
-    "Ohio State":    { "primary": "#BB0000" },
-    "Oklahoma":      { "primary": "#841617" },
-    "Tennessee":     { "primary": "#FF8200" },
-    "Texas":         { "primary": "#BF5700" },
-    "USC":           { "primary": "#990000" }
+    "Alabama": {
+      "primary": "#9E1B32",
+      "sourceUrl": "https://brand.ua.edu/color/",
+      "note": "Crimson Flame PMS 201. Nudged 6 degrees toward maroon — the undertone Alabama's crimson genuinely has and Georgia's pure red lacks — because four people in this dataset hold both Alabama and Georgia rings, Cochran among them, and unshifted the two were 1.7 delta-E apart. Larger shifts separate them further but stop looking like Alabama.",
+      "hueShift": -6
+    },
+    "Auburn": {
+      "primary": "#0B2341",
+      "mark": "#E86100",
+      "sourceUrl": "https://ocm.auburn.edu/brand-center/colors.php",
+      "note": "The guide makes navy dominant, but navy is 1.21:1 on the dark surface — it disappears — and is generic across programs. Auburn's orange (PMS 158) is the identifying color and works on both."
+    },
+    "Clemson": {
+      "primary": "#F56600",
+      "sourceUrl": "https://www.clemson.edu/brand/color/",
+      "note": "Clemson Orange moved to PMS 1595 C (#F56600) from the legacy #F66733; aggregators still serve the old value."
+    },
+    "Colorado": {
+      "primary": "#CFB87C",
+      "sourceUrl": "https://www.colorado.edu/brand/logos-design-elements/design-elements/color",
+      "note": "CU Gold PMS 4525 is 1.67:1 on warm paper, so the fit darkens it. CU publishes 'Accessible CU Gold' #8D7334 for type on white, but at chroma 0.088 it reads gray as a mark — a gray Colorado ring is worse than a dark gold one, so the computed fit is used instead."
+    },
+    "Florida": {
+      "primary": "#0021A5",
+      "alt": "#FA4616",
+      "sourceUrl": "https://brandcenter.ufl.edu/colors/",
+      "note": "Core Blue PMS 287. Florida's guide leads with Core Orange #FA4616 (kept in `alt`), and by the official-primary rule that is the right pick — but darkening that orange far enough to clear 3:1 on warm paper turns it into #C80300, which reads as plain red and lands it among Alabama, Georgia and Nebraska. A Florida ring that looks like an Alabama ring is worse than one that uses the school's other core color, so this uses blue, which is on the helmet and unmistakably Florida. Swap `primary` and `alt` to follow the guide instead."
+    },
+    "Florida State": {
+      "primary": "#782F40",
+      "sourceUrl": "https://brand.fsu.edu/web/colors",
+      "note": "Garnet. Dark on the dark surface (1.98:1 unfitted), so the fit lightens it substantially."
+    },
+    "Georgia": {
+      "primary": "#BA0C2F",
+      "sourceUrl": "https://brand.uga.edu/visual-identity/visual-style/",
+      "note": "Bulldog Red PMS 200 — byte-identical to Ohio State's current scarlet. Georgia keeps the unshifted hue; Ohio State takes the shift."
+    },
+    "Indiana": {
+      "primary": "#990000",
+      "sourceUrl": "https://www.iu.edu/brand/design/color.html",
+      "note": "PMS 201. Identical to USC's cardinal; the two never appear on one person in this dataset."
+    },
+    "LSU": {
+      "primary": "#461D7C",
+      "sourceUrl": "https://www.lsu.edu/communications/files/brand-guide.pdf",
+      "note": "Purple PMS 268c. 1.54:1 on the dark surface unfitted — the worst in the set — so the fit lightens it hard. Kept purple rather than swapping to gold on dark: the whole point is that an LSU ring looks like LSU in either theme."
+    },
+    "Miami (FL)": {
+      "primary": "#F47321",
+      "sourceUrl": "https://webcomm.miami.edu/resources/identity/color/index.html",
+      "note": "Orange PMS 158. Green secondary is ~1.9:1 on dark and would vanish."
+    },
+    "Michigan": {
+      "primary": "#FFCB05",
+      "sourceUrl": "https://brand.umich.edu/design-resources/colors/",
+      "note": "Maize PMS 7406 is listed first — 'One Maize. One Blue.' — and is what fans name first. Blue is ~1.2:1 on the dark surface and disappears; maize survives both after fitting."
+    },
+    "Nebraska": {
+      "primary": "#D00000",
+      "sourceUrl": "https://ucomm.unl.edu/brand/templates-assets/colors/",
+      "note": "Scarlet PMS 186CP. #E41C38 and #E60026 are aggregator values with no official backing; huskers.com uses #d00000 too."
+    },
+    "Ohio State": {
+      "primary": "#BA0C2F",
+      "hueShift": 7,
+      "sourceUrl": "https://bux.osu.edu/color/primary-colors/",
+      "note": "Scarlet PMS 200, updated from the pre-2022 #BB0000 that aggregators still serve. Identical to Georgia's red, so this one is nudged 7 degrees toward orange — which is the direction 'scarlet' already leans — to keep the two legible side by side."
+    },
+    "Oklahoma": {
+      "primary": "#841617",
+      "sourceUrl": "https://www.ou.edu/brand/creative-platform/design-system/colors",
+      "note": "Crimson PMS 201, not the #990000 aggregators list. 1.83:1 on dark unfitted; OU publishes no lighter official alternative, so the fit supplies one."
+    },
+    "Tennessee": {
+      "primary": "#FF8200",
+      "sourceUrl": "https://brand.utk.edu/standards/color/",
+      "note": "Tennessee Orange PMS 151, which UT calls the most recognizable component of its brand."
+    },
+    "Texas": {
+      "primary": "#BF5700",
+      "sourceUrl": "https://umac.utexas.edu/brand-center/visual-identity/colors/",
+      "note": "Burnt Orange PMS 159 — the best-balanced color in the set, 3.98:1 dark and 4.11:1 light with no adjustment."
+    },
+    "USC": {
+      "primary": "#990000",
+      "sourceUrl": "https://identity.usc.edu/identity/color/",
+      "note": "Cardinal PMS 201 C. The circulated #9D2235 is aggregator drift. Identical to Indiana's crimson; USC's gold #FFCC00 would separate them but cardinal is the color the school leads with."
+    }
   }
 }
