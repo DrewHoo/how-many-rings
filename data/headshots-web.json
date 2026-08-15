@@ -234,5 +234,181 @@
     "name": "Lance Walker",
     "imageUrl": null,
     "note": "UNVERIFIED PERSON: no documented Alabama tenure found for any Lance Walker - roster rows need review."
+  },
+  {
+    "name": "Andy Barker",
+    "imageUrl": "https://storage.googleapis.com/lsusports-net-prod/2021/06/c624c91c-barker_andy_2013.jpg",
+    "sourcePage": "https://lsusports.net/staff/andy-barker",
+    "sourceKind": "official-athletics-site",
+    "license": "Copyright LSU Athletics / lsusports.net — all rights reserved; editorial use only, hotlinked from the school's own CDN (Google Cloud Storage bucket lsusports-net-prod). Not CC-licensed.",
+    "note": "Verified HTTP 200, Content-Type image/jpeg, 800x800 studio headshot (man in purple LSU polo, gray background). Pulled from the twitter:image/og slot of his live LSU staff bio page, so the file is page-specific to Barker (filename barker_andy_2013.jpg). Identity confirmed by the bio: 1988 Clemson grad, GA then assistant AT at Florida State 1988-96 (1993 title), 20 seasons as LSU Senior Associate Athletic Trainer (2003, 2007 titles), now LSU Athletic Insurance/Administrative Manager. No namesake risk."
+  },
+  {
+    "name": "Bo Davis",
+    "imageUrl": "https://storage.googleapis.com/lsusports-net-prod/2024/02/71545981-bo_davis_2024.jpg",
+    "sourcePage": "https://lsusports.net/sports/fb/roster/coach/bo-davis/",
+    "sourceKind": "official-athletics-site",
+    "license": "Copyright LSU Athletics / lsusports.net — all rights reserved; editorial use only, hotlinked from the school's own CDN. Not CC-licensed.",
+    "note": "Verified HTTP 200, Content-Type image/jpeg, 1200x1200 official 2024 LSU coaching headshot (bald, gray beard, LSU lapel pin). Filename bo_davis_2024.jpg from his LSU football coach page (which now redirects to an archived staff URL since he left for the New Orleans Saints in 2025). Identity confirmed: LSU DT 1990-92, LSU assistant S&C 2002-05 (2003 title), Alabama DL 2007-10 and 2014-15 (2009, 2015 titles), Texas 2011-13 and 2021-23, LSU DL 2024. Not the Australian cricketer/other Bo Davises."
+  },
+  {
+    "name": "Brad Scott",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/usf.sidearmsports.com/images/2020/2/17/Brad_Scott_H_Temp_.jpg",
+    "sourcePage": "https://gousfbulls.com/sports/football/roster/staff/brad-scott/74",
+    "sourceKind": "official-athletics-site",
+    "license": "Copyright USF Athletics — all rights reserved; editorial use only, hotlinked from the Sidearm Sports CDN (dxbhsrqyrr690.cloudfront.net). Not CC-licensed.",
+    "note": "Verified HTTP 200, Content-Type image/jpeg, 788x1084 portrait (white-haired man in green USF quarter-zip). From his South Florida football staff bio, where he served as Chief of Staff under his son, head coach Jeff Scott. Same Brad Scott as the FSU assistant/OC 1983-93 (1993 title, coached Charlie Ward), South Carolina head coach 1994-98, and Clemson OL coach then Assistant AD for Player Development (2016, 2018 titles). Despite the '_H_Temp_' in the filename it is a real high-res headshot, not a placeholder."
+  },
+  {
+    "name": "Charles Baglio",
+    "imageUrl": "https://storage.googleapis.com/lsusports-net-prod/2016/12/98463257-qjvvbsovplkokho.20070613134129.jpg",
+    "sourcePage": "https://lsusports.net/staff/charles-baglio",
+    "sourceKind": "official-athletics-site",
+    "license": "Copyright LSU Athletics / lsusports.net — all rights reserved; editorial use only, hotlinked from the school's own CDN. Not CC-licensed.",
+    "note": "Verified HTTP 200, Content-Type image/jpeg, 600x600 studio headshot (older man in dark suit and striped tie). Older LSU CMS asset (original 2007 upload) surfaced via the twitter:image slot of his LSU staff bio page, so it is page-specific to Baglio. Identity confirmed by the bio: joined LSU July 2002 after 34 years at Independence High School (22 as head coach, 205-69); worked 20 seasons at LSU through 2021 as Coordinator of High School/Football Relations and retired as Director of External Relations (2003, 2007, 2019 titles). Alma mater Southeastern Louisiana 1967."
+  },
+  {
+    "name": "Doug Aucoin",
+    "imageUrl": "https://storage.googleapis.com/lsusports-net-prod/2022/02/e6a77764-doug_aucoin_2022.jpg",
+    "sourcePage": "https://lsusports.net/staff/doug-aucoin",
+    "sourceKind": "official-athletics-site",
+    "license": "Copyright LSU Athletics / lsusports.net — all rights reserved; editorial use only, hotlinked from the school's own CDN. Not CC-licensed.",
+    "note": "Verified HTTP 200, Content-Type image/jpeg, 1200x1200 official 2022 LSU headshot (man in navy suit with purple tie). Filename doug_aucoin_2022.jpg from the twitter:image slot of his LSU staff bio page. Identity confirmed by the bio: LSU Director of Video, University of New Orleans 1995 grad, New Orleans native, nephew/relative of a Saints Hall of Fame film pioneer. Covers the 2003, 2007 and 2019 LSU titles."
+  },
+  {
+    "name": "Charlie Strong",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Charlie_Strong_at_LBJ_Library_in_2014.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Charlie_Strong_at_LBJ_Library_in_2014.jpg",
+    "sourceKind": "wikimedia_commons",
+    "license": "CC BY 2.0 (LBJ Foundation)",
+    "note": "Verified HTTP 200, image/jpeg, 964x1238. Close-up smiling portrait, cropped from an LBJ Library event photo taken while he was Texas head coach (2014) - the same Charlie Strong who was Florida co-DC/LB coach for the 2006 and 2008 titles and an Alabama analyst in 2020. Visually confirmed by opening the file."
+  },
+  {
+    "name": "Frank Solich",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/ohiobobcats.com/images/2023/6/13/frank_s.jpeg",
+    "sourcePage": "https://ohiobobcats.com/honors/hall-of-fame/frank-solich/1",
+    "sourceKind": "school_athletics_cdn",
+    "license": "All rights reserved - Ohio University Athletics (Sidearm CDN, hotlinkable)",
+    "note": "Verified HTTP 200, image/jpeg, 1500x1200. Pulled from the live Ohio Bobcats Hall of Fame page for Frank Solich; visually confirmed as Solich (elderly man in green Ohio adidas polo waving at Peden Stadium). Same person as the Nebraska RB coach for the 1994/1995/1997 titles. Two smaller official Ohio mugs also exist but are under 300px: .../images/2021/5/14/solich_frank.jpg (150x200) and .../images/2023/6/6/Frank_solich.jpeg (146x174)."
+  },
+  {
+    "name": "Ron Brown",
+    "imageUrl": "https://huskers.com/imgproxy/qoYQ4NtorQZlf_xXcc0bsAX0KcseU9AoZMLQgyRyjRY/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2h1c2tlcnMtY29tLXByb2QvMjAyMy8wNi8zMC9QcVRHaGtRZWl6UVI0SGM0M2pNOTloa0dCSW03d3lNNFhTdDZVa1hELmpwZw.jpg",
+    "sourcePage": "https://huskers.com/staff/ron-brown",
+    "sourceKind": "school_athletics_cdn",
+    "license": "All rights reserved - Nebraska Athletics / Nebraska Communications Office",
+    "note": "Verified HTTP 200, image/jpeg, 1200x1500. Official studio headshot; the huskers.com staff API (website-api/staff-members/315?include=masterPhoto) reports the file as 'Brown, Ron 0019.jpg', caption 'Ron Brown / Nebraska Staff Head Shots 2023'. This is the Ron Brown who coached Nebraska receivers for the 1994/1995/1997 titles and is back on staff (Fullbacks/Returners). Raw origin file also live: https://storage.googleapis.com/huskers-com-prod/2023/06/30/PqTGhkQeizQR4Hc43jM99hkGBIm7wyM4XSt6UkXD.jpg"
+  },
+  {
+    "name": "Milt Tenopir",
+    "imageUrl": "https://huskers.com/imgproxy/jHKK1AneP_Fk7URqD-ZuHxZKRGkc-TL3X-FNuKffoFU/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2h1c2tlcnMtY29tLXByb2QvMjAyMy8wNS8yOS9sOG1kelVtN3RNbGtzRDNCSDZ2WXdheHp2NkxuZ0dyalNzdWVuZTJQLmpwZw.jpg",
+    "sourcePage": "https://huskers.com/news/2016/09/27/remembering-former-offensive-line-coach-milt-tenopir",
+    "sourceKind": "school_athletics_cdn",
+    "license": "All rights reserved - Nebraska Athletics",
+    "note": "Verified HTTP 200, image/jpeg, 1980x1320. Featured image of the official huskers.com obituary 'Remembering Former Offensive Line Coach Milt Tenopir' (article id 22126 via website-api); shows Tenopir being greeted on the Memorial Stadium field at the 1994 team's 20th-anniversary salute. Cross-checked his face against the Omaha World-Herald gallery 'Photos: Remembering Milt Tenopir' (same white beard/build) to rule out a namesake. Caveat: it is an action/crowd shot rather than a mug, and he sits slightly right of center, so a face-centered crop may need manual framing. No mug shot of Tenopir survives on huskers.com (no staff bio page; Wayback CDX for huskers.com/images returns nothing for 'tenopir'), and Wikimedia Commons has nothing."
+  },
+  {
+    "name": "George Darlington",
+    "imageUrl": "https://huskers.com/imgproxy/D2IDP5iCBQq2imZuS7kkzeic6C_8ZjNyjFmGSs9hTDw/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2h1c2tlcnMtY29tLXByb2QvMjAyNi8wNi8xNC9tNk1OSExXVWRNTkRqejJvTmVycEdvNERsS0lSUnVqQ3VkazkzZGVzLmpwZw.jpg",
+    "sourcePage": "https://huskers.com/news/2026/06/14/legendary-husker-assistant-george-darlington-passes-away",
+    "sourceKind": "school_athletics_cdn",
+    "license": "All rights reserved - Nebraska Athletics",
+    "note": "Verified HTTP 200, image/jpeg, 1980x794 (origin file 2737x1098). Featured image of the official huskers.com obituary 'Legendary Husker Assistant George Darlington Passes Away' (June 14, 2026; article id 98921 via website-api). The asset's own filename is 'Darlington action2 copy.jpg', which ties the face to the right man - the Nebraska assistant 1973-2002 (DB coach from 1986) who won the 1994/1995/1997 titles. Caveat: it is a wide sideline banner crop; his head is roughly centered but a tall crop will lose the top of the cap. Raw origin: https://storage.googleapis.com/huskers-com-prod/2026/06/14/m6MNHLWUdMNDjz2oNerpGo4DlKIRRujCudk93des.jpg"
+  },
+  {
+    "name": "Charlie McBride",
+    "imageUrl": "https://www.huskermax.com/interviews/images/CharlieMcBride.jpg",
+    "sourcePage": "https://www.huskermax.com/interviews/Charlie_McBride.html",
+    "sourceKind": "fan-site (HuskerMax interview page)",
+    "license": "All rights reserved / unknown — editorial fan-site hosting of a Nebraska Athletics-era publicity headshot. Hotlink or re-host at your own risk; not CC.",
+    "note": "449x470 color studio headshot, HTTP 200 image/jpeg (32.9 KB). Identity cross-verified against the official Nebraska Athletics coach-bio portrait archived at https://web.archive.org/web/20020620101501im_/http://www.huskers.com/sports/football/coaches/mcbride/mcbride.JPG (200x251, image/jpeg 200) — same photo session/subject, so this is definitively the Osborne-era DC, not a namesake. Chose the HuskerMax copy only because it is ~2.2x larger. Alternative if you want a live, clearly-licensed-editorial press photo of him as an elderly man being honored at Memorial Stadium: https://on3static.com/uploads/dev/assets/cms/2025/01/18223056/Charlie-McBride-Nebraska.jpg (1200x630, image/jpeg 200, On3 article) — verified same person, but it's a wide action crop rather than a headshot. Wikipedia has no image."
+  },
+  {
+    "name": "Dan Young",
+    "imageUrl": "https://web.archive.org/web/20010722074010im_/http://www.huskers.com/sports/football/coaches/young/young.JPG",
+    "sourcePage": "https://web.archive.org/web/20010722074223/http://www.huskers.com/sports/football/coaches/young/young.html",
+    "sourceKind": "wayback (official huskers.com coach bio, 2001 snapshot)",
+    "license": "University of Nebraska Athletics publicity photo — all rights reserved; served via Internet Archive. Editorial use.",
+    "note": "200x250 official Nebraska coaching-staff headshot (red blazer), HTTP 200 image/jpeg (11 KB). Below the ~300px preference but it is the only unambiguously-attributed image: the live huskers.com CDN 404s and the current CMS obituary page carries no portrait. Found via CDX (only huskers.com images matching /coaches/young/ are young.JPG and the thumbnail s_young.jpg). Young died in 2010, so no current staff-directory bio exists. Slightly larger alternative if you prefer more face-in-frame: https://cdn.huskermax.com/wp-content/uploads/2018/11/DY-HuskerMax.jpg (246x344, live, image/jpeg 200) — a HuskerMax photo of him in a Nebraska cap from their 'Anatomy of an Era: Coach Dan Young' feature; the image has no caption, so attribution rests on the article context and DY- filename prefix, which is why I ranked the official archived headshot first."
+  },
+  {
+    "name": "Dr. Lonnie Albers",
+    "imageUrl": "https://web.archive.org/web/20220419140957im_/https://huskers.com/images/2006/7/19/CIBANKKJEGRDICW.20060719194128.JPG",
+    "sourcePage": "https://web.archive.org/web/20220419140905/https://huskers.com/staff-directory/lonnie-albers/673",
+    "sourceKind": "wayback (official huskers.com Sidearm staff-directory bio, Apr 2022 snapshot)",
+    "license": "University of Nebraska Athletics staff publicity photo — all rights reserved; served via Internet Archive. Editorial use.",
+    "note": "1050x1350 high-quality studio headshot pulled straight from Albers' own Nebraska staff-directory bio page, so identity is certain (Associate AD / Director of Athletic Medicine). HTTP 200, content-length 142,998 — but note the Content-Type is application/octet-stream, not image/*, because that's what huskers.com originally served; `file` confirms it is a real baseline JPEG and browsers render it fine in an <img> tag. If your pipeline strictly requires an image/* header you'll need to re-host this one. The live URLs are dead: huskers.com/images/2006/7/19/... returns 404, the old Sidearm CDN (dbukjj6eu5tsf.cloudfront.net) returns 403, and the surviving huskers.com/staff/lonnie-albers-md page now shows only the gray silhouette placeholder (Albers left Nebraska in Jan 2023). Only one Wayback capture of this file exists."
+  },
+  {
+    "name": "Carol Moore",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/fsuni.sidearmsports.com/images/2023/8/1/Moore__Carol_23-180RL__087_.jpg",
+    "sourcePage": "https://seminoles.com/staff-directory/carol-moore/251",
+    "sourceKind": "official school athletics staff directory (Sidearm CDN, live)",
+    "license": "Florida State University Athletics staff photo — all rights reserved. Editorial use.",
+    "note": "1600x2000 current FSU studio headshot, HTTP 200 image/jpeg (665 KB). Right person, not a namesake: this bio is the Carol Moore in her 41st year with FSU athletics / 37th with FSU football — started with the program in 1985, recruiting office 1987-92, worked with the offensive coaches 1992-96 (the 'offensive secretary' role), program assistant for recruiting 1996-2003, then office administrator for football operations, so she spans the 1993, 1999 and 2013 titles. Photo is recent (2023) rather than Bowden-era, but it is the only verifiable portrait of her."
+  },
+  {
+    "name": "Doug Calland",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/ohiostatebuckeyes.com/images/2024/4/25/Calland__Doug_DSC09930.jpg",
+    "sourcePage": "https://ohiostatebuckeyes.com/sports/football/roster/staff/doug--calland/62",
+    "sourceKind": "official school athletics staff directory (Sidearm CDN, live)",
+    "license": "Ohio State University Athletics staff photo — all rights reserved. Editorial use.",
+    "note": "1034x1034 current Ohio State studio headshot, HTTP 200 image/jpeg (185 KB). Confirmed the right Doug Calland: on the OSU athletic training staff since 1995, oversight of football since 2000, co-head AT in 2005, head AT in 2007, now Associate AD for Sports Performance — covers the 2002, 2014 and 2024 titles. Underlying CloudFront original given rather than the page's images.sidearmdev.com/crop?width=180 wrapper so you get full resolution."
+  },
+  {
+    "name": "Alex Mortensen",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/uabsports.com/images/2023/1/29/KFS_0291.jpg",
+    "sourcePage": "https://uabsports.com/staff-directory/alex-mortensen/699",
+    "sourceKind": "school-athletics-staff-directory",
+    "license": "UAB Athletics official headshot (Sidearm CDN); editorial use, all rights reserved",
+    "note": "Verified 200, content-type image/jpeg, 571x761; visually confirmed as a suit-and-green-tie UAB headshot. It is the image the page's own schema.org Person block and og:image point to, alt text 'Alex Mortensen HS'. Right person: bio on that page covers his Alabama analyst/GA years under Saban before UAB OC (2023) and now UAB head coach (named Dec. 5, 2025); son of ESPN's Chris Mortensen."
+  },
+  {
+    "name": "Buddy Overstreet",
+    "imageUrl": "https://assets.about.me/background/users/b/u/d/buddyoverstreet_1528831448_003.jpg",
+    "sourcePage": "https://about.me/buddyoverstreet",
+    "sourceKind": "personal-profile",
+    "license": "Self-published personal profile photo (about.me); no explicit license, credit the subject",
+    "note": "Verified 200, content-type image/jpg, 1000x667 studio portrait (bald, red-brown beard, dark backdrop). Confirmed it is him, not a stock backdrop: the identical photo is his Behance/Adobe profile avatar (https://pps.services.adobe.com/api/profile/230357E3445812EE992016B7@AdobeID/image/33e1d089-820c-4855-912e-fcbe742cf31e/276, verified 200 image/jpeg, downloaded and compared — same frame, cropped square). Right person: his portfolio at buddyoverstreet.com lists '2010 Alabama Football Media Guide Covers', '2011 Alabama Football Media Guide Covers', '2012 Alabama Media Guide', '2012 BCS Media Guide', '2013 Alabama Football Media Guide Covers' plus later Notre Dame and Florida creative work — the Alabama creative-media run covering 2009/2011/2012. Also credited for cover/page design in rolltide.com media guide PDFs. Now a designer/consultant in Austin, TX (Perpetual Notion). No school-hosted headshot exists; Alabama's staff directory has zero 'Overstreet' entries today."
+  },
+  {
+    "name": "Brendan Farrell",
+    "imageUrl": "https://ramblinwreck.com/wp-content/uploads/2025/06/Brendan-Farrell-788x1024.jpg",
+    "sourcePage": "https://ramblinwreck.com/coach/brendan-farrell/",
+    "sourceKind": "school-athletics-staff-directory",
+    "license": "Georgia Tech Athletics official coach headshot; editorial use, all rights reserved",
+    "note": "Verified 200, content-type image/jpeg, 788x1024 portrait (white background, navy jacket with GT lapel pin) — the un-letterboxed version of the page's og:image, which I also verified and viewed. Right person: GT bio says three seasons at LSU (2006-08) in a special teams/offensive quality control role, helping win the 2007 BCS title, then six seasons (2013-18) as Alabama special teams analyst (2015 and 2017 titles), then five years with the Miami Dolphins before joining Georgia Tech in 2025. Matches the 2007/2015/2017 ring seasons. Not the Northwestern State namesake."
+  },
+  {
+    "name": "Bryan Bailey",
+    "imageUrl": "https://www.huskermax.com/wp-content/uploads/2018/11/MS-BB-BB-StarHerald-com-924x1024.jpg",
+    "sourcePage": "https://www.huskermax.com/anatomy-of-an-era-final-chapter-bryan-bailey/",
+    "sourceKind": "fan-site editorial photo (HuskerMax 'Anatomy of an Era' series; photo credited to StarHerald.com / Scottsbluff Star-Herald)",
+    "license": "All rights reserved (newspaper photo republished by HuskerMax). Editorial/fair-use only; credit 'Scottsbluff Star-Herald via HuskerMax'.",
+    "note": "VERIFIED 200 / image/jpeg, 924x1024. Two-person photo, captioned on the source page as 'Brook Berringer & Bryan Bailey' — Bailey is the man on the RIGHT in the red/black coaching jacket; the player in the #18 jersey is Berringer. Needs a right-side crop to work as an avatar. Identity independently confirmed against Bailey's mugshot in the 1997 Nebraska football media guide (https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf, PDF page 73 / printed page 67), which lists him as 'Bryan Bailey, Coordinator of Reconditioning, C.S.C.S.' — exact role match. That media-guide page also carries the Performance Team org chart naming him Coordinator of Reconditioning under Boyd Epley. If you want a true studio headshot, crop it from that PDF page (the CDN image inside the PDF has no standalone URL). No huskers.com bio exists (slug 404s); he left NU for USC in 2005 and no archived USC bio photo was findable. Another live option is https://www.huskermax.com/wp-content/uploads/2018/05/Bailey2-1024x912.jpg (captioned 'Husker Power's Bryan Bailey and the author') but which of the two men is Bailey is not stated, so I did not use it."
+  },
+  {
+    "name": "Curt Thompson",
+    "imageUrl": "https://www.huskermax.com/wp-content/uploads/2018/07/CT.jpg",
+    "sourcePage": "https://www.huskermax.com/anatomy-of-an-era-curt-thompson-strength-coach-football-ops-part-1/",
+    "sourceKind": "fan-site editorial photo (HuskerMax 'Anatomy of an Era'; photo credit Joe Mixan)",
+    "license": "All rights reserved (credit 'Joe Mixan via HuskerMax'). Editorial/fair-use only.",
+    "note": "VERIFIED 200 / image/jpeg, 1012x699. This is the full-size version of the article's featured image (the article embeds the 500x330 CT-resize.jpg). Sideline group photo, captioned in the page's JSON-LD and on-page as '(l to r) Curt Thompson, Pat Logsdon, Jack Stark & Boyd Epley' — Thompson is the LEFTMOST man, young, wire-rim glasses, light hair, red NU jacket. Needs a left-side crop. Identity confirmed against his mugshot in the 1997 Nebraska media guide (https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf, PDF page 71 / printed page 65): same face and glasses; bio there says he was in his 11th year in the athletic department and 'previously worked on the Husker Performance Teams as a student assistant and coordinator of performance education' — exact role match. A clean studio mugshot exists only inside that PDF page."
+  },
+  {
+    "name": "Dave Finn",
+    "imageUrl": "https://www.huskermax.com/wp-content/uploads/2018/12/TokyoCrew-Gobes.jpg",
+    "sourcePage": "https://www.huskermax.com/anatomy-of-an-era-final-chapter-digital-technology/",
+    "sourceKind": "fan-site editorial photo (HuskerMax 'Anatomy of an Era'; photo from Randy Gobel)",
+    "license": "All rights reserved / uncredited fan-submitted photo. Editorial/fair-use only; credit 'HuskerMax'.",
+    "note": "VERIFIED 200 / image/jpeg, 683x605. Full-size version of the photo used on the Digital Technology chapter (which is about Finn's video operation). Four-person photo; the identical photo on https://www.huskermax.com/anatomy-of-an-era-kevin-ramaekers-part-1/ is captioned \"Tokyo '92: John Parrella, Randy Gobel, Dave Finn & Kevin Raemakers\" (l to r), so Finn is the THIRD man from the left — mustache, glasses, red NU jacket, holding the helmet. Needs a center crop. Identity confirmed against his mugshot in the 1997 Nebraska media guide (https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf, PDF page 84 / printed page 78), listed as 'Dave Finn — Football Video Specialist, Equipment Purchase Coordinator', in his 10th year, installed HuskerVision — exact role match, and the face/mustache match. No huskers.com bio (he retired; the slug 404s and Wayback has no archived NU bio page for him)."
+  },
+  {
+    "name": "Doak Ostergard",
+    "imageUrl": "https://www.huskermax.com/wp-content/uploads/2019/01/doak-omaha.jpg",
+    "sourcePage": "https://www.huskermax.com/anatomy-of-an-era-final-chapter-support-staff/",
+    "sourceKind": "fan-site editorial republication of a Nebraska athletics/Omaha World-Herald staff portrait",
+    "license": "All rights reserved (filename indicates omaha.com origin). Editorial/fair-use only; credit 'Omaha World-Herald via HuskerMax'.",
+    "note": "BEST RESULT — a true single-subject studio headshot, VERIFIED 200 / image/jpeg, 512x640, suit and tie on a gray backdrop. No cropping needed. Identity confirmed three ways: (1) matches his mugshot in the 1997 Nebraska media guide (https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf, PDF page 86 / printed page 80, 'Doak Ostergard — Associate Head Athletic Trainer, ATC', exact role match); (2) matches https://www.huskermax.com/wp-content/uploads/2018/05/Doak2-resized.jpg captioned 'Trainer Doak Ostergard and Lawrence Phillips'; (3) matches the profile view in https://www.huskermax.com/wp-content/uploads/2018/05/Doak1.jpg (with Scott Frost). Note: his live huskers.com bio at https://huskers.com/staff/doak-ostergard exists but serves NO photo (the roster-bio img is a lazy-load placeholder and the page's only real image is a generic site banner), so the HuskerMax copy is the usable URL."
   }
 ]

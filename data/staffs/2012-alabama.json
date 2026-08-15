@@ -827,6 +827,18 @@
           "note": "2012 Alabama Football Media Guide, printed p. 2, \"2012 ALABAMA FOOTBALL DIRECTORY\". Text layer has two spaces in \"Jeff  Purinton\". JUDGMENT CALL: this is an athletics-department title, but football-dedicated. Drop this row if the dataset counts only program-employed staff; I excluded all department-wide administrators from that same directory."
         }
       ]
+    },
+    {
+      "name": "Wes Neighbors",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20171014054933/http://www.rolltide.com/staff.aspx",
+          "quote": "Wes Neighbors\nFootball Analyst",
+          "note": "added by coverage audit"
+        }
+      ]
     }
   ]
 }

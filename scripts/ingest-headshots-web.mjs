@@ -20,8 +20,9 @@ const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)
 
 for (const e of entries) {
   const key = slug(e.name)
-  const current = manifest[key]
-  if (!current) { console.log(`${e.name}: not in manifest, skipping`); continue }
+  // People the Wikipedia pass never attempted have no manifest entry yet —
+  // a web-hunt find is their first, so create the row rather than skipping it.
+  const current = manifest[key] ??= { name: e.name, group: 'leaderboard', status: 'missing' }
   if (current.locked) { console.log(`${e.name}: locked, keeping ${current.file}`); continue }
   if (current.status === 'ok' && !force) continue
   if (!e.imageUrl) { current.reason = e.note ?? current.reason; continue }

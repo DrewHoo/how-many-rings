@@ -101,7 +101,8 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
 }
 .row-head:hover { background: var(--card); }
 .rank { color: var(--faint); font-size: 13px; text-align: right; }
-.face { border-radius: 7px; object-fit: cover; background: var(--line); }
+/* Faces sit high in a portrait; a centered square crop would cut them off. */
+.face { border-radius: 7px; object-fit: cover; object-position: 50% 22%; background: var(--line); }
 .face-blank { width: 44px; height: 44px; border-radius: 7px; background: var(--line); display: block; }
 .who { min-width: 0; }
 .name { display: block; font-weight: 550; }

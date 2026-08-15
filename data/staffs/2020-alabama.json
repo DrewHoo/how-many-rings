@@ -1301,6 +1301,54 @@
           "note": "MEDIA-GUIDE-ONLY, quote intentionally empty per instructions. 'ALABAMA MEDICAL STAFF' grid, printed page 83 (PDF page index 84). Name block x=372.5 y=500.4; title beneath at x=371.8 y=525.9 reads 'ORTHOPEDIC SURGEON'."
         }
       ]
+    },
+    {
+      "name": "Matthew Hard",
+      "role": "Assistant Director, Video Services",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20171014054933/http://www.rolltide.com/staff.aspx",
+          "quote": "Matthew Hard\nAssistant Director, Video Services",
+          "note": "added by coverage audit"
+        }
+      ]
+    },
+    {
+      "name": "Frank Newell",
+      "role": "Assistant Sports Nutritionist",
+      "role_category": "medical",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20171014054933/http://www.rolltide.com/staff.aspx",
+          "quote": "Frank Newell\nAssistant Sports Nutritionist",
+          "note": "added by coverage audit"
+        }
+      ]
+    },
+    {
+      "name": "Michael Stoops",
+      "role": "Football Analyst",
+      "role_category": "analyst",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201006082724/https://rolltide.com/staff-directory",
+          "quote": "Michael Stoops\nFootball Analyst",
+          "note": "added by coverage audit"
+        }
+      ]
+    },
+    {
+      "name": "Kaleb Medema",
+      "role": "Assistant Director, Football Video Operations",
+      "role_category": "other",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201006082724/https://rolltide.com/staff-directory",
+          "quote": "Kaleb Medema\nAssistant Director, Football Video Operations",
+          "note": "added by coverage audit"
+        }
+      ]
     }
   ]
 }
