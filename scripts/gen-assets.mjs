@@ -26,7 +26,7 @@ const rings = (x, y, r, gap, stroke) => COCHRAN
 function card(w, h, titleY) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
   <rect width="${w}" height="${h}" fill="#17150f"/>
-  <text x="72" y="${titleY - 92}" fill="#BA8A2E" font-family="Helvetica, Arial, sans-serif" font-size="21" letter-spacing="5">A CURIO · CITED DATA</text>
+  <text x="72" y="${titleY - 92}" fill="#BA8A2E" font-family="Helvetica, Arial, sans-serif" font-size="21" letter-spacing="5">COLLEGE FOOTBALL · CITED DATA</text>
   <text x="70" y="${titleY}" fill="#f4efe4" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700">Who has the most rings</text>
   <text x="70" y="${titleY + 76}" fill="#f4efe4" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700">in Division I football?</text>
   <g>

@@ -6,7 +6,7 @@ Nick Saban has seven national championship rings. Scott Cochran, who ran his wei
 
 This site counts every ring on every national-championship staff since 1990 — **409 people with two or more**, out of 1,273 on those staffs — and every single one links to the source page and the verbatim line that supports it.
 
-A [Curio](https://github.com/DrewHoo/curio): interactive, mobile-first, shareable via URL state, and every number cited.
+Built from the [Curio](https://github.com/DrewHoo/curio) template — question-first, mobile-first, shareable via URL state, and every number cited to a real source.
 
 ## How the count works
 
