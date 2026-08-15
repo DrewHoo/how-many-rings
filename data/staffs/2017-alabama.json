@@ -973,6 +973,66 @@
           "note": "added by coverage audit"
         }
       ]
+    },
+    {
+      "name": "Joe Pendry",
+      "role": "Special adviser and NFL liaison (off-field staff)",
+      "role_category": "analyst",
+      "via": "tenure",
+      "tenure": "At Alabama continuously from 2007 through June 2018: assistant head coach/offensive line coach 2007–2010 (retired from on-field coaching January 2011), then an off-field role as special adviser / 'consultant-NFL liaison' from 2011 until he retired in June 2018. He was GM of the AAF's Birmingham Iron in 2019, then returned to Alabama as special assistant to the head coach (present for 2020 and 2021, still listed on Saban's final 2023 staff).",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://247sports.com/college/alabama/Article/Report-Longtime-assistant-adviser-Joe-Pendry-leaving-Alabama-Football-program-118806243/",
+          "quote": "Former Crimson Tide offensive line coach Joe Pendry, who has been a special adviser and NFL connection for Saban and UA in recent years, is retiring, according to AL.com's Matt Zenitz.",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
+    },
+    {
+      "name": "Rodney Brown",
+      "role": "Director, Rehabilitation Services (athletic trainer)",
+      "role_category": "medical",
+      "via": "tenure",
+      "tenure": "Full time at Alabama 1999–c.2018/19 (Head Football Athletic Trainer 1999–2007, then Director of Rehabilitation Services from 2007; part-time ATEP instructor at UA in the 1990s while managing DCH Sports Medicine 1987–1999). Gone from the athletic department staff directory by Nov. 2019.",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20171002212548/http://www.rolltide.com/sports/2016/6/10/sports-med-medicine-staff-html.aspx?id=1806",
+          "quote": "Rodney Brown Director, Rehabilitation Services Head Rowing rbrown@ia.ua.edu",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
+    },
+    {
+      "name": "Jeff Purinton",
+      "role": "Senior Associate Athletics Director",
+      "role_category": "ops",
+      "via": "tenure",
+      "tenure": "Summer 2007 – May 2022 (15 years, continuous): Associate Athletics Director for Football Communications 2007–15, Senior Associate AD 2015–18, Executive Associate AD 2018–19, Deputy AD 2019–21, Executive Deputy Director of Athletics 2021–22. Left to become Vice Chancellor for Intercollegiate Athletics at Arkansas State on May 4, 2022.",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://astateredwolves.com/staff-directory/jeff-purinton/420",
+          "quote": "Widely known as one of the best venues in college football, Purinton oversaw the revision of the football game-day production in 2017, improving the overall atmosphere",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
+    },
+    {
+      "name": "Jeff Springer",
+      "role": "Athletic Equipment Director (Associate AD, Equipment Operations)",
+      "role_category": "equipment",
+      "via": "tenure",
+      "tenure": "March 2011 – present (Athletics Equipment Director; now Associate Athletics Director, Equipment Operations)",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.si.com/college/alabama/bamacentral/alabama-football-equipment-staff-jeffrey-springer",
+          "quote": "Springer has been at Alabama since 2011, when Tank Conerly retired after 23 years.",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
     }
   ],
   "coverage_notes": "SOURCES USED. (1) Best source by far: Alabama's own athletics staff directory captured on the Wayback Machine at http://web.archive.org/web/20180107005845/http://www.rolltide.com/staff.aspx — snapshot dated Jan 7, 2018, ONE DAY BEFORE the Jan 8, 2018 CFP National Championship. Its FOOTBALL category lists 34 people; STRENGTH AND CONDITIONING, TRAINING, EQUIPMENT, VIDEO SERVICES and COMMUNICATIONS categories flag football-designated staff. A functionally identical Oct 17, 2017 printable snapshot (http://web.archive.org/web/20171017022939/http://www.rolltide.com/staff.aspx?print=true) corroborates it, so the football staff was unchanged across the season. (2) The rolltide.com page literally headed \"2017 Football Coaching Staff\" (snapshot Sept 6, 2017) plus several individual archived coach bio pages. (3) The 2017 Alabama Football Media Guide (Internet Archive item alabama-football-2017-media-guide-c), whose \"Coaches and Staff\" pages carry a 42-photo grid of the full football support staff. (4) Wikipedia's 2017 team-season article and individual coach biographies.\n\nQUOTE FORMAT CAVEAT. The staff directory and coaching-staff pages are HTML tables in which the name and the title sit in separate cells; there is no contiguous run of page text containing both. To keep quotes mechanically matchable I quoted the exact title cell string verbatim and identified the person, section and snapshot date in the accompanying note. Quotes from bio pages and Wikipedia are full prose sentences.\n\nEMPTY QUOTES. Ten people are documented only by the 2017 media guide, which on the Internet Archive exists as a scanned PDF with a poor OCR layer that splits first and last names onto separate lines and garbles characters. Per instructions their quote is \"\" with the caption recorded in the note: Jake Thornton, Dr. Lyle Cain, Dr. James Robinson, Jonathan King, Chris Liskiewicz, Michaiah Smith, Gary Cramer, Jessie Peoples, Eddie Wilder. (Rob Ezell and Alex Mortensen appear there too but are additionally backed by Wikipedia.)\n\nWHAT I COULD NOT NAIL DOWN. (a) Graduate assistants are absent from the official online directory entirely; the four listed (Jake Thornton, Kyle Pope, Mike Miller, Nick Perry) come from the media guide plus Wikipedia. The media guide grid shows only three GA photos, so the GA group may be slightly incomplete or may have turned over during the season. (b) Rob Ezell and Alex Mortensen are captioned ANALYST in the July 2017 media guide but are NOT among the eight \"Football Analyst\" rows in the Oct 2017 or Jan 2018 directory; their own Wikipedia infoboxes say Alabama 2017-2020 and 2017-2019 respectively, so I kept them, but I could not confirm from a January 2018 official listing that they were still on staff at the title game. (c) One \"STRENGTH & CONDITIONING\" photo in the media guide grid is unreadable in OCR; I matched it to Tyler Owens using the directory's football-designated S&C rows, which is an inference, though Owens' own directory row is directly sourced. (d) No student assistants, recruiting interns, equipment student managers or video interns are recoverable from any source I found.\n\nDELIBERATE EXCLUSIONS. Freddie Roach is listed as a 2017 Alabama analyst on Wikipedia's team-season page; that is WRONG — Ole Miss hired him away from Alabama in February 2017 and he did not return to Tuscaloosa until 2019, so he is omitted. Pete Golding (whose rolltide.com bio page was archived Jan 12, 2018), Butch Jones, Craig Kuligowski, Dan Enos and Josh Gattis all joined after the Jan 8, 2018 championship game and are excluded under the ring rule. I also excluded athletics-department staff with no football designation (other sports' trainers, S&C coaches, communications and video staff), keeping only those the football media guide itself pictures in its football \"Coaches and Staff\" pages or the directory explicitly tags to football.\n\nMID-SEASON NOTE. Only one true mid-season status change was found: Jeremy Pruitt was hired as Tennessee's head coach on Dec. 7, 2017 but remained Alabama's defensive coordinator and coached the national championship game, so he qualifies under the ring rule. Brian Daboll (Buffalo Bills), Derrick Ansley and Shea Tierney all departed AFTER the title game, so they were on staff for it."

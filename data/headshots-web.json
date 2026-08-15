@@ -410,5 +410,21 @@
     "sourceKind": "fan-site editorial republication of a Nebraska athletics/Omaha World-Herald staff portrait",
     "license": "All rights reserved (filename indicates omaha.com origin). Editorial/fair-use only; credit 'Omaha World-Herald via HuskerMax'.",
     "note": "BEST RESULT — a true single-subject studio headshot, VERIFIED 200 / image/jpeg, 512x640, suit and tie on a gray backdrop. No cropping needed. Identity confirmed three ways: (1) matches his mugshot in the 1997 Nebraska media guide (https://www.huskermax.com/wp-content/uploads/2024/01/Nebraska-Football-1997-Media-Guide.pdf, PDF page 86 / printed page 80, 'Doak Ostergard — Associate Head Athletic Trainer, ATC', exact role match); (2) matches https://www.huskermax.com/wp-content/uploads/2018/05/Doak2-resized.jpg captioned 'Trainer Doak Ostergard and Lawrence Phillips'; (3) matches the profile view in https://www.huskermax.com/wp-content/uploads/2018/05/Doak1.jpg (with Scott Frost). Note: his live huskers.com bio at https://huskers.com/staff/doak-ostergard exists but serves NO photo (the roster-bio img is a lazy-load placeholder and the page's only real image is a generic site banner), so the HuskerMax copy is the usable URL."
+  },
+  {
+    "name": "Jeff Purinton",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/astateredwolves.com/images/2022/5/4/Jeff_Purinton.jpg",
+    "sourcePage": "https://astateredwolves.com/staff-directory/jeff-purinton/420",
+    "sourceKind": "school",
+    "license": "school photo (copyrighted)",
+    "note": "Arkansas State AD bio headshot; previously Alabama associate AD for football communications, hired by Saban in 2007."
+  },
+  {
+    "name": "Thad Turnipseed",
+    "imageUrl": "https://clemsontigers.com/imgproxy/5uMMYIajagh9nKi5qkKL3HeNk8MYpy6uGPzlHs1dDR0/rs:fit:1200:630:0:0/g:ce:0:0/q:70/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NsZW1zb250aWdlcnMtY29tLzIwMjYvMDIvMDYvVXNZamVzUGJSMXNSZnVBbExZYjFCOWxxMElqdWpBTUJFWmN3MkJINi5qcGc.jpg",
+    "sourcePage": "https://clemsontigers.com/staff-directory/thad-turnipseed/",
+    "sourceKind": "school",
+    "license": "school photo (copyrighted)",
+    "note": "Clemson staff directory photo; earlier an Alabama player (1992 title team) and Saban-era facilities/external affairs staffer."
   }
 ]

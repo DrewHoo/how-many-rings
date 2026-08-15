@@ -3,9 +3,22 @@
   "players": [
     {
       "name": "Rob Ezell",
-      "titles": ["2009 Alabama"],
+      "titles": [
+        "2009 Alabama"
+      ],
       "detail": "Walk-on quarterback/wide receiver at Alabama 2007-2010, on the roster for the 2009 BCS title, then returned as an analyst.",
       "sources": [],
+      "confidence": "high"
+    },
+    {
+      "name": "Thad Turnipseed",
+      "titles": [
+        "1992 Alabama"
+      ],
+      "detail": "Played for Alabama 1990-92 and was on the 1992 national championship roster, then came back as a staffer — running facilities and football external affairs under Saban before joining Clemson.",
+      "sources": [
+        "https://clemsontigers.com/turnipseed-joins-clemson-football-staff/"
+      ],
       "confidence": "high"
     }
   ]

@@ -1349,6 +1349,51 @@
           "note": "added by coverage audit"
         }
       ]
+    },
+    {
+      "name": "Terry Jones",
+      "role": "Assistant Head Strength and Conditioning Coach",
+      "role_category": "sc",
+      "via": "tenure",
+      "tenure": "1988–June 1, 2022 (34 years on Alabama's strength and conditioning staff; assistant strength coach rising to Assistant Head Strength and Conditioning Coach)",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://tide1009.com/alabama-strength-and-conditioning-coach-retires-after-34-years-at-the-capstone/",
+          "quote": "The Alabama Crimson Tide football program won seven national championships and 11 SEC titles during his time on the strength and conditioning staff",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
+    },
+    {
+      "name": "Ginger Gilmore",
+      "role": "Director, Behavioral Medicine (athletic trainer)",
+      "role_category": "medical",
+      "via": "tenure",
+      "tenure": "1996–2024 (joined Alabama in 1996; retired after the 2024 season / ReliaQuest Bowl on Dec. 31, 2024)",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20201106160633/https://rolltide.com/staff-directory",
+          "quote": "Dr. Ginger Gilmore-Childress Director, Behavioral Medicine 205-348-3841 205-348-3841 ggilmore@ia.ua.edu",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
+    },
+    {
+      "name": "Jeff Purinton",
+      "role": "Deputy Athletics Director (sport administrator for football)",
+      "role_category": "ops",
+      "via": "tenure",
+      "tenure": "Summer 2007 – May 2022 (15 years, continuous): Associate Athletics Director for Football Communications 2007–15, Senior Associate AD 2015–18, Executive Associate AD 2018–19, Deputy AD 2019–21, Executive Deputy Director of Athletics 2021–22. Left to become Vice Chancellor for Intercollegiate Athletics at Arkansas State on May 4, 2022.",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://astateredwolves.com/staff-directory/jeff-purinton/420",
+          "quote": "Alabama football won six national championships in Purinton's time at UA and took home numerous team and individual national awards.",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
     }
   ]
 }

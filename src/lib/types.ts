@@ -16,6 +16,12 @@ export interface Ring {
   cat: RoleCat
   /** Only present when the person arrived or left mid-season. */
   note?: string
+  /**
+   * 'tenure' means the evidence is a documented employment span covering this
+   * season rather than a line on that season's staff list — cited, but weaker,
+   * so the UI says so instead of quietly treating both the same.
+   */
+  via?: 'tenure'
   sources: Source[]
 }
 

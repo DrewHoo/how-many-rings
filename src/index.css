@@ -117,6 +117,10 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
 .ring-team { font-weight: 550; }
 .ring-role { color: var(--muted); }
 .ring-role em { color: var(--faint); font-style: normal; font-size: 12px; }
+.via {
+  margin-left: 6px; font-size: 10px; padding: 0 5px; border-radius: 999px;
+  border: 1px dashed var(--line); color: var(--faint); white-space: nowrap;
+}
 .ring-cites { display: flex; gap: 8px; white-space: nowrap; }
 .ring-cites a { color: var(--ring-on); font-size: 12px; }
 .nocite { color: var(--faint); font-size: 12px; }

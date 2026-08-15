@@ -34,6 +34,32 @@ const playerRings = new Map(
   JSON.parse(fs.readFileSync(path.join(root, 'data', 'player-rings.json'), 'utf8')).players
     .map((p) => [norm(p.name), p]))
 
+// Staff titles arrive exactly as their source words them, which is right for the
+// citation view but noisy in a list: donor-endowed prefixes ("Fain & Billy
+// Slaughter Co-Defensive Coordinator"), position suffixes after a dash, and
+// parenthetical asides. Trim those for display only.
+// The title phrase includes its own modifiers, so stripping a donor prefix off
+// "Fain & Billy Slaughter Co-Defensive Coordinator" keeps "Co-Defensive Coordinator".
+const MODIFIER = '(?:Co-)?(?:Head|Assistant|Associate|Senior|Deputy|Executive|Interim|Defensive|Offensive|Special|Teams|Football|Athletic|Athletics|Program|Player|Recruiting|Strength|Sports)'
+const NOUN = '(?:Coordinator|Coach|Director|Trainer|Manager|Analyst|Administrator|Nutritionist|Adviser|Advisor|Liaison|Specialist|Secretary|Intern|Chief|Assistant)'
+const TITLE_WORD = new RegExp(`\\b(?:${MODIFIER}\\s+)*${NOUN}\\b`)
+function displayTitle(role) {
+  let t = role.trim().replace(/\s+/g, ' ')
+  // Drop an endowment prefix: a donor name (contains &/and) sitting before the real title.
+  const m = t.match(TITLE_WORD)
+  if (m && m.index > 0) {
+    const prefix = t.slice(0, m.index)
+    if (/\s(&|and)\s/.test(prefix)) t = t.slice(m.index)
+  }
+  t = t.split(/\s[-–—]\s/)[0]        // "Co-DC - Inside Linebackers" -> "Co-DC"
+  t = t.replace(/\s*\([^)]*\)\s*$/, '')  // trailing "(off-field staff)"
+  // Title-case a shouted title so the list doesn't yell.
+  if (t === t.toUpperCase() && /[A-Z]{4}/.test(t)) {
+    t = t.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase())
+  }
+  return t.trim() || role.trim()
+}
+
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'data', 'headshots-manifest.json'), 'utf8'))
 const people = new Map()
 const seasons = []
@@ -60,6 +86,9 @@ for (const file of fs.readdirSync(staffDir).filter((f) => f.endsWith('.json'))) 
       season, team, role: row.role,
       cat: row.role_category,
       note: row.midseason_note,
+      // 'tenure' = documented employment covers this season, rather than a line
+      // on that season's staff list. Weaker evidence, so the site labels it.
+      via: row.via,
       sources: (row.sources ?? []).map((s) => ({ url: s.url, quote: s.quote })).filter((s) => s.url),
     })
   }
@@ -73,10 +102,17 @@ const coaches = [...people.values()]
     p.rings.sort((a, b) => a.season - b.season)
     // The title they held longest, so the list can say what someone actually did
     // without being opened. Ties go to the most recent, which is usually the most senior.
+    // Titles are cleaned for the list only; the expanded detail keeps each source's
+    // exact wording, donor names and all.
     const titleCounts = new Map()
-    for (const r of p.rings) titleCounts.set(r.role, (titleCounts.get(r.role) ?? 0) + 1)
+    for (const r of p.rings) {
+      const t = displayTitle(r.role)
+      titleCounts.set(t, (titleCounts.get(t) ?? 0) + 1)
+    }
     const primaryRole = [...titleCounts.entries()]
-      .sort((a, b) => b[1] - a[1] || p.rings.findLastIndex((r) => r.role === b[0]) - p.rings.findLastIndex((r) => r.role === a[0]))[0][0]
+      .sort((a, b) => b[1] - a[1] ||
+        p.rings.findLastIndex((r) => displayTitle(r.role) === b[0]) -
+        p.rings.findLastIndex((r) => displayTitle(r.role) === a[0]))[0][0]
     const catCounts = new Map()
     for (const r of p.rings) catCounts.set(r.cat, (catCounts.get(r.cat) ?? 0) + 1)
     const primaryCat = [...catCounts.entries()].sort((a, b) => b[1] - a[1])[0][0]

@@ -839,6 +839,36 @@
           "note": "added by coverage audit"
         }
       ]
+    },
+    {
+      "name": "Thad Turnipseed",
+      "role": "Associate Athletic Director for Special Projects / Director of Football External Affairs under Nick Saban",
+      "role_category": "ops",
+      "via": "tenure",
+      "tenure": "Alabama football player 1990-92 (member of the 1992 national championship team), student assistant 1993-95, then out of college athletics in construction 1995-2002. Returned to the University of Alabama athletic department in 2002 as Director of Intercollegiate Athletic Capital Projects / Director of Athletic Facilities, later Associate Athletic Director for Special Projects and Nick Saban's Director of Football External Affairs, staying 11 straight years until he joined Clemson in June 2013.",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.espn.com/blog/acc/post/_/id/80283/qa-clemsons-thad-turnipseed-on-recruiting",
+          "quote": "The Crimson Tide won consecutive recruiting (and national) titles in the final two seasons of Turnipseed's 11 years in Tuscaloosa, Alabama, as the associate athletic director for special projects and the director of football external affairs.",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
+    },
+    {
+      "name": "Joe Pendry",
+      "role": "Special adviser / consultant-NFL liaison (off-field staff)",
+      "role_category": "analyst",
+      "via": "tenure",
+      "tenure": "At Alabama continuously from 2007 through June 2018: assistant head coach/offensive line coach 2007–2010 (retired from on-field coaching January 2011), then an off-field role as special adviser / 'consultant-NFL liaison' from 2011 until he retired in June 2018. He was GM of the AAF's Birmingham Iron in 2019, then returned to Alabama as special assistant to the head coach (present for 2020 and 2021, still listed on Saban's final 2023 staff).",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.wvgazettemail.com/sports/mitch-vingle-the-state-treasure-that-s-joe-pendry/article_afee62ca-8f60-5b30-83f5-920a0b31fdda.html",
+          "quote": "Pendry actually retired from on-field coaching in 2011 after four seasons as the Crimson Tide's offensive line coach. Yet he remains a trusted — and well-paid — confidante of head coach Nick Saban",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
     }
   ]
 }

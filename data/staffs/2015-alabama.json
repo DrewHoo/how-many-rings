@@ -805,6 +805,36 @@
           "note": "added by coverage audit"
         }
       ]
+    },
+    {
+      "name": "Joe Pendry",
+      "role": "Special adviser / consultant-NFL liaison (off-field staff)",
+      "role_category": "analyst",
+      "via": "tenure",
+      "tenure": "At Alabama continuously from 2007 through June 2018: assistant head coach/offensive line coach 2007–2010 (retired from on-field coaching January 2011), then an off-field role as special adviser / 'consultant-NFL liaison' from 2011 until he retired in June 2018. He was GM of the AAF's Birmingham Iron in 2019, then returned to Alabama as special assistant to the head coach (present for 2020 and 2021, still listed on Saban's final 2023 staff).",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.wvgazettemail.com/sports/mitch-vingle-the-state-treasure-that-s-joe-pendry/article_afee62ca-8f60-5b30-83f5-920a0b31fdda.html",
+          "quote": "Reports say even though Pendry isn't listed as one of the 32 football staffers on the Alabama athletics website, he was still paid over $160,000 last year.",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
+    },
+    {
+      "name": "Jeff Purinton",
+      "role": "Senior Associate Athletics Director / Marketing & Football Communications",
+      "role_category": "ops",
+      "via": "tenure",
+      "tenure": "Summer 2007 – May 2022 (15 years, continuous): Associate Athletics Director for Football Communications 2007–15, Senior Associate AD 2015–18, Executive Associate AD 2018–19, Deputy AD 2019–21, Executive Deputy Director of Athletics 2021–22. Left to become Vice Chancellor for Intercollegiate Athletics at Arkansas State on May 4, 2022.",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://astateredwolves.com/staff-directory/jeff-purinton/420",
+          "quote": "Purinton served as Alabama's Executive Deputy Director of Athletics after being elevated to the position in 2021, but also held Deputy AD (2019-21), Executive Associate AD (2018-19), Senior Associate AD (2015-18) and Associate Athletics Director for Football Communications (2007-15) titles during his time with the Crimson Tide.",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
     }
   ]
 }

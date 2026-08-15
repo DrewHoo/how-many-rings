@@ -416,6 +416,21 @@
           "note": "1992 Alabama media guide, SUPPORT STAFF (guide p. 73). The OCR splits the Football Secretaries caption across interleaved photo columns, stranding her name on its own line; the full printed caption on the page scan reads 'Football Secretaries: (L-R) Mary Spybey, Debbie Gibson, Linda Knowles.'"
         }
       ]
+    },
+    {
+      "name": "Cedric Burns",
+      "role": "Football program support staff under head coach Gene Stallings (exact 1992 title not documented in the 1992 media guide; later titled Coordinator of Athletics Relations)",
+      "role_category": "ops",
+      "via": "tenure",
+      "tenure": "1979 – present (continuous, ~46 years). Brought into the program by Paul \"Bear\" Bryant in 1979 as a teenager; has served eight-plus Alabama head coaches (Bryant, Perkins, Curry, Stallings, DuBose, Franchione, Shula, Saban, DeBoer); currently Coordinator of Athletics Relations / personal assistant to the head coach.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://bamahammer.com/posts/another-example-why-alabama-crimson-tide-still-alabama-01j7f0xg4gtd",
+          "quote": "Cedric Burns who worked for Paul Bryant and Gene Stallings, and still works for Nick Saban, was once asked what separated the eight Alabama football coaches he worked for in Tuscaloosa.",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
     }
   ]
 }

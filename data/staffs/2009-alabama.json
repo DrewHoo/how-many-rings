@@ -676,6 +676,36 @@
           "note": "2009 Alabama Football Media Guide, page 104 support-staff grid (row 4, column 3). Image-only page. Visually transcribed caption: \"JESSE / PEOPLES\", title bar \"STATE TROOPER\"."
         }
       ]
+    },
+    {
+      "name": "Glenn Schumann",
+      "role": "Student assistant (undergraduate assistant)",
+      "role_category": "gradasst",
+      "via": "tenure",
+      "tenure": "2008–2015 (student/undergraduate assistant 2008–Dec. 2011; graduate assistant Dec. 2011–Feb. 2014; Director of Player Development / Associate Director of Player Personnel Feb. 2014–Dec. 2015; left in Dec. 2015 to join Kirby Smart at Georgia)",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Glenn_Schumann",
+          "quote": "He served as a student assistant from 2008 to 2011, when he graduated. During his time as a student assistant, Alabama won one SEC Championship and one National Championship.",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
+    },
+    {
+      "name": "Thad Turnipseed",
+      "role": "Director of Athletic Facilities / Director of Capital Projects (athletic department, football facilities)",
+      "role_category": "ops",
+      "via": "tenure",
+      "tenure": "Alabama football player 1990-92 (member of the 1992 national championship team), student assistant 1993-95, then out of college athletics in construction 1995-2002. Returned to the University of Alabama athletic department in 2002 as Director of Intercollegiate Athletic Capital Projects / Director of Athletic Facilities, later Associate Athletic Director for Special Projects and Nick Saban's Director of Football External Affairs, staying 11 straight years until he joined Clemson in June 2013.",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://clemsontigers.com/turnipseed-joins-clemson-football-staff/",
+          "quote": "Turnipseed spent the last 11 years at the University of Alabama",
+          "note": "tenure audit: documented employment covers this season"
+        }
+      ]
     }
   ]
 }

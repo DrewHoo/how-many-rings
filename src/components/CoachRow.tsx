@@ -58,7 +58,14 @@ export function CoachRow({
               <li key={`${r.season}-${r.team}`} className={inScope(r, scope) ? '' : 'dim'}>
                 <span className="ring-when tabular">{r.season}</span>
                 <span className="ring-team">{r.team}</span>
-                <span className="ring-role">{r.role} <em>({ROLE_LABEL[r.cat]})</em></span>
+                <span className="ring-role">
+                  {r.role} <em>({ROLE_LABEL[r.cat]})</em>
+                  {r.via === 'tenure' && (
+                    <span className="via" title="Not on this season's published staff list — credited because a documented employment span covers the season.">
+                      from tenure
+                    </span>
+                  )}
+                </span>
                 <span className="ring-cites">
                   {r.sources.slice(0, 3).map((s, i) => (
                     <a key={s.url + i} href={s.url} target="_blank" rel="noopener noreferrer"
