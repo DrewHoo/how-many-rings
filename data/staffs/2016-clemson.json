@@ -846,6 +846,103 @@
           "note": "2016 Clemson Football Media Guide, \"FOOTBALL SUPPORT STAFF\" section, guide page 34. Card reads: DIRECTOR OF BROADCASTING / 7th Season at Clemson / appalachian state '84 / DON MUNSON, with bio text \"Munson is in his seventh year with the Clemson athletic department in a full-time capacity and his third year as director of broadcasting.\" He is the radio play-by-play voice rather than a football-employed staffer, but Clemson prints him inside the football support staff section. Image-based Issuu flipbook, so no copyable page text."
         }
       ]
+    },
+    {
+      "name": "Brian Hennessy",
+      "role": "Senior Associate ACD",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/clemson-football-2016-media-guide",
+          "quote": "Special assistance provided by Brian Hennessy.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Tyler Clements",
+      "role": "Coordinator for Recruiting Operations",
+      "role_category": "ops",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://clemsontigers.com/staff/tyler-clements",
+          "quote": "joined the program in a full-time capacity as Coordinator for Recruiting Operations for the 2016 season",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Morgan Tadlock",
+      "role": "football recruiting operations intern",
+      "role_category": "ops",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://uhcougars.com/sports/football/roster/coaches/morgan-tadlock/677",
+          "quote": "Tadlock moved into her role after spending the 2016 season as a football recruiting operations intern and the 2012-15 seasons as a student recruiting assistant.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Paul Harrington",
+      "role": "director of performance nutrition for the Tiger football program",
+      "role_category": "other",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://clemsontigers.com/the-nutrition-expert/",
+          "quote": "Harrington came to Clemson for an interview in June 2016 and fell in love with the school.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Nicholas Yarid",
+      "role": "assistant equipment manager",
+      "role_category": "equipment",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://clemsontigers.com/staff/nick-yarid",
+          "quote": "joined the staff in a full-time capacity as an assistant equipment manager in 2016",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Joshua Smick",
+      "role": "on staff as a student (football video)",
+      "role_category": "ops",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://wkusports.com/sports/football/roster/coaches/joshua-smick/629",
+          "quote": "Smick was the Assistant Director of Football Video Operations at Clemson for two seasons and on staff prior to that as a student which included a three-year span that included a pair of national championships for the Tigers.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Amanda Gray",
+      "role": "compliance office staff",
+      "role_category": "other",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://clemsontigers.com/staff/amanda-gray",
+          "quote": "has been at Clemson within the compliance office since 2011.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
     }
   ],
   "coverage_notes": "SOURCES USED. (1) Wikipedia 2016 team page — 14-row coaching staff table plus a prose paragraph on the Conn/Richardson hires; role cell strings are literal and quotable. (2) The archived clemsontigers.com football \"Coaches\" page, captured Nov. 19, 2016 (https://web.archive.org/web/20161119144422/http://www.clemsontigers.com/SportSelect.dbml?&DB_OEM_ID=28500&SPID=103701&SPSID=657774) — the 10 on-field coaches with official in-season titles. Locating this required tracing Clemson's 2016 CBS-Interactive .dbml URL scheme (football = SPID 103701 / SPSID 657769); the generic /staff-directory URL only has 2018+ captures, and Wayback's query-string collapsing sends naive requests to the Diving page instead. (3) The 2016-17 Clemson Bowl Guide PDF (2016 Fiesta Bowl / CFP semifinal), recovered from Wayback at .../fls/28500/pdf/football/2016-17/ClemsonBowlGuide.pdf — real text layer, so quotes there are contiguous name+title lines. (4) The 2016 Clemson Football Media Guide (published 2016-07-30) on Issuu — this is the only source that enumerates the full support staff, and it is where 40+ of these rows come from. (5) The Clemson Insider's March 4, 2016 report on the Board of Trustees' approved football salaries, which independently names Batson, McCorvey, Brad Scott, Turnipseed, Dooley, Davis and Bassett in one sentence.\n\nQUOTE LIMITATIONS. The 2016 media guide exists publicly only as an image-based Issuu flipbook — no PDF with a text layer is available on clemsontigers.com, open.clemson.edu (their collection stops at 2015) or scmemory.org. I read it by parsing Issuu's protobuf text layer (layers.isu.pub/5943634a90b325e7b81b67d7fca15465/160730232027/text_v0/text_info.bin), which round-trips with hyphenation and column-order artifacts. Because that text cannot be reproduced faithfully from a fetch of the cited URL, every media-guide-only row carries quote:\"\" with the exact printed wording and guide page number in the note, per instructions. Rows that also appear in the Clemson Insider article or the Bowl Guide carry a real verbatim quote as a second source.\n\nKNOWN GAPS AND CAUTIONS. (a) No staff directory snapshot exists from the championship date itself (Jan. 9, 2017); the support-staff roster is as of July 2016 and the on-field roster as of Nov. 2016, so any mid-season support-staff arrival or departure would be invisible to me. I found no evidence of any such change, and no midseason_note is set on any row. (b) Zac Alley is included solely on Wikipedia's authority; Clemson's own July 2016 guide names only Austin, Barry and McDaniel as graduate assistants, so his 2016 title is not school-corroborated. (c) The Vickery Hall academic block (Duzan, Lombardi, Fieser, Roberts) prints names in one column and titles in another; my name-to-title pairing is inferred from that layout and could be transposed between Fieser and Roberts, who share a title anyway. (d) The guide lists a \"D.J. Gordon\" as Assistant Football Equipment Manager on the support-staff page and a \"D.J. Gordon, Coordinator of Creative Services\" in athletic communications; I could not determine whether these are one person or two. (e) I deliberately EXCLUDED department-wide athletic communications staff who are not football-specific (Joe Galbraith, Jonathan Gantt, Sam Blackman, Brian Hennessy, Libby Kehn, Jeff Kallin, Nik Conklin) even though they appear in the guide's media information page and Blackman/Hennessy are credited in the bowl guide — they are athletics-department employees, not football staff. Tim Bourret, Philip Sikes and Don Munson ARE included because Clemson prints them with explicitly football-designated titles or inside the football support staff section; treat them as judgment calls for ring purposes. (f) Student managers, video interns and undergraduate football student assistants outside the five named strength-and-conditioning student administrative assistants are not enumerated anywhere I could find. (g) Head athletic trainer coverage may be incomplete: the guide names only Danny Poole and Jeffie Trammell on the training side for football, and no full sports-medicine roster for football was published. (h) Nothing here is inferred from general knowledge — every one of the 60 rows traces to one of the five sources above."

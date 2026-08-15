@@ -573,6 +573,202 @@
           "note": "Bio headed 'Video Assistant'; the sentence continues 'ball season as a member of the Husker video crew' — his tenure is counted in FOOTBALL seasons, which is why he is included while other department video staff (Floyd Sorley, Vince Ullman, Bryan Carpenter, Jeff Schmahl) are noted in coverage_notes but excluded. The 'foot-' / 'ball' split across lines is a genuine OCR hyphenation."
         }
       ]
+    },
+    {
+      "name": "Chris Anderson",
+      "role": "Sports Information Director",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Beginning her ninth year with the Husker athletic department, Chris Anderson was named sports information director in July, 1993, after serving as the interim associate director during the 1992-93 academic year.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Pat Logsdon",
+      "role": "Assistant to the Director of Football Operations",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "In her 15th year with the Nebraska football staff, Pat Logsdon is in her first year as assistant to the director of football operations.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Al Papik",
+      "role": "Senior Associate Athletic Director / Compliance",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Papik, who joined the UNL staff in 1973 as director of admissions, is beginning his second year as the senior associate athletic director and will continue to serve as Nebraska's compliance coordinator.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Vicki Cartwright",
+      "role": "Sports Information Secretary / Office Manager",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Vicki Cartwright is completing her 15th year at Nebraska and serves as secretary, receptionist, and sports information office manager, in addition to other duties.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Don Bryant",
+      "role": "Associate Athletic Director, Public Relations (SID 1962-93)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Assoc. A.D./Public Relations: Don Bryant",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Janette Sojka",
+      "role": "Central Communications Coordinator / Sports Information Secretary",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Janette Sojka is in her 16th year as a member of the athletic department's public relations staff, serving 15 years as a secretary to Don Bryant and the sports information office.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Jeff Schmahl",
+      "role": "Video Production Specialist",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Jeff Schmahl is beginning his second year as the Nebraska Athletic Department's video production specialist.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Bryan Carpenter",
+      "role": "Computer Video Technician",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Bryan Carpenter is in his fourth year with the Nebraska Athletic Department and his first as a computer video technician.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Brian Mohnsen",
+      "role": "Computer Video Technician, Husker football staff",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Brian Mohnsen is in his third year as a computer video technician for the Husker football staff.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Floyd Sorley",
+      "role": "Video Assistant",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Floyd Sorley is in his 16th year as a video assistant with the athletic department.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Vince Ullman",
+      "role": "Video Electronic Technician",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Vince Ullman has been with the athletic department for 28 years, the last six as an electronic technician on Dave Finn's video staff.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Mike Mason",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1997-media-guide-c",
+          "quote": "Mason was hired full time in August 1994, after serving the previous five years as the student equipment manager.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Bill Shepard",
+      "role": "Grounds Manager (Memorial Stadium and football practice fields)",
+      "role_category": "ops",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Now in his 35th year, Shepard first joined the Nebraska staff in 1960.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Joe Selig",
+      "role": "Assistant Athletic Director, Facilities and Events",
+      "role_category": "ops",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Joe Selig enters his second year as assistant athletic director for facilities and events.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Nick Joos",
+      "role": "Associate Sports Information Director (football)",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1994-media-guide-c",
+          "quote": "Nick Joos enters his eighth year at Nebraska and his first as associate sports information director.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

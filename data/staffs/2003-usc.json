@@ -341,6 +341,45 @@
           "note": "Quote truncated at the OCR line break; the role string continues on the next line as \"coordinator, men's basketball and track equipment coordinator), Jim Davis\". From Dino Dennis's bio in the 2003 media guide support-staff section."
         }
       ]
+    },
+    {
+      "name": "Charr Gahagan",
+      "role": "Assistant Coach, Strength & Conditioning",
+      "role_category": "sc",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/usc-football-2003-media-guide-c",
+          "quote": "Assistant Coach: Charr Gahagan x7990",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Gary Uribe",
+      "role": "Assistant Coach, Strength & Conditioning",
+      "role_category": "sc",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/usc-football-2003-media-guide-c",
+          "quote": "Assistant Coach: Gary Uribe x7990",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Christie Valine",
+      "role": "Recruiting Assistant",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/usc-football-2003-media-guide-c",
+          "quote": "CHRISTIE VALINE",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ],
   "coverage_notes": "SOURCES USED. Primary: the 2003 USC Football Media Guide (preseason, July 2003), scanned at archive.org (item usc-football-2003-media-guide-c) with an OCR text derivative at https://archive.org/download/usc-football-2003-media-guide-c/USC%20Football%202003%20Media%20Guide%20(C)_djvu.txt. Its roster page carries a clean, contiguous \"HEAD COACH:\" / \"ASSISTANT COACHES:\" / \"STRENGTH AND CONDITIONING COACH:\" / \"DIRECTOR OF FOOTBALL ADMINISTRATION:\" block, and a separate athletics staff directory (FOOTBALL - x4204 section) lists the full football office. Corroborated by individual coach bios on USC's 2003 athletics site (usctrojans.ocsn.com) captured on the Wayback Machine in Dec 2003 and Feb 2004, i.e. immediately before and after the Jan 1, 2004 Rose Bowl. USC also hosts the scanned coaching section itself at https://usctrojans.com/documents/download/2017/6/26/03coach.pdf (32 pages, image-only, no text layer).\n\nWHAT IS COMPLETE. The on-field tier is fully recovered and internally consistent with the era's NCAA limits: exactly 9 full-time assistants (Burns, Chow, Davis, Holt, Kiffin, Orgeron, Pola, Sarkisian, Seto) plus 2 graduate assistants (Brennan Carroll, Dennis Slutak) plus head coach Pete Carroll. USC had no defensive coordinator in 2003 — Pete Carroll ran the defense himself, and Wikipedia's infobox correctly leaves def_coach blank. Note that Wikipedia's coaching-staff list for this season is materially incomplete: it omits Nick Holt, Kennedy Pola, Steve Sarkisian and Dennis Slutak. Everything above beyond those seven names comes from the media guide and archived athletics site, not Wikipedia.\n\nANALYST AND QUALITY-CONTROL TIERS: ZERO, AND THIS IS AN ABSENCE, NOT A GAP. Neither the media guide's football staff directory nor the archived athletics site lists any analyst, quality-control, or off-field football-only staff position. That is consistent with 2003 NCAA staffing rules, which did not permit the large off-field analyst tier that modern programs carry. I found no evidence such roles existed at USC in 2003 and have not invented any.\n\nSTRENGTH AND CONDITIONING — PARTIAL AMBIGUITY. The football roster page names only Chris Carlisle plus assistants Aaron Ausmus and Jamie Yanchar, and those three are the rows above. Carlisle's bio, however, says he \"is assisted by Jamie Yanchar, Aaron Ausmus, Charr Gahagan, Andrea Ausmus and Gary Uribe,\" and the athletics staff directory lists all five as S&C assistant coaches. Charr Gahagan, Andrea Ausmus and Gary Uribe are documented USC strength staff in 2003 but are NOT football-designated in any source I found, so I did not create rows for them. If the dataset counts department S&C staff, those three names are real and sourced to the same directory (\"Assistant Coach: Charr Gahagan x7990\", \"Assistant Coach: Andrea Ausmus x4186\", \"Assistant Coach: Gary Uribe x7990\").\n\nMEDICAL — NOT RECOVERED AT FOOTBALL LEVEL. USC's 2003 media guide documents athletic training only department-wide, with no per-sport assignments. Documented but deliberately excluded as unattributable to football: Russ Romano (Director of Athletic Training / Head Athletic Trainer), head athletic trainer emeritus Jack Ward, and assistant trainers Sue Lerner, Mark Pocinich, Steve Grech, John Dean, Sandra Olsen and Emily McClellan. I could not determine which of them was the football team's trainer in 2003. Team physicians are listed in the guide by title only, with the OCR dropping the names.\n\nEQUIPMENT — ONLY THE FOOTBALL-DESIGNATED TWO. Included: Tino Dominguez and Greg Allen, both explicitly titled with \"football\" in the source. Documented but excluded as department-level rather than football staff: Sid Brooks (director of equipment operations), Dino Dennis (head equipment manager), and Jim Davis (assistant). All three appear in the same media guide.\n\nVIDEO AND OTHER SUPPORT — NOT RECOVERED AT FOOTBALL LEVEL. Video Operations is listed department-wide: Joe Schrimpl (Director), Chris Hanaford (Assistant), David Scott (Assistant). Football video duties in 2003 are undocumented, so no rows were created. The guide also lists a large unnamed-by-role student manager and student trainer corps (student trainers Jared Blank, David Chang, Erica Cossio, Kim Driftmier, Matt Feehan, Katrina Herra, Jack Kirck, Angeli Lee, Jill Manor, Jonathan Wu; plus roughly 45 student managers named only in a photo caption) — none of these are attributable specifically to football, and none were included.\n\nQUOTE-FIDELITY CAVEATS. The media guide is a scan, so the archive.org text is OCR. Every quote above was copied byte-for-byte from that OCR output, including its trailing artifacts, and all are plain ASCII. Where the guide's two-column layout puts a person's title and name in separate OCR blocks — which affects the five football-office staff (Bukowski, Valine, Gillman, Hirayama, Puentes) — no contiguous name-plus-role string exists, so those rows carry quote:\"\" against USC's own image-only PDF of the same pages, with the exact on-page wording recorded in each note, per the PDF/image instruction. Two on-field quotes (Orgeron, Brennan Carroll) and one equipment quote (Greg Allen) are truncated at an OCR line break rather than mid-word; the continuation text is given in the note. Rocky Seto's media guide entry is likewise split across an OCR line break, so his primary evidence is the archived USC athletics site bio instead.\n\nMIDSEASON CHANGES. None found. No staff member above carries a midseason_note. The primary source is the preseason (July 2003) media guide, which is a real limitation: I could not locate a staff directory dated to the Rose Bowl itself. However, archived usctrojans.ocsn.com bios for Pete Carroll, Ed Orgeron, Lane Kiffin, Brennan Carroll, Dennis Slutak and Chris Carlisle captured in Dec 2003 and Feb 2004 show the same people in the same roles on both sides of the championship game, so I have good confidence the staff was unchanged on Jan 1, 2004. Dennis Slutak joined in July 2003, before the season, so he is not a midseason arrival. I attempted but could not recover a consolidated coaching-staff index page from the Wayback Machine — only individual bio pages survive, and the CDX API repeatedly timed out on broad queries, so I cannot rule out that a lower tier of staff existed on a site page I never reached. Web search budget for this session was exhausted before I could run contemporary news checks for hire/departure announcements during the 2003 season."

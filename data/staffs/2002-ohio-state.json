@@ -443,6 +443,47 @@
           "note": "The 2002 Ohio State football media guide carries a page headed 'FOOTBALL ACADEMIC COUNSELORS' on which John Macko is the named/pictured counselor; he also appears in the athletics department directory under Student Athlete Support Services as 'John Macko Academic Counselor'. The heading is plural but only Macko is identified with football, so the second directory counselor (Darrin Meeker) is not included. URL is the archive.org OCR text of the scanned guide."
         }
       ]
+    },
+    {
+      "name": "Sean Perkins",
+      "role": "Coordinator of Building Services (Woody Hayes Athletic Center added 2001)",
+      "role_category": "other",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://ohiostatebuckeyes.com/staff-directory/sean-perkins/1507",
+          "quote": "Perkins became building services coordinator for St. John Arena and French Field House in 1997; since that time, he has added the responsibilities of overseeing the upkeep of the Woody Hayes Athletic Center (2001), Steelwood Training Facility (2003) and the indoor Varsity Tennis Center (2007) as well.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Bill Moffitt",
+      "role": "Assistant Building Coordinator, Woody Hayes Athletic Center",
+      "role_category": "other",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20140421160705/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/moffitt_bill00.html",
+          "quote": "Moffitt began working as a student facility assistant at St. John Arena in 1996 before receiving his current full-time position in 2001.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Don Patko",
+      "role": "Assistant Athletics Director for Facilities (oversees Woody Hayes Athletic Center and Ohio Stadium)",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://ohiostatebuckeyes.com/staff-directory/don-patko/1505",
+          "quote": "Don Patko has been assistant athletics director for facilities at Ohio State since March 2002. He oversees the daily operation of all department facilities including Ohio Stadium, Bill Davis Stadium, the Woody Hayes Athletics Center, the Jesse Owens Memorial Stadium and Buckeye Field.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ],
   "coverage_notes": "SOURCES USED. (1) Wikipedia 2002 Ohio State Buckeyes football team — its \"Coaching staff\" section lists 12 people (10 on-field + 2 football operations) and nothing below that tier. (2) The primary source for everything else is the OFFICIAL 2002 OHIO STATE FOOTBALL MEDIA GUIDE, scanned on archive.org as item \"ohio-state-football-2002-media-guide-c\". All media-guide quotes are cited to the archive.org DjVuTXT plain-text rendering (https://archive.org/download/ohio-state-football-2002-media-guide-c/Ohio%20State%20Football%2C%202002%20Media%20Guide%20%28C%29_djvu.txt, text/plain, ~1.39 MB) rather than the PDF, because that URL is machine-fetchable text. Every quote in this dataset was string-matched programmatically against the fetched bytes of its cited URL before submission. IMPORTANT CAVEAT ON QUOTE FIDELITY: that text is OCR of a 2002 print scan and contains characteristic artifacts — stray spaces inside words (\"O hio State\", \"M ark Staten\"), line-break hyphenation, and inconsistent dash characters (some entries use an em dash \"—\", others a hyphen \"-\"). The quotes reproduce the OCR EXACTLY, artifacts included, so they match the cited text file but will NOT match a clean human transcription of the printed page. Several quotes span consecutive OCR lines and therefore contain literal newlines. (3) The 2003 Ohio State media guide (archive.org item \"ohio-state-football-2003-media-guide-c\") was used as a cross-check on year-counts.\n\nWAYBACK MACHINE ATTEMPTED AND FAILED. I searched the Internet Archive CDX index for ohiostatebuckeyes.com captures between Aug 2002 and Apr 2003. A football staff page exists in the index (/sports/m-footbl/mtt/osu-m-footbl-staff.html) but has exactly one capture, dated 2002-01-17, and it — like essentially every ohiostatebuckeyes.com football capture from that window — archived as an HTTP 302 redirect with no body. The ohiostatebuckeyes.ocsn.com mirror has no football staff captures. So no contemporaneous athletics-site staff directory could be recovered; the media guide substitutes for it. Ohio State's own hosted copy (ohiostatebuckeyes.com/wp-content/uploads/2018/07/2002_Guide.pdf, cited by Wikipedia) now returns a 404 page.\n\nWHAT IS COVERED WELL. On-field: complete — head coach plus all 9 assistants (Bollman, Conley, Daniels, Dantonio, Fickell, Heacock, Snyder, Spencer, Tucker), corroborated by two independent sources each. Strength and conditioning: complete as documented — Allan Johnson (director) plus assistants Mike Cochran and Bernardo Amerson; note Johnson was the successor to Dave Kennedy, who resigned in May 2001, so any source naming Kennedy for 2002 is wrong. Graduate assistants: the two NCAA-countable GAs, Sorie Kanu (defense/linebackers) and Mark Staten (offensive line). Football operations: Bob Tucker, Dick Tressel, John Hill, plus the three office associates. Medical, equipment, and video: as printed in the guide's Support Staff block and photo panels.\n\nWHAT I COULD NOT RECOVER. (a) ANALYST and QUALITY CONTROL tiers: no such positions are documented, and I believe they did not exist as titled roles at Ohio State in 2002 — the modern analyst/QC layer postdates this era. I found zero sources naming anyone in those tiers, and I have not padded the list. (b) STUDENT ASSISTANT COACHES: the media guide references student assistant coaches as a category (in staff bios) but names none for 2002; unrecovered. (c) SUB-TIER TRAINING AND EQUIPMENT STAFF: Bill Davis's bio says the training program includes 11 full-time trainers and five graduate assistants, and Doug Calland's says he oversees a graduate assistant and 12 student trainers; Danny Swain's says he oversees six full-time and seven student assistants. None of those individuals are named except the four listed above (Lachey, Caldwell, Buchanan on equipment; no named assistant trainers at all). So the medical and equipment tiers are materially incomplete in headcount even though every person the guide names is captured here. (d) RECRUITING/PERSONNEL beyond Hill and Kauffman: no separate personnel department existed. (e) STRENGTH INTERNS: none named.\n\nTIMING AND ROSTER-ACCURACY CAVEATS. The 2002 media guide is a PRESEASON document (printed ~August 2002), so it establishes who was on staff entering the season, not at the January 3, 2003 Fiesta Bowl. I searched specifically for mid-season 2002 staff changes and found none reported; no midseason_note is set on any row, but absence of evidence is not proof there were none. One correction worth flagging: Wikipedia's Mike Tressel article states he was an Ohio State graduate assistant in \"2002–2003\" and its infobox reads \"2002–2003 Ohio State (GA)\". This is WRONG and he is deliberately EXCLUDED. The 2003 Ohio State media guide states \"Mike Tressel is in his first year as a graduate assistant coach at Ohio State\", and Jim Tressel's bio in the same 2003 guide says of Dick's son Mike that he \"will serve as a graduate assistant with the OSU defense this fall\" — i.e. 2003. He is also absent from every staff listing in the 2002 guide, whose GA slots are held by Kanu and Staten. Similarly, Josh Boyer (sometimes associated with Ohio State) was at Kent State in 2002 and is excluded. Jeff Ryan appears as a GA only in the 2003 guide and is excluded.\n\nROLE-CATEGORY JUDGMENT CALLS. John Hill is titled \"Program Assistant\" and his bio calls him a graduate assistant coach, but it also says he \"returns to an administrative role this year\" (recruiting coordination, walk-on program, summer camps), so he is categorized ops rather than gradasst. Mark Quisenberry (video) and John Macko (academics) are categorized other. Bill Davis is department-wide Director of Athletic Training, not football-only, but is listed in the guide's football Support Staff block and so is included. Bernardo Amerson's surname is OCR'd inconsistently as \"Averson\" in two of the guide's tabular listings and \"Amerson\" in his bio and the table of contents; \"Amerson\" is correct."

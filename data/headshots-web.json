@@ -426,5 +426,613 @@
     "sourceKind": "school",
     "license": "school photo (copyrighted)",
     "note": "Clemson staff directory photo; earlier an Alabama player (1992 title team) and Saban-era facilities/external affairs staffer."
+  },
+  {
+    "name": "Angela Kirkpatrick",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/georgiadogs.com/images/2021/9/15/Kirkpatrick_Angela_2_.JPG",
+    "sourcePage": "https://georgiadogs.com/staff-directory/angela-kirkpatrick/3661",
+    "sourceKind": "official school athletics staff directory (Sidearm CDN)",
+    "license": "University of Georgia Athletics official staff headshot; school-owned publicity photo, editorial use",
+    "note": "Verified HTTP 200, content-type image/jpeg, 304KB. Identity confirmed: georgiadogs.com bio lists her as Associate Director of Recruiting Operations for football, still on staff, and an earlier bio page (/staff/angela-kirkpatrick/90) shows her as On-Campus Recruiting Coordinator during the 2021-2022 title seasons. Photo file dated 2021, matching the ring years."
+  },
+  {
+    "name": "Ann Hunt",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/georgiadogs.com/images/2026/2/23/AHunt.jpg",
+    "sourcePage": "https://georgiadogs.com/staff-directory/ann-hunt/420",
+    "sourceKind": "official school athletics staff directory (Sidearm CDN)",
+    "license": "University of Georgia Athletics official staff headshot; school-owned publicity photo, editorial use",
+    "note": "Verified HTTP 200, content-type image/jpeg, 69KB. Identity confirmed: current georgiadogs.com bio is Administrative Associate/Assistant to the Head Coach, hired by UGA Athletics in 1995 and long attached to the football head coach's office, so she held the role through 2021 and 2022. Headshot is a recent (2026) refresh of the same person, not a namesake."
+  },
+  {
+    "name": "Anna Courson",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/georgiadogs.com/images/2021/3/9/Courson_Anna_1.jpg",
+    "sourcePage": "https://georgiadogs.com/staff-directory/anna-courson/3619",
+    "sourceKind": "official school athletics staff directory (Sidearm CDN)",
+    "license": "University of Georgia Athletics official staff headshot; school-owned publicity photo, editorial use",
+    "note": "Verified HTTP 200, content-type image/jpeg, 423KB. Note the name change: she now appears on georgiadogs.com as Anna DeFabio (married name), but the URL slug, the photo filename (Courson_Anna_1.jpg) and the bio all confirm the same person — joined UGA Athletics in 2021 and was a Football Operations Assistant 2021-2022, exactly the title seasons. Photo dated March 2021."
+  },
+  {
+    "name": "Anthony Pass",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/cubuffs.com/images/2023/8/22/head_shots_Pass_Anthony_2023_mug.jpg",
+    "sourcePage": "https://cubuffs.com/staff-directory/anthony-pass/1209",
+    "sourceKind": "official school athletics staff directory at current employer (Sidearm CDN)",
+    "license": "University of Colorado Athletics official staff headshot; school-owned publicity photo, editorial use",
+    "note": "Verified HTTP 200, content-type image/png (despite the .jpg extension), 3.7MB — large, so you may want to downscale it before use. He left Florida, so this is his current-employer bio: Colorado, Associate AD/Sports Medicine/Head Football Athletic Trainer. Identity confirmed by career chain in the bio — eight years at Florida, head football trainer 2005-06 and Associate Director of Sports Health 2006-2013, covering both the 2006 and 2008 titles — then Texas Tech, Texas, Stanford, JMU, Colorado."
+  },
+  {
+    "name": "Austin Chambers",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/georgiadogs.com/images/2021/3/22/Chambers_Austin_2.jpg",
+    "sourcePage": "https://georgiadogs.com/staff-directory/austin-chambers/3621",
+    "sourceKind": "official school athletics staff directory (Sidearm CDN)",
+    "license": "University of Georgia Athletics official staff headshot; school-owned publicity photo, editorial use",
+    "note": "Verified HTTP 200, content-type image/jpeg, 259KB. Identity confirmed: joined the UGA football staff in June 2018 as Assistant Director of Player Development (now Director of Player Engagement); bio explicitly credits the two CFP national championships from the 2021 and 2022 seasons. Photo dated March 2021."
+  },
+  {
+    "name": "Bert Biffani",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/jsugamecocksports.com/images/2026/8/11/BiffaniBert.jpg",
+    "sourcePage": "https://jaxstatesports.com/staff-directory/bert-biffani/524",
+    "sourceKind": "official school athletics staff directory at current employer (Sidearm CDN)",
+    "license": "Jacksonville State Athletics official staff headshot; school-owned publicity photo, editorial use",
+    "note": "Verified HTTP 200, content-type image/jpeg, 1.1MB. Current-employer bio: Jacksonville State, Outside Linebackers Coach / Recruiting Coordinator, hired before the 2025 season. Identity is a direct match — the JSU bio states in plain text that he was part of the 2013 Florida State staff that won the BCS National Championship and the 2020 Alabama staff that won the College Football Playoff championship, exactly the two ring years listed. He was an FSU quality control coach 2013-17 and joined Alabama as a defensive analyst in March 2020."
+  },
+  {
+    "name": "Brian Mohnsen",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/goyotes.com/images/2018/7/31/Mohnsen_Brian_71.jpg",
+    "sourcePage": "https://goyotes.com/sports/football/roster/coaches/brian-mohnsen/970",
+    "sourceKind": "official school athletics staff bio (Sidearm CMS, University of South Dakota)",
+    "license": "University of South Dakota athletics publicity headshot; live school CDN, hotlinkable",
+    "note": "VERIFIED: HTTP 200, image/jpeg, 1060x1458, 418KB. Visually confirmed as a formal studio staff headshot (bald, grey goatee, dark suit, red tie, South Dakota 'SD' lapel pin). IDENTITY CONFIRMED via his current employer: he moved on from Nebraska and is now on staff at South Dakota, and the goyotes.com bio explicitly states he spent 12 years at Nebraska as director of the video scouting department and was part of the 1994, 1995 and 1997 national championships — matching the target's Nebraska computer-video role and 1995/1997 rings. HuskerMax's 'Anatomy of an Era' series independently corroborates Brian 'Moose' Mohnsen as a Nebraska video-department staffer under video director Dave Finn. Note this is a present-day photo, ~20 years after the title seasons."
+  },
+  {
+    "name": "Bryan Carpenter",
+    "imageUrl": "https://cdn.huskermax.com/wp-content/uploads/2019/02/bryan-carpenter-football.jpg",
+    "sourcePage": "https://www.huskermax.com/anatomy-of-an-era-bryan-carpenter-part-1/",
+    "sourceKind": "fan/history site feature article (HuskerMax 'Anatomy of an Era' series, from Paul Koch's 'No Place Like Nebraska')",
+    "license": "HuskerMax-hosted; appears to be a Nebraska media-guide era mug. Not Getty/AP. Attribution to HuskerMax recommended.",
+    "note": "VERIFIED: HTTP 200, image/jpeg, 500x353, 20KB. Visually inspected — it is a genuine black-and-white era-appropriate head-and-shoulders mug shot of a young man, not a team or action photo. Smallest of the set but meets the ~300px minimum (500px wide). IDENTITY CONFIRMED: it is the lead image of the article titled 'Anatomy of an Era: Bryan Carpenter', with alt text 'Bryan Carpenter'; the series identifies Bryan 'Carp' Carpenter as a former Husker running back who worked full-time in Nebraska's video department alongside Brian 'Moose' Mohnsen — matching the target's role and 1995/1997 title seasons. No Sidearm/school CDN copy exists; Nebraska's huskers.com has no archived bio for him."
+  },
+  {
+    "name": "Bryant Gantt",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/georgiadogs.com/images/2018/8/8/Gantt_Bryant.jpg",
+    "sourcePage": "https://georgiadogs.com/sports/football/roster/staff/bryant-gantt/1090",
+    "sourceKind": "official school athletics staff bio (Sidearm CMS, University of Georgia)",
+    "license": "University of Georgia athletics publicity headshot; live school CDN, hotlinkable",
+    "note": "VERIFIED: HTTP 200, image/jpeg, 1332x2000, 327KB. This is the full-resolution original behind the cropped thumbnail on his live UGA bio page (the page serves it via images.sidearmdev.com/crop; the underlying cloudfront original is linked here and is larger/uncropped). IDENTITY CONFIRMED: current UGA staff page for Bryant Gantt, Director of Player Support and Operations — exactly the target role and school; he has held the role continuously since 2011, spanning the 2021 and 2022 title seasons."
+  },
+  {
+    "name": "Buster Faulkner",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/gatorzone.com/images/2025/12/8/FaulknerHeadshot.jpg",
+    "sourcePage": "https://floridagators.com/sports/football/roster/coaches/buster-faulkner/2164",
+    "sourceKind": "official school athletics staff bio (Sidearm CMS, University of Florida — his CURRENT employer)",
+    "license": "University of Florida athletics publicity headshot; live school CDN, hotlinkable",
+    "note": "VERIFIED: HTTP 200, image/jpeg, 1500x2000, 267KB. Found at his current employer rather than Georgia: Faulkner left UGA after 2022, was Georgia Tech OC 2023-25, and is Florida's offensive coordinator as of 2026, so this is a fresh Dec-2025 headshot. IDENTITY CONFIRMED: the Florida bio states he spent 2020-22 at Georgia as an offensive quality control coach — matching the target's 'Quality Control' role and 2021/2022 rings. Note this is a current photo, several years after the title seasons."
+  },
+  {
+    "name": "Chad Morehead",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/georgiadogs.com/images/2022/8/5/Morehead_Chad_3.jpg",
+    "sourcePage": "https://georgiadogs.com/staff-directory/chad-morehead/3751",
+    "sourceKind": "official school athletics staff bio (Sidearm CMS, University of Georgia)",
+    "license": "University of Georgia athletics publicity headshot; live school CDN, hotlinkable",
+    "note": "VERIFIED: HTTP 200, image/jpeg, 1667x2000, 504KB. Full-resolution original behind the cropped thumbnail served on his UGA staff page. IDENTITY CONFIRMED: current UGA staff listing for Chad Morehead, Co-Director of Football Creative Design — exactly the target role and school. Corroborating detail: his Behance portfolio notes he created the official logos for all four of Georgia's national championships, and the photo is dated Aug 2022, i.e. squarely within the 2021/2022 title window. Note there is an unrelated Chad Morehead on Unsplash (@jwrm2020) — this is NOT that person; this URL comes straight off the georgiadogs.com bio."
+  },
+  {
+    "name": "Mary Lyn Wininger",
+    "imageUrl": "https://cdn.huskermax.com/wp-content/uploads/2018/08/CaptureMLW-e1535553869549.jpg",
+    "sourcePage": "https://www.huskermax.com/anatomy-of-an-era-mary-lyn-wininger-part-1/",
+    "sourceKind": "fan-media feature using Nebraska Sports Information portrait",
+    "license": "Unlicensed hotlink; photo credit in page markup is \"Nebr. Sports Info\" (University of Nebraska Sports Information Dept.) — editorial/newsworthy use",
+    "note": "VERIFIED 200 / image/jpeg, 339x217 (slightly under the ~300px-wide preference in height but usable; it is a tight head-and-shoulders crop, so the face fills the frame). This is the featured image of HuskerMax's 'Anatomy of an Era: Mary Lyn Wininger, Part 1' oral-history piece; the <img> alt text, the schema.org ImageObject caption, and the on-page caption all read exactly \"Mary Lyn Wininger\", so identity is confirmed by the source itself, not inferred. B&W 1990s-era Nebraska sports-info mug, consistent with her tenure as Tom Osborne's (and later Frank Solich's) football-office secretary. No live huskers.com staff page exists for her (tried /staff/mary-lyn-wininger, /staff/marylyn-wininger, /staff/mary-wininger — all 404). A larger uncropped original exists at .../2018/08/CaptureMLW.jpg (339x272) if you prefer more headroom."
+  },
+  {
+    "name": "Mike Arthur",
+    "imageUrl": "https://storage.googleapis.com/huskers-com-prod/2023/06/05/dN3vnLz3qFiCQ7Wqb2cwwLElEycpXMe6sqUrOSzy.jpg",
+    "sourcePage": "https://huskers.com/staff/mike-arthur",
+    "sourceKind": "official school athletics staff directory (Nebraska, huskers.com)",
+    "license": "Unlicensed hotlink to Nebraska Athletics' own CDN bucket (huskers-com-prod on storage.googleapis.com)",
+    "note": "VERIFIED 200 / image/jpeg, 1200x1500. Clean studio headshot, navy blazer / red tie. Pulled by parsing the __NUXT_DATA__ payload on his live huskers.com staff page and base64-decoding the imgproxy path to the underlying Google Cloud Storage object, which serves directly. Position on the page reads \"Strength Coach\" — correct person: Michael James Arthur, b. 1952 Broken Bow NE, hired by Boyd Epley in 1977, 40+ years on Nebraska's strength staff through the 1994/1995/1997 titles. Cross-checked against his USA Strength & Conditioning Coaches Hall of Fame portrait (https://usastrengthcoacheshf.com/uploads/members/f19222813c0acd60add543b238ce33f2.png, 512x640, also live) — same face, so identity is double-sourced. Use the HOF PNG as a fallback."
+  },
+  {
+    "name": "Mike Groh",
+    "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/eagles/cnh9qkmwdsjl8cuc9aza",
+    "sourcePage": "https://www.philadelphiaeagles.com/news/mike-groh-hired-to-coach-wide-receivers-18488818",
+    "sourceKind": "official NFL club news post (Philadelphia Eagles)",
+    "license": "Unlicensed hotlink to the Eagles' own Cloudinary CDN; club-hosted editorial photo, no visible watermark (NOT Getty/AP stock)",
+    "note": "VERIFIED 200 / image/jpeg, 1280x720 — a tight close-up of his face, so it crops well to a square avatar. It is the og:image of the Eagles' own 'Mike Groh Hired To Coach Wide Receivers' announcement, so the identity is asserted by the team. Correct person: Mike Groh, Alabama offensive GA in 2009 and WR coach/recruiting coordinator 2011-12 (three CFP/BCS titles), later Bears/Rams/Eagles/Colts/Giants. NOTE ON A NEAR-MISS I REJECTED: virginiasports.com's May 2025 alumni spotlight on Groh carries https://storage.googleapis.com/virginiasports-com-prod/2025/05/NewMikeGroh.jpg (200, 1020x658) but it is an action shot of him in a helmet as UVA's QB — no usable face. Also rejected https://s3media.247sports.com/Uploads/Player/820/346590.jpg, which appears on 247's Groh coach page but is actually recruit Cyrus Jones."
+  },
+  {
+    "name": "Patrick Suddes",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/unc.sidearmsports.com/images/2022/2/9/Suddes_Patrick_53.jpg",
+    "sourcePage": "https://goheels.com/news/2022/2/9/suddes-to-join-carolina-football-as-assistant-a-d-general-manager",
+    "sourceKind": "official school athletics site (North Carolina, Sidearm CDN)",
+    "license": "Unlicensed hotlink to UNC Athletics' Sidearm CloudFront CDN",
+    "note": "VERIFIED 200 / image/jpeg, 2000x1333. Posed studio portrait in Carolina blue quarter-zip in front of the interlocking NC. Filename Suddes_Patrick_53.jpg from UNC's own hire announcement, so identity is source-asserted. Correct person: Patrick 'Pat' Suddes — Alabama Associate Director of Football Operations during the 2009/2011/2012 title run, then Auburn player personnel, Georgia Tech GM, UNC Asst. AD/GM 2022-24, currently listed as UNC's Athletic Department General Manager. His current bio page (https://goheels.com/staff-directory/patrick-suddes/3419) renders its headshot client-side and ships only the Sidearm person-default.png placeholder in the HTML, which is why the news-post CDN image is the better link — and it is higher-resolution anyway."
+  },
+  {
+    "name": "Randy Gobel",
+    "imageUrl": "https://storage.googleapis.com/huskers-com-prod/2023/06/05/04ZgqUkwhkjqgcwm4zhJbyAEMZImXjFwU40wn58e.jpg",
+    "sourcePage": "https://huskers.com/staff/randy-gobel",
+    "sourceKind": "official school athletics staff directory (Nebraska, huskers.com)",
+    "license": "Unlicensed hotlink to Nebraska Athletics' own CDN bucket (huskers-com-prod on storage.googleapis.com)",
+    "note": "VERIFIED 200 / image/jpeg, 1200x1500. Modern Nebraska studio headshot, black polo with the red N. The file's embedded EXIF ImageDescription literally reads \"Randy Gobel\" (Canon EOS-1D X Mark II), which is about as strong an identity confirmation as you can get. Same extraction method as Arthur: __NUXT_DATA__ on the live staff page, base64-decoded imgproxy path. Correct person: Nebraska athletic department 1981-2024, strength coach through the 1994/1995/1997 championships (worked the QBs/RBs/DBs), later Director of Athletic Facilities for the Devaney Center — which is the title his still-live staff page carries."
+  },
+  {
+    "name": "Sam Petitto",
+    "imageUrl": "https://storage.googleapis.com/lsusports-net-prod/2025/08/1a785e45-sam_petitto_2025_304a.jpg",
+    "sourcePage": "https://lsusports.net/staff-directory/",
+    "sourceKind": "official school athletics staff directory (LSU)",
+    "license": "Unlicensed hotlink to LSU Athletics' own CDN bucket; EXIF copyright field reads \"Ella Hall / LSU Athletics\"",
+    "note": "VERIFIED 200 / image/jpeg, 1600x1600 — square studio headshot, black suit and purple tie, ideal for an avatar. Followed him to his CURRENT employer rather than a past one: he left Ohio State for LSU in July 2025, and both ohiostatebuckeyes.com staff pages for him (/staff-directory/sam-petitto/1986 and /1989) now return an empty SSR payload with no photo. Found in LSU's live staff directory: first_name Sam / last_name Petitto, position 'Assistant Director of Player Personnel / College Scouting', email spetit8@lsu.edu, master_photo original_name 1a785e45-sam_petitto_2025_304a.jpg — name, role and photo are bound together in the same record, so this is not a namesake. Matches the target's ring path: 2017 + 2020 at Alabama, 2024 at Ohio State."
+  },
+  {
+    "name": "Tommy Moffitt",
+    "imageUrl": "https://storage.googleapis.com/12thman-com-prod/2026/07/14/HlRRWgCqPLdluKQs4bPtp2K2lkN74usn9XoM7IKS.jpg",
+    "sourcePage": "https://12thman.com/staff-directory/tommy-moffitt/2250",
+    "sourceKind": "official school athletics staff directory (Texas A&M, 12thMan.com)",
+    "license": "Unlicensed hotlink to Texas A&M Athletics' own CDN bucket (12thman-com-prod on storage.googleapis.com)",
+    "note": "VERIFIED 200 / image/jpeg, 1500x1500 — square studio headshot on white, maroon A&M suit jacket. The photo record's original_name is 'Moffitt,-Tommy.jpg', so the file is self-identifying. Correct person: 21 seasons at LSU (Asst. AD for Strength & Conditioning) covering the 2003, 2007 and 2019 national titles, hired by Texas A&M as Director of Football Strength & Conditioning in Jan 2024 — I went to his current employer because that headshot is far larger and newer. LSU's own site still serves an older one at https://storage.googleapis.com/lsusports-net-prod/2017/04/2f21ee17-spgejojvmkymfkb.20150512231007.jpg (200, image/jpeg, ~37KB) if you'd rather show him in purple and gold for era consistency."
+  },
+  {
+    "name": "Wes Neighbors",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/olemisssports.com/images/2026/4/6/NeighborsIIIWes_2026Headshot.jpg",
+    "sourcePage": "https://olemisssports.com/sports/football/roster/coaches/wes-neighbors-iii/1206",
+    "sourceKind": "official school athletics staff bio (Sidearm CDN)",
+    "license": "school athletics media asset (Ole Miss Athletics), hotlinkable CDN",
+    "note": "Verified HTTP 200, image/jpeg, 300x415 clean studio headshot. Identity confirmed: Ole Miss bio lists Alabama 2011-12 (student assistant), 2013 (defensive intern), 2014 (GA), 2015-17 (analyst) — matches the 2012/2015/2017 title seasons. He is 'Wes Neighbors III' (grandson of Billy Neighbors); currently Ole Miss safeties coach, which is why he is not on Alabama's site."
+  },
+  {
+    "name": "Willie Carl Martin",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/nsuok.sidearmsports.com/images/2020/2/26/martin_williecarl.jpg",
+    "sourcePage": "https://goriverhawksgo.com/honors/northeastern-state-athletics-hall-of-fame/willie-carl-martin/134",
+    "sourceKind": "university hall-of-fame page (Northeastern State Athletics HOF, 2007 class)",
+    "license": "school athletics media asset (Northeastern State University Athletics), hotlinkable CDN",
+    "note": "Verified HTTP 200, image/jpeg, 306x420 black-and-white portrait. Identity confirmed by the HOF bio: NSU 1975 grad, All-American OL 1972, 10 CFL seasons (Edmonton/Winnipeg), Alabama Director of Player Development under Saban — matches the 2009/2011/2012 Alabama rings. Cross-checked against a second published photo of him (candid at his 2015 'Willie Carl Martin Day' ceremony, https://wpcdn.us-east-1.vip.tn-cloud.net/www.waka.com/content/uploads/2015/10/willie-martin.png, also HTTP 200) — same man; the HOF portrait is the better face shot. Alabama's own rolltide.com bio page for him is long gone and the alabamanewscenter.com feature returns 403."
+  },
+  {
+    "name": "Ya'el Lofton",
+    "imageUrl": "https://storage.googleapis.com/lsusports-net-prod/2022/02/c9d4a39b-yael_lofton_2022.jpg",
+    "sourcePage": "https://lsusports.net/sports/fb/roster/season/2026/staff/yael-lofton",
+    "sourceKind": "official school athletics staff bio (LSU, Google Cloud Storage origin)",
+    "license": "school athletics media asset (LSU Athletics), photo credit Chris Parent",
+    "note": "Verified HTTP 200, image/jpeg, 600x600 studio headshot. Identity confirmed: LSU bio says she began as a volunteer in the LSU football recruiting office in 1987 and has held many football-office roles since, currently Executive Assistant to the Head Coach — consistent with 2003/2007/2019 LSU titles. Original filename on LSU's CDN is 'yael_lofton_2022.jpg'."
+  },
+  {
+    "name": "Abe Reed",
+    "imageUrl": "https://storage.googleapis.com/clemsontigers-com/2024/01/zTwh3IJF2W56jtmrauOM5bO2dav2e8NJynXmhn3k.png",
+    "sourcePage": "https://clemsontigers.com/staff/abe-reed/",
+    "sourceKind": "official school athletics staff bio (Clemson, Google Cloud Storage origin)",
+    "license": "school athletics media asset (Clemson Athletics), hotlinkable origin bucket",
+    "note": "Verified HTTP 200, image/png, 467x510 cut-out headshot. The page's og:image is a generic ClemsonTigers.com logo card, so I pulled the real staff photo from the page's lazy-loaded payload — original filename 'ReedAbe-StaffPage.png'. Identity confirmed: Clemson bio has him as Director of Equipment for football since 2013 (now Senior Director of Equipment/Facility Coordinator), covering the 2016 and 2018 titles."
+  },
+  {
+    "name": "Adam Ray",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/georgiadogs.com/images/2021/7/14/Ray_Adam.jpg",
+    "sourcePage": "https://georgiadogs.com/sports/football/roster/staff/adam--ray/1411",
+    "sourceKind": "official school athletics staff bio (Sidearm CDN)",
+    "license": "school athletics media asset (Georgia Athletics), photo credit Chamberlain Smith (embedded in EXIF)",
+    "note": "Verified HTTP 200, image/jpeg, 900x1223 studio headshot; EXIF description reads 'Adam Ray (Photo by Chamberlain Smith)'. Identity confirmed: UGA bio has him as special teams quality control 2017-2022 (now Special Teams Analyst), covering the 2021 and 2022 titles."
+  },
+  {
+    "name": "Adam Smotherman",
+    "imageUrl": "https://storage.googleapis.com/virginiasports-com-prod/2024/06/Smotherman_Adam_01pe_9.22.23.jpg",
+    "sourcePage": "https://virginiasports.com/sports/football/roster/season/2024-25/staff/adam-smotherman",
+    "sourceKind": "official school athletics staff bio at current employer (Virginia, Google Cloud Storage origin)",
+    "license": "school athletics media asset (Virginia Athletics), hotlinkable origin bucket",
+    "note": "Verified HTTP 200, image/jpeg, 1920x1080 — a sideline shot, but he is the sole sharp, centered subject with a clear frontal face; crop to the upper-left-center third for a square avatar. Identity confirmed: he was a Clemson strength coach 2011-12 (GA) and 2013-21 full-time, covering the 2016 and 2018 titles, and is now UVA's head strength and conditioning coach, so he has no Clemson bio page anymore. Alternative from the same page if you prefer a wider shot: https://storage.googleapis.com/virginiasports-com-prod/2025/10/Adam-Smotherman_20250122_FB_Offseason_JM_0004.jpg (also 200, image/jpeg, 1920x1112)."
+  },
+  {
+    "name": "Ed Marynowitz",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2016/8/2/Marynowitz_Ed.jpeg",
+    "sourcePage": "https://rolltide.com/sports/football/roster/coaches/ed-marynowitz/597",
+    "sourceKind": "official school athletics staff/coach bio page (Sidearm CMS, Alabama)",
+    "license": "University of Alabama Athletics official staff photo (school-supplied publicity headshot)",
+    "note": "Pulled the live CDN original behind the Sidearm crop on his rolltide.com coach page (img alt=\"Ed Marynowitz\"). Verified HTTP 200, image/jpeg, 927px wide. Visually confirmed: young man in dark suit with crimson tie on grey studio backdrop. Identity matches — Marynowitz was Alabama's Director of Player Personnel from Dec 2008, then Eagles VP of Player Personnel, then returned to Alabama as associate AD for football in 2016 (the year this photo was uploaded)."
+  },
+  {
+    "name": "Freddie Roach",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2024/2/14/Roach.jpg",
+    "sourcePage": "https://rolltide.com/staff-directory/freddie-roach/323",
+    "sourceKind": "official school athletics staff directory bio page (Sidearm CMS, Alabama)",
+    "license": "University of Alabama Athletics official staff photo",
+    "note": "Live CDN original behind the Sidearm crop on his Alabama staff-directory page. Verified HTTP 200, image/jpeg, 237KB. This is the football Freddie Roach (Alabama LB 2002-05, asst. strength coach 2008-10 for the 2009 title, Ole Miss DL 2017-19, Alabama DL/associate head coach since 2020) — not the boxing trainer of the same name. Note the school's own bio confirms the 2009/2015/2020 ring years fit his Alabama tenures."
+  },
+  {
+    "name": "Greg Stringfellow",
+    "imageUrl": "https://storage.googleapis.com/lsusports-net-prod/2018/02/cda9bed8-nlsaqtfgxtrfmeh.20130715150012.jpg",
+    "sourcePage": "https://lsusports.net/staff/greg-stringfellow/",
+    "sourceKind": "official school athletics staff bio page (LSU, storage.googleapis.com CDN)",
+    "license": "LSU Athletics official staff photo",
+    "note": "Extracted the master_photo original from the Nuxt payload on his lsusports.net staff page (alt text on the record is literally 'Greg Stringfellow'). Verified HTTP 200, image/jpeg, 600x600. Visually confirmed: man in dark suit with purple-and-gold striped tie. Identity matches — interim equipment manager for the 2003 title, Director of Equipment 2004-2018, Assistant AD/Athletics Equipment from 2019 (covers 2003, 2007, 2019). Note he left LSU in mid-2024, but the bio page and CDN asset are both still live."
+  },
+  {
+    "name": "Jeff Norrid",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/goduke.com/images/2024/3/6/Norrid__Jeff.jpg",
+    "sourcePage": "https://goduke.com/staff-directory/jeff-norrid/1147",
+    "sourceKind": "official school athletics staff directory bio page at his CURRENT employer (Sidearm CMS, Duke)",
+    "license": "Duke Athletics official staff photo",
+    "note": "Followed him to his current job rather than Alabama: Norrid was an Alabama offensive analyst 2009-14 (2009, 2011, 2012 titles), then Auburn, then ESPN, then FAU/Louisiana, and has been Duke's offensive line coach since Dec 2023. Live CDN original behind the Sidearm crop, img alt='Jeff Norrid'. Verified HTTP 200, image/jpeg, 854px wide. Visually confirmed: bearded man in navy suit with blue Duke-toned tie."
+  },
+  {
+    "name": "Jerry Weber",
+    "imageUrl": "https://storage.googleapis.com/huskers-com-prod/2023/06/05/JXtJvi0fYupUWAqSgnm2ZBRQa7mOfqOoYhhJAz2d.jpg",
+    "sourcePage": "https://huskers.com/staff/jerry-weber",
+    "sourceKind": "official school athletics staff bio page (Nebraska, storage.googleapis.com CDN)",
+    "license": "Nebraska Athletics official staff photo",
+    "note": "His huskers.com staff page is still live despite his July 2024 retirement. The visible <img> is a lazy-load placeholder, so I decoded the master_photo imgproxy URL from the Nuxt payload to get the underlying Google Cloud Storage original. Verified HTTP 200, image/jpeg, 1200x1500. Visually confirmed: older man with grey moustache in a red Nebraska polo with the 'N' logo — matches his listed title 'Associate Director of Athletic Medicine / Head Athletic Trainer, PT, ATC'. Careful: do NOT use the schema.org og:image on that page (huskers-com-prod/2025/09/13/8NZbk...jpg); that is a generic site meta image, not him."
+  },
+  {
+    "name": "Joe Pannunzio",
+    "imageUrl": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/v1613078026/eagles/qowsehmhikli0cv6gyv2.jpg",
+    "sourcePage": "https://www.philadelphiaeagles.com/team/coaches/joe-pannunzio",
+    "sourceKind": "official team coach bio page at his current employer (Philadelphia Eagles, static.clubs.nfl.com)",
+    "license": "Philadelphia Eagles / NFL club official staff headshot (club-supplied, not Getty/AP)",
+    "note": "Verified HTTP 200, image/jpeg, 1280x720 (studio headshot, face centered — crops cleanly to a square/circle avatar). Cross-checked identity against the Alabama photo at https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2017/2/24/Pannunzio.jpg (img alt='Joe Pannunzio' on https://rolltide.com/sports/football/roster/coaches/joe-pannunzio/808) — visually the same man. I am returning the Eagles image because the Alabama CDN original is only 200x300, below your ~300px threshold; use the rolltide URL instead if you want him in crimson rather than Eagles gear."
+  },
+  {
+    "name": "Vance Bedford",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/texassports_com/images/2014/1/15/bedford_vance_148.jpg",
+    "sourcePage": "https://texaslonghorns.com/sports/football/roster/coaches/vance-bedford/1259",
+    "sourceKind": "official_school_cdn",
+    "license": "University of Texas Athletics (Sidearm CDN) staff headshot — official athletics publicity photo, hotlinkable, no watermark",
+    "note": "Identity confirmed: this is the Texas Longhorns staff-directory headshot for Vance Bedford, DC/secondary coach at Texas (2014-2016), the same man who coached CBs at Michigan (1995-98, incl. the 1997 title and Charles Woodson) and at Florida (2008-09, 2008 title) — matches the 2 rings / Michigan+Florida / cornerbacks profile. Verified via curl: HTTP 200, Content-Type image/jpeg, 9,841 bytes, JPEG 148x203, burnt-orange Texas polo, clean studio portrait. Caveat: it is below the ~300px preference — 148px wide is the largest the school CDN serves (bedford_vance.jpg, _300, _600 and the Florida-CDN equivalents all 404, and the images.sidearmdev.com resize endpoint returns the original 148x203 without upscaling). A larger copy of the exact same Texas portrait, 240x330, is live and hotlinkable at https://s3media.247sports.com/Uploads/Assets/316/245/1245316.jpg (verified HTTP 200, image/jpeg, 14,995 bytes, works with a foreign Referer) — use that if resolution matters more than sourcing from the school itself."
+  },
+  {
+    "name": "Tim Hinton",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/ohiostatebuckeyes.com/images/2023/7/28/Hinton_Timy.jpeg",
+    "sourcePage": "https://ohiostatebuckeyes.com/staff-directory/tim-hinton/1580",
+    "sourceKind": "official school athletics staff directory (Sidearm CMS, Ohio State)",
+    "license": "Official Ohio State athletics publicity headshot; no explicit open license. Hotlinked from the school's own Sidearm/CloudFront CDN.",
+    "note": "Verified: HTTP 200, image/jpeg, 1252x1175. Visually confirmed as a studio headshot of a white male coach wearing a scarlet tie with the Ohio State Block-O logo. Bio page confirms role as Executive Director for Football Relations / Special Assistant to the Head Coach, former OSU tight ends coach (2012-2018). Still currently employed at Ohio State, so the live bio page resolved directly — no Wayback needed."
+  },
+  {
+    "name": "Tim Walton",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/ohiostatebuckeyes.com/images/2023/7/22/Walton_Tim_040423-NILHeadshots-019.jpg",
+    "sourcePage": "https://ohiostatebuckeyes.com/staff-directory/tim-walton/160",
+    "sourceKind": "official school athletics staff directory (Sidearm CMS, Ohio State)",
+    "license": "Official Ohio State athletics publicity headshot; no explicit open license. Hotlinked from the school's own Sidearm/CloudFront CDN.",
+    "note": "Verified: HTTP 200, image/jpeg, 1208x898. Visually confirmed as a studio headshot of a bald Black male coach in a checked blazer. Identity cross-checked against the required credentials: OSU bio confirms he was on the LSU staff for the 2003 SEC/BCS national championship and served as Assistant Head Coach / Secondary-Cornerbacks Coach for Ohio State's 2024 national title. Now listed as Co-Defensive Coordinator / Asst. Head Coach / Secondary Coach. Not to be confused with the Oklahoma softball head coach of the same name."
+  },
+  {
+    "name": "Todd Hartley",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/georgiadogs.com/images/2019/2/18/Hartley_Todd.jpg",
+    "sourcePage": "https://georgiadogs.com/staff-directory/todd-hartley/3593",
+    "sourceKind": "official school athletics staff directory (Sidearm CMS, Georgia)",
+    "license": "Official University of Georgia athletics publicity headshot; no explicit open license. Hotlinked from the school's own Sidearm/CloudFront CDN.",
+    "note": "Verified: HTTP 200, image/jpeg, 900x1125. Visually confirmed as a studio headshot of a younger white male coach in a Georgia-red tie, consistent with Hartley (b. 1985). Still at Georgia, now titled Assistant Head Coach - Tight Ends; hired as TE coach in Jan 2019, so he was on staff for both the 2021 and 2022 national titles. Note the direct slug /staff-directory/todd-hartley 404s — the numeric ID suffix /3593 is required."
+  },
+  {
+    "name": "Todd Monken",
+    "imageUrl": "https://static.clubs.nfl.com/image/upload/c_fill,g_face,w_600,h_600/browns/y0rhqhw644qqu6bcxxuc.jpg",
+    "sourcePage": "https://www.clevelandbrowns.com/team/coaches-roster/todd-monken",
+    "sourceKind": "official NFL team site coach profile (Cleveland Browns, Cloudinary CDN)",
+    "license": "Official Cleveland Browns publicity headshot; no explicit open license. Hotlinked from the NFL's own Cloudinary CDN. Not Getty/AP.",
+    "note": "Verified: HTTP 200, image/jpeg, 600x600 face-cropped. Visually confirmed as a plain-background team headshot of a grey-haired white male in a brown Browns polo. Monken left Georgia after the 2022 title season for the Ravens OC job and was hired as Browns head coach on Jan 28, 2026, which is why the current photo is in Browns gear rather than Georgia red. The original uncropped 1280x720 source is at https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/browns/y0rhqhw644qqu6bcxxuc if a wider frame is preferred; the c_fill,g_face square crop above is better suited to an avatar. His Georgia-era bio has been removed from georgiadogs.com."
+  },
+  {
+    "name": "Tony Elliott",
+    "imageUrl": "https://virginiasports.com/imgproxy/moPUBFLtRdSNvRZNxCiezL_5mtqSeF8NuMoVayIx8wA/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3Zpcmdpbmlhc3BvcnRzLWNvbS1wcm9kLzIwMjEvMTIvSGVhZC1Db2FjaC1Ub255LUVsbGlvdHRfMjAyNDA4MTlfRkJfT01fMzEyLXNjYWxlZC1lMTcyNjUyNTg3NTU3Ni5qcGc.jpg",
+    "sourcePage": "https://virginiasports.com/staff/tony-elliott",
+    "sourceKind": "official school athletics staff page (University of Virginia, imgproxy over Google Cloud Storage)",
+    "license": "Official UVA athletics publicity headshot; no explicit open license. Hotlinked from virginiasports.com's own imgproxy/GCS pipeline.",
+    "note": "Verified: HTTP 200, image/jpeg, 1088x1452. Visually confirmed as a studio headshot of a smiling Black male coach wearing a UVA orange-and-navy striped tie. Elliott left Clemson (where he was co-OC/RB coach for the 2016 and 2018 national titles) in Dec 2021 to become Virginia's head coach, so his photo lives on virginiasports.com rather than clemsontigers.com. The image is served through UVA's signed imgproxy URL — the signature is part of the path, so the URL must be used verbatim and could rotate if the site re-encodes; the underlying GCS object is virginiasports-com-prod/2021/12/Head-Coach-Tony-Elliott_20240819_FB_OM_312-scaled."
+  },
+  {
+    "name": "Tony Samuel",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/georgiastatesports.com/images/2015/6/15/LGNIZTOIVOVJDRZ.20150615184101.jpg",
+    "sourcePage": "https://georgiastatesports.com/staff-directory/tony-samuel/312",
+    "sourceKind": "stale-but-live school athletics staff directory (Sidearm CMS, Georgia State)",
+    "license": "Official Georgia State athletics publicity headshot; no explicit open license. Hotlinked from the school's own Sidearm/CloudFront CDN.",
+    "note": "Verified: HTTP 200, image/jpeg, 1650x2100. Visually confirmed as a formal studio headshot of a Black male coach roughly in his mid-50s, consistent with Samuel in 2015. The hardest of the seven: Samuel coached Nebraska's outside linebackers/rush ends 1986-96 under Tom Osborne, covering the 1994 and 1995 titles, then was head coach at New Mexico State (1997-2004) and Southeast Missouri State (2006-13), and is now retired — huskers.com has no current bio for him. Found via his last full staff-directory listing, Georgia State DL coach in 2015. The filename is an opaque Sidearm hash, so identity is confirmed by the page's og:image:alt=\"Tony Samuel\" and og:title=\"Tony Samuel - Assistant Coach-Defensive Line\" rather than by filename. The orphaned bio page still renders and the CDN image is live."
+  },
+  {
+    "name": "Tray Scott",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/georgiadogs.com/images/2017/7/19/Scott_Tray_4187_A.jpg",
+    "sourcePage": "https://georgiadogs.com/staff-directory/tray-scott/403",
+    "sourceKind": "official school athletics staff directory (Sidearm CMS, Georgia)",
+    "license": "Official University of Georgia athletics publicity headshot; no explicit open license. Hotlinked from the school's own Sidearm/CloudFront CDN.",
+    "note": "Verified: HTTP 200, image/jpeg, 1333x2000. Visually confirmed as a studio headshot of a bearded Black male coach in a navy suit with a red-striped tie. Filename Scott_Tray dates to July 2017, matching his Feb 2017 hire as Georgia's defensive line coach, so he was on staff for both the 2021 and 2022 national titles. Still at Georgia as of the 2025 season. Distinguished from his prior stop at North Carolina (goheels.com also carries an old bio); the Georgia page is the correct current employer. As with Hartley, the bare /staff-directory/tray-scott slug 404s and the /403 numeric suffix is required."
+  },
+  {
+    "name": "Mickey Andrews",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/fsuni.sidearmsports.com/images/2025/4/21/Andrews__Mickey_55.jpg",
+    "sourcePage": "https://seminoles.com/honors/florida-state-athletics-hall-of-fame/mickey-andrews/210",
+    "sourceKind": "school-hall-of-fame",
+    "license": "Florida State University Athletics official publicity photo (Sidearm CDN) - editorial use",
+    "note": "Verified HTTP 200, image/jpeg, 1200x1500. Pulled from Mickey Andrews' Florida State Athletics Hall of Fame (2010 class) page on seminoles.com; visually confirmed as an older man in FSU cap and FSU polo on the sideline, matching the retired FSU defensive coordinator (1984-2009, national titles 1993 and 1999). It is a sideline portrait rather than a studio mug, but the face is large, sharp and unobstructed. No watermark."
+  },
+  {
+    "name": "Mike Barry",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/cubuffs.com/images/2010/9/27/NPKBXKLZVAPXNQB.20100928011637.jpg",
+    "sourcePage": "https://cubuffs.com/sports/football/roster/coaches/mike-barry/152",
+    "sourceKind": "school-athletics-directory",
+    "license": "University of Colorado Athletics official publicity photo (Sidearm CDN) - editorial use",
+    "note": "Verified HTTP 200, image/jpeg, but only 144x216 - below the ~300px preference. It is the sole content image on Colorado's archived Mike Barry coach-bio page and is a black-and-white studio mug of a grey-haired man in a suit, consistent with Barry's Colorado tenure (OL coach 1987-1992, 1990 national title; also Tennessee 1998-2002). Identity corroborated by Wikipedia and by the Gridiron Foundation memorial (gridiron.org/memorial-michael-barry.php), which recites the same career (Southern Illinois, Arizona, Iowa State, Colorado 1990 title, USC, Tennessee 1998 title + SEC OL Coach of the Year, NC State, Detroit Lions) and confirms he has died. HIGHER-RESOLUTION ALTERNATIVE if you can crop: https://gridiron.org/assets/images/coach1.jpg (1385x2048, HTTP 200 image/jpeg) - the memorial page's photo of him coaching, but it is a full-body action shot, so the head is only ~250px tall within the frame. I could not find a large studio headshot: Wayback CDX sweeps of utsports.com, gopack.com and cubuffs.com image paths returned nothing for his surname, and the CSTV-era Tennessee headshot archive uses opaque numeric filenames from 2014+, well after he left in 2002."
+  },
+  {
+    "name": "Mike Elston",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/mgoblue.com/images/2024/2/5/Elston__Mike.jpg",
+    "sourcePage": "https://mgoblue.com/sports/football/roster/coaches/mike-elston/5915",
+    "sourceKind": "school-athletics-directory",
+    "license": "University of Michigan Athletics official publicity photo (Sidearm CDN) - editorial use",
+    "note": "Verified HTTP 200, image/jpeg, 300x400. Clean studio headshot on a blue background, visually confirmed wearing a maize-and-blue Block-M tie, so unambiguously the Michigan staffer. This is his Michigan bio photo from the 2023 national-title staff (DL coach / recruiting coordinator 2022-2025); he has since moved to the Los Angeles Chargers, but the Michigan CDN image is still live and is the better fit given the title seasons. The Chargers page's only usable image is a generic landscape og:image, not a headshot."
+  },
+  {
+    "name": "Mike Reed",
+    "imageUrl": "https://storage.googleapis.com/clemsontigers-com/2018/05/ReedMike-1.jpg",
+    "sourcePage": "https://clemsontigers.com/staff/mike-reed-160822",
+    "sourceKind": "school-athletics-directory",
+    "license": "Clemson University Athletics official publicity photo (Google Cloud Storage CDN) - editorial use",
+    "note": "Verified HTTP 200, image/jpeg, 600x900. Recovered by base64-decoding the imgproxy URL on Clemson's staff page to the underlying storage.googleapis.com original. Visually confirmed: studio headshot of a Black man in a suit with an orange-and-purple Clemson-patterned tie, matching Mike Reed, Clemson assistant head coach / cornerbacks (2016 and 2018 CFP titles). Note the page's og:image is a generic ClemsonTigers.com paw-logo card - do not use that one."
+  },
+  {
+    "name": "Mike Stoops",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/fausports.com/images/2021/1/27/022119_Staff_StoopsMi_Mugs_KT0071.JPG",
+    "sourcePage": "https://fausports.com/staff-directory/Mike-Stoops/1738",
+    "sourceKind": "school-athletics-directory",
+    "license": "Florida Atlantic University Athletics official publicity photo (Sidearm CDN) - editorial use",
+    "note": "Verified HTTP 200, image/jpeg, 971x1339 - the largest clean mug found. Filename 022119_Staff_StoopsMi_Mugs dates it to Feb 2019 with a crimson striped tie, i.e. the Alabama-era shot (he was Alabama inside linebackers coach 2019-2021, covering the 2020 title), reused on his FAU DC bio. Namesake risk ruled out by cross-checking against Kentucky's official headshot of Mike Stoops (https://storage.googleapis.com/ukathletics-com/2022/01/amt-8448018962735ec5274bfb6af309b8cad6bf94bf-e5f928fc-fb_mikestoops_headshot.jpg) - same face, so this is Mike (not Bob or Mark) Stoops. The Kentucky file is also live but is a 1200x630 social card with letterboxing and a UK logo bar, so the FAU original is preferred."
+  },
+  {
+    "name": "Stacy Searels",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/georgiadogs.com/images/2023/9/6/Searels_D5pTx.jpg",
+    "sourcePage": "https://georgiadogs.com/staff-directory/stacy-searels/3881",
+    "sourceKind": "school-athletics-directory",
+    "license": "University of Georgia Athletics official publicity photo (Sidearm CDN) - editorial use",
+    "note": "Verified HTTP 200, image/jpeg, 522x657. Studio headshot from Georgia's staff directory, uploaded Sept 2023 - i.e. during his Georgia OL-coach tenure that includes the 2022 national title (he was also LSU OL coach for the 2003 title). Still on the Georgia staff in 2026, having moved from OL coach to senior offensive assistant/analyst, so the page and image remain live."
+  },
+  {
+    "name": "Tim Davis",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/nau.sidearmsports.com/images/2017/7/3/Davis_Tim.jpg",
+    "sourcePage": "https://nauathletics.com/sports/football/roster/coaches/tim-davis/66",
+    "sourceKind": "school-athletics-directory",
+    "license": "Northern Arizona University Athletics official publicity photo (Sidearm CDN) - editorial use",
+    "note": "Verified HTTP 200, image/jpeg, but only 200x275 - below the ~300px preference; this is the stored original, and the site's own ?width=300 parameter just upscales it. Given the very common name, identity was confirmed from the bio text on the same page, which explicitly lists '2002-04, USC, Offensive Line', two national championships and three BCS bowls, and the Heisman winners Carson Palmer (2002) and Matt Leinart (2004) - the correct Tim Davis (b. 1958, Utah alum). No larger image found: NAU's second bio page for him (/coaches/tim-davis/113) serves the identical file, Minnesota's old bio 404s, and Wayback CDX for floridagators.com returned nothing for his name."
+  },
+  {
+    "name": "Joe Pendry",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2020/11/20/062410_Staff_PendryJo_Mugs_KG0403.JPG",
+    "sourcePage": "https://rolltide.com/staff-directory/joe-pendry/70",
+    "sourceKind": "school-cdn",
+    "license": "University of Alabama Athletics staff photo (official athletics CDN, hotlinkable)",
+    "note": "Official Alabama staff mug. Found the filename via the Wayback CDX index for rolltide.com/images/* (062410_Staff_PendryJo_Mugs_KG0403.JPG, shot 6/24/2010); the bio page /staff-directory/joe-pendry/70 is now gone but the underlying Sidearm CDN object is still live. Verified: HTTP 200, image/jpeg, 28,431 bytes, 200x275. Visually confirmed: older man, gray hair, dark suit / crimson tie, gray studio backdrop — consistent with Pendry (b. 1947, on Saban's staff from 2007). Filename 'PendryJo' plus the rolltide.com path makes namesake risk negligible. Slightly under the 300px preference; no larger official version exists."
+  },
+  {
+    "name": "Brandy Lyerly",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2021/3/8/042913_Staff_Moore_Mugs_KG004_2.JPG",
+    "sourcePage": "https://rolltide.com/staff-directory/brandy-lyerly/325",
+    "sourceKind": "school-directory",
+    "license": "University of Alabama Athletics staff photo (official athletics CDN, hotlinkable)",
+    "note": "Currently on staff. Extracted from the live rolltide.com staff-directory payload, where record 325 'Brandy Lyerly — Associate Director, Football Operations' is bound to /images/2021/3/8/042913_Staff_Moore_Mugs_KG004_2.JPG. Verified: HTTP 200, image/jpeg, 28,430 bytes, 200x275. Visually a woman in a teal blouse against Alabama's standard gray staff backdrop. Note the filename says 'Moore' (shot 4/29/2013) — almost certainly her maiden/prior name, since Alabama's own CMS assigns this exact file to her record; flagging in case you want a second confirmation. Slightly under 300px wide."
+  },
+  {
+    "name": "Dr. Sam Nader",
+    "imageUrl": "https://storage.googleapis.com/lsusports-net-prod/2019/02/d079095c-hfuligksnrkqatp.20070613134146.jpg",
+    "sourcePage": "https://lsusports.net/sports/fb/roster/coach/dr-sam-nader/",
+    "sourceKind": "school-cdn",
+    "license": "LSU Athletics official staff photo (lsusports.net storage bucket, hotlinkable)",
+    "note": "Best of the lot. LSU's official staff bio headshot for Dr. Sam Nader, Assistant AD/Football Operations — decoded out of the lsusports.net imgproxy URL on his football staff bio page (the same image also backs his 2005-season staff page). Verified: HTTP 200, image/jpeg, 41,504 bytes, 600x600. Visually a clean studio portrait: bald/gray, dark jacket, blue striped shirt, gray backdrop — matches the man identified as Sam Nader in LSU's own 2021 'IN FOCUS' feature. I also found the feature's banner art (storage.googleapis.com/lsusports-net-prod/2021/09/9f8f175d-sam.jpg, 1920x1080) but rejected it: it's a designed graphic with overlaid text, not a portrait."
+  },
+  {
+    "name": "John Bousek",
+    "imageUrl": "https://images.findagrave.com/photos/2016/259/169985243_1474035444.jpg",
+    "sourcePage": "https://www.findagrave.com/memorial/169985243/john-richard-bousek",
+    "sourceKind": "obituary/memorial portrait",
+    "license": "User/family-submitted memorial portrait on Find a Grave; no open license — editorial hotlink use only.",
+    "note": "Verified HTTP 200, image/jpeg, 548x723 — a genuine studio-style portrait of an older man, not a headstone. Identity check: John Richard Bousek Jr. (b. 7/18/1930 Cedar Rapids IA, d. 9/14/2016 Lincoln NE). The Find a Grave / Butherus-Maser & Love obituary text states he was 'finally at the University of Nebraska, creating educational films and filming football practices and games for the Huskers for 16 years. He then worked part-time for the UNL football office, filming the practices and games for another 12 years.' That matches the Nebraska video-assistant role across the 1994/1995/1997 title seasons. The funeral home's own page (bmlfh.com/obituary/john-bousek-jr) now 404s and has no Wayback capture; the Journal Star obit is behind a TollBit paywall and carries no photo. No huskers.com bio or archived Nebraska staff mug exists for him."
+  },
+  {
+    "name": "Joni Duff",
+    "imageUrl": "https://storage.googleapis.com/huskers-com-prod/2025/07/29/kgppJnw9qXji6pDYfT69XFD6P7DJSIc5HyRt0RVZ.jpg",
+    "sourcePage": "https://huskers.com/sports/volleyball/roster/season/2025/staff/joni-duff",
+    "sourceKind": "official school athletics staff directory (Nebraska, live CDN)",
+    "license": "© Nebraska Athletics official staff photo; editorial use.",
+    "note": "Verified HTTP 200, image/jpeg, 1200x1500. Pulled from the current huskers.com staff bio (she moved to volleyball administrative assistant in Feb 2023 after serving as Nebraska's FOOTBALL administrative assistant since 1980 — the bio says so explicitly, confirming the 1994/1995/1997 football-secretary role). Embedded EXIF description reads 'Nebraska Cornhuskers VB administrative assistant Joni Duff'. This is the raw Google Cloud Storage original behind huskers.com's imgproxy, so it will not break if the bio page moves."
+  },
+  {
+    "name": "Josh Maxson",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2020/11/20/062618_Staff_MaxsonJo_Mugs_KG0003.JPG",
+    "sourcePage": "https://rolltide.com/staff-directory/josh-maxson/215",
+    "sourceKind": "school CDN staff mug recovered via Wayback CDX; underlying image still live",
+    "license": "© University of Alabama Athletics official staff mug; editorial use.",
+    "note": "Verified HTTP 200, image/jpeg, 200x275 (slightly under the 300px target — this is the full stored size). His bio page at rolltide.com/staff-directory/josh-maxson/215 now returns 404 and he is absent from Alabama's live staff feed, so the URL was recovered from the Wayback CDX index of rolltide.com/images and confirmed still live on Alabama's Sidearm CloudFront CDN. Filename convention matches Alabama's other staff mugs (Lastname+first-two-of-firstname: 'MaxsonJo'), and EXIF description reads '06-26-18 Staff Headshots'. Image shows a middle-aged man in suit and crimson tie."
+  },
+  {
+    "name": "Kindal Moorehead",
+    "imageUrl": "https://web.archive.org/web/20041111122139im_/http://www.panthers.com:80/photos/perm/main/HFHDAMKBADBK/Moorehead-Kindal_03-Headsho.jpg",
+    "sourcePage": "https://web.archive.org/web/20041111122139/http://www.panthers.com/photos/perm/main/HFHDAMKBADBK/Moorehead-Kindal_03-Headsho.jpg",
+    "sourceKind": "NFL team official headshot via Wayback Machine",
+    "license": "© Carolina Panthers / NFL 2003 official player headshot, served from the Internet Archive; editorial use.",
+    "note": "Verified HTTP 200, image/jpeg, but only 159x195 — below the ~300px target; it is the largest clean face of him I could find anywhere. Caveat: this is his NFL PLAYER headshot (Panthers, 2003), not a photo of him as an Alabama strength coach. Alabama never published a staff mug for him: exhaustive Wayback CDX sweeps of rolltide.com and utsports.com images returned no Moorehead staff photo, his rolltide.com/staff-directory/kindal-moorehead/376 page 404s and its only Wayback capture is an empty 404 shell, and Alabama's live staff feed (398 people) does not list him. Rejected alternatives: nfl.com's current 'headshot' for him is a generic helmet silhouette placeholder, not a face; the emccathletics.com bio for a 'Kindal Moorehead' is a 2025-26 EMCC defensive lineman from Tuscaloosa (almost certainly his son, wrong person); Rocky Top Insider's Kindal-Moorehead.png 403s; Wikipedia and Wikimedia Commons have no image."
+  },
+  {
+    "name": "Lois Stuckey",
+    "imageUrl": "https://storage.googleapis.com/lsusports-net-prod/2018/01/2c823bee-lois_stuckey_2021.jpg",
+    "sourcePage": "https://lsusports.net/staff/lois-stuckey/",
+    "sourceKind": "official school athletics staff directory (LSU, live GCS bucket)",
+    "license": "© LSU Athletics official staff photo; editorial use.",
+    "note": "Verified HTTP 200, image/jpeg, 1200x1200 — clean studio headshot, subject in purple. This is the raw storage.googleapis.com original decoded out of lsusports.net's imgproxy URL, so it is stable. Identity confirmed by loading the JS-rendered bio in a browser: 'Lois Stuckey / Operations and Facilities Services Coordinator / lstuck1@lsu.edu / LSU (2010)' — same LSU athletics staffer, hired into the football office in 1999 as administrative coordinator (per Tiger Rag's 'Women of LSU Football: Lois Stuckey'), covering 2003/2007/2019."
+  },
+  {
+    "name": "Mark Pantoni",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/ohiostatebuckeyes.com/images/2023/6/8/MARK_PANTONI.jpeg",
+    "sourcePage": "https://ohiostatebuckeyes.com/staff-directory/mark-pantoni/1585",
+    "sourceKind": "official school athletics staff directory (Ohio State, live CDN)",
+    "license": "© Ohio State Athletics official staff headshot; editorial use.",
+    "note": "Verified HTTP 200, image/jpeg, 200x276 (slightly under the 300px target — that is the stored original; images.sidearmdev.com/resize can upscale it if needed). Taken straight from his current Ohio State staff-directory bio, which lists him as General Manager, Player Personnel. EXIF description: 'Headshots for various OSU Football coaches and staff members at the Woody Hayes Athletic Center on Friday, June 1, 2012' — his first year at OSU after coming from Florida with Urban Meyer, matching the 2008 (Florida) / 2014 / 2024 (Ohio State) ring seasons."
+  },
+  {
+    "name": "Marty Huegel",
+    "imageUrl": "https://phhp.ufl.edu/wordpress/files/2020/11/Huegel-Marty-scaled-1-578x754.jpg",
+    "sourcePage": "https://phhp.ufl.edu/2020/11/16/hill-huegal-named-2020-phhp-outstanding-alumni/",
+    "sourceKind": "university news feature (UF College of Public Health & Health Professions alumni award)",
+    "license": "© University of Florida PHHP; published alumni-award portrait, editorial use.",
+    "note": "Verified HTTP 200, image/jpeg, 578x754 (a 3242131-byte full-size version also exists at .../Huegel-Marty-scaled-1.jpg). Caveat: it is not a studio headshot — it is the personal portrait UF ran with his 2020 Outstanding Alumni announcement, showing him outdoors with a young granddaughter on his shoulders; his face is clear, well-lit and roughly centered, but a tight crop would help. Identity confirmed by the article: Marty Huegel, PT, MEd, 'director of rehabilitation for UF Athletics for 34 years', AASPT Hall of Fame 2013 — matching the Florida physical-therapist role in 1996/2006/2008. No cleaner alternative found: floridagators.com has no bio page for him, his Penn Therapy and Fitness / pennrehab.org therapist profile carries no photo, and the UF PHHP tag page has no image."
+  },
+  {
+    "name": "Beth Douglas",
+    "imageUrl": "https://storage.googleapis.com/clemsontigers-com/2018/10/125-A-Douglas-e1541034271312.jpg",
+    "sourcePage": "https://clemsontigers.com/clemson-footballs-mama-bear/",
+    "sourceKind": "school-feature-article",
+    "license": "Clemson Athletics (clemsontigers.com) editorial photo, hotlinked from school CDN",
+    "note": "VERIFIED 200 image/jpeg, 2067x1422. Solo portrait of Beth Douglas in Clemson gear standing in Memorial Stadium (visually inspected; single middle-aged woman, Clemson 'C' pullover). Lead image of the Nov 6 2018 clemsontigers.com feature 'Clemson Football's Mama Bear', which is explicitly about Beth Douglas, Senior Administrative Assistant to Head Coach Dabo Swinney (at Clemson since 2001) - matches role/school/years. Note her current clemsontigers.com staff page (https://clemsontigers.com/staff/beth-douglas) uses only the generic Tiger Paw placeholder, no headshot, so the article photo is the best available. A second image from the same article (125-B-Douglas-Swinney-e1541034591892.jpg) shows her with Swinney if a two-person shot is preferred."
+  },
+  {
+    "name": "Bill McDonald",
+    "imageUrl": "https://static.wixstatic.com/media/0903d3_4bdb2b52e4234c47906f746a7f35f8dc~mv2.jpg/v1/fill/w_600,h_760,al_c,q_85/2005-ALATA-McDonald.JPG",
+    "sourcePage": "https://www.alathletictrainers.org/hof/bill-mcdonald",
+    "sourceKind": "hall-of-fame",
+    "license": "Alabama Athletic Trainers' Association Hall of Fame portrait",
+    "note": "VERIFIED 200 image/jpeg at 600x760 (source master is 2431x3079 if you want full res - swap w_600,h_760 for w_2431,h_3079). This is the official ALATA Hall of Fame portrait; the page <img> carries alt=\"Bill McDonald\" and the original filename is 2005-ALATA-McDonald.JPG. Identity confirmed from the bio on that page: 'Director of Sports Medicine - University of Alabama 1987-Present' (previously Georgia Tech 1972-87), which spans both the 1992 and 2009 Alabama title seasons. Also cross-checked against rolltide.com's 2007 story on his SEATA Hall of Fame induction. Namesake risk low - the Georgia Tech years belong to this same man, not a different one."
+  },
+  {
+    "name": "Bob LaCivita",
+    "imageUrl": "https://web.archive.org/web/20060306141649/http://gatorzone.com/football/images/coaches2/lacivita.jpg",
+    "sourcePage": "https://web.archive.org/web/20061208153307/http://www.gatorzone.com/insidefootball/?sub=staff&bio=lacivita",
+    "sourceKind": "wayback-school-site",
+    "license": "University of Florida athletics (gatorzone.com) staff mug, served via Wayback Machine",
+    "note": "VERIFIED 200 image/jpeg. CAVEAT: only 175x251, below the ~300px preference - it is the only size gatorzone ever published, and the live gatorzone URL now 404s, so the Wayback copy is the only working source. Visually inspected: studio headshot of a middle-aged man in a dark suit on a blue backdrop. Identity confirmed from the archived bio page it is embedded in, which reads 'Bob LaCivita / Director of Football Operations ... joins UF after handling the same position at North Carolina State the past five seasons' - i.e. his Florida stint (2005-07) covering the 2006 title. His later FSU staff pages (seminoles.com/staff/bob-lacivita and /coaches/bob-lacivita) were archived but their headshot files (a00bea07-/fd3075a8-dwihxprfnyaddrn.20140627180844.jpg on seminolesweb-8b76.kxcdn.com and cs.seminoles.com) were never captured and both CDNs now 404, so no FSU-era photo is retrievable."
+  },
+  {
+    "name": "Brandon McCombs",
+    "imageUrl": "https://storage.googleapis.com/virginiatech-prod/2024/07/25/aPXVcmK7bZMm3V3zVHlwqJTmFrV90xcG8uzpiBWZ.jpg",
+    "sourcePage": "https://hokiesports.com/sports/football/roster/season/2024/staff/brandon-mccombs",
+    "sourceKind": "school-staff-directory",
+    "license": "Virginia Tech Athletics official staff headshot (school CDN, storage.googleapis.com/virginiatech-prod)",
+    "note": "VERIFIED 200 image/jpeg, 656KB, large official headshot. Direct school-CDN origin URL (the hokiesports.com/imgproxy/... wrapper also returns 200 image/jpeg if you prefer it). He moved from Clemson to Virginia Tech, so this is his CURRENT employer's directory photo. Identity confirmed: VT bio states he spent 13 seasons at Clemson, the last 10 as assistant for special teams analysis, with two national championships - matching the 2016 and 2018 Clemson titles and the title 'Assistant for Special Teams Analysis & Research Development'."
+  },
+  {
+    "name": "Brandy Moore",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2021/3/8/042913_Staff_Moore_Mugs_KG004_2.JPG",
+    "sourcePage": "https://rolltide.com/staff-directory/brandy-lyerly/325",
+    "sourceKind": "school-staff-directory",
+    "license": "Alabama Athletics official staff mug (Sidearm CDN, dxbhsrqyrr690.cloudfront.net)",
+    "note": "VERIFIED 200 image/jpeg. CAVEAT: 200x275, slightly under the ~300px preference - that is the native size of Alabama's staff mug file, so upscaling would not add detail. NAME CHANGE: she is listed today as Brandy Lyerly, 'Associate Director, Football Operations' at Alabama. The link is solid because the image file itself is still named 042913_Staff_Moore_Mugs_KG004_2.JPG - Alabama shot it as Brandy Moore (the 042913 prefix points to a 2013 shoot) and kept the filename after she married. Same person, same department, title progression from Football Operations Coordinator (2012, 2015 title seasons) to Associate Director of Football Operations."
+  },
+  {
+    "name": "Doug Mallory",
+    "imageUrl": "https://static.clubs.nfl.com/image/upload/w_600/ravens/dwxdd6olnmpgxfnuzzxw.jpg",
+    "sourcePage": "https://web.archive.org/web/20240803040721/https://www.baltimoreravens.com/team/coaches-roster/doug-mallory",
+    "sourceKind": "official NFL team staff page (via Wayback; underlying CDN image still live)",
+    "license": "Baltimore Ravens / NFL official team headshot — editorial use",
+    "note": "Verified 200 image/jpeg, 600x431 (original 8MB full-res at /image/upload/ravens/dwxdd6olnmpgxfnuzzxw.jpg). Official Ravens staff headshot, alt text 'Mallory_Doug', Ravens-logo pullover. Identity confirmed: Ravens hired him as DBs/secondary coach in Feb 2024 straight from Michigan, where he was a defensive analyst for the 2023 title; won the 2007 title at LSU as DBs coach. His LSU bio page (lsusports.net) and any Michigan analyst page are gone/JS-only, so the Ravens photo is the best live source."
+  },
+  {
+    "name": "Greg Burns",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/usctrojans.com/images/2019/3/4/Burns_Greg.jpg",
+    "sourcePage": "https://usctrojans.com/sports/football/roster/coaches/greg-burns/365",
+    "sourceKind": "official school athletics staff/roster page (Sidearm CDN)",
+    "license": "USC Athletics official staff headshot — editorial use",
+    "note": "Verified 200 image/jpeg, ~600x764 rendered (source larger, 307KB). Formal cardinal-blazer studio headshot from his 2019 USC stint. Same man as the 2003-04 USC secondary coach — USC's own 2018 release headlines him as 'Part of USC Football's 2003 and 2004 National Championship Staffs, Returns as Secondary Coach.' He is now safeties/pass game coordinator at Washington State, but the WSU page is JS-rendered with no scrapable image, so the USC CDN file is the live pick."
+  },
+  {
+    "name": "Jim Gladden",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/fsuni.sidearmsports.com/images/2025/4/10/gladden_sideline.JPG",
+    "sourcePage": "https://seminoles.com/honors/florida-state-athletics-hall-of-fame/jim-gladden/259",
+    "sourceKind": "school hall-of-fame page (Sidearm CDN)",
+    "license": "Florida State Athletics official hall-of-fame photo — editorial use",
+    "note": "Verified 200 image/jpeg, 700x1087 at the resize endpoint. CAVEAT: this is a full-length color sideline action shot (FSU polo and cap, clapping), not a head-and-shoulders mug — the face is legible but small, and Sidearm's crop endpoint does not face-detect, so a top crop still yields the full body. It is the only official FSU portrait of him published anywhere I could reach. Smaller era-correct alternative if you want a tighter face: https://web.archive.org/web/1999id_/http://www.seminoles.com/sports/m-footbl/images/staff/a-gladden.jpg (verified 200 image/jpeg, 150x225, black-and-white staff mug). Identity confirmed by the FSU Athletics HOF page: OLB coach 1976-95, defensive ends coach 1996-2001, on the 1993 and 1999 national title staffs."
+  },
+  {
+    "name": "Jimmy Heggins",
+    "imageUrl": "https://web.archive.org/web/19991123235238id_/http://www.seminoles.com/sports/m-footbl/images/staff/a-heggins2.jpg",
+    "sourcePage": "https://web.archive.org/web/19991125003813/http://www.seminoles.com/sports/m-footbl/mtt/heggins_jimmy00.html",
+    "sourceKind": "Wayback Machine archived official FSU staff image",
+    "license": "Florida State Athletics staff photo, 1999 — editorial use",
+    "note": "Verified 200 image/jpeg, 150x199 — BELOW your ~300px preference, flagging that explicitly. Black-and-white FSU staff photo in an FSU cap, from the archived 1999 seminoles.com football staff directory, i.e. exactly the title-season staff. The live CDN copy is gone (seminoles.com predates Sidearm for this era) and the CSTV headshot from his Kentucky years (grfx.cstv.com/photos/schools/kty/.../2139837.jpeg) is dead and was only 105x158 anyway. Larger alternative if you prefer pixels over framing: https://web.archive.org/web/20071029130900id_/http://www.ukathletics.com/image_lib/fb_heggins_chat.jpg (verified 200 image/jpeg, 268x475) — a 2007 Kentucky practice shot, but he is in sunglasses and the face reads poorly. Also tried: FSU HOF pages (he is not listed), 247Sports bio (its photo points at the dead media.scout.com), st-aug.edu / saufalcons.com (no staff-directory hits), LinkedIn (not fetchable)."
+  },
+  {
+    "name": "John Hevesy",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/gatorzone.com/images/2018/1/8/HevesyJohn_180105_130.JPG",
+    "sourcePage": "https://floridagators.com/sports/football/roster/coaches/john-hevesy/1534",
+    "sourceKind": "official school athletics staff/roster page (Sidearm CDN)",
+    "license": "Florida Athletics official staff headshot — editorial use",
+    "note": "Verified 200 image/jpeg, ~600x833 rendered (149KB source). Studio headshot, brown jacket with an orange-and-blue striped tie — Florida colors. Pulled from his current Florida Gators bio page, where he is OL coach / running game coordinator. Same man as the 2006 and 2008 title staffs (Florida TE / assistant OL under Urban Meyer); no namesake risk found."
+  },
+  {
+    "name": "Lance Thompson",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/umterps.com/images/2022/8/26/Thompson_Lance_2022.jpg",
+    "sourcePage": "https://umterps.com/sports/football/roster/coaches/lance-thompson/2458",
+    "sourceKind": "official school athletics staff/roster page (Sidearm CDN)",
+    "license": "Maryland Athletics official staff headshot — editorial use",
+    "note": "Verified 200 image/jpeg, 300x375 (that is the native size — the resize endpoint will not upscale past it), right at your ~300px floor. Clean studio headshot, dark suit and red tie, from his Maryland inside-linebackers tenure. Correct Lance Thompson: the football coach who was a LSU graduate assistant/defensive assistant on the 2003 title staff and Alabama outside linebackers coach on the 2012 title staff. He has since moved to North Carolina as assistant director of player personnel; goheels.com returns a page but no scrapable staff image, so the Maryland CDN file is the live pick."
+  },
+  {
+    "name": "Lawrence Dawsey",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/jsugamecocksports.com/images/2026/8/11/DawseyLawerence.jpg",
+    "sourcePage": "https://jaxstatesports.com/staff-directory/lawrence-dawsey/518",
+    "sourceKind": "official school athletics staff directory (Sidearm CDN)",
+    "license": "Jacksonville State Athletics official staff headshot — editorial use",
+    "note": "Verified 200 image/jpeg, full-res 1.19MB (600x800 via the resize endpoint). Current, freshly shot 2026 headshot in a red Jax State polo — his present job as WR coach at Jacksonville State. Identity confirmed: LSU graduate assistant on the 2003 national title staff, then FSU WR coach / passing game coordinator for the 2013 title. Note the CDN filename misspells his first name as 'Lawerence' — that is the school's typo, not a different person."
+  },
+  {
+    "name": "Billy Gonzales",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/gatorzone.com/images/2025/3/6/Gonzales_Billy.png",
+    "sourcePage": "https://floridagators.com/sports/football/roster/coaches/billy-gonzales/2053",
+    "sourceKind": "official school athletics bio (Florida, Sidearm CDN)",
+    "license": "University Athletic Association (Florida) publicity headshot — editorial use",
+    "note": "Verified HTTP 200, image/png, 314x450. Pulled from his live Florida Gators football coach bio (WR coach 2005-09, 2018-21, 2023-25; interim HC 2025), which matches the 2006/2008 title seasons. He moved to Texas as a WR analyst in Feb 2026 but Florida's bio image is still live and is the cleanest school-issued headshot."
+  },
+  {
+    "name": "Billy Sexton",
+    "imageUrl": "https://web.archive.org/web/19991125160242if_/http://www.seminoles.com/sports/m-footbl/images/staff/s-sexton.jpg",
+    "sourcePage": "https://web.archive.org/web/19991004170707/http://www.seminoles.com/sports/m-footbl/images/staff/",
+    "sourceKind": "Wayback Machine capture of official FSU football staff photo directory",
+    "license": "Florida State University athletics staff photo (1999 media-guide mug), archived",
+    "note": "Verified HTTP 200, image/jpeg. Small — 115x157 b/w studio mug; no larger version exists anywhere I could find. Identity check: the archived seminoles.com /m-footbl/images/staff/ index uses 's-<surname>' for studio mugs of football staff and only one Sexton appears, and Billy Sexton was FSU's RB coach in 1999 (a title season). Color variant (s-sexton-c.jpg, 105x137) and an action shot (a-sexton2.jpg, 150x230) exist at the same archived path if you prefer color or size. Live FSU pages, current seminoles.com, and CSTV-era image hosts (grfx.cstv.com) are all dead/404 for him."
+  },
+  {
+    "name": "Chris Rumph",
+    "imageUrl": "https://storage.googleapis.com/clemsontigers-com/2021/09/RumphChris.jpg",
+    "sourcePage": "https://clemsontigers.com/staff/chris-rumph/",
+    "sourceKind": "official school athletics bio (Clemson, Google Cloud Storage CDN)",
+    "license": "Clemson Athletics publicity headshot — editorial use",
+    "note": "Verified HTTP 200, image/jpeg, 600x900. Viewed the file: bald Black man in suit with orange Clemson tie, consistent with Chris Rumph. Sourced from his current Clemson staff bio (he returned to Clemson in 2024 as DE/defensive run game coordinator); the bio itself confirms Alabama DL coach 2011-13 with the 2011 and 2012 titles."
+  },
+  {
+    "name": "Corey Raymond",
+    "imageUrl": "https://storage.googleapis.com/lsusports-net-prod/2024/02/6127ed4f-corey_raymond_2024.jpg",
+    "sourcePage": "https://lsusports.net/sports/fb/roster/season/2026/staff/corey-raymond",
+    "sourceKind": "official school athletics bio (LSU, Google Cloud Storage CDN)",
+    "license": "LSU Athletics publicity headshot (photo credit Gus Stark, LSU) — editorial use",
+    "note": "Verified HTTP 200, image/jpeg, 1200x1200. Viewed the file: LSU-branded lapel pin and purple tie, matches Corey Raymond. From his current LSU staff page; LSU DB/CB coach 2012-21 and again from 2024, covering the 2007 (as LSU assistant strength coach) and 2019 title years."
+  },
+  {
+    "name": "Dan Brooks",
+    "imageUrl": "https://storage.googleapis.com/clemsontigers-com/2012/07/AMQSXAWASUFKOFM.20120721083504.jpeg",
+    "sourcePage": "https://clemsontigers.com/clemson-hires-dan-brooks-as-defensive-line-coach/",
+    "sourceKind": "official school athletics news release (Clemson, Google Cloud Storage CDN)",
+    "license": "Clemson Athletics publicity headshot — editorial use",
+    "note": "Verified HTTP 200, image/jpeg, but only 150x199 — below the ~300px preference and the largest that exists (I listed the GCS bucket: only -150x150, -45x60 and -38x50 variants alongside it). Viewed the file: white-haired man in an orange-and-white Clemson tie, consistent with Brooks (b. 1951, DT coach at Clemson 2009-16, Tennessee 1995-2007). Everything else failed: his Clemson bio page 404s post-retirement, the legacy CSTV image host (grfx.cstv.com) returns 503, Wayback CDX shows no pre-2018 Clemson or Tennessee mug for him, TigerNet blocks scraping (403), and the ncshof.org 'Dan Brooks' page is a namesake (Duke women's golf coach) — deliberately not used."
+  },
+  {
+    "name": "Dan Werner",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/olemisssports.com/images/2018/7/12/Werner.jpeg",
+    "sourcePage": "https://olemisssports.com/staff-directory/dan-werner/519",
+    "sourceKind": "official school athletics bio (Ole Miss, Sidearm CDN)",
+    "license": "Ole Miss Athletics publicity headshot — editorial use",
+    "note": "Verified HTTP 200, image/jpeg, but small at 105x145 — below the ~300px preference; it is the only size Ole Miss stored. Viewed the file: older white man in dark suit, consistent with Werner (b. 1962). Right man, not a namesake: this is the Ole Miss OC/QB bio for the coach who was at Miami (FL) for the 2001 title and an Alabama offensive analyst in 2017. No larger school-issued image found — Alabama does not publish analyst bios, South Carolina's 2018-20 bio is gone, and the legacy Miami/CSTV image hosts are dead."
+  },
+  {
+    "name": "Dell McGee",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/georgiastatesports.com/images/2024/7/11/Dell_PetVa.jpg",
+    "sourcePage": "https://georgiastatesports.com/sports/football/roster/coaches/dell-mcgee/1867",
+    "sourceKind": "official school athletics bio (Georgia State, Sidearm CDN)",
+    "license": "Georgia State Athletics publicity headshot — editorial use",
+    "note": "Verified HTTP 200; note the URL ends .jpg but the CDN serves image/webp at 1571x2000 (fine for browsers). Viewed the file: bald, bearded Black man in navy Georgia State suit — Dell McGee. He is Georgia State's head coach since Feb 2024; his bio confirms Georgia run game coordinator/RB coach for the 2021 and 2022 titles. Append ?width=300 to the URL if you want a smaller render."
+  },
+  {
+    "name": "Kent Gidley",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2024/7/26/KentGidley.jpg",
+    "sourcePage": "https://rolltide.com/staff-directory/kent-gidley/227",
+    "sourceKind": "school",
+    "license": "school photo (copyrighted)",
+    "note": "Alabama athletics director of photography; on staff since 1986, so his tenure spans every Alabama title in this dataset."
+  },
+  {
+    "name": "Jon Dever",
+    "imageUrl": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2020/11/20/030719_Staff_DeverJo_Mugs_ABB0002.JPG",
+    "sourcePage": "https://rolltide.com/staff-directory/jon-r-dever/634",
+    "sourceKind": "school",
+    "license": "school photo (copyrighted)",
+    "note": "Alabama senior associate AD for student services; listed as Jon R. Dever in the staff directory."
   }
 ]

@@ -609,6 +609,86 @@
           "note": "Athletics staff directory (Oct. 8, 2014), 'Equipment' section; title cell beside 'Sam Staley'. Equipment intern assigned to the Woody Hayes Athletic Center (football facility)."
         }
       ]
+    },
+    {
+      "name": "Rob Lachey",
+      "role": "Head Equipment Manager / Manager, Athletics Equipment (football)",
+      "role_category": "equipment",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://ohiostatebuckeyes.com/staff-directory/rob-lachey/1481",
+          "quote": "Lachey, a 1991 graduate of Ohio State with a bachelor’s of science degree in human ecology, has been a member of the Ohio State equipment staff since 1986, when he began working in the equipment room as a student assistant.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Jerry Emig",
+      "role": "Associate SID / core athletics communications contact for football",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20241118044824/https://ohiostatebuckeyes.com/staff-directory/jerry-emig/1441",
+          "quote": "His career highlights include media relations responsibilities for Ohio State’s run to the first College Football Playoff national championship in 2014",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Sean Perkins",
+      "role": "Building Services Coordinator, Les Wexner Football Complex / Woody Hayes Athletic Center",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20140421162408/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/perkins_sean00.html",
+          "quote": "Sean Perkins is the coordinator of building services for the Les Wexner Football Complex and Woody Hayes Athletic Center, responsible for all aspects of maintenance, construction and custodial requests for the award-winning complex.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Bill Moffitt",
+      "role": "Assistant Building Coordinator, Les Wexner Football Complex / Woody Hayes Athletic Center",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20140421160705/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/moffitt_bill00.html",
+          "quote": "Bill Moffitt is the assistant building coordinator for the Les Wexner Football Complex and Woody Hayes Athletic Center, responsible for all aspects of day-to-day operations, including maintenance, construction and housekeeping for the award-winning complex.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Larry Romanoff",
+      "role": "Director of External Relations, Football",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20140421160536/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/romanoff_larry00.html",
+          "quote": "A 37-year veteran of the Ohio State Department of Athletics, Larry Romanoff is the director of external relations for football.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Don Patko",
+      "role": "Assistant Athletics Director for Facilities",
+      "role_category": "other",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://ohiostatebuckeyes.com/staff-directory/don-patko/1505",
+          "quote": "Don Patko has been assistant athletics director for facilities at Ohio State since March 2002.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
     }
   ],
   "coverage_notes": "SOURCES USED (in the order requested):\n1. Wikipedia 2014 team page (https://en.wikipedia.org/wiki/2014_Ohio_State_Buckeyes_football_team) - infobox plus a \"Coaching staff\" bullet list of 13 names (10 on-field + 3 strength).\n2. PRIMARY SOURCE: the school's own in-season football staff page, Wayback capture of Oct. 10, 2014 - http://web.archive.org/web/20141010100906/http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/coaches.html (\"Coaching Staff\" + \"Football Support Staff\" blocks). This is the only capture of that page between the 2014 preseason and Feb. 8, 2015; there is NO capture from December 2014 or January 2015, so I could not photograph the staff page as it stood on championship night (Jan. 12, 2015). The Feb. 8, 2015 capture (http://web.archive.org/web/20150208034620/...) was used as a cross-check and shows only one difference: Tim Beck had replaced Tom Herman, and Phil Matusz had been added to the visible support-staff block.\n3. PRIMARY SOURCE: Ohio State athletics-wide staff directory, Wayback capture of Oct. 8, 2014 - http://web.archive.org/web/20141008043321/http://www.ohiostatebuckeyes.com/staffdir/osu-staffdir.html. Its \"Football\", \"Strength Training & Conditioning-Football\", \"Medical Services and Training\" and \"Equipment\" sections supplied every non-coaching name here. Cross-checked against the March 16, 2015 capture, which is identical for football apart from Herman->Beck and Lovo being removed.\n4. 2014 Ohio State Football team/media guide PDF - http://web.archive.org/web/20141031180748/http://grfx.cstv.com/schools/osu/graphics/pdf/m-footbl/1415_guide.pdf (252 pp.). Its Quick Facts page names the four graduate assistants, the head trainer and the director of operations. The guide contains bios only for the 10 on-field coaches and Marotti - it has NO support-staff directory section.\n\nQUOTE-MATCHING CAVEAT (important): on all three HTML sources, a person's NAME and their TITLE live in separate HTML elements (a linked name followed by a <br> or a separate table cell). Any markdown/text conversion therefore puts them on separate lines, so a \"Name - Title\" quote would not string-match. Every quote I supplied is the exact contiguous title/role text node as it appears, with the adjacent name identified in the accompanying note. Quotes from the media guide are single extracted PDF text lines (extracted with PyMuPDF) and should match a standard PDF text extraction, but PDF extraction differs between tools.\n\nWHAT I COULD NOT DOCUMENT / JUDGMENT CALLS:\n- Scott Ray (strength) appears ONLY on Wikipedia, with no citation there. He is absent from both the official Oct. 2014 football staff page and the Oct. 2014 / Mar. 2015 athletics staff directories, which list exactly five football strength staffers (Marotti, Matusz, Parker, Schlegel, Uhlenhake). I included him because Wikipedia is a real source, but flagged him as low confidence. If the dataset penalises false positives, drop this row.\n- MEDICAL and EQUIPMENT rows are an inference. The Ohio State directory is athletics-wide and tags these staff by facility, not by sport. I included only people whose row carries the \"(WHAC)\" / \"-WHAC\" tag - WHAC is the Woody Hayes Athletic Center, the football building - and Doug Calland is independently confirmed as the football \"Head trainer\" by the media guide, which validates that WHAC = football. But the directory never writes the word \"football\" next to Sweeney, Rule, Scheper, Sypniak, Barnhouse, Caldwell, Dunn, Ries or Staley, so their football assignment is not literally stated.\n- Deliberately EXCLUDED as athletics-wide rather than football-specific, despite being based at the Woody Hayes Athletic Center: Dr Chris Kaeding (Medical Director), Leif Smith (Sports Psychologist), Sara Abrams (GAA, medical), Rob Lachey (Mgr, Athletic Equipment - the department-wide equipment manager). Also excluded: athletics communications staff who covered football (Jerry Emig, primary football contact; Adam Widman, secondary) - listed in the media guide's media-services page but employed by athletics communications, not the football program.\n- Deliberately EXCLUDED because their directory/staff-page entries were commented out of the HTML (i.e. no longer active staff at the time of the capture): Debbie Broeker (Assistant to the Head Coach), Larry Romanoff (Dir, Football External Operations - he appears elsewhere in the same directory as Asst Dir, Event Management), Bob Tucker (Dir, Military Operations), Tom Dunlap (Academic/Operations Asst), Jason Osborne (GAA), Shane Bowen (Graduate Assistant - Defense), Cody Hawkins (Intern), Jon Stanek (Intern), Chadd Pierce (Intern-Video Services), and 2013 graduate assistants Patrick Flemming, Bryant Haines and Drew Mehringer. If the dataset wants \"anyone whose name was ever in the 2014-15 HTML\", these are the candidates I withheld.\n- I found NO documented off-field analyst or quality-control staff for 2014 Ohio State in any of the four sources. One web-search snippet mentioned \"Sean Buckley\" (offensive QC) and \"Matt Thurin\" (QC) for Ohio State, but I could not open a page that tied either name to the 2014 season, so I did not include them. This is the most likely gap in the list.\n- Ohio State's academic-support (SASSO) and nutrition staff assigned to football are not separately identifiable in the 2014 directory.\n- No true mid-season arrivals or departures: Everett Withers (to James Madison) and Mike Vrabel (to Houston Texans) left after the 2013 season, and Chris Ash (Jan. 23, 2014) and Larry Johnson (Jan. 15, 2014) arrived before spring practice. Tom Herman accepted the Houston head job on Dec. 16, 2014 but stayed through the Jan. 12, 2015 title game (noted on his row). Stan Drayton left for the Chicago Bears in early February 2015, after the championship.\nTOTAL: 41 people."

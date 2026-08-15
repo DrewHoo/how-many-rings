@@ -1040,6 +1040,58 @@
           "note": "Official CFP semifinal game notes vs Texas, 'ATHLETICS COMMUNICATIONS' block lists him under the header simply as 'Director Mike Basford', with email basford.16@osu.edu; role worded here as 'Director, Athletics Communications' to carry the section header. Quote empty due to unreliable PDF text extraction. Not in the archived web staff directory."
         }
       ]
+    },
+    {
+      "name": "Rob Lachey",
+      "role": "Senior Director of Equipment Services",
+      "role_category": "equipment",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20241118044824/https://ohiostatebuckeyes.com/staff-directory/jerry-emig/1441",
+          "quote": "{\"id\":1481,\"firstName\":\"Rob\",\"lastName\":\"Lachey\",\"title\":\"Senior Director of Equipment Services\"",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Sean Perkins",
+      "role": "Assistant AD, Indoor Facilities",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20241118044824/https://ohiostatebuckeyes.com/staff-directory/jerry-emig/1441",
+          "quote": "{\"id\":1507,\"firstName\":\"Sean\",\"lastName\":\"Perkins\",\"title\":\"Assistant AD, Indoor Facilities\"",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Don Patko",
+      "role": "Associate AD, Facilities Operations",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20241118044824/https://ohiostatebuckeyes.com/staff-directory/jerry-emig/1441",
+          "quote": "{\"id\":1505,\"firstName\":\"Don\",\"lastName\":\"Patko\",\"title\":\"Assoc AD, Facilities Operations\"",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Eric Buchanan",
+      "role": "Associate Director of Equipment Services",
+      "role_category": "equipment",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20241118044824/https://ohiostatebuckeyes.com/staff-directory/jerry-emig/1441",
+          "quote": "{\"id\":1486,\"firstName\":\"Eric\",\"lastName\":\"Buchanan\",\"title\":\"Associate Director of Equipment Services\"",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

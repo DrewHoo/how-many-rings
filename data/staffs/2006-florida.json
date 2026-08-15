@@ -992,6 +992,209 @@
           "note": "2006 UF football media guide, page 71 sidebar '2006 Managers', sub-heading 'Student Assistants:'."
         }
       ]
+    },
+    {
+      "name": "Dr. Peter A. Indelicato",
+      "role": "Head Team Physician",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/download/2016/2/11/2006_FB_media_guide.pdf",
+          "quote": "Dr. Peter A. Indelicato, UF’s head team physician since 1977",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Jay Clugston",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/download/2016/2/11/2006_FB_media_guide.pdf",
+          "quote": "Dr. Jay Clugston – Team Physician",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Zach Smith",
+      "role": "special teams quality control coach",
+      "role_category": "qc",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://ohiostatebuckeyes.com/news/2011/12/22/zach-smith-named-wide-receivers-coach",
+          "quote": "Smith was a special teams quality control coach for three years (2005-07) and an offensive graduate assistant for the 2008 and 2009 seasons.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Mark Pantoni",
+      "role": "Recruiting Assistant",
+      "role_category": "ops",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://ohiostatebuckeyes.com/staff-directory/mark-pantoni/1585",
+          "quote": "He started at Ohio State in December 2011 after six years at the University of Florida, where he was part of two national championship teams.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Cheryl Zonkowski",
+      "role": "Director, Sports Nutrition",
+      "role_category": "medical",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/download/2016/2/11/2008_FB_media_guide.pdf",
+          "quote": "Cheryl Zonkowski begins her third year serving as the Director of Sports Nutrition for the University Athletic Association.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Foley",
+      "role": "Director of Athletics",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061201000000/http://www.gatorzone.com/football/media/2006/pdf/196.pdf",
+          "quote": "Athletic Director (March 9, 1992 – Present)",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Greg McGarity",
+      "role": "Executive Senior Associate Athletics Director (Internal Affairs; supervises football with the AD)",
+      "role_category": "ops",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Assists Athletics Director in supervision of football and men's basketball programs.\nJoined UF Staff: 1992",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Keith Carodine",
+      "role": "Associate Athletics Director, Academic Affairs / Office of Student Life (football academic support)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061201000000/http://www.gatorzone.com/football/media/2006/pdf/7-9.pdf",
+          "quote": "Keith Carodine, PhD\nAssociate A.D. \nAcademic Affairs\nOFFICE OF STUDENT LIFE FOOTBALL SUPPORT STAFF",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Norm Carlson",
+      "role": "Assistant Athletics Director - Communications/Historian",
+      "role_category": "other",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Norm Carlson\nAssistant Athletics Director - Historian",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Steve McClain",
+      "role": "Associate Athletics Director for Communications (football media contact)",
+      "role_category": "other",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Steve McClain\nAssociate Athletics Director for Communications",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Chip Howard",
+      "role": "Associate Athletics Director - Operations and Facilities (football game operations, team travel)",
+      "role_category": "ops",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Responsibilities: Supervises event management and game operations for all athletic competitions, facilities and maintenance department, concessions, and construction projects, as well as assisting with football team travel; directly supervises the baseball program.\nJoined UF Staff: 1989",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Mike Spiegler",
+      "role": "Associate Athletics Director - Auxiliary Services (Athletic Equipment Operations, football team travel)",
+      "role_category": "equipment",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Responsibilities: Oversees NCAA and SEC Championship Events, the men's and women's golf teams, the University of Florida Golf Course, the Gator SportsShop, the Licensing Department, Athletic Equipment Operations and assists with football team travel.\nJoined UAA Staff: 1987",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Susan Swiderski",
+      "role": "Learning Specialist, Office of Student Life (football support staff)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061201000000/http://www.gatorzone.com/football/media/2006/pdf/7-9.pdf",
+          "quote": "Susan Swiderski\nLearning Specialist",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Buddy Wellman",
+      "role": "Assistant Coordinator, Compliance and Student Services (football support staff)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061201000000/http://www.gatorzone.com/football/media/2006/pdf/7-9.pdf",
+          "quote": "Buddy Wellman\nAssistant Coordinator\nCompliance and \nStudent Services",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Bryan Patterson",
+      "role": "Career Counselor / Life Skills Coordinator, Office of Student Life (football support staff)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20061201000000/http://www.gatorzone.com/football/media/2006/pdf/7-9.pdf",
+          "quote": "Bryan Patterson\nCareer Counselor/\nLife Skills Coordinator",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ],
   "coverage_notes": "SOURCES USED (in the order requested):\n1. Wikipedia team-season page (https://en.wikipedia.org/wiki/2006_Florida_Gators_football_team) - infobox plus a \"Coaching staff\" section listing Meyer and the nine on-field assistants. Caveat: its \"1 year\" / \"6 years\" tenure figures are stale and wrong (2006 was Meyer's 2nd season); names and roles match contemporaneous UF sources.\n2. School athletics site archived on the Wayback Machine. Two useful captures: the official football staff directory at gatorzone.com/insidefootball/?sub=staff captured Oct 21, 2006 (mid-season), which lists a \"Coaches\" tier and a \"Support Staff\" tier with individual bio pages; and the official 2006 roster page gatorzone.com/football/bios.php captured Dec 3, 2006 (the day after the SEC Championship Game), whose \"Coaches:\" block repeats all ten with roles. Individual bio pages were fetched at their own capture timestamps (all Oct 21, 2006) and are cited per person.\n3. The 2006 season media guide. The live floridagators.com media-guide index links to gatorzone.com PDFs that now 404, but the original per-section PDFs survive under the archived path http://www.gatorzone.com/football/media/2006/pdf/. Two sections carry staff: pages 53-71 (\"Assistant Coaches/Strength Staff/Football Support Staff\", including a \"2006 Football Support Staff\" block and a page-71 sidebar of one-line staff entries) and pages 16-17 (\"Sports Health\", including the \"Strength & Conditioning Staff:\" block and the \"2006 Sports Health Staff\" list).\n4. Contemporary game notes: the official Sept. 2, 2006 game notes PDF on floridagators.com, which contains a game-day coaching-staff box (all ten on-field coaches, with press-box designations) and the note that the staff was unchanged from 2005.\n\nWHAT IS COMPLETE:\n- On-field tier: fully recovered. Head coach plus exactly nine assistants (Strong, Mattison, Mullen, Heater, Holliday, Gonzales, Hevesy, Addazio, Drayton), each confirmed by three independent 2006 sources.\n- Strength and conditioning: four documented (Marotti, Balis, Piraino, Campbell). Campbell appears only in the media guide, not in the online directory.\n- Graduate assistants: exactly two documented (Cronin, Schiralli), both listed under \"Coaches\" in the October 2006 directory and both with media guide bios.\n- Operations/administration, equipment, video, medical/sports health, and academics tiers recovered from the media guide and the online directory.\n\nWHAT I COULD NOT RECOVER - stated plainly:\n- ANALYST tier: none exists. I found no person with an analyst title in any 2006 UF source. The role did not exist as a published category in this era.\n- QUALITY CONTROL tier: none published. No UF staffer carried a QC title in 2006. (Sean Cronin's bio mentions a QC job at Marshall in 2005, not at Florida.) If Florida employed off-field QC assistants in 2006, they were not published in the media guide or on the athletics site, and I found no other source naming them.\n- I could not confirm whether the two graduate assistants listed are the program's complete GA complement. NCAA rules of the era allowed additional GAs; the media guide and the athletics site each list only these two, so two is the documented figure, not necessarily the actual one.\n- Recruiting/personnel staff beyond LaCivita (Director of Football Operations) and Betty Ling (Senior Administrative Assistant, working football recruiting) are not documented anywhere I could reach.\n- No sports information / media relations contact list survives in the game notes I retrieved.\n\nTIMING AND THE RING RULE:\n- No mid-season arrivals or departures are documented for anyone here, so no midseason_note is set on any row. The Sept. 2006 game notes state the staff was unchanged from 2005, and the Dec. 3, 2006 roster capture (after the SEC title game) still shows the identical ten coaches, so the on-field staff demonstrably held through the postseason.\n- The media guide is a PRESEASON document (published August 2006). For support-staff rows sourced only to it, I verified nothing that contradicts their presence at the Jan. 8, 2007 championship game, but I also could not positively confirm each individual was still employed on that date. Treat media-guide-only support rows as \"on staff for the 2006 season\" rather than \"verified present at the title game.\"\n\nQUOTE FIDELITY:\n- All Wikipedia and archived-HTML quotes are copied verbatim from page text and should string-match cleanly.\n- PDF quotes are copied verbatim from an embedded-text extraction (the media guide PDFs contain real text, not scans). Where the media guide's layout puts a person's name and title on separate lines - which is true of the entire page-71 support-staff sidebar and of several strength-staff headings - no single line carries both, so per instruction I set quote to \"\" and recorded the exact line breakdown in the note. Rows with non-empty PDF quotes use lines I confirmed are complete single lines in the extraction; a different PDF text extractor could still re-wrap them.\n\nNAME-SPELLING CONFLICTS IN THE SOURCES (not errors on my part):\n- \"Tony Meachem\" (staff directory) vs \"Anthony Meacham\" (his own bio page).\n- \"Marty Huegel\" (Sports Health list, page 17) vs \"Marty Hugel\" (support-staff sidebar, page 71), with different titles on each.\n- Jon Clark: \"Administrative Assistant, Football\" (athletics site, October 2006) vs \"Director of Football Administration\" (2006 media guide).\n- Bob Seebohar: \"Sports Dietitian\" (athletics site) vs \"Coordinator of Sports Nutrition\" (Sports Health list) vs \"Team Nutritionist\" (Sports Health bio block).\n- John Dean: \"Athletic Trainer\" (media guide bio) vs \"Assistant Athletic Trainer/Physical Therapist\" (Sports Health list).\n\nNO PADDING: every row above comes from a real, retrieved 2006 source. I added no one from memory or inference."

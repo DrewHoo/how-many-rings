@@ -695,6 +695,48 @@
           "note": "Printed as part of the official 'University of Florida 1996 National Football Champions' roster in the Congressional Record, 3/20/1997. Institution-level rather than football-team staff — flagged so the consumer can filter."
         }
       ]
+    },
+    {
+      "name": "Steve McClain",
+      "role": "Football sports information contact (later Associate Athletics Director for Communications)",
+      "role_category": "other",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Responsibilities: Directs the Communications Department and coordinates media and information operations for football, while supervising media and information operations for men's basketball, baseball, men's and women's swimming and diving and men's and women's golf.\nJoined UF Staff: 1990",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Chip Howard",
+      "role": "Assistant/Associate Athletics Director - Operations and Facilities (football game operations, team travel)",
+      "role_category": "ops",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Chip Howard\nAssociate Athletics Director - Operations and Facilities",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Mike Spiegler",
+      "role": "Athletics administrator overseeing Athletic Equipment Operations and football team travel",
+      "role_category": "equipment",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Joined UAA Staff: 1987",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
     }
   ],
   "coverage_notes": "SOURCE QUALITY: Unusually good for this era, because two authoritative full-staff lists exist.\n\n(1) Congressional Record, 3/20/1997 (S. Res. 66, Sens. Mack and Graham), which printed the complete official \"University of Florida 1996 National Football Champions\" roster — players, then \"President\", \"Director of Athletics\", then headed blocks for \"Coaching Staff\" (12 names), \"Strength & Conditioning\" (4 names), and \"Support Staff\" (16 names). This is a plain-text .htm page on govinfo.gov and is fully machine-matchable. Critically, it was submitted AFTER the Jan. 2, 1997 Sugar Bowl, so it is the best available evidence of who was on staff at the championship game. It gives NO individual titles below the block headings, so for people documented only there I set role to the block heading wording (\"Support Staff\") rather than inventing a title.\n\n(2) The 1996 Florida football media guide (preseason, Aug. 1996), posted by the school at floridagators.com. Its \"Coaching & Support Staff\" section (guide pp. 58-60 = PDF pp. 60-62) supplies exact titles for the strength staff, both graduate assistants, football administration, equipment, medical and office staff, including a 19-person Support Staff photo grid.\n\nQUOTE LIMITATION — READ THIS: the posted media guide PDF is a page-image scan with NO text layer (285 pages, ~0 extractable characters; I verified with pypdf). Every quote sourced to that PDF is therefore set to \"\" per instructions, with the exact printed caption reproduced in the source note. I obtained those captions by rendering the pages with PDFKit and running Apple Vision OCR, then visually re-reading the rendered page images to confirm every name and title character-by-character. Names most at risk of OCR error (Cariess Babb, Marty Huegel, Randy Popple, Malcolm Jowers, Otto Spangler) were all confirmed by eye on the rendered image, not by OCR alone. Direct file if needed: https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/gatorzone.com/documents/2022/11/29/1996_fb_media_guide.pdf (the floridagators.com URL returns an HTML viewer wrapper, not the PDF, to non-browser clients).\n\nTIERS RECOVERED COMPLETELY: head coach (1); on-field assistants (9 — Broadway, Collins, Dixon, Franks, Holland, Sanders, Stephens, Stoops, Wilson; this is the full complement, confirmed independently by Wikipedia, the archived Gatorzone 1996 fast-facts page, the media guide table of contents, and the Congressional Record, all four agreeing); strength and conditioning (4 — Schmidt, Glass, Moorer, Popple); graduate assistants (2 — Spurrier Jr., Hill); equipment (2); football administration/office (Speronis, Ling, N. Sain, Babb, Stevens); video (Houts); medical (9).\n\nTIERS I COULD NOT RECOVER: There is no \"analyst\" or \"quality control\" tier to recover — those job titles did not exist in 1996 college football staffs, and neither source shows any such role. NCAA rules of the era capped on-field coaches at 9 plus the head coach and graduate assistants at 2, and the sources match those caps exactly, so I am confident nothing is missing from the coaching tiers. I could NOT recover: student managers, student athletic trainers, and student video assistants (never named in either source); recruiting-office clerical staff below Betty Ling; and any additional part-time or volunteer helpers.\n\nUNRESOLVED / HONEST GAPS:\n- \"Chris Partick\" and \"Danny Sheldon\" appear ONLY in the Congressional Record with no title, and I found no corroborating source for either. \"Chris Partick\" is almost certainly a typesetting error for \"Chris Patrick\" but I could not confirm, so I kept the printed spelling and asserted no role. Do not treat their role_category (\"other\") as meaningful.\n- \"Patt Moorer\" is a Congressional Record misspelling; the media guide spells it \"Pat Moorer\" and I used that.\n- Dr. Keith Carodine and Greg McGarity appear in the Record's Support Staff block but not in the media guide's football staff pages; they were athletic-department administrators. Included because the school's own championship roster includes them, but they are department-level, not football-only.\n- Thirteen support-staff members appear ONLY in the preseason media guide and NOT on the post-championship Congressional Record list: Tim Aydt, Cariess Babb, Burke Collins, Dr. Art Day, Marty Huegel, Chris Koenig, Dr. Guy Nicolette, Eric Sanders, Nancy Stevens, Dave Werner, Jack Kearney, Rev. Otto Spangler, Malcolm Jowers. I have NOT verified they were still on staff in January 1997; the Record's list is shorter and appears to be a selective honoree list rather than a full staff census, but I cannot rule out departures. These rows carry the weakest evidence in the set.\n- No midseason arrivals or departures are documented. The Aug. 1996 media guide and the Mar. 1997 Congressional Record list identical coaching, strength, and graduate-assistant personnel, which is strong evidence of no in-season turnover in those tiers, so no midseason_note is set on anyone.\n\nSOURCES TRIED THAT DID NOT ADD ROWS: The Wayback-archived Gatorzone 1996 fast-facts page (https://web.archive.org/web/20150905131920/http://www.gatorzone.com/football/history.php?his=1996%2Ffastfacts1996.html) confirms all 9 assistants with titles, but I deliberately did NOT cite it as a quote source because web.archive.org is not reliably fetchable by the tooling here and a mechanical quote match would likely fail; its content is instead reflected in source notes. ESPN's 1996-title retrospective corroborates Speronis as director of football operations and Carlson's role, but the page is JS-rendered and returned no matchable raw text, so it is noted rather than cited. No Wayback capture of a 1996-era Florida athletics staff directory was needed given the media guide."

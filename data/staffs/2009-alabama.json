@@ -706,6 +706,111 @@
           "note": "tenure audit: documented employment covers this season"
         }
       ]
+    },
+    {
+      "name": "Kent Gidley",
+      "role": "Athletics Director of Photography",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2009-media-guide",
+          "quote": "Photography by UA Athletics Director of Photography Kent Gidley and his student assistants.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Roots Woodruff",
+      "role": "Associate Director of Media Relations (football credentials)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2009-media-guide",
+          "quote": "Associate Director of Media Relations: Roots Woodruff",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Jon Dever",
+      "role": "Assistant Athletics Director / Student Services (academic support)",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2009-media-guide",
+          "quote": "Jon Dever, Assistant A.D./Student Services",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Barry Allen",
+      "role": "Assistant Director of Media Relations (Football)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2009-media-guide",
+          "quote": "Assistant Director of Media Relations: Barry Allen (Football)",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Daniel Lyerly",
+      "role": "Football video operations staff (later Assistant AD, Video Operations)",
+      "role_category": "ops",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2020-media-guide",
+          "quote": "He is in his 16th season with the University",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Josh Maxson",
+      "role": "Assistant Director of Media Relations (football)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2009-media-guide",
+          "quote": "Assistant Director of Media Relations: Josh Maxson (Player Interviews)",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Jessica Pare",
+      "role": "Assistant Director of Media Relations",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2009-media-guide",
+          "quote": "Assistant Director of Media Relations: Jessica Pare",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Doug Walker",
+      "role": "Associate Athletic Director for Media Relations (Football)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2009-media-guide",
+          "quote": "Doug Walker (Football)",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

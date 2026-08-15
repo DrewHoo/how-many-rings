@@ -672,6 +672,110 @@
           "note": "Title cell adjacent to the name cell 'Chris Roberts' under the 'Student-Athlete Enrichment Services' section heading. Unique on the page."
         }
       ]
+    },
+    {
+      "name": "Thomas Austin",
+      "role": "Video Graduate Assistant",
+      "role_category": "gradasst",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/01-clemson-football-2018-media-guide",
+          "quote": "Thomas Austin is in his fourth season working with the Clemson offense and first as a video graduate assistant.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "DeAndre McDaniel",
+      "role": "Defensive Analyst & Assistant Camp Director",
+      "role_category": "analyst",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/01-clemson-football-2018-media-guide",
+          "quote": "DeAndre McDaniel is in his fourth season on staff at Clemson and his first as a defensive analyst and assistant camp director.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Reggie Pleasant",
+      "role": "Life Coach",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/01-clemson-football-2018-media-guide",
+          "quote": "REGGIE PLEASANT",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Jill Williams-Wilks",
+      "role": "Administrative Assistant, Administration",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/01-clemson-football-2018-media-guide",
+          "quote": "JILL WILLIAMS-WILKS",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Len Reeves",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181110063524/http://clemsontigers.com/staff-directory",
+          "quote": "Dr. Len Reeves",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Larry Bowman",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181110063524/http://clemsontigers.com/staff-directory",
+          "quote": "Dr. Larry Bowman",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Steve Duzan",
+      "role": "Sr. Associate AD / Student-Athlete Services",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20181124211211/http://clemsontigers.com/staff-directory/department/administration",
+          "quote": "Sr. Associate AD / Student-Athlete Services",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Don Munson",
+      "role": "Director of Broadcasting",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/01-clemson-football-2018-media-guide",
+          "quote": "Don Munson is in his ninth year with the Clemson athletic department in a full-time capacity and his fifth year as director of broadcasting.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

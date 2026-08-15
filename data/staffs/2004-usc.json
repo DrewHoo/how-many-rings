@@ -340,6 +340,71 @@
           "note": "2004 USC Football Media Guide, p. 31 'FOOTBALL STAFF' page (PDF photo caption; name and title on separate typeset lines). The caption reads 'Irene Puentes / Football Receptionist'. Not listed on USC's online staff directory."
         }
       ]
+    },
+    {
+      "name": "Christy Valine",
+      "role": "Recruiting Assistant",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/usc-football-2004-media-guide-c",
+          "quote": "Recruiting Assistant Christie Valine 821-6596",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "John Soldate",
+      "role": "Associate Director (Football Counselor)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/usc-football-2004-media-guide-c",
+          "quote": "Associate Director (Football Counselor) John Soldate 821-0755",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Tino Dominguez",
+      "role": "Assistant (Football Equip. Coord.)",
+      "role_category": "equipment",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/usc-football-2004-media-guide-c",
+          "quote": "Tino Dominguez x7862",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Greg Allen",
+      "role": "Assistant (Asst. Football Equip. Coord.)",
+      "role_category": "equipment",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/usc-football-2004-media-guide-c",
+          "quote": "Assistant (Asst. Football Equip. Coord.) Greg Allen x7862",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Allah-mi Basheer",
+      "role": "Assistant Director (Football Counselor)",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/usc-football-2004-media-guide-c",
+          "quote": "Assistant Director (FootballCounselor) Allah-mi Allen 821-2057",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ],
   "coverage_notes": "SOURCES USED. Three independent tiers were recovered: (1) the 2004 USC Football Media Guide, coaches/staff section, pp. 16-32, archived as a PDF on the Wayback Machine (https://web.archive.org/web/20100705121524/http://grfx.cstv.com/photos/schools/usc/sports/m-footbl/auto_pdf/04-mg-16-32.pdf); (2) USC's own athletics-site staff directory for the 2004 season, archived July 1, 2004 (https://web.archive.org/web/20040701052424/http://usctrojans.collegesports.com/sports/m-footbl/mtt/usc-m-footbl-mtt.html), whose \"Coaches\" block lists exactly 14 people; (3) the individual USC staff bio pages, most archived in July-October 2004 (in-season), which carry the same prose as the media guide but in clean HTML — these supplied nearly all the verbatim quotes. Wikipedia's 2004 season page was checked and its 12-name coaching table agrees with the primary sources but adds no one and is itself uncited, so it was not used as a citation.\n\nWHAT IS COMPLETE. The on-field tier is complete and matches the NCAA limit of the era exactly: Pete Carroll plus nine full-time assistants (Chow, Orgeron, Davis, Burns, Kiffin, Brennan Carroll, Seto, McNair, Smith), plus the two graduate assistants (Ken Norton Jr. and Dennis Slutak). Both USC's own directory and the media guide list the same twelve, with no discrepancies. Strength and conditioning is complete as published: Chris Carlisle plus five assistants. Football operations/administrative support is complete as published: Mark Jackson plus five staffers from the media guide's \"FOOTBALL STAFF\" page.\n\nWHAT I COULD NOT RECOVER. (a) MEDICAL — no athletic trainers, team physicians, or sports-medicine staff are documented for the 2004 football team in any source I could reach. USC's athletics site had no archived staff directory covering sports medicine for this period, and the media guide sections that would carry it were not archived. I found a present-day USC page for longtime head athletic trainer Russ Romano, but nothing tying him or anyone else to the 2004 football staff specifically, so no medical row is included. (b) EQUIPMENT — same situation; nothing documented. Todd Hewitt, USC's later equipment director, did not arrive until 2012 and is correctly excluded. (c) VIDEO — no video coordinator documented. (d) ANALYST / QUALITY CONTROL — USC published no analyst or QC titles for 2004; those roles as we now know them barely existed in college football in this era, and the two support coaches USC did carry (Norton, Slutak) were formally graduate assistants. So the analyst and qc categories are genuinely empty rather than merely unrecovered. The gap in (a)-(c) is an archival gap: only three sections of the 2004 media guide survive on the Wayback Machine (pp. 16-32, 33-109, 137-211); the sections that would list trainers, equipment, and video staff are not archived, and I confirmed by scanning pp. 137-211 and the 2005 guide's archived section that they do not appear there.\n\nDELIBERATE EXCLUSIONS. Kennedy Pola has an archived USC bio page, but its text is the stale 2003-season version (it describes him as running backs coach \"in his fourth year\" dating from a December 1999 arrival, and predates McNair). He appears on neither the 2004 media guide nor the 2004 staff directory, and Todd McNair took over the running backs in February 2004 — so Pola was not on the 2004 staff and is excluded. Page 32 of the 2004 media guide names roughly 40 \"USC Recruiting Guides\" (Anna Karefa-Johnson, Leah Stephenson, and others); these are student volunteer campus hosts for recruits, not employed staff, and are excluded.\n\nROLE-CATEGORY JUDGMENT CALLS. Ken Norton Jr. is listed by USC's public directory as \"Defensive Assistant, Linebackers,\" which reads as an on-field title, but his media guide bio states plainly that he was \"in his first year at USC as a graduate assistant working with the linebackers\" — so he is categorized gradasst. Dennis Slutak is likewise categorized gradasst on his own bio's wording (\"in his second year at USC as a graduate assistant working with the special teams\"), not the \"Special teams coordinator\" label Wikipedia gives him. Pete Carroll is headcoach but also held the defensive coordinator title himself; USC listed no separate DC in 2004.\n\nQUOTE FIDELITY. Every HTML-sourced quote in this dataset was mechanically verified as an exact substring of the tag-stripped, entity-decoded page text before submission (22 of 22 passed, including internal double spaces and ASCII apostrophes). Six rows are PDF-sourced only and carry quote:\"\" per instructions — the media guide's staff page renders names and titles as separate typeset lines in photo captions, and the body text is column-wrapped with hyphenation, so no faithful copyable quote exists; the exact printed wording is given in each note instead. Two quotes drawn from the USC staff directory index page are role fragments only (\"- Defensive Assistant, Linebackers\", etc.) because the person's name sits inside a separate anchor element and any combined quote would break under markdown link conversion; each such row is also backed by a full-sentence source where one exists.\n\nMID-SEASON MOVEMENT. Only one row carries a midseason_note. Ed Orgeron was named Ole Miss head coach on December 16, 2004, but stayed with USC and coached the January 4, 2005 Orange Bowl; the Ole Miss release itself describes him in the present tense as USC's defensive line coach and refers to the Trojans as a team \"who play for the national championship,\" and its year-by-year table lists his 2004 season as USC / Defensive Line-Recruiting Coordinator / Orange. He therefore satisfies the ring rule. McNair, Smith, and Norton all joined in February 2004 (offseason, not mid-season), so no notes were added for them.\n\nVACATED TITLE. Per the task framing, this staff is documented as constituted for the 2004 season. USC vacated its final two 2004 wins in June 2010 and was stripped of the BCS title in June 2011 following the Reggie Bush investigation; the AP still recognizes USC as its 2004 national champion. Rings were awarded at the time, so all rows above should count with the vacated flag set."

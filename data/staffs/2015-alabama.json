@@ -835,6 +835,165 @@
           "note": "tenure audit: documented employment covers this season"
         }
       ]
+    },
+    {
+      "name": "Ellis Ponder",
+      "role": "Associate Director of Football Operations",
+      "role_category": "ops",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2017-media-guide-c",
+          "quote": "He was elevated to the director's role in February of 2017 after spending the 2015 and 2016 seasons",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "JT Summerford",
+      "role": "Recruiting Analyst",
+      "role_category": "analyst",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2018-media-guide",
+          "quote": "He was promoted to recruiting analyst in 2015 and spent two seasons in that role.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Tyler Owens",
+      "role": "Assistant Strength and Conditioning Coach",
+      "role_category": "sc",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://arizonawildcats.com/sports/football/roster/coaches/tyler-owens/5349",
+          "quote": "Owens joined Coach Nick Saban's staff as assistant strength and conditioning coach prior to the 2015 season",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Linda Leoni",
+      "role": "Administrative Assistant",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
+          "quote": "Linda Leoni, Administrative Assistant",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Molly Dowd",
+      "role": "Academic Program Advisor",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
+          "quote": "Molly Dowd, Academic Program Advisor",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Kent Gidley",
+      "role": "Director of Photography",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20151116025250/http://www.rolltide.com/staffdir/alab-staffdir.html",
+          "quote": "Kent Gidley, Director of Photography",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Lyle Cain",
+      "role": "orthpedic consultant",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20151128105550/http://www.rolltide.com/sports-med/medicine-staff.html",
+          "quote": "Dr. Lyle Cain also serves as an orthpedic consultant.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Dr. James Robinson",
+      "role": "team physician (Sports Medicine staff)",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20151128105550/http://www.rolltide.com/sports-med/medicine-staff.html",
+          "quote": "Dr. Jimmy Robinson volunteers his time to ensure that Crimson Tide athletes stay in peak medical condition.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Roots Woodruff",
+      "role": "Associate Director of Athletics Communications (football credentials)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2015-media-guide-c",
+          "quote": "Associate Director of Athletics Communications (FB Credentials): Roots Woodruff",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Jon Dever",
+      "role": "Associate Athletics Director / Student Services (academic support)",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2015-media-guide-c",
+          "quote": "Associate Athletics Director/Student Services Jon Dever",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Jessica Pare",
+      "role": "Athletics Communications (football)",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2015-media-guide-c",
+          "quote": "Walker, Jessica Paré and Alex Thompson.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Doug Walker",
+      "role": "Associate Athletics Director, Communications",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2015-media-guide-c",
+          "quote": "Douglas Walker",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

@@ -1003,6 +1003,45 @@
           "note": "LOW CONFIDENCE, NO TITLE GIVEN. Bare bullet under Wikipedia's untitled 'Support Staff' heading. Zero hits in either 2013 media guide; no corroborating source found. A former Alabama running back of this name later worked in college support-staff roles, which makes a wrong-season placement plausible."
         }
       ]
+    },
+    {
+      "name": "Rob Wilson",
+      "role": "Associate Athletics Director / Communications (football support staff)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-2013-media-guide",
+          "quote": "Rob Wilson Jason Dennard Drew Longenecker Nicole Haves Staci Sutton Bernie Waxman Chuck Morris Laurie Swiger",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Bernie Waxman",
+      "role": "Associate Athletics Director for Facility Planning, Operations and Event Management (football support staff)",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-2013-media-guide",
+          "quote": "Rob Wilson Jason Dennard Drew Longenecker Nicole Haves Staci Sutton Bernie Waxman Chuck Morris Laurie Swiger",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Mark Rodin",
+      "role": "Executive Director, Seminole Productions (FSU athletics video/broadcast); ran the football coaches video department from 1989",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-2013-media-guide",
+          "quote": "SEMINOLE PRODUCTIONS STAFF Jim Garbarino Associate Director Mark Rodin Executive Director",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

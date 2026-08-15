@@ -534,6 +534,32 @@
           "note": "tenure audit: documented employment covers this season"
         }
       ]
+    },
+    {
+      "name": "Steve Franz",
+      "role": "Photography Coordinator (LSU Coordinator of Photography)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/lsu-football-2007-media-guide-c",
+          "quote": "Steve Franz, LSU's staff photographer, joined the LSU athletics department in July of 1998 after being around the Tiger sports scene for years.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Michael Bonnette",
+      "role": "Assistant Athletics Director / Sports Information Director (football)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/lsu-football-2007-media-guide-c",
+          "quote": "The 37-year-old Bonnette, who served as an Associate Sports Information Director for seven years, is in his 13th year with the LSU Athletic Department.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ],
   "coverage_notes": "SOURCES USED. (1) Wikipedia's 2007 LSU Tigers football team article has a Coaching staff table with 13 names (10 on-field + Moffitt + GAs Mike Ekeler and Glen Elarbee); its name and title live in separate table cells, so only prose sentences from it are quoted verbatim here. (2) The primary source is the official 2007 LSU Football Media Guide, scanned on the Internet Archive (item lsu-football-2007-media-guide-c). All media-guide quotes are byte-exact substrings of that item's plain-text OCR rendition (the _djvu.txt URL cited), which is what a fetcher retrieving that URL will see. Caveat: that file is ~1.1MB; the Support Staff quotes sit roughly 517KB into it, so a fetcher that truncates long documents may not reach them. The same content is on pp.4, 94-111 of the PDF in the same item. (3) LSUsports.net's football coaches page, season-scoped to 2007-08, was recovered from the Wayback Machine (capture 20081211074750, URL param Q_SEASON=2007) and independently confirms the 10 on-field coaches plus Moffitt, Butler, Nader, Baglio, Mangum and one graduate assistant (John Wozniak). Its markup puts names inside anchors with non-breaking spaces, so combined name+title quotes cannot be reproduced faithfully from it; I quoted role strings only and flagged that in the notes. (4) Later staff bios at huskers.com, ucfknights.com and utsports.com supply the graduate-assistant tier that LSU never published.\n\nWHAT IS COMPLETE. On-field staff is complete and cross-verified: Les Miles plus the NCAA maximum of nine assistants (Crowton, Pelini, Henson, Lane, Mallory, McCarthy, Peveto, Porter, Studrawa). Crowton coached quarterbacks himself (his media-guide bio heading is \"Offensive Coordinator/Quarterbacks\"), which is why there is no separate QB coach. Strength and conditioning, football operations/administration, athletic training, equipment and video tiers are complete as of the media guide's July 2007 press date.\n\nWHAT I COULD NOT RECOVER. (a) Graduate assistants: LSU published no GA list for 2007. The media guide's Support Staff grid uses the titles \"Administrative Intern\" and \"Assistant Strength Coach\" instead — the standard-for-the-era workaround for keeping former GAs on staff — and the only person LSU itself ever labeled a \"Graduate Assistant\" for 2007-08 is John Wozniak. Glen Elarbee is documented as a 2007 LSU GA only through his own later bios; he is absent from the July 2007 media guide, so he presumably joined after it went to press. There were almost certainly additional unnamed GAs and student assistants. (b) Analyst/quality-control tier: no such tier was published in 2007; the three \"Administrative Interns\" (Farrell, Papuchis, Wozniak) are the closest equivalent, and only Papuchis's actual defensive function is documented externally. (c) Medical: only the three football-facing athletic trainers are named. Team physicians and orthopedists are never named for football in any source I recovered; the media guide says the department employed six full-time trainers and 10 graduate-assistant trainers across all sports, and those GA trainers are not enumerated. (d) Video: Doug Aucoin's bio says he oversaw a staff of eight — one full-time assistant, one graduate assistant and six student assistants — but only Aucoin and Brad Mendow are named for 2007. (e) Student equipment managers and student trainers are unnamed. (f) Academic/CHAMPS-Life Skills staff assigned to football could not be separated from department-wide listings.\n\nDELIBERATE EXCLUSIONS. I left out department-wide athletics administration and sports information staff (AD Skip Bertman, SID Michael Bonnette and his staff, TV/radio staff, etc.) that appear on the media guide's Quick Facts page but are not football-program staff. Add them if the dataset's ring rule is broader than the football staff.\n\nTIMING / RING RULE. The media guide is a July 2007 preseason document, so it reflects the staff at the start of the season rather than at the Jan. 7, 2008 BCS National Championship Game; the Wayback LSUsports.net page (season-scoped to 2007-08) corroborates the coaching tier but not the support tiers. Known December movement: Bo Pelini was hired as Nebraska's head coach in early December 2007 and Mike Ekeler and John Papuchis were named to his Nebraska staff on Dec. 17, 2007, but all three are credited with the LSU title — Pelini returned to Baton Rouge and called the defense in the championship game, and Ekeler's own Nebraska bio says he helped LSU win the national title \"capped by a victory over Ohio State in the BCS National Championship Game.\" No departures or arrivals during the regular season were found. No rows here are inferred: every person listed appears by name in a cited source."

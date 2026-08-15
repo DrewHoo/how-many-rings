@@ -623,6 +623,58 @@
           "note": "Official 1999 Florida State Football Media Guide, printed p. 48 \"SUPPORT STAFF\" photo grid (p. 52 of the Internet Archive scan), row 4 column 5: STACI WILKSHIRE-MARTIN / Defense Secretary. Image-only scan with column-interleaved OCR; read directly from the page image at high resolution."
         }
       ]
+    },
+    {
+      "name": "Rob Wilson",
+      "role": "Sports Information Director",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "should be directed to Sports Information Director Rob Wilson no later than four days prior to the game",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Bernie Waxman",
+      "role": "Director of Facilities & Operations",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "Bernie Waxman Director of Facilites ‘& Operations Rob Wilson Sports Information Director",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Andy Urbanic",
+      "role": "Associate Director of Athletics for Football Operations & Special Projects",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "ANDY URBANIC BEGINS his 11th season in charge of football operations at Florida State",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Mark Meleney",
+      "role": "Director of Student-Athlete Academic Support Services",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/florida-state-football-1999-media-guide",
+          "quote": "Director, Mark Meleney states “Our philosophy isto offeran academic support program integrated with the total University that will assist all student athletes with the transition into college",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

@@ -431,6 +431,110 @@
           "note": "tenure audit: documented employment covers this season"
         }
       ]
+    },
+    {
+      "name": "Kent Gidley",
+      "role": "SID Photographer (later Director of Photography)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-1992-media-guide-c",
+          "quote": "Kent Gidley SID Photographer",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Roots Woodruff",
+      "role": "SID Assistant (listed as Rob Woodruff)",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-1992-media-guide-c",
+          "quote": "Rob Woodruff SID Assistant",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Jon Dever",
+      "role": "Academic Assistant, athletics academic services (listed as John Dever)",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-1992-media-guide-c",
+          "quote": "John Dever Academic Assistant",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Barry Allen",
+      "role": "Assistant SID (football media relations)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-1992-media-guide-c",
+          "quote": "Barry Allen, Assistant SID",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Kevin Almond",
+      "role": "Academic Advisor / Director of Academics (football academic support)",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-1992-media-guide-c",
+          "quote": "Kevin Almond, Academic Advisor",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Donald Rawson",
+      "role": "Video Director (football video)",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-1992-media-guide-c",
+          "quote": "Donald Rawson, Video Director",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Lee Leonard",
+      "role": "Assistant Equipment Manager",
+      "role_category": "equipment",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-1992-media-guide-c",
+          "quote": "Lee Leonard Assistant Equipment Manager",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Bobby Rice",
+      "role": "Director of Athletic Facilities",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-1992-media-guide-c",
+          "quote": "Bobby Rice, Director of Facilities",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

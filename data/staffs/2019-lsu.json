@@ -1157,6 +1157,32 @@
           "note": "Archived LSU staff directory, Equipment Staff category, title column 'Director of Equipment - Olympic Sports' — retitled between the Aug. 2019 media guide and the Jan. 2020 snapshot."
         }
       ]
+    },
+    {
+      "name": "Michael Bonnette",
+      "role": "Associate Athletics Director / Communications (football)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/lsu-football-2019-media-guide",
+          "quote": "Michael Bonnette enters his 20th year as LSU's Communications Director and 13th as Associate Athletics Director.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Shelly Mullenix",
+      "role": "Senior Associate AD / Student-Athlete Health and Wellness",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/lsu-football-2019-media-guide",
+          "quote": "Shelly Mullenix joined the LSU Athletic Training Staff in 1997 after working as a graduate athletic trainer and assistant athletic trainer from 1992-96",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

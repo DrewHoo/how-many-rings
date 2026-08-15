@@ -883,6 +883,190 @@
           "note": "2008 Florida football media guide, printed p. 92, under \"2008 Managers / Student Assistants:\". Quote empty per the PDF-extraction caveat."
         }
       ]
+    },
+    {
+      "name": "Peter A. Indelicato, MD",
+      "role": "Head Team Physician",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2016/2/11/2008_FB_media_guide.pdf?id=14741",
+          "quote": "Dr. Peter A. Indelicato\nHead Team Physician",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Jay Clugston, MD",
+      "role": "Team Physician",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://floridagators.com/documents/2016/2/11/2008_FB_media_guide.pdf?id=14741",
+          "quote": "Dr. Jay Clugston\nTeam Physician",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Van Stuckey",
+      "role": "Director of Athletic Equipment",
+      "role_category": "equipment",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://floridagators.com/staff-directory/van-stuckey/90",
+          "quote": "On the field for 2 fb national championships, 2006+2008",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Dave Houts",
+      "role": "Director of Video Services",
+      "role_category": "ops",
+      "via": "tenure",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://floridagators.com/sports/baseball/roster/coaches/dave-houts/521",
+          "quote": "Dave Houts has been associated with the Gator athletic program since 1977, and became a full-time member of the University Athletic Association as Director of Video Services in 1989.",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Foley",
+      "role": "Director of Athletics",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Jeremy Foley\nDirector of Athletics",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Greg McGarity",
+      "role": "Executive Senior Associate Athletics Director (Internal Affairs; supervises football with the AD)",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Greg McGarity\nExecutive Senior Associate Director",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Keith Carodine",
+      "role": "Senior Associate Athletics Director - Student Life (football academic support)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081120000000/http://www.gatorzone.com/football/media/2008/pdf/13.pdf",
+          "quote": "Keith Carodine, PhD\nAssociate A.D.  \nAcademic Affairs",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Norm Carlson",
+      "role": "Assistant Athletics Director - Historian",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Responsibilities: Athletic Association Historian, while also having duties involving campus, community and state relations. Contributing editor to web site, game programs and Gator Booster News.\nJoined UF Staff: 1963",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Steve McClain",
+      "role": "Associate Athletics Director for Communications (football media contact)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Steve McClain\nAssociate Athletics Director for Communications",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Chip Howard",
+      "role": "Associate Athletics Director - Operations and Facilities (football game operations, team travel)",
+      "role_category": "ops",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Chip Howard\nAssociate Athletics Director - Operations and Facilities",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Mike Spiegler",
+      "role": "Associate Athletics Director - Auxiliary Services (Athletic Equipment Operations, football team travel)",
+      "role_category": "equipment",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081013002127/http://www.gatorzone.com/directory/",
+          "quote": "Mike Spiegler\nAssociate Athletics Director- Auxiliary Services",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Susan Swiderski",
+      "role": "Learning Specialist, Office of Student Life (football support staff)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081120000000/http://www.gatorzone.com/football/media/2008/pdf/13.pdf",
+          "quote": "Susan Swiderski\nLearning Specialist",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Buddy Wellman",
+      "role": "Assistant Coordinator, Compliance and Student Services (football support staff)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081120000000/http://www.gatorzone.com/football/media/2008/pdf/13.pdf",
+          "quote": "Buddy Wellman\nAssistant Coordinator \nCompliance and  \nStudent Services",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Ann Hughes",
+      "role": "Assistant Director for Student Services, Office of Student Life (football support staff)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20081120000000/http://www.gatorzone.com/football/media/2008/pdf/13.pdf",
+          "quote": "Ann Hughes\nAssistant Director for \nStudent Services",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

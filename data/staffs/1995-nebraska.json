@@ -921,6 +921,150 @@
           "note": "Continuation line of the '1995 Husker Undergraduate Assistant Coaches' photo caption on the game program's '1995 Husker Undergraduate Assistants' page."
         }
       ]
+    },
+    {
+      "name": "Al Papik",
+      "role": "Senior Associate AD/Compliance Coordinator",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1996-fiesta-bowl-media-guide-c",
+          "quote": "Senior Associate AD/Compliance Coordinator Al Papi",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Chris Anderson",
+      "role": "Sports Information Director",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1996-fiesta-bowl-media-guide-c",
+          "quote": "Sports Information Director: Chris Anderson",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Keith Mann",
+      "role": "Assistant SID",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1996-fiesta-bowl-media-guide-c",
+          "quote": "Assistant SIDs Kevin Best, Keith Mann, Patti Warner",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Dave Ebb",
+      "role": "graduate assistant in the sports information office",
+      "role_category": "ops",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1996-media-guide-c",
+          "quote": "Ebb was a graduate assistant in the sports information office for",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
+    },
+    {
+      "name": "Jon Bostick",
+      "role": "Athletic Department Fund-Raiser",
+      "role_category": "ops",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1996-fiesta-bowl-media-guide-c",
+          "quote": "Athletic Department Fund-Raisers Jon Bostick, Paul Meyers, Mare Munford",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Vicki Cartwright",
+      "role": "Sports Information Secretary / Office Manager",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1995-media-guide-b",
+          "quote": "Vicki Cartwright is completing her 16th year at Nebraska and serves as secretary, receptionist, and sports information office manager, in addition to other duties.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Don Bryant",
+      "role": "Associate Athletic Director, Public Relations (SID 1962-93)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1995-media-guide-b",
+          "quote": "Prior to 1993, he served as assistant athletic director for 18 years, sports information director for 31 years and as director of the Bob Devaney Sports Center for eight years.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Janette Sojka",
+      "role": "Central Communications Coordinator / Sports Information Secretary",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1995-media-guide-b",
+          "quote": "Janette Sojka is in her 17th year as a member of the athletic department staff, serving 15 years as a secretary to Don Bryant and the sports information office.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Bill Shepard",
+      "role": "Grounds Manager (Memorial Stadium and football practice fields)",
+      "role_category": "ops",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1995-media-guide-b",
+          "quote": "Now in his 36th year, Shepard first joined the Nebraska staff in 1960. He is in charge of the upkeep of Memorial Stadium, Schulte Fieldhouse, Ed Weir Track, Buck Beltzer Field, the Nebraska Softball Complex and the football practice fields.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Joe Selig",
+      "role": "Assistant Athletic Director, Facilities and Events",
+      "role_category": "ops",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1995-media-guide-b",
+          "quote": "Joe Selig enters his third year as assistant athletic director for facilities and events.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Nick Joos",
+      "role": "Associate Sports Information Director (football)",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/nebraska-football-1995-media-guide-b",
+          "quote": "Associate SID: Nick Joos: Assistant SIDs: George Mauzy and Kevin Best",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

@@ -1394,6 +1394,45 @@
           "note": "tenure audit: documented employment covers this season"
         }
       ]
+    },
+    {
+      "name": "Roots Woodruff",
+      "role": "Associate Director of Athletics Communications (football credentials)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2020-media-guide",
+          "quote": "Roots Woodruff (Football Credentials)",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Jon Dever",
+      "role": "Senior Associate Athletics Director, Student Services (academic support)",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2020-media-guide",
+          "quote": "JON DEVER SENIOR ASSOCIATE ATHLETICS DIRECTOR, STUDENT SERVICES",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Jessica Pare",
+      "role": "Senior Associate Athletics Director, Athletics Communications (football logistics/credentials)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2020-media-guide",
+          "quote": "Jessica Paré (Logistics/Credentials)",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

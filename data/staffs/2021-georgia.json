@@ -957,6 +957,228 @@
           "note": "Roster-footer staff list in the raw wikitext; ties name and role contiguously."
         }
       ]
+    },
+    {
+      "name": "Ron Courson",
+      "role": "Executive Associate AD / Director of Sports Medicine",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://georgiadogs.com/documents/download/2022/1/4/21FB_UGA_Football_ChampionshipGuide.pdf",
+          "quote": "Ron Courson...........................................Executive Associate AD / Director of Sports Medicine",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Chris Blaszka",
+      "role": "Assistant Athletic Trainer",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://georgiadogs.com/documents/download/2022/1/4/21FB_UGA_Football_ChampionshipGuide.pdf",
+          "quote": "Chris Blaszka....................................................................................... Assistant Athletic Trainer",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Brittany deCamp",
+      "role": "Assistant Athletic Trainer",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://georgiadogs.com/documents/download/2022/1/4/21FB_UGA_Football_ChampionshipGuide.pdf",
+          "quote": "Brittany deCamp................................................................................. Assistant Athletic Trainer",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Ryan Madaleno",
+      "role": "Assistant Athletic Trainer",
+      "role_category": "medical",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://georgiadogs.com/documents/download/2022/1/4/21FB_UGA_Football_ChampionshipGuide.pdf",
+          "quote": "Ryan Madaleno.................................................................................... Assistant Athletic Trainer",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Drew Willson",
+      "role": "Associate Athletic Trainer",
+      "role_category": "medical",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://georgiadogs.com/documents/download/2022/1/4/21FB_UGA_Football_ChampionshipGuide.pdf",
+          "quote": "Drew Willson....................................................................................... Associate Athletic Trainer",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Ben Schmidt",
+      "role": "Sports Science Data Analyst",
+      "role_category": "analyst",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://georgiadogs.com/documents/download/2022/1/4/21FB_UGA_Football_ChampionshipGuide.pdf",
+          "quote": "Ben Schmidt.....................................................................................Sports Science Data Analyst",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Kyle Lane",
+      "role": "Video Coordinator",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://georgiadogs.com/documents/download/2022/1/4/21FB_UGA_Football_ChampionshipGuide.pdf",
+          "quote": "Kyle Lane........................................................................................................ Video Coordinator",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Wil Wells",
+      "role": "Assistant Director of Football Equipment",
+      "role_category": "equipment",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://georgiadogs.com/documents/download/2022/1/4/21FB_UGA_Football_ChampionshipGuide.pdf",
+          "quote": "Wil Wells......................................................................Assistant Director of Football Equipment",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Roger Velasquez",
+      "role": "Equipment Intern",
+      "role_category": "equipment",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://georgiadogs.com/documents/download/2022/1/4/21FB_UGA_Football_ChampionshipGuide.pdf",
+          "quote": "Roger Valesquez................................................................................................Equipment Intern",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Roderick Hall",
+      "role": "Culinary Intern",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://georgiadogs.com/documents/download/2022/1/4/21FB_UGA_Football_ChampionshipGuide.pdf",
+          "quote": "Roderick Hall....................................................................................................... Culinary Intern",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Ryan Williams",
+      "role": "Graduate Assistant - Offense",
+      "role_category": "gradasst",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://georgiadogs.com/documents/download/2022/1/4/21FB_UGA_Football_ChampionshipGuide.pdf",
+          "quote": "OFFENSE: Eddie Gordon, Ryan Williams",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Eddie Gordon",
+      "role": "Graduate Assistant - Offense",
+      "role_category": "gradasst",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/download/georgia-football-2021-media-guide/Georgia%20Football%2C%202021%20Media%20Guide_djvu.txt",
+          "quote": "Graduate Assistants OFFENSE: Eddie Gordon, Ryan Williams",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Carson Hall",
+      "role": "Graduate Assistant - Defense",
+      "role_category": "gradasst",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/download/georgia-football-2021-media-guide/Georgia%20Football%2C%202021%20Media%20Guide_djvu.txt",
+          "quote": "David Metcalf, Carson Hall",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "David Metcalf",
+      "role": "Graduate Assistant - Defense",
+      "role_category": "gradasst",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/download/georgia-football-2021-media-guide/Georgia%20Football%2C%202021%20Media%20Guide_djvu.txt",
+          "quote": "David Metcalf, Carson Hall",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Seth Auer",
+      "role": "Student Assistant - Offense",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/download/georgia-football-2021-media-guide/Georgia%20Football%2C%202021%20Media%20Guide_djvu.txt",
+          "quote": "OFFENSE: Brandon Bennett, Seth Auer",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Blake Bilz",
+      "role": "Student Assistant - Defense",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/download/georgia-football-2021-media-guide/Georgia%20Football%2C%202021%20Media%20Guide_djvu.txt",
+          "quote": "DEFENSE: Blake Bilz",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "James Ellis",
+      "role": "Player Personnel assistant",
+      "role_category": "ops",
+      "via": "tenure",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://georgiadogs.com/sports/football/roster/staff/james-ellis/1358",
+          "quote": "Player Personnel assistant during the 2019-2021 years",
+          "note": "deep-dive audit (tenure)"
+        }
+      ]
     }
   ]
 }

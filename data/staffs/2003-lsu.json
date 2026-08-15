@@ -760,6 +760,32 @@
           "note": "Name cell of the archived Equipment Staff directory. Adjacent Position cell reads \"Student Manager -- Football\"; Class \"Sr.\", Experience \"2nd Year\". Student manager, not salaried staff."
         }
       ]
+    },
+    {
+      "name": "Steve Franz",
+      "role": "Staff Photographer / Photography Coordinator, LSU Athletics",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030812090732/http://www.lsusports.net/ad/randomlink.cfm?pagecode=staff_dir",
+          "quote": "Steve Franz Staff Photographer",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Michael Bonnette",
+      "role": "Sports Information Director (chief media contact for LSU football)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20030812090732/http://www.lsusports.net/ad/randomlink.cfm?pagecode=staff_dir",
+          "quote": "Michael Bonnette Sports Information Director",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }

@@ -869,6 +869,84 @@
           "note": "tenure audit: documented employment covers this season"
         }
       ]
+    },
+    {
+      "name": "Kent Gidley",
+      "role": "Athletics Director of Photography",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2012-media-guide",
+          "quote": "Photography by UA Athletics Director of Photography Kent Gidley and his student assistants.",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Roots Woodruff",
+      "role": "Associate Director of Athletics Communications (football credentials)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2012-media-guide",
+          "quote": "Associate Director of Athletics Communications: Roots Woodruff",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Jon Dever",
+      "role": "Assistant Athletics Director for Student Services (academic support)",
+      "role_category": "other",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2012-media-guide",
+          "quote": "Assistant Athletics Director for Student Services Jon Dever",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Josh Maxson",
+      "role": "Assistant Director of Athletics Communications (football)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2012-media-guide",
+          "quote": "Josh Maxson (Football Player Interviews)",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Jessica Pare",
+      "role": "Athletics Communications (football game notes)",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2012-media-guide",
+          "quote": "Jessica Paré (Football Game Notes)",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
+    },
+    {
+      "name": "Doug Walker",
+      "role": "Associate Athletics Director for Communications",
+      "role_category": "other",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://archive.org/details/alabama-football-2012-media-guide",
+          "quote": "Associate Athletics Director for Communications Doug Walker",
+          "note": "deep-dive audit (roster)"
+        }
+      ]
     }
   ]
 }
