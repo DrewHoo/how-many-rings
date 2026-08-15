@@ -1,0 +1,12 @@
+{
+  "note": "Championships won as a PLAYER by people who also appear on staff. Kept separate from staff rings — the leaderboard ranks staff rings, and a player ring shows as a badge. Filled by scripts + research; see docs/data-pipeline.md.",
+  "players": [
+    {
+      "name": "Rob Ezell",
+      "titles": ["2009 Alabama"],
+      "detail": "Walk-on quarterback/wide receiver at Alabama 2007-2010, on the roster for the 2009 BCS title, then returned as an analyst.",
+      "sources": [],
+      "confidence": "high"
+    }
+  ]
+}

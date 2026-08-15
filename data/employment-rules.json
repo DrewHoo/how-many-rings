@@ -1,0 +1,39 @@
+{
+  "note": "A ring counts only for people whose full-time job is the football program. These patterns (matched case-insensitively against the role text as the source words it) mark rows as external: people who are around the team but employed by someone else. Each rule carries the reason shown in the site's methodology note.",
+  "external": [
+    {
+      "id": "law-enforcement",
+      "label": "Law enforcement",
+      "reason": "State troopers and team security are sworn officers on assignment, employed by their agency, not the school.",
+      "patterns": ["state trooper", "team security", "\\bpolice\\b", "sheriff", "state patrol"]
+    },
+    {
+      "id": "clergy",
+      "label": "Chaplains & ministry",
+      "reason": "Team chaplains and FCA staff are employed by a ministry or the Fellowship of Christian Athletes, not the athletics department.",
+      "patterns": ["chaplain", "chaplin", "team pastor", "\\bfca\\b"]
+    },
+    {
+      "id": "outside-medical",
+      "label": "Consulting physicians",
+      "reason": "Team physicians, surgeons, dentists and radiologists practice medicine elsewhere and cover the team; the athletic trainers who work for the program full time are still counted.",
+      "patterns": ["team physician", "head team physician", "primary care physician", "team dentist", "oral surgeon", "orthopedic surgeon", "orthopaedic surgeon", "orthopedist", "orthopaedist", "neurosurgeon", "radiologist", "medical consultant", "\\bd\\.?d\\.?s\\.?\\b"]
+    },
+    {
+      "id": "volunteer",
+      "label": "Volunteer",
+      "reason": "Volunteer coaches are unpaid and not on the program's payroll.",
+      "patterns": ["volunteer coach", "volunteer assistant"]
+    }
+  ],
+  "keepOverrides": [
+    {
+      "pattern": "director of athletic medicine",
+      "reason": "An athletics-department directorship, held by an M.D. but a full-time department job."
+    },
+    {
+      "pattern": "physician's assistant",
+      "reason": "Full-time athletic medicine staff working for the department."
+    }
+  ]
+}

@@ -130,10 +130,21 @@ export function App() {
           all — each row carrying the source page and the verbatim line that supports it. Click any
           name to see the receipts.
         </p>
+        <h3>Who doesn’t count</h3>
+        <p>
+          The job has to be the team. {data.meta.excludedCount} people who were on these staff lists are
+          left out because someone else signed their paycheck — {data.meta.employmentRules.map((r) => r.label.toLowerCase()).join(', ')}.
+          {data.meta.excludedTop.length > 0 && (
+            <> The biggest names it costs: {data.meta.excludedTop.slice(0, 3).map((e, i) => (
+              <span key={e.name}>{i > 0 ? ', ' : ''}<strong>{e.name}</strong> ({e.rings} rings, {e.role.toLowerCase()})</span>
+            ))}.</>
+          )}
+        </p>
         <p className="muted">
           Data built {data.meta.built}. Split national titles count for both schools. The 2004 USC title
-          was later vacated, but the rings were handed out. Coverage of support staff is thinner in the
-          early 1990s than today, so this undercounts the older dynasties.
+          was later vacated, but the rings were handed out. Rings won as a <em>player</em> are tracked
+          separately and shown as a badge — they aren’t part of the ranking. Coverage of support staff is
+          thinner in the early 1990s than today, so this undercounts the older dynasties.
         </p>
       </footer>
     </main>

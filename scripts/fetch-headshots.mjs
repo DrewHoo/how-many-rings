@@ -44,6 +44,9 @@ const stripName = (s) => s.replace(/\s*\(.*\)$/, '').replace(/[.']/g, '').toLowe
 
 for (const { name, group } of targets) {
   const key = slug(name)
+  // A locked entry is a hand-picked image (e.g. a photo the author shot
+  // themselves). Never overwrite it, not even with --force.
+  if (manifest[key]?.locked) { console.log(`${name} ... locked, keeping ${manifest[key].file}`); continue }
   if (!force && manifest[key]?.status === 'ok') continue
   process.stdout.write(`${name} ... `)
   try {

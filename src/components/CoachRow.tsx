@@ -24,7 +24,14 @@ export function CoachRow({
           ? <img className="face" src={`${BASE}headshots/${img}`} alt="" loading="lazy" width={44} height={44} />
           : <span className="face face-blank" aria-hidden="true" />}
         <span className="who">
-          <span className="name">{coach.name}</span>
+          <span className="name">
+            {coach.name}
+            {coach.player && (
+              <span className="badge" title={`Also won as a player: ${coach.player.titles.join(', ')}`}>
+                +{coach.player.titles.length} as a player
+              </span>
+            )}
+          </span>
           <span className="schools">{coach.schools.join(' · ')}</span>
         </span>
         <span className="marks">
@@ -35,6 +42,14 @@ export function CoachRow({
 
       {expanded && (
         <div className="detail">
+          {coach.player && (
+            <p className="player-note">
+              <strong>Also a player.</strong> {coach.player.detail}
+              {coach.player.sources.map((u, i) => (
+                <a key={u + i} href={u} target="_blank" rel="noopener noreferrer"> source</a>
+              ))}
+            </p>
+          )}
           <ol className="ring-list">
             {coach.rings.map((r) => (
               <li key={`${r.season}-${r.team}`} className={inScope(r, scope) ? '' : 'dim'}>

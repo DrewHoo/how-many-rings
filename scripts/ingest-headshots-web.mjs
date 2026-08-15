@@ -22,6 +22,7 @@ for (const e of entries) {
   const key = slug(e.name)
   const current = manifest[key]
   if (!current) { console.log(`${e.name}: not in manifest, skipping`); continue }
+  if (current.locked) { console.log(`${e.name}: locked, keeping ${current.file}`); continue }
   if (current.status === 'ok' && !force) continue
   if (!e.imageUrl) { current.reason = e.note ?? current.reason; continue }
   process.stdout.write(`${e.name} ... `)

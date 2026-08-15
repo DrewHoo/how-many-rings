@@ -19,9 +19,18 @@ export interface Ring {
   sources: Source[]
 }
 
+export interface PlayerRings {
+  /** e.g. ["2009 Alabama"] — titles won while on the roster as a player. */
+  titles: string[]
+  detail: string
+  sources: string[]
+}
+
 export interface Coach {
   id: string
   name: string
+  /** Present when this person also won a title as a player, before/after staff work. */
+  player?: PlayerRings
   rings: Ring[]
   total: number
   /** Rings earned in support roles (S&C, analyst, ops, medical, …). */
@@ -41,6 +50,10 @@ export interface Dataset {
     seasonCount: number
     peopleTotal: number
     note: string
+    /** Why some people around a championship team don't count — see data/employment-rules.json. */
+    employmentRules: { label: string; reason: string }[]
+    excludedCount: number
+    excludedTop: { name: string; rings: number; rule: string; role: string }[]
   }
   coaches: Coach[]
 }
