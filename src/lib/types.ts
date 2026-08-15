@@ -29,6 +29,9 @@ export interface PlayerRings {
 export interface Coach {
   id: string
   name: string
+  /** The title they held for the most championship seasons. */
+  primaryRole: string
+  primaryCat: RoleCat
   /** Present when this person also won a title as a player, before/after staff work. */
   player?: PlayerRings
   rings: Ring[]
@@ -85,4 +88,13 @@ export function inScope(ring: Ring, scope: Scope): boolean {
 
 export function scopedCount(coach: Coach, scope: Scope): number {
   return coach.rings.filter((r) => inScope(r, scope)).length
+}
+
+/**
+ * A scope is a filter over people, not a re-score. Someone's ring count is a
+ * fact about them, so it never changes with the view; the scope only decides
+ * who belongs in the list — anyone who earned at least one ring that way.
+ */
+export function matchesScope(coach: Coach, scope: Scope): boolean {
+  return scope === 'all' || coach.rings.some((r) => inScope(r, scope))
 }

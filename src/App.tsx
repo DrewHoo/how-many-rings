@@ -1,15 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
-import type { Coach, Dataset, Ring, Scope } from './lib/types.ts'
-import { ROLE_LABEL, scopedCount } from './lib/types.ts'
+import type { Dataset, Ring, Scope } from './lib/types.ts'
+import { ROLE_LABEL, matchesScope } from './lib/types.ts'
 import { CoachRow } from './components/CoachRow.tsx'
-import { RingGlyphs } from './components/RingGlyphs.tsx'
 import { ShareButton } from './components/ShareButton.tsx'
 
 const BASE = import.meta.env.BASE_URL
 const SCOPES: { key: Scope; label: string; blurb: string }[] = [
   { key: 'all', label: 'Everyone on staff', blurb: 'Every person the team listed — coaches, trainers, analysts, operations.' },
-  { key: 'support', label: 'Support staff only', blurb: 'Strength, medical, analysts, operations — the people who never appear on TV.' },
-  { key: 'onfield', label: 'Coaches only', blurb: 'Head coach and on-field assistants, the traditional definition.' },
+  { key: 'support', label: 'Support staff only', blurb: 'Anyone who earned a ring in strength, medical, analyst or operations work — the people who never appear on TV.' },
+  { key: 'onfield', label: 'Coaches only', blurb: 'Anyone who earned a ring as a head coach or on-field assistant.' },
 ]
 
 function useQueryState(key: string, fallback: string) {
@@ -39,19 +38,20 @@ export function App() {
       .catch((e) => setError(String(e)))
   }, [])
 
+  // Rank and count are always the person's real ring total — the scope decides
+  // who is listed, never what anyone is worth.
   const ranked = useMemo(() => {
     if (!data) return []
     const s = scope as Scope
     const needle = q.trim().toLowerCase()
     return data.coaches
-      .map((c) => ({ c, n: scopedCount(c, s) }))
-      .filter(({ c, n }) => n >= 2 && (!needle ||
+      .filter((c) => matchesScope(c, s) && (!needle ||
         c.name.toLowerCase().includes(needle) ||
+        c.primaryRole.toLowerCase().includes(needle) ||
         c.schools.some((t) => t.toLowerCase().includes(needle))))
-      .sort((a, b) => b.n - a.n || a.c.name.localeCompare(b.c.name))
+      .sort((a, b) => b.total - a.total || a.name.localeCompare(b.name))
   }, [data, scope, q])
 
-  const leader: Coach | undefined = data?.coaches.find((c) => c.id === 'scott-cochran')
   const activeScope = SCOPES.find((s) => s.key === scope) ?? SCOPES[0]
 
   if (error) return <main className="wrap"><p className="err">Couldn’t load the data: {error}</p></main>
@@ -68,23 +68,6 @@ export function App() {
         </p>
       </header>
 
-      {leader && (
-        <section className="hero">
-          {leader.photo && <img className="hero-face" src={`${BASE}headshots/${leader.photo}`} alt={leader.name} width={132} height={176} />}
-          <div className="hero-body">
-            <p className="kicker">The one that started this</p>
-            <p className="hero-num tabular">{leader.total}</p>
-            <h2 className="hero-name">{leader.name}</h2>
-            <p className="hero-blurb">
-              Strength coach. He followed Nick Saban from LSU to Alabama, then followed Kirby Smart
-              to Georgia — collecting a ring at every stop. Seven of his eight came in roles that
-              never show up on a coaching staff list.
-            </p>
-            <div className="hero-rings"><RingGlyphs rings={leader.rings} scope="all" /></div>
-          </div>
-        </section>
-      )}
-
       <section className="controls">
         <div className="segmented" role="tablist" aria-label="Which rings count">
           {SCOPES.map((s) => (
@@ -97,11 +80,14 @@ export function App() {
           value={q} onChange={(e) => setQ(e.target.value)} aria-label="Filter by name or school" />
         <ShareButton />
       </section>
-      <p className="scope-blurb">{activeScope.blurb} <strong>{ranked.length}</strong> people have 2+ rings under this rule.</p>
+      <p className="scope-blurb">
+        {activeScope.blurb} <strong>{ranked.length}</strong> people
+        {scope === 'all' ? ' have 2 or more rings.' : ' qualify — each still shown with every ring they own.'}
+      </p>
 
       <ol className="rows">
-        {ranked.slice(0, 100).map(({ c, n }, i) => (
-          <CoachRow key={c.id} coach={c} rank={i + 1} scope={scope as Scope} count={n}
+        {ranked.slice(0, 100).map((c, i) => (
+          <CoachRow key={c.id} coach={c} rank={i + 1} scope={scope as Scope} count={c.total}
             expanded={open === c.id}
             onToggle={() => setOpen(open === c.id ? '' : c.id)}
             onHoverRing={(ring, el) => {

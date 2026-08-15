@@ -71,11 +71,21 @@ const coaches = [...people.values()]
     const photo = manifest[id]
     const asPlayer = playerRings.get(norm(p.name))
     p.rings.sort((a, b) => a.season - b.season)
+    // The title they held longest, so the list can say what someone actually did
+    // without being opened. Ties go to the most recent, which is usually the most senior.
+    const titleCounts = new Map()
+    for (const r of p.rings) titleCounts.set(r.role, (titleCounts.get(r.role) ?? 0) + 1)
+    const primaryRole = [...titleCounts.entries()]
+      .sort((a, b) => b[1] - a[1] || p.rings.findLastIndex((r) => r.role === b[0]) - p.rings.findLastIndex((r) => r.role === a[0]))[0][0]
+    const catCounts = new Map()
+    for (const r of p.rings) catCounts.set(r.cat, (catCounts.get(r.cat) ?? 0) + 1)
+    const primaryCat = [...catCounts.entries()].sort((a, b) => b[1] - a[1])[0][0]
     return {
       id, name: p.name,
       player: asPlayer
         ? { titles: asPlayer.titles, detail: asPlayer.detail, sources: asPlayer.sources ?? [] }
         : undefined,
+      primaryRole, primaryCat,
       rings: p.rings,
       total: p.rings.length,
       support: p.rings.filter((r) => SUPPORT.has(r.cat)).length,

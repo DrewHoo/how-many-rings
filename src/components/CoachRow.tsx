@@ -32,7 +32,10 @@ export function CoachRow({
               </span>
             )}
           </span>
-          <span className="schools">{coach.schools.join(' · ')}</span>
+          <span className="schools">
+            <span className="role-tag">{coach.primaryRole}</span>
+            <span className="school-list"> · {coach.schools.join(' · ')}</span>
+          </span>
         </span>
         <span className="marks">
           <RingGlyphs rings={coach.rings} scope={scope} onHover={onHoverRing} />

@@ -60,20 +60,6 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
 .head h1 { font-size: clamp(34px, 7vw, 56px); margin: 0 0 10px; }
 .lede { font-size: 17px; color: var(--muted); max-width: 62ch; margin: 0 0 28px; }
 
-/* ---------- hero ---------- */
-.hero {
-  display: flex; gap: 22px; align-items: flex-start;
-  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
-  padding: 22px; margin-bottom: 28px;
-}
-.hero-face { border-radius: 10px; object-fit: cover; flex: none; }
-.hero-body { min-width: 0; }
-.kicker { text-transform: uppercase; letter-spacing: 0.08em; font-size: 11px; color: var(--faint); margin: 0 0 2px; }
-.hero-num { font-family: var(--font-display); font-size: 64px; line-height: 1; color: var(--ring-on); margin: 0; }
-.hero-name { font-size: 24px; margin: 2px 0 8px; }
-.hero-blurb { margin: 0 0 12px; color: var(--muted); max-width: 54ch; }
-.hero-rings { margin-top: 4px; }
-
 /* ---------- controls ---------- */
 .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 8px; }
 .segmented { display: flex; border: 1px solid var(--line); border-radius: 9px; overflow: hidden; background: var(--card); }
@@ -107,6 +93,8 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
 .who { min-width: 0; }
 .name { display: block; font-weight: 550; }
 .schools { display: block; font-size: 12px; color: var(--faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.role-tag { color: var(--muted); }
+.school-list { opacity: 0.8; }
 .badge {
   margin-left: 7px; font-size: 10px; letter-spacing: 0.02em; font-weight: 500;
   padding: 1px 6px; border-radius: 999px; white-space: nowrap;
@@ -155,8 +143,12 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
 /* ---------- mobile ---------- */
 @media (max-width: 640px) {
   .wrap { padding: 26px 14px 60px; }
-  .hero { flex-direction: column; gap: 14px; }
-  .hero-face { width: 96px; height: 128px; }
+  /* Filters span the width and shrink their type rather than clipping labels. */
+  .segmented { width: 100%; }
+  .seg { flex: 1; padding: 7px 4px; font-size: 12px; text-align: center; }
+  /* The role is the new information here, so it gets the line; the teams are
+     one tap away in the expanded detail, where every ring names its school. */
+  .school-list { display: none; }
   /* Two rows: identity on top, the ring marks tucked under the name. Every cell
      is placed explicitly — auto-placement pushes the count onto its own line. */
   .row-head { grid-template-columns: 22px 40px minmax(0, 1fr) 28px; gap: 4px 9px; padding: 9px 2px; }
