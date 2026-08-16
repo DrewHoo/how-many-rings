@@ -37,15 +37,48 @@ function card(w, h, titleY) {
 </svg>`
 }
 
-// A single ring, the site's unit mark.
-const favicon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="13" fill="#17150f"/>
-  <circle cx="32" cy="32" r="17" fill="none" stroke="#BA8A2E" stroke-width="7"/>
+// The favicon is the one asset whose real size IS 16px, so it's drawn on a
+// 16x16 grid rather than scaled down from something bigger: a championship ring
+// seen face-on — raised stone, setting, band. Legend below is edited by hand;
+// `.` is transparent, and each letter maps to a colour in PIXELS.
+const ART = `
+................
+................
+...##########...
+..##wwwwwwww##..
+.##wwWWWWWWww##.
+.##wwWWWWWWww##.
+..##wwwwwwww##..
+...##########...
+...GG......GG...
+..GG........GG..
+..GG........GG..
+..GG........GG..
+...GG......GG...
+....GG....GG....
+.....GGGGGG.....
+................`
+
+const PIXELS = {
+  '#': '#BA8A2E',   // bezel around the face — the site's ring gold
+  w: '#E8DFCC',     // the stone's shoulders
+  W: '#FFFFFF',     // its centre; at 16px this is the one pixel cluster that flashes
+  G: '#D6A43C',     // band, a step brighter than the bezel so it holds at 16px
+}
+
+const grid = ART.trim().split('\n')
+const cells = grid.flatMap((row, y) =>
+  [...row].map((ch, x) => (PIXELS[ch] ? `<rect x="${x}" y="${y}" width="1" height="1" fill="${PIXELS[ch]}"/>` : ''))
+).join('')
+
+const favicon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <rect width="16" height="16" rx="3" fill="#17150f"/>
+  ${cells}
 </svg>`
 
 await writeFile(resolve(OUT, 'favicon.svg'), favicon)
 await sharp(Buffer.from(card(1200, 630, 268))).png().toFile(resolve(OUT, 'og.png'))
 await sharp(Buffer.from(card(1200, 750, 310))).png().toFile(resolve(OUT, 'cover.png'))
-await sharp(Buffer.from(favicon)).resize(180, 180).png().toFile(resolve(OUT, 'apple-touch-icon.png'))
-await sharp(Buffer.from(favicon)).resize(32, 32).png().toFile(resolve(OUT, 'favicon-32.png'))
+await sharp(Buffer.from(favicon), { density: 1200 }).resize(180, 180, { kernel: 'nearest' }).png().toFile(resolve(OUT, 'apple-touch-icon.png'))
+await sharp(Buffer.from(favicon), { density: 600 }).resize(32, 32, { kernel: 'nearest' }).png().toFile(resolve(OUT, 'favicon-32.png'))
 console.log('Wrote og.png (1200x630), cover.png (1200x750), favicon.svg, apple-touch-icon.png, favicon-32.png')
