@@ -6,9 +6,9 @@ import { ShareButton } from './components/ShareButton.tsx'
 
 const BASE = import.meta.env.BASE_URL
 const SCOPES: { key: Scope; label: string; blurb: string }[] = [
-  { key: 'all', label: 'Everyone on staff', blurb: 'Every person the team listed — coaches, trainers, analysts, operations.' },
-  { key: 'support', label: 'Support staff only', blurb: 'Anyone who earned a ring in strength, medical, analyst or operations work — the people who never appear on TV.' },
-  { key: 'onfield', label: 'Coaches only', blurb: 'Anyone who earned a ring as a head coach or on-field assistant.' },
+  { key: 'all', label: 'Everyone', blurb: 'Everyone the team listed — coaches, trainers, analysts, operations.' },
+  { key: 'support', label: 'Support staff', blurb: 'People who earned a ring in strength, medical, analyst or operations work.' },
+  { key: 'onfield', label: 'Coaches', blurb: 'People who earned a ring as a head coach or on-field assistant.' },
 ]
 
 /**
@@ -82,58 +82,62 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
   if (error) return <main className="wrap"><p className="err">Couldn’t load the data: {error}</p></main>
   if (!data) return <main className="wrap"><p className="muted">Loading…</p></main>
 
+  const shown = ranked.slice(0, 100)
+  const half = Math.ceil(shown.length / 2)
+  const cols = shown.length > 6 ? [shown.slice(0, half), shown.slice(half)] : [shown]
+
   return (
     <main className="wrap">
       <header className="head">
-        <h1>Who has the most rings in Division I football?</h1>
-        <p className="lede">
-          Coach Saban has seven rings. But you might be surprised to learn that Scott Cochran,
-          who ran his weight room, has eight! I had an agent (really a whole mess of agents)
-          systematically research and answer the question “who has the most rings?”
-        </p>
-        <p className="lede lede-note">
-          Note that I’m not certain that every single person literally possesses a championship
-          ring for each year (there are department policies and complicated reasons why they may
-          or may not have a physical ring), but I am saying that if they did, they deserve them!
+        <div className="field-rule" aria-hidden="true"></div>
+        <h1>How Many Rings?</h1>
+        <div className="dateline">National championship staffs · 1990 – present</div>
+        <p className="sub">
+          Nick Saban has seven. <b>Scott Cochran</b>, who ran his weight room, has <b>eight</b>.
         </p>
       </header>
 
-      <section className="controls">
-        <div className="segmented" role="tablist" aria-label="Which rings count">
+      <div className="filters">
+        <div className="toggle" role="tablist" aria-label="Which rings count">
           {SCOPES.map((s) => (
             <button key={s.key} role="tab" aria-selected={scope === s.key}
-              className={scope === s.key ? 'seg on' : 'seg'}
+              className={scope === s.key ? 'on' : ''}
               onClick={() => setScope(s.key)}>{s.label}</button>
           ))}
         </div>
-        <input className="search" type="search" placeholder="Filter by name or school…"
+        <input type="search" placeholder="name or school"
           value={q} onChange={(e) => setQ(e.target.value)} aria-label="Filter by name or school" />
         <ShareButton />
-      </section>
-      <p className="scope-blurb">
-        {activeScope.blurb} <strong>{ranked.length}</strong> people
-        {scope === 'all' ? ' have 2 or more rings.' : ' qualify — each still shown with every ring they own.'}
-      </p>
+      </div>
+      <div className="h2-note">
+        {activeScope.blurb} {ranked.length} people{scope === 'all' ? ' with 2+ rings' : ''} —
+        tap a name for the receipts, a ring for the season.
+      </div>
 
       {/* The tooltip belongs to a ring, so it lives exactly as long as the pointer
-          is on one. Watching the list rather than each circle survives the case
+          is on one. Watching the board rather than each circle survives the case
           that broke it before: clicking a ring expands the row, unmounting the
           circle mid-hover so its own leave event never fires. */}
-      <ol className="rows"
+      <div className="board"
         onPointerLeave={() => setTip(null)}
         onPointerMove={(e) => { if (tip && !(e.target as Element).closest('svg')) setTip(null) }}>
-        {ranked.slice(0, 100).map((c, i) => (
-          <CoachRow key={c.id} coach={c} rank={i + 1} scope={scope as Scope} count={c.total}
-            expanded={open === c.id}
-            onToggle={() => { setTip(null); setOpen(open === c.id ? '' : c.id) }}
-            onHoverRing={(ring, el) => {
-              if (!ring || !el) return setTip(null)
-              const b = el.getBoundingClientRect()
-              setTip({ ring, x: b.left + b.width / 2, y: b.top })
-            }} />
+        {cols.map((col, ci) => (
+          <ol className="bcol" key={ci} start={ci * half + 1}>
+            {col.map((c, i) => (
+              <CoachRow key={c.id} coach={c} rank={ci * half + i + 1} scope={scope as Scope} count={c.total}
+                expanded={open === c.id}
+                onToggle={() => { setTip(null); setOpen(open === c.id ? '' : c.id) }}
+                onHoverRing={(ring, el) => {
+                  if (!ring || !el) return setTip(null)
+                  const b = el.getBoundingClientRect()
+                  setTip({ ring, x: b.left + b.width / 2, y: b.top })
+                }} />
+            ))}
+          </ol>
         ))}
-      </ol>
-      {ranked.length > 100 && <p className="muted more">Showing the top 100 of {ranked.length}. Search to find anyone else.</p>}
+        {!shown.length && <p className="h2-note">No one matches — loosen the filters.</p>}
+      </div>
+      {ranked.length > 100 && <p className="more">Showing the top 100 of {ranked.length}. Search to find anyone else.</p>}
 
       {tip && (
         <div className="tip" style={{ left: tip.x, top: tip.y }}>
@@ -143,27 +147,45 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
         </div>
       )}
 
-      <footer className="foot">
-        <h3>How this was counted</h3>
-        <p>
-          A ring here means: this person was on the staff of a team that won the national championship
-          that season, and was still on staff at the championship game. The count comes from staff
-          rosters for all {data.meta.seasonCount} championship team-seasons since 1990 — {data.meta.peopleTotal.toLocaleString()} people in
-          all — each row carrying the source page and the verbatim line that supports it. Click any
-          name to see the receipts.
-        </p>
-        <h3>Who doesn’t count</h3>
-        <p>
-          The job has to be the team. {data.meta.excludedCount} people who were on these staff lists are
-          left out because someone else signed their paycheck — {data.meta.employmentRules.map((r) => r.label.toLowerCase()).join(', ')}.
-        </p>
-        <p className="muted">
-          Data built {data.meta.built}. Split national titles count for both schools. The 2004 USC title
-          was later vacated, but the rings were handed out. Rings won as a <em>player</em> are tracked
-          separately and shown as a badge — they aren’t part of the ranking. Coverage of support staff is
-          thinner in the early 1990s than today, so this undercounts the older dynasties.
-        </p>
-      </footer>
+      <section className="notes">
+        <h2>How a ring is counted</h2>
+        <div className="method">
+          <p>
+            A ring here means: this person was on the staff of a team that won the national championship
+            that season, and was still on staff at the championship game. The count comes from staff
+            rosters for all {data.meta.seasonCount} championship team-seasons since 1990 — {data.meta.peopleTotal.toLocaleString()} people in
+            all — each row carrying the source page and the verbatim line that supports it. Click any
+            name to see the receipts.
+          </p>
+          <p>
+            The job has to be the team: {data.meta.excludedCount} people on these staff lists are left out
+            because someone else signed their paycheck — {data.meta.employmentRules.map((r) => r.label.toLowerCase()).join(', ')}.
+            Split national titles count for both schools. The 2004 USC title was later vacated, but the
+            rings were handed out. Rings won as a <em>player</em> are shown separately and aren't part of
+            the ranking. Coverage of support staff is thinner in the early 1990s than today, so this
+            undercounts the older dynasties. And whether each person physically owns every ring varies
+            with department policy — this counts the ones they earned. Data built {data.meta.built}.
+          </p>
+        </div>
+      </section>
+
+      <section className="notes">
+        <h2>What to read next</h2>
+        <div className="method">
+          <p>
+            <a href="https://drewhoover.com/hostile-territory/">Hostile Territory</a> — every head
+            coach's true road record against AP top-10 teams since 1990, one chip per game.
+          </p>
+          <p>
+            <a href="https://drewhoover.com/collegiate-championships/">Who has the most college championships?</a> — every
+            NCAA champion since 1972, 33 sports, one grid.
+          </p>
+          <p>
+            <a href="https://drewhoover.com/cfb-all-time-records/football">All-time FBS records</a> — all
+            136 programs ranked by total wins, win percentage and bowl record.
+          </p>
+        </div>
+      </section>
     </main>
   )
 }

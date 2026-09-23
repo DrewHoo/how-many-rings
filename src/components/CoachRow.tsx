@@ -21,21 +21,18 @@ export function CoachRow({
       <button className="row-head" onClick={onToggle} aria-expanded={expanded}>
         <span className="rank tabular">{rank}</span>
         {img
-          ? <img className="face" src={`${BASE}headshots/${img}`} alt="" loading="lazy" width={44} height={44} />
+          ? <img className="face" src={`${BASE}headshots/${img}`} alt="" loading="lazy" width={30} height={30} />
           : <span className="face face-blank" aria-hidden="true" />}
-        <span className="who">
-          <span className="name">
-            {coach.name}
-            {coach.player && (
-              <span className="badge" title={`Also won as a player: ${coach.player.titles.join(', ')}`}>
-                +{coach.player.titles.length} as a player
-              </span>
-            )}
-          </span>
-          <span className="schools">
-            <span className="role-tag">{coach.primaryRole}</span>
-            <span className="school-list"> · {coach.schools.join(' · ')}</span>
-          </span>
+        {/* One line: the role is the surprise, so it rides with the name; the
+            schools are already on every ring's hue and in the expanded detail. */}
+        <span className="who" title={coach.schools.join(' · ')}>
+          <span className="name">{coach.name}</span>
+          <span className="role-tag">{coach.primaryRole}</span>
+          {coach.player && (
+            <span className="badge" title={`Also won as a player: ${coach.player.titles.join(', ')}`}>
+              +{coach.player.titles.length} player
+            </span>
+          )}
         </span>
         <span className="marks">
           <RingGlyphs rings={coach.rings} scope={scope} onHover={onHoverRing} />
@@ -64,9 +61,8 @@ export function CoachRow({
             {coach.rings.map((r) => (
               <li key={`${r.season}-${r.team}`} className={inScope(r, scope) ? '' : 'dim'}>
                 <span className="ring-when tabular">{r.season}</span>
-                <span className="ring-team">{r.team}</span>
                 <span className="ring-role">
-                  {r.role} <em>({ROLE_LABEL[r.cat]})</em>
+                  <span className="ring-team">{r.team}</span> · {r.role} <em>({ROLE_LABEL[r.cat]})</em>
                   {r.via === 'tenure' && (
                     <span className="via" title="Not on this season's published staff list — credited because a documented employment span covers the season.">
                       from tenure

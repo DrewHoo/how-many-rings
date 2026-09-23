@@ -21,17 +21,8 @@ export function ShareButton() {
   }
 
   return (
-    <button
-      onClick={share}
-      style={{
-        font: 'inherit', fontSize: 13, cursor: 'pointer',
-        padding: '6px 12px', borderRadius: 8,
-        border: '1px solid var(--line)',
-        background: copied ? 'var(--accent)' : 'var(--card)',
-        color: copied ? '#fff' : 'var(--ink)',
-      }}
-    >
-      {copied ? '✓ Link copied' : 'Share this view'}
+    <button onClick={share} className={copied ? 'share-btn copied' : 'share-btn'}>
+      {copied ? '✓ link copied' : 'share view'}
     </button>
   )
 }
