@@ -173,6 +173,10 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
         <h2>What to read next</h2>
         <div className="method">
           <p>
+            <a href="https://drewhoover.com/cfb-streak-king/">Streak King</a> — design a streak from
+            up to four constraints; every FBS team ranked by its longest active run.
+          </p>
+          <p>
             <a href="https://drewhoover.com/hostile-territory/">Hostile Territory</a> — every head
             coach's true road record against AP top-10 teams since 1990, one chip per game.
           </p>
