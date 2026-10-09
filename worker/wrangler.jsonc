@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "how-many-rings-og",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-09",
+  // Only the page itself and the card path run through the Worker. Route
+  // patterns ignore the query string, so the first one catches every ?open= link;
+  // assets, data and headshots go straight to GitHub Pages.
+  "routes": [
+    { "pattern": "drewhoover.com/how-many-rings/", "zone_name": "drewhoover.com" },
+    { "pattern": "drewhoover.com/how-many-rings/og/*", "zone_name": "drewhoover.com" }
+  ],
+  "workers_dev": false,
+  "rules": [
+    { "type": "Data", "globs": ["**/*.ttf"], "fallthrough": true },
+    { "type": "Text", "globs": ["**/*.css"], "fallthrough": true }
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1,
+    "traces": { "enabled": true }
+  }
+}

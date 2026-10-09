@@ -46,6 +46,18 @@ node scripts/coverage-report.mjs   # dataset health — run after any merge
 
 The merge scripts (`merge-*.mjs`) apply audited findings to the rosters, deduping against what's already there and dropping low-confidence rows.
 
+## Link previews (worker/)
+
+Sharing a person, like `?scope=support&open=jeff-allen`, unfurls with that person's own card instead of the site-wide one. GitHub Pages can't vary a page by query string, so a Cloudflare Worker sits in front of two paths on drewhoover.com: the page itself, where it rewrites the Open Graph and Twitter tags when the URL has `open=`, and `/how-many-rings/og/<id>.png`, where it draws the card with resvg. Everything else goes straight to Pages.
+
+The Worker reads `data/people.json`, which `scripts/prerender.mjs` writes on every build, so there is nothing to keep in sync by hand. It is not deployed by CI. After changing it:
+
+```bash
+cd worker && npm install && npm run deploy
+```
+
+`npm run preview -- jeff-allen` renders cards locally into `worker/preview/` for a look before deploying.
+
 ## Known gaps
 
 - **LSU 2003 and 2007 share only 37% of their staff** — the last obviously thin harvest. Alabama 2012/2015 (56%) and Florida State 1993/1999 (59%) are next.

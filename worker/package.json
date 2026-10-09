@@ -1,0 +1,20 @@
+{
+  "name": "how-many-rings-og",
+  "private": true,
+  "type": "module",
+  "description": "Cloudflare Worker: per-person link previews for drewhoover.com/how-many-rings",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "types": "wrangler types",
+    "typecheck": "tsc --noEmit",
+    "preview": "node scripts/preview.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-wasm": "2.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "wrangler": "4.149.0"
+  }
+}
