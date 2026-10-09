@@ -48,7 +48,7 @@ The merge scripts (`merge-*.mjs`) apply audited findings to the rosters, dedupin
 
 ## Link previews (worker/)
 
-Sharing a person, like `?scope=support&open=jeff-allen`, unfurls with that person's own card instead of the site-wide one. GitHub Pages can't vary a page by query string, so a Cloudflare Worker sits in front of two paths on drewhoover.com: the page itself, where it rewrites the Open Graph and Twitter tags when the URL has `open=`, and `/how-many-rings/og/<id>.png`, where it draws the card with resvg. Everything else goes straight to Pages.
+Sharing a person, like `?scope=support&open=jeff-allen`, unfurls with that person's own card instead of the site-wide one. GitHub Pages can't vary a page by query string, so a Cloudflare Worker is routed over `drewhoover.com/how-many-rings/*` and acts on two paths: the page itself, where it rewrites the Open Graph and Twitter tags when the URL has `open=`, and `/how-many-rings/og/<id>.png`, where it draws the card with resvg. Everything else passes straight through to Pages. The route has to be the wildcard: a bare `how-many-rings/` pattern never matches a URL with a query string.
 
 The Worker reads `data/people.json`, which `scripts/prerender.mjs` writes on every build, so there is nothing to keep in sync by hand. It is not deployed by CI. After changing it:
 

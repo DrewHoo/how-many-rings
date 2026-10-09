@@ -1,15 +1,14 @@
 // Per-person link previews for https://drewhoover.com/how-many-rings/.
 //
 // The site is static on GitHub Pages, so every shared URL serves the same
-// index.html with the same og:image. This Worker sits in front of exactly two
-// paths (see wrangler.jsonc routes):
+// index.html with the same og:image. This Worker is routed over the whole
+// /how-many-rings/* subtree (route patterns need a trailing wildcard to match a
+// query string) and acts on exactly two things:
 //
-//   /how-many-rings/            — when the URL carries ?open=<person-id>, rewrite
-//                                 the Open Graph / Twitter tags to that person.
-//                                 Anything else passes straight through.
+//   /how-many-rings/?open=<id>  — rewrite the Open Graph / Twitter tags to that person.
 //   /how-many-rings/og/<id>.png — render that person's 1200x630 card.
 //
-// Assets, data and headshots never touch the Worker. Data comes from the site's
+// Everything else passes straight through untouched. Data comes from the site's
 // own published data/people.json (written at build), so there is nothing to keep in sync by hand.
 import { Resvg, initWasm } from '@resvg/resvg-wasm'
 import resvgWasm from '@resvg/resvg-wasm/index_bg.wasm'
@@ -20,6 +19,7 @@ import { cardSvg, parseTeamColors, type CardPerson } from './card'
 
 const SITE = 'https://drewhoover.com/how-many-rings/'
 const OG_PATH = /^\/how-many-rings\/og\/([a-z0-9-]+)\.png$/
+const PAGE_PATHS = new Set(['/how-many-rings/', '/how-many-rings/index.html'])
 const COLORS = parseTeamColors(teamColorsCss)
 const FONTS = [new Uint8Array(alfaSlab), new Uint8Array(plexMono)]
 
@@ -69,6 +69,8 @@ function seasonsText(p: Person) {
   return [...bySchool].map(([team, s]) => `${team} ${s.join(', ')}`).join(' · ')
 }
 
+const attr = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;')
+
 async function rewriteMeta(request: Request, id: string): Promise<Response> {
   const origin = await fetch(request)
   if (!origin.ok || !(origin.headers.get('content-type') ?? '').includes('text/html')) return origin
@@ -93,7 +95,7 @@ async function rewriteMeta(request: Request, id: string): Promise<Response> {
     .on('meta[name="twitter:image"]', set(image))
     .on('meta[property="og:url"]', set(shareUrl))
     .on('meta[property="og:image"]', {
-      element(el) { el.after(`<meta property="og:image:alt" content="${title.replace(/"/g, '&quot;')}" />`, { html: true }) },
+      element(el) { el.after(`<meta property="og:image:alt" content="${attr(title)}" />`, { html: true }) },
     })
     .transform(origin)
 
@@ -115,9 +117,13 @@ async function photoDataUri(photo: string | undefined): Promise<string | undefin
 }
 
 async function renderCard(request: Request, id: string, ctx: ExecutionContext): Promise<Response> {
+  // A private key, not the request URL: the zone cache shares this keyspace, and
+  // it once held GitHub's 404 for these URLs from before the route existed.
+  const url = new URL(request.url)
+  const key = new Request(`${SITE}__og-card-cache/${id}.png${url.search}`)
   const cache = caches.default
-  const hit = await cache.match(request)
-  if (hit) return hit
+  const hit = await cache.match(key)
+  if (hit && hit.headers.get('content-type') === 'image/png') return hit
 
   const people = await loadPeople()
   const p = people.byId.get(id)
@@ -137,7 +143,7 @@ async function renderCard(request: Request, id: string, ctx: ExecutionContext): 
       'cache-control': 'public, max-age=86400, s-maxage=604800',
     },
   })
-  ctx.waitUntil(cache.put(request, res.clone()))
+  ctx.waitUntil(cache.put(key, res.clone()))
   return res
 }
 
@@ -159,7 +165,7 @@ export default {
     }
 
     const open = url.searchParams.get('open')
-    if (request.method === 'GET' && open && /^[a-z0-9-]+$/.test(open)) {
+    if (request.method === 'GET' && PAGE_PATHS.has(url.pathname) && open && /^[a-z0-9-]+$/.test(open)) {
       try {
         return await rewriteMeta(request, open)
       } catch (e) {
