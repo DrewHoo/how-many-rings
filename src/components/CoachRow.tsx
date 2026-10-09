@@ -17,7 +17,7 @@ export function CoachRow({
 }) {
   const img = coach.photo ?? coach.placeholder
   return (
-    <li className={`row${expanded ? ' row-open' : ''}`}>
+    <li id={`person-${coach.id}`} className={`row${expanded ? ' row-open' : ''}`}>
       <button className="row-head" onClick={onToggle} aria-expanded={expanded}>
         <span className="rank tabular">{rank}</span>
         {img

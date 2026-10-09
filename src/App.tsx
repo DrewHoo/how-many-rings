@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Dataset, Ring, Scope } from './lib/types.ts'
 import { ROLE_LABEL, matchesScope } from './lib/types.ts'
 import { CoachRow } from './components/CoachRow.tsx'
@@ -44,6 +44,10 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
   const [scope, setScope] = useQueryState('scope', 'all')
   const [q, setQ] = useQueryState('q', '')
   const [open, setOpen] = useQueryState('open', '')
+  // The person a shared link points at, read once on mount. Cleared after the
+  // page scrolls to them, so later clicks never yank the viewport around.
+  const linked = useRef<string | null>(null)
+  useEffect(() => { linked.current = new URLSearchParams(window.location.search).get('open') }, [])
   const [tip, setTip] = useState<{ ring: Ring; x: number; y: number } | null>(null)
 
   useEffect(() => {
@@ -77,12 +81,26 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
       .sort((a, b) => b.total - a.total || a.name.localeCompare(b.name))
   }, [data, scope, q])
 
+  // Land a shared link on its person. Runs as rows appear: the prerendered seed
+  // has only the top 100, so someone further down shows up when the full data does.
+  useEffect(() => {
+    const id = linked.current
+    if (!id || open !== id) return
+    const el = document.getElementById(`person-${id}`)
+    if (!el) return
+    linked.current = null
+    el.scrollIntoView({ block: 'start' })
+  }, [open, data, scope, q])
+
   const activeScope = SCOPES.find((s) => s.key === scope) ?? SCOPES[0]
 
   if (error) return <main className="wrap"><p className="err">Couldn’t load the data: {error}</p></main>
   if (!data) return <main className="wrap"><p className="muted">Loading…</p></main>
 
   const shown = ranked.slice(0, 100)
+  // A shared link can point past the top 100; show that one person too, at their real rank.
+  const openIdx = open ? ranked.findIndex((c) => c.id === open) : -1
+  const linkedBelow = openIdx >= shown.length ? ranked[openIdx] : null
   const half = Math.ceil(shown.length / 2)
   const cols = shown.length > 6 ? [shown.slice(0, half), shown.slice(half)] : [shown]
 
@@ -138,6 +156,19 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
         {!shown.length && <p className="h2-note">No one matches — loosen the filters.</p>}
       </div>
       {ranked.length > 100 && <p className="more">Showing the top 100 of {ranked.length}. Search to find anyone else.</p>}
+      {linkedBelow && (
+        <div className="board board-linked" onPointerLeave={() => setTip(null)}>
+          <ol className="bcol" start={openIdx + 1}>
+            <CoachRow coach={linkedBelow} rank={openIdx + 1} scope={scope as Scope} count={linkedBelow.total}
+              expanded onToggle={() => { setTip(null); setOpen('') }}
+              onHoverRing={(ring, el) => {
+                if (!ring || !el) return setTip(null)
+                const b = el.getBoundingClientRect()
+                setTip({ ring, x: b.left + b.width / 2, y: b.top })
+              }} />
+          </ol>
+        </div>
+      )}
 
       {tip && (
         <div className="tip" style={{ left: tip.x, top: tip.y }}>

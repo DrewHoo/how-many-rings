@@ -110,6 +110,18 @@ fs.writeFileSync(path.join(root, 'dist', 'sitemap.xml'),
 </urlset>
 `)
 
+// Just what the link-preview Worker (worker/) needs to retitle a shared ?open=
+// link and draw its card, so it never parses the 741KB dataset at the edge.
+const people = {
+  built: full.meta.built,
+  people: Object.fromEntries(full.coaches.map((c) => [c.id, {
+    name: c.name, role: c.primaryRole, total: c.total, photo: c.photo,
+    playerTitles: c.player?.titles.length ?? 0,
+    rings: [...c.rings].sort((a, b) => a.season - b.season).map((r) => [r.season, r.team]),
+  }])),
+}
+fs.writeFileSync(path.join(root, 'dist', 'data', 'people.json'), JSON.stringify(people))
+
 const kb = (n) => Math.round(n / 1024) + 'KB'
 console.log(`prerendered ${kb(markup.length)} of markup + ${kb(JSON.stringify(seed).length)} seed (${seed.coaches.length} people)`)
-console.log(`dist/index.html now ${kb(fs.statSync(out).size)}; sitemap.xml written`)
+console.log(`dist/index.html now ${kb(fs.statSync(out).size)}; sitemap.xml and data/people.json (${kb(JSON.stringify(people).length)}) written`)
