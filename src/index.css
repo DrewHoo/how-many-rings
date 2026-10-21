@@ -20,7 +20,7 @@
   --ring-on: var(--gold);
   --ring-off: #4a4335;
 
-  --font-display: 'Alfa Slab One', 'Iowan Old Style', Georgia, serif;
+  --font-display: Georgia, 'Source Serif 4', 'Times New Roman', serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
   --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 }
@@ -58,9 +58,9 @@ body::after {
 .field-rule { display: flex; align-items: center; margin-bottom: 26px; }
 .field-rule::before, .field-rule::after { content: ''; flex: 1; border-top: 3px double rgba(214, 164, 60, 0.4); }
 
-/* Alfa Slab ships one (heavy) weight — 400, never synthesized bolder. */
+/* Georgia Bold, the title face shared with the other sports sites. */
 h1 {
-  font-family: var(--font-display); font-weight: 400; text-align: center;
+  font-family: var(--font-display); font-weight: 700; text-align: center;
   font-size: clamp(30px, 5.4vw, 52px); line-height: 1.1; margin: 0 0 10px; color: var(--ink);
   letter-spacing: 0.02em;
 }
@@ -164,7 +164,7 @@ h1 {
 /* ---------- trailing sections: one centered column each ---------- */
 .notes { max-width: 700px; margin: 46px auto 0; }
 .notes h2 {
-  font-family: var(--font-display); font-weight: 400; font-size: 18px;
+  font-family: var(--font-display); font-weight: 700; font-size: 18px;
   letter-spacing: 0.03em; margin: 0 0 8px; color: var(--ink);
 }
 .method { color: var(--muted); font-size: 14.5px; }
