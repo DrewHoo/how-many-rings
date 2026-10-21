@@ -14,7 +14,7 @@ const OUT = resolve(HERE, '..', 'public')
 // Reuse the real palette so the card can't drift from the site.
 const css = await readFile(resolve(HERE, '..', 'src', 'team-colors.css'), 'utf8')
 const dark = Object.fromEntries(
-  [...css.split('@media')[1].matchAll(/--team-([a-z0-9-]+): (#[0-9A-F]{6})/g)].map((m) => [m[1], m[2]]))
+  [...css.matchAll(/--team-([a-z0-9-]+): (#[0-9A-Fa-f]{6})/g)].map((m) => [m[1], m[2]]))
 
 // Scott Cochran's eight, in order — the fact the whole page exists to tell.
 const COCHRAN = ['lsu', 'alabama', 'alabama', 'alabama', 'alabama', 'alabama', 'georgia', 'georgia']
@@ -22,6 +22,11 @@ const COCHRAN = ['lsu', 'alabama', 'alabama', 'alabama', 'alabama', 'alabama', '
 const rings = (x, y, r, gap, stroke) => COCHRAN
   .map((t, i) => `<circle cx="${x + i * (r * 2 + gap)}" cy="${y}" r="${r}" fill="none" stroke="${dark[t]}" stroke-width="${stroke}"/>`)
   .join('\n    ')
+
+// The share image (1200x630, 1.91:1) and the drewhoover.com index card cover
+// (1200x750, 8:5): one drawing, sized by name, with the title's baseline set
+// per height so the block sits in the upper half of either.
+const SIZES = { 'og.png': [1200, 630, 268], 'card.png': [1200, 750, 310] }
 
 function card(w, h, titleY) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
@@ -77,8 +82,7 @@ const favicon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" sha
 </svg>`
 
 await writeFile(resolve(OUT, 'favicon.svg'), favicon)
-await sharp(Buffer.from(card(1200, 630, 268))).png().toFile(resolve(OUT, 'og.png'))
-await sharp(Buffer.from(card(1200, 750, 310))).png().toFile(resolve(OUT, 'cover.png'))
+for (const [name, [w, h, titleY]] of Object.entries(SIZES)) await sharp(Buffer.from(card(w, h, titleY))).png().toFile(resolve(OUT, name))
 await sharp(Buffer.from(favicon), { density: 1200 }).resize(180, 180, { kernel: 'nearest' }).png().toFile(resolve(OUT, 'apple-touch-icon.png'))
 await sharp(Buffer.from(favicon), { density: 600 }).resize(32, 32, { kernel: 'nearest' }).png().toFile(resolve(OUT, 'favicon-32.png'))
-console.log('Wrote og.png (1200x630), cover.png (1200x750), favicon.svg, apple-touch-icon.png, favicon-32.png')
+console.log(`Wrote ${Object.entries(SIZES).map(([n, [w, h]]) => `${n} (${w}x${h})`).join(', ')}, favicon.svg, apple-touch-icon.png, favicon-32.png`)

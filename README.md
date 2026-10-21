@@ -2,6 +2,8 @@
 
 **Live:** https://drewhoover.com/how-many-rings/
 
+[![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-support%20the%20site-ff5e5b?logo=ko-fi&logoColor=white)](https://ko-fi.com/drewhooverdotcom)
+
 Nick Saban has seven national championship rings. Scott Cochran, who ran his weight room, has eight — one at LSU, five at Alabama, two at Georgia, collected by following Saban and then Kirby Smart. Tied with Saban at seven: Alabama's team photographer, its athletics communications director, its student-services director, and the man who was Saban's personal assistant. Four of the six people at the top of this list never coached a down.
 
 This site counts every ring on every national-championship staff since 1990 — **409 people with two or more**, out of 1,273 on those staffs — and every single one links to the source page and the verbatim line that supports it.
@@ -50,13 +52,15 @@ The merge scripts (`merge-*.mjs`) apply audited findings to the rosters, dedupin
 
 Sharing a person, like `?scope=support&open=jeff-allen`, unfurls with that person's own card instead of the site-wide one. GitHub Pages can't vary a page by query string, so a Cloudflare Worker is routed over `drewhoover.com/how-many-rings/*` and acts on two paths: the page itself, where it rewrites the Open Graph and Twitter tags when the URL has `open=`, and `/how-many-rings/og/<id>.png`, where it draws the card with resvg. Everything else passes straight through to Pages. The route has to be the wildcard: a bare `how-many-rings/` pattern never matches a URL with a query string.
 
-The Worker reads `data/people.json`, which `scripts/prerender.mjs` writes on every build, so there is nothing to keep in sync by hand. It is not deployed by CI. After changing it:
+The Worker reads `data/people.json`, which `scripts/prerender.mjs` writes on every build, so there is nothing to keep in sync by hand. The `worker` job in `.github/workflows/deploy.yml` deploys it after every push to main; it needs a `CLOUDFLARE_API_TOKEN` repo secret (a token from the "Edit Cloudflare Workers" template, `gh secret set CLOUDFLARE_API_TOKEN --repo DrewHoo/how-many-rings`), and until that is set the deploy step is skipped. By hand:
 
 ```bash
 cd worker && npm install && npm run deploy
 ```
 
-`npm run preview -- jeff-allen` renders cards locally into `worker/preview/` for a look before deploying.
+`npm run preview -- jeff-allen` renders cards locally into `worker/preview/` for a look before deploying. `npm run dev` runs the Worker locally with `NO_REPORT=1`, which silences its analytics.
+
+Each preview is counted in Mixpanel, server-side, because the bot that fetches a shared link runs no script: `share unfurl` when a crawler fetches an `?open=` page and `share card` for every card request (with whether it came from the edge cache). Nothing personal goes along: the crawler's name, the country Cloudflare saw, the URL and the person it opens.
 
 ## Known gaps
 

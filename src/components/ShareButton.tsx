@@ -1,28 +1,15 @@
-import { useState } from 'react'
+import { useShare } from '../hooks/useShare.ts'
 
-// Copies the current URL (which encodes the view state) so any view is shareable.
-export function ShareButton() {
-  const [copied, setCopied] = useState(false)
-
-  async function share() {
-    const url = window.location.href
-    try {
-      await navigator.clipboard.writeText(url)
-    } catch {
-      const ta = document.createElement('textarea')
-      ta.value = url
-      document.body.appendChild(ta)
-      ta.select()
-      try { document.execCommand('copy') } catch { /* ignore */ }
-      document.body.removeChild(ta)
-    }
-    setCopied(true)
-    setTimeout(() => setCopied(false), 1800)
-  }
-
+/**
+ * Shares the current URL (which encodes the view) with one quotable sentence:
+ * the open person's line when someone is open, else the page's own.
+ */
+export function ShareButton({ text, open }: { text: string; open: string | null }) {
+  const { copied, share } = useShare()
   return (
-    <button onClick={share} className={copied ? 'share-btn copied' : 'share-btn'}>
-      {copied ? '✓ link copied' : 'share view'}
+    <button className={copied ? 'share-btn copied' : 'share-btn'}
+      onClick={() => share(text, window.location.href, { open, from: 'filters' })}>
+      {copied ? '✓ copied' : 'share'}
     </button>
   )
 }

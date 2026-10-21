@@ -3,6 +3,7 @@ import type { Dataset, Ring, Scope } from './lib/types.ts'
 import { ROLE_LABEL, matchesScope } from './lib/types.ts'
 import { CoachRow } from './components/CoachRow.tsx'
 import { ShareButton } from './components/ShareButton.tsx'
+import { KOFI_URL, track } from './lib/analytics.ts'
 
 const BASE = import.meta.env.BASE_URL
 const SCOPES: { key: Scope; label: string; blurb: string }[] = [
@@ -103,6 +104,11 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
   const linkedBelow = openIdx >= shown.length ? ranked[openIdx] : null
   const half = Math.ceil(shown.length / 2)
   const cols = shown.length > 6 ? [shown.slice(0, half), shown.slice(half)] : [shown]
+  // What a share says: the open person's line, else the sentence the page opens with.
+  const openPerson = open ? data.coaches.find((c) => c.id === open) : undefined
+  const shareText = openPerson
+    ? `${openPerson.name} has ${openPerson.total} national championship ${openPerson.total === 1 ? 'ring' : 'rings'}`
+    : 'Nick Saban has seven national championship rings. Scott Cochran, who ran his weight room, has eight.'
 
   return (
     <main className="wrap">
@@ -125,7 +131,7 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
         </div>
         <input type="search" placeholder="name or school"
           value={q} onChange={(e) => setQ(e.target.value)} aria-label="Filter by name or school" />
-        <ShareButton />
+        <ShareButton text={shareText} open={openPerson?.id ?? null} />
       </div>
       <div className="h2-note">
         {activeScope.blurb} {ranked.length} people{scope === 'all' ? ' with 2+ rings' : ''} —
@@ -197,6 +203,12 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
             undercounts the older dynasties. And whether each person physically owns every ring varies
             with department policy — this counts the ones they earned. Data built {data.meta.built}.
           </p>
+          <p>
+            The site is free and serves no ads. If you enjoyed using it, consider{' '}
+            <a href={KOFI_URL} onClick={() => track('kofi', { from: 'notes' })}>buying me some server compute</a> or
+            donating to The Internet Archive's <a href="https://archive.org/donate">Wayback Machine</a> (I am a
+            monthly donor, FTR).
+          </p>
         </div>
       </section>
 
@@ -209,7 +221,15 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
           </p>
           <p>
             <a href="https://drewhoover.com/hostile-territory/">Hostile Territory</a> — every head
-            coach's true road record against AP top-10 teams since 1990, one chip per game.
+            coach's true road record against AP top-10 teams since 1936, one chip per game.
+          </p>
+          <p>
+            <a href="https://drewhoover.com/nfl-comparator/">NFL Comparator</a> — compare NFL players at
+            the same point in their careers, every career since 1999.
+          </p>
+          <p>
+            <a href="https://drewhoover.com/wnba-comparator/">WNBA Comparator</a> — the same comparison
+            for the WNBA, every career since 1997.
           </p>
           <p>
             <a href="https://drewhoover.com/collegiate-championships/">Who has the most college championships?</a> — every
@@ -221,6 +241,12 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
           </p>
         </div>
       </section>
+
+      <footer>
+        <a href="https://drewhoover.com/">drewhoover.com</a> ·{' '}
+        <a href="https://github.com/DrewHoo/how-many-rings">source & receipts</a> ·{' '}
+        <a href={KOFI_URL} onClick={() => track('kofi', { from: 'footer' })}>buy me a coffee</a>
+      </footer>
     </main>
   )
 }

@@ -8,9 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <!-- Vite fills in the base path (/how-many-rings/ on Pages, / in dev), so the icons resolve from any query string. -->
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%BASE_URL%favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%BASE_URL%apple-touch-icon.png" />
 
     <title>Who Has the Most College Football Championship Rings?</title>
     <meta name="description" content="Every person on a national-championship staff since 1990, ranked by rings — the strength coaches, trainers and photographers who out-ring famous head coaches." />
@@ -18,14 +19,16 @@
 
     <!-- Open Graph / Twitter. og:image + og:url must be absolute; update on a fork. -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Who has the most rings in Division I football?" />
+    <meta property="og:site_name" content="drewhoover.com" />
+    <meta property="og:title" content="Who Has the Most College Football Championship Rings?" />
     <meta property="og:description" content="Scott Cochran has eight. Nick Saban has seven. Every person on a championship staff since 1990, ranked by rings, each one cited." />
     <meta property="og:url" content="https://drewhoover.com/how-many-rings/" />
     <meta property="og:image" content="https://drewhoover.com/how-many-rings/og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A dark card asking who has the most rings in Division I football, over Scott Cochran's eight championship rings drawn in LSU, Alabama and Georgia colors." />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Who has the most rings in Division I football?" />
+    <meta name="twitter:title" content="Who Has the Most College Football Championship Rings?" />
     <meta name="twitter:description" content="Scott Cochran has eight. Nick Saban has seven. Every person on a championship staff since 1990, ranked by rings, each one cited." />
     <meta name="twitter:image" content="https://drewhoover.com/how-many-rings/og.png" />
 
@@ -36,6 +39,8 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- giscus (embed/giscus.js) mounts the comment thread here. -->
+    <div id="comments"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

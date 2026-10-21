@@ -172,6 +172,10 @@ h1 {
 .notes a { color: var(--ink); text-decoration: underline dotted; text-underline-offset: 3px; }
 .notes a:hover { color: var(--gold-bright); }
 
+footer { margin-top: 56px; color: var(--faint); font-size: 13px; text-align: center; }
+footer a { color: var(--muted); text-decoration: underline dotted; text-underline-offset: 3px; }
+footer a:hover { color: var(--gold-bright); }
+
 /* ---------- mobile ---------- */
 @media (max-width: 980px) {
   .board { flex-direction: column; gap: 0; align-items: stretch; }
