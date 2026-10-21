@@ -4,7 +4,7 @@
   "type": "module",
   "description": "Cloudflare Worker: per-person link previews for drewhoover.com/how-many-rings",
   "scripts": {
-    "dev": "wrangler dev",
+    "dev": "wrangler dev --var NO_REPORT:1",
     "deploy": "wrangler deploy",
     "types": "wrangler types",
     "typecheck": "tsc --noEmit",

@@ -10,6 +10,10 @@
 //
 // Everything else passes straight through untouched. Data comes from the site's
 // own published data/people.json (written at build), so there is nothing to keep in sync by hand.
+//
+// Deploy: the `worker` job in .github/workflows/deploy.yml runs `wrangler deploy`
+// after every push to main (needs the CLOUDFLARE_API_TOKEN repo secret). Locally,
+// `npm run dev` passes NO_REPORT=1 so a dev run never reaches Mixpanel.
 import { Resvg, initWasm } from '@resvg/resvg-wasm'
 import resvgWasm from '@resvg/resvg-wasm/index_bg.wasm'
 import alfaSlab from '../fonts/AlfaSlabOne-Regular.ttf'
@@ -18,6 +22,7 @@ import teamColorsCss from '../../src/team-colors.css'
 import { cardSvg, parseTeamColors, type CardPerson } from './card'
 
 const SITE = 'https://drewhoover.com/how-many-rings/'
+const SITE_SLUG = 'how-many-rings'
 const OG_PATH = /^\/how-many-rings\/og\/([a-z0-9-]+)\.png$/
 const PAGE_PATHS = new Set(['/how-many-rings/', '/how-many-rings/index.html'])
 const COLORS = parseTeamColors(teamColorsCss)
@@ -25,6 +30,74 @@ const FONTS = [new Uint8Array(alfaSlab), new Uint8Array(plexMono)]
 
 let wasmReady: Promise<void> | undefined
 const ensureWasm = () => (wasmReady ??= initWasm(resvgWasm))
+
+/** Set as `--var NO_REPORT:1` in dev (see package.json); never a deployed binding. */
+interface ShareEnv { NO_REPORT?: string }
+
+// Analytics: one Mixpanel event per link preview, sent server-side to the
+// index site's project (the public token its embed carries; a project token
+// only writes). The client embed never sees an unfurl, because the bot that
+// fetches a shared link runs no script, so this is the only place a share
+// can be counted. Nothing personal goes: the crawler's name, its user agent
+// only when it is a crawler, the country Cloudflare saw, the URL itself and
+// the person it opens. A browser's visit is the embed's to count, so the head
+// rewrite reports crawlers only; the card is reported whoever asked for it.
+const MIXPANEL_TOKEN = '1c6a0f45b8a5768185a8d9a2f4d65452'
+const AGENTS: [RegExp, string][] = [
+  [/Slackbot|Slack-ImgProxy/i, 'slack'],
+  [/Discordbot/i, 'discord'],
+  [/TelegramBot/i, 'telegram'],
+  [/WhatsApp/i, 'whatsapp'],
+  [/LinkedInBot/i, 'linkedin'],
+  [/redditbot/i, 'reddit'],
+  [/Bluesky/i, 'bluesky'],
+  [/Mastodon/i, 'mastodon'],
+  [/Facebot.*Twitterbot|Twitterbot.*Facebot/i, 'imessage'],
+  [/Twitterbot/i, 'twitter'],
+  [/facebookexternalhit|Facebot/i, 'facebook'],
+  [/Googlebot/i, 'google'],
+  [/bingbot/i, 'bing'],
+  [/Applebot/i, 'apple'],
+  [/bot|crawler|spider|preview|fetch|embed|scraper/i, 'other-bot'],
+]
+const agentOf = (ua: string | null): string => AGENTS.find(([re]) => re.test(ua ?? ''))?.[1] ?? 'browser'
+
+function report(env: ShareEnv, ctx: ExecutionContext, request: Request, event: string, props: Record<string, unknown>) {
+  if (env.NO_REPORT) return
+  try {
+    const ua = request.headers.get('user-agent')
+    const agent = agentOf(ua)
+    const body = [{
+      event,
+      properties: {
+        token: MIXPANEL_TOKEN,
+        distinct_id: `unfurl:${agent}`,
+        $insert_id: crypto.randomUUID(),
+        time: Math.floor(Date.now() / 1000),
+        site: SITE_SLUG,
+        agent,
+        crawler: agent === 'browser' ? null : (ua ?? '').slice(0, 200),
+        country: (request as Request & { cf?: { country?: string } }).cf?.country ?? null,
+        ...props,
+      },
+    }]
+    // ip=0: Mixpanel must not geolocate the request
+    ctx.waitUntil(fetch('https://api.mixpanel.com/track?ip=0', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', accept: 'text/plain' },
+      body: JSON.stringify(body),
+    }).then((r) => r.body?.cancel()).catch(() => {}))
+  } catch { /* reporting must never break a preview */ }
+}
+
+/** The URL itself and the person it opens, for an event. */
+const urlProps = (url: URL, open: string) => ({
+  url: url.href,
+  $current_url: url.href,
+  path: url.pathname.replace(`/${SITE_SLUG}`, '') || '/',
+  scope: url.searchParams.get('scope'),
+  open,
+})
 
 interface Person extends CardPerson {
   id: string
@@ -86,6 +159,9 @@ async function rewriteMeta(request: Request, id: string): Promise<Response> {
   const shareUrl = `${SITE}${url.search}`
 
   const set = (value: string) => ({ element(el: Element) { el.setAttribute('content', value) } })
+  // The page carries its own og:image:alt; set it, and only add one if a
+  // stale build somehow shipped without it.
+  let altSeen = false
   const res = new HTMLRewriter()
     .on('meta[property="og:title"]', set(title))
     .on('meta[name="twitter:title"]', set(title))
@@ -94,8 +170,11 @@ async function rewriteMeta(request: Request, id: string): Promise<Response> {
     .on('meta[property="og:image"]', set(image))
     .on('meta[name="twitter:image"]', set(image))
     .on('meta[property="og:url"]', set(shareUrl))
-    .on('meta[property="og:image"]', {
-      element(el) { el.after(`<meta property="og:image:alt" content="${attr(title)}" />`, { html: true }) },
+    .on('meta[property="og:image:alt"]', { element(el) { altSeen = true; el.setAttribute('content', title) } })
+    .on('head', {
+      element(el) {
+        el.onEndTag((end) => { if (!altSeen) end.before(`<meta property="og:image:alt" content="${attr(title)}" />`, { html: true }) })
+      },
     })
     .transform(origin)
 
@@ -116,14 +195,16 @@ async function photoDataUri(photo: string | undefined): Promise<string | undefin
   return `data:image/jpeg;base64,${btoa(bin)}`
 }
 
-async function renderCard(request: Request, id: string, ctx: ExecutionContext): Promise<Response> {
+async function renderCard(request: Request, env: ShareEnv, id: string, ctx: ExecutionContext): Promise<Response> {
   // A private key, not the request URL: the zone cache shares this keyspace, and
   // it once held GitHub's 404 for these URLs from before the route existed.
   const url = new URL(request.url)
   const key = new Request(`${SITE}__og-card-cache/${id}.png${url.search}`)
   const cache = caches.default
   const hit = await cache.match(key)
-  if (hit && hit.headers.get('content-type') === 'image/png') return hit
+  const cached = !!hit && hit.headers.get('content-type') === 'image/png'
+  report(env, ctx, request, 'share card', { ...urlProps(url, id), cached })
+  if (cached) return hit
 
   const people = await loadPeople()
   const p = people.byId.get(id)
@@ -151,13 +232,13 @@ async function renderCard(request: Request, id: string, ctx: ExecutionContext): 
 const fallbackCard = () => fetch(`${SITE}og.png`)
 
 export default {
-  async fetch(request, _env, ctx): Promise<Response> {
+  async fetch(request, env, ctx): Promise<Response> {
     const url = new URL(request.url)
 
     const og = url.pathname.match(OG_PATH)
     if (og) {
       try {
-        return await renderCard(request, og[1], ctx)
+        return await renderCard(request, env, og[1], ctx)
       } catch (e) {
         log('error', 'card render failed', { id: og[1], error: String(e) })
         return fallbackCard()
@@ -167,6 +248,8 @@ export default {
     const open = url.searchParams.get('open')
     if (request.method === 'GET' && PAGE_PATHS.has(url.pathname) && open && /^[a-z0-9-]+$/.test(open)) {
       try {
+        // a crawler fetching a shared link is the only trace a share leaves; a browser's visit is the embed's to count
+        if (agentOf(request.headers.get('user-agent')) !== 'browser') report(env, ctx, request, 'share unfurl', urlProps(url, open))
         return await rewriteMeta(request, open)
       } catch (e) {
         log('error', 'meta rewrite failed', { open, error: String(e) })
@@ -176,4 +259,4 @@ export default {
 
     return fetch(request)
   },
-} satisfies ExportedHandler<Env>
+} satisfies ExportedHandler<ShareEnv>
