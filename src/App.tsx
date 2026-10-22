@@ -185,25 +185,75 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
         </div>
       )}
 
-      <section className="notes">
-        <h2>How a ring is counted</h2>
+      <section className="notes" id="method" aria-label="Method">
+        <h2>Method</h2>
         <div className="method">
           <p>
             A ring here means: this person was on the staff of a team that won the national championship
             that season, and was still on staff at the championship game. The count comes from staff
             rosters for all {data.meta.seasonCount} championship team-seasons since 1990 — {data.meta.peopleTotal.toLocaleString()} people in
             all — each row carrying the source page and the verbatim line that supports it. Click any
-            name to see the receipts.
+            name to see the receipts. The sections below say how a ring is counted, where the names come
+            from, what the words mean, and what we couldn't verify. Data built {data.meta.built}.
           </p>
-          <p>
-            The job has to be the team: {data.meta.excludedCount} people on these staff lists are left out
-            because someone else signed their paycheck — {data.meta.employmentRules.map((r) => r.label.toLowerCase()).join(', ')}.
-            Split national titles count for both schools. The 2004 USC title was later vacated, but the
-            rings were handed out. Rings won as a <em>player</em> are shown separately and aren't part of
-            the ranking. Coverage of support staff is thinner in the early 1990s than today, so this
-            undercounts the older dynasties. And whether each person physically owns every ring varies
-            with department policy — this counts the ones they earned. Data built {data.meta.built}.
-          </p>
+
+          <details>
+            <summary>How a ring is counted</summary>
+            <p>
+              Rings per person are the championship team-seasons whose staff roster the person appears on.
+              Code does the counting from those rows; no model counts anything.
+              The job has to be the team: {data.meta.excludedCount} people on these staff lists are left out
+              because someone else signed their paycheck — {data.meta.employmentRules.map((r) => r.label.toLowerCase()).join(', ')}.
+            </p>
+            <p>
+              Split national titles count for both schools. The 2004 USC title was later vacated, but the
+              rings were handed out. Rings won as a <em>player</em> are shown separately and aren't part of
+              the ranking.
+            </p>
+          </details>
+
+          <details>
+            <summary>Where the names come from</summary>
+            <p>
+              One consensus national champion per season (CFP, else BCS, else AP, else Coaches) names the
+              team-seasons. The staff rosters for those seasons existed nowhere, so they were assembled
+              from media guides on archive.org, Wayback Machine snapshots of athletics staff directories,
+              and school bios. Each row carries the source page and the verbatim line from it, so a row
+              that nothing supports can be rejected; a ring with no source recorded says so on its row.
+            </p>
+            <p>
+              Sources spell one person several ways across seasons, so names are merged by a kept list of
+              aliases before the count. A ring credited from a documented employment span rather than a
+              season's published staff list is labeled <em>from tenure</em>. It is weaker evidence and the
+              row says so.
+            </p>
+          </details>
+
+          <details>
+            <summary>What the words mean</summary>
+            <p>
+              <b>Everyone</b> is everyone the team listed — coaches, trainers, analysts, operations.{' '}
+              <b>Support staff</b> are the people who earned a ring in strength, medical, analyst or operations work.{' '}
+              <b>Coaches</b> are the people who earned a ring as a head coach or on-field assistant.
+              The scope decides who is listed, never what anyone is worth: a person's rank and count are
+              always their real ring total.
+            </p>
+            <p>
+              A <b>role</b> is worded the way the source words it. A ring won as a <b>player</b> is drawn
+              filled, where a staff ring is outlined, and is counted apart from the ranking.
+            </p>
+          </details>
+
+          <details>
+            <summary>What we couldn't verify</summary>
+            <p>
+              Coverage of support staff is thinner in the early 1990s than today, so this undercounts the
+              older dynasties. Each team-season's coverage note, kept with the data, says what its sources did and didn't reach.
+              And whether each person physically owns every ring varies with department policy — this
+              counts the ones they earned.
+            </p>
+          </details>
+
           <p>
             The site is free and serves no ads. If you enjoyed using it, consider{' '}
             <a href={KOFI_URL} onClick={() => track('kofi', { from: 'notes' })}>buying me some server compute</a> or
