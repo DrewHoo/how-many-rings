@@ -4,6 +4,7 @@ import { ROLE_LABEL, matchesScope } from './lib/types.ts'
 import { CoachRow } from './components/CoachRow.tsx'
 import { ShareButton } from './components/ShareButton.tsx'
 import { KOFI_URL, track } from './lib/analytics.ts'
+import { SIBLINGS } from './lib/siblings.ts'
 
 const BASE = import.meta.env.BASE_URL
 const SCOPES: { key: Scope; label: string; blurb: string }[] = [
@@ -215,30 +216,9 @@ export function App({ initialData }: { initialData?: Dataset } = {}) {
       <section className="notes">
         <h2>What to read next</h2>
         <div className="method">
-          <p>
-            <a href="https://drewhoover.com/cfb-streak-king/">Streak King</a> — design a streak from
-            up to four constraints; every FBS team ranked by its longest active run.
-          </p>
-          <p>
-            <a href="https://drewhoover.com/hostile-territory/">Hostile Territory</a> — every head
-            coach's true road record against AP top-10 teams since 1936, one chip per game.
-          </p>
-          <p>
-            <a href="https://drewhoover.com/nfl-comparator/">NFL Comparator</a> — compare NFL players at
-            the same point in their careers, every career since 1999.
-          </p>
-          <p>
-            <a href="https://drewhoover.com/wnba-comparator/">WNBA Comparator</a> — the same comparison
-            for the WNBA, every career since 1997.
-          </p>
-          <p>
-            <a href="https://drewhoover.com/collegiate-championships/">Who has the most college championships?</a> — every
-            NCAA champion since 1972, 33 sports, one grid.
-          </p>
-          <p>
-            <a href="https://drewhoover.com/cfb-all-time-records/football">All-time FBS records</a> — all
-            136 programs ranked by total wins, win percentage and bowl record.
-          </p>
+          {SIBLINGS.map((s) => (
+            <p key={s.url}><a href={s.url}>{s.name}</a> — {s.words}.</p>
+          ))}
         </div>
       </section>
 

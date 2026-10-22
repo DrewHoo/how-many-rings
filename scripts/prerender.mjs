@@ -46,6 +46,7 @@ const seed = {
 
 const vite = await createServer({ server: { middlewareMode: true }, appType: 'custom', logLevel: 'warn' })
 const { App } = await vite.ssrLoadModule('/src/App.tsx')
+const { SIBLINGS } = await vite.ssrLoadModule('/src/lib/siblings.ts')
 const markup = renderToString(React.createElement(App, { initialData: seed }))
 await vite.close()
 
@@ -110,6 +111,34 @@ fs.writeFileSync(path.join(root, 'dist', 'sitemap.xml'),
 </urlset>
 `)
 
+// llms.txt (llmstxt.org): the site in plain markdown for a language model that
+// reads it the way a person reads the board. What it is, the top of the board,
+// where the rows come from, the other sports sites, and how to cite a count.
+const top = full.coaches.slice(0, 5)
+  .map((c) => `${c.name} (${c.primaryRole}, ${c.schools.join(', ')}) ${c.total}`).join('; ')
+const lastSeason = Math.max(...full.meta.seasons.map((s) => s.season))
+fs.writeFileSync(path.join(root, 'dist', 'llms.txt'),
+  `# How Many Rings?
+
+> Every person on a national-championship staff since 1990, ranked by the number of rings they can claim. The strength coaches, trainers and photographers who out-ring famous head coaches.
+
+A ring here means: this person was on the staff of a team that won the national championship that season, and was still on staff at the championship game. The board at ${SITE} ranks every such person by rings, ${full.coaches.length} people with two or more out of ${full.meta.peopleTotal.toLocaleString('en-US')} on those staffs, across ${full.meta.seasonCount} championship team-seasons, 1990 to ${lastSeason}. Each ring carries its source page and the verbatim line that supports it. A ?open=<id> link lands on one person with their receipts. The top of the board: ${top}. Data built ${full.meta.built}.
+
+## Data
+
+- The staff rosters are assembled from media guides on archive.org, Wayback Machine snapshots of athletics staff directories, and school bios. Rings per person are counted in code from those rows; no model counts anything.
+- [Method](${SITE}#method): how a ring is counted, who is left out and why, and what we couldn't verify.
+- [The repository](https://github.com/DrewHoo/how-many-rings): the rosters, the receipts, the rules and the build, MIT licensed.
+
+## The other sports sites
+
+${SIBLINGS.map((s) => `- [${s.name}](${s.url}): ${s.words}.`).join('\n')}
+
+## Citing
+
+Name the site and link to it. A credit line reads: *Scott Cochran has eight national championship rings (per How Many Rings?, ${SITE}?open=scott-cochran)*.
+`)
+
 // Just what the link-preview Worker (worker/) needs to retitle a shared ?open=
 // link and draw its card, so it never parses the 741KB dataset at the edge.
 const people = {
@@ -124,4 +153,4 @@ fs.writeFileSync(path.join(root, 'dist', 'data', 'people.json'), JSON.stringify(
 
 const kb = (n) => Math.round(n / 1024) + 'KB'
 console.log(`prerendered ${kb(markup.length)} of markup + ${kb(JSON.stringify(seed).length)} seed (${seed.coaches.length} people)`)
-console.log(`dist/index.html now ${kb(fs.statSync(out).size)}; sitemap.xml and data/people.json (${kb(JSON.stringify(people).length)}) written`)
+console.log(`dist/index.html now ${kb(fs.statSync(out).size)}; sitemap.xml, llms.txt and data/people.json (${kb(JSON.stringify(people).length)}) written`)
